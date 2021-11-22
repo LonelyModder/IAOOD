@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10550-10569 ###
+		10550 = {
+			key = omen_bugas
+			deity = deity_bugas
+		}
+		10551 = {
+			key = omen_sugurra
+			deity = deity_sugurra
+		}
+		10552 = {
+			key = omen_burias
+			deity = deity_burias
+		}
+		10553 = {
+			key = omen_gidar
+			deity = deity_gidar
+		}
+		10554 = {
+			key = omen_dunias
+			deity = deity_dunias
+		}
+		10555 = {
+			key = omen_suqamuna
+			deity = deity_suqamuna
+		}
+		10556 = {
+			key = omen_harbe
+			deity = deity_harbe
+		}
+		10557 = {
+			key = omen_nanai
+			deity = deity_nanai
+		}
+		10558 = {
+			key = omen_mirizir
+			deity = deity_mirizir
+		}
+	}
+}
+

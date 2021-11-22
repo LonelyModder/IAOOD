@@ -1,0 +1,45 @@
+deity_manager = {
+	deities_database = { ### KEYS 10650-10669 ###
+		10650 = {
+			key = omen_aide
+			deity = deity_aide
+		}
+		10651 = {
+			key = omen_amalur
+			deity = deity_amalur
+		}
+		10652 = {
+			key = omen_eate
+			deity = deity_eate
+		}
+		10653 = {
+			key = omen_egoi
+			deity = deity_egoi
+		}
+		10654 = {
+			key = omen_meki
+			deity = deity_meki
+		}
+		10655 = {
+			key = omen_ilargi
+			deity = deity_ilargi
+		}
+		10656 = {
+			key = omen_inguma
+			deity = deity_inguma
+		}
+		10657 = {
+			key = omen_mmari
+			deity = deity_mmari
+		}
+		10658 = {
+			key = omen_orko
+			deity = deity_orko
+		}
+		10659 = {
+			key = omen_sugaar
+			deity = deity_sugaar
+		}
+	}
+}
+

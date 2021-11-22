@@ -1,0 +1,69 @@
+deity_manager = {
+	deities_database = { ### KEYS 10470-10489 ###
+		10470 = {
+			key = omen_mshiva
+			deity = deity_mshiva
+		}
+		10471 = {
+			key = omen_mkubera
+			deity = deity_mkubera
+		}
+		10472 = {
+			key = omen_msaraswati
+			deity = deity_msaraswati
+		}
+		10473 = {
+			key = omen_mindra
+			deity = deity_mindra
+		}
+		10474 = {
+			key = omen_mbrahma
+			deity = deity_mbrahma
+		}
+		10475 = {
+			key = omen_msamudra
+			deity = deity_msamudra
+		}
+		10476 = {
+			key = omen_mvishnu
+			deity = deity_mvishnu
+		}
+		10477 = {
+			key = omen_mprajapati
+			deity = deity_mprajapati
+		}
+		10478 = {
+			key = omen_msoma
+			deity = deity_msoma
+		}
+		10479 = {
+			key = omen_mkanya_devi
+			deity = deity_mkanya_devi
+		}
+		10480 = {
+			key = omen_msamba
+			deity = deity_msamba
+		}
+		10481 = {
+			key = omen_mkrishna
+			deity = deity_mkrishna
+		}
+		10482 = {
+			key = omen_mvishwanath
+			deity = deity_mvishwanath
+		}
+		10483 = {
+			key = omen_mrama
+			deity = deity_mrama
+		}
+		10484 = {
+			key = omen_mlakshmi
+			deity = deity_mlakshmi
+		}
+		10485 = {
+			key = omen_mbhrigu
+			deity = deity_mbhrigu
+		}
+	}
+}
+

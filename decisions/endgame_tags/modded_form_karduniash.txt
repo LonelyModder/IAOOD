@@ -1,0 +1,86 @@
+country_decisions = {
+	
+	# Form Karduniash
+	form_karduniash = {
+		
+		potential = {
+			country_culture_group = kassites
+			#is_tribal = yes
+			NOT = {
+				tag = A40
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 918
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = karduniash_must_not_exist
+				NOT = {
+					any_country = {
+						tag = A40
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 918
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "A40"
+			change_country_flag = A40
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "A40_ADJ"
+				#change_country_color =  rgb { 188 70 235 }
+				change_country_tag = A40
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 918
+						}
+					}
+				}
+				set_capital = 918
+				hidden_effect = {
+					p:918.state = {
+						set_state_capital = 918
+					}
+				}
+				capital_scope = {
+					establish_city_effect = yes
+				}
+			}
+			p:918 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

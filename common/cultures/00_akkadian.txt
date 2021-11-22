@@ -1,0 +1,49 @@
+akkadian = {	
+	color = hsv { 0.99 0.1 0.11 }
+
+	primary = chariot_heavy
+	second = heavy_swordsmen
+	flank = cavalry_horse_archers
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_sonsofAshur
+
+	male_names = {
+		Jushur Kullassina-bel Nangishlishma En-tarah-ana Babum Puannum Kalibum Kulumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih
+		En-me-nuna Melem-kish Barsal-nuna Zamug Tizqar Ilku En-me-barage-si Iltasadum Aga Susuda Dadasig Mamagal Klbum Tuge Men-nuna
+		Enbi-Ishtar Lugalngu Anbu Anba Bazi Zizi Limer Sharrum-Iter Kug-Bau Sargon Rimush Manishtushu Manishtusu Naram-Sin Shar-kali-sharri
+		Irgigi Imi Nanum Ilulu Dudu Shu-Durul Tudiya Adamu Yangi Suhlamu Harharhu Mandaru Imsu Harsu Didanu Hana Zuabu Nuabu Abazu
+		Belu-Azarah-Ushpia Apiashal Hale Samani Hayani Ilu-Mer Yakmesi Yakmeni Yazkur-el Ila-kabkabu Aminu Sulili Kikkla Akiya Puzur-Ashur
+		Shalim-ahum Ilu-shuma Erishum Ikunum Sargon Naram-Sin Shamshi-Adad Imshe-Dagan Mut-Ashkur Rimush Asinum Ashur-dugul Ashur-apla-idi
+		Nasir-Sin Sin-nami Ipqi-Ishtar Adad-salulu Adasi Bel-bani Libaya Sharma-Adad Iptar-Sin Bazaya Lullaya Ashur-nirari Enlil-nsir
+		Nur-ili Ashur-shaduni Ashur-rabi Ashur-nadin-ahhe Ashur-bel-nisheshu Eriba-Adad Ashur-uballit Enlil-nirari Arik-den-ili Adad-nirari
+		Shalmaneser Tukulti-Ninurta Ashur-nadin-apli Enlil-kudurri-usur Ninurta-apal-Ekur Ashur-dan Ninurta-tukulti-Ashur Mutakkil-nusku
+		Ashur-resh-ishi Tiglath-Pileser Asharid-apal-Ekur Ashur-bel-kala Ashurnasirpal Sennacherib Esarhaddon Ashurbanipal Ashur-etil-ilani
+		Sinharishkun Sin-shumu-lishir
+	}
+	female_names = {
+		Demeetheresu Nigsummulugal Deemethereesu Niiqarquusu Manishtusu Seluku Nur-Ayya Amata Belessunu Arahunaa Ahatsunu
+		Ubalnu Gemeti Ettu Zakiti Humusi Alittum Arwia Kullaa Mushezibti Nidintu Enheduana Kubaba
+	}
+	family = {
+		Jushur-Sin Lullaya-Shamash Samani-Enlil Tudiya-Ishtar Iltasadum-Nabu Kulumum-Ninurta Sargon-Ea Hana-Tammuz Hayani-Ereshkigal Zuqaqip-Bau Limer-Adad 
+		Rimush-Tishpak Akiya-Mulliltu Abazu-Belet-Ili Puannum-Ningal Ilulu-Sin Babum-Geshtinanna Suhlamu-Inzak Samani
+	}
+	culture = {
+		agade = {levy_template = levy_sonsofMarduk} #Akkadian
+		ashurite = {}	#Assyrian
+		dilmunite = {levy_template = levy_sonsofdilmun}	#Dilmunite
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = persian
+	}
+}

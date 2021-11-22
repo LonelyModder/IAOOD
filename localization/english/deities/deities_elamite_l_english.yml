@@ -1,0 +1,32 @@
+﻿l_english:
+  ## Generic ##
+ deity_inshushinak:0 "$omen_inshushinak$"
+ omen_inshushinak:1 "Inshushinak"
+ omen_inshushinak_desc:3 "We pray to him that he will keep the country whole and in peace. Let Susa be safe under his watchful eye."
+ deity_narundi:0 "$omen_narundi$"
+ omen_narundi:1 "Narundi"
+ omen_narundi_desc:3 "Let Narundi strengthen our warriors so they may defend the country against our enemies. "
+ deity_luhurati:0 "$omen_luhurati$"
+ omen_luhurati:1 "Luhurati"
+ omen_luhurati_desc:3 "May Luhurati defend our families so that children can grow up in peace. Let him take care of the couples so that the spouses do not betray each other. "
+ deity_humban:0 "$omen_humban$"
+ omen_humban:1 "Humban"
+ omen_humban_desc:3 "May Humban protect our ruler so that he may lead the country in peace and prosperity. "
+ deity_nahhunte:0 "$omen_nahhunte$"
+ omen_nahhunte:1 "Nahhunte"
+ omen_nahhunte_desc:3 "Let Nahhunte keep our oaths so that trust can be re-established among people. Let us pray that its light shields from cheaters."
+ deity_pinikir:0 "$omen_pinikir$"
+ omen_pinikir:1 "Pinikir"
+ omen_pinikir_desc:3 "Let the mother goddess make sure that the children are born healthy and that women do not die in childbirth. May he look after all the Haltamti. "
+ deity_kirmashir:0 "$omen_kirmashir$"
+ omen_kirmashir:1 "Kirmashir"
+ omen_kirmashir_desc:3 "Let Kirmashir take care of the lovers so that they never run out of happiness. "
+ deity_manzat:0 "$omen_manzat$"
+ omen_manzat:1 "Manzat"
+ omen_manzat_desc:3 "May Manzat ensure that the rainbow never disappears from Der and that people do not have to worry about their belongings."
+ deity_napirisha:0 "$omen_napirisha$"
+ omen_napirisha:1 "Napirisha"
+ omen_napirisha_desc:3 "Let Napirisha purify the water and protect the prosperity of the Anshan people. "
+ 
+
+

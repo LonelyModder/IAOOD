@@ -1,0 +1,187 @@
+akkadian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = mauryan_mauryas_path_3
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = akkadian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = akkadian
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
+					this.culture.culture_group = culture_group:akkadian
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
+					this.culture.culture_group = culture_group:akkadian
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_akkadian"
+				any_country_culture = {
+					is_integrated = yes
+					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
+					this.culture.culture_group = culture_group:akkadian	
+				}
+			}
+		}
+	}
+	
+	assyrian_path_1 = { ###akkadian path
+		modifier = { 
+			chariot_heavy_offensive = 0.1
+			chariot_light_offensive = 0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {}
+		on_activate = {
+			custom_tooltip = "create_high_martial_rising_star"
+			hidden_effect = {
+				create_character = {
+					add_martial = 8
+					add_trait = steadfast
+				}
+			}
+		}
+	}
+	
+	assyrian_path_2a = { ###akkadian path
+		modifier = { 
+			chariot_heavy_defensive = 0.1
+			chariot_light_defensive = 0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_1}
+	}
+	
+	assyrian_path_3a = { ###akkadian path
+		modifier = { 
+			heavy_swordsmen_cost=-0.1
+			light_swordsmen_cost=-0.1
+			heavy_swordsmen_offensive = 0.1
+			heavy_swordsmen_defensive = 0.1
+			light_swordsmen_offensive = 0.1
+			light_swordsmen_defensive = 0.1
+		}
+		enable_tactic = greek_phalanx
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_2a}
+	}
+	
+	assyrian_path_4a = { ###akkadian path
+		modifier = { 
+			heavy_swordsmen_morale = 0.1
+			light_swordsmen_morale = 0.1
+			missile_archers_morale = 0.1
+			missile_archers_offensive = 0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_3a}
+	}
+	
+	assyrian_path_5a = { ###akkadian path
+		modifier = { 
+			cavalry_horse_archers_morale = 0.1
+			cavalry_horse_archers_offensive = 0.1
+			cavalry_horse_archers_defensive = 0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_4a}
+	}
+	
+	assyrian_path_2b = { ###akkadian path
+		modifier = { 
+			siege_ability = 0.1
+			engineer_cohort_cost = -0.15
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_1}
+	}
+	
+	assyrian_path_3b = { ###akkadian path
+		modifier = { 
+			cohort_cost = -0.1
+			supply_train_cost = -0.15
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_2b}
+	}
+	
+	assyrian_path_4b = { ###akkadian path
+		modifier = { 
+			war_exhaustion = -0.01
+			army_maintenance_cost = -0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_3b}
+	}
+	
+	assyrian_path_5b = { ###akkadian path
+		modifier = { 
+			army_movement_speed = 0.2
+		}
+		enable_ability = road_building
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_4b}
+	}
+	
+	assyrian_path_2c = { ###akkadian path
+		modifier = { 
+			enslavement_efficiency = 0.1
+			global_pop_assimilation_speed_modifier = 0.05
+			fort_maintenance_cost = -0.15
+		}
+		enable_ability = military_colonies
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_1}
+	}
+	
+	assyrian_path_3c = { ###akkadian path
+		modifier = { 
+			desert_combat_bonus = 0.1
+			plains_combat_bonus = 0.1
+			movement_speed_if_no_road = 0.2
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_2c}
+	}
+	
+	assyrian_path_4c = { ###akkadian path
+		modifier = { 
+			light_spearmen_morale = 0.1
+			missile_spearthrowers_morale = 0.1
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_3c}
+	}
+	
+	assyrian_path_5c = { ###akkadian path
+		modifier = { 
+			cavalry_camels_morale = 0.1
+			cavalry_camels_offensive = 0.05
+			cavalry_camels_defensive = 0.05
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {assyrian_path_4c}
+	}
+	
+	assyrian_path_end_bonus = { ###akkadian end
+		modifier = { 
+			land_morale_modifier = 0.2
+		}
+		requires = { assyrian_path_5a assyrian_path_5b assyrian_path_5c }
+		icon = mauryan_mauryas_path_3
+	}
+}

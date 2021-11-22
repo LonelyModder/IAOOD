@@ -1,0 +1,92 @@
+country_decisions = {
+		
+	# Form Media
+	form_madai = {
+		
+		potential = {
+			primary_culture = medic
+			#is_tribal = yes
+			NOT = {
+				tag = 1ME
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1595 #Ecbatana
+					province_id = 4991
+					province_id = 4963
+					province_id = 4979
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = madai_must_not_exist
+				NOT = {
+					any_country = {
+						tag = 1ME
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 1595
+			owns = 4991
+			owns = 4963
+			owns = 4979
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Madai_Name"
+			change_country_flag = Madai_Flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Madai_Adj"
+				change_country_color =  rgb { 24 186 24 }
+				change_country_tag = 1ME
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1595
+						}
+					}
+				}
+				set_capital = 1595
+				hidden_effect = {
+					p:1595.state = {
+						set_state_capital = 1595
+					}
+				}
+				capital_scope = {
+					establish_city_effect = yes
+				}
+			}
+			p:1595 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

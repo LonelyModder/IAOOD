@@ -1,0 +1,253 @@
+﻿#Ister
+7773=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7774=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7775=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7776=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7777=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7778=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7779=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7780=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7781=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Ister
+7782=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7871=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7872=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7873=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7874=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7875=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7876=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7877=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7878=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7879=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Borysthenes
+7880=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tyras
+7881=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tyras
+7882=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tyras
+7883=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}

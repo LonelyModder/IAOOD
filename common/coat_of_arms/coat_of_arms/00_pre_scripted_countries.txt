@@ -1,0 +1,320 @@
+﻿REB = {
+	pattern = "pattern_diagonal_split_01.tga"
+	color1 = "phrygia_red"
+	color2 = "pitch_black"
+}
+
+BAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_black"
+	color2 = "phrygia_red"
+
+	textured_emblem = {
+		texture = "te_skull_goat.dds"
+	}
+}
+
+MER = {
+	pattern = "pattern_solid.tga"
+	color1 = "ck2_black"
+	color2 = "roman_red"
+
+	textured_emblem = {
+		texture = "te_mercenary.dds"
+	}
+}
+
+PIR = {
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_pirates.dds"
+		color1 = "bone_white"
+		color2 = "ck2_green"
+	}
+}
+
+#Modded Emblems
+
+A39 = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_ashur.dds"
+		color1 = "roman_red"
+	}
+}
+
+A92 = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_lamassu_01.dds"
+		color1 = "phrygia_red"
+	}
+}
+
+J01 = {
+	pattern = "pattern_solid.tga"
+	color1 = "judea_blue"
+	color2 = "ck2_white"
+
+	colored_emblem = {
+		texture = "ce_judea_symbol.dds"
+		color1 = "ck2_white"
+	}
+	colored_emblem = {
+		texture = "ce_border_leaves_01.dds"
+		color1 = "judea_blue"
+		color2 = "ck2_white"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+	}
+}
+
+J02 = {
+	pattern = "pattern_solid.tga"
+	color1 = "phrygia_red"
+	color2 = "ck2_white"
+
+	colored_emblem = {
+		texture = "ce_judea_symbol.dds"
+		color1 = "ck2_white"
+	}
+	colored_emblem = {
+		texture = "ce_border_leaves_01.dds"
+		color1 = "phrygia_red"
+		color2 = "ck2_white"
+		
+		instance = { scale = { 1.0 1.0 }  position = { 0.50 0.50 } rotation = 180 }
+	}
+}
+
+P10 = {
+	pattern = "pattern_solid.tga"
+	color1 = "achaemenid_mauve"
+	color2 = "offwhite"
+	
+	colored_emblem = {
+		texture = "ce_achaemenid_empire.dds"
+		color1 = "light_gold"
+		
+		instance = { scale = { 0.75 0.75 }  position = { 0.50 0.50 } }
+	}
+}
+
+H19 = {
+	pattern = "pattern_solid.tga"
+	color1 = "phrygia_red"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_phrygia.dds"
+		color1 = "roman_gold"
+		color2 = "roman_gold"
+	}
+	
+	colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "roman_gold"
+		color2 = "roman_gold"
+		instance = { rotation = 0 }
+		instance = { rotation = 90 }
+		instance = { rotation = 180 }
+		instance = { rotation = 270 }
+	}
+}
+
+A40 = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_chariot_01.dds"
+		color1 = "roman_red"
+	}
+} 
+
+G52 = {
+	pattern = "pattern_solid.tga"
+	color1 = "athens_blue"
+	color2 = "pure_white"
+
+	colored_emblem = {
+		texture = "ce_owl.dds"
+		color1 = "pure_white"
+	}
+}
+
+G20 = {
+	pattern = "pattern_solid.tga"
+	color1 = "spartan_brown"
+	color2 = "spartan_rust"
+	
+	colored_emblem = {
+		texture = "ce_border_simple_02.tga"
+		color1 = "offwhite"
+		color2 = "roman_gold"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_sparta.dds"
+		color1 = "spartan_ocra"
+		color2 = "spartan_rust"
+		instance = { scale = { 0.75 0.75 }  }
+	}
+}
+
+T45 = {
+	pattern = "pattern_solid.tga"
+	color1 = "macedonian_blue"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_macedonian_sun.dds"
+		color1 = "roman_gold"
+	}
+}
+
+#Special banners
+
+haldi_flag = {#haldi_flag
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_haldi.dds"
+		color1 = "roman_red"
+	}
+}
+
+mittani_flag = {#mittani_flag
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_mittani.dds"
+		color1 = "roman_red"
+	}
+}
+
+Agade_Flag = {#Agade_Flag
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_inana.dds"
+		color1 = "roman_red"
+	}
+}
+
+Madai_Flag = {#Stalion
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_horse_07.dds"
+		color1 = "roman_gold"
+	}
+}
+
+Pallistin_Flag = {#Snake
+	pattern = "pattern_solid.tga"
+	color1 = "etruscan_blue"
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_snake_01.dds"
+		color1 = "bone_white"
+	}
+}
+
+Philistine_Flag = {#Snake
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_snake_01.dds"
+		color1 = "pitch_black"
+	}
+}
+
+Aram_Flag = {#
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_crescent_01.dds"
+		color1 = rgb { 189 186 9 }
+	}
+}
+
+Napata_flag = {# Kush
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_manhit.dds"
+		color1 = rgb { 247 228 57 }
+	}
+}
+
+Kumat_flag = {#
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 237 162 33 }
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_horus.dds"
+		color1 = "pitch_black"
+	}
+}
+
+Lucomony_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "etruscan_blue"
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_chimera.dds"
+		color1 = "bone_white"
+	}
+}
+
+Alasya_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "etruscan_blue"
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_fish_01.dds"
+		color1 = "roman_gold"
+	}
+}
+
+hatti_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 125 46 20 }
+	color2 = "bone_white"
+
+	colored_emblem = {
+		texture = "ce_hatti.dds"
+		color1 = rgb { 230 173 16 }
+	}
+}

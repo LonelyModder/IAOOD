@@ -1,0 +1,1559 @@
+﻿#Hephaistaia
+270=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lemnosic"
+	holy_site="omen_mhephaestus"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Imbros
+297=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="pelasgian"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=2
+		culture="lemnosic"
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Philia
+341=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Salmydessos
+342=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aulaiouteichos
+343=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Selymbria
+345=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Perinthos
+346=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Bisanthe
+347=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Bergoule
+348=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sestos
+349=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Lysimacheia
+350=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Ornoi
+352=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Kypsela
+353=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Ainos
+354=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Maroneia
+357=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Porsoula
+360=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Abdera
+362=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Seuthopolis
+478=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kabyle
+479=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mesembria
+480=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Anchialos
+481=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Apollonia Pontike
+482=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Beroe
+484=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Philippopolis
+485=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Viamata
+486=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Bessapara
+487=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="peonic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Pistiros
+488=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="peonic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="honey"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Uskodama
+489=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zerbai
+490=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bourdepa
+491=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Fotinovo
+492=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Perperakion
+493=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Oraion
+494=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tarpodizo
+495=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kabakle
+496=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Byzantion
+1453=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="earthware"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Samothrake
+1774=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sparata
+3853=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="peonic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Nike
+4154=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Asamus
+4231=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Storgosia
+4233=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Melta
+4234=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Emporium Discoduraterae
+4236=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nikopolis
+4237=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Novae
+4238=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Trimammium
+4239=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Prista
+4240=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Appiara
+4241=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Transmarisca
+4242=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Abritus
+4243=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tylis
+4244=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Haemiana
+4245=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Durostorum
+4246=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Erite
+4247=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Odessos
+4248=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	holy_site="omen_mderzelas"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Krounoi
+4249=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tirizis
+4250=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Marcianopolis
+4251=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Helis
+4252=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Palmatis
+4253=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kallatis
+4254=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Tomis
+4255=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tropaeum Traiani
+4256=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sacidava
+4257=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Panissus
+4258=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zikideba
+4259=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Markellai
+4307=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pizus
+4309=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="honey"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kardzhali
+4310=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Parambole
+4311=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="farmland"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Goliamoto
+4312=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kaspapauras
+4313=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Urasa
+4314=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sthracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Axiopolis
+4512=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Istros
+4513=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kios Skythike
+4514=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="marsh"
+	trade_goods="honey"
+	tribesmen=
+	{
+		amount=4
+		religion="thracic_pantheon"
+	}
+}
+#Skenopsis
+4515=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Orgame
+4516=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Libida
+4517=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Beroe Skythike
+4518=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="marsh"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Halmyris
+4519=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Troesmis
+4520=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ethracian"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="marsh"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=4
+	}
+}

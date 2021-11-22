@@ -1,0 +1,116 @@
+﻿country_decisions = {
+	
+	#Persia/Achaemenid
+	form_eranshar = {
+		
+		potential = {
+			OR = {
+				country_culture_group = iranic
+				country_culture_group = eiranic
+			}
+			NOT = {
+				tag = 1PR
+			}
+			OR = {
+				tag = 1AN
+				tag = 1ME
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1595 #Ecbatana
+					province_id = 4951 #Pasargadae
+					province_id = 4799 #Persepolis
+					province_id = 4950 #Anshan
+					province_id = 4991
+					province_id = 4963
+					province_id = 4979
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = "eranshar_must_not_exist"
+				NOT = {
+					any_country = {
+						tag = 1PR
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 1595 #Ecbatana
+			owns = 4951 #Pasargadae
+			owns = 4799 #Persepolis
+			owns = 4950 #Anshan
+			owns = 4991
+			owns = 4963
+			owns = 4979
+		}
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			if = {
+				limit = {
+					current_ruler = {
+						has_same_family = char:2
+					}
+				}
+				change_country_name = "Achemenos_Name"
+			}
+			if = {
+				limit = {
+					primary_culture = medic
+				}
+				change_country_name = "Medeos_Name"
+			}
+			else = {
+				change_country_name = "Persos_Name"
+			}
+			hidden_effect = {
+				change_country_adjective = "Persos_ADJ"
+				change_country_color =  achaemenid_mauve
+				change_country_tag = 1PR
+			}
+			monarchy_republic_into_imperium_formable_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4799
+						}
+					}
+				}
+				set_capital = 4799
+				hidden_effect = {
+					p:4799.state = {
+						set_state_capital = 4799
+					}
+				}
+				capital_scope = {
+					establish_city_effect = yes
+				}
+			}
+			p:4799 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_country_modifier = {
+				name = "persia_unified"
+				duration = 7300
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+}

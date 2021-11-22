@@ -1,0 +1,30 @@
+﻿l_english:
+
+ aestian:2 "Heretic"
+ matrist_religion:0 "Heresy"
+
+ #Start date
+ CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date counts from the death of Sargon the Great the first ever emperor in 2279 BCE.\n\n#TF Now any King who wants to call himself my equal wherever I went let him go. - Sargon the Great#!"
+ DATE_TOOLTIP:0 "[Date.GetTimeUntil]\n years since death of Sargon."
+ THE_WORLD:1 "[GetDateString] ASD"
+ THE_WORLD_TOOLTIP:1 "#T Current Date#!\nASD stands for After Sargons Death. The year 2279 BCE was chosen as the date from which the time will be counted because Sargon is first emperor accepted by most of scientific community. His conquests inspired many future leaders."
+ 
+ ASHURINTRO:0 "#T Assyria#!\nDifficulty: #Y Easy#!\n\n At the beginning of the game, the Assyrian Empire lost control of its borders and the Aramaic tribes managed to take control of most of the western and southern territory of Assyria. The old lion is wounded but not dead. The Assyrians are a highly militarized culture, and recent defeats have only strengthened their conviction that their sacred mission is to bring order and security to the region by all means necessary. "
+ Ashur:0 "Assyria"
+ Ashur2:0 "Assyria"
+ MARDUKINTRO:0 "#T Babylon#!\nDifficulty: #Y Medium#!\n\n In the 10th century BC, Babylon is in a deep crisis. For several decades, the country has been plagued by raids by Aramaic and Suthenian tribes from the west and Chaldean tribes from the south, so it's no wonder that the inhabitants are fed up with the inept rule of the Bazi dynasty. So they turned to a rather controversial person, an influential immigrant from Elam. But will the elamite be able to restore greatness to Babylon?"
+ Marduk:0 "Babylon"
+ Marduk2:0 "Babylon"
+ PARSAINTRO:0 "#T Pasargadae#!\nDifficulty: #Y Hard#!\n\n The Persians are a new player in the Middle East scene. Although they are still weak and divided, they did not go a long way south in order to dissolve in the darkness of history. Their new and ambitious leader has an audacious plan to take Ancient Anshan from the elamites and give his weary compatriots a country that could fulfill their ambitions, and these are great. "
+ Parsa:0 "Pasargadae"
+ Parsa2:0 "Pasargadae"
+ JUDAHINTRO:0 "#T Judah#!\nDifficulty: #Y Easy#!\n\n King David was most likely a historical figure, but apart from the fact that he was the founder of the ruling dynasty, at least in Judah, little is known about him. It is known that the family ruling the south was called the house of David, and we know this from Israel's neighbors (Moab and Damascus), who were not very fond of him, so the source seems credible. He had to be a special person if anyone wanted to be associated with him. "
+ Judah:0 "Judah"
+ Judah2:0 "Judah"
+ MIDASINTRO:0 "#T Gordion#!\nDifficulty: #Y Easy#!\n\n The Phrygians landed in central Anatolia during the fall of the Bronze Age, taking advantage of the vacuum left by the Hittite Empire. Many cities were then evacuated and the invaders simply rebuilt and fortified the ruins left by the refugees. One of such places was the mythical Gordion. A country with an ambition to unite anatolia under its rule and replace hetites on the world stage. "
+ Midas:0 "Gordion"
+ Midas2:0 "Gordion"
+ SIAMUNINTRO:0 "#T Siamun#!\nDifficulty: #Y Hard#!\n\n We are not sure exactly who Siamun was, but it is very likely that he is closely related to Pharaoh. Traditionally, the heir to the throne was prepared from adulthood by assuming state offices and undergoing military training. Therefore, Siamun was not in the capital during the Libyan revolt. He must have watched with pain as his country was on fire. "
+ Siamun:0 "Siamun"
+ Siamun2:0 "Siamun"
+ 

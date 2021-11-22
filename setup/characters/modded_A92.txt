@@ -1,0 +1,24 @@
+"A92"={
+	country="A92"
+	37={
+		first_name="Mar-biti-apla-usur"
+		family = c:A92.fam:Elamite
+		birth_date=1270.1.1
+		culture="susanian"
+		religion="anunnaki_pantheon"
+		no_stats=yes
+		add_martial=12
+		add_charisma=4
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes
+		add_trait="ofelam"
+		add_gold=500
+		add_popularity=100
+		c:A92={
+			set_as_ruler=char:37
+		}
+		#dna=""
+	}
+	
+}

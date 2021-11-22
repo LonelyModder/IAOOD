@@ -1,0 +1,542 @@
+#Default levy if none other will match
+
+levy_default = {
+	default = yes
+
+	chariot_light = 0.2
+	light_spearmen = 0.3
+	light_swordsmen = 0.3
+	missile_spearthrowers = 0.2
+}
+
+#Western Semites
+
+levy_cpunic = { #Levantine militia
+	default = no
+
+	light_spearmen = 0.4
+	chariot_heavy = 0.2
+	missile_spearthrowers = 0.2
+	missile_archers = 0.2
+}
+
+levy_lpunic = { #Cathaginian militia
+	default = no
+
+	light_spearmen = 0.4
+	chariot_heavy = 0.2
+	missile_archers = 0.2
+	elephant_african = 0.2
+}
+
+#Arabian
+
+levy_kebabiya = { #Arab militia
+	default = no
+
+	light_spearmen = 0.4
+	cavalry_camels = 0.2
+	chariot_light = 0.2
+	missile_spearthrowers = 0.2
+}
+
+#Aramean
+
+levy_ahlamu = { #Ahlamu militia
+	default = no
+
+	light_spearmen = 0.3
+	light_swordsmen = 0.2
+	missile_spearthrowers = 0.3
+	chariot_light = 0.2
+}
+
+#Egyptians
+
+levy_amun = { #Kemetic militia
+	default = no
+
+	light_spearmen = 0.3
+	light_swordsmen = 0.3
+	missile_spearthrowers = 0.2
+	chariot_light = 0.2
+}
+
+#Libyans
+
+levy_tahenu = { #Libyan militia
+	default = no
+
+	light_spearmen = 0.4
+	axemen_heavy = 0.2
+	missile_archers = 0.2
+	chariot_heavy = 0.2
+}
+
+#Nubians
+
+levy_kashtan = { #Nubian militia
+	default = no
+
+	light_spearmen = 0.2
+	missile_archers = 0.4
+	chariot_light = 0.2
+	elephant_forest = 0.1
+}
+
+#Hittite
+
+levy_hattian = { #Hittite militia
+	default = no
+
+	light_swordsmen = 0.4
+	missile_archers = 0.3
+	chariot_heavy = 0.3
+}
+
+#Luwian
+
+levy_troic = { #Luwian militia
+	default = no
+
+	light_swordsmen = 0.3
+	axemen_heavy = 0.3
+	missile_spearthrowers = 0.3
+	chariot_heavy = 0.1
+}
+
+#Mesopotamian
+
+levy_sonsofAshur = { #Assyrian militia
+	default = no
+
+	heavy_swordsmen = 0.4
+	missile_archers = 0.2
+	chariot_heavy = 0.2
+	cavalry_horse_archers = 0.2
+}
+
+levy_sonsofMarduk = { #Babylonian militia
+	default = no
+
+	missile_archers = 0.2
+	light_swordsmen = 0.5
+	chariot_heavy = 0.2
+	cavalry_horse_archers = 0.1
+}
+
+levy_sonsofdilmun = { #Dilmunite militia
+	default = no
+
+	light_spearmen = 0.4
+	missile_archers = 0.2
+	chariot_light = 0.2
+	cavalry_camels = 0.2
+}
+
+#Greeks
+
+levy_virgingrekoids = { #Grekoid militia
+	default = no
+
+	missile_spearthrowers = 0.2
+	light_spearmen = 0.3
+	heavy_spearmen = 0.4
+	chariot_light = 0.1
+}
+
+#Ageans
+
+levy_minoitic = { #Minoan militia
+	default = no
+
+	missile_archers = 0.3
+	light_spearmen = 0.2
+	heavy_spearmen = 0.3
+	chariot_light = 0.2
+}
+
+#Hurrians
+
+levy_urumic = { #Hurrian militia
+	default = no
+
+	light_spearmen = 0.4
+	missile_archers = 0.2
+	cavalry_light = 0.2
+	chariot_light = 0.2
+}
+
+#Kassites
+
+levy_kasidic = { #Kassite militia
+	default = no
+
+	light_spearmen = 0.2
+	axemen_heavy = 0.2
+	missile_archers = 0.3
+	chariot_light = 0.3
+}
+
+#Elamite
+
+levy_elamitic = { #Elamite militia
+	default = no
+
+	light_spearmen = 0.4
+	light_swordsmen = 0.2
+	missile_archers = 0.3
+	chariot_light = 0.1
+}
+
+#Caucasian
+
+levy_mountainier = { #Caucasian militia
+	default = no
+
+	light_spearmen = 0.4
+	axemen_heavy = 0.2
+	missile_spearthrowers = 0.3
+	chariot_light = 0.1
+}
+
+#Hayasan
+
+levy_armenioi = { #Armenian militia
+	default = no
+
+	light_spearmen = 0.4
+	missile_spearthrowers = 0.2
+	axemen_heavy = 0.2
+	chariot_light = 0.2
+}
+
+#Iranians
+
+levy_parsas = { #Iranian militia
+	default = no
+
+	cavalry_horse_archers = 0.3
+	missile_archers = 0.2
+	chariot_light = 0.2
+	light_spearmen = 0.3
+}
+
+levy_eparsas = { #East Iranian militia
+	default = no
+
+	cavalry_light = 0.2
+	chariot_light = 0.2
+	axemen_heavy = 0.2
+	light_spearmen = 0.4
+}
+
+#Nuragian
+
+levy_preindeur = { #Nuragian militia
+	default = no
+
+	light_swordsmen = 0.2
+	heavy_swordsmen = 0.3
+	missile_archers = 0.3
+	chariot_light = 0.2
+}
+
+levy_balarian = { #Balarian militia
+	default = no
+
+	light_swordsmen = 0.3
+	missile_spearthrowers = 0.5
+	chariot_light = 0.2
+}
+
+#South African
+
+levy_souafr = { #South african militia
+	default = no
+
+	light_spearmen = 0.4
+	missile_spearthrowers = 0.3
+	chariot_light = 0.1
+	elephant_forest = 0.2
+}
+
+#Nomadic
+
+levy_nomadoi = { #Scythian militia
+	default = no
+
+	missile_archers = 0.3
+	cavalry_horse_archers = 0.3
+	cavalry_heavy = 0.2
+	chariot_light = 0.2
+}
+
+levy_forestnomad = { #Chernoles militia
+	default = no
+
+	light_spearmen = 0.3
+	missile_archers = 0.4
+	axemen_heavy = 0.1
+	chariot_light = 0.2
+}
+
+#Thracian
+
+levy_dacotan = { #Thracian militia
+	default = no
+
+	missile_spearthrowers = 0.4
+	light_spearmen = 0.3
+	light_swordsmen = 0.2
+	chariot_light = 0.1
+}
+
+levy_phrygi = { #Phrygian militia
+	default = no
+
+	missile_archers = 0.3
+	light_spearmen = 0.4
+	light_swordsmen = 0.2
+	chariot_light = 0.1
+}
+
+#Dravidan
+levy_dravidic = { #South indian militia
+	default = no
+
+	missile_spearthrowers = 0.2
+	light_swordsmen = 0.2
+	light_spearmen = 0.3
+	elephant_indian = 0.3
+}
+
+levy_harrapic = { #Harrapan remnant militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_swordsmen = 0.2
+	light_spearmen = 0.3
+	chariot_light = 0.2
+}
+
+#Illyrian
+levy_piratic = { #Illyrian militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.3
+	axemen_heavy = 0.2
+	chariot_light = 0.2
+}
+
+#Castelic
+
+levy_stronghold = { #Castellieri militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.3
+	light_swordsmen = 0.2
+	chariot_light = 0.2
+}
+
+#Tibetans
+
+levy_hillman = { #Tibetan militia
+	default = no
+
+	missile_archers = 0.2
+	light_spearmen = 0.3
+	axemen_heavy = 0.5
+}
+
+#Tocharians
+
+levy_tocharic = { #Tocharian militia
+	default = no
+
+	missile_archers = 0.2
+	light_spearmen = 0.4
+	chariot_light = 0.2
+	cavalry_horse_archers = 0.2
+}
+
+#Vedic/Aryan
+
+levy_hindic = { #Vedic militia
+	default = no
+
+	missile_archers = 0.2
+	light_spearmen = 0.4
+	chariot_light = 0.2
+	elephant_indian = 0.2
+}
+
+levy_eastindic = { #East Vedic militia
+	default = no
+
+	missile_archers = 0.2
+	light_swordsmen = 0.4
+	chariot_heavy = 0.2
+	elephant_indian = 0.2
+}
+
+#Celtic
+
+levy_astelixian = { #Celtic militia
+	default = no
+
+	missile_archers = 0.2
+	axement_heavy = 0.3
+	light_swordsmen = 0.4
+	chariot_light = 0.1
+}
+
+#Italic
+
+levy_roughroman = { #Celtic militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.4
+	heavy_swordsmen = 0.2
+	chariot_light = 0.1
+}
+
+#Liguric
+
+levy_liguric = { #Ligurian militia
+	default = no
+
+	missile_archers = 0.4
+	light_spearmen = 0.5
+	chariot_light = 0.1
+}
+
+#Iberian
+
+levy_espana = { #Iberic militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.4
+	light_swordsmen = 0.2
+	chariot_light = 0.1
+}
+
+#Bakeric
+
+levy_bakeric = { #Lusitanian militia
+	default = no
+
+	missile_archers = 0.2
+	axement_heavy = 0.3
+	light_swordsmen = 0.4
+	chariot_light = 0.1
+}
+
+#Vasconic
+
+levy_bosquian = { #Vasconic militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.4
+	light_swordsmen = 0.2
+	chariot_light = 0.1
+}
+
+#Tartessian
+
+levy_tartessian = { #Tartessian militia
+	default = no
+
+	missile_spearthrowers = 0.3
+	light_spearmen = 0.4
+	light_swordsmen = 0.2
+	chariot_light = 0.2
+}
+
+#Etrurians
+
+levy_thyrrenic = { #Etruscan militia
+	default = no
+
+	missile_archers = 0.3
+	light_spearmen = 0.3
+	heavy_swordsmen = 0.2
+	chariot_light = 0.2
+}
+
+#Germanic
+
+levy_githic = { #Germanic militia
+	default = no
+
+	missile_archers = 0.2
+	axemen_heavy = 0.5
+	light_spearmen = 0.3
+}
+
+#Lusatian
+
+levy_squating = { #Lusatian militia
+	default = no
+
+	missile_archers = 0.2
+	light_spearmen = 0.4
+	axemen_heavy = 0.2
+	chariot_light = 0.2
+}
+
+#Baltic
+
+levy_romuvi = { #Baltic militia
+	default = no
+
+	missile_archers = 0.2
+	missile_spearthrowers = 0.2
+	light_spearmen = 0.4
+	axemen_heavy = 0.2
+}
+
+#Synaic
+
+levy_yahwic = { #Synaitic militia
+	default = no
+
+	missile_spearthrowers = 0.2
+	light_spearmen = 0.6
+	chariot_heavy = 0.2
+}
+
+levy_jewishic = { #Jewish militia
+	default = no
+
+	light_spearmen = 0.5
+	missile_spearthrowers = 0.3
+	chariot_heavy = 0.2
+}
+
+#North Baker
+
+levy_pictonic = { #North Baker militia
+	default = no
+
+	missile_archers = 0.2
+	axemen_heavy = 0.3
+	light_swordsmen = 0.4
+	chariot_light = 0.1
+}
+
+#Native Sri Lankans
+
+levy_yaksha = { #Veddan militia
+	default = no
+
+	light_spearmen = 0.2
+	missile_spearthrowers = 0.2
+	missile_archers = 0.4
+	elephant_indian = 0.2
+}

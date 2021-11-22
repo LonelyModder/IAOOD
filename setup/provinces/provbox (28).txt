@@ -1,0 +1,1406 @@
+﻿#Tsabratan
+3301=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	holy_site="omen_mnanna_tala"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Zanazia
+3302=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oyat
+3303=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	province_rank="city"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=8
+	}
+	port_building=1
+}
+#Amarea
+3304=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gaphara
+3305=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Lapki
+3306=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gindanic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kinyps
+3324=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thubactis
+3325=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	holy_site="omen_mgurzil"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Base
+3326=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thebunte
+3327=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Annesel
+3329=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Auxiu
+3330=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dysopon
+3332=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Euphranta
+3333=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Iscina
+3334=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="psylli"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Aulazon
+3335=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="psylli"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ad Palmam
+3336=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="psylli"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Digdida Selorum
+3337=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="garamantes"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Arae Philaenorum
+3338=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="garamantes"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Automalax
+3339=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="garamantes"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Medrion
+3340=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="auschisaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Astrochonda
+3341=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="auschisaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Kainon
+3342=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="auschisaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Korniklanon
+3343=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Serapeion
+3344=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="auschisaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Noetu
+3345=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Amastor
+3346=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Talliamunera
+3347=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Chersis
+3348=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Zau Taberna
+3349=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Euesperides
+3350=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Chairekla
+3351=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kaukalou Kome
+3352=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Taucheira
+3353=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Limane Barke
+3354=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Barke
+3357=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Phykous
+3358=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Balagrai
+3359=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kyrene
+3360=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Apollonia Kyrenaike
+3361=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Agabis
+3362=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Darnis
+3363=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Marandis
+3364=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Aziris
+3365=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libo_punic"
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="plains"
+	trade_goods="spices"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="abystaic"
+		religion="libyan_pantheon"
+	}
+	slaves=
+	{
+		amount=4
+		culture="abystaic"
+		religion="libyan_pantheon"
+	}
+	port_building=1
+}
+#Paliouros
+3366=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="abystaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Petras Mikros
+3367=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Batrachos
+3368=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Gonia
+3369=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Antipyrgos
+3370=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Krythanion
+3371=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Menelaos
+3372=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Plynos Limen
+3373=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Ainesisphyra
+3374=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Chettaia
+3375=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Selenis
+3376=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Apis
+3377=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Paraitonion
+3378=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gilgamaic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kallias Akron
+3379=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Leuke Akte Kyrenaikes
+3380=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Pnigeos
+3476=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pedonia
+3477=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Derras
+3478=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Sitra
+5536=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Ammoneion
+5537=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Gargara
+5538=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Zethin
+5539=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Areg
+5540=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Alexandrou Parembole
+5550=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ouarias
+5551=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Klimax
+5552=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Graias
+5553=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Sanos
+5554=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Karnasa
+5555=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nessamones"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Abid
+5556=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libu"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}

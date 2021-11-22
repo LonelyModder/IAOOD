@@ -1,0 +1,55 @@
+﻿#Padus
+8030=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Padus
+8031=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Padus
+8032=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Padus
+8033=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Padus
+8034=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}

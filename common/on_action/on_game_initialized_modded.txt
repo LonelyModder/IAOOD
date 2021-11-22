@@ -1,0 +1,77 @@
+﻿##On Game Initialized Events
+
+on_game_initialized = {
+
+	events = {
+		#Startup info
+		ia_startup.1
+		ia_startup.2
+		ia_startup.3
+		ia_startup.4
+		ia_startup.5
+		ia_startup.6
+		ia_startup.7
+		ia_startup.8
+		ia_startup.9
+		ia_startup.10
+		ia_startup.11
+		ia_startup.12
+		ia_startup.13
+		ia_startup.14
+		ia_startup.15
+		ia_startup.16
+		ia_startup.17
+		ia_startup.18
+		#Bloodlines
+		bloodlines_startup.1  #Judah
+		bloodlines_startup.2  #Persia
+		bloodlines_startup.3  #21 dynasty
+		bloodlines_startup.4  #22 dynasty
+		bloodlines_startup.5  #Kushite dynasty
+		bloodlines_startup.6  #Gathite bloodline
+		bloodlines_startup.7  #Tudhaliya bloodline
+		bloodlines_startup.8  #Toi bloodline
+		bloodlines_startup.9  #Hadad-ezer bloodline
+		bloodlines_startup.10 #Tob-Rimmon bloodline
+		bloodlines_startup.11 #Saul bloodline
+		bloodlines_startup.12 #Tyre bloodline
+		bloodlines_startup.13 #Byblos bloodline
+		bloodlines_startup.14 #Adasi bloodline
+		bloodlines_startup.15 #Elam bloodline
+		bloodlines_startup.16 #Gordion bloodline
+		bloodlines_startup.17 #Heracles bloodline
+	}
+	#Events
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = province_init_done
+				}
+			}
+			every_province = {
+				limit = {
+					NOR = {
+						is_sea = yes
+						terrain = riverine_terrain
+					}
+				}
+				add_neighbor_city_modifier_effect = yes
+			}
+			set_global_variable = {
+				name = province_init_done
+				value = 1
+			}
+			every_province = {
+				limit = {
+					is_sea = no
+				}
+				civilization_level_effect = yes
+			}
+		}
+		David_Ishbaal_conflict_effect = yes
+		Osorkons_rebelion_conflict_effect = yes
+		Distatnt_descendent_of_elam_conflict_effect = yes
+	}
+}
+

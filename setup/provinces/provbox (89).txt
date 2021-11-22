@@ -1,0 +1,1738 @@
+﻿#Tummana
+5442=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Andhapura
+7019=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mosali
+7040=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kottobora
+7041=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Pitoura
+7042=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nanagaina
+7044=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Alluru
+7045=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Alosgyni
+7046=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Guntupalli
+7054=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gummididurru
+7056=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nagarjunikonda
+7057=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kondapuram
+7058=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ramagiri
+7067=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhurhikara
+7068=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bhojakata
+7075=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="hemp"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bhaddavati
+7076=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kolamic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Cikamburika
+7077=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kolamic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Potana
+7079=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_sivan"
+}
+#Dantapura
+7080=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kalinganagara
+7081=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Samapa
+7082=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sankaram
+7083=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Lingarajupalem
+7084=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+	holy_site="omen_vanji_ko"
+}
+#Jaugada
+7085=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tosali
+7086=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Fanindrapura
+7094=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sripura
+7095=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kosala
+7096=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Goddvara
+7099=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mahdnada
+7100=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Wairagar
+7115=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="naikan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Jagdalpur
+7122=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Alatnapura
+7123=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dhamna
+7124=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="naikan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gondia
+7129=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhilapura
+7130=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Raipur
+7131=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Rapsakpur
+7132=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kotilingala
+7133=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Chakrakot
+7134=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="tin"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Atavi
+7135=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="duruwan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhawanipatna
+7136=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="duruwan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Surada
+7137=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ollari"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rayagada
+7138=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ollari"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kanker
+7139=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dhamtari
+7140=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Komana
+7141=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Lattalura
+7144=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vemulavada
+7145=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vatsagulma
+7147=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kollipake
+7148=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Orugallu
+7149=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Anumapala
+7150=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vairagara
+7151=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="base_metals"
+	citizen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mankal
+7152=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bidar
+7153=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kaulas
+7155=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sripratava
+7156=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mahur
+7157=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Indur
+7158=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Qandar
+7160=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Yetavana
+7162=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aggathana
+7163=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Visakpura
+7164=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Minagana
+7165=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="asmakan"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vinitapura
+7166=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Yajatinagara
+7167=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Suvarnapura
+7168=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pali
+7169=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Magaris
+7170=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhuvanesvara
+7171=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Salipetake
+7172=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+}
+#Caritra
+7173=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Jajatipura
+7174=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bandavala
+7175=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bilagada
+7176=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tamralipti
+7177=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	port_building=1
+	holy_site="omen_khotravai"
+}
+#Bhamangati
+7178=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Utkalava
+7179=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Khijjngalalla
+7180=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Manites
+7181=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Deogarh
+7317=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mallabhum
+7362=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Purulia
+7363=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Puskarna
+7366=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kharagpur
+7391=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Amrakuta
+7455=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kherla
+7456=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gonkui"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}

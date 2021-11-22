@@ -1,0 +1,383 @@
+﻿namespace = ia_startup
+
+ia_startup.1 = { #Mesopotamia
+    type = country_event
+    title = ia_startup.1.t
+    desc = ia_startup.1.desc
+    picture = aqueducts
+    
+    left_portrait = c:A92.current_ruler
+    left_portrait = c:A39.current_ruler
+	right_portrait = c:J02.current_ruler
+	right_portrait = c:J01.current_ruler
+
+    trigger = {
+		OR = {
+			country_culture_group = akkadian
+			country_culture_group = aramaic
+			country_culture_group = synaic
+		}
+    }
+
+    option = {    
+        name = ia_startup.1.a
+    }
+}
+
+ia_startup.2 = { #Egypt
+    type = country_event
+    title = ia_startup.2.t
+    desc = ia_startup.2.desc
+    picture = aqueducts
+    
+    left_portrait = c:E01.current_ruler
+	left_portrait = c:E03.current_ruler
+	left_portrait = c:E25.current_ruler
+	right_portrait = c:E05.current_ruler
+	right_portrait = c:N07.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = kemetic
+			country_culture_group = libyan
+			country_culture_group = nubian
+		}
+    }
+
+    option = {    
+        name = ia_startup.2.a
+    }
+}
+
+ia_startup.3 = { #Kanaan and Phoenicia
+    type = country_event
+    title = ia_startup.3.t
+    desc = ia_startup.3.desc
+    picture = aqueducts
+	
+    left_portrait = c:J07.current_ruler
+	left_portrait = c:J20.current_ruler
+	right_portrait = c:J06.current_ruler
+	
+    trigger = {
+    	OR = {
+			country_culture_group = levantine
+			country_culture_group = minoic
+		}
+    }
+
+    option = {    
+        name = ia_startup.3.a
+    }
+}
+
+ia_startup.4 = { #Saba and Damot
+    type = country_event
+    title = ia_startup.4.t
+    desc = ia_startup.4.desc
+    picture = aqueducts
+    
+    left_portrait = c:K06.current_ruler
+	right_portrait = c:K05.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = axumitic
+			country_culture_group = arabian
+		}
+    }
+
+    option = {    
+        name = ia_startup.4.a
+    }
+}
+
+ia_startup.5 = { #Caucasus Region
+    type = country_event
+    title = ia_startup.5.t
+    desc = ia_startup.5.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = caucasic
+			country_culture_group = hazzian
+			country_culture_group = hurric
+		}
+    }
+
+    option = {    
+        name = ia_startup.5.a
+    }
+}
+
+ia_startup.6 = { #Zagros Mountains
+    type = country_event
+    title = ia_startup.6.t
+    desc = ia_startup.6.desc
+    picture = aqueducts
+    
+	left_portrait = c:A45.current_ruler
+    left_portrait = c:A57.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = kassites
+			country_culture_group = elamitic
+		}
+    }
+
+    option = {    
+        name = ia_startup.6.a
+    }
+}
+
+ia_startup.7 = { #Iranian Platau
+    type = country_event
+    title = ia_startup.7.t
+    desc = ia_startup.7.desc
+    picture = aqueducts
+    
+    left_portrait = c:P10.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = iranic
+			country_culture_group = eiranic
+		}
+    }
+
+    option = {    
+        name = ia_startup.7.a
+    }
+}
+
+ia_startup.8 = { #Eurasian Steppes
+    type = country_event
+    title = ia_startup.8.t
+    desc = ia_startup.8.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = scythic
+			country_culture_group = tocharian
+		}
+    }
+
+    option = {    
+        name = ia_startup.8.a
+    }
+}
+
+ia_startup.9 = { #Anatolia and Thrace
+    type = country_event
+    title = ia_startup.9.t
+    desc = ia_startup.9.desc
+    picture = aqueducts
+    
+    left_portrait = c:H03.current_ruler
+	right_portrait = c:H19.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = hattian
+			country_culture_group = luwian
+			country_culture_group = thracianic
+		}
+    }
+
+    option = {    
+        name = ia_startup.9.a
+    }
+}
+
+ia_startup.10 = { #Greece
+    type = country_event
+    title = ia_startup.10.t
+    desc = ia_startup.10.desc
+    picture = aqueducts
+    
+    left_portrait = c:G20.current_ruler
+	left_portrait = c:G20.current_co_ruler
+	right_portrait = c:T45.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = grekoid
+		}
+    }
+
+    option = {    
+        name = ia_startup.10.a
+    }
+}
+
+ia_startup.11 = { #Italy
+    type = country_event
+    title = ia_startup.11.t
+    desc = ia_startup.11.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = italic
+			country_culture_group = thyrrenic
+			country_culture_group = liguric
+		}
+    }
+
+    option = {    
+        name = ia_startup.11.a
+    }
+}
+
+ia_startup.12 = { #Illyrians and Nuragians
+    type = country_event
+    title = ia_startup.12.t
+    desc = ia_startup.12.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = illyric
+			country_culture_group = castelic
+			country_culture_group = occidental
+		}
+    }
+
+    option = {    
+        name = ia_startup.12.a
+    }
+}
+
+ia_startup.13 = { #Iberia
+    type = country_event
+    title = ia_startup.13.t
+    desc = ia_startup.13.desc
+    picture = aqueducts
+    
+    left_portrait = c:S01.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = bosquian
+			country_culture_group = iberic
+			country_culture_group = tartessian
+		}
+    }
+
+    option = {    
+        name = ia_startup.13.a
+    }
+}
+
+ia_startup.14 = { #Celts
+    type = country_event
+    title = ia_startup.14.t
+    desc = ia_startup.14.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = celtic
+			country_culture_group = bakeric
+			country_culture_group = nbaker
+		}
+    }
+
+    option = {    
+        name = ia_startup.14.a
+    }
+}
+
+ia_startup.15 = { #Northerners
+    type = country_event
+    title = ia_startup.15.t
+    desc = ia_startup.15.desc
+    picture = aqueducts
+    
+    #left_portrait = c:K06.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = barbaric
+			country_culture_group = venedi
+			country_culture_group = baltian
+		}
+    }
+
+    option = {    
+        name = ia_startup.15.a
+    }
+}
+
+ia_startup.16 = { #Vedic and Dravidan tribes
+    type = country_event
+    title = ia_startup.16.t
+    desc = ia_startup.16.desc
+    picture = aqueducts
+    
+	left_portrait = c:V15.current_ruler
+	left_portrait = c:V21.current_ruler
+	left_portrait = c:V24.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = vedic
+			country_culture_group = dravidic
+		}
+    }
+
+    option = {    
+        name = ia_startup.16.a
+    }
+}
+
+ia_startup.17 = { #Himalayas
+    type = country_event
+    title = ia_startup.17.t
+    desc = ia_startup.17.desc
+    picture = aqueducts
+    
+    left_portrait = c:B27.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = qiang
+		}
+    }
+
+    option = {    
+        name = ia_startup.17.a
+    }
+}
+
+ia_startup.18 = { #Srilanka
+    type = country_event
+    title = ia_startup.18.t
+    desc = ia_startup.18.desc
+    picture = aqueducts
+    
+    left_portrait = c:R01.current_ruler
+
+    trigger = {
+    	OR = {
+			country_culture_group = veddic
+		}
+    }
+
+    option = {    
+        name = ia_startup.18.a
+    }
+}

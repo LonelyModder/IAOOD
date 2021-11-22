@@ -1,0 +1,24 @@
+"A57"={
+	country="A57"
+	98={
+		first_name="Akshir-Shimut"
+		family = c:A57.fam:Shutrukid
+		birth_date=1270.1.1
+		culture="susanian"
+		religion="elamite_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=4
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes
+		add_trait="ofelam"
+		add_gold=500
+		add_popularity=100
+		c:A57={
+			set_as_ruler=char:98
+		}
+		#dna=""
+	}
+	
+}

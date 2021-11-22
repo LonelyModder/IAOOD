@@ -1,0 +1,88 @@
+﻿#Rhenus
+7724=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7725=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7726=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7727=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7728=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7729=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7730=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rhenus
+7731=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}

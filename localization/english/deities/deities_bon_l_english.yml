@@ -1,0 +1,33 @@
+﻿l_english:
+ ## Default ##
+ deity_mgekho:0 "$omen_mgekho$"
+ omen_mgekho:0 "Gekhö"
+ omen_mgekho_desc:0 "Gekhö is the foremost of the many $tibetan$ deities, a god of the heavens and the stars. Most of the other gods called upon by the locals bow down before him, and he is known for vanquishing evil spirits that might trouble his faithful. He is usually venerated with the sacrifice of yaks, sheep, or gold, gifts offered as thanks for his help."
+
+ deity_mtingnam_gyalmo:0 "$omen_mtingnam_gyalmo$"
+ omen_mtingnam_gyalmo:0 "Tingnam Gyalmo"
+ omen_mtingnam_gyalmo_desc:0 "Tingnam Gyalmo is a blue-cloaked goddess of the ocean, and the consort of Kuchi Mangke. As a protector of oceans and rivers, she plays an important role for the $tibetic_pantheon$ faithful and is deeply venerated."
+
+ deity_mdrablai_gyalmo:0 "$omen_mdrablai_gyalmo$"
+ omen_mdrablai_gyalmo:0 "Drablai Gyalmo"
+ omen_mdrablai_gyalmo_desc:0 "Drablai Gyalmo is one of the most important of the deities of the $tibetic_pantheon$ faith, the consort of Gekhö, and a goddess of the heavens in her own right. The goddess takes on many aspects, be it a calm white goddess of life or terrifying black hag of death, and is often associated with the heavenly bodies and natural phenomena."
+
+ deity_mkuchi_mangke:0 "$omen_mkuchi_mangke$"
+ omen_mkuchi_mangke:0 "Kuchi Mangke"
+ omen_mkuchi_mangke_desc:0 "Kuchi Mangke is a fertility god associated with Gekhö, and the consort of Tingnam Gyalmo. He is usually portrayed as a tiny god, some say his body is as small a spindle, and is tasked with protecting children from evil spirits that might harm them."
+
+ deity_mati_muwer:0 "$omen_mati_muwer$"
+ omen_mati_muwer:0 "Ati Muwer"
+ omen_mati_muwer_desc:0 "Ati Muwer is a war god in his own right, and an important member of the circle of deities associated with Gekhö. He is often portrayed in golden or gilded armor, with a bow in hand, riding across the sky."
+
+ deity_mphuwer:0 "$omen_mphuwer$"
+ omen_mphuwer:0 "Phuwer"
+ omen_mphuwer_desc:0 "Phuwer is a god of divination and astrology, and a member of Gekhö's circle. The deity is usually portrayed as an impressive figure dressed in white robes, together with three female companions. The $tibetic_pantheon$ faithful venerate the god with lamb fleece, colored ribbons, and the dried hearts of a bat, a crane, and a cuckoo."
+
+ deity_mtraphu:0 "$omen_mtraphu$"
+ omen_mtraphu:0 "Traphu"
+ omen_mtraphu_desc:0 "Traphu is a smaller deity among the $tibetic_pantheon$ faithful, usually associated with the more northern regions where he originally hails from: the mythical lands of Drugu. It is said he was born in a crystal castle, surrounded by birds, moonbeams and sun rays."
+
+ deity_mthe_elements:0 "$omen_mthe_elements$"
+ omen_mthe_elements:0 "The Elements"
+ omen_mthe_elements_desc:0 "The four elements play an important role in the $tibetic_pantheon$ faith, even being personified as minor deities themselves. Out of the four elements: wind, earth, water, and fire; air was usually the most important, and depicted as riding a white deer across the land."

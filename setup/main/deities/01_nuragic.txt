@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10730-10749 ###
+		10730 = {
+			key = omen_babai
+			deity = deity_babai
+		}
+		10731 = {
+			key = omen_great_mother
+			deity = deity_great_mother
+		}
+		10732 = {
+			key = omen_moon
+			deity = deity_moon
+		}
+		10733 = {
+			key = omen_bull_sun
+			deity = deity_bull_sun
+		}
+		10734 = {
+			key = omen_norax
+			deity = deity_norax
+		}
+		10735 = {
+			key = omen_aristeus
+			deity = deity_aristeus
+		}
+		10736 = {
+			key = omen_sardus
+			deity = deity_sardus
+		}
+		10737 = {
+			key = omen_iolaos
+			deity = deity_iolaos
+		}
+	}
+}
+

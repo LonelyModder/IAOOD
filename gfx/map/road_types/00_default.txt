@@ -1,0 +1,4 @@
+﻿road = {		
+	id = 0
+	default_style = 0
+}

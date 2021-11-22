@@ -1,0 +1,90 @@
+country_decisions = {
+	
+	# Form Pallistin
+	form_pallistin = {
+		
+		potential = {
+			primary_culture = philistine
+			#is_tribal = yes
+			NOT = {
+				tag = 1PL
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 777
+					province_id = 7985
+					province_id = 790
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = pallistin_must_not_exist
+				NOT = {
+					any_country = {
+						tag = 1PL
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 777
+			owns = 7985
+			owns = 790
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Pallistin_Name"
+			change_country_flag = Pallistin_Flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Pallistin_Adj"
+				change_country_color =  rgb { 78 191 222 }
+				change_country_tag = 1PL
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 790
+						}
+					}
+				}
+				set_capital = 790
+				hidden_effect = {
+					p:790.state = {
+						set_state_capital = 790
+					}
+				}
+				#capital_scope = {
+				#	establish_city_effect = yes
+				#}
+			}
+			p:790 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,0 +1,117 @@
+deity_manager = {
+	deities_database = { ### KEYS 10220-10259 ###
+		10220 = {
+			key = omen_mtaranis
+			deity = deity_mtaranis
+		}
+		10221 = {
+			key = omen_mlugus
+			deity = deity_mlugus
+		}
+		10222 = {
+			key = omen_mogmios
+			deity = deity_mogmios
+		}
+		10223 = {
+			key = omen_mrosmerta
+			deity = deity_mrosmerta
+		}
+		10224 = {
+			key = omen_mtoutatis
+			deity = deity_mtoutatis
+		}
+		10225 = {
+			key = omen_mgobannus
+			deity = deity_mgobannus
+		}
+		10226 = {
+			key = omen_micovellauna
+			deity = deity_micovellauna
+		}
+		10227 = {
+			key = omen_mcernunnos
+			deity = deity_mcernunnos
+		}
+		10228 = {
+			key = omen_mcichol
+			deity = deity_mcichol
+		}
+		10229 = {
+			key = omen_mnantosuelta
+			deity = deity_mnantosuelta
+		}
+		10230 = {
+			key = omen_mmaponos
+			deity = deity_mmaponos
+		}
+		10231 = {
+			key = omen_mbelisama
+			deity = deity_mbelisama
+		}
+		10232 = {
+			key = omen_mbelinus
+			deity = deity_mbelinus
+		}
+		10233 = {
+			key = omen_martio
+			deity = deity_martio
+		}
+		10234 = {
+			key = omen_mcissonius
+			deity = deity_mcissonius
+		}
+		10235 = {
+			key = omen_mnemetona
+			deity = deity_mnemetona
+		}
+		10236 = {
+			key = omen_msucellus
+			deity = deity_msucellus
+		}
+		10237 = {
+			key = omen_mglanis
+			deity = deity_mglanis
+		}
+		10238 = {
+			key = omen_mbrigantia
+			deity = deity_mbrigantia
+		}
+		10239 = {
+			key = omen_mandraste
+			deity = deity_mandraste
+		}
+		10240 = {
+			key = omen_mbelatucadros
+			deity = deity_mbelatucadros
+		}
+		10241 = {
+			key = omen_mcoventina
+			deity = deity_mcoventina
+		}
+		10242 = {
+			key = omen_mnodens
+			deity = deity_mnodens
+		}
+		10243 = {
+			key = omen_msulis
+			deity = deity_msulis
+		}
+		10244 = {
+			key = omen_mcamulus
+			deity = deity_mcamulus
+		}
+		10245 = {
+			key = omen_mlenus
+			deity = deity_mlenus
+		}
+		10246 = {
+			key = omen_mintarabus
+			deity = deity_mintarabus
+		}
+		10247 = {
+			key = omen_mancamna
+			deity = deity_mancamna
+		}
+	}
+}
+

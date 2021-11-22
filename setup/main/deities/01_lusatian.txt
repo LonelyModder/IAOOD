@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10610-10629 ###
+		10610 = {
+			key = omen_perun
+			deity = deity_perun
+		}
+		10611 = {
+			key = omen_rugiaevit
+			deity = deity_rugiaevit
+		}
+		10612 = {
+			key = omen_veles
+			deity = deity_veles
+		}
+		10613 = {
+			key = omen_yarovit
+			deity = deity_yarovit
+		}
+		10614 = {
+			key = omen_khors
+			deity = deity_khors
+		}
+		10615 = {
+			key = omen_svarozhits
+			deity = deity_svarozhits
+		}
+		10616 = {
+			key = omen_svetivid
+			deity = deity_svetivid
+		}
+		10617 = {
+			key = omen_zvezda
+			deity = deity_zvezda
+		}
+		10618 = {
+			key = omen_zhiva
+			deity = deity_zhiva
+		}
+	}
+}
+

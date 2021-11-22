@@ -1,0 +1,426 @@
+﻿namespace = bloodlines_setup_completion
+
+bloodlines_setup_completion.1 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_character = {
+			limit = {
+				is_alive = yes
+				OR = {
+					exists = father
+					exists = mother
+				}
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = davidids
+					}
+					NOT = {
+						has_trait = davidids
+					}
+				}
+				add_trait = davidids
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = achemenids
+					}
+					NOT = {
+						has_trait = achemenids
+					}
+				}
+				add_trait = achemenids
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = 21dynastys
+					}
+					NOT = {
+						has_trait = 21dynastys
+					}
+				}
+				add_trait = 21dynastys
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = 22dynastys
+					}
+					NOT = {
+						has_trait = 22dynastys
+					}
+				}
+				add_trait = 22dynastys
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = kurruntic
+					}
+					NOT = {
+						has_trait = kurruntic
+					}
+				}
+				add_trait = kurruntic
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = gathite
+					}
+					NOT = {
+						has_trait = gathite
+					}
+				}
+				add_trait = gathite
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = rhatti
+					}
+					NOT = {
+						has_trait = rhatti
+					}
+				}
+				add_trait = rhatti
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = taitids
+					}
+					NOT = {
+						has_trait = taitids
+					}
+				}
+				add_trait = taitids
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = sovahid
+					}
+					NOT = {
+						has_trait = sovahid
+					}
+				}
+				add_trait = sovahid
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = damaskid
+					}
+					NOT = {
+						has_trait = damaskid
+					}
+				}
+				add_trait = damaskid
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = saulid
+					}
+					NOT = {
+						has_trait = saulid
+					}
+				}
+				add_trait = saulid
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = tyrian
+					}
+					NOT = {
+						has_trait = tyrian
+					}
+				}
+				add_trait = tyrian
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = byblid
+					}
+					NOT = {
+						has_trait = byblid
+					}
+				}
+				add_trait = byblid
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = badaside
+					}
+					NOT = {
+						has_trait = badaside
+					}
+				}
+				add_trait = badaside
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = ofelam
+					}
+					NOT = {
+						has_trait = ofelam
+					}
+				}
+				add_trait = ofelam
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = gordis
+					}
+					NOT = {
+						has_trait = gordis
+					}
+				}
+				add_trait = gordis
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = heraclid
+					}
+					NOT = {
+						has_trait = heraclid
+					}
+				}
+				add_trait = heraclid
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = davidids
+					}
+					NOT = {
+						has_trait = davidids
+					}
+				}
+				add_trait = davidids	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = achemenids
+					}
+					NOT = {
+						has_trait = achemenids
+					}
+				}
+				add_trait = achemenids
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = 21dynastys
+					}
+					NOT = {
+						has_trait = 21dynastys
+					}
+				}
+				add_trait = 21dynastys
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = 22dynastys
+					}
+					NOT = {
+						has_trait = 22dynastys
+					}
+				}
+				add_trait = 22dynastys
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = kurruntic
+					}
+					NOT = {
+						has_trait = kurruntic
+					}
+				}
+				add_trait = kurruntic
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = gathite
+					}
+					NOT = {
+						has_trait = gathite
+					}
+				}
+				add_trait = gathite
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = rhatti
+					}
+					NOT = {
+						has_trait = rhatti
+					}
+				}
+				add_trait = rhatti
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = taitids
+					}
+					NOT = {
+						has_trait = taitids
+					}
+				}
+				add_trait = taitids
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = sovahid
+					}
+					NOT = {
+						has_trait = sovahid
+					}
+				}
+				add_trait = sovahid
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = damaskid
+					}
+					NOT = {
+						has_trait = damaskid
+					}
+				}
+				add_trait = damaskid
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = saulid
+					}
+					NOT = {
+						has_trait = saulid
+					}
+				}
+				add_trait = saulid
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = tyrian
+					}
+					NOT = {
+						has_trait = tyrian
+					}
+				}
+				add_trait = tyrian
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = byblid
+					}
+					NOT = {
+						has_trait = byblid
+					}
+				}
+				add_trait = byblid
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = badaside
+					}
+					NOT = {
+						has_trait = badaside
+					}
+				}
+				add_trait = badaside
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = ofelam
+					}
+					NOT = {
+						has_trait = ofelam
+					}
+				}
+				add_trait = ofelam
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = gordis
+					}
+					NOT = {
+						has_trait = gordis
+					}
+				}
+				add_trait = gordis
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = heraclid
+					}
+					NOT = {
+						has_trait = heraclid
+					}
+				}
+				add_trait = heraclid
+			}
+		}
+	}
+}

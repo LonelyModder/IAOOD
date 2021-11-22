@@ -1,0 +1,45 @@
+deity_manager = {
+	deities_database = { ### KEYS 10410-10429 ###
+		10410 = {
+			key = omen_suwaliyat
+			deity = deity_suwaliyat
+		}
+		10411 = {
+			key = omen_arinna
+			deity = deity_arinna
+		}
+		10412 = {
+			key = omen_ellel
+			deity = deity_ellel
+		}
+		10413 = {
+			key = omen_aserdus
+			deity = deity_aserdus
+		}
+		10414 = {
+			key = omen_telipinu
+			deity = deity_telipinu
+		}
+		10415 = {
+			key = omen_sutekh
+			deity = deity_sutekh
+		}
+		10416 = {
+			key = omen_aruna
+			deity = deity_aruna
+		}
+		10417 = {
+			key = omen_wurrukatte
+			deity = deity_wurrukatte
+		}
+		10418 = {
+			key = omen_tarhunz
+			deity = deity_tarhunz
+		}
+		10419 = {
+			key = omen_sauska
+			deity = deity_sauska
+		}
+	}
+}
+

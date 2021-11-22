@@ -1,0 +1,24 @@
+"E25"={
+	country="E25"
+	4={
+		first_name="Siamun"
+		family = c:E25.fam:Usermaatre-Setepenamun
+		father="char:3"
+		birth_date=1270.1.1
+		culture="lower_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=7
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=100
+		c:E25={
+			set_as_ruler=char:4
+		}
+		#dna=""
+	}
+}

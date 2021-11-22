@@ -1,0 +1,1599 @@
+﻿#Uccrynyika
+2543=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Nobiodounos
+4521=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ta Antiphilou
+4522=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kremniskoi
+4523=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Aipolion
+4524=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tyras
+4525=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Nikonion
+4526=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="marsh"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Istrianon
+4527=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Skopouloi
+4528=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Olbia
+4529=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dinogetia
+4800=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Clepidava
+4915=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mirum
+4916=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Alitora
+4917=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Lepton
+4918=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Olitis
+4919=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Agrana
+4920=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="farmland"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bridava
+4921=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Aikronon
+4922=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Volumis
+4925=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Leptidava
+4928=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Siculo
+4929=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Alkonet
+6067=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Khurra
+6068=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Gosthinya
+6069=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Lechta
+6070=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Shethigk
+6071=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Yukta
+6072=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Vonnet
+6073=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Tiersi
+6074=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Mechkeht
+6075=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Krueng
+6076=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ghanilkatta
+6077=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Vryank
+6079=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oschka
+6080=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kyrtik
+6081=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Donts
+6082=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Vyrketin
+6083=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Schech
+6084=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Tumin
+6085=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Volyatss
+6086=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Hkar
+6087=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kmekhich
+6088=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Sitya
+6090=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Aggrygh
+6091=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Gelts
+6092=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Mangyl
+6093=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Akhynt
+6094=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Siskary
+6095=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Vyelinat
+6096=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kilkhaneg
+6097=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ocraent
+6098=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Onskoet
+6099=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Hkraniyat
+6100=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Zetha
+6101=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Korulin
+6102=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Vashschka
+6103=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Maske
+6104=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Gonoska
+6105=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Jyr
+6106=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kreshcek
+6107=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Mnata
+6108=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Soe
+6109=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Ehkere
+6110=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Rotila
+6111=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Schelera
+6112=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Muika
+6113=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Selb
+6114=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Ahgranika
+6115=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Syuthgrat
+6116=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Aggrat
+6117=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Kin
+6118=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Skintara
+6119=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Volg
+6120=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Oykets
+6121=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="iron"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Syalite
+6122=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shuchshek
+6123=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Machiekkyt
+6125=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Ratikgot
+6126=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Nyetskor
+6127=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Zeh
+6128=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Gyonal
+6129=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Vurd
+6130=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Zhenna
+6131=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Kyakkam
+6139=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Enke
+6141=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Ghasett
+6142=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Yottor
+6145=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Urschelats
+6233=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bfc"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Atavria
+7185=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Scyra
+7186=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ektonopolis
+7187=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Yendi
+7188=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Rakan
+7189=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Uttar
+7191=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Konae
+7194=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tanarke
+7195=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cymmeric"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}

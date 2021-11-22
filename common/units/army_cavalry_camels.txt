@@ -1,0 +1,47 @@
+﻿cavalry_camels = {
+	army = yes
+
+	levy_tier = basic
+
+	allow = {
+		trade_good_surplus = { target = camel value > 0 }
+	}
+
+	is_flank = yes
+	
+	maneuver = 4
+	movement_speed = 3.5
+
+	build_time = 40
+	legions = no
+	
+	axemen_heavy = 0.8
+	cavalry_camels = 1.0
+	cavalry_heavy = 1.1
+	cavalry_horse_archers = 0.7
+	cavalry_light = 1.2
+	chariot_heavy = 1.1
+	chariot_light = 0.9
+	elephant_african = 0.7
+	elephant_forest = 0.9
+	elephant_indian = 0.8
+	heavy_spearmen = 0.7
+	heavy_swordsmen = 0.8
+	light_spearmen = 1.1
+	light_swordsmen = 1.2
+	missile_archers = 1.1
+	missile_spearthrowers = 1.2
+	supply_train = 2.0
+	
+	build_cost = {
+		gold = 15
+		manpower = 1
+	}
+	supply_train = 2.0
+	
+	
+	food_consumption = 0.20
+	food_storage = 3.6
+	
+	attrition_loss = 0.025
+}
