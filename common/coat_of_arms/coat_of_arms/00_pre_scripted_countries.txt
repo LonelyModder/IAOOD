@@ -185,6 +185,29 @@ T45 = {
 	}
 }
 
+H59 = {
+	pattern = "pattern_solid.tga"
+	color1 = "bone_white"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_lydia.dds"
+		color1 = rgb { 230 210 32 }
+		color2 = rgb { 20 20 20 }
+	}
+}
+
+H43 = {
+	pattern = "pattern_solid.tga"
+	color1 = "bone_white"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_ship_01.dds"
+		color1 = rgb { 250 50 5 }
+	}
+}
+
 #Special banners
 
 haldi_flag = {#haldi_flag
@@ -316,5 +339,17 @@ hatti_flag  = {
 	colored_emblem = {
 		texture = "ce_hatti.dds"
 		color1 = rgb { 230 173 16 }
+	}
+}
+
+Croesus_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = "bone_white"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_lydia.dds"
+		color1 = rgb { 230 210 32 }
+		color2 = rgb { 20 20 20 }
 	}
 }

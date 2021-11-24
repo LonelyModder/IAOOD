@@ -7,7 +7,7 @@ deity_bindo = {
 				value >= very_rare_deity_svalue
 			}
 			religion = bosutan_pantheon
-			deity:omen_bondo = {
+			deity:omen_bindo = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

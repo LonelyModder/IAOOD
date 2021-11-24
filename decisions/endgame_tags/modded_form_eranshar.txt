@@ -92,8 +92,11 @@
 						set_state_capital = 4799
 					}
 				}
-				capital_scope = {
-					establish_city_effect = yes
+			}
+			p:4799 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
 				}
 			}
 			p:4799 = {

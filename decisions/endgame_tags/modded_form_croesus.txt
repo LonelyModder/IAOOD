@@ -19,16 +19,17 @@ country_decisions = {
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 1564
-					province_id = 978
-					province_id = 988
+					province_id = 296
+					province_id = 292
+					province_id = 1947
+					province_id = 295
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = urartu_must_not_exist
+				text = croesus_must_not_exist
 				NOT = {
 					any_country = {
 						tag = 1LY
@@ -36,15 +37,16 @@ country_decisions = {
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 1564
-			owns = 978
-			owns = 988
+			owns = 296
+			owns = 292
+			owns = 1947
+			owns = 295
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "Croesus_Name"
-			change_country_flag = haldi_flag
+			change_country_flag = Croesus_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -63,21 +65,24 @@ country_decisions = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 988
+							province_id = 292
 						}
 					}
 				}
-				set_capital = 988
+				set_capital = 292
 				hidden_effect = {
-					p:988.state = {
-						set_state_capital = 988
+					p:292.state = {
+						set_state_capital = 292
 					}
 				}
-				capital_scope = {
-					establish_city_effect = yes
+			}
+			p:292 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
 				}
 			}
-			p:988 = {
+			p:292 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

@@ -1,4 +1,4 @@
-REB = "setup/countries/rebels.txt"
+﻿REB = "setup/countries/rebels.txt"
 PIR = "setup/countries/pirates.txt"
 BAR = "setup/countries/barbarians.txt"
 MER = "setup/countries/mercenaries.txt"

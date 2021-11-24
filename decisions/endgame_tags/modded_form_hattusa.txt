@@ -112,8 +112,11 @@ country_decisions = {
 						set_state_capital = 1825
 					}
 				}
-				capital_scope = {
-					establish_city_effect = yes
+			}
+			p:1825 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
 				}
 			}
 			p:1825 = {

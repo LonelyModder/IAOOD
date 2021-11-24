@@ -74,9 +74,12 @@ country_decisions = {
 						set_state_capital = 691
 					}
 				}
-				#capital_scope = {
-				#	establish_city_effect = yes
-				#}
+			}
+			p:691 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
 			}
 			p:691 = {
 				capital_formable_medium_effect = yes
