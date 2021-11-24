@@ -58,12 +58,6 @@ on_game_initialized = {
 				}
 				add_neighbor_city_modifier_effect = yes
 			}
-			every_country = {
-				set_variable = {
-					name = civ_tech
-					value = 0
-				}
-			}
 			set_global_variable = {
 				name = province_init_done
 				value = 1
