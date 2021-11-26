@@ -45,7 +45,7 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				primary_culture = "sumeric"
+				primary_culture = "synaic"
 			}
 			4 = "ce_border_leaves_01.dds"
 		}

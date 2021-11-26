@@ -543,15 +543,8 @@ diplomacy = {
 	dependency = { first = E05 second = E12 subject_type = feudatory }
 	dependency = { first = E05 second = E16 subject_type = feudatory }
 	dependency = { first = E05 second = E14 subject_type = feudatory }
-	dependency = { first = E05 second = E13 subject_type = feudatory }
-	dependency = { first = E05 second = E15 subject_type = feudatory }
-	dependency = { first = E05 second = L22 subject_type = feudatory }
-	dependency = { first = E05 second = L21 subject_type = feudatory }
-	dependency = { first = E05 second = L20 subject_type = feudatory }
-	dependency = { first = E05 second = L23 subject_type = feudatory }
-	dependency = { first = E05 second = L19 subject_type = feudatory }
 	#Babylonian migrant leader
-	dependency = { first = A92 second = A28 subject_type = tributary }
+	dependency = { first = A92 second = A28 subject_type = feudatory }
 	#Assyrian kaskan subject
 	dependency = { first = A39 second = A30 subject_type = feudatory }
 	#Assyrian pain in the ass
@@ -2270,6 +2263,16 @@ country = {
 			primary_culture = ma
 			religion = kemetic_pantheon
 			capital = 539
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			
+			poptype_rights = { 
+				{
+					culture = lower_kemetic 
+					type = citizen
+				}
+			}
 			
 			own_control_core = 	{
 				539 540 541
