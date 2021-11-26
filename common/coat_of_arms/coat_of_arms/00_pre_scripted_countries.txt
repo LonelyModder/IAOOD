@@ -353,3 +353,14 @@ Croesus_flag  = {
 		color2 = rgb { 20 20 20 }
 	}
 }
+
+Canaan_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 148 119 212 }
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_baal.dds"
+		color1 = rgb { 250 246 25 }
+	}
+}
