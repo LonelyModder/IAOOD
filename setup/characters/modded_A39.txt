@@ -1,4 +1,4 @@
-"A39"={
+﻿"A39"={
 	country="A39"
 	38={
 		first_name="Ashur-rabi"

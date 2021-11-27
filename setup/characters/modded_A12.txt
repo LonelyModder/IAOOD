@@ -1,4 +1,4 @@
-"A12"={
+﻿"A12"={
 	country="A12"
 	67={
 		first_name="Talmai"

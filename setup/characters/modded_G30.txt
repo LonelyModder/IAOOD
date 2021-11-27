@@ -1,4 +1,4 @@
-"G30"={
+﻿"G30"={
 	country="G30"
 	80={
 		first_name="Agelas"

@@ -1,4 +1,4 @@
-"J06"={
+﻿"J06"={
 	country="J06"
 	0={
 		first_name="Maakach"

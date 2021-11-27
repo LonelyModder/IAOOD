@@ -1,4 +1,4 @@
-"H11"={
+﻿"H11"={
 	country="H11"
 	42={
 		first_name="Wasuaruntiya"

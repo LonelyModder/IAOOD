@@ -1,4 +1,4 @@
-"G31"={
+﻿"G31"={
 	country="G31"
 	84={
 		first_name="Thestros"

@@ -1,4 +1,4 @@
-"J07"={
+﻿"J07"={
 	country="J07"
 	55={
 		first_name="Zakarbaal"

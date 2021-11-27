@@ -1,4 +1,4 @@
-"A57"={
+﻿"A57"={
 	country="A57"
 	98={
 		first_name="Akshir-Shimut"

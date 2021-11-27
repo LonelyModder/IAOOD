@@ -1,4 +1,4 @@
-"H19"={
+﻿"H19"={
 	country="H19"
 	73={
 		first_name="Godrias"

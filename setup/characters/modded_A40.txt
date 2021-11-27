@@ -1,4 +1,4 @@
-"A40"={
+﻿"A40"={
 	country="A40"
 	69={
 		first_name="Eulmash-shakin-shumi"

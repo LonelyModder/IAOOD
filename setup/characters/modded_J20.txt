@@ -1,4 +1,4 @@
-"J20"={
+﻿"J20"={
 	country="J20"
 	53={
 		first_name="Abibaal"

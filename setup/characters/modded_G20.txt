@@ -1,4 +1,4 @@
-"G20"={
+﻿"G20"={
 	country="G20"
 	76={
 		first_name="Dryssos"
