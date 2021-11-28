@@ -1,4 +1,4 @@
-hazzian = {
+﻿hazzian = {
 	
 	levy_template = levy_armenioi
 	

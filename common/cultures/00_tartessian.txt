@@ -1,4 +1,4 @@
-tartessian = {
+﻿tartessian = {
 	color = hsv { 0.82 0.37 0.92 }
 	
 	primary = missile_spearthrowers

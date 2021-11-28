@@ -1,4 +1,4 @@
-synaic = {	
+﻿synaic = {	
 	color = hsv { 0.86 0.16 0.96 }
 	
 	primary = missile_spearthrowers

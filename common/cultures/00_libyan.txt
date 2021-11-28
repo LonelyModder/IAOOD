@@ -1,4 +1,4 @@
-libyan = {
+﻿libyan = {
 	color = hsv { 0.05  0.5  0.4 }
 	
 	levy_template = levy_tahenu

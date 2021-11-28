@@ -1,4 +1,4 @@
-thracianic = {
+﻿thracianic = {
 	color = hsv { 0.0 0.5 1.0 }
 	
 	primary = missile_spearthrowers

@@ -1,4 +1,4 @@
-tocharian = {
+﻿tocharian = {
 	color = hsv { 0.03 0.7 0.7 }
 
 	levy_template = levy_tocharic

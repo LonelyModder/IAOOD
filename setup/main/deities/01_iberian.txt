@@ -2,11 +2,11 @@ deity_manager = {
 	deities_database = { ### KEYS 10160-10179 ###
 		10160 = {
 			key = omen_msemno
-			deity = diety_msemno
+			deity = deity_msemno
 		}
 		10161 = {
 			key = omen_mderce
-			deity = diety_mderce
+			deity = deity_mderce
 		}
 		10162 = {
 			key = omen_meacus

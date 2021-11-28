@@ -535,7 +535,7 @@ diplomacy = {
 		member = J13
 		member = J14
 	}
-	#Osorkon the Elder and other rebel leaders
+	#Osorkon the Elder and some of the rebel leaders
 	dependency = { first = E05 second = E24 subject_type = feudatory }
 	dependency = { first = E05 second = E11 subject_type = feudatory }
 	dependency = { first = E05 second = E02 subject_type = feudatory }
@@ -564,6 +564,9 @@ diplomacy = {
 	#Kushite pretender
 	dependency = { first = N07 second = N08 subject_type = feudatory }
 	dependency = { first = N07 second = N13 subject_type = feudatory }
+	#Siamun and some nomarchs loyal to him
+	dependency = { first = N25 second = L07 subject_type = feudatory }
+	dependency = { first = N25 second = E22 subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -2274,7 +2277,7 @@ country = {
 			
 			poptype_rights = { 
 				{
-					culture = lower_kemetic 
+					culture = middle_kemetic 
 					type = citizen
 				}
 			}

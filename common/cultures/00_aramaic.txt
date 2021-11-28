@@ -1,4 +1,4 @@
-aramaic = {	
+﻿aramaic = {	
 	color = hsv { 0.05 1.0 0.5 }
 	
 	primary = missile_spearthrowers

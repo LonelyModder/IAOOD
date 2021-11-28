@@ -1,4 +1,4 @@
-scythic = {
+﻿scythic = {
 	color = hsv { 0.2 0.32 0.55 }
 	
 	levy_template = levy_nomadoi

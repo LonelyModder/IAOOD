@@ -1,4 +1,4 @@
-luwian = {	
+﻿luwian = {	
 	
 	levy_template = levy_troic
 	

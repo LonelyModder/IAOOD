@@ -1,4 +1,4 @@
-axumitic = {
+﻿axumitic = {
 	color = hsv { 0.0  0.0  0.0 }
 	
 	levy_template = levy_souafr

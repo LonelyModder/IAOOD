@@ -1,4 +1,4 @@
-kassites = {	
+﻿kassites = {	
 	color = hsv { 0.9 1 0.81 }
 
 	primary = missile_archers

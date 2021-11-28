@@ -1,4 +1,4 @@
-thyrrenic = {	
+﻿thyrrenic = {	
 	color = hsv { 0.23 0.79 0.55 }
 	levy_template = levy_thyrrenic
 	

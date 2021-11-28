@@ -1,4 +1,4 @@
-occidental = {
+﻿occidental = {
 	color = hsv { 0.2  0.25  0.5 }
 
 	primary = missile_archers

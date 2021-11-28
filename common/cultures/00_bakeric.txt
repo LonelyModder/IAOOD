@@ -1,4 +1,4 @@
-bakeric = {
+﻿bakeric = {
 	color = hsv { 0.47 0.76 0.80 }
 	
 	primary = missile_archers

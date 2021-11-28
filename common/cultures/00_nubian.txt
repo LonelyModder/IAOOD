@@ -1,4 +1,4 @@
-nubian = {
+﻿nubian = {
 	color = hsv { 0.15  0.4  0.6 }
 	
 	primary = missile_archers

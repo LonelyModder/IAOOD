@@ -1,4 +1,4 @@
-iberic = {
+﻿iberic = {
 	color = hsv { 0.07 1.0 1.0 }
 	
 	primary = missile_spearthrowers
