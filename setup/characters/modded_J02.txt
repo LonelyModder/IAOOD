@@ -13,8 +13,6 @@
 		add_finesse=5
 		add_zeal=2
 		no_traits=yes
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	
@@ -32,8 +30,6 @@
 		add_finesse=5
 		add_zeal=2
 		no_traits=yes
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	
@@ -52,8 +48,6 @@
 		add_zeal=5
 		no_traits=yes
 		add_trait="saulid"
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	
@@ -71,8 +65,6 @@
 		add_finesse=5
 		add_zeal=2
 		no_traits=yes
-		add_gold=500
-		add_popularity=60
 		marry_character=char:25
 		#dna=""
 	}
@@ -117,8 +109,6 @@
 		add_zeal=7
 		no_traits=yes
 		add_trait="saulid"
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	
@@ -157,8 +147,6 @@
 		add_zeal=2
 		no_traits=yes
 		add_trait="saulid"
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	
@@ -238,8 +226,6 @@
 		add_finesse=5
 		add_zeal=2
 		no_traits=yes
-		add_gold=500
-		add_popularity=60
 		#dna=""
 	}
 	

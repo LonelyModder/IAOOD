@@ -14,8 +14,6 @@
 		add_zeal=10
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -32,8 +30,6 @@
 		add_finesse=4
 		add_zeal=10
 		no_traits=yes
-		add_gold=500
-		add_popularity=100
 		marry_character=char:14
 		#dna=""
 	}
@@ -79,8 +75,6 @@
 		add_zeal=6
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -100,8 +94,6 @@
 		add_zeal=6
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -121,8 +113,6 @@
 		add_zeal=6
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -141,8 +131,6 @@
 		add_zeal=7
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -162,8 +150,6 @@
 		add_zeal=7
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
@@ -183,8 +169,6 @@
 		add_zeal=7
 		no_traits=yes
 		add_trait="davidids"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	
