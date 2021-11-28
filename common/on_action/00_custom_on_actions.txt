@@ -213,14 +213,6 @@ custom_on_action_sacrifice =
 	}
 }
 
-claims_pulse = {
-	events = {
-		dhe_rome.16
-		dhe_rome.17
-		dhe_rome.18
-	}
-}
-
 yearly_debt_recovery_pulse = {
 	trigger = {
 		has_character_modifier = debt_payoff_toggle
