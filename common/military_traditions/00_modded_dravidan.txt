@@ -1,4 +1,4 @@
-dravidic_philosophy = { 
+﻿dravidic_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = mauryan_mauryas_path_2
 	

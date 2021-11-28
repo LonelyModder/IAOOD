@@ -1,4 +1,4 @@
-zagrosian_philosophy = { 
+﻿zagrosian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = persian_achaemenid_path_4
 	

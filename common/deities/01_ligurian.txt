@@ -1,4 +1,4 @@
-deity_cicnu = {
+﻿deity_cicnu = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {

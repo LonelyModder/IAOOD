@@ -543,6 +543,8 @@ diplomacy = {
 	dependency = { first = E05 second = E12 subject_type = feudatory }
 	dependency = { first = E05 second = E16 subject_type = feudatory }
 	dependency = { first = E05 second = E14 subject_type = feudatory }
+	dependency = { first = E05 second = E13 subject_type = feudatory }
+	dependency = { first = E05 second = L22 subject_type = feudatory }
 	#Babylonian migrant leader
 	dependency = { first = A92 second = A28 subject_type = feudatory }
 	#Assyrian kaskan subject
@@ -559,6 +561,9 @@ diplomacy = {
 	dependency = { first = J20 second = J50 subject_type = subject_colony }
 	dependency = { first = J20 second = J51 subject_type = subject_colony }
 	dependency = { first = J20 second = J52 subject_type = subject_colony }
+	#Kushite pretender
+	dependency = { first = N07 second = N08 subject_type = feudatory }
+	dependency = { first = N07 second = N13 subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.

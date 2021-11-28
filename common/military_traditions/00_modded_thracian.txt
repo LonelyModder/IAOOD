@@ -1,4 +1,4 @@
-thracian_philosophy = { 
+﻿thracian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = greek_philosophy_start_bonus
 	

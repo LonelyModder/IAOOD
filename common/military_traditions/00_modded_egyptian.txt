@@ -1,4 +1,4 @@
-egyptian_philosophy = { 
+﻿egyptian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = levantine_greco_path_1
 	

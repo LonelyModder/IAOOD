@@ -1,4 +1,4 @@
-###Apulian
+﻿###Apulian
 
 deity_zis = {
 	trigger = {

@@ -1,4 +1,4 @@
-balto_lusatian_philosophy = { 
+﻿balto_lusatian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = celtic_gallic_path_7
 	

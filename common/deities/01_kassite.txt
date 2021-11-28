@@ -1,4 +1,4 @@
-### General Deity Checks ###
+﻿### General Deity Checks ###
 
 deity_bugas = {
 	trigger = {

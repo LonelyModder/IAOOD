@@ -1,4 +1,4 @@
-deity_thagyamin = {
+﻿deity_thagyamin = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {

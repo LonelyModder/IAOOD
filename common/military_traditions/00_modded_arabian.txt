@@ -1,4 +1,4 @@
-arabian_philosophy = { 
+﻿arabian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = levantine_arabian_path_2
 	

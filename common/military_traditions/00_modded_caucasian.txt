@@ -1,4 +1,4 @@
-caucasian_philosophy = { 
+﻿caucasian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = celtic_britannic_path_5
 	

@@ -149,7 +149,7 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="agragic"
-	holy_site="omen_msemnocosus"
+	holy_site="omen_msemno"
 	province_rank="settlement"
 	religion="iberic_pantheon"
 	terrain="hills"

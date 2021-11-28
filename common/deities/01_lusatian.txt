@@ -1,4 +1,4 @@
-### Debatable
+﻿### Debatable
 
 deity_perun = {
 	trigger = {

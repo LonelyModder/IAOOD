@@ -1,4 +1,4 @@
-deity_aide = {
+﻿deity_aide = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
