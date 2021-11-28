@@ -565,8 +565,8 @@ diplomacy = {
 	dependency = { first = N07 second = N08 subject_type = feudatory }
 	dependency = { first = N07 second = N13 subject_type = feudatory }
 	#Siamun and some nomarchs loyal to him
-	dependency = { first = N25 second = L07 subject_type = feudatory }
-	dependency = { first = N25 second = E22 subject_type = feudatory }
+	dependency = { first = E25 second = L07 subject_type = feudatory }
+	dependency = { first = E25 second = E22 subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
