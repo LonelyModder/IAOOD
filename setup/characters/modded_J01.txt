@@ -174,7 +174,7 @@
 	63={
 		first_name="Joab"
 		family = c:J15.fam:Ammonite
-		mother="char:59"
+		#mother="char:59"
 		birth_date=1265.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"
@@ -192,7 +192,7 @@
 	64={
 		first_name="Asahel"
 		family = c:J15.fam:Ammonite
-		mother="char:59"
+		#mother="char:59"
 		birth_date=1266.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"

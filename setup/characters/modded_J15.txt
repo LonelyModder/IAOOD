@@ -24,7 +24,7 @@
 		first_name="Hanun"
 		family = c:J15.fam:Ammonite
 		father="char:57"
-		mother="char:15"
+		#mother="char:15"
 		birth_date=1243.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"
@@ -44,7 +44,7 @@
 		family = c:J15.fam:Ammonite
 		female=yes
 		father="char:57"
-		mother="char:15"
+		#mother="char:15"
 		birth_date=1242.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"
@@ -101,7 +101,7 @@
 		family = c:J15.fam:Ammonite
 		female=yes
 		father="char:57"
-		mother="char:15"
+		#mother="char:15"
 		birth_date=1243.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"
