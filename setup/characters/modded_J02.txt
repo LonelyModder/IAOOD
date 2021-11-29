@@ -65,7 +65,6 @@
 		add_finesse=5
 		add_zeal=2
 		no_traits=yes
-		marry_character=char:25
 		#dna=""
 	}
 	

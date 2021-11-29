@@ -1199,45 +1199,6 @@ on_character_death = {
 			}
 		}
 		if = {
-			limit = { 
-				OR = {
-					AND = {
-						this = char:32 
-						char:288 = {
-							OR = {
-								is_alive = no
-								NOT = { employer = c:MAC }
-							}
-						}
-					}
-					AND = {
-						this = char:288
-						is_previous_ruler = yes
-					}
-				}
-				char:289 = { 
-					is_alive = yes
-					employer = c:MAC
-				}
-				char:290 = { 
-					is_alive = yes 
-					employer = c:MAC
-				}
-			}
-			c:MAC = {
-				trigger_event = {
-					id = dhe_macedon.7
-					days = { 100 200 }
-				}
-			}
-		}
-		if = {
-			limit = { this = char:52 }
-			c:KIO = {
-				trigger_event = { id = dhe_mithridates.9 }
-			}
-		}
-		if = {
 			limit = { has_variable = betrothed_flag }
 			remove_variable = betrothed_flag
 		}

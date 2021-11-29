@@ -480,6 +480,10 @@ axemen_heavy_movement_speed = {
 
 #Plains Combat Bonus
 
+axemen_heavy_plains_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_plains_combat_bonus.dds"
+}
+
 missile_archers_plains_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_plains_combat_bonus.dds"
 }
@@ -541,6 +545,10 @@ elephant_indian_plains_combat_bonus = {
 }
 
 #Mountain Combat Bonus
+
+axemen_heavy_mountain_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_mountain_combat_bonus.dds"
+}
 
 missile_archers_mountain_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_mountain_combat_bonus.dds"
@@ -604,6 +612,10 @@ elephant_indian_mountain_combat_bonus = {
 
 #Hills Combat Bonus
 
+axemen_heavy_hills_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_hills_combat_bonus.dds"
+}
+
 missile_archers_hills_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_hills_combat_bonus.dds"
 }
@@ -665,6 +677,10 @@ elephant_indian_hills_combat_bonus = {
 }
 
 #Desert Combat Bonus
+
+axemen_heavy_desert_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_desert_combat_bonus.dds"
+}
 
 missile_archers_desert_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_desert_combat_bonus.dds"
@@ -728,6 +744,10 @@ elephant_indian_desert_combat_bonus = {
 
 #Marsh Combat Bonus
 
+axemen_heavy_marsh_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_marsh_combat_bonus.dds"
+}
+
 missile_archers_marsh_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_marsh_combat_bonus.dds"
 }
@@ -789,6 +809,10 @@ elephant_indian_marsh_combat_bonus = {
 }
 
 #Jungle Combat Bonus
+
+axemen_heavy_jungle_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_jungle_combat_bonus.dds"
+}
 
 missile_archers_jungle_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_jungle_combat_bonus.dds"
@@ -852,6 +876,10 @@ elephant_indian_jungle_combat_bonus = {
 
 #Farmland Combat Bonus
 
+axemen_heavy_farmland_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_farmland_combat_bonus.dds"
+}
+
 missile_archers_farmland_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_farmland_combat_bonus.dds"
 }
@@ -914,6 +942,10 @@ elephant_indian_farmland_combat_bonus = {
 
 #Forest Combat Bonus
 
+axemen_heavy_forest_combat_bonus = {
+    positive = "gfx/interface/icons/modifiers/heavy_infantry_forest_combat_bonus.dds"
+}
+
 missile_archers_forest_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/archers_forest_combat_bonus.dds"
 }
@@ -972,4 +1004,268 @@ elephant_forest_forest_combat_bonus = {
 
 elephant_indian_forest_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/warelephant_forest_combat_bonus.dds"
+}
+
+# Ocean Combat Bonus
+
+axemen_heavy_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_archers_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_spearthrowers_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_camels_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_heavy_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_light_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_heavy_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_spearmen_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_swordsmen_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_horse_archers_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_light_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_spearmen_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_swordsmen_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_african_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_ocean_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_indian_ocean_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+# Coastal Terrain Combat Bonus
+
+axemen_heavy_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_archers_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_spearthrowers_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_camels_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_heavy_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_light_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_heavy_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_spearmen_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_swordsmen_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_horse_archers_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_light_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_spearmen_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_swordsmen_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_african_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_coastal_terrain_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_indian_coastal_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+# Riverine Terrain Combat Bonus
+
+axemen_heavy_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_archers_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_spearthrowers_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_camels_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_heavy_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_light_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_heavy_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_spearmen_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_swordsmen_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_horse_archers_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_light_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_spearmen_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_swordsmen_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_african_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_riverine_terrain_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_indian_riverine_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+# Impassable Terrain Combat Bonus
+
+axemen_heavy_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_archers_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+missile_spearthrowers_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_camels_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_heavy_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+chariot_light_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_heavy_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_spearmen_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+heavy_swordsmen_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_horse_archers_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+cavalry_light_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_spearmen_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+light_swordsmen_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_african_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_impassable_terrain_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
+}
+
+elephant_indian_impassable_terrain_combat_bonus = {
+    positive = "gfx/interface/icons/_default.dds"
 }

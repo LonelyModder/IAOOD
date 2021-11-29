@@ -535,6 +535,18 @@ diplomacy = {
 		member = J13
 		member = J14
 	}
+	#Phoenician defensive league
+	defensive_league = {
+		member = J20
+		member = J03
+		member = J04
+		member = J05
+		member = J07
+		member = J09
+		member = J10
+		member = J18
+		member = J19
+	}
 	#Osorkon the Elder and some of the rebel leaders
 	dependency = { first = E05 second = E24 subject_type = feudatory }
 	dependency = { first = E05 second = E11 subject_type = feudatory }
