@@ -2496,9 +2496,9 @@ add_relevant_loyal_subunit_effect = {
 			exists = commander
 			commander = {
 				OR = {
-					has_culture_group = east_levantine
-					has_culture_group = south_levantine
-					has_culture_group = numidian
+					has_culture_group = aramaic
+					has_culture_group = arabian
+					has_culture_group = libyan
 				}
 			}
 		}
@@ -2517,7 +2517,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = camels
+				add_loyal_subunit = cavalry_camels
 			}
 			25 = {
 				trigger = {
@@ -2530,10 +2530,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = light_cavalry
+				add_loyal_subunit = cavalry_light
 			}
 			25 = {
-				add_loyal_subunit = light_infantry
+				add_loyal_subunit = light_spearmen
 			}
 			25 = {
 				trigger = {
@@ -2546,7 +2546,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_cavalry
+				add_loyal_subunit = cavalry_heavy
 			}
 		}
 	}
@@ -2555,12 +2555,12 @@ add_relevant_loyal_subunit_effect = {
 			exists = commander
 			commander = {
 				OR = {
-					has_culture_group = west_levantine
-					has_culture_group = hellenic
-					has_culture_group = latin
-					has_culture_group = persia
-					has_culture_group = anatolian
-					has_culture_group = caucasian
+					has_culture_group = levantine
+					has_culture_group = grekoid
+					has_culture_group = italic
+					has_culture_group = akkadian
+					has_culture_group = eiranic
+					has_culture_group = iranic
 				}
 			}
 		}
@@ -2569,7 +2569,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_loyal_subunit = light_infantry
+				add_loyal_subunit = light_spearmen
 			}
 			30 = {
 				trigger = {
@@ -2582,10 +2582,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_infantry
+				add_loyal_subunit = heavy_spearmen
 			}
 			20 = {
-				add_loyal_subunit = archers
+				add_loyal_subunit = missile_archers
 			}
 			20 = {
 				trigger = {
@@ -2598,7 +2598,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = light_cavalry
+				add_loyal_subunit = cavalry_light
 			}
 			10 = {
 				trigger = {
@@ -2606,12 +2606,25 @@ add_relevant_loyal_subunit_effect = {
 						any_owned_province = {
 							OR = {
 								is_importing_trade_good = elephants
-								trade_goods = elephants
+								trade_goods = elephants_indian
 							}
 						}
 					}
 				}
-				add_loyal_subunit = warelephant
+				add_loyal_subunit = elephant_indian
+			}
+			10 = {
+				trigger = {
+					commander.employer = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = elephants
+								trade_goods = elephants_african
+							}
+						}
+					}
+				}
+				add_loyal_subunit = elephant_african
 			}
 		}
 	}
@@ -2620,10 +2633,10 @@ add_relevant_loyal_subunit_effect = {
 			exists = commander
 			commander = {
 				OR = {
-					has_culture_group = aryan
-					has_culture_group = pracyan
-					has_culture_group = indian
-					has_culture_group = tibetan
+					has_culture_group = vedic
+					has_culture_group = dravidic
+					has_culture_group = veddic
+					has_culture_group = qiang
 				}
 			}
 		}
@@ -2632,7 +2645,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_loyal_subunit = light_infantry
+				add_loyal_subunit = light_spearmen
 			}
 			10 = {
 				trigger = {
@@ -2645,10 +2658,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_infantry
+				add_loyal_subunit = heavy_spearmen
 			}
 			30 = {
-				add_loyal_subunit = archers
+				add_loyal_subunit = missile_archers
 			}
 			20 = {
 				trigger = {
@@ -2656,15 +2669,28 @@ add_relevant_loyal_subunit_effect = {
 						any_owned_province = {
 							OR = {
 								is_importing_trade_good = elephants
-								trade_goods = elephants
+								trade_goods = elephants_indian
 							}
 						}
 					}
 				}
-				add_loyal_subunit = warelephant
+				add_loyal_subunit = elephant_indian
 			}
 			20 = {
-				add_loyal_subunit = chariots
+				trigger = {
+					commander.employer = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = elephants
+								trade_goods = elephants_african
+							}
+						}
+					}
+				}
+				add_loyal_subunit = elephant_african
+			}
+			20 = {
+				add_loyal_subunit = chariot_light
 			}
 		}
 	}
@@ -2672,7 +2698,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = scythia
+				has_culture_group = scythic
 			}
 		}
 		commander = {
@@ -2680,7 +2706,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_loyal_subunit = light_infantry
+				add_loyal_subunit = light_spearmen
 			}
 			20 = {
 				trigger = {
@@ -2693,7 +2719,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_cavalry
+				add_loyal_subunit = cavalry_heavy
 			}
 			40 = {
 				trigger = {
@@ -2706,7 +2732,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = horse_archers
+				add_loyal_subunit = cavalry_horse_archers
 			}
 			20 = {
 				trigger = {
@@ -2719,7 +2745,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = light_cavalry
+				add_loyal_subunit = cavalry_light
 			}
 		}
 	}
@@ -2730,10 +2756,10 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_loyal_subunit = chariots
+				add_loyal_subunit = chariot_light
 			}
 			20 = {
-				add_loyal_subunit = light_infantry
+				add_loyal_subunit = light_spearmen
 			}
 			40 = {
 				trigger = {
@@ -2746,7 +2772,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = light_cavalry
+				add_loyal_subunit = cavalry_light
 			}
 			20 = {
 				trigger = {
@@ -2759,7 +2785,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_infantry
+				add_loyal_subunit = heavy_spearmen
 			}
 		}
 	}
