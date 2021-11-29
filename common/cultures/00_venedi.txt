@@ -1,4 +1,4 @@
-venedi = {
+﻿venedi = {
 
 	levy_template = levy_squating
 	

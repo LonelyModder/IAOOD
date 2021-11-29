@@ -1,4 +1,4 @@
-liguric = {
+﻿liguric = {
 	color = hsv { 0.92 0.83 0.95 }
 	
 	levy_template = levy_liguric

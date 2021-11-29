@@ -1,4 +1,4 @@
-eiranic = {
+﻿eiranic = {
 	
 	levy_template = levy_eparsas
 	

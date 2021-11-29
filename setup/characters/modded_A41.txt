@@ -1,4 +1,4 @@
-"A41"={
+﻿"A41"={
 	country="A41"
 	44={
 		first_name="Hapatila"

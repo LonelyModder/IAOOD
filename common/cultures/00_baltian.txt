@@ -1,4 +1,4 @@
-baltian = {
+﻿baltian = {
 
 	levy_template = levy_romuvi
 	

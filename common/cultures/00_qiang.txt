@@ -1,4 +1,4 @@
-qiang = {
+﻿qiang = {
 	color = hsv { 0.93 0.89 0.81 }
 
 	levy_template = levy_hillman

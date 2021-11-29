@@ -1,4 +1,4 @@
-vedic_philosophy = { 
+﻿vedic_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = mauryan_noble_path_3
 	

@@ -1,4 +1,4 @@
-celtic = {
+﻿celtic = {
 
 	primary = missile_archers
 	second = light_swordsmen

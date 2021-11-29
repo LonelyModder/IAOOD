@@ -1,4 +1,4 @@
-"A11"={
+﻿"A11"={
 	country="A11"
 	50={
 		first_name="Hadad-ezer"

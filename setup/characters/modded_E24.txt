@@ -1,10 +1,10 @@
-"E24"={
+﻿"E24"={
 	country="E24"
 	8={
 		first_name="Nimlot"
 		family = c:E24.fam:Shosqenq-Shu
-		father="char:5"
-		mother="char:6"
+		#father="char:5"
+		#mother="char:6"
 		birth_date=1250.1.1
 		culture="ma"
 		religion="kemetic_pantheon"

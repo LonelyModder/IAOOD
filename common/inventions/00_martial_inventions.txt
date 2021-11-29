@@ -644,9 +644,9 @@ military_inventions = {
 
     ## Gallic Specific - Level 3
     gallic_montefortino_helmet_inv = {
-    	modifier = { light_sworsmen_discipline = 0.1 
+    	modifier = { light_swordsmen_discipline = 0.1 
 					 light_spearmen_discipline = 0.1 
-    				 heavy_sworsmen_discipline = 0.1
+    				 heavy_swordsmen_discipline = 0.1
 					 heavy_spearmen_discipline = 0.1 }
         requires = { gallic_celtic_plough_inv gallic_chainmail_inv }
         allow = {

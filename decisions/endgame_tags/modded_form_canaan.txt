@@ -1,0 +1,97 @@
+﻿country_decisions = {
+		
+	# Form Canaan
+	form_canaan = {
+		
+		potential = {
+			OR = {
+				primary_culture = canaanites
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = 1CA
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 690 #Gath
+					province_id = 687 #Jebus
+					province_id = 648 #Hazor
+					province_id = 669 #Megiddo
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = canaan_must_not_exist
+				NOT = {
+					any_country = {
+						tag = 1CA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 690 #Gath
+			owns = 687 #Jebus
+			owns = 648 #Hazor
+			owns = 669 #Megiddo
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Canaan_Name"
+			change_country_flag = Canaan_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Canaan_ADJ"
+				change_country_color = rgb { 50 14 128 }
+				change_country_tag = 1CA
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 648
+						}
+					}
+				}
+				set_capital = 648
+				hidden_effect = {
+					p:648.state = {
+						set_state_capital = 648
+					}
+				}
+			}
+			p:648 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:648 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,4 +1,4 @@
-veddic = {
+﻿veddic = {
 	color = hsv { 0.30 0 0.58 }
 	
 	primary = missile_archers

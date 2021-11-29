@@ -1,6 +1,6 @@
 ﻿### General Deity Checks ###
 
-deity_msemnocosus = { # WAR 
+deity_msemno = { # WAR 
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -10,7 +10,7 @@ deity_msemnocosus = { # WAR
 			}
 			religion = iberic_pantheon
 			primary_culture = cagotic
-			deity:omen_msemnocosus = {
+			deity:omen_msemno = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
@@ -29,7 +29,7 @@ deity_msemnocosus = { # WAR
 	}
 }
 
-deity_mdercetius = { # ECONOMY
+deity_mderce = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -39,7 +39,7 @@ deity_mdercetius = { # ECONOMY
 			}
 			religion = iberic_pantheon
 			primary_culture = cagotic
-			deity:omen_mdercetius = {
+			deity:omen_mderce = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

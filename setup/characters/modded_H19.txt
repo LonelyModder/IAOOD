@@ -1,4 +1,4 @@
-"H19"={
+﻿"H19"={
 	country="H19"
 	73={
 		first_name="Godrias"
@@ -14,8 +14,6 @@
 		add_zeal=6
 		no_traits=yes
 		add_trait="gordis"
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	

@@ -1,4 +1,4 @@
-"A92"={
+﻿"A92"={
 	country="A92"
 	37={
 		first_name="Mar-biti-apla-usur"

@@ -1,4 +1,4 @@
-"H11"={
+﻿"H11"={
 	country="H11"
 	42={
 		first_name="Wasuaruntiya"
@@ -13,8 +13,6 @@
 		add_finesse=10
 		add_zeal=6
 		no_traits=yes
-		add_gold=500
-		add_popularity=100
 		#dna=""
 	}
 	

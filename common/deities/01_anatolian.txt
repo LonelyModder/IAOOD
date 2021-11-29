@@ -1,5 +1,5 @@
 ﻿### General Deity Checks ###
-deity_suwaliyat = { #agdistis
+deity_suwaliyat = { 
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
@@ -8,7 +8,7 @@ deity_suwaliyat = { #agdistis
 				value >= very_rare_deity_svalue
 			}
 			religion = luwic_pantheon
-			deity:omen_agdistis = {
+			deity:omen_suwaliyat = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

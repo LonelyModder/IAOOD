@@ -1,4 +1,4 @@
-barbaric = {
+﻿barbaric = {
 
 	primary = missile_archers
 	second = axemen_heavy

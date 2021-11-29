@@ -1,4 +1,4 @@
-castelic = {
+﻿castelic = {
 	color = hsv { 0.93 0.97 0.88 }
 	
 	primary = missile_spearthrowers

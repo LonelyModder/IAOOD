@@ -1,4 +1,4 @@
-"N07"={
+﻿"N07"={
 	country="N07"
 	12={
 		family = c:N07.fam:El-Kurru

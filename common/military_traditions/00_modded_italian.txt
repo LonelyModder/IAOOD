@@ -1,4 +1,4 @@
-italian_philosophy = { 
+﻿italian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = latin_roman_path_5
 	

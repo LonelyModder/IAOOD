@@ -535,7 +535,19 @@ diplomacy = {
 		member = J13
 		member = J14
 	}
-	#Osorkon the Elder and other rebel leaders
+	#Phoenician defensive league
+	defensive_league = {
+		member = J20
+		member = J03
+		member = J04
+		member = J05
+		member = J07
+		member = J09
+		member = J10
+		member = J18
+		member = J19
+	}
+	#Osorkon the Elder and some of the rebel leaders
 	dependency = { first = E05 second = E24 subject_type = feudatory }
 	dependency = { first = E05 second = E11 subject_type = feudatory }
 	dependency = { first = E05 second = E02 subject_type = feudatory }
@@ -544,12 +556,7 @@ diplomacy = {
 	dependency = { first = E05 second = E16 subject_type = feudatory }
 	dependency = { first = E05 second = E14 subject_type = feudatory }
 	dependency = { first = E05 second = E13 subject_type = feudatory }
-	dependency = { first = E05 second = E15 subject_type = feudatory }
 	dependency = { first = E05 second = L22 subject_type = feudatory }
-	dependency = { first = E05 second = L21 subject_type = feudatory }
-	dependency = { first = E05 second = L20 subject_type = feudatory }
-	dependency = { first = E05 second = L23 subject_type = feudatory }
-	dependency = { first = E05 second = L19 subject_type = feudatory }
 	#Babylonian migrant leader
 	dependency = { first = A92 second = A28 subject_type = tributary }
 	#Assyrian kaskan subject
@@ -566,6 +573,14 @@ diplomacy = {
 	dependency = { first = J20 second = J50 subject_type = subject_colony }
 	dependency = { first = J20 second = J51 subject_type = subject_colony }
 	dependency = { first = J20 second = J52 subject_type = subject_colony }
+	#Kushite pretender
+	dependency = { first = N07 second = N08 subject_type = feudatory }
+	dependency = { first = N07 second = N13 subject_type = feudatory }
+	#Siamun and some nomarchs loyal to him
+	dependency = { first = E25 second = L07 subject_type = feudatory }
+	dependency = { first = E25 second = E22 subject_type = feudatory }
+	#Elam ties with Ellipi
+	dependency = { first = A57 second = A58 subject_type = tributary }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -2270,6 +2285,16 @@ country = {
 			primary_culture = ma
 			religion = kemetic_pantheon
 			capital = 539
+			succession_law=egyption_succession_law
+			succession=old_egyptian_succession
+			monarchy_citizen_law = foreign_law_for_minorities
+			
+			poptype_rights = { 
+				{
+					culture = middle_kemetic 
+					type = citizen
+				}
+			}
 			
 			own_control_core = 	{
 				539 540 541
@@ -3945,7 +3970,7 @@ country = {
 		}
 		
 		A31 = { #Gambulu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 979
@@ -3956,7 +3981,7 @@ country = {
 		}
 		
 		A32 = { #Puqudu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 968
@@ -3967,7 +3992,7 @@ country = {
 		}
 		
 		A33 = { #Gurasimmu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 934
@@ -3978,7 +4003,7 @@ country = {
 		}
 		
 		A34 = { #Ruʾa
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 903
@@ -3989,7 +4014,7 @@ country = {
 		}
 		
 		A35 = { #Litau
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 932
@@ -4338,7 +4363,7 @@ country = {
 		}
 		
 		A63 = { #Bit-Yakin
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 940
@@ -4349,7 +4374,7 @@ country = {
 		}
 		
 		A64 = { #Bit-Dakuru
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 7723
@@ -4360,7 +4385,7 @@ country = {
 		}
 		
 		A65 = { #Bit-Amukkanu
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 938
@@ -4371,7 +4396,7 @@ country = {
 		}
 		
 		A66 = { #Bit-Shilani
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 944
@@ -4382,7 +4407,7 @@ country = {
 		}
 		
 		A67 = { #Bit-Hashmar
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 964

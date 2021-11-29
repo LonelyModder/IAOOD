@@ -1,4 +1,4 @@
-grekoid_philosophy = { 
+﻿grekoid_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = greek_states_path_7
 	
@@ -139,6 +139,7 @@ grekoid_philosophy = {
 			naval_morale_recovery = 0.25
 			global_commerce_modifier = 0.15
 		}
+		enable_ability = naval_raiding
 		icon = greek_states_path_7
 		requires = {grekoid_path_3b}
 		on_activate = {

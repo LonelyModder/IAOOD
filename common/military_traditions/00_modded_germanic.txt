@@ -1,4 +1,4 @@
-germanic_philosophy = { 
+﻿germanic_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = celtic_germanic_path_5
 	

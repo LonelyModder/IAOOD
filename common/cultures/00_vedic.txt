@@ -1,4 +1,4 @@
-vedic = {
+﻿vedic = {
 	color = hsv { 0.09 0.95 0.92 }
 	
 	primary = elephant_indian

@@ -1,4 +1,4 @@
-"G52"={
+﻿"G52"={
 	country="G52"
 	99={
 		first_name="Thersippus"

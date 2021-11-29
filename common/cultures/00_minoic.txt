@@ -1,4 +1,4 @@
-minoic = {	
+﻿minoic = {	
 	color = hsv { 0.5 0.3 0.5 }
 	levy_template = levy_minoitic
 	

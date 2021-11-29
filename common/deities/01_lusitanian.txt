@@ -1,4 +1,4 @@
-deity_epona = {
+﻿deity_epona = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {

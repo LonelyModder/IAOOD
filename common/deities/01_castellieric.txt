@@ -1,4 +1,4 @@
-deity_bindo = {
+﻿deity_bindo = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {

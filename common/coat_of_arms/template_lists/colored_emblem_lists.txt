@@ -45,7 +45,7 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				primary_culture = "sumeric"
+				country_culture_group = "synaic"
 			}
 			4 = "ce_border_leaves_01.dds"
 		}
@@ -100,41 +100,6 @@ colored_emblem_texture_lists = {
 			3 = "ce_horse_03.dds"
 			3 = "ce_boar_01.dds"
 		}
-		special_selection = {
-			trigger = {
-				or = {
-					country_culture_group = "britannic"
-					country_culture_group = "gaelic"
-				}
-			}
-			5 = "ce_horse_01.dds"
-			10 = "ce_bull_03.dds"
-			10 = "ce_snake_02.dds"
-			10 = "ce_bow_01.dds"
-			10 = "ce_s_01.dds"
-			10 = "ce_stone_01.dds"
-		}
-		
-		special_selection = {
-			trigger = {
-				country_culture_group = "celt_iberia" #celtiberian
-			}
-			5 = "ce_sword_02.dds"
-			5 = "ce_horse_06.dds"
-			5 = "ce_knot_02.dds"
-			5 = "ce_knot_03.dds"
-			5 = "ce_lauburu_01.dds"
-			5 = "ce_whirl_01.dds"
-		}
-		
-		special_selection = {
-			trigger = {
-				country_culture_group = "iberia" #iberian
-			}
-			10 = "ce_bull_04.dds"
-			10 = "ce_bird_01.dds"
-			10 = "ce_man_01.dds"
-		}
 		
 		special_selection = {
 			trigger = {
@@ -174,11 +139,11 @@ colored_emblem_texture_lists = {
 					country_culture_group = illyric
 				}
 			}
-			10 = "ce_grekoid_1.dds"
-			10 = "ce_grekoid_2.dds"
-			10 = "ce_grekoid_3.dds"
-			10 = "ce_grekoid_4.dds"
-			10 = "ce_grekoid_5.dds"
+			10 = "ce_hellenic_1.dds"
+			10 = "ce_hellenic_2.dds"
+			10 = "ce_hellenic_3.dds"
+			10 = "ce_hellenic_4.dds"
+			10 = "ce_hellenic_5.dds"
 			10 = "ce_macedonian_sun.dds"
 			10 = "ce_samnite.dds"
 			

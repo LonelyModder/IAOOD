@@ -1,4 +1,4 @@
-iranic = {
+﻿iranic = {
 	
 	levy_template = levy_parsas
 	

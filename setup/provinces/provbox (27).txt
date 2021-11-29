@@ -680,7 +680,7 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="ilevantic"
-	holy_site="omen_mdercetius"
+	holy_site="omen_mderce"
 	province_rank="settlement"
 	religion="iberic_pantheon"
 	terrain="plains"

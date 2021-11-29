@@ -1,4 +1,4 @@
-nuragian_philosophy = { 
+﻿nuragian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = greek_antigonid_path_2
 	

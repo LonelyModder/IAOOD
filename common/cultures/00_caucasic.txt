@@ -1,4 +1,4 @@
-caucasic = {
+﻿caucasic = {
 	
 	levy_template = levy_mountainier
 	

@@ -41,9 +41,9 @@ iron = { #119 territories
 		local_tax_modifier = 0.02
 	}
 	country = {
-		axemen_haevy_discipline = 0.1
+		axemen_heavy_discipline = 0.1
 		heavy_spearmen_discipline = 0.1
-		heavy_sworsmen_discipline = 0.1
+		heavy_swordsmen_discipline = 0.1
 	}
 
 	color = hsv { 0.0 0.0 0.11 }

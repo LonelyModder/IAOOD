@@ -1,4 +1,4 @@
-nubian_philosophy = { 
+﻿nubian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
 	image = levantine_egyptian_path_end_bonus
 	
