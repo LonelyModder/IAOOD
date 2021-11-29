@@ -3968,7 +3968,7 @@ country = {
 		}
 		
 		A31 = { #Gambulu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 979
@@ -3979,7 +3979,7 @@ country = {
 		}
 		
 		A32 = { #Puqudu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 968
@@ -3990,7 +3990,7 @@ country = {
 		}
 		
 		A33 = { #Gurasimmu
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 934
@@ -4001,7 +4001,7 @@ country = {
 		}
 		
 		A34 = { #Ruʾa
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 903
@@ -4012,7 +4012,7 @@ country = {
 		}
 		
 		A35 = { #Litau
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
 			capital = 932
@@ -4361,7 +4361,7 @@ country = {
 		}
 		
 		A63 = { #Bit-Yakin
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 940
@@ -4372,7 +4372,7 @@ country = {
 		}
 		
 		A64 = { #Bit-Dakuru
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 7723
@@ -4383,7 +4383,7 @@ country = {
 		}
 		
 		A65 = { #Bit-Amukkanu
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 938
@@ -4394,7 +4394,7 @@ country = {
 		}
 		
 		A66 = { #Bit-Shilani
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 944
@@ -4405,7 +4405,7 @@ country = {
 		}
 		
 		A67 = { #Bit-Hashmar
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = chaldean
 			religion = anunnaki_pantheon
 			capital = 964
