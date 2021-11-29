@@ -558,7 +558,7 @@ diplomacy = {
 	dependency = { first = E05 second = E13 subject_type = feudatory }
 	dependency = { first = E05 second = L22 subject_type = feudatory }
 	#Babylonian migrant leader
-	dependency = { first = A92 second = A28 subject_type = feudatory }
+	dependency = { first = A92 second = A28 subject_type = tributary }
 	#Assyrian kaskan subject
 	dependency = { first = A39 second = A30 subject_type = feudatory }
 	#Assyrian pain in the ass
@@ -579,6 +579,8 @@ diplomacy = {
 	#Siamun and some nomarchs loyal to him
 	dependency = { first = E25 second = L07 subject_type = feudatory }
 	dependency = { first = E25 second = E22 subject_type = feudatory }
+	#Elam ties with Ellipi
+	dependency = { first = A57 second = A58 subject_type = tributary }
 }
 
 provinces = { #Any entry must contain a comment with city name.
