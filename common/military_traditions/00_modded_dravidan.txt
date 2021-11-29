@@ -126,7 +126,6 @@
 			naval_morale_recovery = 0.25
 			global_commerce_modifier = 0.15
 		}
-		enable_ability = naval_raiding
 		icon = mauryan_mauryas_path_2
 		requires = {dravidic_path_3b}
 	}
