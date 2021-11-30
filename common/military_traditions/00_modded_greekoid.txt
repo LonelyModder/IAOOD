@@ -14,7 +14,6 @@
 			limit = {
 				any_country_culture = {
 					is_integrated = yes
-					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
 					OR = {
 						this.culture.culture_group = culture_group:grekoid
 						this.culture.culture_group = culture_group:minoic
@@ -25,7 +24,6 @@
 				custom_tooltip = {
 					text = tradition_unlock_requirement_short
 					is_integrated = yes
-					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
 					OR = {
 						this.culture.culture_group = culture_group:grekoid
 						this.culture.culture_group = culture_group:minoic
@@ -38,7 +36,6 @@
 				text = "tradition_unlock_requirement_grekoid"
 				any_country_culture = {
 					is_integrated = yes
-					country_culture_pop_count >= percent_size_culture_group_comparison_traditions
 					OR = {
 						this.culture.culture_group = culture_group:grekoid
 						this.culture.culture_group = culture_group:minoic

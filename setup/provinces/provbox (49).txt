@@ -69,7 +69,6 @@
 		culture="ma"
 		religion="kemetic_pantheon"
 	}
-	fortress_building=1
 	library_building=1
 	commerce_building=1
 }
@@ -353,7 +352,6 @@
 		religion="judahic"
 	}
 	port_building=1
-	fortress_building=1
 }
 #Daphnai
 510=

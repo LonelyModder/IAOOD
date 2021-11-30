@@ -7,7 +7,14 @@ on_giving_birth_effect = {
 				exists = father
 				father = { has_nickname = yes }
 				is_male = yes
-				country_culture_group = italic
+				OR = {
+					has_culture = rroman
+					has_culture = oscan
+					has_culture = rumbrian
+					has_culture = picenian
+					has_culture = uvenetic
+					has_culture = paddan_venetic
+				}
 			}
 		}
 		scope:newborn = {
@@ -21,7 +28,14 @@ on_becoming_adult_effect = {
 		limit = {
 			has_nickname = no
 			is_male = yes
-			country_culture_group = italic
+			OR = {
+				has_culture = rroman
+				has_culture = oscan
+				has_culture = rumbrian
+				has_culture = picenian
+				has_culture = uvenetic
+				has_culture = paddan_venetic
+			}
 		}
 		random_list = {
 			75 = { }

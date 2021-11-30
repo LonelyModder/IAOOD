@@ -1863,13 +1863,6 @@ percent_size_culture_group_comparison = {
 	min = 10
 }
 
-percent_size_culture_group_comparison_traditions = {
-	value = root.country_culture.country_culture_pop_count
-	multiply = 0.15
-	max = 500
-	min = 10
-}
-
 impose_fine_corruption_svalue = {
 	value = 0
 	subtract = scope:target.corruption
