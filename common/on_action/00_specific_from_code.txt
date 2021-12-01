@@ -2517,12 +2517,6 @@ on_game_initialized = {
 	}
 }
 
-on_province_colonized = {
-	events = {
-		dhe_rome.20
-	}
-}
-
 on_ownership_change = { #province scope
 	effect = {
 		if = {
@@ -2628,24 +2622,6 @@ on_ownership_change = { #province scope
 		}
 	}
 	events = {
-		dhe_city_fall.1
-		dhe_city_fall.2
-		dhe_city_fall.3
-		dhe_city_fall.4
-		dhe_city_fall.5
-		dhe_city_fall.6
-		dhe_city_fall.7
-		dhe_city_fall.8
-		dhe_city_fall.9
-		dhe_city_fall.10
-		dhe_city_fall.11
-		dhe_city_fall.12
-		dhe_city_fall.13
-		dhe_city_fall.14
-		dhe_city_fall.15
-		dhe_city_fall.16
-		dhe_city_fall.17
-		dhe_city_fall.100
 		dhe_body.3
 		comet.2
 	}
@@ -2961,20 +2937,9 @@ on_great_battle_lost_country = { #root = country scope of the main unit on the l
 	}
 	random_events = {
 		95 = 0
-        5 = dhe_rome.19
         50 = ip_monarchy.62
         50 = ip_monarchy.63
         10 = distinction.21
-	}
-}
-
-on_battle_lost_country = { #root = country scope of the main unit on the losing side, scope:actor = main unit on the losing side, scope:target = main unit on the winning side
-	events = {
-		dhe_rome.14
-	}
-	random_events = {
-		199 = 0
-		1 = dhe_rome.19
 	}
 }
 

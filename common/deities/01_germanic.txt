@@ -4,10 +4,7 @@ deity_mbaduhenna = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mbaduhenna = {
 				holy_site_deity_check_trigger = yes
@@ -32,10 +29,7 @@ deity_mnehalennia = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mnehalennia = {
 				holy_site_deity_check_trigger = yes
@@ -60,10 +54,7 @@ deity_malcis = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_malcis = {
 				holy_site_deity_check_trigger = yes
@@ -88,10 +79,7 @@ deity_mnerthus = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mnerthus = {
 				holy_site_deity_check_trigger = yes
@@ -116,10 +104,7 @@ deity_mvagdavercustis = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mvagdavercustis = {
 				holy_site_deity_check_trigger = yes
@@ -144,10 +129,7 @@ deity_mtamfana = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mtamfana = {
 				holy_site_deity_check_trigger = yes
@@ -172,10 +154,7 @@ deity_mtuisto = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mtuisto = {
 				holy_site_deity_check_trigger = yes
@@ -200,10 +179,7 @@ deity_mhludana = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = chaosgods_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = chaosgods_pantheon }
 			religion = chaosgods_pantheon
 			deity:omen_mhludana = {
 				holy_site_deity_check_trigger = yes

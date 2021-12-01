@@ -4,10 +4,7 @@ deity_mgurzil = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			deity:omen_mgurzil = {
 				holy_site_deity_check_trigger = yes
@@ -32,10 +29,7 @@ deity_mneith = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			religion = kemetic_pantheon
 			deity:omen_mneith = {
@@ -61,10 +55,7 @@ deity_mset = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			religion = kemetic_pantheon
 			deity:omen_mset = {
@@ -90,10 +81,7 @@ deity_mshaheded = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			deity:omen_mshaheded = {
 				holy_site_deity_check_trigger = yes
@@ -119,10 +107,7 @@ deity_mtannit = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		NOT = { primary_culture = carthaginian }
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			deity:omen_mtannit = {
 				holy_site_deity_check_trigger = yes
@@ -147,10 +132,7 @@ deity_mnanna_tala = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			deity:omen_mnanna_tala = {
 				holy_site_deity_check_trigger = yes
@@ -175,10 +157,7 @@ deity_msinifere = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = libyan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion = libyan_pantheon
 			deity:omen_msinifere = {
 				holy_site_deity_check_trigger = yes

@@ -4,10 +4,7 @@ deity_sivan = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_sivan = {
 				holy_site_deity_check_trigger = yes
@@ -32,10 +29,7 @@ deity_murugan = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_murugan = {
 				holy_site_deity_check_trigger = yes
@@ -60,10 +54,7 @@ deity_seyyon = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_seyyon = {
 				holy_site_deity_check_trigger = yes
@@ -88,10 +79,7 @@ deity_thirumaal = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_thirumaal = {
 				holy_site_deity_check_trigger = yes
@@ -116,10 +104,7 @@ deity_vaali = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_vaali = {
 				holy_site_deity_check_trigger = yes
@@ -144,10 +129,7 @@ deity_khotravai = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_khotravai = {
 				holy_site_deity_check_trigger = yes
@@ -172,10 +154,7 @@ deity_mayyon = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_mayyon = {
 				holy_site_deity_check_trigger = yes
@@ -200,10 +179,7 @@ deity_vanji_ko = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_vanji_ko = {
 				holy_site_deity_check_trigger = yes
@@ -228,10 +204,7 @@ deity_angayarkanni = { # CULTURE Meenakshi
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = harrapan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
 			religion = harrapan_pantheon
 			deity:omen_angayarkanni = {
 				holy_site_deity_check_trigger = yes

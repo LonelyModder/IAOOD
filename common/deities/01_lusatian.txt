@@ -4,10 +4,7 @@ deity_perun = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_perun = {
 				holy_site_deity_check_trigger = yes
@@ -33,10 +30,7 @@ deity_rugiaevit = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_rugiaevit = {
 				holy_site_deity_check_trigger = yes
@@ -62,10 +56,7 @@ deity_veles = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_veles = {
 				holy_site_deity_check_trigger = yes
@@ -91,10 +82,7 @@ deity_yarovit = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_yarovit = {
 				holy_site_deity_check_trigger = yes
@@ -120,10 +108,7 @@ deity_khors = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_khors = {
 				holy_site_deity_check_trigger = yes
@@ -149,10 +134,7 @@ deity_svarozhits = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_svarozhits = {
 				holy_site_deity_check_trigger = yes
@@ -178,10 +160,7 @@ deity_svetivid = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_svetivid = {
 				holy_site_deity_check_trigger = yes
@@ -207,10 +186,7 @@ deity_zvezda = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_zvezda = {
 				holy_site_deity_check_trigger = yes
@@ -236,10 +212,7 @@ deity_zhiva = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = slavic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = slavic_pantheon }
 			religion = slavic_pantheon
 			deity:omen_zhiva = {
 				holy_site_deity_check_trigger = yes

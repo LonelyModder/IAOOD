@@ -3,9 +3,8 @@ deity_suwaliyat = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_suwaliyat = {
@@ -31,9 +30,8 @@ deity_arinna = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_arinna = {
@@ -59,9 +57,8 @@ deity_ellel = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_ellel = {
@@ -87,9 +84,8 @@ deity_aserdus  = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_aserdus  = {
@@ -115,9 +111,8 @@ deity_telipinu  = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_telipinu  = {
@@ -143,9 +138,8 @@ deity_sutekh = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_sutekh = {
@@ -171,9 +165,8 @@ deity_aruna = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_aruna = {
@@ -205,9 +198,8 @@ deity_wurrukatte = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_wurrukatte = {
@@ -231,12 +223,10 @@ deity_wurrukatte = {
 
 deity_tarhunz = {
 	trigger = {
-		has_dlc = "Heirs of Alexander"
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			deity:omen_tarhunz = {
@@ -263,12 +253,10 @@ deity_tarhunz = {
 
 deity_sauska = {
 	trigger = {
-		has_dlc = "Heirs of Alexander"
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = luwic_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = luwic_pantheon
 			}
 			religion = luwic_pantheon
 			religion = hurrian_pantheon

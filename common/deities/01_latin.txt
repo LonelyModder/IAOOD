@@ -3,10 +3,7 @@ deity_mmars = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mmars = {
 				holy_site_deity_check_trigger = yes
@@ -33,10 +30,7 @@ deity_mmercury = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mmercury = {
 				holy_site_deity_check_trigger = yes
@@ -61,10 +55,7 @@ deity_mminerva = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mminerva = {
 				holy_site_deity_check_trigger = yes
@@ -90,10 +81,7 @@ deity_mceres = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mceres = {
 				holy_site_deity_check_trigger = yes
@@ -119,10 +107,7 @@ deity_mpluto = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mpluto = {
 				holy_site_deity_check_trigger = yes
@@ -149,10 +134,7 @@ deity_mjupiter = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mjupiter = {
 				holy_site_deity_check_trigger = yes
@@ -178,10 +160,7 @@ deity_mfortuna = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mfortuna = {
 				holy_site_deity_check_trigger = yes
@@ -207,10 +186,7 @@ deity_mbacchus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mbacchus = {
 				holy_site_deity_check_trigger = yes
@@ -236,10 +212,7 @@ deity_mvulcan = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mvulcan = {
 				holy_site_deity_check_trigger = yes
@@ -266,10 +239,7 @@ deity_mdiana = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mdiana = {
 				holy_site_deity_check_trigger = yes
@@ -296,10 +266,7 @@ deity_mneptune = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mneptune = {
 				holy_site_deity_check_trigger = yes
@@ -329,10 +296,7 @@ deity_mhercules = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mhercules = {
 				holy_site_deity_check_trigger = yes
@@ -359,10 +323,7 @@ deity_mvenus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mvenus = {
 				holy_site_deity_check_trigger = yes
@@ -389,10 +350,7 @@ deity_mfaunus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mfaunus = {
 				holy_site_deity_check_trigger = yes
@@ -418,10 +376,7 @@ deity_mjuno = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mjuno = {
 				holy_site_deity_check_trigger = yes
@@ -448,10 +403,7 @@ deity_msol = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_msol = {
 				holy_site_deity_check_trigger = yes
@@ -477,10 +429,7 @@ deity_mcastores = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = italiotan_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = italiotan_pantheon }
 			religion = italiotan_pantheon
 			deity:omen_mcastores = {
 				holy_site_deity_check_trigger = yes

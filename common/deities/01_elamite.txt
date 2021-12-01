@@ -3,10 +3,7 @@ deity_inshushinak = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			deity:omen_inshushinak = {
 				holy_site_deity_check_trigger = yes
@@ -32,10 +29,7 @@ deity_narundi = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			deity:omen_narundi = {
 				holy_site_deity_check_trigger = yes
@@ -61,10 +55,7 @@ deity_luhurati = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			deity:omen_luhurati = {
 				holy_site_deity_check_trigger = yes
@@ -90,10 +81,7 @@ deity_humban = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			religion = protoiranian_pantheon
 			deity:omen_humban = {
@@ -120,10 +108,7 @@ deity_nahhunte = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			deity:omen_nahhunte = {
 				holy_site_deity_check_trigger = yes
@@ -149,10 +134,7 @@ deity_pinikir = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			religion = hurrian_pantheon
 			deity:omen_pinikir = {
@@ -179,10 +161,7 @@ deity_kirmashir = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			deity:omen_kirmashir = {
 				holy_site_deity_check_trigger = yes
@@ -208,10 +187,7 @@ deity_manzat = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			religion = anunnaki_pantheon
 			deity:omen_manzat = {
@@ -238,10 +214,7 @@ deity_napirisha = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = elamite_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = elamite_pantheon }
 			religion = elamite_pantheon
 			religion = anunnaki_pantheon
 			deity:omen_napirisha = {

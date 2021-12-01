@@ -3690,7 +3690,7 @@ country = {
 		}
 		
 		A07 = { #Bit-Rehob
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
 			capital = 757
@@ -3701,7 +3701,7 @@ country = {
 		}
 		
 		A08 = { #Tadmur
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
 			capital = 754
@@ -3712,7 +3712,7 @@ country = {
 		}
 		
 		A09 = { #Bit-Hadyan
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
 			capital = 815
@@ -3723,7 +3723,7 @@ country = {
 		}
 		
 		A10 = { #Bit-Yarim
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
 			capital = 802

@@ -3,10 +3,7 @@ deity_yhwh = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = judahic
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = judahic }
 			religion = judahic
 			deity:omen_yhwh = {
 				holy_site_deity_check_trigger = yes
@@ -35,10 +32,7 @@ deity_ashera = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = judahic
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = judahic }
 			religion = judahic
 			deity:omen_ashera = {
 				holy_site_deity_check_trigger = yes
@@ -60,10 +54,7 @@ deity_malakim = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = judahic
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = judahic }
 			religion = judahic
 			deity:omen_malakim = {
 				holy_site_deity_check_trigger = yes
@@ -85,10 +76,7 @@ deity_cherubs = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = judahic
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = judahic }
 			religion = judahic
 			deity:omen_cherubs = {
 				holy_site_deity_check_trigger = yes
@@ -110,10 +98,7 @@ deity_nehushtan = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = judahic
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = judahic }
 			religion = judahic
 			deity:omen_nehushtan = {
 				holy_site_deity_check_trigger = yes

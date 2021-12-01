@@ -3,10 +3,7 @@ deity_menhit = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			religion = kemetic_pantheon
 			deity:omen_menhit = {
@@ -33,10 +30,7 @@ deity_apedemak = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_apedemak = {
 				holy_site_deity_check_trigger = yes
@@ -62,10 +56,7 @@ deity_amesemi = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_amesemi = {
 				holy_site_deity_check_trigger = yes
@@ -91,10 +82,7 @@ deity_sobomakal = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_sobomakal = {
 				holy_site_deity_check_trigger = yes
@@ -120,10 +108,7 @@ deity_arensnuphis = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_arensnuphis = {
 				holy_site_deity_check_trigger = yes
@@ -149,10 +134,7 @@ deity_dedun = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_dedun = {
 				holy_site_deity_check_trigger = yes
@@ -178,10 +160,7 @@ deity_mandulis = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = ethiopian_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			religion = ethiopian_pantheon
 			deity:omen_mandulis = {
 				holy_site_deity_check_trigger = yes

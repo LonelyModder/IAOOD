@@ -4,10 +4,7 @@ deity_mares = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mares = {
 				holy_site_deity_check_trigger = yes
@@ -34,10 +31,7 @@ deity_mposeidon = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mposeidon = {
 				holy_site_deity_check_trigger = yes
@@ -66,10 +60,7 @@ deity_mheracles = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mheracles = {
 				holy_site_deity_check_trigger = yes
@@ -95,10 +86,7 @@ deity_mapollo = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mapollo = {
 				holy_site_deity_check_trigger = yes
@@ -124,10 +112,7 @@ deity_mhephaestus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mhephaestus = {
 				holy_site_deity_check_trigger = yes
@@ -153,10 +138,7 @@ deity_mathena = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mathena = {
 				holy_site_deity_check_trigger = yes
@@ -182,10 +164,7 @@ deity_masclepius = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_masclepius = {
 				holy_site_deity_check_trigger = yes
@@ -211,10 +190,7 @@ deity_mhades = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mhades = {
 				holy_site_deity_check_trigger = yes
@@ -268,10 +244,7 @@ deity_maphrodite = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_maphrodite = {
 				holy_site_deity_check_trigger = yes
@@ -298,10 +271,7 @@ deity_mpan = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mpan = {
 				holy_site_deity_check_trigger = yes
@@ -328,10 +298,7 @@ deity_mzeus = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mzeus = {
 				holy_site_deity_check_trigger = yes
@@ -358,10 +325,7 @@ deity_mtyche = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mtyche = {
 				holy_site_deity_check_trigger = yes
@@ -388,10 +352,7 @@ deity_mhermes = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mhermes = {
 				holy_site_deity_check_trigger = yes
@@ -418,10 +379,7 @@ deity_mhera = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mhera = {
 				holy_site_deity_check_trigger = yes
@@ -448,10 +406,7 @@ deity_martemis = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_martemis = {
 				holy_site_deity_check_trigger = yes
@@ -478,10 +433,7 @@ deity_mhelios = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mhelios = {
 				holy_site_deity_check_trigger = yes
@@ -508,10 +460,7 @@ deity_mdemeter = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mdemeter = {
 				holy_site_deity_check_trigger = yes
@@ -538,10 +487,7 @@ deity_mdionysus = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mdionysus = {
 				holy_site_deity_check_trigger = yes
@@ -567,10 +513,7 @@ deity_mdioscuri = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mdioscuri = {
 				holy_site_deity_check_trigger = yes
@@ -597,10 +540,7 @@ deity_meros = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_meros = {
 				holy_site_deity_check_trigger = yes
@@ -626,10 +566,7 @@ deity_mpersephone = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mpersephone = {
 				holy_site_deity_check_trigger = yes
@@ -661,10 +598,7 @@ deity_mselene = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			religion = grecoid_pantheon
 			deity:omen_mselene = {
 				holy_site_deity_check_trigger = yes
@@ -851,10 +785,7 @@ deity_mhelen = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mhelen = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -883,10 +814,7 @@ deity_mhyacinthus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mhyacinthus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -933,10 +861,7 @@ deity_marethousa = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_marethousa = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -971,10 +896,7 @@ deity_mdione = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mdione = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1004,10 +926,7 @@ deity_machilles = {
 		NOT = { country_culture_group = latin }
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_machilles = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1119,10 +1038,7 @@ deity_mtelephos = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mtelephos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1148,10 +1064,7 @@ deity_mleto = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mleto = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1177,10 +1090,7 @@ deity_mhekate = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mhekate = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1208,10 +1118,7 @@ deity_mdiktynna = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mdiktynna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1238,10 +1145,7 @@ deity_meleuthya = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_meleuthya = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1268,10 +1172,7 @@ deity_mvelchanos = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mvelchanos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1298,10 +1199,7 @@ deity_mrieia = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mrieia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1330,10 +1228,7 @@ deity_mariadne = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mariadne = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1360,10 +1255,7 @@ deity_mamaya = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mamaya = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -1390,10 +1282,7 @@ deity_mkarmanor = {
 		primary_culture = laconic
 		OR = {
 			religion = grecoid_pantheon
-			religion_pops_in_country = {
-				target = grecoid_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = grecoid_pantheon }
 			deity:omen_mkarmanor = {
 				holy_site_deity_check_trigger = yes
 			}

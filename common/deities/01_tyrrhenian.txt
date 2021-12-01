@@ -3,10 +3,7 @@ deity_mlaran = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mlaran = {
 				holy_site_deity_check_trigger = yes
@@ -33,10 +30,7 @@ deity_mapulu = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mapulu = {
 				holy_site_deity_check_trigger = yes
@@ -63,10 +57,7 @@ deity_mturms = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mturms = {
 				holy_site_deity_check_trigger = yes
@@ -93,10 +84,7 @@ deity_maita = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_maita = {
 				holy_site_deity_check_trigger = yes
@@ -123,10 +111,7 @@ deity_mtinia = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mtinia = {
 				holy_site_deity_check_trigger = yes
@@ -153,10 +138,7 @@ deity_mmenrva = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mmenrva = {
 				holy_site_deity_check_trigger = yes
@@ -183,10 +165,7 @@ deity_mnortia = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mnortia = {
 				holy_site_deity_check_trigger = yes
@@ -213,10 +192,7 @@ diety_mcels = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mcels = {
 				holy_site_deity_check_trigger = yes
@@ -243,10 +219,7 @@ deity_mnethuns = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mnethuns = {
 				holy_site_deity_check_trigger = yes
@@ -276,10 +249,7 @@ deity_mhercle = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mhercle = {
 				holy_site_deity_check_trigger = yes
@@ -306,10 +276,7 @@ deity_msethlans = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_msethlans = {
 				holy_site_deity_check_trigger = yes
@@ -335,10 +302,7 @@ deity_mturan = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mturan = {
 				holy_site_deity_check_trigger = yes
@@ -365,10 +329,7 @@ deity_muni = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_muni = {
 				holy_site_deity_check_trigger = yes
@@ -395,10 +356,7 @@ deity_martume = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_martume = {
 				holy_site_deity_check_trigger = yes
@@ -425,10 +383,7 @@ deity_musil = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_musil = {
 				holy_site_deity_check_trigger = yes
@@ -455,10 +410,7 @@ deity_mzerene = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mzerene = {
 				holy_site_deity_check_trigger = yes
@@ -485,10 +437,7 @@ deity_mfufluns = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = villanic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = villanic_pantheon }
 			religion = villanic_pantheon
 			deity:omen_mfufluns = {
 				holy_site_deity_check_trigger = yes

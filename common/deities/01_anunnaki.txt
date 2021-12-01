@@ -6,9 +6,8 @@ deity_mninurta = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_mninurta = {
@@ -34,9 +33,8 @@ deity_mshamash = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			religion = judahic
@@ -69,9 +67,8 @@ deity_mea = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_mea = {
@@ -97,9 +94,8 @@ deity_msin = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_msin = {
@@ -125,9 +121,8 @@ deity_mishtar = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			religion = judahic
@@ -160,9 +155,8 @@ deity_mnabu = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_mnabu = {
@@ -188,9 +182,8 @@ deity_menlil = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_menlil = {
@@ -217,9 +210,8 @@ deity_mashshur = {
 		polytheistic_check_religion_trigger = yes
 		NOT = { primary_culture = agade }
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_mashshur = {
@@ -245,9 +237,8 @@ deity_mmarduk = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = anunnaki_pantheon
-				value >= very_rare_deity_svalue
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
 			}
 			religion = anunnaki_pantheon
 			deity:omen_mmarduk = {

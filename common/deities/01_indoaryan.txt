@@ -4,10 +4,7 @@ deity_mshiva = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mshiva = {
 				holy_site_deity_check_trigger = yes
@@ -32,10 +29,7 @@ deity_mkubera = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mkubera = {
 				holy_site_deity_check_trigger = yes
@@ -60,10 +54,7 @@ deity_msaraswati = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_msaraswati = {
 				holy_site_deity_check_trigger = yes
@@ -88,10 +79,7 @@ deity_mindra = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mindra = {
 				holy_site_deity_check_trigger = yes
@@ -116,10 +104,7 @@ deity_mbrahma = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mbrahma = {
 				holy_site_deity_check_trigger = yes
@@ -144,10 +129,7 @@ deity_msamudra = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_msamudra = {
 				holy_site_deity_check_trigger = yes
@@ -174,10 +156,7 @@ deity_mvishnu = { # WAR
 			polytheistic_check_religion_trigger = yes
 		}
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mvishnu = {
 				holy_site_deity_check_trigger = yes
@@ -202,10 +181,7 @@ deity_mprajapati = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mprajapati = {
 				holy_site_deity_check_trigger = yes
@@ -230,10 +206,7 @@ deity_msoma = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_msoma = {
 				holy_site_deity_check_trigger = yes
@@ -258,10 +231,7 @@ deity_mkanya_devi = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mkanya_devi = {
 				holy_site_deity_check_trigger = yes
@@ -286,10 +256,7 @@ deity_msamba = { # ECONOMY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_msamba = {
 				holy_site_deity_check_trigger = yes
@@ -314,10 +281,7 @@ deity_mkrishna = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mkrishna = {
 				holy_site_deity_check_trigger = yes
@@ -342,10 +306,7 @@ deity_mvishwanath = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mvishwanath = {
 				holy_site_deity_check_trigger = yes
@@ -370,10 +331,7 @@ deity_mrama = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mrama = {
 				holy_site_deity_check_trigger = yes
@@ -398,10 +356,7 @@ deity_mlakshmi = { # FERTILITY
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mlakshmi = {
 				holy_site_deity_check_trigger = yes
@@ -426,10 +381,7 @@ deity_mbhrigu = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = vedic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = vedic_pantheon }
 			religion = vedic_pantheon
 			deity:omen_mbhrigu = {
 				holy_site_deity_check_trigger = yes

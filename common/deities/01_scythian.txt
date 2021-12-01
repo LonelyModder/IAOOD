@@ -4,10 +4,7 @@ deity_mthagimasadas = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mthagimasadas = {
 				holy_site_deity_check_trigger = yes
@@ -36,10 +33,7 @@ deity_mapi = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mapi = {
 				holy_site_deity_check_trigger = yes
@@ -66,10 +60,7 @@ deity_mpapaios = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mpapaios = {
 				holy_site_deity_check_trigger = yes
@@ -95,10 +86,7 @@ deity_margimpasa = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_margimpasa = {
 				holy_site_deity_check_trigger = yes
@@ -124,10 +112,7 @@ deity_mtabiti = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mtabiti = {
 				holy_site_deity_check_trigger = yes
@@ -153,10 +138,7 @@ deity_mgoitosyrus = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mgoitosyrus = {
 				holy_site_deity_check_trigger = yes
@@ -182,10 +164,7 @@ deity_mtargitaos = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_mtargitaos = {
 				holy_site_deity_check_trigger = yes
@@ -211,10 +190,7 @@ deity_anguipede = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion_pops_in_country = {
-				target = scythic_pantheon
-				value >= very_rare_deity_svalue
-			}
+			common_deity_trigger = { RELIGION = scythic_pantheon }
 			religion = scythic_pantheon
 			deity:omen_anguipede = {
 				holy_site_deity_check_trigger = yes
