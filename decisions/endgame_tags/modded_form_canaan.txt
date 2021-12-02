@@ -58,7 +58,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Canaan_ADJ"
-				change_country_color = rgb { 50 14 128 }
+				change_country_color = "canaan_color"
 				change_country_tag = 1CA
 			}
 			if = {

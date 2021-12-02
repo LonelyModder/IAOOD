@@ -56,7 +56,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Madai_Adj"
-				change_country_color =  rgb { 24 186 24 }
+				change_country_color =  "madai_color"
 				change_country_tag = 1ME
 			}
 			if = {

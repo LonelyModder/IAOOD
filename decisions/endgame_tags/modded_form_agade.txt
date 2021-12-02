@@ -76,7 +76,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Agade_ADJ"
-				#change_country_color =  rgb { 188 70 235 }
+				change_country_color =  "agade_color"
 				change_country_tag = 1AG
 			}
 			if = {

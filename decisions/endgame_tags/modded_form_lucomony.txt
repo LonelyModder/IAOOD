@@ -74,7 +74,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Lucomony_ADJ"
-				change_country_color = rgb { 24 13 143 }
+				change_country_color = "lucomony_color"
 				change_country_tag = 1ET
 			}
 			if = {

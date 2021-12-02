@@ -65,8 +65,10 @@
 			custom_tooltip = "tier_2_formable_tooltip"
 			if = {
 					limit = {
-						primary_culture = cypriotic
-						primary_culture = greek_punic
+						OR = {
+							primary_culture = cypriotic
+							primary_culture = greek_punic
+						}
 					}
 					change_country_name = "Alasya1_Name"
 			}
@@ -100,7 +102,7 @@
 					}
 					change_country_adjective = "Alasya2_ADJ"
 				}
-				change_country_color =  "offwhite"
+				change_country_color =  "alasya_color"
 				change_country_tag = 1CP
 			}
 			if = {

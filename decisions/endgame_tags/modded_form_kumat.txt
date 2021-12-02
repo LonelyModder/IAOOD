@@ -81,14 +81,14 @@
 						}
 					}
 					change_country_adjective = "Kumat1_ADJ"
-					change_country_color =  rgb { 237 162 33 }
+					change_country_color =  "kumat1_color"
 				}
 				if = {
 					limit = {
 						country_culture_group = nubian
 					}
 					change_country_adjective = "Kumat2_ADJ"
-					change_country_color =  rgb { 201 91 22 }
+					change_country_color =  "kumat2_color"
 				}
 				change_country_tag = 1KE
 			}

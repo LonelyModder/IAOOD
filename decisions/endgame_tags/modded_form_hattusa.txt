@@ -95,7 +95,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Hattusa_ADJ"
-				change_country_color =  rgb { 125 46 20 }
+				change_country_color =  "hattusa_color"
 				change_country_tag = 1HI
 			}
 			if = {

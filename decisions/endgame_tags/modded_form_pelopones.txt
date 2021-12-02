@@ -63,7 +63,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "Pelopones_ADJ"
-				change_country_color =  "offwhite"
+				change_country_color =  "pelopones_color"
 				change_country_tag = 1PL
 			}
 			if = {
