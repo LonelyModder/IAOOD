@@ -3,9 +3,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -14,9 +14,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -168,9 +168,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -179,9 +179,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -410,9 +410,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -421,9 +421,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -432,9 +432,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -443,9 +443,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -454,9 +454,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -465,9 +465,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -476,9 +476,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -487,9 +487,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -498,9 +498,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -509,9 +509,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -520,9 +520,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -531,9 +531,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -542,9 +542,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -553,9 +553,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -564,9 +564,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -575,9 +575,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -586,9 +586,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -597,9 +597,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -608,9 +608,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -619,9 +619,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -641,9 +641,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -652,9 +652,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -663,9 +663,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -674,9 +674,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -685,9 +685,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -696,9 +696,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -707,9 +707,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -718,9 +718,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -729,9 +729,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -740,9 +740,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -751,9 +751,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -762,9 +762,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -773,9 +773,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -784,9 +784,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -795,9 +795,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -806,9 +806,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -817,9 +817,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -828,9 +828,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -839,9 +839,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -850,9 +850,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -861,9 +861,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -872,9 +872,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -883,9 +883,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -894,9 +894,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -905,9 +905,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -916,9 +916,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -927,9 +927,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -938,9 +938,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -949,9 +949,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -960,9 +960,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -971,9 +971,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -982,9 +982,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -993,9 +993,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1004,9 +1004,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1015,9 +1015,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1026,9 +1026,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1037,9 +1037,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1048,9 +1048,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1059,9 +1059,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1070,9 +1070,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1081,9 +1081,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1092,9 +1092,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1103,9 +1103,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1114,9 +1114,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1125,9 +1125,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1136,9 +1136,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1147,9 +1147,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1158,9 +1158,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1169,9 +1169,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1180,9 +1180,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1191,9 +1191,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1202,9 +1202,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1213,9 +1213,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1224,9 +1224,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1235,9 +1235,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1246,9 +1246,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1257,9 +1257,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1268,9 +1268,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1279,9 +1279,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1290,9 +1290,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1301,9 +1301,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1312,9 +1312,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1323,9 +1323,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1334,9 +1334,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1345,9 +1345,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1356,9 +1356,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1367,9 +1367,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1378,9 +1378,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1389,9 +1389,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1400,9 +1400,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1411,9 +1411,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1422,9 +1422,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1433,9 +1433,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1444,9 +1444,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1455,9 +1455,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1466,9 +1466,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1477,9 +1477,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1488,9 +1488,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1499,9 +1499,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1510,9 +1510,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1521,9 +1521,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1532,9 +1532,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1543,9 +1543,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1554,9 +1554,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1565,9 +1565,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1576,9 +1576,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1587,9 +1587,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1598,9 +1598,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1609,9 +1609,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1620,9 +1620,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1631,9 +1631,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1642,9 +1642,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1653,9 +1653,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1664,9 +1664,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1675,9 +1675,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1686,9 +1686,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1697,9 +1697,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1708,9 +1708,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1719,9 +1719,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1730,9 +1730,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1741,9 +1741,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1752,9 +1752,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1763,9 +1763,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1774,9 +1774,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1785,9 +1785,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1796,9 +1796,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1807,9 +1807,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1818,9 +1818,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1829,9 +1829,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1840,9 +1840,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1851,9 +1851,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1862,9 +1862,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1873,9 +1873,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1884,9 +1884,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1895,9 +1895,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1906,9 +1906,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1917,9 +1917,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1928,9 +1928,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1939,9 +1939,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1950,9 +1950,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1961,9 +1961,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1972,9 +1972,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1983,9 +1983,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -1994,9 +1994,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2005,9 +2005,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2016,9 +2016,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2027,9 +2027,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2038,9 +2038,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2049,9 +2049,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2060,9 +2060,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2071,9 +2071,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2082,9 +2082,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2093,9 +2093,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2104,9 +2104,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2115,9 +2115,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2126,9 +2126,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2137,9 +2137,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2148,9 +2148,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2159,9 +2159,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2170,9 +2170,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2181,9 +2181,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2192,9 +2192,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2203,9 +2203,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2214,9 +2214,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2225,9 +2225,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2236,9 +2236,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2247,9 +2247,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2258,9 +2258,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2269,9 +2269,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2280,9 +2280,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2291,9 +2291,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2302,9 +2302,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2313,9 +2313,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2324,9 +2324,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2335,9 +2335,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2346,9 +2346,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2357,9 +2357,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2368,9 +2368,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2379,9 +2379,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2390,9 +2390,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2401,9 +2401,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2412,9 +2412,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2423,9 +2423,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2434,9 +2434,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2445,9 +2445,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2456,9 +2456,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2467,9 +2467,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2478,9 +2478,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2489,9 +2489,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2500,9 +2500,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2511,9 +2511,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2522,9 +2522,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2533,9 +2533,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2544,9 +2544,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2555,9 +2555,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2566,9 +2566,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2577,9 +2577,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2588,9 +2588,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2599,9 +2599,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2610,9 +2610,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2621,9 +2621,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2632,9 +2632,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2643,9 +2643,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2654,9 +2654,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2665,9 +2665,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2676,9 +2676,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2687,9 +2687,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2698,9 +2698,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2709,9 +2709,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2720,9 +2720,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2731,9 +2731,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2742,9 +2742,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2753,9 +2753,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2764,9 +2764,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2775,9 +2775,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2786,9 +2786,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2797,9 +2797,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2808,9 +2808,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2819,9 +2819,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2830,9 +2830,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2841,9 +2841,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2852,9 +2852,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2863,9 +2863,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2874,9 +2874,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2885,9 +2885,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2896,9 +2896,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2907,9 +2907,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2918,9 +2918,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2929,9 +2929,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2940,9 +2940,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2951,9 +2951,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2962,9 +2962,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2973,9 +2973,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2984,9 +2984,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2995,9 +2995,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3006,9 +3006,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3017,9 +3017,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3028,9 +3028,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3039,9 +3039,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3050,9 +3050,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3061,9 +3061,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3072,9 +3072,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3083,9 +3083,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3094,9 +3094,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3105,9 +3105,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3116,9 +3116,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3127,9 +3127,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3138,9 +3138,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3149,9 +3149,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3160,9 +3160,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3171,9 +3171,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3182,9 +3182,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3193,9 +3193,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3204,9 +3204,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3215,9 +3215,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3226,9 +3226,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3237,9 +3237,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3248,9 +3248,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3259,9 +3259,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3270,9 +3270,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3281,9 +3281,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3292,9 +3292,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3303,9 +3303,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3314,9 +3314,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3325,9 +3325,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3336,9 +3336,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3347,9 +3347,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3358,9 +3358,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3369,9 +3369,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3380,9 +3380,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3391,9 +3391,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3402,9 +3402,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3413,9 +3413,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3424,9 +3424,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3435,9 +3435,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3446,9 +3446,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3457,9 +3457,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3468,9 +3468,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3479,9 +3479,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3490,9 +3490,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3501,9 +3501,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3512,9 +3512,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3523,9 +3523,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3534,9 +3534,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3545,9 +3545,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3556,9 +3556,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3567,9 +3567,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3578,9 +3578,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3589,9 +3589,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3600,9 +3600,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3611,9 +3611,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3622,9 +3622,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3633,9 +3633,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3644,9 +3644,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3655,9 +3655,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3666,9 +3666,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3677,9 +3677,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3688,9 +3688,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3699,9 +3699,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3710,9 +3710,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3721,9 +3721,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3732,9 +3732,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3743,9 +3743,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3754,9 +3754,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3765,9 +3765,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3776,9 +3776,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3787,9 +3787,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3798,9 +3798,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3809,9 +3809,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3820,9 +3820,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3831,9 +3831,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3842,9 +3842,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3853,9 +3853,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3864,9 +3864,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3875,9 +3875,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3886,9 +3886,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3897,9 +3897,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3908,9 +3908,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3919,9 +3919,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3930,9 +3930,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3941,9 +3941,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3952,9 +3952,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3963,9 +3963,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3974,9 +3974,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3985,9 +3985,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -3996,9 +3996,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4007,9 +4007,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4018,9 +4018,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4029,9 +4029,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4040,9 +4040,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4051,9 +4051,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4062,9 +4062,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4073,9 +4073,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4084,9 +4084,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4095,9 +4095,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4106,9 +4106,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4117,9 +4117,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4128,9 +4128,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4139,9 +4139,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4150,9 +4150,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4161,9 +4161,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4172,9 +4172,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4183,9 +4183,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4194,9 +4194,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4205,9 +4205,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4216,9 +4216,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4227,9 +4227,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4238,9 +4238,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4249,9 +4249,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4260,9 +4260,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4271,9 +4271,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4282,9 +4282,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4293,9 +4293,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4304,9 +4304,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4315,9 +4315,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4326,9 +4326,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4337,9 +4337,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4348,9 +4348,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4359,9 +4359,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4370,9 +4370,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4381,9 +4381,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4392,9 +4392,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4403,9 +4403,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4414,9 +4414,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4425,9 +4425,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4436,9 +4436,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4447,9 +4447,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4458,9 +4458,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4469,9 +4469,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4480,9 +4480,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4491,9 +4491,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4502,9 +4502,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4513,9 +4513,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4524,9 +4524,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4535,9 +4535,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4546,9 +4546,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4557,9 +4557,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4568,9 +4568,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4579,9 +4579,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4590,9 +4590,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods="silk"
 }
@@ -4601,9 +4601,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4612,9 +4612,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4623,9 +4623,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4634,9 +4634,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4645,9 +4645,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4656,9 +4656,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4667,9 +4667,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4678,9 +4678,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4788,9 +4788,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4799,9 +4799,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4878,9 +4878,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4889,9 +4889,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4900,9 +4900,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4911,9 +4911,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4922,9 +4922,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4933,9 +4933,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4944,9 +4944,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4955,9 +4955,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4966,9 +4966,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4977,9 +4977,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4988,9 +4988,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -4999,9 +4999,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5010,9 +5010,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5021,9 +5021,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5032,9 +5032,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5043,9 +5043,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5054,9 +5054,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5065,9 +5065,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5076,9 +5076,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5087,9 +5087,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5098,9 +5098,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5109,9 +5109,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5120,9 +5120,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5131,9 +5131,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5142,9 +5142,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5153,9 +5153,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5164,9 +5164,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5175,9 +5175,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5186,9 +5186,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5197,9 +5197,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5208,9 +5208,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5219,9 +5219,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5230,9 +5230,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5241,9 +5241,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5252,9 +5252,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5263,9 +5263,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5274,9 +5274,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5285,9 +5285,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5296,9 +5296,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5307,9 +5307,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5318,9 +5318,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5329,9 +5329,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5340,9 +5340,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5351,9 +5351,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5362,9 +5362,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5373,9 +5373,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5384,9 +5384,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5395,9 +5395,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5406,9 +5406,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5417,9 +5417,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5450,9 +5450,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5461,9 +5461,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5472,9 +5472,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5483,9 +5483,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5494,9 +5494,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5505,9 +5505,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5516,9 +5516,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5527,9 +5527,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5538,9 +5538,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5549,9 +5549,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5560,9 +5560,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5571,9 +5571,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5582,9 +5582,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5593,9 +5593,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5604,9 +5604,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5615,9 +5615,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5626,9 +5626,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5637,9 +5637,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5648,9 +5648,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5659,9 +5659,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5670,9 +5670,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5681,9 +5681,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5692,9 +5692,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5703,9 +5703,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5714,9 +5714,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5725,9 +5725,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5736,9 +5736,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5747,9 +5747,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5758,9 +5758,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5769,9 +5769,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5780,9 +5780,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5791,9 +5791,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5802,9 +5802,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5813,9 +5813,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5824,9 +5824,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5835,9 +5835,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -5857,9 +5857,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7584,9 +7584,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7595,9 +7595,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7606,9 +7606,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7617,9 +7617,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7628,9 +7628,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7639,9 +7639,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7650,9 +7650,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7661,9 +7661,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7672,9 +7672,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7683,9 +7683,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7694,9 +7694,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7705,9 +7705,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7716,9 +7716,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7727,9 +7727,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7738,9 +7738,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7749,9 +7749,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7760,9 +7760,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7771,9 +7771,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7782,9 +7782,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7793,9 +7793,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7804,9 +7804,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7815,9 +7815,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7826,9 +7826,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7837,9 +7837,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7848,9 +7848,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7859,9 +7859,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7870,9 +7870,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7881,9 +7881,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7892,9 +7892,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7903,9 +7903,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7914,9 +7914,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7925,9 +7925,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7936,9 +7936,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7947,9 +7947,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7958,9 +7958,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7969,9 +7969,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7980,9 +7980,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -7991,9 +7991,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8002,9 +8002,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8013,9 +8013,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8068,9 +8068,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8079,9 +8079,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8090,9 +8090,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8101,9 +8101,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8112,9 +8112,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8123,9 +8123,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8134,9 +8134,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8145,9 +8145,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8156,9 +8156,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8167,9 +8167,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8178,9 +8178,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8189,9 +8189,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8200,9 +8200,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8211,9 +8211,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8222,9 +8222,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8233,9 +8233,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8244,9 +8244,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8255,9 +8255,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8266,9 +8266,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8277,9 +8277,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8288,9 +8288,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8453,9 +8453,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8464,9 +8464,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8475,9 +8475,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8486,9 +8486,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8497,9 +8497,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8508,9 +8508,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8519,9 +8519,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8530,9 +8530,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8541,9 +8541,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8552,9 +8552,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8563,9 +8563,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8574,9 +8574,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8585,9 +8585,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8596,9 +8596,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8607,9 +8607,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8618,9 +8618,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8629,9 +8629,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8640,9 +8640,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8651,9 +8651,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8662,9 +8662,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8673,9 +8673,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8684,9 +8684,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8695,9 +8695,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8706,9 +8706,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8717,9 +8717,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8728,9 +8728,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8739,9 +8739,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8750,9 +8750,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8761,9 +8761,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8772,9 +8772,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8783,9 +8783,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8794,9 +8794,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8805,9 +8805,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8816,9 +8816,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8827,9 +8827,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8838,9 +8838,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8849,9 +8849,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8860,9 +8860,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8871,9 +8871,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8882,9 +8882,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8893,9 +8893,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8904,9 +8904,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8915,9 +8915,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8926,9 +8926,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8937,9 +8937,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8948,9 +8948,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8959,9 +8959,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8970,9 +8970,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8981,9 +8981,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -8992,9 +8992,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9003,9 +9003,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9014,9 +9014,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9025,9 +9025,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9036,9 +9036,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9047,9 +9047,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9058,9 +9058,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9069,9 +9069,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9080,9 +9080,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9091,9 +9091,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9102,9 +9102,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9113,9 +9113,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9124,9 +9124,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9135,9 +9135,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9146,9 +9146,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9157,9 +9157,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9168,9 +9168,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9179,9 +9179,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9190,9 +9190,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9201,9 +9201,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9212,9 +9212,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9223,9 +9223,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9234,9 +9234,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9245,9 +9245,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9256,9 +9256,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9322,9 +9322,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9333,9 +9333,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9344,9 +9344,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9355,9 +9355,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9366,9 +9366,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9377,9 +9377,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9388,9 +9388,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -9399,9 +9399,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank=""
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }

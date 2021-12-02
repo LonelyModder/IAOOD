@@ -2190,9 +2190,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="aestian"
+	culture="veddan"
 	province_rank="settlement"
-	religion="matrist_religion"
+	religion="totemic_pantheon"
 	terrain="plains"
 	trade_goods="wine"
 	citizen=
