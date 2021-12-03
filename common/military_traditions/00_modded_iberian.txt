@@ -66,8 +66,7 @@
 	
 	iberian_path_3 = { ###iberian path
 		modifier = { 
-			light_spearthrowers_offensive = 0.1
-			light_spearthrowers_defensive = 0.05
+			missile_spearthrowers_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = celtic_gallic_path_2
@@ -116,7 +115,6 @@
 	
 	iberian_path_5a = { ###iberian path
 		modifier = { 
-			missile_spearthrowers_offensive = 0.1
 			missile_spearthrowers_defensive = 0.05
 		}
 		icon = celtic_gallic_path_2

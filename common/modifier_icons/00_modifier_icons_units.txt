@@ -1,4 +1,4 @@
-#Archers
+﻿#Archers
 
 missile_archers_discipline = {
     positive = "gfx/interface/icons/modifiers/archers_discipline.dds"

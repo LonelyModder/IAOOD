@@ -66,8 +66,8 @@
 	dravidic_path_3a = { ###dravidic path
 		modifier = { 
 			elephant_indian_morale = 0.15
-			elephants_indian_offensive = 0.15
-			elephants_indian_defensive = 0.15
+			elephant_indian_offensive = 0.15
+			elephant_indian_defensive = 0.15
 		}
 		icon = mauryan_mauryas_path_2
 		requires = {dravidic_path_2a}

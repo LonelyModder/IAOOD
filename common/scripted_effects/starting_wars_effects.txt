@@ -1,4 +1,4 @@
-David_Ishbaal_conflict_effect = {
+﻿David_Ishbaal_conflict_effect = {
 	c:J01 = {
 		add_alliance = J06
 		add_alliance = J12

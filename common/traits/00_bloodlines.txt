@@ -1,4 +1,4 @@
-davidids = {
+﻿davidids = {
 	type = status
 	
 	prominence = 20

@@ -1,4 +1,4 @@
-civilization_level_effect = {
+﻿civilization_level_effect = {
 		if = {
 			limit = { 
 				total_population >= 3

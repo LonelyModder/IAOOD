@@ -117,7 +117,7 @@
 		modifier = { 
 			siege_ability = 0.1
 			siege_engineers = 0.1
-			siege_engineers_cost = -0.25
+			engineer_cohort_cost = -0.25
 		}
 		icon = latin_roman_path_5
 		requires = {italian_path_4}
@@ -125,7 +125,7 @@
 	
 	italian_path_5bs = { ###italian path
 		modifier = { 
-			army_movement_speen = 0.2
+			army_movement_speed = 0.2
 		}
 		enable_ability = road_building
 		icon = latin_roman_path_5
@@ -192,7 +192,7 @@
 	
 	italian_path_end_bonus = { ###italian path
 		modifier = { 
-			global_offensive = 0.1
+			heavy_swordsmen_offensive = 0.1
 		}
 		icon = latin_roman_path_5
 		requires = {italian_path_6a italian_path_6b italian_path_6c}

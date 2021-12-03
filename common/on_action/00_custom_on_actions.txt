@@ -366,7 +366,6 @@ main_event_pulse_country = {
 		dhe_bactria.3
 		dhe_buddhism.2
 		flavor_arm.5
-		dhe_carthage.15
 		diadochi_flavor.100
 		dhe_mithridates.8 # Mithridates heritage choice
 		me_macedon_2_mastery.63 # Vibrant periodic event
