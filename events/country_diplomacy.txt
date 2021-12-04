@@ -2735,7 +2735,7 @@ country_diplomacy.30 = {
 		name = "country_diplomacy.30.b"
 		trigger = {
 			any_owned_province = {
-				trade_goods = elephants
+				trade_goods = elephants_indian
 			}
 		}
 		add_treasury = -50
