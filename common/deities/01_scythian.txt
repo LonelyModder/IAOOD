@@ -5,7 +5,6 @@ deity_mthagimasadas = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mthagimasadas = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -34,7 +33,6 @@ deity_mapi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mapi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -61,7 +59,6 @@ deity_mpapaios = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mpapaios = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -87,7 +84,6 @@ deity_margimpasa = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_margimpasa = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -113,7 +109,6 @@ deity_mtabiti = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mtabiti = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -139,7 +134,6 @@ deity_mgoitosyrus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mgoitosyrus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -165,7 +159,6 @@ deity_mtargitaos = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_mtargitaos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -191,7 +184,6 @@ deity_anguipede = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = scythic_pantheon }
-			religion = scythic_pantheon
 			deity:omen_anguipede = {
 				holy_site_deity_check_trigger = yes
 			}

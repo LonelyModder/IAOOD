@@ -4,7 +4,6 @@ deity_inshushinak = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			deity:omen_inshushinak = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_narundi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			deity:omen_narundi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -56,7 +54,6 @@ deity_luhurati = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			deity:omen_luhurati = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -82,7 +79,6 @@ deity_humban = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			religion = protoiranian_pantheon
 			deity:omen_humban = {
 				holy_site_deity_check_trigger = yes
@@ -109,7 +105,6 @@ deity_nahhunte = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			deity:omen_nahhunte = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -135,7 +130,6 @@ deity_pinikir = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			religion = hurrian_pantheon
 			deity:omen_pinikir = {
 				holy_site_deity_check_trigger = yes
@@ -162,7 +156,6 @@ deity_kirmashir = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
 			deity:omen_kirmashir = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -188,8 +181,7 @@ deity_manzat = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
-			religion = anunnaki_pantheon
+			common_deity_trigger = { RELIGION = anunnaki_pantheon }
 			deity:omen_manzat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -215,8 +207,7 @@ deity_napirisha = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = elamite_pantheon }
-			religion = elamite_pantheon
-			religion = anunnaki_pantheon
+			common_deity_trigger = { RELIGION = anunnaki_pantheon }
 			deity:omen_napirisha = {
 				holy_site_deity_check_trigger = yes
 			}

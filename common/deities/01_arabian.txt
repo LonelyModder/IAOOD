@@ -9,7 +9,6 @@ deity_malilat = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_malilat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -36,7 +35,6 @@ deity_mal_qaum = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mal_qaum = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -63,7 +61,6 @@ deity_mal_kutbay = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mal_kutbay = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -90,7 +87,6 @@ deity_mtalab = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mtalab = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -117,8 +113,9 @@ deity_malmaqah = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
-			religion = ethiopian_pantheon
+			common_deity_trigger = {
+				RELIGION = ethiopian_pantheon
+			}
 			deity:omen_malmaqah  = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -145,7 +142,6 @@ deity_mal_uzza = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mal_uzza = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -173,7 +169,6 @@ deity_mmanat = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mmanat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -200,7 +195,6 @@ deity_mailiah = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_mailiah = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -227,7 +221,6 @@ deity_morotalt = {
 			common_deity_trigger = {
 				RELIGION = arabian_pantheon
 			}
-			religion = arabian_pantheon
 			deity:omen_morotalt = {
 				holy_site_deity_check_trigger = yes
 			}

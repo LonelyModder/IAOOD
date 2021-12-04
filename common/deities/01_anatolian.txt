@@ -6,7 +6,6 @@ deity_suwaliyat = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_suwaliyat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -33,7 +32,6 @@ deity_arinna = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_arinna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -60,7 +58,6 @@ deity_ellel = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_ellel = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -87,7 +84,6 @@ deity_aserdus  = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_aserdus  = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -114,7 +110,6 @@ deity_telipinu  = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_telipinu  = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -141,7 +136,6 @@ deity_sutekh = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_sutekh = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -168,7 +162,6 @@ deity_aruna = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_aruna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -201,7 +194,6 @@ deity_wurrukatte = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_wurrukatte = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -228,7 +220,6 @@ deity_tarhunz = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
 			deity:omen_tarhunz = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -258,8 +249,9 @@ deity_sauska = {
 			common_deity_trigger = {
 				RELIGION = luwic_pantheon
 			}
-			religion = luwic_pantheon
-			religion = hurrian_pantheon
+			common_deity_trigger = {
+				RELIGION = hurrian_pantheon
+			}
 			deity:omen_sauska = {
 				holy_site_deity_check_trigger = yes
 			}

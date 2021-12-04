@@ -5,7 +5,6 @@ deity_sivan = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_sivan = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_murugan = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_murugan = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_seyyon = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_seyyon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -80,7 +77,6 @@ deity_thirumaal = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_thirumaal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -105,7 +101,6 @@ deity_vaali = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_vaali = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -130,7 +125,6 @@ deity_khotravai = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_khotravai = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -155,7 +149,6 @@ deity_mayyon = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_mayyon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -180,7 +173,6 @@ deity_vanji_ko = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_vanji_ko = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -205,7 +197,6 @@ deity_angayarkanni = { # CULTURE Meenakshi
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = harrapan_pantheon }
-			religion = harrapan_pantheon
 			deity:omen_angayarkanni = {
 				holy_site_deity_check_trigger = yes
 			}

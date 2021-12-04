@@ -5,7 +5,6 @@ deity_mgurzil = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
 			deity:omen_mgurzil = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,8 +29,7 @@ deity_mneith = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
-			religion = kemetic_pantheon
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
 			deity:omen_mneith = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -56,8 +54,7 @@ deity_mset = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
-			religion = kemetic_pantheon
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
 			deity:omen_mset = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -82,7 +79,6 @@ deity_mshaheded = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
 			deity:omen_mshaheded = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -108,7 +104,6 @@ deity_mtannit = { # CULTURE
 		NOT = { primary_culture = carthaginian }
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
 			deity:omen_mtannit = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -133,7 +128,6 @@ deity_mnanna_tala = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
 			deity:omen_mnanna_tala = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -158,7 +152,6 @@ deity_msinifere = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = libyan_pantheon }
-			religion = libyan_pantheon
 			deity:omen_msinifere = {
 				holy_site_deity_check_trigger = yes
 			}

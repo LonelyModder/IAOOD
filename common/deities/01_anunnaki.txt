@@ -9,7 +9,6 @@ deity_mninurta = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_mninurta = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -36,8 +35,9 @@ deity_mshamash = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
-			religion = judahic
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
 			deity:omen_mshamash = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -70,7 +70,6 @@ deity_mea = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_mea = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -97,7 +96,6 @@ deity_msin = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_msin = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -124,8 +122,9 @@ deity_mishtar = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
-			religion = judahic
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
 			deity:omen_mishtar = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -158,7 +157,6 @@ deity_mnabu = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_mnabu = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -185,7 +183,6 @@ deity_menlil = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_menlil = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -213,7 +210,6 @@ deity_mashshur = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_mashshur = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -240,7 +236,6 @@ deity_mmarduk = {
 			common_deity_trigger = {
 				RELIGION = anunnaki_pantheon
 			}
-			religion = anunnaki_pantheon
 			deity:omen_mmarduk = {
 				holy_site_deity_check_trigger = yes
 			}

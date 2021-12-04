@@ -5,7 +5,6 @@ deity_kazaghan = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_kazaghan = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_ulgen = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_ulgen = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_tengiri = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_tengiri = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -80,7 +77,6 @@ deity_umay = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_umay = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -105,7 +101,6 @@ deity_alaz = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_alaz = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -130,7 +125,6 @@ deity_mergen = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_mergen = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -155,7 +149,6 @@ deity_elos = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_elos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -180,7 +173,6 @@ deity_gun_ana = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = tocharic_pantheon }
-			religion = tocharic_pantheon
 			deity:omen_gun_ana = {
 				holy_site_deity_check_trigger = yes
 			}

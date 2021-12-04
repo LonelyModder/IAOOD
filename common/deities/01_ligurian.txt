@@ -3,7 +3,6 @@
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_cicnu = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -29,7 +28,6 @@ deity_beg = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_beg = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_matronae = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_matronae = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -81,7 +78,6 @@ deity_taurine = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_matronae = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -107,7 +103,6 @@ deity_borvo = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_borvo = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -133,7 +128,6 @@ deity_penn = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_penn = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -159,7 +153,6 @@ deity_alb = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = liguric_pantheon }
-			religion = liguric_pantheon
 			deity:omen_alb = {
 				holy_site_deity_check_trigger = yes
 			}

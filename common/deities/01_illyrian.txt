@@ -5,7 +5,6 @@ deity_zis = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_zis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -31,7 +30,6 @@ deity_venas = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_venas = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -57,7 +55,6 @@ deity_damatura = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_damatura = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -85,7 +82,6 @@ deity_andinus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			religion = thracic_pantheon
 			deity:omen_andinus = {
 				holy_site_deity_check_trigger = yes
@@ -114,7 +110,6 @@ deity_liber = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_liber = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -140,7 +135,6 @@ deity_silvanus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			religion = italiotan_pantheon
 			deity:omen_silvanus = {
 				holy_site_deity_check_trigger = yes
@@ -167,7 +161,6 @@ deity_medaurus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_medaurus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -193,7 +186,6 @@ deity_redon = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_redon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -219,7 +211,6 @@ deity_perende = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = illyric_pantheon }
-			religion = illyric_pantheon
 			deity:omen_perende = {
 				holy_site_deity_check_trigger = yes
 			}

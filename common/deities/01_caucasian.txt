@@ -5,7 +5,6 @@ deity_mainina_and_danina = {
 		has_global_variable = ainina_and_danina_omen
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mainina_and_danina = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_mzadeni = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mzadeni = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_mdali = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mdali = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -80,7 +77,6 @@ deity_mghmerti = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mghmerti = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -105,7 +101,6 @@ deity_mgacim = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mgacim = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -130,7 +125,6 @@ deity_marmazi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_marmazi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -155,7 +149,6 @@ deity_mkopala = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mkopala = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -180,7 +173,6 @@ deity_mga = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_mga = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -205,7 +197,6 @@ deity_madgilis_deda = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = caucasic_pantheon }
-			religion = caucasic_pantheon
 			deity:omen_madgilis_deda = {
 				holy_site_deity_check_trigger = yes
 			}

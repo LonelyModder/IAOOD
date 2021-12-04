@@ -5,7 +5,6 @@ deity_perun = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_perun = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -31,7 +30,6 @@ deity_rugiaevit = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_rugiaevit = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -57,7 +55,6 @@ deity_veles = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_veles = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -83,7 +80,6 @@ deity_yarovit = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_yarovit = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -109,7 +105,6 @@ deity_khors = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_khors = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -135,7 +130,6 @@ deity_svarozhits = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_svarozhits = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -161,7 +155,6 @@ deity_svetivid = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_svetivid = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -187,7 +180,6 @@ deity_zvezda = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_zvezda = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -213,7 +205,6 @@ deity_zhiva = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = slavic_pantheon }
-			religion = slavic_pantheon
 			deity:omen_zhiva = {
 				holy_site_deity_check_trigger = yes
 			}

@@ -4,7 +4,6 @@ deity_yhwh = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = judahic }
-			religion = judahic
 			deity:omen_yhwh = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -33,7 +32,6 @@ deity_ashera = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = judahic }
-			religion = judahic
 			deity:omen_ashera = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_malakim = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = judahic }
-			religion = judahic
 			deity:omen_malakim = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -77,7 +74,6 @@ deity_cherubs = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = judahic }
-			religion = judahic
 			deity:omen_cherubs = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -99,7 +95,6 @@ deity_nehushtan = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = judahic }
-			religion = judahic
 			deity:omen_nehushtan = {
 				holy_site_deity_check_trigger = yes
 			}

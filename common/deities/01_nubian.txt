@@ -4,8 +4,7 @@ deity_menhit = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
-			religion = kemetic_pantheon
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
 			deity:omen_menhit = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -31,7 +30,6 @@ deity_apedemak = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_apedemak = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -57,7 +55,6 @@ deity_amesemi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_amesemi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -83,7 +80,6 @@ deity_sobomakal = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_sobomakal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -109,7 +105,6 @@ deity_arensnuphis = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_arensnuphis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -135,7 +130,6 @@ deity_dedun = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_dedun = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -161,7 +155,6 @@ deity_mandulis = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = ethiopian_pantheon }
-			religion = ethiopian_pantheon
 			deity:omen_mandulis = {
 				holy_site_deity_check_trigger = yes
 			}

@@ -4,7 +4,6 @@ deity_mlaran = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mlaran = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -31,7 +30,6 @@ deity_mapulu = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mapulu = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -58,7 +56,6 @@ deity_mturms = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mturms = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -85,7 +82,6 @@ deity_maita = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_maita = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -112,7 +108,6 @@ deity_mtinia = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mtinia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -139,7 +134,6 @@ deity_mmenrva = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mmenrva = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -166,7 +160,6 @@ deity_mnortia = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mnortia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -193,7 +186,6 @@ diety_mcels = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mcels = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -220,7 +212,6 @@ deity_mnethuns = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mnethuns = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -250,7 +241,6 @@ deity_mhercle = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mhercle = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -277,7 +267,6 @@ deity_msethlans = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_msethlans = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -303,7 +292,6 @@ deity_mturan = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mturan = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -330,7 +318,6 @@ deity_muni = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_muni = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -357,7 +344,6 @@ deity_martume = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_martume = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -384,7 +370,6 @@ deity_musil = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_musil = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -411,7 +396,6 @@ deity_mzerene = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mzerene = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -438,7 +422,6 @@ deity_mfufluns = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = villanic_pantheon }
-			religion = villanic_pantheon
 			deity:omen_mfufluns = {
 				holy_site_deity_check_trigger = yes
 			}

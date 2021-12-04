@@ -5,7 +5,6 @@
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_aide = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -33,7 +32,6 @@ deity_amalur = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_amalur = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -61,7 +59,6 @@ deity_eate = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_eate = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -89,7 +86,6 @@ deity_egoi = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_egoi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -117,7 +113,6 @@ deity_meki = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_meki = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -145,7 +140,6 @@ deity_ilargi = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_ilargi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -173,7 +167,6 @@ deity_inguma = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_inguma = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -201,7 +194,6 @@ deity_mmari = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_mmari = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -229,7 +221,6 @@ deity_orko = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_orko = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -257,7 +248,6 @@ deity_sugaar = {
 			common_deity_trigger = {
 				RELIGION = bosque_pantheon
 			}
-			religion = bosque_pantheon
 			deity:omen_sugaar = {
 				holy_site_deity_check_trigger = yes
 			}

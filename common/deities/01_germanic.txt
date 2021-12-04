@@ -5,7 +5,6 @@ deity_mbaduhenna = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mbaduhenna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_mnehalennia = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mnehalennia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_malcis = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_malcis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -80,7 +77,6 @@ deity_mnerthus = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mnerthus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -105,7 +101,6 @@ deity_mvagdavercustis = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mvagdavercustis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -130,7 +125,6 @@ deity_mtamfana = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mtamfana = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -155,7 +149,6 @@ deity_mtuisto = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mtuisto = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -180,7 +173,6 @@ deity_mhludana = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = chaosgods_pantheon }
-			religion = chaosgods_pantheon
 			deity:omen_mhludana = {
 				holy_site_deity_check_trigger = yes
 			}

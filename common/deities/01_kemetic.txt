@@ -4,7 +4,6 @@ deity_msekhmet = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_msekhmet = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -29,7 +28,6 @@ deity_manubis = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_manubis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -52,11 +50,9 @@ deity_manubis = { # ECONOMY
 deity_mosiris = { # CULTURE
 	trigger = {
 		polytheistic_check_religion_trigger = yes
-		religion = libyan_pantheon
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
-			religion = libyan_pantheon
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			deity:omen_mosiris = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -81,8 +77,7 @@ deity_misis = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
-			religion = libyan_pantheon
+			common_deity_trigger = { RELIGION = libyan_pantheon }
 			religion_pops_in_country = {
 				target = kemetic_pantheon
 				value >= very_common_deity_svalue
@@ -111,9 +106,8 @@ deity_mamun = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = libyan_pantheon
-			religion = kemetic_pantheon
-			religion = ethiopian_pantheon
+			common_deity_trigger = { RELIGION = libyan_pantheon }
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			deity:omen_mamun = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -138,7 +132,6 @@ deity_mhorus = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_mhorus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -163,7 +156,6 @@ deity_mptah = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_mptah = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -188,7 +180,6 @@ deity_mhathor = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_mhathor = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -213,7 +204,6 @@ deity_mresheph = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			religion = canaanitic_pantheon
 			deity:omen_mresheph = {
 				holy_site_deity_check_trigger = yes
@@ -239,8 +229,7 @@ deity_manhur = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
-			religion = ethiopian_pantheon
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
 			deity:omen_manhur = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -265,7 +254,6 @@ deity_mra = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_mra = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -293,7 +281,6 @@ deity_msobek = {
 		#NOT = { country_culture_group = latin }
 		OR = {
 			common_deity_trigger = { RELIGION = kemetic_pantheon }
-			religion = kemetic_pantheon
 			deity:omen_msobek = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -321,7 +308,6 @@ deity_mbanebdjedet = {
 		#is_monarchy = yes
 		NOT = { country_culture_group = latin }
 		OR = {
-			religion = kemetic_pantheon
 			deity:omen_mbanebdjedet = {
 				holy_site_deity_check_trigger = yes
 			}

@@ -3,7 +3,6 @@
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_bindo = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -29,7 +28,6 @@ deity_ica = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_ica = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_iria = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_iria = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -81,7 +78,6 @@ deity_eia = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_eia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -107,7 +103,6 @@ deity_sentona = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_sentona = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -133,7 +128,6 @@ deity_molesco = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_molesco = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -159,7 +153,6 @@ deity_boira = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = bosutan_pantheon }
-			religion = bosutan_pantheon
 			deity:omen_boira = {
 				holy_site_deity_check_trigger = yes
 			}

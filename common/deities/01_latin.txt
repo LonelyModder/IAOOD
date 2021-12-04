@@ -4,7 +4,6 @@ deity_mmars = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mmars = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -31,7 +30,6 @@ deity_mmercury = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mmercury = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -56,7 +54,6 @@ deity_mminerva = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mminerva = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -82,7 +79,6 @@ deity_mceres = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mceres = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -108,7 +104,6 @@ deity_mpluto = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mpluto = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -135,7 +130,6 @@ deity_mjupiter = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mjupiter = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -161,7 +155,6 @@ deity_mfortuna = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mfortuna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -187,7 +180,6 @@ deity_mbacchus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mbacchus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -213,7 +205,6 @@ deity_mvulcan = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mvulcan = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -240,7 +231,6 @@ deity_mdiana = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mdiana = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -267,7 +257,6 @@ deity_mneptune = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mneptune = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -297,7 +286,6 @@ deity_mhercules = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mhercules = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -324,7 +312,6 @@ deity_mvenus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mvenus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -351,7 +338,6 @@ deity_mfaunus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mfaunus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -377,7 +363,6 @@ deity_mjuno = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mjuno = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -404,7 +389,6 @@ deity_msol = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_msol = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -430,7 +414,6 @@ deity_mcastores = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = italiotan_pantheon }
-			religion = italiotan_pantheon
 			deity:omen_mcastores = {
 				holy_site_deity_check_trigger = yes
 			}

@@ -10,7 +10,6 @@ deity_mgekho = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mgekho = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -37,7 +36,6 @@ deity_mtingnam_gyalmo = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mtingnam_gyalmo = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -64,7 +62,6 @@ deity_mdrablai_gyalmo = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mdrablai_gyalmo = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -91,7 +88,6 @@ deity_mkuchi_mangke = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mkuchi_mangke = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -118,7 +114,6 @@ deity_mati_muwer = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mati_muwer = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -145,7 +140,6 @@ deity_mphuwer = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mphuwer = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -172,7 +166,6 @@ deity_mtraphu = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mtraphu = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -199,7 +192,6 @@ deity_mthe_elements = {
 			common_deity_trigger = {
 				RELIGION = tibetic_pantheon
 			}
-			religion = tibetic_pantheon
 			deity:omen_mthe_elements = {
 				holy_site_deity_check_trigger = yes
 			}

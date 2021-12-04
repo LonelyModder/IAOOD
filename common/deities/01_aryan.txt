@@ -6,7 +6,6 @@ deity_mverethragna = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_mverethragna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -33,7 +32,6 @@ deity_msraosha = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_msraosha = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -60,7 +58,6 @@ deity_mahura_mazda = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_mahura_mazda = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -87,7 +84,6 @@ deity_mtishtrya = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_mtishtrya = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -115,7 +111,6 @@ deity_mameretat = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_mameretat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -142,7 +137,6 @@ deity_spenta_aramati = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_spenta_aramati = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -169,7 +163,6 @@ deity_manahita = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_manahita = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -196,7 +189,6 @@ deity_tiri = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_atar = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -225,7 +217,6 @@ deity_mmithra = {
 			common_deity_trigger = {
 				RELIGION = protoiranian_pantheon
 			}
-			religion = protoiranian_pantheon
 			deity:omen_mmithra = {
 				holy_site_deity_check_trigger = yes
 			}

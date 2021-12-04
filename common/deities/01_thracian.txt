@@ -5,7 +5,6 @@ deity_mpleistoros = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mpleistoros = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_mzalmoxis = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mzalmoxis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -57,7 +55,6 @@ deity_mderzelas = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mderzelas = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -82,7 +79,6 @@ deity_mbassareus = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mbassareus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -107,7 +103,6 @@ deity_msabazios = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_msabazios = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -132,7 +127,6 @@ deity_mbendis = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mbendis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -157,7 +151,6 @@ deity_mzibelthiurdos = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_mzibelthiurdos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -182,7 +175,6 @@ deity_msemele = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = thracic_pantheon }
-			religion = thracic_pantheon
 			deity:omen_msemele = {
 				holy_site_deity_check_trigger = yes
 			}

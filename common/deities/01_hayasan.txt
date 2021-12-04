@@ -5,7 +5,6 @@ deity_tork_angegh = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_tork_angegh = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -30,7 +29,6 @@ deity_amanor = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_amanor = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_areg = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_areg = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -80,7 +77,6 @@ deity_astlig = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_astlig = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -105,7 +101,6 @@ deity_angel = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_angel = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -130,7 +125,6 @@ deity_ayg = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_ayg = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -155,7 +149,6 @@ deity_vanatur = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_vanatur = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -180,7 +173,6 @@ deity_nvard = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_nvard = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -205,7 +197,6 @@ deity_andndayin_oj = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_andndayin_oj = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -232,7 +223,6 @@ deity_mtsovinar = { # ECONOMY
 		OR = {
 			primary_culture = bianilic
 			common_deity_trigger = { RELIGION = armenic_pantheon }
-			religion = armenic_pantheon
 			deity:omen_mtsovinar = {
 				holy_site_deity_check_trigger = yes
 			}

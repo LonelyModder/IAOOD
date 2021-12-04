@@ -5,7 +5,6 @@ deity_msemno = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_msemno = {
 				holy_site_deity_check_trigger = yes
@@ -31,7 +30,6 @@ deity_mderce = { # ECONOMY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mderce = {
 				holy_site_deity_check_trigger = yes
@@ -57,7 +55,6 @@ deity_meacus = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_meacus = {
 				holy_site_deity_check_trigger = yes
@@ -83,7 +80,6 @@ deity_mduillae = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mduillae = {
 				holy_site_deity_check_trigger = yes
@@ -109,7 +105,6 @@ deity_mendouellicus = { # FERTILITY
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			religion = bakeric_pantheon
 			primary_culture = cagotic
 			deity:omen_mendouellicus = {
@@ -136,7 +131,6 @@ deity_mcandamius = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mcandamius = {
 				holy_site_deity_check_trigger = yes
@@ -162,7 +156,6 @@ deity_mataecina = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mataecina = {
 				holy_site_deity_check_trigger = yes
@@ -188,7 +181,6 @@ deity_mcariocecus = { # WAR
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mcariocecus = {
 				holy_site_deity_check_trigger = yes
@@ -214,7 +206,6 @@ deity_mbetatun = { # CULTURE
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = iberic_pantheon }
-			religion = iberic_pantheon
 			primary_culture = cagotic
 			deity:omen_mbetatun = {
 				holy_site_deity_check_trigger = yes

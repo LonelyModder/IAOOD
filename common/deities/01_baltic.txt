@@ -7,7 +7,6 @@ deity_mmedeine = { # WAR
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mmedeine = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -34,7 +33,6 @@ deity_mtelevelis = { # ECONOMY
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mtelevelis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -61,7 +59,6 @@ deity_mdeivas = { # CULTURE
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mdeivas = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -88,7 +85,6 @@ deity_mmother_goddess = { # FERTILITY
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mmother_goddess = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -115,7 +111,6 @@ deity_mperkunas = { # WAR
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mperkunas = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -142,7 +137,6 @@ deity_mdivine_twins = { # ECONOMY
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mdivine_twins = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -169,7 +163,6 @@ deity_mgoverning_goddesses = { # CULTURE
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_mgoverning_goddesses = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -196,7 +189,6 @@ deity_msaulia = { # CULTURE
 			common_deity_trigger = {
 				RELIGION = baltic_pantheon
 			}
-			religion = baltic_pantheon
 			deity:omen_msaulia = {
 				holy_site_deity_check_trigger = yes
 			}

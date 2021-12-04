@@ -6,9 +6,12 @@ deity_manat = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = kemetic_pantheon
-			religion = canaanitic_pantheon
-			religion = judahic
+			common_deity_trigger = {
+				RELIGION = kemetic_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
 			deity:omen_manat = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -38,7 +41,6 @@ deity_mmelqart = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -68,7 +70,6 @@ deity_mkothar = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_mkothar = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -95,7 +96,6 @@ deity_mastarte = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_mastarte = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -122,7 +122,6 @@ deity_mdagon = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_mdagon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -149,7 +148,6 @@ deity_mel = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_mel = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -176,8 +174,9 @@ deity_mbaal = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
-			religion = judahic
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
 			deity:omen_mbaal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -210,7 +209,6 @@ deity_myam = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_myam = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -240,7 +238,6 @@ deity_mshapash = {
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
-			religion = canaanitic_pantheon
 			deity:omen_mshapash = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -265,7 +262,6 @@ deity_mtanit = {
 		polytheistic_check_religion_trigger = yes
 		primary_culture = libo_punic
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -293,7 +289,6 @@ deity_mbaal_hammon = {
 		polytheistic_check_religion_trigger = yes
 		primary_culture = libo_punic
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -321,7 +316,6 @@ deity_mattar = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -348,7 +342,6 @@ deity_mbaal_qarnaim = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -376,7 +369,6 @@ deity_meshmun = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -403,7 +395,6 @@ deity_matargatis = {
     trigger = {
     	polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -430,7 +421,6 @@ deity_mbaalat = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -458,7 +448,6 @@ deity_mgad = {
 		has_dlc = "Heirs of Alexander"
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}
@@ -489,7 +478,6 @@ deity_mhadad = {
     trigger = {
     	polytheistic_check_religion_trigger = yes
 		OR = {
-			religion = canaanitic_pantheon
 			common_deity_trigger = {
 				RELIGION = canaanitic_pantheon
 			}

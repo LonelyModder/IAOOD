@@ -3,7 +3,6 @@
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_thagyamin = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -29,7 +28,6 @@ deity_min_mahagiri = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_min_mahagiri = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_bo_bo_gyi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_bo_bo_gyi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -81,7 +78,6 @@ deity_shwe_nabay = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_shwe_nabay = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -107,7 +103,6 @@ deity_thonbanla = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_thonbanla = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -133,7 +128,6 @@ deity_maungminshin = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_maungminshin = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -159,7 +153,6 @@ deity_taungmagyi = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_taungmagyi = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -185,7 +178,6 @@ deity_popa_medaw = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = burmese_pantheon }
-			religion = burmese_pantheon
 			deity:omen_popa_medaw = {
 				holy_site_deity_check_trigger = yes
 			}

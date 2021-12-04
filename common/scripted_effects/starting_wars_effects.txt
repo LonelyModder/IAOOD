@@ -43,11 +43,39 @@ Osorkons_rebelion_conflict_effect = {
 }
 
 Distatnt_descendent_of_elam_conflict_effect = {
-	c:A40 = {
+	c:A92 = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
-		    province = p:918
-			target = c:A92
+		    province = p:926
+			target = c:A40
+		}
+	}
+	c:A35 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
+		}
+	}
+	c:A33 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
+		}
+	}
+	c:A32 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
+		}
+	}
+	c:A31 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
 		}
 	}
 }

@@ -7,7 +7,6 @@ deity_mtaranis = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mtaranis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -34,8 +33,9 @@ deity_mlugus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
-			religion = bakeric_pantheon
+			common_deity_trigger = {
+				RELIGION = bakeric_pantheon
+			}
 			deity:omen_mlugus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -62,7 +62,6 @@ deity_mogmios = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mogmios = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -89,7 +88,6 @@ deity_mrosmerta = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mrosmerta = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -116,7 +114,6 @@ deity_mtoutatis = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mtoutatis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -143,7 +140,6 @@ deity_mgobannus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mgobannus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -170,7 +166,6 @@ deity_micovellauna = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_micovellauna = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -197,7 +192,6 @@ deity_mcernunnos = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mcernunnos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -224,7 +218,6 @@ deity_mcichol = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mcichol = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -251,7 +244,6 @@ deity_mnantosuelta = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mnantosuelta = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -278,7 +270,6 @@ deity_mmaponos = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mmaponos = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -305,7 +296,6 @@ deity_mbelisama = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mbelisama = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -332,7 +322,6 @@ deity_mbelinus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mbelinus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -359,7 +348,6 @@ deity_martio = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_martio = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -386,7 +374,6 @@ deity_mcissonius = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mcissonius = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -416,7 +403,6 @@ deity_mnemetona = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			religion = chaosgods_pantheon
 			deity:omen_mnemetona = {
 				holy_site_deity_check_trigger = yes
@@ -445,7 +431,6 @@ deity_msucellus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_msucellus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -472,7 +457,6 @@ deity_mglanis = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			religion = liguric_pantheon
 			deity:omen_mglanis = {
 				holy_site_deity_check_trigger = yes
@@ -507,7 +491,6 @@ deity_mbrigantia = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mbrigantia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -539,7 +522,6 @@ deity_mandraste = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mandraste = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -571,7 +553,6 @@ deity_mbelatucadros = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mbelatucadros = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -603,7 +584,6 @@ deity_mcoventina = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mcoventina = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -635,7 +615,6 @@ deity_mnodens = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mnodens = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -670,7 +649,6 @@ deity_msulis = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_msulis = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -703,7 +681,6 @@ deity_mcamulus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mcamulus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -736,7 +713,6 @@ deity_mlenus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mlenus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -767,7 +743,6 @@ deity_mintarabus = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mintarabus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -798,7 +773,6 @@ deity_mancamna = {
 			common_deity_trigger = {
 				RELIGION = celtic_pantheon
 			}
-			religion = celtic_pantheon
 			deity:omen_mancamna = {
 				holy_site_deity_check_trigger = yes
 			}

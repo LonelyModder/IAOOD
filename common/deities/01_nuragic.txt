@@ -3,7 +3,6 @@
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_babai = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -29,7 +28,6 @@ deity_great_mother = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_great_mother = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -55,7 +53,6 @@ deity_moon = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_moon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -81,7 +78,6 @@ deity_bull_sun = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_bull_sun = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -107,7 +103,6 @@ deity_norax = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_norax = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -133,7 +128,6 @@ deity_aristeus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_norax = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -159,7 +153,6 @@ deity_sardus = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_sardus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -185,7 +178,6 @@ deity_iolaos = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = { RELIGION = nuragian_pantheon }
-			religion = nuragian_pantheon
 			deity:omen_iolaos = {
 				holy_site_deity_check_trigger = yes
 			}
