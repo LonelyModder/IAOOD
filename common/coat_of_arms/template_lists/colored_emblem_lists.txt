@@ -184,7 +184,7 @@ colored_emblem_texture_lists = {
 			10 = "ce_flower_01.dds"
 			10 = "ce_flower_02.dds"
 			10 = "ce_head_03.dds"
-			10 = "ce_grekoid_5.dds"
+			10 = "ce_hellenic_5.dds"
 			10 = "ce_samnite.dds"
 		}
 		

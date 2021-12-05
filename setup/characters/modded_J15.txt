@@ -73,7 +73,7 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		marry_character=char:10060
+		marry_character=char:60
 		#dna=""
 	}
 	

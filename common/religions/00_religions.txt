@@ -193,7 +193,7 @@ harrapan_pantheon = { # Dravidan gods
 	color = hsv { 0.09 0.73 0.56 }
 	modifier = { 
 		global_population_growth = 0.04
-		tribesmen_happyness = 0.05
+		global_tribesmen_happyness = 0.05
 		land_morale_modifier = -0.1
 	}
 	religion_category = pantheon
@@ -343,7 +343,7 @@ slavic_pantheon = { # Lusatian gods
 	color = hsv { 0.14 0.52 1 }
 	modifier = { 
 		global_population_capacity_modifier = 0.1 ### POPULATION
-		global_population_growth_svalue = 0.07
+		global_population_growth = 0.07
 		stability_cost_modifier = 0.25
 	}
 	religion_category = pantheon

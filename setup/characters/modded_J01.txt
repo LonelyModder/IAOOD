@@ -37,8 +37,8 @@
 		first_name="David"
 		family = c:J01.fam:Bet-David
 		birth_date=1250.1.1
-		father="10014"		
-		mother="10015"
+		father="char:14"		
+		mother="char:15"
 		culture="judean"
 		religion="judahic"
 		no_stats=yes

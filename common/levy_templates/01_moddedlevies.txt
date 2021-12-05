@@ -1,4 +1,4 @@
-#Default levy if none other will match
+﻿#Default levy if none other will match
 
 levy_default = {
 	default = yes
@@ -431,7 +431,7 @@ levy_bakeric = { #Lusitanian militia
 	default = no
 
 	missile_archers = 0.2
-	axement_heavy = 0.3
+	axemen_heavy = 0.3
 	light_swordsmen = 0.4
 	chariot_light = 0.1
 }

@@ -1,4 +1,4 @@
-#Culture Group heritages
+﻿#Culture Group heritages
 
 egiptic_heritage = { 
 	modifier = {
@@ -514,7 +514,7 @@ bosquian_heritage = {
 	modifier = {
 		#good
 		forest_combat_bonus = 0.2
-		missile_spearthrowers = 0.1
+		missile_spearthrowers_offensive = 0.1
 		
 		#bad
 		happiness_for_wrong_culture_modifier = -0.06
