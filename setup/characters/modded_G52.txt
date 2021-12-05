@@ -1,6 +1,6 @@
 ﻿"G52"={
 	country="G52"
-	99={
+	10099={
 		first_name="Thersippus"
 		family = c:G52.fam:Thersid
 		birth_date=1270.1.1
@@ -15,7 +15,7 @@
 		add_gold=500
 		add_popularity=100
 		c:G52={
-			set_as_ruler=char:99
+			set_as_ruler=char:10099
 		}
 		#dna=""
 	}

@@ -1,6 +1,6 @@
 ﻿"J07"={
 	country="J07"
-	55={
+	10055={
 		first_name="Zakarbaal"
 		family = c:J07.fam:Ahiramid
 		birth_date=1230.1.1
@@ -16,15 +16,15 @@
 		add_gold=500
 		add_popularity=100
 		c:J07={
-			set_as_ruler=char:55
+			set_as_ruler=char:10055
 		}
 		#dna=""
 	}
 	
-	56={
+	10056={
 		first_name="Ithobaal"
 		family = c:J07.fam:Ahiramid
-		father="char:55"
+		father="char:10055"
 		birth_date=1270.1.1
 		culture="core_punic"
 		religion="canaanitic_pantheon"

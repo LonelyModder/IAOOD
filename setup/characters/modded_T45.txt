@@ -1,6 +1,6 @@
 ﻿"T45"={
 	country="T45"
-	82={
+	10082={
 		first_name="Caranus"
 		family = c:T45.fam:Argead
 		birth_date=1255.1.1
@@ -16,16 +16,16 @@
 		add_gold=500
 		add_popularity=100
 		c:T45={
-			set_as_ruler=char:82
+			set_as_ruler=char:10082
 		}
 		#dna=""
 	}
 	
-	83={
+	10083={
 		first_name="Coenus"
 		family = c:T45.fam:Argead
 		birth_date=1285.1.1
-		father="char:82"
+		father="char:10082"
 		culture="makedonic"
 		religion="grecoid_pantheon"
 		no_stats=yes

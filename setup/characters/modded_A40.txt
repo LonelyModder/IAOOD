@@ -1,6 +1,6 @@
 ﻿"A40"={
 	country="A40"
-	69={
+	10069={
 		first_name="Eulmash-shakin-shumi"
 		family = c:A40.fam:Bit-Bazi
 		birth_date=1220.1.1
@@ -15,15 +15,15 @@
 		add_gold=500
 		add_popularity=40
 		c:A40={
-			set_as_ruler=char:69
+			set_as_ruler=char:10069
 		}
 		#dna=""
 	}
 	
-	70={
+	10070={
 		first_name="Ninurta-kudurri-usur"
 		family = c:A40.fam:Bit-Bazi
-		father="char:69"
+		father="char:10069"
 		birth_date=1270.1.1
 		culture="kassite"
 		religion="anunnaki_pantheon"
@@ -38,10 +38,10 @@
 		#dna=""
 	}
 	
-	71={
+	10071={
 		first_name="Shirikti-shuqamuna"
 		family = c:A40.fam:Bit-Bazi
-		father="char:69"
+		father="char:10069"
 		birth_date=1271.1.1
 		culture="kassite"
 		religion="anunnaki_pantheon"

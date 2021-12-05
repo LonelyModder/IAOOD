@@ -1,6 +1,6 @@
 ﻿"J02"={
 	country="J02"
-	23={
+	10023={
 		first_name="Ashbiel"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1170.1.1
@@ -16,12 +16,12 @@
 		#dna=""
 	}
 	
-	24={
+	10024={
 		first_name="Kish"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1200.1.1
 		death_date=1250.1.1
-		father="char:23"
+		father="char:10023"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -33,12 +33,12 @@
 		#dna=""
 	}
 	
-	25={
+	10025={
 		first_name="Saul"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1230.1.1
 		death_date=1290.1.1
-		father="char:24"
+		father="char:10024"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -51,7 +51,7 @@
 		#dna=""
 	}
 	
-	26={
+	10026={
 		first_name="Ahinoam"
 		family = c:J02.fam:Bet-Saul
 		female=yes
@@ -68,12 +68,12 @@
 		#dna=""
 	}
 	
-	27={
+	10027={
 		first_name="Ishbaal"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1260.1.1
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -87,18 +87,18 @@
 		add_gold=500
 		add_popularity=40
 		c:J02={
-			set_as_ruler=char:27
+			set_as_ruler=char:10027
 		}
 		#dna=""
 	}
 	
-	28={
+	10028={
 		first_name="Jonathan"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1256.1.1
 		death_date=1290.1.1
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -111,11 +111,11 @@
 		#dna=""
 	}
 	
-	29={
+	10029={
 		first_name="Mephibaal"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1275.1.1
-		father="char:28"
+		father="char:10028"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -130,13 +130,13 @@
 		#dna=""
 	}
 	
-	30={
+	10030={
 		first_name="Abinadab"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1258.1.1
 		death_date=1290.1.1
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -149,12 +149,12 @@
 		#dna=""
 	}
 	
-	31={
+	10031={
 		first_name="Ishvi"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1262.1.1
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -169,13 +169,13 @@
 		#dna=""
 	}
 	
-	32={
+	10032={
 		first_name="Michal"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1269.1.1
 		female=yes
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -190,13 +190,13 @@
 		#dna=""
 	}
 	
-	33={
+	10033={
 		first_name="Merab"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1270.1.1
 		female=yes
-		father="char:25"
-		mother="char:26"
+		father="char:10025"
+		mother="char:10026"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -211,12 +211,12 @@
 		#dna=""
 	}
 	
-	34={
+	10034={
 		first_name="Ner"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1200.1.1
 		death_date=1250.1.1
-		father="char:23"
+		father="char:10023"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -228,11 +228,11 @@
 		#dna=""
 	}
 	
-	35={
+	10035={
 		first_name="Abner"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1240.1.1
-		father="char:34"
+		father="char:10034"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes
@@ -246,11 +246,11 @@
 		#dna=""
 	}
 	
-	36={
+	10036={
 		first_name="Jaasiel"
 		family = c:J02.fam:Bet-Saul
 		birth_date=1270.1.1
-		father="char:35"
+		father="char:10035"
 		culture="israelic"
 		religion="judahic"
 		no_stats=yes

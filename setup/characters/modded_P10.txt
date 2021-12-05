@@ -1,6 +1,6 @@
 ﻿"P10"={
 	country="P10"
-	2={
+	10002={
 		first_name="Achemenos"
 		family = c:P10.fam:Achemenid
 		birth_date=1260.1.1
@@ -17,7 +17,7 @@
 		add_gold=500
 		add_popularity=60
 		c:P10={
-			set_as_ruler=char:2
+			set_as_ruler=char:10002
 		}
 		#dna=""
 	}

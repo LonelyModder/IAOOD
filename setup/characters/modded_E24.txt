@@ -1,10 +1,10 @@
 ﻿"E24"={
 	country="E24"
-	8={
+	10008={
 		first_name="Nimlot"
 		family = c:E24.fam:Shosqenq-Shu
-		#father="char:5"
-		#mother="char:6"
+		#father="char:10005"
+		#mother="char:10006"
 		birth_date=1250.1.1
 		culture="ma"
 		religion="kemetic_pantheon"
@@ -18,12 +18,12 @@
 		add_gold=500
 		add_popularity=100
 		c:E24={
-			set_as_ruler=char:8
+			set_as_ruler=char:10008
 		}
 		#dna=""
 	}
 	
-	10={
+	10010={
 		first_name="Tanetsepeh"
 		female=yes
 		birth_date=1250.1.1
@@ -37,15 +37,15 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		marry_character=char:8
+		marry_character=char:10008
 		#dna=""
 	}
 	
-	11={
+	10011={
 		first_name="Shosqenq"
 		family = c:E05.fam:Shosqenq-Shu
-		father="char:8"
-		mother="char:10"
+		father="char:10008"
+		mother="char:10010"
 		birth_date=1290.1.1
 		culture="ma"
 		religion="kemetic_pantheon"

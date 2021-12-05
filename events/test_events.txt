@@ -1,0 +1,2061 @@
+﻿namespace = test
+
+#Test 1
+test.1 = {
+	type = major_country_event
+	title = "startup_events.1.t"
+	desc = "startup_events.1.desc"
+	
+	trigger = {  }
+	
+	option = {
+		name = "startup_events.1.a"					# A Holy Day (Yes)
+		
+	}
+}
+
+test.3 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	
+	trigger = {
+	}
+	
+	immediate = {
+	}
+	
+	option = {
+		
+	}
+
+}
+
+test.5 = {
+	type = country_event
+	title = "direct_scope"
+	desc = "test_setup_for_direct_character_scoping_by_id"
+	
+	option = {
+		name = "ruler_char_0_roman_consul" 
+		if = {
+			limit = {
+				current_ruler = char:0
+			}
+			add_treasury = 500
+		}
+	}
+}
+
+test.10 = {
+	type = country_event
+	title = "is_in_area_trigger"
+	desc = "testomg_the_is_in_area_x_trigger"
+
+	option ={
+		highlight = yes
+		name = "named_is_in_area"
+		if = {
+			limit = {
+				capital_scope = {
+					is_in_area = roma_area
+				}
+			}
+			add_treasury = 500
+		}
+		else = {
+			add_treasury = -500
+		}
+	}
+	option = {
+		name = "scoped_is_in_area"
+		if = {
+			limit = {
+				capital_scope = {
+					is_in_area = c:ROM.capital_scope
+				}
+			}
+			add_treasury = 500
+		}
+		else = {
+			add_treasury = -500
+		}
+	}
+}
+
+test.6 = {
+	type = country_event 
+	title = "todo_test_event"
+	desc = "mmmm_testing"
+	
+	option = {
+		name = "test.6.a" 
+		set_country_religion = druidism
+		set_primary_culture_cleanup_effect = {
+			NEW_PRIMARY_CULTURE = magadhi
+			MAKE_OLD_CULTURE_INTEGRATED = no
+		}
+	}
+}
+
+test.7 = {
+	type = country_event 
+	title = "todo_test_event"
+	desc = "mmmm_testing"
+	
+	trigger = {
+		#has_this_omen = omen_apollo
+	}
+	
+	option = {
+		name = "todo_test_event" 
+	}
+}
+
+test.8 = {
+	type = country_event 
+	title = "test_create_character"
+	desc = "mmmm_testing"
+	
+	option = {
+		name = "todo_test_event"
+		
+		create_character = {
+			### Optional properties ###
+			first_name = "Testius"
+			# dna = ""
+			culture = zhangzhung # or scope
+			religion = germanic_religion # or scope
+			# family = scope
+			# father = scope
+			# mother = scope
+			birth_province = 100 # or scope
+			female = yes
+			age = 600
+			
+			### Effects on character ###
+			force_add_trait = tactician
+			add_charisma = 20
+			add_finesse = 20
+			add_martial = 20
+			add_zeal = 20
+			save_scope_as = test_character
+		}
+	}
+}
+
+test.11 = {
+	type = country_event 
+	title = "test_declare_war"
+	desc = "mmmm_testing"
+	
+	option = {
+		name = "todo_test_event"
+		
+		declare_war_with_wargoal = {
+			target = ROM
+			war_goal = conquer_wargoal
+			province = 2
+		}
+	}
+}
+
+test.13 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "startup_events.2.desc"
+	#desc = "things"
+	
+	picture = revolt
+	
+	left_portrait = scope:test_13_1
+	left_portrait = scope:test_13_2
+	left_portrait = scope:test_13_3
+	right_portrait = scope:test_13_4
+	right_portrait = scope:test_13_5
+	right_portrait = scope:test_13_6
+	
+	immediate = {
+		random_character = {
+			save_scope_as = test_13_1
+		}
+		random_character = {
+			save_scope_as = test_13_2
+		}
+		random_character = {
+			save_scope_as = test_13_3
+		}
+		random_character = {
+			save_scope_as = test_13_4
+		}
+		random_character = {
+			save_scope_as = test_13_5
+		}
+		random_character = {
+			save_scope_as = test_13_6
+		}
+	} 
+	
+	option = {
+		name = "todo_test_event"
+		add_stability = 4
+		add_stability = 4
+		add_stability = 4
+		add_stability = 3
+	}
+	
+	option = {
+		name = "todo_test_event"
+		scope:test_13_2 = {
+			#add_loyalty = 100
+			add_prominence = 100
+			add_corruption = 100
+			add_gold = 46615
+		}
+	}
+	
+	option = {
+		name = "todo_test_event"
+	}
+	
+	option = {
+		name = "todo_test_event"
+		custom_tooltip = "lunatic_tooltip"
+		highlight = yes
+	}
+ 
+}
+
+test.14 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "fort_test"
+	
+	trigger = {
+		p:1 = {
+			fort_level = 2
+		}
+	}
+	
+	option = {
+		name = "todo_test_event"
+	}
+}
+
+test.15 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "state_goods_test"
+	
+	trigger = {
+		p:58 = {
+			is_importing_trade_good = wood
+		}
+	}
+	
+	option = {
+		name = "todo_test_event"
+	}
+}
+
+test.17 = {
+	type = country_event
+	title = "loyalty_remove_test"
+	desc = "loyalty_remove_test"
+	
+	option = {
+		every_character = {
+			#add_loyalty = -100
+		}
+	}
+}
+
+test.18 = {
+	type = country_event
+	title = "loyalty_remove_test"
+	desc = "loyalty_remove_test"
+	
+	option = {
+		p:1 = {
+			state = {
+				every_state_province = {
+					create_state_pop = slaves
+				}
+			}
+		}
+	}
+}
+
+test.19 = {
+	type = country_event
+	title = "gender_equality_test"
+	desc = "gender_equality_test"
+	
+	option = {
+		name = "todo_test_event"
+		set_gender_equality = yes
+	}
+}
+
+test.20 = {
+	type = country_event
+	title = "character_religion_test"
+	desc = "character_religion_test"
+	
+	option = {
+		name = "todo_test_event"
+		current_ruler = {
+			set_character_religion = druidism
+		}
+	}
+}
+
+test.21 = {
+	type = country_event
+	title = "create_unit_test"
+	desc = "create_unit_test"
+	
+	option = {
+		create_unit = {
+		}
+	}
+	
+	option = {
+		create_unit = {
+			name = "Army!!!"
+			location = p:2
+		}
+	}
+	
+	option = {
+		create_unit = {
+			name = "Ship!!!"
+			navy = yes
+			location = p:2711
+		}
+	}
+	
+	option = {
+		# This will give an error since the ship would spawn in on land
+		create_unit = {
+			name = "Hovercraft"
+			navy = yes
+		}
+	}
+}
+
+test.22 = {
+	type = country_event
+	title = "test_office_scope"
+	desc = "office_localization_test"
+	
+	immediate = {
+		random_character = {
+			limit = {
+				has_office = office_physician
+			}
+			save_scope_as = phys
+		}
+	}
+	
+	option = {
+
+	}
+	
+}
+
+test.23 = {
+	type = country_event
+	title = "province_ID_test"
+	desc = "province_ID_test"
+	
+	trigger = {
+		any_neighbour_country = {
+			tag = PRY
+		}
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		
+	}
+	
+}
+
+test.24 = {
+	type = country_event
+	title = "tutorial_trigger_test"
+	desc = "todo_test_event"
+	
+	trigger = {
+		is_tutorial_active = yes
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		
+	}
+	
+}
+
+test.26 = {
+	type = country_event
+	title = "make_pregnant_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		random_character = {
+			limit = {
+				is_adult = yes
+				is_female = no
+			}
+			save_scope_as = test_father
+		}
+	}
+	
+	option = {
+		random_character = {
+			limit = {
+				is_female = yes
+				this = char:4535
+			}
+			make_pregnant = {
+				father = scope:father
+			}
+		}
+	}
+	
+}
+
+test.27 = {
+	type = country_event
+	title = "change_country_flag_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		change_country_flag = "ROM_REVOLT"
+	}
+	
+}
+
+test.28 = {
+	type = character_event
+	title = "move_general_test"
+	desc = "todo_test_event"
+	hidden = yes
+	
+	immediate = {
+		move_country = EGY
+	}
+	
+}
+
+test.29 = {
+	type = country_event
+	title = "exterminatus"
+	desc = "grim_darkness"
+	
+	option = {
+		name = "what_have_i_done"
+		every_owned_province = {
+			every_pops_in_province = {
+				kill_pop = yes
+			}
+		}
+	}
+}
+
+test.30 = {
+	type = country_event
+	title = "civtest"
+	desc = "todo_test_event"
+	
+	option = {
+		name = "civtest"
+		capital_scope = {
+			add_civilization_value = 100
+		}
+	}
+}
+
+test.31 = {
+	type = character_event
+	title = "debtor_test"
+	hidden = yes
+	
+	immediate = {
+		add_gold = -100
+	}
+}
+
+test.32 = {
+	type = country_event
+	title = "gambling_test"
+	desc = "todo_test_event"
+	
+	left_portrait = scope:secret_gambler_scope
+	right_portrait = scope:secret_gambler_scope
+	
+	immediate = {
+		random_character = {
+			weight = {
+				modifier = {
+					factor = 200
+					has_character_modifier = secret_gambler
+				}
+			}
+			save_scope_as = secret_gambler_scope
+		}
+	}
+	
+	option = {
+		name = "gambling"
+	}
+}
+
+test.33 = {
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		owner = {
+			trigger_event = {
+				id = test.34
+			}
+		}
+	}
+	
+}
+
+test.34 = {
+	type = country_event
+	title = "on_action_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "SUCCESS"
+	}
+	
+}
+
+test.35 = {
+	type = country_event
+	title = "on_action_test"
+	desc = "test.35.desc" 
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "SUCCESS"
+		
+	}
+	
+}
+
+test.36 = {
+	type = country_event
+	title = "remove_command_test"
+	desc = "remove_general" 
+	
+	immediate = {
+	}
+	
+	option = {
+		name = "SUCCESS"
+		random_character = {
+			limit = {
+				is_general = yes
+			}
+			remove_command = yes
+		}
+	}
+	
+}
+
+test.37 = {
+	type = country_event
+	title = "set_controller_effect_test"
+	desc = "set_controller_effect_test" 
+	
+	immediate = {
+		random_country = {
+			limit = {
+				war_with = ROOT
+			}
+			save_scope_as = controller_test
+		}
+	}
+	
+	option = {
+		name = "SUCCESS"
+		random_owned_province = {
+			set_controller = scope:controller_test
+		}
+	}
+	
+}
+
+test.38 = {
+	type = country_event
+	title = "set_controller_effect_test"
+	desc = "set_controller_effect_test" 
+	
+	immediate = {
+		random_owned_province = {
+			set_controller = c:REB
+		}
+	}
+	
+	option = {
+		name = "SUCCESS"
+		random_owned_province = {
+			limit = {
+				controller = c:REB
+			}
+			set_controller = ROOT
+		}
+	}
+	
+}
+
+test.39 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	hidden = yes
+	
+	immediate = {
+		every_province = {
+			set_conquered_by = BOI
+		}
+	}
+	
+}
+
+test.40 = {
+	type = character_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	hidden = yes
+	
+	immediate = {
+		clear_ambition_effect = yes
+	}
+	
+}
+
+test.41 = {
+	type = country_event
+	title = "exists_test"
+	desc = "will_it_blend"
+	
+	immediate = {
+		random_character = {
+			save_scope_as = willitblend
+		}
+	}
+	
+	option = {
+		if = {
+			limit = {
+				exists = scope:willitblend
+			}
+			change_country_name = "IT WILL BLEND"
+		}
+		else = {
+			change_country_name = "IT WILL NOT BLEND"
+		}
+	}
+	
+}
+
+test.42 = {
+	type = country_event
+	title = "ambition_test"
+	desc = "will_it_blend"
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		every_character = {
+			clear_ambition_effect = yes
+		}
+	}
+	
+}
+
+test.44 = {
+	type = country_event
+	title = "random_list_test"
+	desc = "will_it_blend"
+	
+	immediate = {
+		random_list = {
+			20 = {
+				add_stability = 1
+			}
+			20 = {
+				add_stability = 2
+			}
+			20 = {
+				add_stability = 3
+			}
+		}
+	}
+	
+	option = {
+		
+	}
+	
+}
+
+test.45 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_loyalty = loyalty_defeated_cil_war
+	}
+	
+}
+
+test.46 = {
+	type = country_event
+	title = "family_list_test"
+	desc = "will_it_blend"
+	
+	immediate = {
+		c:PRY = {
+			random_family = {
+				move_family = c:EGY
+			}
+		}
+	}
+	
+	option = {
+		
+	}
+	
+}
+
+test.47 = {
+	type = character_event
+	title = "family_list_test"
+	desc = "will_it_blend"
+	hidden = yes
+	
+	immediate = {
+		move_country = JUD
+	}
+	
+}
+
+test.48 = {
+	type = country_event
+	title = "family_list_test"
+	desc = "will_it_blend"
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "todo_test_event"
+		random_character = {
+			family = {
+				every_family_member = {
+					#add_loyalty = 10
+				}
+			}
+		}
+	}
+}
+
+test.49 = {
+	type = country_event
+	title = "religion_object_link_test"
+	desc = "todo_test_event"
+	
+	trigger = {
+		religion = c:ROM.religion
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "todo_test_event"
+		
+	}
+}
+
+test.50 = {
+	type = character_event 
+	hidden = yes
+	
+	immediate = {
+		add_trait = humble
+	}
+}
+
+test.51 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		while = {
+			limit = {
+				any_character = {
+					count < 5
+					has_variable = prominent_actor
+				}
+			}
+			random_character = {
+				limit = {
+					NOR = {
+						has_character_modifier = foreign_citizen
+						has_variable = prominent_actor
+					}
+					is_ruler = no
+					is_adult = yes
+				}
+				weight = {
+					modifier = {
+						factor = 100
+						prominence >= 60
+					}
+					modifier = {
+						factor = 1.5
+						has_any_office = yes
+					}
+					modifier = {
+						factor = 1.5
+						has_any_office = yes
+					}
+					modifier = {
+						factor = 1.5
+						age >= 50
+					}
+					modifier = {
+						factor = 0
+						employer = {
+							gender_equality = no
+						}
+						is_female = yes
+					}
+				}
+				set_variable = {
+					name = prominent_actor
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+test.52 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		weighted_calc_true_if = {
+			amount = 1
+			1 = { exists = c:REB }
+		}
+	}
+	
+}
+
+test.53 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_triggered_character_modifier = {
+			name = disloyal_successor_cmod
+			duration = 3650
+		}
+	}
+}
+
+test.54 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		NOT = { has_character_modifier = disloyal_successor_cmod }
+	}
+	
+}
+
+test.55 = {
+	type = country_event
+	title = "adoption_test"
+	desc = "why_waste_time"
+	
+	option = {
+		name = "SUCCESS"
+		current_ruler = {
+			adopt = country.job_holder:office_marshal
+		}
+	}
+}
+
+test.56 = {
+	type = country_event
+	title = "opinion_positive_test"
+	desc = "todo_test_event"
+	
+	option = {
+		c:MRS = {
+			add_opinion = {
+				target = c:ROM
+				modifier = test_opinion
+			}
+		}
+	}
+}
+
+test.57 = {
+	type = country_event
+	title = "diplo_rep_test"
+	desc = "todo_test_event"
+	
+	option = {
+		add_country_modifier = {
+			name = diplo_rep_test_mod 
+			duration = -1
+		}
+	}
+}
+
+test.58 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		c:MRS = {
+			is_subject_of = root
+		}
+	}
+}
+
+test.59 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_character_modifier = {
+			name = character_wealth_test_mod
+			duration = -1
+		}
+	}
+}
+
+test.60 = {
+	type = character_event
+	title = "heir_test_wealth_scope"
+	desc = "todo_test_event"
+	
+	trigger = {
+		this = preferred_heir
+	}
+	
+	immediate = {
+		preferred_heir = {
+			add_character_modifier = {
+				name = character_wealth_test_mod
+				duration = -1
+			}
+		}
+	}
+	
+	option = {}
+}
+
+test.61 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_gold = 1000
+		#add_loyalty = -100
+		employer = {
+			random_successor = {
+				limit = {
+					is_pretender = yes
+				}
+				#add_loyalty = -50
+				add_friend = root
+			}
+		}
+	}
+	
+}
+
+test.62 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		is_iron_man = yes
+	}
+	
+}
+
+test.63 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	
+	goto_location = scope:go_forth
+	
+	immediate = {
+		random_owned_province = {
+			area = {
+				save_scope_as = go_forth
+			}
+		}
+	}
+	
+	option = {
+	
+	}
+	
+}
+
+test.64 = { #performance warning.
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_country = {
+			every_owned_province = {
+				set_conquered_by = ROOT
+			}
+		}
+		every_province = {
+			limit = {
+				has_owner = no
+			}
+			set_owned_by = ROOT
+		}
+	}
+	
+}
+
+test.65 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		has_land = yes
+		num_of_cities >= 1
+	}
+	
+}
+test.66 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		NOR = {
+			has_variable = recent_succession_crisis
+			has_civil_war = yes
+		}
+		any_successor = {
+			OR = {
+				AND = {
+					loyalty < 33
+					is_adult = yes
+					is_ruler = no
+					is_pretender = yes
+				}
+				AND = {
+					loyalty < 33
+					is_adult = yes
+					is_ruler = no
+					is_primary_heir = yes
+					from_ruler_family = no
+				}
+			}
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+		}
+	}
+	
+}
+
+test.67 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		#add_loyalty = 40
+	}
+	
+}
+test.68 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_popularity = -20
+	}
+	
+}
+test.69 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		remove_triggered_character_modifier = disloyal_successor_cmod
+	}
+	
+}
+
+test.70 = {
+	type = province_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	
+	option = {
+		name = "10x_light_infantry"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = light_infantry
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_archers"
+		owner = {
+			create_unit = {
+				location = root
+				while = {
+					count = 9
+					add_subunit = archers
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_heavy_infantry"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = heavy_infantry
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_light_cavalry"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = light_cavalry
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_heavy_cavalry"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = heavy_cavalry
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_horse_archers"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = horse_archers
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_camels"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = camels
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_war_elephants"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = elephant_indian
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "10x_chariots"
+		owner = {
+			create_unit = {
+				location = root
+				random_sub_unit = {
+					destroy_subunit = yes
+				}
+				while = {
+					count = 10
+					add_subunit = chariots
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "power"
+		owner = {
+			add_political_influence = 800
+		}
+	}
+	
+	option = {
+		name = "kill"
+		owner = {
+			every_army = {
+				destroy_unit = yes
+			}
+		}
+	}
+	
+	option = {
+		name = "new_general"
+		owner = {
+			trigger_event = {
+				id = test.71
+			}
+		}
+	}
+	
+	option = {
+		name = "add_pops_to_province"
+		while = {
+			count = 50
+			create_state_pop = freemen
+		}
+	}
+	
+}
+
+test.71 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "set_martial_of_general"
+	
+	left_portrait = scope:general_dude
+	
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				add_finesse = -10
+				add_martial = -10
+				add_charisma = -10
+				add_zeal = -10
+				save_scope_as = general_dude
+			}
+		}
+	}
+	
+	option = {
+		name = "test_1"
+		scope:general_dude = {
+			add_martial = 1
+		}
+	}
+	
+	option = {
+		name = "test_2"
+		scope:general_dude = {
+			add_martial = 2
+		}
+	}
+	
+	option = {
+		name = "test_3"
+		scope:general_dude = {
+			add_martial = 3
+		}
+	}
+	
+	option = {
+		name = "test_4"
+		scope:general_dude = {
+			add_martial = 4
+		}
+	}
+	
+	option = {
+		name = "test_5"
+		scope:general_dude = {
+			add_martial = 5
+		}
+	}
+	
+	option = {
+		name = "test_6"
+		scope:general_dude = {
+			add_martial = 6
+		}
+	}
+	
+	option = {
+		name = "test_7"
+		scope:general_dude = {
+			add_martial = 7
+		}
+	}
+	option = {
+		name = "test_8"
+		scope:general_dude = {
+			add_martial = 8
+		}
+	}
+	
+	option = {
+		name = "test_9"
+		scope:general_dude = {
+			add_martial = 9
+		}
+	}
+	
+	option = {
+		name = "test_10"
+		scope:general_dude = {
+			add_martial = 10
+		}
+	}
+	
+}
+
+test.72 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	
+	
+	immediate = {
+	
+	}
+	
+	option = {
+		random_army = {
+			random_sub_unit = {
+				limit = {
+					has_personal_loyalty = yes
+				}
+				remove_subunit_loyalty = yes
+			}
+		}
+	}
+	
+}
+
+test.73 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		is_successor = yes
+		NOT = {
+			is_successor = yes
+		}
+		is_successor = no
+	}
+}
+
+test.74 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	
+	left_portrait = scope:lol
+	
+	immediate = {
+		random_living_character = {
+			limit = {
+				NOT = {
+					exists = family
+				}
+			}
+			save_scope_as = lol
+		}
+	}
+	
+	option = {}
+	
+}
+
+test.75 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		stability > gender_balance_male_test_svalue
+		stability > gender_balance_female_test_svalue
+	}
+}
+
+test.76 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		change_government = despotic_monarchy
+	}
+}
+
+test.77 = {
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		hide_model = "wonder_dodona_oracle"
+	}
+}
+
+test.78 = {
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		show_model = "wonder_lighthouse_of_pharos"
+	}
+}
+
+test.79 = {
+	type = character_event
+	hidden = yes
+	
+	immediate = {
+		add_popularity = -100
+	}
+	
+}
+
+test.80 = {
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		add_province_modifier = { name = pirate_haven_modifier duration = -1 }
+	}
+	
+}
+
+test.81 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		current_ruler = {
+			add_trait = corrupt
+		}
+	}
+}
+
+test.82 = {
+	type = province_event
+	hidden = yes
+
+	immediate = {
+		add_vfx = {
+			name = "volcano_eruption_test"
+			duration = 0
+		}
+	}
+}
+
+test.83 = {
+	type = province_event
+	hidden = yes
+
+	immediate = {
+		remove_vfx = "desert_sandstorm"
+	}
+}
+
+# Apocalypse
+test.84 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		while = {
+			count = 100
+			random_country = {
+				capital_scope = {
+					add_vfx = {
+						name = "desert_sandstorm"
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+
+test.85 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		every_country = {
+			capital_scope = {
+				remove_vfx = "desert_sandstorm"
+			}
+		}
+	}
+}
+
+test.86 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_owned_province = {
+			population_cap = 1
+		}
+	}
+	
+}
+
+#Sea Storm pulse test
+
+test.87 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		p:2700 = { #random_seazone
+			add_vfx = {
+				name = "seastorm"
+				duration = 60
+			}
+			add_province_modifier = {
+				name = "stormy_seas"
+				duration = 60
+			}
+			save_scope_as = stormy_seas
+		}
+		trigger_event = {
+			id = test.88
+			days = { 365 730 }
+		}
+	}
+}
+
+test.88 = {
+	type = country_event
+	hidden = yes
+	immediate = {
+		p:2700 = {
+			add_vfx = {
+				name = "seastorm"
+				duration = 60
+			}
+			add_province_modifier = {
+				name = "stormy_seas"
+				duration = 60
+			}
+		}
+	}
+}
+
+test.89 = {
+	type = country_event
+	hidden = yes
+	immediate = {
+		p:2685 = {
+			add_vfx = {
+				name = "seastorm"
+				duration = 60
+			}
+			add_province_modifier = {
+				name = "stormy_seas"
+				duration = 60
+			}
+		}
+		c:MER = {
+			trigger_event = {
+				id = test.88
+				days = { 30 35 }
+			}
+		}
+	}
+}
+
+test.90 = {
+	type = country_event
+	title = "test_90"
+	desc = "test_90"
+	trigger = {
+		any_province = {
+			has_winter = yes
+		}
+	}
+	
+	option = {
+		name = "test_90"
+		random_province = {
+			limit = {
+				has_winter = yes
+				is_in_region = scandinavia_region
+			}
+			add_vfx = {
+				name = "snowstorm"
+				duration = 60
+			}
+			add_province_modifier = {
+				name = "snow_storm"
+				duration = 60
+			}
+		}
+	}
+}
+
+test.91 = {
+	type = country_event
+	title = "test_91"
+	desc = "test_91"
+	trigger = {
+		stability = 50.01
+	}
+	hidden = yes
+	
+}
+
+test.92 = {
+	type = country_event
+	title = "test_92"
+	desc = "test_92"
+	hidden = yes
+	immediate = {
+		random_character = {
+			limit = {
+				has_mother = yes
+			}
+			save_scope_as = testy
+		}
+	}
+}
+
+test.93 = {
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		NOT = {
+			has_global_variable = test_event_global_timer
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_global_variable = test_event_global_timer }
+			}
+			set_global_variable = {
+				name = test_event_global_timer
+				days = 5
+			}
+		}
+		else = {
+			trigger_event = {
+				id = test.94
+			}
+		}
+	}
+}
+
+test.94 = {
+	type = country_event
+	title = "still_not_working"
+	desc = "global_variable_cd"
+	picture = revolt
+
+	option = {
+		name = "infinite_sadface"
+		every_area = {
+			limit = {
+				any_area_province = {
+					count >= 3
+					is_port = yes
+				}
+			}
+			random_area_province = {
+				custom_tooltip = area_here
+			}
+		}
+		# every_country = {
+			# random_owned_province = {
+				# governorship = {
+					# every_governorship_state = {
+						# limit = {
+							# any_state_province = {
+								# count >= 3
+								# is_port = yes
+							# }
+						# }
+						# add_state_modifier = {
+							# name = regional_center_of_trade
+							# duration = -1
+						# }
+					# }
+				# }
+			# }
+		# }
+	}
+}
+
+test.97 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		random_country_state = {
+			random_state_province = {
+				add_state_loyalty = -100
+			}
+		}
+	}
+}
+
+# City Test Events
+
+test.95 = {
+	type = country_event
+	title = "food_city_trade_goods"
+	desc = "test_food_trade_goods"
+	picture = revolt
+
+	option = {
+		name = "but_why"
+
+		every_province = {
+			limit = {
+				has_city_status = yes
+				OR = {
+					trade_goods = grain
+					trade_goods = fish
+					trade_goods = vegetables
+					trade_goods = cattle
+				}
+			}
+			create_state_pop = freemen
+		}
+	}
+}
+
+test.96 = {
+	type = country_event
+	hidden = yes
+
+	immediate = {
+		current_ruler = {
+			add_trait = lunatic
+		}
+		every_province = {
+			limit = {
+				OR = {
+					is_in_region = tarraconensis_region
+					is_in_region = baetica_region
+					is_in_region = lusitania_region
+					is_in_region = contestania_region
+					is_in_region = gallaecia_region
+					is_in_region = magna_graecia_region
+					is_in_region = central_italy_region
+					is_in_region = numidia_region
+					is_in_region = cisalpine_gaul_region
+					is_in_region = transalpine_gaul_region
+					is_in_region = aquitaine_region
+					is_in_region = central_gaul_region
+					is_in_region = armorica_region
+					is_in_region = belgica_region
+					is_in_region = rhaetia_region
+				}
+			}
+			set_conquered_by = c:ROM
+		}
+	}
+}
+
+test.99 = {
+	type = country_event
+	title = "todo_test_event"
+	desc = "todo_test_event"
+	picture = revolt
+
+	trigger = {
+		any_owned_province = {
+			governorship = {
+				exists = governor_or_ruler
+				governor_or_ruler = { is_ruler = no }
+				any_governorship_state = {
+					count >= 6
+				}
+			}
+		}
+		capital_scope = {
+			trigger_if = {
+				limit = { has_city_status = no }
+				has_city_status = yes
+			}
+			total_population >= 20
+			free_building_slots < 1
+		}
+	}
+	
+	immediate = {
+		random_owned_province = {
+			limit = {
+				governorship = {
+					exists = governor_or_ruler
+					governor_or_ruler = { is_ruler = no }
+					any_governorship_state = {
+						count >= 6
+					}
+				}
+			}
+			create_state_pop = freemen
+			governorship = {
+				save_scope_as = infra_region
+				governor = {
+					#add_loyalty = 30
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "todo_test_event"
+	}
+}
+
+test.100 = {
+	type = country_event
+	title = "country_treasure_test"
+	desc = "todo_test_event"
+	
+	option = {
+		create_country_treasure = {
+			key = giant_box_of_oreos
+			icon = treasure_chest
+
+			modifier = {
+				global_slaves_output = 0.15
+			}
+			character_modifier = {
+				martial = 1
+			}
+		}
+	}
+	
+	option = {
+		create_country_treasure = {
+			key = giant_box_of_oreos_2
+			icon = treasure_chest
+
+			modifier = {
+				global_slaves_output = 0.15
+				global_freemen_output = 0.15
+				global_citizen_output = 0.15
+			}
+			character_modifier = {
+				martial = 1
+			}
+		}
+		create_country_treasure = {
+			key = a
+			icon = treasure_chest
+
+			modifier = {
+				global_slaves_output = 0.15
+				global_freemen_output = 0.15
+				global_citizen_output = 0.15
+			}
+			character_modifier = {
+				martial = 1
+			}
+		}
+		create_country_treasure = {
+			key = c
+			icon = treasure_chest
+
+			modifier = {
+				global_slaves_output = 0.15
+				global_freemen_output = 0.15
+				global_citizen_output = 0.15
+			}
+			character_modifier = {
+				martial = 1
+			}
+		}
+		create_country_treasure = {
+			key = b
+			icon = treasure_chest
+
+			modifier = {
+				global_slaves_output = 0.15
+				global_freemen_output = 0.15
+				global_citizen_output = 0.15
+			}
+			character_modifier = {
+				martial = 1
+			}
+		}
+	}
+
+} 
+
+test.101 = {
+	type = country_event
+	title = "country_treasure_transfer_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		random_character = {
+			save_scope_as = dude
+		}
+	}
+	
+	option = {
+		random_country_treasure = { 
+			transfer_treasure_to_character = scope:dude
+		}
+	}
+
+}
+
+test.102 = {
+	type = country_event
+	title = "set_province_deity_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+	}
+	
+	option = {
+		p:6239 = {
+			set_province_deity = deity:omen_ares
+		}
+	}
+
+}
+
+test.103 = {
+	type = country_event
+	title = "add_to_war_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		random_active_war =  {
+			save_scope_as = test_war
+		}
+		set_variable = {
+			name = wartime
+			value = scope:test_war
+		}
+	}
+	
+	option = {
+		#add_to_war = {
+		#	target = scope:test_war
+		#	attacker = yes
+		#}
+		var:wartime.attacker_warleader = { add_treasury = 100 }
+	}
+
+}
+
+test.104 = {
+	type = country_event
+	title = "add_to_war_test"
+	desc = "todo_test_event"
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		var:wartime.attacker_warleader = { add_treasury = 100 }
+	}
+
+}

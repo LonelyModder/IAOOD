@@ -1,6 +1,6 @@
 ﻿"J20"={
 	country="J20"
-	53={
+	10053={
 		first_name="Abibaal"
 		family = c:J20.fam:Sidonian
 		birth_date=1230.1.1
@@ -16,15 +16,15 @@
 		add_gold=500
 		add_popularity=100
 		c:J20={
-			set_as_ruler=char:53
+			set_as_ruler=char:10053
 		}
 		#dna=""
 	}
 	
-	54={
+	10054={
 		first_name="Hiram"
 		family = c:J20.fam:Sidonian
-		father="char:53"
+		father="char:10053"
 		birth_date=1270.1.1
 		culture="core_punic"
 		religion="canaanitic_pantheon"

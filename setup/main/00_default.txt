@@ -557,6 +557,7 @@ diplomacy = {
 	dependency = { first = E05 second = E14 subject_type = feudatory }
 	dependency = { first = E05 second = E13 subject_type = feudatory }
 	dependency = { first = E05 second = L22 subject_type = feudatory }
+	dependency = { first = E05 second = E04 subject_type = feudatory }
 	#Babylonian migrant leader
 	dependency = { first = A92 second = A28 subject_type = tributary }
 	#Assyrian kaskan subject
@@ -1760,7 +1761,7 @@ country = {
 			capital = 7366
 			
 			own_control_core = 	{
-				7366 7363 7361
+				7366 7363
 			}
 		}
 		
@@ -2365,7 +2366,7 @@ country = {
 			capital = 533
 			
 			own_control_core = 	{ 
-				533 520 7691
+				533 7691
 			}
 		}
 		
@@ -2603,7 +2604,7 @@ country = {
 			
 			own_control_core = 	{ 
 				680 683 684 682 686 679 719 713 717 715 720 676 675 
-				674 677 648 742 722 667 665 721 745 672
+				674 677 648 742 722 721 745 672
 			}
 			
 			pantheon = {
@@ -6544,7 +6545,7 @@ country = {
 			capital = 6657
 			
 			own_control_core = 	{ 
-				6657 6658 6660 5437 6656 6729 6728 3445 3447 3446 5439 5436 5438 3475 3428
+				6657 6658 6660 5437 6656 6729 6728 3445 3447 3446
 			}
 		}
 		
@@ -6819,7 +6820,7 @@ country = {
 			capital = 6678
 			
 			own_control_core = 	{ 
-				6678 6686 6654 6637 6677 6680 6681 6692 6691 6690 6689 6688 6719 7232 7227 7233
+				6678 6686 6654 6637 6677 6680 6681 6692
 			}
 		}
 		
@@ -8407,7 +8408,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				599 598 597 596 594 595 593 592 600 601 602 603 604 7580 7579
+				599 598 597 595 592 600 603 604 7580 7579
 			}
 		}
 		
@@ -8464,7 +8465,7 @@ country = {
 			capital = 624
 			
 			own_control_core = 	{ 
-				624 622 625 623
+				624 625 623
 			}
 		}
 		
@@ -8503,7 +8504,7 @@ country = {
 			capital = 627
 			
 			own_control_core = 	{ 
-				627 7584 628 629
+				627 7584
 			}
 		}
 		
@@ -9001,7 +9002,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1975 1785 1780 169 1950 1938 1916 1934 1965 1919 1971 1918 7962 1784 7963 7964 7961 1920 1896 1894 1917
+				1975 1785 1780 169 1950 1938 1916 1965 1919 1918 7962 1784 7963 7964 7961 1920 1896 1894 1917
 			}
 			
 		}
@@ -9518,7 +9519,7 @@ country = {
 			capital = 311
 			
 			own_control_core = 	{ 
-				311 308 307 309 339 1942
+				311 339 1942
 			}
 			
 		}
@@ -14051,7 +14052,7 @@ country = {
 			capital = 4876
 			
 			own_control_core = 	{ 
-				4876 4877 4857 4873 4853
+				4876 4877 4857 4853
 			}
 			
 		}
@@ -16470,7 +16471,7 @@ country = {
 			capital = 3556
 			
 			own_control_core = 	{ 
-				3557 3556 3553
+				3557 3556
 			}
 			
 		}
@@ -19471,7 +19472,7 @@ country = {
 			capital = 2345
 			
 			own_control_core = 	{ 
-				2345 2396 2390 2389 2387 
+				2345 2396 2390 2389 
 			}
 			
 		}
@@ -19711,7 +19712,7 @@ country = {
 			capital = 2413
 			
 			own_control_core = 	{ 
-				2413 2414 2412 2434 2332 2415
+				2413 2414 2412 2434 2415
 			}
 			
 		}
@@ -20394,7 +20395,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4476 4492 7300 4497 7426 7315 7316 7311 7424 4486 7418 4493 7420 7114
+				4476 4492 7300 4497 7426 7315 7316 7311 7424 4486 7418 4493
 			}
 			
 		}
@@ -20789,7 +20790,7 @@ country = {
 			capital = 4491
 			
 			own_control_core = 	{ 
-				4495 4496 4491 7417 7416 4489
+				4491 7417 7416 4489
 			}
 			
 		}
@@ -20801,7 +20802,7 @@ country = {
 			capital = 4478
 			
 			own_control_core = 	{ 
-				4478 7431 7430 7419
+				4478 7419
 			}
 			
 		}

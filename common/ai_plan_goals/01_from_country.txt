@@ -33,6 +33,16 @@ is_early_ashur_aimod = {
 	aggressive = 420
 }
 
+is_mighty_aryan_aimod = {
+	trigger = {
+		primary_culture = medic
+		primary_culture = persic
+		manpower > 4
+	}
+	ae_ceiling = 30
+	aggressive = 420
+}
+
 is_lacking_levies_pseudo_trigger = {
 	trigger = {
 		military_experience > 80

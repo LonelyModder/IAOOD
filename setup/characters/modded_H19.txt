@@ -1,6 +1,6 @@
 ﻿"H19"={
 	country="H19"
-	73={
+	10073={
 		first_name="Godrias"
 		family = c:H19.fam:Gordianid
 		birth_date=1220.1.1
@@ -17,10 +17,10 @@
 		#dna=""
 	}
 	
-	74={
+	10074={
 		first_name="Mita"
 		family = c:H19.fam:Gordianid
-		father="char:73"
+		father="char:10073"
 		birth_date=1260.1.1
 		culture="phrygic"
 		religion="thracic_pantheon"
@@ -34,7 +34,7 @@
 		add_gold=500
 		add_popularity=100
 		c:H19={
-			set_as_ruler=char:74
+			set_as_ruler=char:10074
 		}
 		#dna=""
 	}

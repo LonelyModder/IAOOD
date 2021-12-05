@@ -1,6 +1,6 @@
 ﻿"H01"={
 	country="H01"
-	47={
+	10047={
 		first_name="Manana"
 		family = c:H01.fam:Mananid
 		birth_date=1245.1.1
@@ -15,15 +15,15 @@
 		add_gold=500
 		add_popularity=100
 		c:H01={
-			set_as_ruler=char:47
+			set_as_ruler=char:10047
 		}
 		#dna=""
 	}
 	
-	48={
+	10048={
 		first_name="Supiluliuma"
 		family = c:H01.fam:Mananid
-		father="char:47"
+		father="char:10047"
 		birth_date=1265.1.1
 		culture="hatti"
 		religion="luwic_pantheon"

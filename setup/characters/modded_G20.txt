@@ -1,6 +1,6 @@
 ﻿"G20"={
 	country="G20"
-	76={
+	10076={
 		first_name="Dryssos"
 		family = c:G20.fam:Agiad
 		birth_date=1270.1.1
@@ -16,12 +16,12 @@
 		add_gold=500
 		add_popularity=100
 		c:G20={
-			set_as_ruler=char:76
+			set_as_ruler=char:10076
 		}
 		#dna=""
 	}
 	
-	77={
+	10077={
 		first_name="Prytanis"
 		family = c:G20.fam:Proclid
 		birth_date=1270.1.1
@@ -37,15 +37,15 @@
 		add_gold=500
 		add_popularity=100
 		c:G20={
-			set_as_coruler=char:77
+			set_as_coruler=char:10077
 		}
 		#dna=""
 	}
 	
-	78={
+	10078={
 		first_name="Agesilaos"
 		family = c:G20.fam:Agiad
-		father="char:76"
+		father="char:10076"
 		birth_date=1290.1.1
 		culture="laconic"
 		religion="grecoid_pantheon"
@@ -61,10 +61,10 @@
 		#dna=""
 	}
 	
-	79={
+	10079={
 		first_name="Eunomos"
 		family = c:G20.fam:Proclid
-		father="char:77"
+		father="char:10077"
 		birth_date=1290.1.1
 		culture="laconic"
 		religion="grecoid_pantheon"

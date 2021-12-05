@@ -1,6 +1,6 @@
 ﻿"H03"={
 	country="H03"
-	40={
+	10040={
 		first_name="Sapaziti"
 		family = c:H03.fam:Tudhalianid
 		birth_date=1220.1.1
@@ -17,10 +17,10 @@
 		#dna=""
 	}
 	
-	41={
+	10041={
 		first_name="Uratarhunza"
 		family = c:H03.fam:Tudhalianid
-		father="char:40"
+		father="char:10040"
 		birth_date=1265.1.1
 		culture="hatti"
 		religion="luwic_pantheon"
@@ -34,7 +34,7 @@
 		add_gold=500
 		add_popularity=100
 		c:H03={
-			set_as_ruler=char:41
+			set_as_ruler=char:10041
 		}
 		#dna=""
 	}

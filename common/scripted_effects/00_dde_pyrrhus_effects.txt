@@ -1,0 +1,2725 @@
+﻿dhe_dde_pyrrhus_1_move_effect = {
+	hidden_effect = {
+		scope:pyrrhus = { add_loyalty = loyalty_pyrrhus_travelling }
+	}
+	if = {
+		limit = {
+			char:70 = { has_variable = flavor_epi_deidamia_demetrius_married_flag }
+			char:70.var:flavor_epi_deidamia_demetrius_married_flag = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = char:70.var:flavor_epi_deidamia_demetrius_married_flag
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			char:70.var:flavor_epi_deidamia_demetrius_married_flag = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = PRY }
+			c:PRY = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:PRY
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:PRY = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = EGY }
+			c:EGY = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:EGY
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:EGY = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = SEL }
+			c:SEL = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:SEL
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:SEL = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = TRE }
+			c:TRE = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:TRE
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:TRE = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = MAC }
+			c:MAC = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+				OR = {
+					c:EPI = {
+						opinion = { 
+							target = c:MAC
+							value >= 100
+						}
+					}
+				}
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:MAC
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:MAC = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { tag = TLN }
+			c:TLN = {
+				has_land = yes
+				NOT = { has_variable = pyrrhus_refused }
+			}
+		}
+		hidden_effect = {
+			scope:pyrrhus = {
+				remove_all_positions = yes
+				move_country = c:TLN
+				remove_character_modifier = foreign_citizen
+				set_as_minor_character = scope:pyrrhus
+			}
+			c:TLN = {
+				trigger_event = { id = dhe_dde_pyrrhus.2 }
+			}
+		}
+	}
+	else = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					country_culture_group = hellenic
+					NOT = { has_variable = pyrrhus_refused }
+				}
+				save_scope_as = dhe_dde_pyrrhus_fallback_country_scope
+				set_variable = pyrrhus_fallback_flag
+			}
+			if = {
+				limit = { exists = scope:dhe_dde_pyrrhus_fallback_country_scope }
+				scope:pyrrhus = {
+					remove_all_positions = yes
+					move_country = scope:dhe_dde_pyrrhus_fallback_country_scope
+					remove_character_modifier = foreign_citizen
+					set_as_minor_character = scope:pyrrhus
+				}
+				scope:dhe_dde_pyrrhus_fallback_country_scope = {
+					trigger_event = { id = dhe_dde_pyrrhus.2}
+				}
+			}
+		}
+	}
+}
+
+pyrrhus_truce_scope_effect = {
+	hidden_effect = {
+		if = { # If not Egypt and have truce with Egypt
+			limit = {
+				NOT = { tag = EGY }
+				c:EGY = { has_land = yes }
+				has_truce_with = c:EGY
+			}
+			c:EGY = { save_scope_as = pyrrhus_second_country_scope }
+		}
+		else_if = { # If not Seleucids and have truce with Sel
+			limit = {
+				NOT = { tag = SEL }
+				c:SEL = { has_land = yes }
+				has_truce_with = c:SEL
+			}
+			c:SEL = { save_scope_as = pyrrhus_second_country_scope }
+		}
+		else_if = { # If not Phygria and have truce with Phygria
+			limit = {
+				NOT = { tag = PRY }
+				c:PRY = { has_land = yes }
+				has_truce_with = c:PRY
+			}
+			c:PRY = { save_scope_as = pyrrhus_second_country_scope }
+		}
+		else_if = { # If not Thrace and have truce with Thrace
+			limit = {
+				NOT = { tag = TRE }
+				c:TRE = { has_land = yes }
+				has_truce_with = c:TRE
+			}
+			c:TRE = { save_scope_as = pyrrhus_second_country_scope }
+		}
+		else_if = { # If not Macedon have truce with Macedon
+			limit = {
+				NOT = { tag = MAC }
+				c:MAC = { has_land = yes }
+				has_truce_with = c:MAC
+			}
+			c:MAC = { save_scope_as = pyrrhus_second_country_scope }
+		}
+		else = {
+			if = {
+				limit = {
+					c:EGY = { has_land = yes }
+				}
+				c:EGY = { save_scope_as = pyrrhus_second_country_scope }
+			}
+			else_if = {
+				limit = {
+					c:SEL = { has_land = yes }
+				}
+				c:SEL = { save_scope_as = pyrrhus_second_country_scope }
+			}
+			else_if = {
+				limit = {
+					c:TRE = { has_land = yes }
+				}
+				c:TRE = { save_scope_as = pyrrhus_second_country_scope }
+			}
+			else_if = {
+				limit = {
+					c:MAC = { has_land = yes }
+				}
+				c:MAC = { save_scope_as = pyrrhus_second_country_scope }
+			}
+		}
+	}
+}
+
+pyrrhus_wife_finder_effect = {
+	ordered_character = {
+		limit = {
+			is_alive = yes
+			is_ruler = no
+			is_female = yes
+			is_adult = yes
+			age <= 30
+			is_married = no
+			prisoner = no
+			from_ruler_family = yes
+			employer = root
+			is_at_location = root.capital_scope
+		}
+		order_by = {
+			value = 0
+			subtract = age
+		}
+		max = 1
+		check_range_bounds = no
+		save_scope_as = pyrrhus_betrothed_scope
+	}
+}
+
+pyrrhus_4_big_supporter_effect = {
+	if = { # If commander add trait
+		limit = {
+			scope:pyrrhus = {
+				OR = {
+					is_general = yes 
+					is_admiral = yes
+				}
+				NOT = { has_trait = tactician }
+			}
+		}
+		if = {
+			limit = {
+				scope:pyrrhus = { number_of_military_traits < max_number_of_military_traits_svalue }
+			}
+			scope:pyrrhus = { add_trait = tactician }
+		}
+		else = {
+			scope:pyrrhus = { add_martial = 1 }
+		}
+	}
+	if = { # Befriend ruler if possible
+		limit = {
+			scope:pyrrhus = { can_get_friends = yes }
+			root.current_ruler = { can_get_friends = yes }
+			NOT = {
+				root.current_ruler = { is_friend = scope:pyrrhus }
+			}
+		}
+		scope:pyrrhus = { add_friend = root.current_ruler }
+	}
+	if = { # 
+		limit = { exists = scope:pyrrhus_betrothed_scope }
+		scope:pyrrhus_betrothed_scope = {
+			if = {
+				limit = { is_married = yes }
+				hidden_effect = { divorce_character = scope:pyrrhus_betrothed_scope.spouse }
+			}
+		}
+		scope:pyrrhus = { 
+			if = {
+				limit = { is_married = yes }
+				hidden_effect = { divorce_character = scope:pyrrhus.spouse }
+			}
+			marry_character = scope:pyrrhus_betrothed_scope 
+		}
+	}
+	hidden_effect = { 
+		scope:pyrrhus = { # Move Pyrrhus to EPI
+			remove_all_positions = yes
+			move_country = c:EPI
+			remove_character_modifier = foreign_citizen
+			if = {
+				limit = { exists = fam:40 }
+				set_family = fam:40
+			}
+			else = {
+				employer = { create_family = char:70 }
+			}
+		}
+		if = {
+			limit = { exists = scope:pyrrhus_betrothed_scope }
+			scope:pyrrhus_betrothed_scope = {
+				remove_all_positions = yes
+				move_country = c:EPI
+				remove_character_modifier = foreign_citizen
+			}
+		}
+	}
+	add_treasury = { # Give money to Pyrrhus
+		value = has_monthly_income
+		multiply = -2
+	}
+	c:EPI = { # Send EPI Pyrrhus arrival event
+		trigger_event = { id = dhe_dde_pyrrhus.5 }
+	}
+}
+
+pyrrhus_4_small_supporter_effect = {
+	if = { # Befriend ruler with Pyrrhus if possible
+		limit = {
+			scope:pyrrhus = { can_get_friends = yes }
+			root.current_ruler = { can_get_friends = yes }
+			NOT = {
+				root.current_ruler = { is_friend = scope:pyrrhus }
+			}
+		}
+		scope:pyrrhus = { add_friend = root.current_ruler }
+	}
+	if = { # Marry ruling family wife if possible
+		limit = { exists = scope:pyrrhus_betrothed_scope }
+		scope:pyrrhus_betrothed_scope = {
+			if = {
+				limit = { is_married = yes}
+				hidden_effect = { divorce_character = scope:pyrrhus_betrothed_scope.spouse }
+			}
+		}
+		scope:pyrrhus = {
+			if = {
+				limit = { is_married = yes}
+				hidden_effect = { divorce_character = scope:pyrrhus.spouse }
+			}
+			marry_character = scope:pyrrhus_betrothed_scope
+		}
+	}
+	if = { # If General add trait Victorious
+		limit = {
+			scope:pyrrhus = {
+				OR = {
+					is_general = yes 
+					is_admiral = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:pyrrhus = { number_of_status_traits < max_number_of_status_traits_svalue }
+			}
+			scope:pyrrhus = { add_trait = victorious }
+		}
+		else = {
+			scope:pyrrhus = { add_popularity = 10 }
+		}
+	}
+	add_treasury = { # Give money to Pyrrhus
+		value = has_monthly_income
+		multiply = -2
+	}
+	hidden_effect = { 
+		scope:pyrrhus = { # Move Pyrrhus
+			remove_all_positions = yes
+			move_country = c:EPI
+			remove_character_modifier = foreign_citizen
+		}
+		if = {
+			limit = { exists = scope:pyrrhus_betrothed_scope }
+			scope:pyrrhus_betrothed_scope = {
+				remove_all_positions = yes
+				move_country = c:EPI
+				remove_character_modifier = foreign_citizen
+			}
+		}
+	}
+	c:EPI = {
+		trigger_event = { id = dhe_dde_pyrrhus.5 }
+	}
+}
+
+pyrrhus_4_no_supporter_effect = {
+	if = { # Destroy friendship
+		limit = {
+			root.current_ruler = { is_friend = scope:pyrrhus }
+		}
+		scope:pyrrhus = { remove_friend = root.current_ruler }
+	}
+	scope:pyrrhus = {
+		if = { # Remove hostage flag
+			limit = { has_variable = pyrrhus_hostage_flag }
+			remove_variable = pyrrhus_hostage_flag
+		}
+		hidden_effect = { # Send to EPI
+			remove_all_positions = yes
+			move_country = c:EPI
+			remove_character_modifier = foreign_citizen
+		}
+	}
+	if = { # If general give Pyrrhus victorious trait
+		limit = {
+			scope:pyrrhus = {
+				OR = {
+					is_general = yes 
+					is_admiral = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:pyrrhus = { number_of_status_traits < max_number_of_status_traits_svalue }
+			}
+			scope:pyrrhus = { add_trait = victorious }
+		}
+		else = {
+			scope:pyrrhus = { add_popularity = 10 }
+		}
+	}
+	c:EPI = { # Send EPI Pyrrhus returns event
+		trigger_event = { id = dhe_dde_pyrrhus.5 }
+	}
+}
+
+pyrrhus_return_effect = {
+	hidden_effect = {
+		current_ruler = { add_loyalty = loyalty_deposed }
+	}
+	if = { # If supported by small nation
+		limit = {
+			scope:pyrrhus = { has_variable = pyrrhus_supported_small_flag }
+		}
+		hidden_effect = {
+			add_opinion = { modifier = dhe_dde_pyrrhus_supported_op target = scope:pyrrhus_supporter_scope }
+			reverse_add_opinion = { modifier = dhe_dde_pyrrhus_supported_op target = scope:pyrrhus_supporter_scope }
+		}
+		add_treasury = { 
+			value = scope:pyrrhus_second_country_scope.has_monthly_income
+			multiply = 2
+		}
+		hidden_effect = { # Add heavy infantry to army
+			scope:dhe_dde_pyrrhus_army_scope = {
+				add_subunit = heavy_spearmen
+				add_subunit = heavy_spearmen
+				add_subunit = heavy_spearmen
+			}
+		}
+		custom_tooltip = dhe_dde_pyrrhus.5.at
+	}
+	else_if = { # Else if supported by Diadochus
+		limit = {
+			scope:pyrrhus = { has_variable = pyrrhus_supported_big_flag}
+		}
+		hidden_effect = {
+			add_opinion = { modifier = dhe_dde_pyrrhus_supported_op target = scope:pyrrhus_supporter_scope } # Add 100 opinion of Epirus to supporter
+			reverse_add_opinion = { modifier = dhe_dde_pyrrhus_supported_op target = scope:pyrrhus_supporter_scope } # Add 100 opinion of supporter to Epirus
+		}
+		add_treasury = { 
+			value = scope:pyrrhus_second_country_scope.has_monthly_income
+			multiply = 2
+		}
+		hidden_effect = {
+			scope:dhe_dde_pyrrhus_army_scope = { add_subunit = elephant_indian }
+			scope:dhe_dde_pyrrhus_army_scope = {
+				add_subunit = heavy_spearmen
+				add_subunit = heavy_spearmen
+				add_subunit = heavy_spearmen
+			}
+		}
+		custom_tooltip = dhe_dde_pyrrhus.5.bt
+	}
+	else = { # Else because not supported
+		hidden_effect = {
+			scope:dhe_dde_pyrrhus_army_scope = {
+				add_subunit = heavy_spearmen
+				add_subunit = heavy_spearmen
+			}
+		}
+		hidden_effect = {
+			reverse_add_opinion = { modifier = dhe_dde_pyrrhus_no_support_op target = scope:pyrrhus_second_country_scope } # Add -50 opinion of second country to Epirus
+		}
+		scope:pyrrhus = { remove_variable = pyrrhus_not_supported_flag }
+		custom_tooltip = dhe_dde_pyrrhus.5.ct
+	}
+}
+
+pyrrhus_hostage_effect = {
+	hidden_effect = {
+		c:EPI = {
+			trigger_event = { id = dhe_dde_pyrrhus.23 }
+		}
+	}
+	if = { # If General, give Tactician trait
+		limit = {
+			scope:pyrrhus = {
+				OR = {
+					is_general = yes 
+					is_admiral = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:pyrrhus = { number_of_military_traits < max_number_of_military_traits_svalue }
+			}
+			scope:pyrrhus = { add_trait = tactician }
+		}
+		else = {
+			scope:pyrrhus = { add_popularity = 10 }
+		}
+	}
+	hidden_effect = {
+		scope:pyrrhus = { # Pocket money
+			# Send to second country
+			add_gold = 50.0
+			remove_all_positions = yes
+			move_country = scope:pyrrhus_second_country_scope
+			remove_character_modifier = foreign_citizen
+			set_as_minor_character = scope:pyrrhus
+		}
+	}
+	scope:pyrrhus_second_country_scope = { # Set SECOND COUNTRY flag and fire receiving event
+		trigger_event = { id = dhe_dde_pyrrhus.20 }
+	}
+}
+
+pyrrhus_not_hostage_effect = {
+	if = { # If Taulantia befriend Pyrrhus with ruler
+		limit = {
+			tag = TLN
+			scope:pyrrhus = { can_get_friends = yes }
+			root.current_ruler = { can_get_friends = yes }
+		}
+		scope:pyrrhus = { add_friend = root.current_ruler }
+	}
+	scope:pyrrhus = { add_gold = 50.0 } # Pocket Money
+	if = { #  If general add Tactician trait
+		limit = {
+			scope:pyrrhus = {
+				OR = {
+					is_general = yes
+					is_admiral = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:pyrrhus = { number_of_military_traits < max_number_of_military_traits_svalue }
+			}
+			scope:pyrrhus = { add_trait = tactician }
+		}
+		else = {
+			scope:pyrrhus = { add_popularity = 10 }
+		}
+	}
+	trigger_event = {
+		id = dhe_dde_pyrrhus.4
+		days = { 360 1825 }
+	}
+}
+
+pyrrhus_refused_variable_cleaner_effect = {
+	if = {
+		limit = {
+			c:PRY = { has_variable = pyrrhus_refused }
+		}
+		c:PRY = { remove_variable = pyrrhus_refused }
+	}
+	if = {
+		limit = {
+			c:EGY = { has_variable = pyrrhus_refused }
+		}
+		c:EGY = { remove_variable = pyrrhus_refused }
+	}
+	if = {
+		limit = {
+			c:SEL = { has_variable = pyrrhus_refused }
+		}
+		c:SEL = { remove_variable = pyrrhus_refused }
+	}
+	if = {
+		limit = {
+			c:TRE = { has_variable = pyrrhus_refused }
+		}
+		c:TRE = { remove_variable = pyrrhus_refused }
+	}
+	if = {
+		limit = {
+			c:MAC = { has_variable = pyrrhus_refused }
+		}
+		c:MAC = { remove_variable = pyrrhus_refused }
+	}
+	if = {
+		limit = {
+			c:TLN = { has_variable = pyrrhus_refused }
+		}
+		c:TLN = { remove_variable = pyrrhus_refused }
+	}
+}
+
+pyrrhus_of_age_effect = {
+	if = {
+		limit = {
+			is_ruler = no
+			c:EPI = {
+				has_land = yes
+			}
+			employer = {
+				has_land = yes
+			}
+			NOT = {
+				employer = {
+					this = c:EPI
+				}
+			}
+		}
+		employer = {
+			trigger_event = {
+				id = dhe_dde_pyrrhus.27
+			}
+		}
+	}
+}
+
+pyrrhus_family_mover_effect = {
+	if = {
+		limit = {
+			scope:pyrrhus = {
+				exists = spouse
+			}
+		}
+		pyrrhus_wife_mover_effect = yes
+	}
+	if = {
+		limit = {
+			scope:pyrrhus = {
+				num_of_children > 0
+			}
+		}
+		pyrrhus_children_mover_effect = yes
+	}
+}
+
+pyrrhus_wife_mover_effect = {
+	hidden_effect = {
+		if = {
+			limit = {
+				scope:pyrrhus.spouse = {
+					NOT = {
+						employer = c:EPI
+					}
+					prisoner = no
+				}
+			}
+			scope:pyrrhus.spouse ={
+				remove_all_positions = yes
+				move_country = c:EPI
+				remove_character_modifier = foreign_citizen	
+			}
+		}
+	}
+}
+
+pyrrhus_children_mover_effect = {
+	hidden_effect = {
+		while = {
+			limit = {
+				scope:pyrrhus = {
+					any_child = {
+						NOT = {
+							employer = c:EPI
+						}
+						prisoner = no
+					}
+				}
+			}
+			scope:pyrrhus = {
+				random_child = {
+					limit = {
+						NOT = { 
+							employer = c:EPI
+						}
+						prisoner = no
+					}
+					remove_all_positions = yes
+					move_country = c:EPI
+					remove_character_modifier = foreign_citizen
+				}
+			}
+		}
+	}
+}
+
+me_epi_royal_wedding_groom_effect = {
+	save_scope_as = me_epi_royal_wedding_groom_scope
+	employer = {
+		trigger_event = {
+			on_action = me_epi_royal_wedding_step_3_proposal_on_action
+			days = 3
+		}
+	}
+}
+
+me_epi_1_royal_wedding_bride_list_scope_effect = {
+	ordered_in_list = {
+        list = me_epi_1_wedding_brides_list
+        order_by = {
+            value = 0
+            subtract = age
+        }
+        position = 0
+        scope:me_epirus_scope = {
+	    	set_variable = {
+	    		name = me_epi_royal_wedding_bride_scope_1
+	    		value = prev
+	    	}
+	    }
+    }
+    if = {
+    	limit = {
+    		list_size = {
+    			name = me_epi_1_wedding_brides_list
+    			value >= 2
+    		}
+    	}
+    	ordered_in_list = {
+            list = me_epi_1_wedding_brides_list
+            order_by = {
+                value = 0
+                subtract = age
+            }
+            position = 1
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_bride_scope_2
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+    	limit = {
+    		list_size = {
+    			name = me_epi_1_wedding_brides_list
+    			value >= 3
+    		}
+    	}
+        ordered_in_list = {
+            list = me_epi_1_wedding_brides_list
+            order_by = {
+                value = 0
+                subtract = age
+            }
+            position = 2
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_bride_scope_3
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+}
+
+me_epi_1_royal_wedding_countries_list_scope_effect = {
+	ordered_in_list = {
+        list = me_epi_1_wedding_countries_list
+        order_by = country_population
+        position = 0
+        scope:me_epirus_scope = {
+	    	set_variable = {
+	    		name = me_epi_royal_wedding_country_scope_1
+	    		value = prev
+	    	}
+	    }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 2
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 1
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_2
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 3
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 2
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_3
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 4
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 3
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_4
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 5
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 4
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_5
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 6
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 5
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_6
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 7
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 6
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_7
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = me_epi_1_wedding_countries_list
+                value >= 8
+            }
+        }
+        ordered_in_list = {
+            list = me_epi_1_wedding_countries_list
+            order_by = country_population
+            position = 7
+            scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_country_scope_8
+		    		value = prev
+		    	}
+		    }
+        }
+    }
+}
+
+me_epi_1_royal_wedding_grooms_list_scope_effect = {
+	ordered_in_list = {
+	    list = me_epi_1_wedding_grooms_list
+	    limit = {
+	    	family = {
+	    		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+	    	}
+	    }
+	    order_by = prominence
+	    position = 0
+	    scope:me_epirus_scope = {
+	    	set_variable = {
+	    		name = me_epi_royal_wedding_groom_scope_1
+	    		value = prev
+	    	}
+	    }
+	}
+	if = {
+	    limit = {
+	        list_size = {
+	            name = me_epi_1_wedding_grooms_list
+	            value >= 2
+	        }
+	        any_in_list = {
+	        	count >= 2
+	        	list = me_epi_1_wedding_grooms_list
+	        	family = {
+	        		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+	        	}
+	        }
+	    }
+	    ordered_in_list = {
+	        list = me_epi_1_wedding_grooms_list
+	        limit = {
+		    	family = {
+		    		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+		    	}
+		    }
+	        order_by = prominence
+	        position = 1
+	        scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_groom_scope_2
+		    		value = prev
+		    	}
+		    }
+	    }
+	}
+	if = {
+	    limit = {
+	        list_size = {
+	            name = me_epi_1_wedding_grooms_list
+	            value >= 3
+	        }
+	        any_in_list = {
+	        	count >= 3
+	        	list = me_epi_1_wedding_grooms_list
+	        	family = {
+	        		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+	        	}
+	        }
+	    }
+	    ordered_in_list = {
+	        list = me_epi_1_wedding_grooms_list
+	        limit = {
+		    	family = {
+		    		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+		    	}
+		    }
+	        order_by = prominence
+	        position = 2
+	        scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_groom_scope_3
+		    		value = prev
+		    	}
+		    }
+	    }
+	}
+	if = {
+	    limit = {
+	        list_size = {
+	            name = me_epi_1_wedding_grooms_list
+	            value >= 4
+	        }
+	        any_in_list = {
+	        	count >= 4
+	        	list = me_epi_1_wedding_grooms_list
+	        	family = {
+	        		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+	        	}
+	        }
+	    }
+	    ordered_in_list = {
+	        list = me_epi_1_wedding_grooms_list
+	        limit = {
+		    	family = {
+		    		any_family_member = { this = scope:me_epirus_scope.var:epi_country_flag.current_ruler }
+		    	}
+		    }
+	        order_by = prominence
+	        position = 3
+	        scope:me_epirus_scope = {
+		    	set_variable = {
+		    		name = me_epi_royal_wedding_groom_scope_4
+		    		value = prev
+		    	}
+		    }
+	    }
+	}
+}
+
+me_epi_1_kineas_effect = {
+	if = {
+        limit = {
+            char:308 = {
+                is_alive = yes
+                employer = root
+                prisoner = no
+                charisma > 8
+                NOT = { has_character_modifier = foreign_citizen }
+            }
+        }
+        char:308 = { save_scope_as = epirote_diplomat_scope }
+    }
+    else_if = {
+        limit = {
+        	any_character = { has_office = office_foreign_minister }
+        }
+        random_character = {
+        	limit = { has_office = office_foreign_minister }
+        	save_scope_as = epirote_diplomat_scope
+        }
+    }
+    else = {
+        ordered_character = {
+            limit = {
+                is_alive = yes
+                employer = root
+                prisoner = no
+                NOT = { has_character_modifier = foreign_citizen }
+            }
+            order_by = charisma
+            save_scope_as = epirote_diplomat_scope
+        }
+    }
+}
+
+me_epi_1_clear_wedding_effect = {
+	every_in_list = {
+        list = me_epi_1_wedding_brides_list
+        remove_from_list = me_epi_1_wedding_brides_list
+    }   
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_bride_scope_1 }
+        remove_variable = me_epi_royal_wedding_bride_scope_1
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_bride_scope_2 }
+        remove_variable = me_epi_royal_wedding_bride_scope_2
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_bride_scope_3 }
+        remove_variable = me_epi_royal_wedding_bride_scope_3
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_bride_scope_4 }
+        remove_variable = me_epi_royal_wedding_bride_scope_4
+    }
+    every_in_list = {
+        list = me_epi_1_wedding_countries_list
+        remove_from_list = me_epi_1_wedding_countries_list
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_1 }
+        remove_variable = me_epi_royal_wedding_country_scope_1
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_2 }
+        remove_variable = me_epi_royal_wedding_country_scope_2
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_3 }
+        remove_variable = me_epi_royal_wedding_country_scope_3
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_4 }
+        remove_variable = me_epi_royal_wedding_country_scope_4
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_5 }
+        remove_variable = me_epi_royal_wedding_country_scope_5
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_6 }
+        remove_variable = me_epi_royal_wedding_country_scope_6
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_7 }
+        remove_variable = me_epi_royal_wedding_country_scope_7
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_scope_8 }
+        remove_variable = me_epi_royal_wedding_country_scope_8
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_country_view_count }
+        remove_variable = me_epi_royal_wedding_country_view_count
+    }
+    every_in_list = {
+        list = me_epi_1_wedding_grooms_list
+        remove_from_list = me_epi_1_wedding_grooms_list
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_groom_scope_1 }
+        remove_variable = me_epi_royal_wedding_groom_scope_1
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_groom_scope_2 }
+        remove_variable = me_epi_royal_wedding_groom_scope_2
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_groom_scope_3 }
+        remove_variable = me_epi_royal_wedding_groom_scope_3
+    }
+    if = {
+        limit = { has_variable = me_epi_royal_wedding_groom_scope_4 }
+        remove_variable = me_epi_royal_wedding_groom_scope_4
+    }
+}
+
+me_epi_1_berenicis_effect_1 = {
+	if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:TRE }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:TRE
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:MAC }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:MAC
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:PRY }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:PRY
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:SEL }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:SEL
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:EGY }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:EGY
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_small_flag = c:TLN }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:TLN
+        }
+    }
+}
+
+me_epi_1_berenicis_effect_2 = {
+	if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:TRE }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:TRE
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:MAC }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:MAC
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:PRY }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:PRY
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:SEL }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:SEL
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:EGY }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:EGY
+        }
+    }
+    else_if = {
+        limit = { char:70.var:pyrrhus_supported_big_flag = c:TLN }
+        set_variable = {
+            name = berenicis_country_flag
+            value = c:TLN
+        }
+    }
+}
+
+me_epi_16_ai_effect = {
+	if = {
+		limit = {
+			c:TLN = { is_ai = yes}
+		}
+		custom_tooltip = me_epirus_1_epirus.39.tt2
+	}
+}
+
+dhe_macedon_aid_scope_effect_1 = {
+	if = {
+		limit = {
+			c:EPI = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:EPI = { save_scope_as = dhe_macedon_aid_scope }
+	}
+
+	else_if = {
+		limit = {
+			c:TRE = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:TRE = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:PRY = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:PRY = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:EGY = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:EGY = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:SEL = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:SEL = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else = {
+		ordered_country = {
+			limit = {
+				dhe_macedon_civil_war_aid_trigger = yes
+				country_culture_group = hellenic
+				in_diplomatic_range = c:MAC
+			}
+			save_scope_as = dhe_macedon_aid_scope
+		}
+	}
+	scope:dhe_macedon_aid_scope = {
+		trigger_event = { id = dhe_macedon.9 }
+	}
+}
+
+dhe_macedon_aid_scope_effect_2 = {
+	if = {
+		limit = {
+			c:TRE = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:TRE = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:PRY = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:PRY = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:EGY = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:EGY = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:EPI = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:EPI = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else_if = {
+		limit = {
+			c:SEL = { dhe_macedon_civil_war_aid_trigger = yes }
+		}
+		c:SEL = { save_scope_as = dhe_macedon_aid_scope }
+	}
+	else = {
+		ordered_country = {
+			limit = {
+				dhe_macedon_civil_war_aid_trigger = yes
+				country_culture_group = hellenic
+				in_diplomatic_range = c:MAC
+			}
+			save_scope_as = dhe_macedon_aid_scope
+		}
+	}
+	scope:dhe_macedon_aid_scope = {
+		trigger_event = { id = dhe_macedon.9 }
+	}
+}
+
+dhe_macedon_civil_war_control_effect_1 = {
+	area:thessaly_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:aetolia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:boeotia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:upper_macedonia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	area:macedonia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	area:chalkidiki_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	if = {
+		limit = {
+			scope:mac_civil_war_scope = { owns = p:399 }
+		}
+		p:399 = { save_scope_as = dhe_mac_civ_war_capital_scope }
+	}
+	else_if = {
+		limit = {
+			scope:mac_civil_war_scope = { owns = p:389 }
+		}
+		p:389 = { save_scope_as = dhe_mac_civ_war_capital_scope }
+	}
+	else = {
+		scope:mac_civil_war_scope = {
+			ordered_owned_province = {
+				order_by = total_population
+				save_scope_as = dhe_mac_civ_war_capital_scope
+			}
+		}
+	}
+	scope:mac_civil_war_scope = { 
+		set_capital = scope:dhe_mac_civ_war_capital_scope	
+	}
+	scope:dhe_mac_civ_war_capital_scope = {
+		if = {
+			limit = { num_of_fortress_building < 1 }
+			if = {
+				limit = { num_of_used_building_slots = num_of_total_building_slots }
+				destroy_building_effect = yes
+				add_building_level = fortress_building
+			}
+		}
+	}
+}
+
+dhe_macedon_civil_war_control_effect_2 = {
+	area:upper_macedonia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:macedonia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:chalkidiki_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = c:MAC }
+			}
+			every_area_province = {
+				limit = { owner = c:MAC }
+				set_conquered_by = scope:mac_civil_war_scope
+			}
+		}
+	}
+	area:thessaly_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	area:aetolia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	area:boeotia_area = {
+		if = {
+			limit = {
+				any_area_province = { owner = scope:mac_civil_war_scope }
+			}
+			every_area_province = {
+				limit = { owner = scope:mac_civil_war_scope }
+				set_conquered_by = c:MAC
+			}
+		}
+	}
+	if = {
+		limit = {
+			scope:mac_civil_war_scope = { owns = p:379 }
+		}
+		p:379 = { save_scope_as = dhe_mac_civ_war_capital_scope }
+	}
+	else_if = {
+		limit = {
+			scope:mac_civil_war_scope = { owns = p:373 }
+		}
+		p:373 = { save_scope_as = dhe_mac_civ_war_capital_scope }
+	}
+	else = {
+		scope:mac_civil_war_scope = {
+			ordered_owned_province = {
+				order_by = total_population
+				save_scope_as = dhe_mac_civ_war_capital_scope
+			}
+		}
+	}
+	scope:mac_civil_war_scope = { 
+		set_capital = scope:dhe_mac_civ_war_capital_scope
+	}
+	scope:dhe_mac_civ_war_capital_scope = {
+		if = {
+			limit = { num_of_fortress_building < 1 }
+			if = {
+				limit = { num_of_used_building_slots = num_of_total_building_slots }
+				destroy_building_effect = yes
+				add_building_level = fortress_building
+			}
+		}
+	}
+}
+
+dhe_macedon_subject_effect = {
+	if = {
+		limit = {
+			c:OPU = { is_subject_of = root }
+		}
+		release_subject = c:OPU
+		c:OPU = {
+			trigger_event = { id =dhe_macedon.10 }
+		}
+	}
+	if = {
+		limit = {
+			c:ORE = { is_subject_of = root }
+		}
+		release_subject = c:ORE
+		c:ORE = {
+			trigger_event = { id =dhe_macedon.10 }
+		}
+	}
+}
+
+dhe_macedon_trib_effect = {
+	if = {
+		limit = {
+			c:AMK = { is_subject_of = root }
+		}
+		release_subject = c:AMK
+		scope:mac_civil_war_scope = {
+			make_subject = {
+				target = c:AMK
+				type = tributary
+			}
+		}
+		c:AMK = {
+			trigger_event = { id =dhe_macedon.11 }
+		}
+	}
+	if = {
+		limit = {
+			c:AKR = { is_subject_of = root }
+		}
+		release_subject = c:AKR
+		scope:mac_civil_war_scope = {
+			make_subject = {
+				target = c:AKR
+				type = tributary
+			}
+		}
+		c:AKR = {
+			trigger_event = { id =dhe_macedon.11 }
+		}
+	}
+}
+
+me_epi_2_aid_scope_effect = {
+	while = {
+		count = 4
+		if = {
+			limit = {
+				scope:me_epirus_scope = {
+					NAND = {
+						has_variable = me_epi_2_aid_1
+						has_variable = me_epi_2_aid_2
+						has_variable = me_epi_2_aid_3
+						has_variable = me_epi_2_aid_4
+					}
+				}
+				any_in_list = {
+					list = me_epi_2_italiote_list
+					NOR = {
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_aid_1 }
+							this = scope:me_epirus_scope.var:me_epi_2_aid_1
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_aid_2 }
+							this = scope:me_epirus_scope.var:me_epi_2_aid_2
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_aid_3 }
+							this = scope:me_epirus_scope.var:me_epi_2_aid_3
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_aid_4 }
+							this = scope:me_epirus_scope.var:me_epi_2_aid_4
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { 
+						scope:me_epirus_scope = { has_variable = me_epi_2_aid_1 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_aid_1
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { has_variable = me_epi_2_aid_1 }
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_aid_1
+						scope:me_epirus_scope = { has_variable = me_epi_2_aid_2 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_aid_2
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_2_aid_1
+						has_variable = me_epi_2_aid_2
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_aid_1
+						this = scope:me_epirus_scope.var:me_epi_2_aid_2
+						scope:me_epirus_scope = { has_variable = me_epi_2_aid_3 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_aid_3
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_2_aid_1
+						has_variable = me_epi_2_aid_2
+						has_variable = me_epi_2_aid_3
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_aid_1
+						this = scope:me_epirus_scope.var:me_epi_2_aid_2
+						this = scope:me_epirus_scope.var:me_epi_2_aid_3
+						scope:me_epirus_scope = { has_variable = me_epi_2_aid_4 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_aid_4
+						value = prev
+					}
+				}
+			}
+		}
+	}
+}
+
+me_epi_2_aid_effect = {
+	save_scope_as = me_epi_2_aid_scope
+	custom_tooltip = me_epirus_2_magna.2.at
+	trigger_event = {
+		id = me_epirus_2_magna.19
+		days = 15
+	}
+}
+
+me_epi_2_saved_variables_clearer_complete = {
+	# Completions
+	if = {
+		limit = { has_variable = epi_2_1_complete }
+		remove_variable = epi_2_1_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_2_complete }
+		remove_variable = epi_2_2_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_3_complete }
+		remove_variable = epi_2_3_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_4_complete }
+		remove_variable = epi_2_4_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_5_complete }
+		remove_variable = epi_2_5_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_6_complete }
+		remove_variable = epi_2_6_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_7_complete }
+		remove_variable = epi_2_7_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_8_complete }
+		remove_variable = epi_2_8_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_9_complete }
+		remove_variable = epi_2_9_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_10_complete }
+		remove_variable = epi_2_10_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_11_complete }
+		remove_variable = epi_2_11_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_12_complete }
+		remove_variable = epi_2_12_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_13_complete }
+		remove_variable = epi_2_13_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_14_complete }
+		remove_variable = epi_2_14_complete
+	}
+	if = {
+		limit = { has_variable = epi_2_15_complete }
+		remove_variable = epi_2_15_complete
+	}
+}
+
+me_epi_2_saved_variables_clearer_abort = {
+	# Blocks
+	if = {
+		limit = { has_variable = me_epi_luc_bru_block }
+		remove_variable = me_epi_luc_bru_block
+	}
+	if = {
+		limit = { has_variable = epi_2_8_block }
+		remove_variable = epi_2_8_block
+	}
+}
+
+me_epi_2_3_aid_effect = {
+	if = {
+        limit = { 
+            any_country = {
+                primary_culture = italiotian
+                capital_scope = {
+                    OR = {
+                        is_in_region = magna_graecia_region
+                        is_in_region = central_italy_region
+                    }
+                }
+                num_of_cities <= 5
+                is_subject = no
+                NOR = {
+                	AND = {
+                		exists = scope:italiote_threatened_scope 
+                		this = scope:italiote_threatened_scope 
+                	}
+                	alliance_with = scope:italiote_threat_scope
+                }
+            }
+        }
+        ordered_country = {
+            limit = {
+             	primary_culture = italiotian
+                capital_scope = {
+                    OR = {
+                        is_in_region = magna_graecia_region
+                        is_in_region = central_italy_region
+                    }
+                }
+                num_of_cities <= 5
+                is_subject = no
+                NOR = {
+                	AND = {
+                		exists = scope:italiote_threatened_scope 
+                		this = scope:italiote_threatened_scope 
+                	}
+                	alliance_with = scope:italiote_threat_scope
+                }
+            }
+            order_by = country_population
+            max = 5
+            check_range_bounds = no
+            add_to_list = epi_2_30_greek_list
+            if = {
+                limit = { is_ai = no }
+                trigger_event = { id = me_epirus_2_magna.32 }
+            }
+            else = {
+                hidden_effect = { 
+                    random = {
+                        chance = 50
+                        modifier = {
+                            any_in_list = {
+                                list = epi_2_30_greek_list
+                                has_variable = me_epi_2_30_flag
+                                count = 1
+                            }
+                            factor = 0.5
+                        }
+                        modifier = {
+                            any_in_list = {
+                                list = epi_2_30_greek_list
+                                count >= 2
+                                has_variable = me_epi_2_30_flag
+                            }
+                            factor = 0.2
+                        }
+                        set_variable = me_epi_2_30_flag
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                any_in_list = {
+                    list = epi_2_30_greek_list
+                    is_ai = no
+                }
+            }
+            trigger_event = {
+                id = me_epirus_2_magna.33
+                days = { 30 40 }
+            }
+        }
+        else = {
+            trigger_event = {
+                id = me_epirus_2_magna.33
+                days = 20
+            }
+        }
+    }
+    if = {
+        limit = { 
+            any_country = {
+                country_culture_group = latin
+                capital_scope = {
+                    OR = {
+                        is_in_region = magna_graecia_region
+                        is_in_region = central_italy_region
+                    }
+                }
+                num_of_cities <= 10
+                is_subject = no
+                NOR = { 
+                	this = scope:italiote_threat_scope
+                	alliance_with = scope:italiote_threat_scope
+                }
+            }
+        }
+        ordered_country = {
+            limit = {
+             	country_culture_group = latin
+                capital_scope = {
+                    OR = {
+                        is_in_region = magna_graecia_region
+                        is_in_region = central_italy_region
+                    }
+                }
+                num_of_cities <= 10
+                is_subject = no
+                NOR = { 
+                	this = scope:italiote_threat_scope
+                	alliance_with = scope:italiote_threat_scope
+                }
+            }
+            order_by = country_population
+            max = 5
+            check_range_bounds = no
+            add_to_list = epi_2_3_latin_list
+            if = {
+                limit = { is_ai = no }
+                trigger_event = { id = me_epirus_2_magna.34 }
+            }
+            else = {
+                hidden_effect = { 
+                    random = {
+                        chance = 30
+                        modifier = {
+                            opinion = { target = scope:italiote_threat_scope value <= -25 }
+                            factor = 1.5
+                        }
+                        modifier = {
+                            any_in_list = {
+                                list = epi_2_3_latin_list
+                                has_variable = me_epi_2_30_flag
+                                count = 1
+                            }
+                            factor = 0.5
+                        }
+                        modifier = {
+                            any_in_list = {
+                                list = epi_2_3_latin_list
+                                count >= 2
+                                has_variable = me_epi_2_30_flag
+                            }
+                            factor = 0.2
+                        }
+                        set_variable = me_epi_2_30_flag
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                any_in_list = {
+                    list = epi_2_3_latin_list
+                    is_ai = no
+                }
+            }
+            trigger_event = {
+                id = me_epirus_2_magna.35
+                days = { 40 50 }
+            }
+        }
+        else = {
+            trigger_event = {
+                id = me_epirus_2_magna.35
+                days = 25
+            }
+        }
+    }
+}
+
+me_epi_2_15_aid_scope_effect = {
+	while = {
+		count = 4
+		if = {
+			limit = {
+				scope:me_epirus_scope = {
+					NAND = {
+						has_variable = me_epi_2_15_aid_1
+						has_variable = me_epi_2_15_aid_2
+						has_variable = me_epi_2_15_aid_3
+						has_variable = me_epi_2_15_aid_4
+					}
+				}
+				any_in_list = {
+					list = me_epi_2_15_list
+					NOR = {
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_1 }
+							this = scope:me_epirus_scope.var:me_epi_2_15_aid_1
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_2 }
+							this = scope:me_epirus_scope.var:me_epi_2_15_aid_2
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_3 }
+							this = scope:me_epirus_scope.var:me_epi_2_15_aid_3
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_4 }
+							this = scope:me_epirus_scope.var:me_epi_2_15_aid_4
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { 
+						scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_1 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_15_aid_1
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_1 }
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_1
+						scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_2 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_15_aid_2
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_2_15_aid_1
+						has_variable = me_epi_2_15_aid_2
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_1
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_2
+						scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_3 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_15_aid_3
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_2_15_aid_1
+						has_variable = me_epi_2_15_aid_2
+						has_variable = me_epi_2_15_aid_3
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_1
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_2
+						this = scope:me_epirus_scope.var:me_epi_2_15_aid_3
+						scope:me_epirus_scope = { has_variable = me_epi_2_15_aid_4 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_2_15_aid_4
+						value = prev
+					}
+				}
+			}
+		}
+	}
+}
+
+me_epi_2_15_ally_effect = {
+	save_scope_as = me_epi_2_15_ally_scope
+	custom_tooltip = me_epirus_2_magna.15.at
+	trigger_event = {
+		id = me_epirus_2_magna.36
+		days = 15
+	}
+}
+
+me_epi_2_10_effect = {
+	define_pop = {
+        type = freemen
+        culture = scope:me_epirus_scope.culture
+        religion = scope:me_epirus_scope.religion
+    }
+    define_pop = {
+        type = freemen
+        culture = scope:me_epirus_scope.culture
+        religion = scope:me_epirus_scope.religion
+    }
+    add_province_modifier = {
+        name = epirus_2_10_pmod
+        duration = 8125 # 25 years
+    }
+}
+
+me_epi_remove_diplo_flag_effect = {
+	if = {
+        limit = { has_variable = epi_diplo_task_active }
+        remove_variable = epi_diplo_task_active 
+    }
+}
+
+me_epi_kineas_charisma_effect = {
+	if = {
+        limit = { 
+        	exists = scope:epirote_diplomat_scope
+            scope:epirote_diplomat_scope = { is_alive = yes }
+        }
+        random = {
+            chance = 33
+            modifier = {
+                scope:epirote_diplomat_scope.charisma < 6
+                factor = 2
+            }
+            modifier = {
+                scope:epirote_diplomat_scope.charisma >= 6
+                scope:epirote_diplomat_scope.charisma < 6
+                factor = 1.5
+            }
+            modifier = {
+                scope:epirote_diplomat_scope.charisma >= 10
+                factor = 0.5
+            }
+            scope:epirote_diplomat_scope = { add_charisma = 1 }
+        }
+    }
+}
+
+me_epi_2_double_scope_effect = {
+	if = {
+		limit = {
+			NAND = {
+				exists = scope:epi_2_double_1_scope
+				exists = scope:epi_2_double_2_scope
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:epi_2_double_1_scope }
+			}
+			save_scope_as = epi_2_double_1_scope
+		}
+		else_if = {
+			limit = {
+				exists = scope:epi_2_double_1_scope
+				NOR = { 
+					this = scope:epi_2_double_1_scope
+					exists = scope:epi_2_double_2_scope
+				}
+			}
+			save_scope_as = epi_2_double_2_scope
+		}
+	}
+}
+
+me_epi_3_2_ally_scope_effect = {
+	while = {
+		count = 4
+		if = {
+			limit = {
+				scope:me_epirus_scope = {
+					NAND = {
+						has_variable = me_epi_3_2_aid_1
+						has_variable = me_epi_3_2_aid_2
+						has_variable = me_epi_3_2_aid_3
+					}
+				}
+				any_in_list = {
+					list = me_epi_3_2_list
+					NOR = {
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_1 }
+							this = scope:me_epirus_scope.var:me_epi_3_2_aid_1
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_2 }
+							this = scope:me_epirus_scope.var:me_epi_3_2_aid_2
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_3 }
+							this = scope:me_epirus_scope.var:me_epi_3_2_aid_3
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { 
+						scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_1 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_2_aid_1
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_1 }
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_3_2_aid_1
+						scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_2 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_2_aid_2
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_3_2_aid_1
+						has_variable = me_epi_3_2_aid_2
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_3_2_aid_1
+						this = scope:me_epirus_scope.var:me_epi_3_2_aid_2
+						scope:me_epirus_scope = { has_variable = me_epi_3_2_aid_3 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_2_aid_3
+						value = prev
+					}
+				}
+			}
+		}
+	}
+}
+
+me_epi_3_2_ally_effect = {
+	save_scope_as = me_epi_3_2_ally_scope
+	custom_tooltip = me_epirus_3_greece.2.at
+	trigger_event = { id = me_epirus_3_greece.25 }
+}
+
+me_epi_3_lists_effect = {
+	p:412 = { add_to_list = me_epi_3_6_list }
+	p:3356 = { add_to_list = me_epi_3_6_list }
+	p:3125 = { add_to_list = me_epi_3_6_list }
+	p:3175 = { add_to_list = me_epi_3_6_list }
+	p:400 = { add_to_list = me_epi_3_6_list }
+	p:408 = { add_to_list = me_epi_3_6_list }
+	p:411 = { add_to_list = me_epi_3_6_list }
+	p:405 = { add_to_list = me_epi_3_6_list }
+	p:393 = { add_to_list = me_epi_3_6_list }
+	p:376 = { add_to_list = me_epi_3_6_list }
+	p:374 = { add_to_list = me_epi_3_6_list }
+	p:378 = { add_to_list = me_epi_3_6_list }
+	p:377 = { add_to_list = me_epi_3_6_list }
+	p:366 = { add_to_list = me_epi_3_6_list }
+	p:365 = { add_to_list = me_epi_3_6_list }
+	p:363 = { add_to_list = me_epi_3_6_list }
+	p:356 = { add_to_list = me_epi_3_6_list }
+	p:364 = { add_to_list = me_epi_3_6_list }
+	area:macedonia_area = {
+		every_area_province = { add_to_list = me_epi_3_6_list }
+	}
+	area:thessaly_area = {
+		every_area_province = { add_to_list = me_epi_3_6_list }
+	}
+}
+
+me_epi_3_4_claim_scope_effect = {
+	while = {
+		count = 4
+		if = {
+			limit = {
+				scope:me_epirus_scope = {
+					NAND = {
+						has_variable = me_epi_3_4_aid_1
+						has_variable = me_epi_3_4_aid_2
+						has_variable = me_epi_3_4_aid_3
+						has_variable = me_epi_3_4_aid_4
+					}
+				}
+				any_in_list = {
+					list = me_epi_3_4_list
+					NOR = {
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_1 }
+							this = scope:me_epirus_scope.var:me_epi_3_4_aid_1
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_2 }
+							this = scope:me_epirus_scope.var:me_epi_3_4_aid_2
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_3 }
+							this = scope:me_epirus_scope.var:me_epi_3_4_aid_3
+						}
+						AND = {
+							scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_4 }
+							this = scope:me_epirus_scope.var:me_epi_3_4_aid_4
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = { 
+						scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_1 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_4_aid_1
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_1 }
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_1
+						scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_2 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_4_aid_2
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_3_4_aid_1
+						has_variable = me_epi_3_4_aid_2
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_1
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_2
+						scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_3 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_4_aid_3
+						value = prev
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					scope:me_epirus_scope = { 
+						has_variable = me_epi_3_4_aid_1
+						has_variable = me_epi_3_4_aid_2
+						has_variable = me_epi_3_4_aid_3
+					}
+					NOR = {
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_1
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_2
+						this = scope:me_epirus_scope.var:me_epi_3_4_aid_3
+						scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_4 }
+					}
+				}
+				scope:me_epirus_scope = { 
+					set_variable = {
+						name = me_epi_3_4_aid_4
+						value = prev
+					}
+				}
+			}
+		}
+	}
+}
+
+me_epi_3_4_claimant_var_effect = {
+	if = {
+        limit = {
+            scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_1 }
+            employer = scope:me_epirus_scope.var:me_epi_3_4_aid_1
+        }
+        scope:me_epirus_scope = {
+            set_variable = {   
+                name = me_epi_3_4_claimant_1
+                value = prev
+            }
+        }
+    }
+    else_if = {
+        limit = {
+            scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_2 }
+            employer = scope:me_epirus_scope.var:me_epi_3_4_aid_2
+        }
+        scope:me_epirus_scope = {
+            set_variable = {   
+                name = me_epi_3_4_claimant_2
+                value = prev
+            }
+        }
+    }
+    else_if = {
+        limit = {
+            scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_3 }
+            employer = scope:me_epirus_scope.var:me_epi_3_4_aid_3
+        }
+        scope:me_epirus_scope = {
+            set_variable = {   
+                name = me_epi_3_4_claimant_3
+                value = prev
+            }
+        }
+    }
+    else_if = {
+        limit = {
+            scope:me_epirus_scope = { has_variable = me_epi_3_4_aid_4 }
+            employer = scope:me_epirus_scope.var:me_epi_3_4_aid_4
+        }
+        scope:me_epirus_scope = {
+            set_variable = {   
+                name = me_epi_3_4_claimant_4
+                value = prev
+            }
+        }
+    }
+}
+
+me_epi_3_4_claimant_finder_effect = {
+	save_temporary_scope_as = claimant_tag_scope
+	if = {
+        limit = {
+            any_character = {
+                family = employer.current_ruler.family
+                is_close_relative = employer.current_ruler
+                is_adult = yes
+                is_ruler = no
+                prisoner = no
+                OR = {
+                	loyalty < 50
+                	has_trait = ambitious
+                	has_trait = crafty
+                	has_trait = cruel
+                	has_trait = deceitful
+                	is_sibling_of = employer.current_ruler
+                }
+                NOT = { is_friend = employer.current_ruler }
+                trigger_if = {
+                    limit = {
+                        employer = {
+                            gender_equality = no
+                        }
+                    }
+                    is_female = no
+                }
+            }
+        }
+        ordered_character = {
+            limit = {
+                family = employer.current_ruler.family
+                is_close_relative = employer.current_ruler
+                is_adult = yes
+                is_ruler = no
+                prisoner = no
+                OR = {
+                	loyalty < 50
+                	has_trait = ambitious
+                	has_trait = crafty
+                	has_trait = cruel
+                	has_trait = deceitful
+                	is_sibling_of = employer.current_ruler
+                }
+                NOT = { is_friend = employer.current_ruler }
+                trigger_if = {
+                    limit = {
+                        employer = {
+                            gender_equality = no
+                        }
+                    }
+                    is_female = no
+                }
+            }
+            order_by = age
+            me_epi_3_4_claimant_var_effect = yes
+        }
+    }
+    else_if = {
+        limit = {
+            any_character = {
+                family = employer.current_ruler.family
+                is_close_relative = employer.current_ruler
+                is_married = yes
+                is_female = yes
+                spouse = {
+                    is_alive = yes
+                    is_ruler = no
+                    prisoner = no
+                    OR = {
+	                	loyalty < 50
+	                	has_trait = ambitious
+	                	has_trait = crafty
+	                	has_trait = cruel
+	                	has_trait = deceitful
+	                	is_sibling_of = employer.current_ruler
+	                }
+                    employer = spouse.employer
+                    NOT = { is_friend = employer.current_ruler }
+                }
+            }
+        }
+        ordered_character = {
+            limit = {
+                family = employer.current_ruler.family
+                is_close_relative = employer.current_ruler
+                is_married = yes
+                is_female = yes
+                spouse = {
+                    is_alive = yes
+                    is_ruler = no
+                    prisoner = no
+                    OR = {
+	                	loyalty < 50
+	                	has_trait = ambitious
+	                	has_trait = crafty
+	                	has_trait = cruel
+	                	has_trait = deceitful
+	                	is_sibling_of = employer.current_ruler
+	                }
+                    employer = spouse.employer
+                    NOT = { is_friend = employer.current_ruler }
+                }
+            }
+            order_by = {
+                value = 0
+                add = spouse.martial
+                add = spouse.finesse
+                add = spouse.charisma
+                add = spouse.zeal
+            }
+            spouse = { me_epi_3_4_claimant_var_effect = yes }
+        }
+    }
+    else = {
+    	create_character = {
+    		culture = scope:claimant_tag_scope.current_ruler.culture
+    		religion = scope:claimant_tag_scope.current_ruler.religion
+    		family = scope:claimant_tag_scope.current_ruler.family
+    		me_epi_3_4_claimant_var_effect = yes
+    	}
+    }
+}
+
+me_epi_3_4_claimant_effect = {
+	employer = { save_scope_as = me_epi_3_4_claimant_emp_scope }
+	save_scope_as = me_epi_3_4_claimant_scope
+	custom_tooltip = me_epirus_3_greece.4.at
+	trigger_event = {
+		id = me_epirus_3_greece.31
+		days = 15
+	}
+}
+
+me_epi_3_4_crafty_effect = {
+	random_list = {
+		1 = { add_trait = deceitful }
+		1 = { add_trait = ambitious }
+		1 = { add_trait = crafty }
+		1 = { add_trait = proud }
+		1 = { add_trait = arrogant }
+		1 = { add_trait = harsh }
+		1 = { add_trait = arrogant }
+		1 = { add_trait = arrogant }
+	}
+}
+
+me_epi_3_4_claimant_cull_effect = {
+	if = {
+		limit = {
+			NAND = { 
+				exists = scope:me_epi_3_4_claimant_scope
+				this = scope:me_epi_3_4_claimant_scope
+			}
+			NOR = {
+				is_close_relative = employer.current_ruler
+				AND = {
+					is_married = yes
+					spouse = { is_close_relative = employer.current_ruler }
+				}
+			}
+		}
+		hidden_effect = {
+			death = { death_reason = death_obscurity }
+		}
+	}
+}
+
+me_epi_3_5_effect = {
+	define_pop = {
+        type = freemen
+        culture = root.culture
+        religion = root.religion
+    }
+    define_pop = {
+        type = freemen
+        culture = root.culture
+        religion = root.religion
+    }
+    define_pop = {
+        type = freemen
+        culture = root.culture
+        religion = root.religion
+    }
+	add_province_modifier = {
+		name = me_epi_3_5_pmod
+		duration = 18250
+	}
+	if = {
+        limit = { free_building_slots > 0 }
+        add_building_level = fortress_building
+    }
+}
+
+me_epi_3_saved_variables_clearer_abort = {
+	if = {
+		limit = { has_variable = epi_3_6_bypass }
+		remove_variable = epi_3_6_bypass
+	}
+}
+
+me_epi_3_saved_variables_clearer_complete = {
+	# Completions
+	if = {
+		limit = { has_variable = epi_3_1_complete }
+		remove_variable = epi_3_1_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_2_complete }
+		remove_variable = epi_3_2_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_3_complete }
+		remove_variable = epi_3_3_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_4_complete }
+		remove_variable = epi_3_4_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_5_complete }
+		remove_variable = epi_3_5_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_6_complete }
+		remove_variable = epi_3_6_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_7_complete }
+		remove_variable = epi_3_7_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_8_complete }
+		remove_variable = epi_3_8_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_10_complete }
+		remove_variable = epi_3_10_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_11_complete }
+		remove_variable = epi_3_11_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_12_complete }
+		remove_variable = epi_3_12_complete
+	}
+	if = {
+		limit = { has_variable = epi_3_13_complete }
+		remove_variable = epi_3_13_complete
+	}
+}
