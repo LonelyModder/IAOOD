@@ -1,6 +1,6 @@
 ﻿l_english:
  ### LEGION name ###
- GOVERNORSHIP_LEGION_NAME:1 "Army of $BASE$"
+ GOVERNORSHIP_LEGION_NAME:1 "Legion of $BASE$"
  # Italic
  GOVERNORSHIP_LEGION_NAME_rroman:0 "Legio $BASE$"
  GOVERNORSHIP_LEGION_NAME_oscan:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
