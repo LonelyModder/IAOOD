@@ -1,6 +1,6 @@
 ﻿"E05"={
 	country="E05"
-	10005={
+	5={
 		first_name="Shosqenq"
 		family = c:E05.fam:Shosqenq-Shu
 		birth_date=1200.1.1
@@ -17,7 +17,7 @@
 		#dna=""
 	}
 	
-	10006={
+	6={
 		first_name="Mehitusechet"
 		female=yes
 		birth_date=1200.1.1
@@ -33,12 +33,12 @@
 		#dna=""
 	}
 	
-	10007={
+	7={
 		first_name="Osorkon"
 		nickname="NICKNAME_ELDER"
 		family = c:E05.fam:Shosqenq-Shu
-		father="char:10005"
-		mother="char:10006"
+		father="char:5"
+		mother="char:6"
 		birth_date=1240.1.1
 		culture="ma"
 		religion="kemetic_pantheon"
@@ -52,12 +52,12 @@
 		add_gold=500
 		add_popularity=100
 		c:E05={
-			set_as_ruler=char:10007
+			set_as_ruler=char:7
 		}
 		#dna=""
 	}
 	
-	10009={
+	9={
 		first_name="Pentreshnes"
 		female=yes
 		birth_date=1240.1.1
@@ -71,16 +71,16 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		marry_character=char:10007
+		marry_character=char:7
 		#dna=""
 	}
 	
-	10013={
+	13={
 		first_name="Katimala"
 		female=yes
 		family = c:E05.fam:Shosqenq-Shu
-		father="char:10007"
-		mother="char:10009"
+		father="char:7"
+		mother="char:9"
 		birth_date=1280.1.1
 		culture="ma"
 		religion="kemetic_pantheon"

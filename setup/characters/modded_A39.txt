@@ -1,6 +1,6 @@
 ﻿"A39"={
 	country="A39"
-	10038={
+	38={
 		first_name="Ashur-rabi"
 		family = c:A39.fam:Adaside
 		birth_date=1240.1.1
@@ -16,15 +16,15 @@
 		add_gold=500
 		add_popularity=100
 		c:A39={
-			set_as_ruler=char:10038
+			set_as_ruler=char:38
 		}
 		#dna=""
 	}
 	
-	10039={
+	39={
 		first_name="Ashur-resh-ishi"
 		family = c:A39.fam:Adaside
-		father="char:10038"
+		father="char:38"
 		birth_date=1270.1.1
 		culture="ashurite"
 		religion="anunnaki_pantheon"

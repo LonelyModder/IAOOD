@@ -1,6 +1,6 @@
 ﻿"H05"={
 	country="H05"
-	10045={
+	45={
 		first_name="Astuwaramanza"
 		family = c:H05.fam:Kurkumid
 		birth_date=1200.1.1
@@ -16,10 +16,10 @@
 		#dna=""
 	}
 	
-	10046={
+	46={
 		first_name="Muwatalli"
 		family = c:H05.fam:Kurkumid
-		father="char:10045"
+		father="char:45"
 		birth_date=1255.1.1
 		culture="hatti"
 		religion="luwic_pantheon"
@@ -32,7 +32,7 @@
 		add_gold=500
 		add_popularity=100
 		c:H05={
-			set_as_ruler=char:10046
+			set_as_ruler=char:46
 		}
 		#dna=""
 	}

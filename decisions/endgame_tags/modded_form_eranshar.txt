@@ -58,7 +58,7 @@
 			if = {
 				limit = {
 					current_ruler = {
-						has_same_family = char:10002
+						has_same_family = char:2
 					}
 				}
 				change_country_name = "Achemenos_Name"

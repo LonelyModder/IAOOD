@@ -1,6 +1,6 @@
 ﻿"H11"={
 	country="H11"
-	10042={
+	42={
 		first_name="Wasuaruntiya"
 		family = c:H11.fam:Tarasid
 		birth_date=1220.1.1
@@ -16,10 +16,10 @@
 		#dna=""
 	}
 	
-	10043={
+	43={
 		first_name="Halpasulupi"
 		family = c:H11.fam:Tarasid
-		father="char:10042"
+		father="char:42"
 		birth_date=1265.1.1
 		culture="hatti"
 		religion="luwic_pantheon"
@@ -32,7 +32,7 @@
 		add_gold=500
 		add_popularity=100
 		c:H11={
-			set_as_ruler=char:10043
+			set_as_ruler=char:43
 		}
 		#dna=""
 	}

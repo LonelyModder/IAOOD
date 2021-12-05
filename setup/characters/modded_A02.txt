@@ -1,6 +1,6 @@
 ﻿"A02"={
 	country="A02"
-	10049={
+	49={
 		first_name="Toi"
 		family = c:A02.fam:Taitid
 		birth_date=1260.1.1
@@ -16,7 +16,7 @@
 		add_gold=500
 		add_popularity=100
 		c:A02={
-			set_as_ruler=char:10049
+			set_as_ruler=char:49
 		}
 		#dna=""
 	}

@@ -1,6 +1,6 @@
 ﻿"E03"={
 	country="E03"
-	10087={
+	87={
 		first_name="Mekheperre"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1221.1.1
@@ -17,12 +17,12 @@
 		#dna=""
 	}
 	
-	10088={
+	88={
 		first_name="Nesbenebjet"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1255.1.1
 		death_date=1286.1.1
-		father="char:10087"
+		father="char:87"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -35,11 +35,11 @@
 		#dna=""
 	}
 	
-	10089={
+	89={
 		first_name="Pinedjem"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1265.1.1
-		father="char:10087"
+		father="char:87"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -52,18 +52,18 @@
 		add_gold=500
 		add_popularity=80
 		c:E03={
-			set_as_ruler=char:10089
+			set_as_ruler=char:89
 		}
 		#dna=""
 	}
 	
-	10090={
+	90={
 		first_name="Henuttawy"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1256.1.1
 		death_date=1286.1.1
 		female=yes
-		father="char:10087"
+		father="char:87"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -76,7 +76,7 @@
 		#dna=""
 	}
 	
-	10091={
+	91={
 		first_name="Takhentdjehuti"
 		birth_date=1257.1.1
 		death_date=1286.1.1
@@ -92,13 +92,13 @@
 		#dna=""
 	}
 	
-	10092={
+	92={
 		first_name="Isetemkheb"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1275.1.1
 		female=yes
-		father="char:10088"
-		mother="char:10090"
+		father="char:88"
+		mother="char:90"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -113,13 +113,13 @@
 		#dna=""
 	}
 	
-	10093={
+	93={
 		first_name="Neskhons"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1275.1.1
 		female=yes
-		father="char:10088"
-		mother="char:10091"
+		father="char:88"
+		mother="char:91"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -131,17 +131,17 @@
 		add_trait="21dynastys"
 		add_gold=500
 		add_popularity=80
-		marry_character=char:10089
+		marry_character=char:89
 		#dna=""
 	}
 	
-	10094={
+	94={
 		first_name="Isetemkheb"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1265.1.1
 		death_date=1290.1.1
 		female=yes
-		father="char:10087"
+		father="char:87"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -154,12 +154,12 @@
 		#dna=""
 	}
 	
-	10095={
+	95={
 		first_name="Psusennes"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1282.1.1
-		father="char:10089"
-		mother="char:10094"
+		father="char:89"
+		mother="char:94"
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 		no_stats=yes
@@ -174,12 +174,12 @@
 		#dna=""
 	}
 	
-	10096={
+	96={
 		first_name="Herweben"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1283.1.1
-		father="char:10089"
-		mother="char:10094"
+		father="char:89"
+		mother="char:94"
 		female=yes
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
@@ -195,12 +195,12 @@
 		#dna=""
 	}
 	
-	10097={
+	97={
 		first_name="Henuttawy"
 		family = c:E03.fam:Hem-netjer-tep-en-Amun
 		birth_date=1284.1.1
-		father="char:10089"
-		mother="char:10094"
+		father="char:89"
+		mother="char:94"
 		female=yes
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"

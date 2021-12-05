@@ -1,6 +1,6 @@
 ﻿"J06"={
 	country="J06"
-	10000={
+	0={
 		first_name="Maakach"
 		family = c:J06.fam:Bet-Maakach
 		birth_date=1220.1.1
@@ -17,10 +17,10 @@
 		#dna=""
 	}
 	
-	10001={
+	1={
 		first_name="Achish"
 		family = c:J06.fam:Bet-Maakach
-		father="char:10000"
+		father="char:0"
 		birth_date=1265.1.1
 		culture="philistine"
 		religion="canaanitic_pantheon"
@@ -35,7 +35,7 @@
 		add_gold=500
 		add_popularity=100
 		c:J06={
-			set_as_ruler=char:10001
+			set_as_ruler=char:1
 		}
 		#dna=""
 	}

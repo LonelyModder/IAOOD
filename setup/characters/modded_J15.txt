@@ -1,6 +1,6 @@
 ﻿"J15"={
 	country="J15"
-	10057={
+	57={
 		first_name="Nahash"
 		family = c:J15.fam:Ammonite
 		birth_date=1220.1.1
@@ -15,16 +15,16 @@
 		add_gold=500
 		add_popularity=100
 		c:J15={
-			set_as_ruler=char:10057
+			set_as_ruler=char:57
 		}
 		#dna=""
 	}
 	
-	10058={
+	58={
 		first_name="Hanun"
 		family = c:J15.fam:Ammonite
-		father="char:10057"
-		#mother="char:10015"
+		father="char:57"
+		#mother="char:15"
 		birth_date=1243.1.1
 		culture="ammonite"
 		religion="anunnaki_pantheon"
@@ -73,7 +73,7 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		marry_character=char:60
+		marry_character=char:10060
 		#dna=""
 	}
 	
