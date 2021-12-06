@@ -108,7 +108,7 @@ deity_vaali = { # ECONOMY
 	}
 	icon = deity_wealth
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
-	omen = { global_freemen_happiness = omen_global_freemen_happiness_svalue } #Bonus from Omen
+	omen = { global_freemen_happyness = omen_global_freemen_happyness_svalue } #Bonus from Omen
 	on_activate = {
 		economy_apotheosis_capital_citizens_effect = yes
 	}

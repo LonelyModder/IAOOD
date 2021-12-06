@@ -188,7 +188,7 @@ deity_nanai = {
 	}
 	icon = deity_love
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
-	omen = { global_freemen_happiness = omen_global_freemen_happiness_svalue } #Bonus from Omen
+	omen = { global_freemen_happyness = omen_global_freemen_happyness_svalue } #Bonus from Omen
 	religion = kassite_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	

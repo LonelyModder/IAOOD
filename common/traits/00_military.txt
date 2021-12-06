@@ -55,7 +55,7 @@ steadfast = { #
 	unit = {
 		heavy_spearmen_discipline = 0.05
 		heavy_swordsmen_discipline = 0.05
-		warelephant_discipline = 0.05
+		elephant_indian_discipline = 0.05
 	}
 }
 aggressive = { #

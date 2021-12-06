@@ -184,7 +184,7 @@ deity_popa_medaw = {
 		}
 	}
 	icon = deity_love
-	passive_modifier = { tribesmen_happiness = global_tribesmen_happiness_svalue }
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_tribesmen_output = omen_global_tribesmen_output_svalue } #Bonus from Omen
 	religion = burmese_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
