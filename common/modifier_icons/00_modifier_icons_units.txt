@@ -1064,7 +1064,7 @@ elephant_african_ocean_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-elephant_ocean_ocean_combat_bonus = {
+elephant_forest_ocean_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
@@ -1130,7 +1130,7 @@ elephant_african_coastal_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-elephant_coastal_terrain_coastal_terrain_combat_bonus = {
+elephant_forest_coastal_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
@@ -1196,7 +1196,7 @@ elephant_african_riverine_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-elephant_riverine_terrain_riverine_terrain_combat_bonus = {
+elephant_forest_riverine_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
@@ -1262,7 +1262,7 @@ elephant_african_impassable_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-elephant_impassable_terrain_impassable_terrain_combat_bonus = {
+elephant_forest_impassable_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 

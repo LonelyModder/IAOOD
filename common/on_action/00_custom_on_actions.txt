@@ -1515,32 +1515,32 @@ content_clear_holdings = {
 	}
 }
 
-me_epi_royal_wedding_step_1_country_on_action = {
-	events = { me_epirus_1_epirus.16 }
-	fallback = me_epi_royal_wedding_restart_fallback
-}
+#me_epi_royal_wedding_step_1_country_on_action = {
+#	events = { me_epirus_1_epirus.16 }
+#	fallback = me_epi_royal_wedding_restart_fallback
+#}
 
-me_epi_royal_wedding_step_2_groom_on_action = {
-	events = { me_epirus_1_epirus.17 }
-	fallback = me_epi_royal_wedding_restart_fallback
-}
+#me_epi_royal_wedding_step_2_groom_on_action = {
+#	events = { me_epirus_1_epirus.17 }
+#	fallback = me_epi_royal_wedding_restart_fallback
+#}
 
-me_epi_royal_wedding_step_3_proposal_on_action = {
-	events = { me_epirus_1_epirus.18 }
-	fallback = me_epi_royal_wedding_restart_fallback
-}
+#me_epi_royal_wedding_step_3_proposal_on_action = {
+#	events = { me_epirus_1_epirus.18 }
+#	fallback = me_epi_royal_wedding_restart_fallback
+#}
 
-me_epi_royal_wedding_step_4_wedding_on_action = {
-	events = { 
-		me_epirus_1_epirus.19
-		me_epirus_1_epirus.20
-	}
-	fallback = me_epi_royal_wedding_restart_fallback
-}
+#me_epi_royal_wedding_step_4_wedding_on_action = {
+#	events = { 
+#		me_epirus_1_epirus.19
+#		me_epirus_1_epirus.20
+#	}
+#	fallback = me_epi_royal_wedding_restart_fallback
+#}
 
-me_epi_royal_wedding_restart_fallback = {
-	events = { me_epirus_1_epirus.21 }
-}
+#me_epi_royal_wedding_restart_fallback = {
+#	events = { me_epirus_1_epirus.21 }
+#}
 
 random_cultural_integration_event_25 = {
 	random_events = {

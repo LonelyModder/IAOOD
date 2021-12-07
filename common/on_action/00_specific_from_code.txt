@@ -2505,7 +2505,6 @@ on_game_initialized = {
 	} 
 	events = {
 		syr_flavour.1
-		flavor_sel.1
 		startup_events.1
 		startup_events.2
 		startup_events.7
