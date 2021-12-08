@@ -1,0 +1,63 @@
+﻿namespace = ba_techspread
+
+ba_techspread.1 = { #
+	type = country_event
+	hidden = yes
+
+	trigger = {
+		is_tribal = yes
+		oratory_tech < 2
+	}
+	immediate = {
+		random_country = {
+			limit = {
+				government = despotic_monarchy
+				OR = {
+					exports_to = root
+					imports_from = root
+				}
+			}
+			save_scope_as = techtarget
+		}
+		if = {
+			limit = {
+				exists = scope:techtarget	
+			}
+			trigger_event =  {
+				id = ba_techspread.2
+			}
+		}
+	}
+
+}
+ba_techspread.2 = { #
+	type = country_event
+	title = "ba_techspread.2.t"
+	desc = "ba_techspread.2.desc"
+	picture = celtic_diplomacy
+
+	right_portrait = scope:techtarget.current_ruler
+
+	immediate = {
+		add_research = {
+			technology = military_tech
+			value = 10
+		}
+			add_research = {
+			technology = civic_tech
+			value = 10
+		}
+		add_research = {
+			technology = oratory_tech
+			value = 10
+		}
+		add_research = {
+			technology = religious_tech
+			value = 10
+		}
+
+	}
+	option = {
+		name = ba_techtarget.2.a
+	}
+}

@@ -1963,181 +1963,181 @@ country = {
 			}
 		}
 		
-		B35 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B35 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B36 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B36 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B37 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B37 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B38 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B38 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B39 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B39 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B40 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B40 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B41 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B41 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B42 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B42 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B43 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B43 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B44 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B44 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B45 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B45 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B46 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B46 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B47 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B47 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B48 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B48 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B49 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B49 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
-		B50 = { #Additional
-			government = tribal_kingdom
-			primary_culture = ma
-			religion = kemetic_pantheon
-			capital = 522
-			
-			own_control_core = 	{
-				
-			}
-		}
+		#B50 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = ma
+		#	religion = kemetic_pantheon
+		#	capital = 522
+		#	
+		#	own_control_core = 	{
+		#		
+		#	}
+		#}
 		
 		E01 = { #21st dynasty
 			family = 3
@@ -2495,60 +2495,60 @@ country = {
 			}
 		}
 		
-		E26 = { #Additional
-			government = despotic_monarchy
-			primary_culture = medjay
-			religion = kemetic_pantheon
-			capital = 5504
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#E26 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = medjay
+		#	religion = kemetic_pantheon
+		#	capital = 5504
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		E27 = { #Additional
-			government = despotic_monarchy
-			primary_culture = medjay
-			religion = kemetic_pantheon
-			capital = 5504
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#E27 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = medjay
+		#	religion = kemetic_pantheon
+		#	capital = 5504
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		E28 = { #Additional
-			government = despotic_monarchy
-			primary_culture = medjay
-			religion = kemetic_pantheon
-			capital = 5504
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#E28 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = medjay
+		#	religion = kemetic_pantheon
+		#	capital = 5504
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		E29 = { #Additional
-			government = despotic_monarchy
-			primary_culture = medjay
-			religion = kemetic_pantheon
-			capital = 5504
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#E29 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = medjay
+		#	religion = kemetic_pantheon
+		#	capital = 5504
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		E30 = { #Additional
-			government = despotic_monarchy
-			primary_culture = medjay
-			religion = kemetic_pantheon
-			capital = 5504
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#E30 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = medjay
+		#	religion = kemetic_pantheon
+		#	capital = 5504
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
 		#David and western kebebs
 		
@@ -3485,101 +3485,101 @@ country = {
 			
 		}
 		
-		J53 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J53 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J54 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J54 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J55 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J55 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J56 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J56 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J57 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J57 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J58 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J58 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J59 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J59 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		J60 = { #Additional
-			government = despotic_monarchy
-			primary_culture = philistine
-			religion = canaanitic_pantheon
-			capital = 694
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#J60 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = philistine
+		#	religion = canaanitic_pantheon
+		#	capital = 694
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		#Hordes of Ahlamu
 		
@@ -4713,82 +4713,82 @@ country = {
 			}
 		}
 		
-		A93 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A93 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A94 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A94 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A95 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A95 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A96 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A96 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A97 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A97 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A98 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A98 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		A99 = { #Additional
-			government = aristocratic_monarchy
-			primary_culture = agade
-			religion = anunnaki_pantheon
-			capital = 1527
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#A99 = { #Additional
+		#	government = aristocratic_monarchy
+		#	primary_culture = agade
+		#	religion = anunnaki_pantheon
+		#	capital = 1527
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
 		C01 = { #Colchis
 			government = despotic_monarchy
@@ -4909,16 +4909,16 @@ country = {
 			}
 		}
 		
-		C11 = { #Urmeniuqini
-			government = tribal_kingdom
-			primary_culture = urumian
-			religion = armenic_pantheon
-			capital = 1669
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#C11 = { #Urmeniuqini
+		#	government = tribal_kingdom
+		#	primary_culture = urumian
+		#	religion = armenic_pantheon
+		#	capital = 1669
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
 		C12 = { #Mardastan
 			government = tribal_kingdom
@@ -7336,115 +7336,115 @@ country = {
 			}
 		}
 		
-		P99 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#P99 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS1 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS1 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS2 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS2 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS3 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS3 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS4 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS4 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS5 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS5 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS6 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS6 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS7 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS7 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS8 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS8 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
-		PS9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = bactric
-			religion = protoiranian_pantheon
-			capital = 6636
-			
-			own_control_core = 	{ 
-				
-			}
-		}
+		#PS9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = bactric
+		#	religion = protoiranian_pantheon
+		#	capital = 6636
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#}
 		
 		#Libyan Menece
 		
@@ -8258,137 +8258,137 @@ country = {
 			
 		}
 		
-		L70 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L70 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L71 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L71 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L72 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L72 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L73 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L73 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L74 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L74 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L75 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L75 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L76 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L76 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L77 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L77 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L78 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L78 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L79 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L79 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		L80 = { #Additional
-			government = tribal_kingdom
-			primary_culture = libi
-			religion = kemetic_pantheon
-			capital = 517
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#L80 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = libi
+		#	religion = kemetic_pantheon
+		#	capital = 517
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		#Nubians
 		
@@ -9914,77 +9914,77 @@ country = {
 			}
 		}
 		
-		H94 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H94 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		H95 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H95 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		H96 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H96 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		H97 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H97 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		H98 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H98 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		H99 = { #Additional
-			government = despotic_monarchy
-			primary_culture = kaska
-			religion = luwic_pantheon
-			capital = 1848
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#H99 = { #Additional
+		#	government = despotic_monarchy
+		#	primary_culture = kaska
+		#	religion = luwic_pantheon
+		#	capital = 1848
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		G01 = { #Gytheion
 			government = despotic_monarchy
@@ -13313,197 +13313,197 @@ country = {
 			
 		}
 		
-		M75 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M75 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M76 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M76 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M77 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M77 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M78 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M78 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M79 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M79 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M80 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M80 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M81 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M81 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M82 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M82 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M83 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M83 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M84 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M84 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M85 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M85 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M86 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M86 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M87 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M87 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M88 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M88 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M89 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M89 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		M90 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#M90 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4112
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		D01 = { #Scirtari
 			government = tribal_kingdom
@@ -14105,125 +14105,125 @@ country = {
 			
 		}
 		
-		D51 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D51 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D52 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D52 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D53 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D53 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D54 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D54 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D55 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D55 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D56 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D56 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D57 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D57 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D58 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D58 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D59 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D59 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		D60 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#D60 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		O01 = { #Cantiaci
 			government = tribal_kingdom
@@ -15378,41 +15378,41 @@ country = {
 			
 		}
 		
-		O97 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#O97 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		O98 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#O98 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		O99 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#O99 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		I01 = { #Cossyra
 			government = tribal_kingdom
@@ -16596,17 +16596,17 @@ country = {
 			
 		}
 		
-		I99 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#I99 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		IV1 = { #Aquilei
 			government = tribal_kingdom
@@ -16656,65 +16656,65 @@ country = {
 			
 		}
 		
-		IV5 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IV5 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		IV6 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IV6 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		IV7 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IV7 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		IV8 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IV8 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		IP9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IP9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		IP1 = { #Hatri
 			government = tribal_kingdom
@@ -16812,17 +16812,17 @@ country = {
 			
 		}
 		
-		IP9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#IP9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		S01 = { #Tartessos
 			government = despotic_monarchy
@@ -18096,29 +18096,29 @@ country = {
 			
 		}
 		
-		SE8 = { #Additional
-			government = tribal_kingdom
-			primary_culture = extramaduric
-			religion = bakeric_pantheon
-			capital = 1430
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SE8 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = extramaduric
+		#	religion = bakeric_pantheon
+		#	capital = 1430
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		SE9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = extramaduric
-			religion = bakeric_pantheon
-			capital = 1430
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SE9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = extramaduric
+		#	religion = bakeric_pantheon
+		#	capital = 1430
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		SC1 = { #Lusones
 			government = tribal_kingdom
@@ -18396,53 +18396,53 @@ country = {
 			
 		}
 		
-		SR6 = { #Additional
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1190
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SR6 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = cagotic
+		#	religion = celtic_pantheon
+		#	capital = 1190
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		SR7 = { #Additional
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1190
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SR7 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = cagotic
+		#	religion = celtic_pantheon
+		#	capital = 1190
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		SR8 = { #Additional
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1190
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SR8 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = cagotic
+		#	religion = celtic_pantheon
+		#	capital = 1190
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		SR9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1190
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#SR9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = cagotic
+		#	religion = celtic_pantheon
+		#	capital = 1190
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		F01 = { #Milanii
 			government = tribal_kingdom
@@ -19837,17 +19837,17 @@ country = {
 			
 		}
 		
-		FL9 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#FL9 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		FA1 = { #Segusini
 			government = tribal_kingdom
@@ -21027,197 +21027,197 @@ country = {
 			
 		}
 		
-		V75 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V75 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V76 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V76 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V77 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V77 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V78 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V78 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V79 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V79 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V80 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V80 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V81 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V81 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V82 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V82 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V83 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V83 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V84 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V84 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V85 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V85 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V86 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V86 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V87 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V87 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V88 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V88 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V89 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V89 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		V90 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#V90 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
 		R01 = { #Lanka
 			government = despotic_monarchy
@@ -22347,65 +22347,65 @@ country = {
 			
 		}
 		
-		R95 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#R95 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		R96 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#R96 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		R97 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#R97 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		R98 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#R98 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 		
-		R99 = { #Additional
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				
-			}
-			
-		}
+		#R99 = { #Additional
+		#	government = tribal_kingdom
+		#	primary_culture = glasinac
+		#	religion = illyric_pantheon
+		#	capital = 4100
+		#	
+		#	own_control_core = 	{ 
+		#		
+		#	}
+		#	
+		#}
 	}
 }
 
