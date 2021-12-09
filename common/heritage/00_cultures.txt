@@ -4,7 +4,7 @@ egiptic_heritage = {
 	modifier = {
 		#good
 		global_building_slot = 1
-		global_population_capacity_modifier = 0.25
+		global_population_capacity_modifier = 0.2
 		
 		#bad
 		naval_morale_modifier = -0.1	
@@ -412,7 +412,7 @@ celtic_heritage = {
 		agressive_expansion_monthly_change = -0.025
 		
 		#bad
-		civil_war_threshold = -0.2
+		discipline = -0.1
 	}
 	
 	trigger = {

@@ -1570,22 +1570,22 @@ random_cultural_integration_event_75 = {
 	}
 }
 
-babylonian_priest_yearly_pulse = {
-	trigger = {
-		OR = {
-			has_completed_mission = seleukid_mission_01_babylonia
-			has_completed_mission_task = seleukid_mission_01_babylonia_task_1
-		}
-		NOT = {
-			any_character = {
-				has_character_modifier = priest_of_babylon_char_modifier
-			}
-		}
-	}
-	events = {
-		me_seleukid_01_babylon.16
-	}
-}
+#babylonian_priest_yearly_pulse = {
+#	trigger = {
+#		OR = {
+#			has_completed_mission = seleukid_mission_01_babylonia
+#			has_completed_mission_task = seleukid_mission_01_babylonia_task_1
+#		}
+#		NOT = {
+#			any_character = {
+#				has_character_modifier = priest_of_babylon_char_modifier
+#			}
+#		}
+#	}
+#	events = {
+#		me_seleukid_01_babylon.16
+#	}
+#}
 
 espionage_character_pulse = {
 	trigger = {

@@ -1,0 +1,49 @@
+﻿country_decisions = {
+	petra_oasis_decision = {
+		potential = {
+			num_of_cities >= 1
+			owns = 4433
+			p:4433 = {
+				NOT = { has_province_modifier = petra_oasis }
+			}
+		}
+		highlight = {
+			province_id = 4433
+		}
+		allow = {
+			p:4433 = {
+				controller = ROOT
+				is_state_capital = yes
+				has_city_status = yes
+			}
+			treasury >= 250
+			OR = {
+				government = tribal_kingdom
+				government = despotic_monarchy
+			}
+		}
+		ai_allow = {
+			p:4433 = {
+				controller = ROOT
+				is_state_capital = yes
+				has_city_status = yes
+			}
+			treasury >= 250
+			OR = {
+				government = tribal_kingdom
+				government = despotic_monarchy
+			}
+		}
+		effect = {
+			add_treasury = -250
+			p:4433 = {
+				add_permanent_province_modifier = {
+					name = petra_oasis
+				}
+			}
+		}
+		ai_will_do = {
+			base = 100
+		}
+	}
+}

@@ -18,7 +18,11 @@
 
 	allow = {
 		unit_owner = { 
-			has_military_bonus = latin_roman_path_4
+			OR = {
+				has_military_bonus = iranian_path_6a
+				has_military_bonus = italian_path_5bs
+				has_military_bonus = assyrian_path_5b
+			}
 		}
 		trigger_if = {
 			limit = { has_reduced_roadbuilding_cost = yes }
