@@ -552,25 +552,25 @@ on_ruler_change = {
 	events = {
 		family_events.5 #Rise of new Family
 		new_ruler.1
-		ip_republic.36
+	#	ip_republic.36
 		succession_crisis.5
 		character_events.8
 		character_events.15
-		diadochi_flavor.6
-		roman_flavor.5 # Consul Conspiracy - Successful Election
-		roman_flavor.6 # Consul Conspiracy - Unsuccessful Election
-		italian_flavor.9 # Sicily and the Mamertines
-		italian_flavor.15 # Sicily and the Mamertines fallback
+	#	diadochi_flavor.6
+	#	roman_flavor.5 # Consul Conspiracy - Successful Election
+	#	roman_flavor.6 # Consul Conspiracy - Unsuccessful Election
+	#	italian_flavor.9 # Sicily and the Mamertines
+	#	italian_flavor.15 # Sicily and the Mamertines fallback
 		ip_monarchy.53 # Consort regency
-		roman_flavor.13 # Dictator in Power
-		dhe_iberia.4 # Pharnavaz becomes King of Iberia
+	#	roman_flavor.13 # Dictator in Power
+	#	dhe_iberia.4 # Pharnavaz becomes King of Iberia
 		country_rename.1 # SEL/MRY/PRY name change
-		me_roman_inheritance.1 # Roman Inheritance
+	#	me_roman_inheritance.1 # Roman Inheritance
 	}
 	random_events = {
 		100 = 0
 		25 = character_events.30
-		5 = roman_flavor.1 # Start of Consul Conspiracy Event
+	#	5 = roman_flavor.1 # Start of Consul Conspiracy Event
 	}
 }
 
@@ -628,8 +628,8 @@ on_civil_war_lost = {
 	events = {
 		civil_war.3
 		civil_war.6
-		flavor_egy.11
-		me_syracuse_1_democracy.29
+	#	flavor_egy.11
+	#	me_syracuse_1_democracy.29
 		ip_republic.88
 	}
 }
@@ -789,11 +789,11 @@ on_civil_war_won = {
 	events = {
 		civil_war.1
 		civil_war.5
-		flavor_egy.10
-		me_syracuse_1_democracy.28
+	#	flavor_egy.10
+	#	me_syracuse_1_democracy.28
 		ip_republic.87
-		dhe_iberia.5
-		me_roman_9_eastern_glory.6
+	#	dhe_iberia.5
+	#	me_roman_9_eastern_glory.6
 	}
 }
 
@@ -847,7 +847,9 @@ on_character_death = {
 				c:EPI = { has_land = yes }
 			}
 			c:EPI = {
-				trigger_event = { id = dhe_dde_pyrrhus.10 }
+				trigger_event = { 
+				#	id = dhe_dde_pyrrhus.10 
+				}
 			}
 		}
 		if = { # Pyrrhus - Memorable Life
@@ -860,7 +862,9 @@ on_character_death = {
 				}
 			}
 			employer = {
-				trigger_event = { id = dhe_dde_pyrrhus.35 }
+				trigger_event = { 
+				#	id = dhe_dde_pyrrhus.35 
+				}
 				me_epi_2_saved_variables_clearer_complete = yes
 				me_epi_3_saved_variables_clearer_complete = yes
 			}
@@ -1092,7 +1096,9 @@ on_character_death = {
 			clear_saved_scope = democracy_leader
 			save_scope_as = old_democracy_leader
 			employer = {
-				trigger_event = { id = me_syracuse_1_democracy.2 }
+				trigger_event = {
+				#	id = me_syracuse_1_democracy.2 
+				}
 			}
 		}
 		if = {
@@ -1101,7 +1107,7 @@ on_character_death = {
 			save_scope_as = syracuse_old_tyrant
 			employer = {
 				trigger_event = {
-					id = me_syracuse_1_democracy.3
+				#	id = me_syracuse_1_democracy.3
 					days = 1
 				}
 			}
@@ -1119,7 +1125,9 @@ on_character_death = {
 					save_scope_as = me_syracuse_foreign_request_scope
 				}
 				scope:me_syracuse_foreign_request_scope = {
-					trigger_event = { id = me_syracuse_1_democracy.12 }
+					trigger_event = {
+					#	id = me_syracuse_1_democracy.12 
+					}
 				}
 			}
 		}
@@ -1141,7 +1149,9 @@ on_character_death = {
 			remove_variable = me_syr_heir_flag
 			save_scope_as = me_syr_heir_scope
 			c:SYR = {
-				trigger_event = { id = me_syracuse_1_democracy.73 }
+				trigger_event = { 
+				#	id = me_syracuse_1_democracy.73 
+				}
 			}
 		}
 		if = {
@@ -1155,7 +1165,9 @@ on_character_death = {
 					employer = { has_variable = gm_1_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_1_black_sea.13 }
+					trigger_event = { 
+					#	id = me_greek_1_black_sea.13 
+					}
 				}
 			}
 		}
@@ -1170,7 +1182,9 @@ on_character_death = {
 					employer = { has_variable = gm_3_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_3_italiote.26 }
+					trigger_event = {
+					#	id = me_greek_3_italiote.26 
+					}
 				}
 			}
 		}
@@ -1185,7 +1199,9 @@ on_character_death = {
 					employer = { has_variable = gm_4_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_4_west.3 }
+					trigger_event = {
+					#	id = me_greek_4_west.3 
+					}
 				}
 			}
 		}
@@ -1652,7 +1668,7 @@ on_ending_war = {
 				}
 			}
 			c:TRE = {
-				trigger_event = me_thrace_2_paper_kingdom.33
+			#	trigger_event = me_thrace_2_paper_kingdom.33
 			}
 		}
 		if = {
@@ -1667,7 +1683,7 @@ on_ending_war = {
 			}
 			root = {
 				trigger_event = {
-					id = dhe_dde_pyrrhus.3
+				#	id = dhe_dde_pyrrhus.3
 				}
 			}
 		}
@@ -1714,13 +1730,13 @@ on_being_released = {
 
 on_enacting_omen = {
 	events = {
-		me_diadochi_empire_events.2
+	#	me_diadochi_empire_events.2
 	}
 }
 
 on_change_pantheon = {
 	events = {
-		me_diadochi_empire_events.2
+	#	me_diadochi_empire_events.2
 	}
 }
 
@@ -1733,7 +1749,9 @@ on_being_imprisoned = {
 			clear_saved_scope = democracy_leader
 			save_scope_as = old_democracy_leader
 			employer = {
-				trigger_event = { id = me_syracuse_1_democracy.2 }
+				trigger_event = {
+				#	id = me_syracuse_1_democracy.2 
+				}
 			}
 		}
 		if = {
@@ -1751,7 +1769,7 @@ on_being_imprisoned = {
 				}
 				employer = {
 					trigger_event = {
-						id = me_syracuse_1_democracy.12
+					#	id = me_syracuse_1_democracy.12
 						days = 3
 					}
 				}
@@ -1762,7 +1780,7 @@ on_being_imprisoned = {
 			}
 			c:SYR = {
 				trigger_event = {
-					id = me_syracuse_1_democracy.12
+				#	id = me_syracuse_1_democracy.12
 					days = 3
 				}
 			}
@@ -1785,7 +1803,9 @@ on_being_imprisoned = {
 			remove_variable = me_syr_heir_flag
 			save_scope_as = me_syr_heir_scope
 			c:SYR = {
-				trigger_event = { id = me_syracuse_1_democracy.73 }
+				trigger_event = {
+				#	id = me_syracuse_1_democracy.73 
+				}
 			}
 		}
 		if = {
@@ -1799,7 +1819,9 @@ on_being_imprisoned = {
 					employer = { has_variable = gm_1_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_1_black_sea.13 }
+					trigger_event = {
+					#	id = me_greek_1_black_sea.13 
+					}
 				}
 			}
 		}
@@ -1814,7 +1836,9 @@ on_being_imprisoned = {
 					employer = { has_variable = gm_3_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_3_italiote.26 }
+					trigger_event = {
+					#	id = me_greek_3_italiote.26 
+					}
 				}
 			}
 		}
@@ -1829,7 +1853,9 @@ on_being_imprisoned = {
 					employer = { has_variable = gm_4_greek_country_flag }
 				}
 				employer = {
-					trigger_event = { id = me_greek_4_west.3 }
+					trigger_event = {
+					#	id = me_greek_4_west.3 
+					}
 				}
 			}
 		}
@@ -1978,7 +2004,9 @@ on_move_country = { #scope:old_country is the origin country
 			clear_saved_scope = democracy_leader
 			save_scope_as = old_democracy_leader
 			employer = {
-				trigger_event = { id = me_syracuse_1_democracy.2 }
+				trigger_event = {
+				#	id = me_syracuse_1_democracy.2 
+				}
 			}
 		}
 		if = {
@@ -2002,7 +2030,9 @@ on_move_country = { #scope:old_country is the origin country
 			remove_variable = me_syr_heir_flag
 			save_scope_as = me_syr_heir_scope
 			c:SYR  = {
-				trigger_event = { id = me_syracuse_1_democracy.73 }
+				trigger_event = {
+				#	id = me_syracuse_1_democracy.73
+				}
 			}
 		}
 		if = {
@@ -2016,7 +2046,9 @@ on_move_country = { #scope:old_country is the origin country
 					var:came_from = { has_variable = gm_1_greek_country_flag }
 				}
 				var:came_from = {
-					trigger_event = { id = me_greek_1_black_sea.13 }
+					trigger_event = {
+					#	id = me_greek_1_black_sea.13 
+					}
 				}
 			}
 		}
@@ -2031,7 +2063,9 @@ on_move_country = { #scope:old_country is the origin country
 					var:came_from = { has_variable = gm_3_greek_country_flag }
 				}
 				var:came_from = {
-					trigger_event = { id = me_greek_3_italiote.26 }
+					trigger_event = {
+					#	id = me_greek_3_italiote.26 
+					}
 				}
 			}
 		}
@@ -2046,7 +2080,9 @@ on_move_country = { #scope:old_country is the origin country
 					var:came_from = { has_variable = gm_4_greek_country_flag }
 				}
 				var:came_from = {
-					trigger_event = { id = me_greek_4_west.3 }
+					trigger_event = {
+					#	id = me_greek_4_west.3
+					}
 				}
 			}
 		}
@@ -2134,13 +2170,13 @@ on_game_initialized = {
 			limit = { tag = MAC }
 			char:32 = {
 				trigger_event = {
-					id = dhe_macedon.1 # Cassander illness
+				#	id = dhe_macedon.1 # Cassander illness
 					days = { 700 760 } # 2 years
 				}
 			}
 			char:288 = {
 				trigger_event = {
-					id = dhe_macedon.2 # Philip IV illness
+				#	id = dhe_macedon.2 # Philip IV illness
 					days = { 1400 1520 } # 4 years
 				}
 			}
@@ -2206,7 +2242,7 @@ on_game_initialized = {
 					NOT = { has_dlc = "Epirus Flavor Pack" }
 				}
 				trigger_event = {
-					id = flavor_epi.1
+				#	id = flavor_epi.1
 					days = { 180 365 }
 				}
 			}
@@ -2214,7 +2250,7 @@ on_game_initialized = {
 				limit = { has_dlc = "Epirus Flavor Pack" }
 				trigger_event = { id = dhe_dde_pyrrhus.40 }
 				trigger_event = {
-					id = dhe_dde_pyrrhus.1
+				#	id = dhe_dde_pyrrhus.1
 					days = 730
 				}
 			}
@@ -2245,12 +2281,12 @@ on_game_initialized = {
 			}
 			p:84 = {
 				trigger_event = {
-					id = flavor_syr.1
+				#	id = flavor_syr.1
 					days = { 13505 15695 } # 37 - 43 years
 				}
 			}
 			trigger_event = {
-				id = flavor_syr.3
+			#	id = flavor_syr.3
 				days = { 180 365 }
 			}
 		}
@@ -2504,15 +2540,15 @@ on_game_initialized = {
 		}
 	} 
 	events = {
-		syr_flavour.1
-		startup_events.1
-		startup_events.2
-		startup_events.7
-		startup_events.8
-		tutorial.1
-		dhe_dde_pyrrhus.24
-		flavor_egy.8
-		dhe_heraclea_pontica.1
+	#	syr_flavour.1
+	#	startup_events.1
+	#	startup_events.2
+	#	startup_events.7
+	#	startup_events.8
+	#	tutorial.1
+	#	dhe_dde_pyrrhus.24
+	#	flavor_egy.8
+	#	dhe_heraclea_pontica.1
 	}
 }
 
@@ -2557,7 +2593,7 @@ on_ownership_change = { #province scope
 				}
 			}
 			trigger_event = {
-				id = me_roman_1_roman_italia.26
+			#	id = me_roman_1_roman_italia.26
 			}
 		}
 		if = {
@@ -2577,7 +2613,9 @@ on_ownership_change = { #province scope
 					c:SYR = { has_land = yes }
 				}
 				c:SYR = {
-					trigger_event = { id = me_syracuse_1_democracy.21 }
+					trigger_event = {
+					#	id = me_syracuse_1_democracy.21 
+					}
 				}
 			}
 		}
@@ -2742,7 +2780,9 @@ on_great_battle_won_country = { #root = country scope of the main unit on the wi
 					}
 				}
 			}
-			trigger_event = { id = dhe_dde_pyrrhus.33 }
+			trigger_event = {
+			#	id = dhe_dde_pyrrhus.33 
+			}
 		}
 		if = {
 			limit = {
@@ -2768,7 +2808,9 @@ on_great_battle_won_country = { #root = country scope of the main unit on the wi
 					}
 				}
 			}
-			trigger_event = { id = dhe_dde_pyrrhus.36 }
+			trigger_event = {
+			#	id = dhe_dde_pyrrhus.36
+			}
 		}
 		if = {
 			limit = {
@@ -2964,7 +3006,9 @@ on_military_annex = {
 				}
 				random_country = {
 					limit = { has_variable = death_to_tyrants_flag }
-					trigger_event = { id = me_syracuse_1_democracy.60 }
+					trigger_event = {
+					#	id = me_syracuse_1_democracy.60 
+					}
 				}
 			}
 		}
@@ -3112,7 +3156,7 @@ character_story_events =
 		1 = dhe_fortune_cult.10
 		1 = dhe_fortune_cult.11
 		# Eleusinian Mysteries
-		1 = me_athens_02_attica.16
+	#	1 = me_athens_02_attica.16
 		# Other
 		3 = character_events.14
 		200 = character_events.18

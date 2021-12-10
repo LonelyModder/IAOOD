@@ -83,8 +83,6 @@ on_republic_ruler_change = {
 		}
 	}
 	random_events = {
-		20 = ip_republic.64
-		20 = ip_republic.65
 		20 = 0
 	}
 }
@@ -147,34 +145,34 @@ custom_on_great_battle_commander = {
 nickname_from_battle = {
 	random_events = {
 		40 = 0
-		8 = nicknames.1
-		8 = nicknames.2
-		8 = nicknames.3
-		8 = nicknames.4
-		8 = nicknames.5
-		8 = nicknames.6
-		8 = nicknames.7
-		8 = nicknames.8
-		8 = nicknames.9
-		8 = nicknames.10
-		8 = nicknames.11
-		8 = nicknames.12
-		8 = nicknames.13
-		8 = nicknames.14
-		8 = nicknames.15
-		8 = nicknames.16
-		8 = nicknames.17
-		8 = nicknames.18
-		8 = nicknames.19
-		8 = nicknames.20
-		8 = nicknames.21
-		8 = nicknames.22
-		8 = nicknames.23
-		8 = nicknames.24
-		8 = nicknames.25
-		8 = nicknames.26
-		8 = nicknames.27
-		8 = nicknames.28
+	#	8 = nicknames.1
+	#	8 = nicknames.2
+	#	8 = nicknames.3
+	#	8 = nicknames.4
+	#	8 = nicknames.5
+	#	8 = nicknames.6
+	#	8 = nicknames.7
+	#	8 = nicknames.8
+	#	8 = nicknames.9
+	#	8 = nicknames.10
+	#	8 = nicknames.11
+	#	8 = nicknames.12
+	#	8 = nicknames.13
+	#	8 = nicknames.14
+	#	8 = nicknames.15
+	#	8 = nicknames.16
+	#	8 = nicknames.17
+	#	8 = nicknames.18
+	#	8 = nicknames.19
+	#	8 = nicknames.20
+	#	8 = nicknames.21
+	#	8 = nicknames.22
+	#	8 = nicknames.23
+	#	8 = nicknames.24
+	#	8 = nicknames.25
+	#	8 = nicknames.26
+	#	8 = nicknames.27
+	#	8 = nicknames.28
 	}
 }
 
@@ -194,12 +192,12 @@ yuezhi_pulse = {
 		}
 	}
 	events = {
-		yuezhi.3
+	#	yuezhi.3
 	}
 	random_events = {
-		100 = yuezhi.1
-		20 = yuezhi.2
-		20 = yuezhi.4
+	#	100 = yuezhi.1
+	#	20 = yuezhi.2
+	#	20 = yuezhi.4
 		100 = 0
 	}
 }
@@ -249,8 +247,8 @@ dictatorship_power_held_pulse = {
 	}
 	random_events = {
 		80 = 0
-		10 = ip_republic.35
-		10 = ip_republic.37
+	#	10 = ip_republic.35
+	#	10 = ip_republic.37
 	}
 }
 
@@ -265,8 +263,8 @@ plot_outcome_rep_37 = {
 		}
 	}
 	random_events = {
-		5 = ip_republic.38
-		15 = ip_republic.39
+	#	5 = ip_republic.38
+	#	15 = ip_republic.39
 	}
 }
 
@@ -362,15 +360,15 @@ main_event_pulse_country = {
 		}
 	}
 	events = {
-		dhe_roman_warm_period.1
-		dhe_bactria.3
-		dhe_buddhism.2
-		flavor_arm.5
-		diadochi_flavor.100
-		dhe_mithridates.8 # Mithridates heritage choice
-		me_macedon_2_mastery.63 # Vibrant periodic event
-		me_macedon_2_mastery.83 # Oracular periodic event
-		dhe_mithridates.5 # Mithridates demands Pontus
+	#	dhe_roman_warm_period.1
+	#	dhe_bactria.3
+	#	dhe_buddhism.2
+	#	flavor_arm.5
+	#	diadochi_flavor.100
+	#	dhe_mithridates.8 # Mithridates heritage choice
+	#	me_macedon_2_mastery.63 # Vibrant periodic event
+	#	me_macedon_2_mastery.83 # Oracular periodic event
+	#	dhe_mithridates.5 # Mithridates demands Pontus
 	}
 	random_events = {
 		500 = 0
@@ -402,7 +400,7 @@ main_event_pulse_country = {
 		100 = character_events.3 #Character Events
 		100 = ip_generic.6 #Internal Politics Events
 		200 = ip_generic.7
-		100 = ip_republic.8
+	#	100 = ip_republic.8
 		100 = ip_generic.19 #Add traderoute oneshot
 		100 = ip_generic.21 #Bad farmlands event
 		200 = ip_generic.15 #War Exhaustion Events
@@ -426,9 +424,9 @@ main_event_pulse_country = {
 		100 = city.17 #City Rivalry Events
 		100 = city.19
 		100 = city.20
-		100 = ip_republic.20
-		100 = ip_republic.21 #Commander Loyalty/Disloyalty Events
-		100 = ip_republic.22
+	#	100 = ip_republic.20
+	#	100 = ip_republic.21 #Commander Loyalty/Disloyalty Events
+	#	100 = ip_republic.22
 		100 = commander_loyalty.1
 		100 = commander_loyalty.2
 		100 = commander_loyalty.3
@@ -465,12 +463,12 @@ main_event_pulse_country = {
 		100 = tribal_pol.37
 		100 = tribal_pol.38
 		100 = tribal_flavour_events.1
-		40 = ip_republic.25 #Law support events
-		40 = ip_republic.26
-		40 = ip_republic.27
-		40 = ip_republic.28
-		40 = ip_republic.29
-		40 = ip_republic.30
+	#	40 = ip_republic.25 #Law support events
+	#	40 = ip_republic.26
+	#	40 = ip_republic.27
+	3	40 = ip_republic.28
+	#	40 = ip_republic.29
+	#	40 = ip_republic.30
 		100 = monarchy_events.1
 		100 = monarchy_events.2
 		100 = monarchy_events.6
@@ -495,97 +493,97 @@ main_event_pulse_country = {
 		100 = monarchy_events.41
 		100 = monarchy_events.44
 		100 = monarchy_events.45
-		100 = ip_republic.40
-		100 = ip_republic.41
-		20 = rel_flavor_hellenic.1 # Rel Flavor Hellenic
-		25 = rel_flavor_hellenic.3
-		50 = rel_flavor_hellenic.6
-		50 = rel_flavor_hellenic.7
-		40 = rel_flavor_hellenic.8
-		20 = rel_flavor_hellenic.9
-		50 = rel_flavor_hellenic.10
-		10 = rel_flavor_hellenic.11
-		50 = rel_flavor_hellenic.14
-		100 = rel_flavor_hellenic.15
-		20 = rel_flavor_hellenic.16
-		100 = rel_flavor_canaanite.1 # Rel Flavor Canaanite
-		100 = rel_flavor_canaanite.2
-		100 = rel_flavor_canaanite.3
-		100 = rel_flavor_canaanite.4
-		100 = rel_flavor_canaanite.5
-		100 = rel_flavor_canaanite.6
-		15 = rel_flavor_canaanite.7
-		100 = rel_flavor_canaanite.8
-		100 = rel_flavor_canaanite.9
-		100 = rel_flavor_canaanite.10
-		100 = rel_flavor_druidic.1 # Rel Flavor Druidic
-		100 = rel_flavor_druidic.2
-		100 = rel_flavor_druidic.3
-		100 = rel_flavor_druidic.4
-		100 = rel_flavor_druidic.5
-		100 = rel_flavor_druidic.6
-		100 = rel_flavor_druidic.7
-		100 = rel_flavor_druidic.8
-		100 = rel_flavor_druidic.9
-		100 = rel_flavor_druidic.12
-		100 = rel_flavor_kemetic.1 # Rel Flavor Kemetic
-		100 = rel_flavor_kemetic.2
-		100 = rel_flavor_kemetic.3
-		100 = rel_flavor_kemetic.4
-		100 = rel_flavor_kemetic.5
-		100 = rel_flavor_cybelene.1 # Rel Flavor Cybelene
-		100 = rel_flavor_cybelene.2
-		100 = rel_flavor_cybelene.3
-		50 = rel_flavor_cybelene.4
-		100 = rel_flavor_cybelene.5
-		100 = rel_flavor_zoro.1 # Rel Flavor Zoroastrian
-		100 = rel_flavor_zoro.2
-		100 = rel_flavor_zoro.3
-		100 = rel_flavor_zoro.4
-		100 = rel_flavor_zoro.5
-		100 = rel_flavor_eastern.1 # Rel Flavor Eastern
-		100 = rel_flavor_eastern.2
-		100 = rel_flavor_eastern.3
-		100 = rel_flavor_eastern.4
-		20 = rel_flavor_eastern.5
-		100 = rel_flavor_northern.1 # Rel Flavor Northern
-		100 = rel_flavor_northern.2
-		100 = rel_flavor_northern.3
-		100 = rel_flavor_northern.4
-		100 = rel_flavor_northern.5
-		100 = rel_flavor_hindu.1 # Rel Flavor Hindu
-		100 = rel_flavor_hindu.2
-		100 = rel_flavor_hindu.3
-		100 = rel_flavor_hindu.4
-		100 = rel_flavor_hindu.5
-		100 = rel_flavor_buddhist.1 # Rel Flavor Buddhist 
-		100 = rel_flavor_buddhist.2
-		100 = rel_flavor_buddhist.3
-		3 = rel_flavor_buddhist.4
-		100 = rel_flavor_arabian.1 # Rel Flavor Arabian
-		100 = rel_flavor_arabian.2
-		100 = rel_flavor_arabian.3
-		100 = rel_flavor_arabian.4
-		100 = rel_flavor_arabian.5
-		100 = rel_flavor_judaism.1 # Rel Flavor Judaism
-		100 = rel_flavor_judaism.2
-		100 = rel_flavor_judaism.3 
-		100 = rel_flavor_judaism.4
-		100 = rel_flavor_judaism.5
-		100 = rel_flavor_thracian.1 # Rel Flavor Thracian
-		100 = rel_flavor_thracian.2
-		100 = rel_flavor_thracian.3
-		100 = rel_flavor_thracian.4
-		100 = rel_flavor_thracian.5
-		50 = dhe_museion.20 # Recurring Events Museion
-		50 = dhe_museion.21
-		100 = dhe_museion.22
-		50 = dhe_fortune_cult.1 # Cult of Fortune
-		50 = dhe_fortune_cult.2
-		50 = dhe_fortune_cult.3
-		10 = dhe_fortune_cult.4
-		100 = dhe_buddhism.1 # Buddhism event
-		100 = dhe_jainism.1 # Jainism event
+	#	100 = ip_republic.40
+	#	100 = ip_republic.41
+	#	20 = rel_flavor_hellenic.1 # Rel Flavor Hellenic
+	#	25 = rel_flavor_hellenic.3
+	#	50 = rel_flavor_hellenic.6
+	#	50 = rel_flavor_hellenic.7
+	#	40 = rel_flavor_hellenic.8
+	#	20 = rel_flavor_hellenic.9
+	#	50 = rel_flavor_hellenic.10
+	#	10 = rel_flavor_hellenic.11
+	#	50 = rel_flavor_hellenic.14
+	#	100 = rel_flavor_hellenic.15
+	#	20 = rel_flavor_hellenic.16
+	#	100 = rel_flavor_canaanite.1 # Rel Flavor Canaanite
+	#	100 = rel_flavor_canaanite.2
+	#	100 = rel_flavor_canaanite.3
+	#	100 = rel_flavor_canaanite.4
+	#	100 = rel_flavor_canaanite.5
+	#	100 = rel_flavor_canaanite.6
+	#	15 = rel_flavor_canaanite.7
+	#	100 = rel_flavor_canaanite.8
+	#	100 = rel_flavor_canaanite.9
+	#	100 = rel_flavor_canaanite.10
+	#	100 = rel_flavor_druidic.1 # Rel Flavor Druidic
+	#	100 = rel_flavor_druidic.2
+	#	100 = rel_flavor_druidic.3
+	#	100 = rel_flavor_druidic.4
+	#	100 = rel_flavor_druidic.5
+	#	100 = rel_flavor_druidic.6
+	#	100 = rel_flavor_druidic.7
+	#	100 = rel_flavor_druidic.8
+	#	100 = rel_flavor_druidic.9
+	#	100 = rel_flavor_druidic.12
+	#	100 = rel_flavor_kemetic.1 # Rel Flavor Kemetic
+	#	100 = rel_flavor_kemetic.2
+	#	100 = rel_flavor_kemetic.3
+	#	100 = rel_flavor_kemetic.4
+	#	100 = rel_flavor_kemetic.5
+	#	100 = rel_flavor_cybelene.1 # Rel Flavor Cybelene
+	#	100 = rel_flavor_cybelene.2
+	#	100 = rel_flavor_cybelene.3
+	#	50 = rel_flavor_cybelene.4
+	#	100 = rel_flavor_cybelene.5
+	#	100 = rel_flavor_zoro.1 # Rel Flavor Zoroastrian
+	#	100 = rel_flavor_zoro.2
+	#	100 = rel_flavor_zoro.3
+	#	100 = rel_flavor_zoro.4
+	#	100 = rel_flavor_zoro.5
+	#	100 = rel_flavor_eastern.1 # Rel Flavor Eastern
+	#	100 = rel_flavor_eastern.2
+	#	100 = rel_flavor_eastern.3
+	#	100 = rel_flavor_eastern.4
+	#	20 = rel_flavor_eastern.5
+	#	100 = rel_flavor_northern.1 # Rel Flavor Northern
+	#	100 = rel_flavor_northern.2
+	#	100 = rel_flavor_northern.3
+	#	100 = rel_flavor_northern.4
+	#	100 = rel_flavor_northern.5
+	#	100 = rel_flavor_hindu.1 # Rel Flavor Hindu
+	#	100 = rel_flavor_hindu.2
+	#	100 = rel_flavor_hindu.3
+	#	100 = rel_flavor_hindu.4
+	#	100 = rel_flavor_hindu.5
+	#	100 = rel_flavor_buddhist.1 # Rel Flavor Buddhist 
+	#	100 = rel_flavor_buddhist.2
+	#	100 = rel_flavor_buddhist.3
+	#	3 = rel_flavor_buddhist.4
+	#	100 = rel_flavor_arabian.1 # Rel Flavor Arabian
+	#	100 = rel_flavor_arabian.2
+	#	100 = rel_flavor_arabian.3
+	#	100 = rel_flavor_arabian.4
+	#	100 = rel_flavor_arabian.5
+	#	100 = rel_flavor_judaism.1 # Rel Flavor Judaism
+	#	100 = rel_flavor_judaism.2
+	#	100 = rel_flavor_judaism.3 
+	#	100 = rel_flavor_judaism.4
+	#	100 = rel_flavor_judaism.5
+	#	100 = rel_flavor_thracian.1 # Rel Flavor Thracian
+	#	100 = rel_flavor_thracian.2
+	#	100 = rel_flavor_thracian.3
+	#	100 = rel_flavor_thracian.4
+	#	100 = rel_flavor_thracian.5
+	#	50 = dhe_museion.20 # Recurring Events Museion
+	#	50 = dhe_museion.21
+	#	100 = dhe_museion.22
+	#	50 = dhe_fortune_cult.1 # Cult of Fortune
+	#	50 = dhe_fortune_cult.2
+	#	50 = dhe_fortune_cult.3
+	#	10 = dhe_fortune_cult.4
+	#	100 = dhe_buddhism.1 # Buddhism event
+	#	100 = dhe_jainism.1 # Jainism event
 		200 = character_events.6
 		200 = character_events.7
 		100 = country_diplomacy.1 # Country Diplomacy Events
@@ -601,17 +599,17 @@ main_event_pulse_country = {
 		100 = country_diplomacy.20
 		100 = country_diplomacy.28
 		100 = country_diplomacy.30
-		100 = ip_republic.43
-		50 = dhe_body.7
-		50 = dhe_body.8
-		50 = dhe_body.9
-		500 = dhe_dde_pyrrhus.11
-		100 = dhe_dde_pyrrhus.15
+	#	100 = ip_republic.43
+	#	50 = dhe_body.7
+	#	50 = dhe_body.8
+	#	50 = dhe_body.9
+	#	500 = dhe_dde_pyrrhus.11
+	#	100 = dhe_dde_pyrrhus.15
 		100 = p_actor.1
-		100 = dhe_bactria.1
-		150 = dhe_bactria.2
-		25 = ip_republic.44
-		50 = ip_republic.45 # marius
+	#	100 = dhe_bactria.1
+	#	150 = dhe_bactria.2
+	#	25 = ip_republic.44
+	#	50 = ip_republic.45 # marius
         ### Diplomacy
         50 = dip_friends_rivals.1
         50 = dip_friends_rivals.3
@@ -627,12 +625,12 @@ main_event_pulse_country = {
         50 = dip_friends_rivals.17
         50 = dip_friends_rivals.19
 		### Digital Deluxe Edition ###
-		100 = dde_hellenistic.1
-		100 = dde_hellenistic.2
-		100 = dde_hellenistic.3
-		100 = dde_hellenistic.4
-		100 = dde_hellenistic.5
-		100 = dde_hellenistic.6
+	#	100 = dde_hellenistic.1
+	#	100 = dde_hellenistic.2
+	#	100 = dde_hellenistic.3
+	#	100 = dde_hellenistic.4
+	#	100 = dde_hellenistic.5
+	#	100 = dde_hellenistic.6
 		###Misc and CL
 		100 = commander_loyalty.10
 		100 = city.22
@@ -646,13 +644,13 @@ main_event_pulse_country = {
 		100 = dhe_slave.7
 		100 = dhe_slave.8
 		# 1.1.0
-		50 = roman_flavor.8
+	#	50 = roman_flavor.8
 		# CO-CONSUL
-		250 = ip_republic.49
-		250 = ip_republic.52
-		250 = ip_republic.55
-		250 = ip_republic.58
-		250 = ip_republic.61
+	#	250 = ip_republic.49
+	#	250 = ip_republic.52
+	#	250 = ip_republic.55
+	#	250 = ip_republic.58
+	#	250 = ip_republic.61
 		# IP_MONARCHY
 		250 = ip_monarchy.27
 		250 = ip_monarchy.30
@@ -666,12 +664,12 @@ main_event_pulse_country = {
 		300 = ip_monarchy.59
 		300 = ip_monarchy.64
 		# DHE Iberia
-		500 = dhe_iberia.14
+	#	500 = dhe_iberia.14
 		# DHE MASSALIA
-		300 = dhe_massalia.1
-		800 = dhe_massalia.5
-		300 = dhe_massalia.10
-		600 = dhe_massalia.13
+	#	300 = dhe_massalia.1
+	#	800 = dhe_massalia.5
+	#	300 = dhe_massalia.10
+	#	600 = dhe_massalia.13
 		# FOOD EVENTS
 		150 = food_events.1
 		150 = food_events.2
@@ -691,30 +689,30 @@ main_event_pulse_country = {
 		150 = food_events.16
 		150 = food_events.17
 		# DHE Armenia
-		500 = flavor_arm.3
-		500 = flavor_arm.4
+	#	500 = flavor_arm.3
+	#	500 = flavor_arm.4
 		# PIRATE EVENTS
 		100 = pirate_events.1
 		100 = pirate_events.4
 		# THRACE EVENTS
-		500 = dhe_thrace_flavor.1
-		1000 = dhe_thrace_flavor.2
-		1000 = dhe_thrace.1
-		1000 = dhe_thrace.8
-		500 = dhe_thrace.9
+	#	500 = dhe_thrace_flavor.1
+	#	1000 = dhe_thrace_flavor.2
+	#	1000 = dhe_thrace.1
+	#	1000 = dhe_thrace.8
+	#	500 = dhe_thrace.9
 		# CYR Events
-		1000 = flavor_egy.12
+	#	1000 = flavor_egy.12
 		# me gre 2 convince events
-		250 = me_greek_2_greece.30
-		500 = me_greek_2_greece.31
+	#	250 = me_greek_2_greece.30
+	#	500 = me_greek_2_greece.31
 		### Senate Rework ###
 		# Party Events Roman
-		50 = party_events_rome.1
-		50 = party_events_rome.2
-		50 = party_events_rome.3
-		50 = party_events_rome.4
-		50 = party_events_rome.5
-		50 = party_events_rome.6
+	#	50 = party_events_rome.1
+	#	50 = party_events_rome.2
+	#	50 = party_events_rome.3
+	#	50 = party_events_rome.4
+	#	50 = party_events_rome.5
+	#	50 = party_events_rome.6
 		# Party Events Default
 		50 = party_events_default.1
 		50 = party_events_default.4
@@ -723,11 +721,11 @@ main_event_pulse_country = {
 		50 = party_events_default.7
 		50 = party_events_default.10
 		# OLIGARCHS
-		100 = ip_republic.66
+	#	100 = ip_republic.66
 		#Tribal Crisis
 		200 = tribal_flavour_events.2
 		#Mithridates
-		300 = dhe_mithridates.9
+	#	300 = dhe_mithridates.9
 		300 = distinction.6
 		200 = monarchy_events.102
 	}
@@ -952,7 +950,7 @@ monthly_syracuse_war_pulse = {
 	}
 	effect = {
 		trigger_event = {
-			id = dhe_dde_pyrrhus.18
+	#		id = dhe_dde_pyrrhus.18
 		}
 	}
 }
@@ -1058,9 +1056,9 @@ consul_conspiracy_pulse = {
 
 	random_events = {
 		100 = 0
-		30 = roman_flavor.2
-		30 = roman_flavor.3
-		30 = roman_flavor.4
+	#	30 = roman_flavor.2
+	#	30 = roman_flavor.3
+	#	30 = roman_flavor.4
 	}
 }
 
@@ -1069,11 +1067,11 @@ yearly_italian_flavor = {
 		current_date < 500.1.1
 	}
 	events = {
-		italian_flavor.1 # Tarantine event chain
-		italian_flavor.6 # Marsian Rebellion
-		italian_flavor.11 # Frentani Fidelity
-		italian_flavor.12 # Samnite Aggression
-		italian_flavor.14 # Nucerian Trade
+	#	italian_flavor.1 # Tarantine event chain
+	#	italian_flavor.6 # Marsian Rebellion
+	#	italian_flavor.11 # Frentani Fidelity
+	#	italian_flavor.12 # Samnite Aggression
+	#	italian_flavor.14 # Nucerian Trade
 	}
 }
 dictator_rise_pulse = {
@@ -1088,9 +1086,9 @@ dictator_rise_pulse = {
 
 	random_events = {
 		100 = 0
-		30 = roman_flavor.9
-		30 = roman_flavor.10
-		30 = roman_flavor.11
+	#	30 = roman_flavor.9
+	#	30 = roman_flavor.10
+	#	30 = roman_flavor.11
 	}
 }
 
@@ -1212,36 +1210,36 @@ rival_request = {
 
 pytheas_return_on_action = {
 	events = {
-		dhe_massalia.8
+	#	dhe_massalia.8
 	}
 	fallback = pytheas_return_on_action_fallback
 }
 
 pytheas_return_on_action_fallback = {
 	events = {
-		dhe_massalia.9
+	#	dhe_massalia.9
 	}
 }
 
 ip_rep_66_development_on_action = {
 	random_events = {
-		10 = ip_republic.68
-		10 = ip_republic.69
-		10 = ip_republic.72
-		10 = ip_republic.73	
-		15 = ip_republic.74	
-		15 = ip_republic.75
-		10 = ip_republic.78
-		10 = ip_republic.80
+	#	10 = ip_republic.68
+	#	10 = ip_republic.69
+	#	10 = ip_republic.72
+	#	10 = ip_republic.73	
+	#	15 = ip_republic.74	
+	#	15 = ip_republic.75
+	#	10 = ip_republic.78
+	#	10 = ip_republic.80
 	}
 	fallback = ip_rep_66_close_on_action
 }
 
 ip_rep_66_close_on_action = {
 	events = {
-		ip_republic.76
-		ip_republic.79
-		ip_republic.84
+	#	ip_republic.76
+	#	ip_republic.79
+	#	ip_republic.84
 	}
 }
 
