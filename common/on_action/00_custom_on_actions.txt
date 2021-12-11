@@ -466,7 +466,7 @@ main_event_pulse_country = {
 	#	40 = ip_republic.25 #Law support events
 	#	40 = ip_republic.26
 	#	40 = ip_republic.27
-	3	40 = ip_republic.28
+	#	40 = ip_republic.28
 	#	40 = ip_republic.29
 	#	40 = ip_republic.30
 		100 = monarchy_events.1
@@ -942,18 +942,18 @@ monthly_tarentum_war_pulse = {
 	}
 }
 
-monthly_syracuse_war_pulse = {
-	trigger = {
-		exists = this
-		tag = SYR
-		war_with = CAR
-	}
-	effect = {
-		trigger_event = {
-	#		id = dhe_dde_pyrrhus.18
-		}
-	}
-}
+#monthly_syracuse_war_pulse = {
+#	trigger = {
+#		exists = this
+#		tag = SYR
+#		war_with = CAR
+#	}
+#	effect = {
+#		trigger_event = {
+#			id = dhe_dde_pyrrhus.18
+#		}
+#	}
+#}
 
 assassinate_setup = {
 	random_events = {
@@ -1401,7 +1401,7 @@ monthly_syracuse_revolution_pulse = {
 		any_character = { has_variable = me_syr_democracy_leader }
 	}
 	random_events = {
-		5 = me_syracuse_1_democracy.25
+	#	5 = me_syracuse_1_democracy.25
 		20 = 0
 	}
 }

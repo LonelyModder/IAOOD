@@ -564,7 +564,7 @@ on_ruler_change = {
 		ip_monarchy.53 # Consort regency
 	#	roman_flavor.13 # Dictator in Power
 	#	dhe_iberia.4 # Pharnavaz becomes King of Iberia
-		country_rename.1 # SEL/MRY/PRY name change
+	#	country_rename.1 # SEL/MRY/PRY name change
 	#	me_roman_inheritance.1 # Roman Inheritance
 	}
 	random_events = {
@@ -630,7 +630,7 @@ on_civil_war_lost = {
 		civil_war.6
 	#	flavor_egy.11
 	#	me_syracuse_1_democracy.29
-		ip_republic.88
+	#	ip_republic.88
 	}
 }
 
@@ -791,7 +791,7 @@ on_civil_war_won = {
 		civil_war.5
 	#	flavor_egy.10
 	#	me_syracuse_1_democracy.28
-		ip_republic.87
+	#	ip_republic.87
 	#	dhe_iberia.5
 	#	me_roman_9_eastern_glory.6
 	}
@@ -1220,8 +1220,8 @@ on_character_death = {
 		}
 	}
 	events = {
-		olympic.10 #inform patron country of athlete death
-		ip_republic.33
+	#	olympic.10 #inform patron country of athlete death
+	#	ip_republic.33
 	}
 	random_events = {
 		5 = character_events.1
@@ -1689,14 +1689,14 @@ on_ending_war = {
 		}
 	}
 	events = {
-		ip_republic.34
+	#	ip_republic.34
 	}
 }
 
 dictator_power_return = {
 	random_events = {
-		85 = ip_republic.23
-		15 = ip_republic.32
+	#	85 = ip_republic.23
+	#	15 = ip_republic.32
 	}
 }
 
@@ -2659,7 +2659,7 @@ on_ownership_change = { #province scope
 		}
 	}
 	events = {
-		dhe_body.3
+	#	dhe_body.3
 		comet.2
 	}
 }
@@ -3140,9 +3140,9 @@ character_story_events =
 		1 = ip_generic.3
 		1 = ip_generic.4
 		1 = ip_generic.5
-		1 = ip_republic.4
-		1 = ip_republic.18
-		2 = ip_republic.19
+	#	1 = ip_republic.4
+	#	1 = ip_republic.18
+	#	2 = ip_republic.19
 		#Get friends/rivals events
 		2 = friend_rival.15
 		#Mentor/Mentee events
@@ -3153,8 +3153,8 @@ character_story_events =
 		# Tribal Pol events
 		50 = tribal_pol.24
 		# Cult of Fortune events
-		1 = dhe_fortune_cult.10
-		1 = dhe_fortune_cult.11
+	#	1 = dhe_fortune_cult.10
+	#	1 = dhe_fortune_cult.11
 		# Eleusinian Mysteries
 	#	1 = me_athens_02_attica.16
 		# Other

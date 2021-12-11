@@ -174,7 +174,7 @@ spartan_mission_03_peloponnesian_league_pulse = {
 syracuse_3_8_monthly_on_action = {
 	random_events = {
 		10 = 0
-		5 = me_syracuse_3_punic.21
+	#	5 = me_syracuse_3_punic.21
 	}
 }
 
