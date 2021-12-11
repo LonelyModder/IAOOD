@@ -78,4 +78,18 @@ Distatnt_descendent_of_elam_conflict_effect = {
 			target = c:A40
 		}
 	}
+	c:A70 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
+		}
+	}
+	c:A90 = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:926
+			target = c:A40
+		}
+	}
 }

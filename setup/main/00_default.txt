@@ -9914,17 +9914,17 @@ country = {
 			}
 		}
 		
-		#H94 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = kaska
-		#	religion = luwic_pantheon
-		#	capital = 1848
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
+		H94 = { #Mycene
+			government = despotic_monarchy
+			primary_culture = laconic
+			religion = grecoid_pantheon
+			capital = 7894
+			
+			own_control_core = 	{ 
+				7894
+			}
+			
+		}
 		
 		#H95 = { #Additional
 		#	government = despotic_monarchy
@@ -10383,7 +10383,7 @@ country = {
 			capital = 440
 			
 			own_control_core = 	{ 
-				440 7894 8003
+				440 8003
 			}
 			
 		}

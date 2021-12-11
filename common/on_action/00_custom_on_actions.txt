@@ -936,9 +936,7 @@ monthly_tarentum_war_pulse = {
 		}
 	}
 	effect = {
-		trigger_event = {
-			id = dhe_dde_pyrrhus.6
-		}
+		
 	}
 }
 
@@ -1021,7 +1019,7 @@ yearly_crisis_start_pulse = {
 	
 	random_events = {
 		1160 = 0
-		40 = ip_republic.46
+	#	40 = ip_republic.46
 	}
 	
 }

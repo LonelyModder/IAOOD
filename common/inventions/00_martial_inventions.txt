@@ -944,7 +944,7 @@ naval_tree = {
 			trigger_if = {
 				limit = { tag = CAR }
 				tag = CAR
-				has_completed_mission_task = carthaginian_rome_expansion_mission_task_3
+			#	has_completed_mission_task = carthaginian_rome_expansion_mission_task_3
 			}
 		}
 		modifier = { ship_capture_chance = 0.01 }
