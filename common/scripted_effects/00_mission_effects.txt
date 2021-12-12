@@ -1748,183 +1748,6 @@ seleukid_mission_03_variable_cleanup_effect = {
 	}
 }
 
-syracuse_democracy_variable_clearer = {
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_current_tyrant_flag }
-		}
-		every_character = {
-			limit = { has_variable = me_syr_current_tyrant_flag }
-			remove_variable = me_syr_current_tyrant_flag
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_democracy_leader }
-		}
-		every_character = {
-			limit = { has_variable = me_syr_democracy_leader }
-			remove_variable = me_syr_democracy_leader
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = rebel_character_flag }
-		}
-		every_character = {
-			limit = { has_variable = rebel_character_flag }
-			remove_variable = rebel_character_flag
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_foreign_leader_flag }
-		}
-		random_character = { remove_variable = me_syr_foreign_leader_flag }
-	}
-	if = {
-		limit = { has_variable = me_syr_3_bypass }
-		remove_variable = me_syr_3_bypass
-	}
-	if = {
-		limit = { has_variable = me_syr_2_bypass }
-		remove_variable = me_syr_2_bypass
-	}
-	if = {
-		limit = { has_variable = me_syr_2_merc_reject }
-		remove_variable = me_syr_2_merc_reject
-	}
-	if = {
-		limit = { has_variable = me_syr_demo_civil_war_active }
-		remove_variable = me_syr_demo_civil_war_active
-	}
-	if = {
-		limit = { has_variable = syracuse_demo_plot_abort }
-		remove_variable = syracuse_demo_plot_abort
-	}
-	if = {
-		limit = { has_variable = me_syr_63_flag }
-		remove_variable = me_syr_63_flag
-	}
-	if = {
-		limit = {
-			any_country = { has_variable = me_syr_foreign_country_flag }
-		}
-		random_country = { remove_variable = me_syr_foreign_country_flag }
-		if = {
-			limit = {
-				any_character = { has_variable = me_syr_foreign_leader_flag }
-			}
-			random_character = {
-				remove_variable = me_syr_foreign_leader_flag
-				if = {
-					limit = { has_character_modifier = indisposed_charmod }
-					hidden_effect = { remove_character_modifier = indisposed_charmod }
-				}
-			}
-		}
-	}
-	hidden_effect = {
-		if = {
-			limit = {
-				c:MER = { 
-					any_character = { has_variable = me_syr_2_mer_lead_flag }
-				}
-			}
-			c:MER = {
-				random_character = {
-					limit = { has_variable = me_syr_2_mer_lead_flag }
-					remove_variable = me_syr_2_mer_lead_flag
-					death = {
-						death_reason = death_obscurity
-						silent = yes
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				c:MER = { 
-					any_character = { has_variable = me_syr_2_mer_deputy_flag }
-				}
-			}
-			c:MER = {
-				random_character = {
-					limit = { has_variable = me_syr_2_mer_deputy_flag }
-					remove_variable = me_syr_2_mer_deputy_flag
-					death = {
-						death_reason = death_obscurity
-						silent = yes
-					}
-				}
-			}
-		}
-	}
-	if = {
-		limit = {
-			any_country = { has_variable = me_syr_deal_rejected }
-		}
-		every_country = {
-			limit = { has_variable = me_syr_deal_rejected }
-			remove_variable = me_syr_deal_rejected
-		}
-	}
-	if = {
-		limit = {
-			any_country = { has_variable = me_syr_deal_with_devil_flag }
-		}
-		every_country = {
-			limit = { has_variable = me_syr_deal_with_devil_flag }
-			remove_variable = me_syr_deal_with_devil_flag
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_heir_flag }
-		}
-		random_character = {
-			limit = { has_variable = me_syr_heir_flag }
-			remove_variable = me_syr_heir_flag
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_6_outcome }
-		}
-		random_character = {
-			limit = { has_variable = me_syr_6_outcome }
-			remove_variable = me_syr_6_outcome
-		}
-	}
-	if = {
-		limit = { has_variable = me_syr_6_approach }
-		remove_variable = me_syr_6_approach
-	}
-	if = {
-		limit = { has_variable = me_syr_taking_stock_republic_flag }
-		remove_variable = me_syr_taking_stock_republic_flag
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_leadership_enflamed }
-		}
-		every_character = {
-			limit = { has_variable = me_syr_leadership_enflamed }
-			remove_variable = me_syr_leadership_enflamed
-		}
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = me_syr_replaced_tyrant_flag }
-		}
-		every_character = {
-			limit = { has_variable = me_syr_replaced_tyrant_flag }
-			remove_variable = me_syr_replaced_tyrant_flag
-		}
-	}
-	remove_variable = death_to_tyrants_flag
-}
-
 syracuse_foreign_backer_effect = {
 	hidden_effect = {
 		if = {
@@ -1948,13 +1771,11 @@ syracuse_foreign_backer_effect = {
 							has_culture_group = hellenic
 							martial > 5
 							NOR = {
-								is_friend = scope:me_syracuse_scope.current_ruler
 								has_character_modifier = foreign_citizen
 								has_any_illness_trigger = yes
 							}
 							trigger_if = {
 								limit = {
-									scope:me_syracuse_scope = { gender_equality = no }
 									employer = { gender_equality = no }
 								}
 								is_female = no
@@ -2000,13 +1821,11 @@ syracuse_foreign_backer_effect = {
 							has_culture_group = hellenic
 							martial > 5
 							NOR = {
-								is_friend = scope:me_syracuse_scope.current_ruler
 								has_character_modifier = foreign_citizen
 								has_any_illness_trigger = yes
 							}
 							trigger_if = {
 								limit = {
-									scope:me_syracuse_scope = { gender_equality = no }
 									employer = { gender_equality = no }
 								}
 								is_female = no
@@ -2072,12 +1891,10 @@ syracuse_foreign_backer_character_effect = {
 						has_culture_group = hellenic
 						martial > 5
 						NOR = {
-							is_friend = scope:me_syracuse_scope.current_ruler
 							has_character_modifier = foreign_citizen
 						}
 						trigger_if = {
 							limit = {
-								scope:me_syracuse_scope = { gender_equality = no }
 								employer = { gender_equality = no }
 							}
 							is_female = no
@@ -2106,12 +1923,10 @@ syracuse_foreign_backer_character_effect = {
 						has_culture_group = hellenic
 						martial > 5
 						NOR = {
-							is_friend = scope:me_syracuse_scope.current_ruler
 							has_character_modifier = foreign_citizen
 						}
 						trigger_if = {
 							limit = {
-								scope:me_syracuse_scope = { gender_equality = no }
 								employer = { gender_equality = no }
 							}
 							is_female = no
@@ -2172,53 +1987,6 @@ me_syr_resentful_effect = {
 	}
 }
 
-me_syr_rebel_member_scope_effect = {
-	if = {
-		limit = { exists = scope:rebel_member_1_scope }
-		scope:rebel_member_1_scope = { clear_saved_scope = rebel_member_1_scope }
-	}
-	if = {
-		limit = { exists = scope:rebel_member_2_scope }
-		scope:rebel_member_2_scope = { clear_saved_scope = rebel_member_2_scope }
-	}
-	ordered_character = {
-		limit = {
-			is_alive = yes
-			has_variable = rebel_character_flag
-			NOR = {
-				has_variable = me_syr_democracy_leader
-				this = scope:democracy_leader
-				AND = {
-					exists = scope:new_democracy_leader
-					this = scope:new_democracy_leader
-				}
-			}
-		}
-		order_by = power_base
-		save_scope_as = rebel_member_1_scope
-	}
-	ordered_character = {
-		limit = {
-			is_alive = yes
-			has_variable = rebel_character_flag
-			NOR = {
-				has_variable = me_syr_democracy_leader
-				this = scope:democracy_leader
-				AND = {
-					exists = scope:new_democracy_leader
-					this = scope:new_democracy_leader
-				}
-				AND = {
-					exists = scope:rebel_member_1_scope
-					this = scope:rebel_member_1_scope
-				}
-			}
-		}
-		order_by = power_base
-		save_scope_as = rebel_member_2_scope
-	}
-}
-
 me_syr_rebel_start_member_effect = {
 	hidden_effect = {
 		while = {
@@ -2241,15 +2009,12 @@ me_syr_rebel_start_member_effect = {
 						is_spouse_of = root.current_ruler
 						has_same_family = root.current_ruler
 						has_character_modifier = foreign_citizen
-						has_variable = rebel_character_flag
-						has_variable = me_syr_democracy_leader 
 					}
 				}
 				order_by = {
 					value = 0 
 					subtract = loyalty
 				}
-				set_variable = rebel_character_flag
 			}
 			ordered_character = {
 				limit = {
@@ -2269,97 +2034,14 @@ me_syr_rebel_start_member_effect = {
 						is_spouse_of = root.current_ruler
 						has_same_family = root.current_ruler
 						has_character_modifier = foreign_citizen
-						has_variable = rebel_character_flag
-						has_variable = me_syr_democracy_leader 
 					}
 				}
 				order_by = {
 					value = 0 
 					subtract = loyalty
 				}
-				set_variable = rebel_character_flag
 			}
 		}
-	}
-}
-
-me_syr_troop_muster_effect = { # no longer used
-	root = {
-		every_unit = { change_unit_owner = scope:tyrant_leader.employer }
-		create_unit = {
-			location = scope:sm_rebel_base_scope
-			commander = scope:democracy_leader
-			save_scope_as = revolutionary_army
-		}
-	}
-	scope:revolutionary_army = { add_subunit = light_infantry } # Initial volunteers
-	set_variable = {
-		name = syr_troop_count_var
-		value = 0
-	}
-	### POWER_BASE ###
-	if = {
-		limit = { scope:democracy_leader.power_base >= 10 }
-		scope:revolutionary_army = { add_subunit = light_infantry }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.power_base >= 25 }
-		scope:revolutionary_army = { add_subunit = light_infantry }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.power_base >= 40 }
-		scope:revolutionary_army = { add_subunit = light_infantry }
-		me_syr_troop_counter_effect = yes
-	}
-	### MARTIAL ###
-	if = {
-		limit = { scope:democracy_leader.martial >= 6 }
-		scope:revolutionary_army = { add_subunit = light_infantry }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.martial >= 8 }
-		scope:revolutionary_army = { add_subunit = supply_train }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.martial >= 10 }
-		scope:revolutionary_army = { add_subunit = light_infantry }
-		me_syr_troop_counter_effect = yes
-	}
-	### WEALTH ###
-	if = {
-		limit = { scope:democracy_leader.wealth >= 50 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.wealth >= 100 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.wealth >= 250 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
-	}
-	### POPULARITY ###
-	if = {
-		limit = { scope:democracy_leader.popularity >= 30 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.popularity >= 50 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
-	}
-	if = {
-		limit = { scope:democracy_leader.popularity >= 70 }
-		scope:revolutionary_army = { add_subunit = archers }
-		me_syr_troop_counter_effect = yes
 	}
 }
 
@@ -2544,152 +2226,6 @@ me_syr_6_personality_effect = {
 				}
 			}
 		}
-	}
-}
-
-me_syr_7_tyrant_consequence_effect = {
-	if = {
-		limit = { root.var:me_syr_9_outcome <= 2 }
-		set_as_ruler = scope:democracy_leader
-		set_variable = me_syr_taking_stock_republic_flag
-		hidden_effect = { change_government = oligarchic_republic }
-		custom_tooltip = me_syracuse_1_democracy.47.at
-		hidden_effect = {
-			every_character = {
-				limit = {
-					family = scope:tyrant_leader.family
-					NOR = {
-						AND = {
-							exists = scope:me_syr_heir_scope
-							this = scope:me_syr_heir_scope
-						}
-						has_variable = me_syr_democracy_leader
-						has_variable = rebel_character_flag
-					}
-				}
-				add_loyalty = loyalty_tyrant_family_upset
-			}
-		}
-		custom_tooltip = me_syr_tyrant_family_upset_tt
-	}
-	else_if = {
-		limit = { root.var:me_syr_9_outcome = 3 }
-		set_as_ruler = scope:me_syr_heir_scope
-		set_variable = syracuse_demo_plot_abort
-		custom_tooltip = syracuse_plot_ends_tt
-	}
-	if = {
-		limit = { 
-			OR = {
-				has_completed_mission_task = syracuse_1_2_mercenary_motives
-				AND = {
-					has_completed_mission_task = syracuse_1_6_approach_heir
-					root.var:me_syr_9_outcome = 1
-				}
-			}
-			NOT = { has_variable = tyrant_killed }
-		}
-		imprison = { target = scope:tyrant_leader }
-	}
-	else_if = {
-		limit = { 
-			OR = {
-				has_completed_mission_task = syracuse_1_2_mercenary_motives
-				AND = {
-					has_completed_mission_task = syracuse_1_6_approach_heir
-					root.var:me_syr_9_outcome = 1
-				}
-			}
-			has_variable = tyrant_killed
-		}
-		scope:tyrant_leader = {
-			death = {	
-				death_reason = death_execution
-				silent = yes
-			}
-		}
-		add_tyranny = tyranny_medium
-	}
-	else_if = {
-		limit = { root.var:me_syr_9_outcome = 2 }
-		if = {
-			limit = { has_variable = tyrant_killed }
-			remove_variable = tyrant_killed
-		}
-		if = {
-			limit = {
-				any_country = {
-					any_owned_province = {
-						any_neighbor_province = { owner = root }
-					}
-				}
-			}
-			random_country = {
-				limit = {
-					any_owned_province = { 
-						any_neighbor_province = { owner = root }
-					}
-				}
-				save_scope_as = me_syr_7_flee_scope
-			}
-		}
-		else = {
-			random_country = {
-				limit = { 
-					country_culture_group = hellenic
-					NOT = { tag = SYR }
-				}
-				save_scope_as = me_syr_7_flee_scope
-			}
-		}
-		scope:tyrant_leader = { 
-			remove_all_positions = yes
-			move_country = scope:me_syr_7_flee_scope
-			set_home_country = scope:me_syr_7_flee_scope
-			if = {
-				limit = { is_minor_character = no }
-				set_as_minor_character = this
-			}
-		}
-		scope:me_syr_7_flee_scope = {
-			trigger_event = { id = me_syracuse_1_democracy.78 }
-		}
-
-	}
-	if = {
-		limit = {
-			root.var:me_syr_9_outcome >= 3
-		}
-		hidden_effect = {
-			every_character = {
-				limit = {
-					OR = {
-						has_variable = me_syr_democracy_leader
-						has_variable = rebel_character_flag
-					}
-				}
-				death = {
-					death_reason = death_execution
-				}
-			}
-		}
-		custom_tooltip = me_syr_execution_tt
-	}
-}
-
-me_syr_demo_leader_scope_effect = {
-	if = {
-		limit = {
-			any_character = { this = scope:democracy_leader }
-		}
-		random_character = {
-			limit = { this = scope:democracy_leader }
-			clear_saved_scope = democracy_leader
-		}
-	}
-	random_character = {
-		limit = { has_variable = me_syr_democracy_leader }
-		save_scope_as = democracy_leader
 	}
 }
 
@@ -2889,16 +2425,13 @@ me_syr_siceliote_ai_effect = {
             }
             modifier = {
                 factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value > 50 }
             }
             modifier = {
                 factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value > 100 }
             }
             modifier = {
             	factor = 2
             	AND = {
-            		scope:me_syracuse_scope = { has_variable = me_syr_3_flag }
             		any_neighbour_country = {
             			OR = {
             				tag = CAR
@@ -2911,15 +2444,12 @@ me_syr_siceliote_ai_effect = {
         2 = {
             modifier = {
                 factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value < 25 }
             }
             modifier = {
                 factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value < 0 }
             }
             modifier = {
                 factor = 10
-                opinion = { target = scope:me_syracuse_scope value < -50 }
             }
             modifier = {
                 factor = 3
@@ -2959,7 +2489,6 @@ me_syr_siceliote_ai_player_effect = {
             }
             else_if = {
             	limit = { 
-            		scope:me_syracuse_scope = { has_variable = me_syr_3_flag }
             	}
             	trigger_event = { id = me_syracuse_3_punic.17 }
             }
@@ -3014,7 +2543,6 @@ me_syr_siceliote_ab_ai_effect = {
             }
             modifier = {
                 factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value > 50 }
             }
             modifier = {
                 factor = 1.25
@@ -3022,7 +2550,6 @@ me_syr_siceliote_ab_ai_effect = {
             }
             modifier = {
                 factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value > 100 }
             }
             modifier = {
                 factor = 1.5
@@ -3036,15 +2563,12 @@ me_syr_siceliote_ab_ai_effect = {
         2 = {
             modifier = {
                 factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value < 25 }
             }
             modifier = {
                 factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value < 0 }
             }
             modifier = {
                 factor = 10
-                opinion = { target = scope:me_syracuse_scope value < -50 }
             }
         }
     }
@@ -3506,24 +3030,6 @@ me_syr_clear_tag_scopes_effect = {
 	}
 }
 
-me_syr_4_colony_claims_effect = {
-	region:magna_graecia_region = {
-		every_region_province = {
-			limit = {
-				me_syr_colonies_trigger = yes
-				exists = scope:me_syracuse_scope
-				owner = {
-					NOR = {
-						this = scope:me_syracuse_scope 
-						is_subject_of = scope:me_syracuse_scope
-					}
-				}
-			}
-			add_claim = scope:me_syracuse_scope
-		}
-	}
-}
-
 me_syr_4_support_scope_effect = {
 	if = {
 		limit = { exists = scope:me_syr_sic_tag_1 }
@@ -3929,39 +3435,6 @@ me_syr_italiote_ai_player_effect = {
             }
             else = {
                 trigger_event = { id = me_syracuse_4_magna.24 }
-            }
-        }
-    }
-}
-
-me_syr_italiote_ai_effect = {
-    random_list = {
-        1 = {
-            change_variable = {
-                name = me_syr_accept_var
-                add = 1
-            }
-            modifier = {
-                factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value > 50 }
-            }
-            modifier = {
-                factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value > 100 }
-            }
-        }
-        4 = {
-            modifier = {
-                factor = 1.25
-                opinion = { target = scope:me_syracuse_scope value < 25 }
-            }
-            modifier = {
-                factor = 1.5
-                opinion = { target = scope:me_syracuse_scope value < 0 }
-            }
-            modifier = {
-                factor = 10
-                opinion = { target = scope:me_syracuse_scope value < -50 }
             }
         }
     }
@@ -4504,181 +3977,8 @@ gm_1_colony_option_effect = {
 	}
 }
 
-gm_1_hellenic_liberation_list_effect = {
-	region:taurica_region = {
-		every_region_province = {
-			limit = {
-				OR = {
-					province_id = 4536
-					province_id = 4538
-					province_id = 4544
-					province_id = 4549
-					province_id = 4563
-					province_id = 4565
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	region:bithynia_region = {
-		every_region_province = {
-			limit = {
-				OR = {
-					province_id = 241
-					province_id = 234
-					province_id = 207
-					province_id = 208
-					province_id = 1815
-					province_id = 1812
-					province_id = 1807
-					province_id = 1815
-					province_id = 1734
-					province_id = 1793
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	region:colchis_region  = {
-		every_region_province = {
-			limit = {
-				OR = {
-					province_id = 1743
-					province_id = 1738
-					province_id = 1720
-					province_id = 1730
-					province_id = 1725
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	area:olbia_area = {
-		every_area_province = {
-			limit = {
-				OR = {
-					province_id = 4526
-					province_id = 4529
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	area:scythia_area = {
-		every_area_province = {
-			limit = {
-				OR = {
-					province_id = 4513
-					province_id = 4254
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	area:moesia_orientalis_area = {
-		every_area_province = {
-			limit = {
-				province_id = 4248
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	area:haemimontus_area = {
-		every_area_province = {
-			limit = {
-				province_id = 481
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-	area:europa_area = {
-		every_area_province = {
-			limit = {
-				OR = {
-					province_id = 341
-					province_id = 1453
-				}
-				has_owner = yes
-				owner = { 
-					NOR = {
-						this = root
-						country_culture_group = hellenic 
-					}
-				}
-			}
-			add_to_list = gm_1_hellenic_liberation_list
-		}
-	}
-}
-
-me_gre_1_end_scope_clear_effect = {
-	if = {
-		limit = { has_variable = gm_1_path }
-		remove_variable = gm_1_path
-	}
-	if = {
-		limit = {
-			any_character = { has_variable = gm_family_head_1_flag }
-		}
-		every_character = { 
-			limit = { has_variable = gm_family_head_1_flag }
-			remove_variable = gm_family_head_1_flag
-		}
-	}
-}
-
 me_gre_hellenic_list_startup_effect = {
 	hidden_effect = {
-		gm_1_hellenic_liberation_list_effect = yes # Saves ports owned by barbarians to a list
 		gm_1_list_effect = yes
 		random_list = {
 			1 = {
@@ -5102,7 +4402,6 @@ me_gre_2_3_effect = {
     }
     scope:me_gre_2_3_tag_scope = {
     	add_treasury = { value = 50 }
-        add_opinion = { target = scope:gm_2_greek_scope modifier = me_gre_2_3_opmod }
         create_character = {
             culture = scope:me_gre_2_3_tag_scope.culture
             religion = scope:me_gre_2_3_tag_scope.religion
@@ -5115,148 +4414,6 @@ me_gre_2_3_effect = {
             save_scope_as = me_gre_2_3_scope_leader
         }
         set_as_ruler = scope:me_gre_2_3_scope_leader  
-    }
-}
-
-me_gre_2_kindred_effect = {
-	if = {
-		limit = {
-			NOR = {
-				is_subject_of = scope:gm_2_greek_scope
-				has_variable = me_gre_2_kindred_response
-			}
-			trigger_if = {
-				limit = {
-					scope:gm_2_greek_scope.num_of_cities > 20
-				}
-				any_country = {
-					count < 5
-					has_variable = me_gre_2_kindred_response
-					this.var:me_gre_2_kindred_response = 1
-				}
-			}
-			trigger_else_if = {
-				limit = {
-					scope:gm_2_greek_scope.num_of_cities <= 20
-				}
-				any_country = {
-					count < 3
-					has_variable = me_gre_2_kindred_response
-					this.var:me_gre_2_kindred_response = 1
-				}
-			}
-		}
-		if = {
-			limit = { is_ai = yes }
-			random_list = {
-				1 = {
-					set_variable = {
-						name = me_gre_2_kindred_response
-						value = 1
-					}
-					modifier = {
-						factor = 1.5
-						any_neighbour_country = { this = scope:gm_2_greek_scope }
-					}
-					modifier = {
-						factor = 1.5
-						country_population < gm_2_kindred_3rd_svalue
-					}
-					modifier = {
-						factor = 2
-						any_neighbour_country = {
-							OR = {
-								tag = MAC
-								tag = EGY
-								tag = PRY
-								tag = TRE
-								tag = SEL
-								tag = EPI
-								NOT = { country_culture_group = hellenic }
-							}
-						}
-					}
-					modifier = {
-						factor = 1.5
-						opinion = { target = scope:gm_2_greek_scope value > 50 }
-					}
-					modifier = {
-						factor = 1.5
-						opinion = { target = scope:gm_2_greek_scope value > 100 }
-					}
-					modifier = {
-						factor = 0.5
-						opinion = { target = scope:gm_2_greek_scope value < 0 }
-					}
-					modifier = {
-						factor = 0.5
-						opinion = { target = scope:gm_2_greek_scope value < -50 }
-					}
-				}
-				2 = {	
-					set_variable = {
-						name = me_gre_2_kindred_response
-						value = 0
-					}
-					modifier = {
-						factor = 1.5
-						country_population > gm_2_kindred_3rd_svalue
-					}
-					modifier = {
-						factor = 2
-						OR = {
-							tag = SPA
-							tag = ATH
-						}
-					}
-				}
-			}
-		}
-		else_if = {
-			limit = { 
-				is_ai = no
-				NOT = { has_variable = me_gre_2_kindred_cooldown }
-			}
-			trigger_event = { id = me_greek_2_greece.19 }
-		}
-	}
-}
-
-me_gre_2_change_gov_effect = {
-	if = {
-        limit = {
-            scope:gm_2_greek_scope = { me_gre_2_rep_trigger = yes }
-        }
-        if = {
-            limit = { 
-                scope:gm_2_greek_scope = { government = plutocratic_republic }
-            }
-            change_government = plutocratic_republic
-        }
-        else_if = {
-            limit = { 
-                scope:gm_2_greek_scope = { government = aristocratic_republic }
-            }
-            change_government = aristocratic_republic
-        }
-        else_if = {
-            limit = { 
-                scope:gm_2_greek_scope = { government = theocratic_republic }
-            }
-            change_government = theocratic_republic
-        }
-        else_if = {
-            limit = { 
-                scope:gm_2_greek_scope = { government = democratic_republic }
-            }
-            change_government = democratic_republic
-        }
-    }
-    else_if = {
-        limit = {
-            scope:gm_2_greek_scope = { me_gre_2_olig_mon_trigger = yes }
-        }
-        change_government = oligarchic_republic
     }
 }
 

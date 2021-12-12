@@ -527,19 +527,6 @@ ip_republic_46_tooltip_svalue = {
 	}
 }
 
-ip_republic_47_partial_army_svalue = {
-	value = 0
-	add = root.var:total_army_size_ip_republic_47
-	multiply = 2
-	subtract = 10
-	divide = 5
-}
-
-ip_republic_47_total_army_svalue = {
-	value = 0
-	add = root.var:total_army_size_ip_republic_47
-}
-
 10_percent_population_svalue = {
 	value = 0
 	add = total_population

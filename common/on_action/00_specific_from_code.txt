@@ -235,7 +235,6 @@ on_reign_ending_successor = { #scope:former_ruler = the successor, because onact
 		else_if = {
 			limit = {
 				NOT = { has_law = elective_succession_law }
-				has_variable = mithridatic_pontus_flag
 				exists = fam:Mithridatid
 				scope:former_ruler = {
 					NOT = { THIS = char:97 } # Mithridates III Ktistes
@@ -491,10 +490,9 @@ on_ruler_change = {
 		}
 		if = {
 			limit = { 
-				scope:former_ruler = { has_variable = me_syr_current_tyrant_flag }
+				scope:former_ruler = {  }
 			}
 			scope:former_ruler = { 
-				remove_variable = me_syr_current_tyrant_flag
 				save_scope_as = syracuse_old_tyrant
 				employer = {
 					
@@ -654,36 +652,12 @@ on_civil_war_won = {
 		}
 		if = {
 			limit = {
-				has_variable = rome_schism_happened
-			}
-			remove_variable = rome_schism_happened
-			if = {
-				limit = {
-					government = imperium
-				}
-				change_country_name = "roman_empire_name"
-			}
-			else_if = {
-				limit = {
-					is_monarchy = yes
-				}
-				change_country_name = "roman_kingdom_name"
-			}
-			else = {
-				change_country_name = "ROM"
-			}
-			change_country_adjective = "roman"
-		}
-		if = {
-			limit = {
-				current_ruler = { has_variable = me_syr_current_tyrant_flag }
 				NOT = { tag = SYR }
 			}
 			change_country_tag = SYR
 		}
 		if = {
 			limit = {
-				current_ruler = { has_variable = me_syr_current_tyrant_flag }
 				NOT = { tag = SYR }
 			}
 			change_country_tag = SYR
@@ -850,7 +824,6 @@ on_character_death = {
 				is_ruler = yes
 				employer = { 
 					has_land = yes
-					has_variable = pyrrhus_returns_flag
 				}
 			}
 			employer = {
@@ -1080,111 +1053,33 @@ on_character_death = {
 			}
 		}
 		if = {
-			limit = { has_variable = me_syr_democracy_leader }
-			remove_variable = me_syr_democracy_leader
-			clear_saved_scope = democracy_leader
+			limit = { }
+			
 			save_scope_as = old_democracy_leader
 			employer = {
 				
 			}
 		}
 		if = {
-			limit = { has_variable = me_syr_current_tyrant_flag }
-			remove_variable = me_syr_current_tyrant_flag
+			limit = {  }
 			save_scope_as = syracuse_old_tyrant
 			employer = {
 				
 			}
 		}
 		if = {
-			limit = { has_variable = me_syr_foreign_leader_flag }
-			remove_variable = me_syr_foreign_leader_flag
+			limit = {}
 			save_scope_as = me_syracuse_old_foreign_request_character_scope
 			if = {
 				limit = {
-					any_country = { has_variable = me_syr_foreign_country_flag }
+					any_country = { }
 				}
 				random_country = {
-					limit = { has_variable = me_syr_foreign_country_flag }
+					limit = {  }
 					save_scope_as = me_syracuse_foreign_request_scope
 				}
 				scope:me_syracuse_foreign_request_scope = {
 					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = me_syr_heir_flag
-				c:SYR = { has_variable = death_to_tyrants_flag }
-				employer = {
-					tag = SYR
-					OR = {
-						var:ongoing_revolutionary_route = 6
-					#	AND = {
-					#		has_completed_mission_task = syracuse_1_6_approach_heir
-					#		NOT = { has_completed_mission_task = syracuse_1_7_assassinate }
-					#	}
-					}
-				}
-			}
-			remove_variable = me_syr_heir_flag
-			save_scope_as = me_syr_heir_scope
-			c:SYR = {
-				
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_1_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_1_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_1_greek_country_flag }
-				}
-				employer = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_3_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_3_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_3_greek_country_flag }
-				}
-				employer = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_4_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_4_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_4_greek_country_flag }
-				}
-				employer = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { has_variable = archimedes_flag }
-			employer = {
-				if = {
-					limit = { has_country_modifier = archimedes_modifier }
-					remove_country_modifier = archimedes_modifier
 				}
 			}
 		}
@@ -1716,9 +1611,8 @@ on_being_imprisoned = {
 	effect = {
 		clear_ambition_effect = yes
 		if = {
-			limit = { has_variable = me_syr_democracy_leader }
-			remove_variable = me_syr_democracy_leader
-			clear_saved_scope = democracy_leader
+			limit = {  }
+			
 			save_scope_as = old_democracy_leader
 			employer = {
 				
@@ -1726,10 +1620,7 @@ on_being_imprisoned = {
 		}
 		if = {
 			limit = { 
-				has_variable = me_syr_foreign_leader_flag
-				c:SYR = { has_variable = death_to_tyrants_flag }
 			}
-			remove_variable = me_syr_foreign_leader_flag
 			save_scope_as = me_syracuse_old_foreign_request_character_scope
 			if = {
 				limit = {
@@ -1744,75 +1635,6 @@ on_being_imprisoned = {
 			if = {
 				limit = { has_character_modifier = indisposed_charmod }
 				hidden_effect = { remove_character_modifier = indisposed_charmod }
-			}
-			c:SYR = {
-				
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = me_syr_heir_flag
-				c:SYR = { has_variable = death_to_tyrants_flag }
-				employer = {
-					tag = SYR
-					OR = {
-						var:ongoing_revolutionary_route = 6
-					#	AND = {
-					#		has_completed_mission_task = syracuse_1_6_approach_heir
-					#		NOT = { has_completed_mission_task = syracuse_1_7_assassinate }
-					#	}
-					}
-				}
-			}
-			remove_variable = me_syr_heir_flag
-			save_scope_as = me_syr_heir_scope
-			c:SYR = {
-				
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_1_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_1_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_1_greek_country_flag }
-				}
-				employer = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_3_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_3_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_3_greek_country_flag }
-				}
-				employer = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_4_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_4_flag
-			if = {
-				limit = { 
-					employer = { has_variable = gm_4_greek_country_flag }
-				}
-				employer = {
-					
-				}
 			}
 		}
 		if = {
@@ -1947,98 +1769,6 @@ on_move_country = { #scope:old_country is the origin country
 					value = popularity
 					divide = 2
 				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = me_syr_democracy_leader
-				employer = {
-					NOT = { has_variable = me_syr_demo_civil_war_active }
-				}
-			}
-			remove_variable = me_syr_democracy_leader
-			clear_saved_scope = democracy_leader
-			save_scope_as = old_democracy_leader
-			employer = {
-				
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = me_syr_heir_flag
-				c:SYR = { 
-					has_variable = death_to_tyrants_flag
-					NOR = {
-						has_variable = me_syr_demo_civil_war_active 
-						has_civil_war = yes
-					}
-					OR = {
-						var:ongoing_revolutionary_route = 6
-					#	AND = {
-					#		has_completed_mission_task = syracuse_1_6_approach_heir
-					#		NOT = { has_completed_mission_task = syracuse_1_7_assassinate }
-					#	}
-					}
-				}
-			}
-			remove_variable = me_syr_heir_flag
-			save_scope_as = me_syr_heir_scope
-			c:SYR  = {
-				
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_1_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_1_flag
-			if = {
-				limit = { 
-					var:came_from = { has_variable = gm_1_greek_country_flag }
-				}
-				var:came_from = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_3_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_3_flag
-			if = {
-				limit = { 
-					var:came_from = { has_variable = gm_3_greek_country_flag }
-				}
-				var:came_from = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { 
-				has_variable = gm_family_head_4_flag
-			}
-			save_scope_as = gm_old_family_head
-			remove_variable = gm_family_head_4_flag
-			if = {
-				limit = { 
-					var:came_from = { has_variable = gm_4_greek_country_flag }
-				}
-				var:came_from = {
-					
-				}
-			}
-		}
-		if = {
-			limit = { has_variable = archimedes_flag }
-			if = {
-				limit = { 
-					scope:old_country = { has_country_modifier = archimedes_modifier }
-				}
-				scope:old_country = { remove_country_modifier = archimedes_modifier }
 			}
 		}
 		if = {
@@ -2502,80 +2232,11 @@ on_ownership_change = { #province scope
 		}
 		if = {
 			limit = {
-				exists = owner
-				owner = {
-					has_land = yes
-					tag = ROM
-				}
-				has_variable = roman_colonia_flag
-				NOR = {
-					has_province_modifier = italian_colonia_military_pmod
-					has_province_modifier = italian_colonia_civic_pmod
-					has_province_modifier = italian_colonia_religious_pmod
-					has_province_modifier = italian_colonia_trade_pmod
-					has_province_modifier =  italian_colonia_pmod
-				}
-			}
-			
-		}
-		if = {
-			limit = {
 				exists = holding_owner
 			}
 			holding_owner = {
 				remove_holding = root
 			}
-		}
-		if = {
-			limit = { has_variable = sm_rebel_base }
-			save_scope_as = sm_old_base
-			remove_variable = sm_rebel_base
-			if = {
-				limit = {
-					c:SYR = { has_land = yes }
-				}
-				c:SYR = {
-					
-				}
-			}
-		}
-		if = {
-			limit = {
-				any_in_list = {
-					list = gm_1_hellenic_liberation_list
-					this = root
-				}
-			}
-			if = {
-				limit = {
-					OR = {
-						AND = {
-							has_owner = yes
-							owner = {
-								country_culture_group = hellenic
-							}
-						}
-						has_owner = no
-					}
-				}
-				remove_from_list = gm_1_hellenic_liberation_list
-			}
-			if = {
-				limit = { has_variable = gm_1_bartered_flag }
-				remove_variable = gm_1_bartered_flag
-			}
-		}
-		if = {
-			limit = { 
-				has_owner = yes 
-				has_variable = me_epi_2_rome_cap_flag
-				exists = scope:me_epirus_scope
-				owner = scope:me_epirus_scope
-				NOT = {
-					scope:me_epirus_scope = { has_variable = me_epi_2_captured_flag }
-				}
-			}
-			scope:me_epirus_scope = { set_variable = me_epi_2_captured_flag }
 		}
 	}
 	events = {
@@ -2585,44 +2246,6 @@ on_ownership_change = { #province scope
 }
 
 on_province_occupied = { #province scope, it will fire AS WELL as on_siege_won
-	effect = {
-		if = {
-			limit = {
-				this = p:3256
-				this = c:CAR.capital_scope
-				exists = scope:me_syracuse_scope
-				controller = scope:me_syracuse_scope
-				OR = {
-					controller = scope:gm_2_greek_scope
-					controller = { is_subject_of = scope:me_syracuse_scope }
-				}
-			}
-			scope:me_syracuse_scope = {  }
-		}
-		if = {
-			limit = {
-				this = p:428
-				exists = scope:gm_2_greek_scope
-				OR = {
-					controller = scope:gm_2_greek_scope
-					controller = { is_subject_of = scope:gm_2_greek_scope }
-				}
-			}
-			scope:gm_2_greek_scope = {  }
-		}
-		if = {
-			limit = { 
-				has_owner = yes 
-				has_variable = me_epi_2_rome_cap_flag
-				exists = scope:me_epirus_scope
-				controller = scope:me_epirus_scope
-				NOT = {
-					scope:me_epirus_scope = { has_variable = me_epi_2_captured_flag }
-				}
-			}
-			scope:me_epirus_scope = { set_variable = me_epi_2_captured_flag }
-		}
-	}
 	events = {
 		fire_events.1
 		slave_revolts.2 #Interactive Looting
@@ -2673,60 +2296,6 @@ on_great_battle_won_country = { #root = country scope of the main unit on the wi
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				scope:actor = {
-					exists = commander
-					commander = {
-						this = char:70
-						is_alive = yes
-						is_ruler = yes
-						is_general = yes
-						NOT = { has_variable = pyrrhus_fallback_return_flag }
-						employer = { has_land = yes }
-					}
-				}
-				scope:target = {
-					exists = commander
-					commander = {
-						is_alive = yes
-						OR = {
-							has_trait = daring
-							has_trait = brave
-							has_trait = reckless
-							has_trait = proud
-						}
-					}
-				}
-			}
-			
-		}
-		if = {
-			limit = {
-				scope:actor = {
-					exists = commander
-					commander = {
-						this = char:70
-						is_alive = yes
-						is_ruler = yes
-						is_general = yes
-						NOT = { has_variable = pyrrhus_fallback_return_flag }
-						employer = { has_land = yes }
-						NOT = { has_trait = cautious }
-					}
-				}
-				scope:target.unit_owner = {
-					country_culture_group = latin
-					capital_scope = {
-						OR = {
-							is_in_region = central_italy_region
-							is_in_region = magna_graecia_region
-						}
-					}
-				}
-			}
-			
 		}
 		if = {
 			limit = {
@@ -2908,24 +2477,6 @@ on_military_annex = {
 			add_to_list = annexed_treasures
 		}
 		on_annexation_event_effect = yes
-		if = {
-			limit = {
-				OR = {
-					has_variable = me_syr_foreign_country_flag
-					has_variable = me_syr_deal_with_devil_flag
-				}
-			}
-			save_scope_as = me_syr_annexed_scope
-			if = {
-				limit = {
-					any_country = { has_variable = death_to_tyrants_flag }
-				}
-				random_country = {
-					limit = { has_variable = death_to_tyrants_flag }
-					
-				}
-			}
-		}
 	}
 }
 

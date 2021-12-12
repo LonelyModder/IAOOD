@@ -410,54 +410,6 @@ add_party_approval_roman_completion_effect = {
                     limit = { exists = scope:sen_obj_dec_war_party }
                     THIS = scope:sen_obj_dec_war_party
                 }
-                trigger_if = {
-                    limit = { exists = scope:sen_obj_cha_law_optimates }
-                    THIS = scope:sen_obj_cha_law_optimates
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_revoke_office_party }
-                    THIS = scope:senate_objective_revoke_office_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_roman_appoint_office_optimates }
-                    THIS = scope:senate_objective_roman_appoint_office_optimates
-                }
-                trigger_if = {
-                    limit = { exists = scope:reduce_citizenship_party }
-                    THIS = scope:reduce_citizenship_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:sen_obj_cha_law_optimates }
-                    THIS = scope:sen_obj_cha_law_optimates
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_revoke_office_party }
-                    THIS = scope:senate_objective_revoke_office_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_roman_appoint_office_populares }
-                    THIS = scope:senate_objective_roman_appoint_office_populares
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_object_state_investment_party }
-                    THIS = scope:senate_object_state_investment_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_increase_stability_boni_party }
-                    THIS = scope:senate_objective_increase_stability_boni_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_reduce_tyranny_party }
-                    THIS = scope:senate_objective_reduce_tyranny_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:sen_obj_cha_law_boni }
-                    THIS = scope:sen_obj_cha_law_boni
-                }
-                trigger_if = {
-                    limit = { exists = scope:increase_citizenship_party }
-                    THIS = scope:increase_citizenship_party
-                }
             }
         }
         party_country = {
@@ -477,14 +429,6 @@ add_party_approval_roman_completion_effect = {
                 trigger_if = {
                     limit = { exists = scope:sen_obj_rev_hol_party }
                     THIS = scope:sen_obj_rev_hol_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_imprison_head_party }
-                    THIS = scope:senate_objective_imprison_head_party
-                }
-                trigger_if = {
-                    limit = { exists = scope:senate_objective_build_buildings_party }
-                    THIS = scope:senate_objective_build_buildings_party
                 }
             }
         }
