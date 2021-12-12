@@ -654,69 +654,6 @@ get_oligarch_plot_success_chance = {
 	max = 100
 }
 
-get_oligarch_plotter_strength = {
-	value = 0
-	if = {
-		limit = { exists = scope:ip_rep_66_protagonist_temp }
-		add = scope:ip_rep_66_protagonist_temp.power_base
-		add = scope:ip_rep_66_protagonist_temp.wealth
-	}
-	if = {
-		limit = {
-			exists = scope:ip_rep_66_supporter_1_temp
-			scope:ip_rep_66_supporter_1_temp = {
-				is_alive = yes
-				prisoner = no
-				employer = scope:ip_rep_66_protagonist_temp.employer
-			}
-		}
-		add = scope:ip_rep_66_supporter_1_temp.power_base
-		add = scope:ip_rep_66_supporter_1_temp.wealth
-	}
-	if = {
-		limit = {
-			exists = scope:ip_rep_66_supporter_2_temp
-			scope:ip_rep_66_supporter_2_temp = {
-				is_alive = yes
-				prisoner = no
-				employer = scope:ip_rep_66_protagonist_temp.employer
-			}
-		}
-		add = scope:ip_rep_66_supporter_2_temp.power_base
-		add = scope:ip_rep_66_supporter_2_temp.wealth
-	}
-}
-
-get_oligarch_counter_strength = {
-	value = 0
-	add = root.current_ruler.power_base
-	add = root.current_ruler.wealth
-	if = {
-		limit = {
-			exists = scope:ip_rep_66_counter_1_temp
-			scope:ip_rep_66_counter_1_temp = {
-				is_alive = yes
-				prisoner = no
-				employer = scope:ip_rep_66_protagonist_temp.employer
-			}
-		}
-		add = scope:ip_rep_66_counter_1_temp.power_base
-		add = scope:ip_rep_66_counter_1_temp.wealth
-	}
-	if = {
-		limit = {
-			exists = scope:ip_rep_66_counter_2_temp
-			scope:ip_rep_66_counter_2_temp = {
-				is_alive = yes
-				prisoner = no
-				employer = scope:ip_rep_66_protagonist_temp.employer
-			}
-		}
-		add = scope:ip_rep_66_counter_2_temp.power_base
-		add = scope:ip_rep_66_counter_2_temp.wealth
-	}
-}
-
 get_ostracise_popularity_1 = {
 	value = root.current_ruler.popularity
 	divide = 2

@@ -22,24 +22,7 @@
 }
 
 clear_party_agenda_cooldown_var_effect = {
-	if = {
-		limit = {
-			has_variable = optimates_agenda_cooldown
-		}
-		remove_variable = optimates_agenda_cooldown
-	}
-	if = {
-		limit = {
-			has_variable = populares_agenda_cooldown
-		}
-		remove_variable = populares_agenda_cooldown
-	}
-	if = {
-		limit = {
-			has_variable = boni_agenda_cooldown
-		}
-		remove_variable = boni_agenda_cooldown
-	}
+	
 	if = {
 		limit = {
 			has_variable = oligarchic_cooldown
