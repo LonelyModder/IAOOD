@@ -2949,38 +2949,6 @@ get_salyes_desc = {
 	}
 }
 
-get_pytheas_destination = {
-	type = country
-	
-	text = {
-		localization_key = get_pytheas_destination_britain
-		trigger = { 
-			var:pytheas_destination_flag = 1
-		}
-	}
-	
-	text = {
-		localization_key = get_pytheas_destination_thule
-		trigger = { 
-			var:pytheas_destination_flag = 2
-		}
-	}
-	
-	text = {
-		localization_key = get_pytheas_destination_africa
-		trigger = { 
-			var:pytheas_destination_flag = 3
-		}
-	}
-	
-	text = {
-		localization_key = get_pytheas_destination_west
-		trigger = { 
-			var:pytheas_destination_flag = 4
-		}
-	}
-}
-
 get_pytheas_port = {
 	type = country
 	
@@ -3047,66 +3015,6 @@ get_massalia_6_desc = {
 		localization_key = get_pytheas_alive_start_desc
 		trigger = {
 			this = char:394
-		}
-	}
-}
-
-get_pytheas_study_subject = {
-	type = country
-	
-	text = {
-		localization_key = pytheas_study_subject_mil_1
-		trigger = {
-			var:pytheas_study_subject = 1
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_mil_2
-		trigger = {
-			var:pytheas_study_subject = 1
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_fin_1
-		trigger = {
-			var:pytheas_study_subject = 2
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_fin_2
-		trigger = {
-			var:pytheas_study_subject = 2
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_ora_1
-		trigger = {
-			var:pytheas_study_subject = 3
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_ora_2
-		trigger = {
-			var:pytheas_study_subject = 3
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_rel_1
-		trigger = {
-			var:pytheas_study_subject = 4
-		}
-	}
-	
-	text = {
-		localization_key = pytheas_study_subject_rel_2
-		trigger = {
-			var:pytheas_study_subject = 4
 		}
 	}
 }

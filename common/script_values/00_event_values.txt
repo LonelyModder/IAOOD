@@ -558,109 +558,8 @@ total_power_base_halved_svalue = {
 	divide = 2
 }
 
-get_oligarch_plot_success_chance = {
-	value = 60
-	if = {
-		limit = { exists = scope:ip_rep_66_protagonist_temp }
-		subtract = {
-			value = scope:ip_rep_66_protagonist_temp.power_base
-			divide = 3
-			max = 20
-		}
-	}
-	if = {
-		limit = { exists = scope:ip_rep_66_protagonist_temp }
-		subtract = {
-			value = scope:ip_rep_66_protagonist_temp.wealth
-			divide = 20
-			max = 10
-		}
-	}
-	if = {
-		limit = { has_variable = ip_rep_66_plot_support }
-		subtract = var:ip_rep_66_plot_support
-	}
-	if = {
-		limit = { has_variable = ip_rep_66_counter_support }
-		add = var:ip_rep_66_counter_support
-	}
-	if = {
-		limit = { has_variable = ip_rep_66_foreign_support_flag }
-		subtract = 10
-	}
-	if = {
-		limit = { has_variable = ip_rep_66_evidence_uncovered_flag }
-		add = 20
-	}
-	if = {
-		limit = {
-			exists = scope:ip_rep_66_protagonist_temp
-			root.current_ruler.popularity < scope:ip_rep_66_protagonist_temp.popularity
-		}
-		subtract = 10
-	}
-	else_if = {
-		limit = {
-			exists = scope:ip_rep_66_protagonist_temp
-			root.current_ruler.popularity > scope:ip_rep_66_protagonist_temp.popularity
-		}
-		add = 10
-	}
-	if = {
-		limit = { get_oligarch_plotter_strength > get_oligarch_counter_strength }
-		subtract = 10
-	}
-	else_if = {
-		limit = { get_oligarch_plotter_strength < get_oligarch_counter_strength }
-		add = 10
-	}
-	if = {
-		limit = {
-			any_character = {
-				count = 1
-				has_variable = ip_rep_66_counter_flag
-			}
-		}
-		add = 5
-	}
-	if = {
-		limit = {
-			any_character = {
-				count = 2
-				has_variable = ip_rep_66_counter_flag
-			}
-		}
-		add = 10
-	}
-	if = {
-		limit = {
-			any_character = {
-				count = 1
-				has_variable = ip_rep_66_supporter_flag
-			}
-		}
-		subtract = 5
-	}
-	if = {
-		limit = {
-			any_character = {
-				count = 2
-				has_variable = ip_rep_66_supporter_flag
-			}
-		}
-		subtract = 10
-	}
-	min = 0
-	max = 100
-}
-
 get_ostracise_popularity_1 = {
 	value = root.current_ruler.popularity
-	divide = 2
-}
-
-get_ostracise_popularity_2 = {
-	value = scope:ip_rep_66_protagonist.popularity
 	divide = 2
 }
 
@@ -710,14 +609,6 @@ cities_in_province_svalue = {
 	min = 0
 }
 
-rm_punic_exodus_svalue = {
-	value = c:ROM.var:rm_punic_exodus_pop_total
-}
-
-rm_gallic_exodus_svalue = {
-	value = c:ROM.var:rm_gallic_exodus_pop_total
-}
-
 rm_total_latin_subject_strength_svalue = {
 	value = 0
 	every_subject = {
@@ -731,22 +622,6 @@ rm_total_latin_subject_strength_svalue = {
 			add = 1
 		}
 	}
-	min = 0
-}
-
-rm_offer_bully_svalue = {
-	value = 0
-	scope:rm_offer_scope = {
-		every_country_sub_unit = {
-			add = 1
-		}
-		every_allied_country = {
-			every_country_sub_unit = {
-				add = 1
-			}
-		}
-	}
-	multiply = 2
 	min = 0
 }
 
@@ -915,77 +790,6 @@ cm_economic_ports_counter_svalue = {
 	max = 10
 }
 
-rm_land_grants_svalue = {
-	value = var:rm_land_grants_counter_var
-}
-
-rm_4_deter_convinced_counter_svalue = {
-	value = 0
-	if = {
-		limit = {
-			any_country = { has_variable = rm_4_deter_convinced_flag }
-		}
-		every_country = {
-			limit = { has_variable = rm_4_deter_convinced_flag }
-			add = 1
-		}
-	}
-}
-
-rm_4_deter_loyal_counter_svalue = {
-	value = 0
-	if = {
-		limit = {
-			any_country = { 
-				NOT = { has_variable = rm_4_deter_convinced_flag }
-				has_variable = rm_4_convincing_flag
-				OR = {
-					alliance_with = c:CAR
-					is_subject_of = c:CAR
-				}
-			}
-		}
-		every_country = {
-			limit = { 
-				NOT = { has_variable = rm_4_deter_convinced_flag }
-				has_variable = rm_4_convincing_flag
-				OR = {
-					alliance_with = c:CAR
-					is_subject_of = c:CAR
-				}
-			}
-			add = 1
-		}
-	}
-}
-
-rm_4_deter_unconvinced_counter_svalue = {
-	value = 0
-	if = {
-		limit = {
-			any_country = { 
-				NOT = { has_variable = rm_4_deter_convinced_flag }
-				has_variable = rm_4_convincing_flag
-				NOR = {
-					alliance_with = c:CAR
-					is_subject_of = c:CAR
-				}
-			}
-		}
-		every_country = {
-			limit = { 
-				NOT = { has_variable = rm_4_deter_convinced_flag }
-				has_variable = rm_4_convincing_flag
-				NOR = {
-					alliance_with = c:CAR
-					is_subject_of = c:CAR
-				}
-			}
-			add = 1
-		}
-	}
-}
-
 rm_4_rome_city_count_counter_svalue = {
 	value = 0
 	if = {
@@ -1026,18 +830,6 @@ rm_4_rome_subject_city_counter_svalue = {
 	}
 }
 
-rm_siculia_counter_svalue = {
-	value = 0 
-	if = {
-		limit = {
-			any_country = { has_variable = rm_4_deter_convinced_flag }
-		}
-		every_country = {
-			limit = { has_variable = rm_4_deter_convinced_flag }
-			add = 1
-		}
-	}
-}
 
 rm_4_rome_subject_city_counter_compare_svalue = {
 	value = 0
@@ -1785,14 +1577,6 @@ older_character_age_range_svalue = {
 	}
 }
 
-per_treasury_svalue = {
-	value = scope:pergamon_scope.treasury
-}
-
-per_manpower_svalue = {
-	value = scope:pergamon_scope.manpower
-}
-
 percent_size_culture_group_comparison = {
 	value = root.country_culture.country_culture_pop_count
 	multiply = 0.25
@@ -1880,18 +1664,4 @@ seize_property_svalue = {
 			add = 1
 		}
 	}
-}
-
-antigonids_area_transfer_min_value = { # defines minimum territories of a province a non-historical Diadochi must hold to seize that area in Antigonid split events (must also hold more than the historical country)
-	value = 0
-	scope:antigonid_transfer_area = {
-		every_area_province = {
-			limit = {
-				has_owner = yes
-				owner = scope:antigonid_transfer_scope
-			}
-			add = 1
-		}
-	}
-	min = 3
 }

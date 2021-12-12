@@ -42,7 +42,6 @@ civil_war.1 = { #Civil war end event notifications for ORIGINAL COUNTRY WINNING
 				limit = {
 					NOR = {
 						this = ROOT
-						has_variable = flavor_egy_5_civil_war_infomercial_flag
 						any_neighbour_country = {
 							this = ROOT
 						}
@@ -142,7 +141,6 @@ civil_war.3 = { #Civil war end event notifications for REBEL COUNTRY WINNING
 				limit = {
 					NOR = {
 						war_with = ROOT
-						has_variable = flavor_egy_5_civil_war_infomercial_flag
 					}
 				}
 				trigger_event = { #Trigger infomercial
@@ -159,7 +157,6 @@ civil_war.3 = { #Civil war end event notifications for REBEL COUNTRY WINNING
 				limit = {
 					NOR = {
 						this = ROOT
-						has_variable = flavor_egy_5_civil_war_infomercial_flag
 						any_neighbour_country = {
 							this = ROOT
 						}
@@ -234,12 +231,6 @@ civil_war.5 = {
 	
 	trigger = {
 		NOR = { 
-			has_variable = flavor_egy_5_civil_war_cyrenaica_flag
-			current_ruler = { has_variable = flavor_egy_5_civil_war_magas_flag }
-			has_variable = ip_rep_66_civil_war_attacker
-			has_variable = ip_rep_66_civil_war_defender
-			has_variable = me_syr_demo_civil_war_active
-			has_variable = death_to_tyrants_flag
 		}
 	}
 	
@@ -420,11 +411,6 @@ civil_war.6 = {
 	
 	trigger = {
 		NOR = { 
-			has_variable = flavor_egy_5_civil_war_cyrenaica_flag
-			current_ruler = { has_variable = flavor_egy_5_civil_war_magas_flag }
-			has_variable = ip_rep_66_civil_war_attacker
-			has_variable = ip_rep_66_civil_war_defender
-			has_variable = me_syr_demo_civil_war_active
 		}
 	}
 	
