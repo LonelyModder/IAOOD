@@ -182,6 +182,7 @@ colors = {
 	pelopones_color = rgb { 112 4 2 }
 	philistia_color = rgb { 78 191 222 }
 	unisrael_color = rgb { 24 188 217 }
+	delias_color = rgb { 22 141 245 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

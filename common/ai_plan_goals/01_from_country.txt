@@ -26,8 +26,8 @@ is_great_power_aimod = {
 
 is_early_ashur_aimod = {
 	trigger = {
-		primary_culture = ashurite
-		manpower > 4
+		tag = A39
+		#manpower > 4
 	}
 	ae_ceiling = 30
 	aggressive = 420
@@ -35,9 +35,9 @@ is_early_ashur_aimod = {
 
 is_mighty_aryan_aimod = {
 	trigger = {
-		primary_culture = medic
-		primary_culture = persic
-		manpower > 4
+		tag = P10
+		tag = P05
+		#manpower > 4
 	}
 	ae_ceiling = 30
 	aggressive = 420
@@ -45,20 +45,8 @@ is_mighty_aryan_aimod = {
 
 is_elamite_aimod = {
 	trigger = {
-		primary_culture = susanian
-		primary_culture = anshanian
-		primary_culture = ellipian
+		tag = A57
 	}
-	aggressive = -50
-}
-
-is_lacking_levies_pseudo_trigger = {
-	trigger = {
-		military_experience > 80
-		military_experience < 85
-		primary_culture = ashurite
-	}
-	
 	aggressive = -500
 }
 

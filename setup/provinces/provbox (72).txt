@@ -1080,7 +1080,7 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="medjay"
-	province_rank=""
+	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
 	trade_goods="elephants_forest"
@@ -1099,7 +1099,7 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="medjay"
-	province_rank=""
+	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
 	trade_goods="fish"

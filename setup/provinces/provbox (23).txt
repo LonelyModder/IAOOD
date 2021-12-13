@@ -612,9 +612,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture=""
+	culture="kzzuwi"
 	province_rank=""
-	religion=""
+	religion="luwic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }
@@ -2047,9 +2047,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture=""
+	culture="kzzuwi"
 	province_rank=""
-	religion=""
+	religion="luwic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }
@@ -2116,9 +2116,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture=""
+	culture="kzzuwi"
 	province_rank=""
-	religion=""
+	religion="luwic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }
@@ -2127,9 +2127,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture=""
+	culture="kzzuwi"
 	province_rank=""
-	religion=""
+	religion="luwic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }

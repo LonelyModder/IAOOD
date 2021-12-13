@@ -26,7 +26,7 @@
 						owner = { tag = A39 } 
 					}
 				}
-				add_civilization_value = 5
+				add_civilization_value = 10
 			}
 			if = {
 				limit = { terrain = mountain }
