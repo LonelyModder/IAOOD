@@ -36,7 +36,7 @@ is_early_ashur_aimod = {
 is_mighty_aryan_aimod = {
 	trigger = {
 		tag = P10
-		tag = P05
+		primary_culture = medic
 		#manpower > 4
 	}
 	ae_ceiling = 30

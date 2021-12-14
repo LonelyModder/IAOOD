@@ -183,6 +183,7 @@ colors = {
 	philistia_color = rgb { 78 191 222 }
 	unisrael_color = rgb { 24 188 217 }
 	delias_color = rgb { 22 141 245 }
+	makedonia_color = rgb { 17 12 156 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

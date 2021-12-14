@@ -1,10 +1,10 @@
-﻿### General Deity Checks ###
-
-deity_mshiva = { # WAR
+﻿deity_mshiva = { # WAR
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			common_deity_trigger = { RELIGION = vedic_pantheon }
+			common_deity_trigger = { 
+				RELIGION = vedic_pantheon 
+			}
 			deity:omen_mshiva = {
 				holy_site_deity_check_trigger = yes
 			}
