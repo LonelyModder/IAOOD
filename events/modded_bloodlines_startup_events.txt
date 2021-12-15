@@ -57,9 +57,9 @@ bloodlines_startup.3 = { #21 dynasty
 	
 	trigger = {
 		OR = {
-			tag = E01
-			tag = E25
-			tag = E03
+			tag = EAA
+			tag = EAC
+			tag = EAB
 		}
 	}
 	
