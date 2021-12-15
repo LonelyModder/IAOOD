@@ -92,7 +92,6 @@ disloyal_powerful_characters_pulse = {
 		is_ai = no
 		NOR = {
 			has_variable = disloyal_powerful_characters_pulse_cd
-		#	has_variable = death_to_tyrants_flag
 		}
 	}
 	effect = {
@@ -256,7 +255,6 @@ plot_outcome_rep_37 = {
 	trigger = {
 		current_ruler = {
 			OR = {
-				has_variable = dictator_holding_power
 				employer = { has_law = republican_election_4 }
 				employer = { has_law = princeps_civitatis }
 			}
@@ -1009,21 +1007,6 @@ yearly_general_unit_purchase_pulse = {
 
 ### Crisis Framework
 
-yearly_crisis_start_pulse = {
-	trigger = {
-		num_of_cities > 200
-		NOT = {
-			has_variable = crisis_ongoing
-		}
-	}
-	
-	random_events = {
-		1160 = 0
-	#	40 = ip_republic.46
-	}
-	
-}
-
 mercenary_adventurer_pulse = {
 	trigger = {
 		is_mercenary = yes
@@ -1070,23 +1053,6 @@ yearly_italian_flavor = {
 	#	italian_flavor.11 # Frentani Fidelity
 	#	italian_flavor.12 # Samnite Aggression
 	#	italian_flavor.14 # Nucerian Trade
-	}
-}
-dictator_rise_pulse = {
-	trigger = {
-		tag = ROM
-		has_variable = rise_dictator_events
-		is_republic = yes
-		any_character = {
-			has_character_modifier = character_modifier_ambitious_general
-		}
-	}
-
-	random_events = {
-		100 = 0
-	#	30 = roman_flavor.9
-	#	30 = roman_flavor.10
-	#	30 = roman_flavor.11
 	}
 }
 
@@ -1389,18 +1355,6 @@ yearly_good_advisor_pulse = {
 		1 = stability.6
 		1 = stability.9
 		4 = 0
-	}
-}
-
-monthly_syracuse_revolution_pulse = {
-	trigger = {
-		tag = SYR
-	#	current_ruler = { has_variable = me_syr_current_tyrant_flag }
-	#	any_character = { has_variable = me_syr_democracy_leader }
-	}
-	random_events = {
-	#	5 = me_syracuse_1_democracy.25
-		20 = 0
 	}
 }
 

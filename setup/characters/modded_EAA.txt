@@ -1,8 +1,8 @@
-﻿"E01"={
-	country="E01"
+﻿"EAA"={
+	country="EAA"
 	3={
 		first_name="Amenemope"
-		family = c:E01.fam:Usermaatre-Setepenamun
+		family = c:EAA.fam:Usermaatre-Setepenamun
 		birth_date=1240.1.1
 		culture="lower_kemetic"
 		religion="kemetic_pantheon"
@@ -15,7 +15,7 @@
 		add_trait="21dynastys"
 		add_gold=500
 		add_popularity=100
-		c:E01={
+		c:EAA={
 			set_as_ruler=char:3
 		}
 		#dna=""

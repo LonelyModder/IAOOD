@@ -4805,61 +4805,6 @@ pirate_events_2_first_valid_desc = {
 	}
 }
 
-get_persuade_greeks_desc = {
-	type = country
-	random_valid = no
-	
-	text = {
-		localization_key = get_pg_sipontum_desc
-		trigger = { scope:rm_offer_scope = c:SIO }
-	}
-	
-	text = {
-		localization_key = get_pg_metapontum_desc
-		trigger = { scope:rm_offer_scope = c:MET }
-	}
-	
-	text = {
-		localization_key = get_pg_heraclea_desc
-		trigger = { scope:rm_offer_scope = c:HCL }
-	}
-	
-	text = {
-		localization_key = get_pg_tarentum_desc
-		trigger = { scope:rm_offer_scope = c:TAR }
-	}
-	
-	text = {
-		localization_key = get_pg_thuria_desc
-		trigger = { scope:rm_offer_scope = c:THU }
-	}
-	
-	text = {
-		localization_key = get_pg_croton_desc
-		trigger = { scope:rm_offer_scope = c:CRO }
-	}
-	
-	text = {
-		localization_key = get_pg_elea_desc
-		trigger = { scope:rm_offer_scope = c:ELE }
-	}
-	
-	text = {
-		localization_key = get_pg_hipponium_desc
-		trigger = { scope:rm_offer_scope = c:HPO }
-	}
-	
-	text = {
-		localization_key = get_pg_locri_desc
-		trigger = { scope:rm_offer_scope = c:LOC }
-	}
-	
-	text = {
-		localization_key = get_pg_rhegium_desc
-		trigger = { scope:rm_offer_scope = c:RHG }
-	}
-}
-
 get_food_trade_good_icon = {
 	type = province
 	random_valid = no
@@ -5121,14 +5066,6 @@ get_bitterness_tendency = {
 	text = {
 		localization_key = bitter_arrogant
 		trigger = { has_trait = arrogant }
-	}
-	
-	text = {
-		localization_key = bitter_rival
-		trigger = { 
-			exists = scope:democracy_leader
-			is_rival = scope:democracy_leader 
-		}
 	}
 	
 	text = {

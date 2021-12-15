@@ -333,7 +333,7 @@ family={
 		}
 		3={
 			key="Usermaatre-Setepenamun"
-			owner=E01
+			owner=EAA
 			culture = lower_kemetic
 			prestige=300
 		}
@@ -351,7 +351,7 @@ family={
 		}
 		6={
 			key="Usermaatre-Setepenamun"
-			owner=E25
+			owner=EAC
 			culture = lower_kemetic
 			prestige=300
 		}
@@ -507,7 +507,7 @@ family={
 		}
 		32={
 			key="Hem-netjer-tep-en-Amun"
-			owner=E03
+			owner=EAB
 			culture = upper_kemetic
 			prestige=300
 		}
@@ -578,8 +578,8 @@ diplomacy = {
 	dependency = { first = N07 second = N08 subject_type = feudatory }
 	dependency = { first = N07 second = N13 subject_type = feudatory }
 	#Siamun and some nomarchs loyal to him
-	dependency = { first = E25 second = L07 subject_type = feudatory }
-	dependency = { first = E25 second = E22 subject_type = feudatory }
+	dependency = { first = EAC second = L07 subject_type = feudatory }
+	dependency = { first = EAC second = E22 subject_type = feudatory }
 	#Elam ties with Ellipi
 	dependency = { first = A57 second = A58 subject_type = tributary }
 }
@@ -1589,7 +1589,7 @@ country = {
 			government = tribal_chiefdom
 		}
 		
-		B01 = { #Qunbake
+		BAA = { #Qunbake
 			government = tribal_kingdom
 			primary_culture = tocharic
 			religion = tocharic_pantheon
@@ -1600,7 +1600,7 @@ country = {
 			}
 		}
 		
-		B02 = { #Kashgar
+		BAB = { #Kashgar
 			government = tribal_kingdom
 			primary_culture = sogdic
 			religion = protoiranian_pantheon
@@ -1611,7 +1611,7 @@ country = {
 			}
 		}
 		
-		B03 = { #Loulan
+		BAC = { #Loulan
 			government = tribal_kingdom
 			primary_culture = tocharic
 			religion = tocharic_pantheon
@@ -1622,7 +1622,7 @@ country = {
 			}
 		}
 		
-		B04 = { #Yutian
+		BAD = { #Yutian
 			government = tribal_kingdom
 			primary_culture = tocharic
 			religion = tocharic_pantheon
@@ -1633,7 +1633,7 @@ country = {
 			}
 		}
 		
-		B05 = { #Pishan
+		BAE = { #Pishan
 			government = tribal_kingdom
 			primary_culture = sogdic
 			religion = protoiranian_pantheon
@@ -1644,7 +1644,7 @@ country = {
 			}
 		}
 		
-		B06 = { #Yaghnobi
+		BAF = { #Yaghnobi
 			government = tribal_kingdom
 			primary_culture = sogdic
 			religion = protoiranian_pantheon
@@ -1655,7 +1655,7 @@ country = {
 			}
 		}
 		
-		B07 = { #Cina
+		BAG = { #Cina
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1666,7 +1666,7 @@ country = {
 			}
 		}
 		
-		B08 = { #Ramatha
+		BAH = { #Ramatha
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1677,7 +1677,7 @@ country = {
 			}
 		}
 		
-		B09 = { #Paratangana
+		BAI = { #Paratangana
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1688,7 +1688,7 @@ country = {
 			}
 		}
 		
-		B10 = { #Salva
+		BAJ = { #Salva
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1699,7 +1699,7 @@ country = {
 			}
 		}
 		
-		B11 = { #Kimpurasas
+		BAK = { #Kimpurasas
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1710,7 +1710,7 @@ country = {
 			}
 		}
 		
-		B12 = { #Kirata
+		BAL = { #Kirata
 			government = tribal_kingdom
 			primary_culture = tibetan
 			religion = tibetic_pantheon
@@ -1721,7 +1721,7 @@ country = {
 			}
 		}
 		
-		B13 = { #Kalinga
+		BAM = { #Kalinga
 			government = tribal_federation
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1732,7 +1732,7 @@ country = {
 			}
 		}
 		
-		B14 = { #Odra
+		BAN = { #Odra
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1743,7 +1743,7 @@ country = {
 			}
 		}
 		
-		B15 = { #Utkala
+		BAO = { #Utkala
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1754,7 +1754,7 @@ country = {
 			}
 		}
 		
-		B16 = { #Suhma
+		BAP = { #Suhma
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1765,7 +1765,7 @@ country = {
 			}
 		}
 		
-		B17 = { #Vanga
+		BAS = { #Vanga
 			government = tribal_federation
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1776,7 +1776,7 @@ country = {
 			}
 		}
 		
-		B18 = { #Pundra
+		BAT = { #Pundra
 			government = tribal_federation
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1787,7 +1787,7 @@ country = {
 			}
 		}
 		
-		B19 = { #Rarha
+		BAU = { #Rarha
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1798,7 +1798,7 @@ country = {
 			}
 		}
 		
-		B20 = { #Kankagrama
+		BAW = { #Kankagrama
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1809,7 +1809,7 @@ country = {
 			}
 		}
 		
-		B21 = { #Kajangala
+		BAY = { #Kajangala
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1820,7 +1820,7 @@ country = {
 			}
 		}
 		
-		B22 = { #Samatata
+		BAZ = { #Samatata
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1831,7 +1831,7 @@ country = {
 			}
 		}
 		
-		B23 = { #Tirab
+		BBA = { #Tirab
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1842,7 +1842,7 @@ country = {
 			}
 		}
 		
-		B24 = { #Mallu
+		BBB = { #Mallu
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1853,7 +1853,7 @@ country = {
 			}
 		}
 		
-		B25 = { #Balipa
+		BBC = { #Balipa
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1864,7 +1864,7 @@ country = {
 			}
 		}
 		
-		B26 = { #Kirrhada
+		BBD = { #Kirrhada
 			government = tribal_kingdom
 			primary_culture = kurmal
 			religion = harrapan_pantheon
@@ -1875,7 +1875,7 @@ country = {
 			}
 		}
 		
-		B27 = { #Pragjyotisha
+		BBE = { #Pragjyotisha
 			government = despotic_monarchy
 			primary_culture = assamo_tibetic
 			religion = tibetic_pantheon
@@ -1886,7 +1886,7 @@ country = {
 			}
 		}
 		
-		B28 = { #Harikela
+		BBF = { #Harikela
 			government = tribal_kingdom
 			primary_culture = bhallatic
 			religion = burmese_pantheon
@@ -1897,7 +1897,7 @@ country = {
 			}
 		}
 		
-		B29 = { #Bhergava
+		BBG = { #Bhergava
 			government = tribal_kingdom
 			primary_culture = bhergavic
 			religion = tibetic_pantheon
@@ -1908,7 +1908,7 @@ country = {
 			}
 		}
 		
-		B30 = { #Nagapa
+		BBH = { #Nagapa
 			government = tribal_kingdom
 			primary_culture = bhallatic
 			religion = burmese_pantheon
@@ -1919,7 +1919,7 @@ country = {
 			}
 		}
 		
-		B31 = { #Bhaluka
+		BBI = { #Bhaluka
 			government = tribal_kingdom
 			primary_culture = bhallatic
 			religion = burmese_pantheon
@@ -1930,7 +1930,7 @@ country = {
 			}
 		}
 		
-		B32 = { #Goalpa
+		BBJ = { #Goalpa
 			government = tribal_kingdom
 			primary_culture = bhallatic
 			religion = burmese_pantheon
@@ -1941,7 +1941,7 @@ country = {
 			}
 		}
 		
-		B33 = { #Sonita
+		BBK = { #Sonita
 			government = tribal_kingdom
 			primary_culture = assamo_tibetic
 			religion = tibetic_pantheon
@@ -1952,7 +1952,7 @@ country = {
 			}
 		}
 		
-		B34 = { #Lauhitya
+		BBL = { #Lauhitya
 			government = tribal_kingdom
 			primary_culture = assamo_tibetic
 			religion = tibetic_pantheon
@@ -1963,183 +1963,7 @@ country = {
 			}
 		}
 		
-		#B35 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B36 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B37 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B38 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B39 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B40 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B41 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B42 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B43 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B44 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B45 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B46 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B47 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B48 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B49 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		#B50 = { #Additional
-		#	government = tribal_kingdom
-		#	primary_culture = ma
-		#	religion = kemetic_pantheon
-		#	capital = 522
-		#	
-		#	own_control_core = 	{
-		#		
-		#	}
-		#}
-		
-		E01 = { #21st dynasty
+		EAA = { #21st dynasty
 			family = 3
 			government = aristocratic_monarchy
 			primary_culture = lower_kemetic 
@@ -2174,7 +1998,7 @@ country = {
 
 		}
 		
-		E03 = { #Thebaid
+		EAB = { #Thebaid
 			family=32
 			government = theocratic_monarchy
 			primary_culture = upper_kemetic
@@ -2202,7 +2026,7 @@ country = {
 			}
 		}
 		
-		E25 = { #Khemenu Siamun?
+		EAC = { #Khemenu Siamun?
 			family = 6
 			government = despotic_monarchy
 			primary_culture = upper_kemetic
