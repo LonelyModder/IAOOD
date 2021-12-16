@@ -315,13 +315,13 @@ family={
 		#Roman Families on Start:
 		0={
 			key="Bet-David"
-			owner=J01
+			owner=JAA
 			culture = judean
 			prestige=300
 		}
 		1={
 			key="Bet-Saul"
-			owner=J02
+			owner=JAB
 			culture = israelic
 			prestige=300
 		}
@@ -339,7 +339,7 @@ family={
 		}
 		4={
 			key="Shosqenq-Shu"
-			owner=E05
+			owner=EAG
 			culture = ma
 			prestige=300
 		}
@@ -357,13 +357,13 @@ family={
 		}
 		7={
 			key="Shosqenq-Shu"
-			owner=E24
+			owner=EAF
 			culture = ma
 			prestige=300
 		}
 		8={
 			key="Bet-Maakach"
-			owner=J06
+			owner=JAC
 			culture = philistine
 			prestige=300
 		}
@@ -399,43 +399,43 @@ family={
 		}
 		14={
 			key="Taitid"
-			owner=A02
+			owner=AAB
 			culture = philistine
 			prestige=300
 		}
 		15={
 			key="Bet-Sovah"
-			owner=A11
+			owner=AAK
 			culture = aramean
 			prestige=300
 		}
 		16={
 			key="Bet-Damascus"
-			owner=A01
+			owner=AAA
 			culture = aramean
 			prestige=300
 		}
 		17={
 			key="Sidonian"
-			owner=J20
+			owner=JAL
 			culture = core_punic
 			prestige=300
 		}
 		18={
 			key="Ahiramid"
-			owner=J07
+			owner=JAP
 			culture = core_punic
 			prestige=300
 		}
 		19={
 			key="Ammonite"
-			owner=J15
+			owner=JAI
 			culture = ammonite
 			prestige=300
 		}
 		20={
 			key="Geshurite"
-			owner=A12
+			owner=AAL
 			culture = aramean
 			prestige=300
 		}
@@ -459,7 +459,7 @@ family={
 		}
 		24={
 			key="Jebusite"
-			owner=J35
+			owner=JBL
 			culture = canaanites
 			prestige=300
 		}
@@ -529,57 +529,57 @@ family={
 diplomacy = {
 	#Philistine Pentapolis
 	defensive_league = {
-		member = J06
-		member = J11
-		member = J12
-		member = J13
-		member = J14
+		member = JAC
+		member = JAE
+		member = JAF
+		member = JAG
+		member = JAH
 	}
 	#Phoenician defensive league
 	defensive_league = {
-		member = J20
-		member = J03
-		member = J04
-		member = J05
-		member = J07
-		member = J09
-		member = J10
-		member = J18
-		member = J19
+		member = JAL
+		member = JAM
+		member = JAN
+		member = JAO
+		member = JAP
+		member = JAR
+		member = JAS
+		member = JAT
+		member = JAU
 	}
 	#Osorkon the Elder and some of the rebel leaders
-	dependency = { first = E05 second = E24 subject_type = feudatory }
-	dependency = { first = E05 second = E11 subject_type = feudatory }
-	dependency = { first = E05 second = E02 subject_type = feudatory }
-	dependency = { first = E05 second = E23 subject_type = feudatory }
-	dependency = { first = E05 second = E12 subject_type = feudatory }
-	dependency = { first = E05 second = E16 subject_type = feudatory }
-	dependency = { first = E05 second = E14 subject_type = feudatory }
-	dependency = { first = E05 second = E13 subject_type = feudatory }
-	dependency = { first = E05 second = L22 subject_type = feudatory }
-	dependency = { first = E05 second = E04 subject_type = feudatory }
+	dependency = { first = EAG second = EAF subject_type = feudatory }
+	dependency = { first = EAG second = EAJ subject_type = feudatory }
+	dependency = { first = EAG second = EAI subject_type = feudatory }
+	dependency = { first = EAG second = EAE subject_type = feudatory }
+	dependency = { first = EAG second = EAK subject_type = feudatory }
+	dependency = { first = EAG second = EAO subject_type = feudatory }
+	dependency = { first = EAG second = EAM subject_type = feudatory }
+	dependency = { first = EAG second = EAL subject_type = feudatory }
+	dependency = { first = EAG second = L22 subject_type = feudatory }
+	dependency = { first = EAG second = EAH subject_type = feudatory }
 	#Babylonian migrant leader
-	dependency = { first = A92 second = A28 subject_type = tributary }
+	dependency = { first = A92 second = ABE subject_type = tributary }
 	#Assyrian kaskan subject
-	dependency = { first = A39 second = A30 subject_type = feudatory }
+	dependency = { first = A39 second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass
-	dependency = { first = A25 second = A29 subject_type = feudatory }
-	dependency = { first = A25 second = A38 subject_type = feudatory }
+	dependency = { first = ABB second = ABF subject_type = feudatory }
+	dependency = { first = ABB second = A38 subject_type = feudatory }
 	#Tyre and its colonies
-	dependency = { first = J20 second = J45 subject_type = subject_colony }
-	dependency = { first = J20 second = J46 subject_type = subject_colony }
-	dependency = { first = J20 second = J47 subject_type = subject_colony }
-	dependency = { first = J20 second = J48 subject_type = subject_colony }
-	dependency = { first = J20 second = J49 subject_type = subject_colony }
-	dependency = { first = J20 second = J50 subject_type = subject_colony }
-	dependency = { first = J20 second = J51 subject_type = subject_colony }
-	dependency = { first = J20 second = J52 subject_type = subject_colony }
+	dependency = { first = JAL second = JBY subject_type = subject_colony }
+	dependency = { first = JAL second = JBZ subject_type = subject_colony }
+	dependency = { first = JAL second = JCA subject_type = subject_colony }
+	dependency = { first = JAL second = JCB subject_type = subject_colony }
+	dependency = { first = JAL second = JCC subject_type = subject_colony }
+	dependency = { first = JAL second = JCD subject_type = subject_colony }
+	dependency = { first = JAL second = JCE subject_type = subject_colony }
+	dependency = { first = JAL second = JCF subject_type = subject_colony }
 	#Kushite pretender
 	dependency = { first = N07 second = N08 subject_type = feudatory }
 	dependency = { first = N07 second = N13 subject_type = feudatory }
 	#Siamun and some nomarchs loyal to him
 	dependency = { first = EAC second = L07 subject_type = feudatory }
-	dependency = { first = EAC second = E22 subject_type = feudatory }
+	dependency = { first = EAC second = EAW subject_type = feudatory }
 	#Elam ties with Ellipi
 	dependency = { first = A57 second = A58 subject_type = tributary }
 }
@@ -2048,7 +2048,7 @@ country = {
 			}
 		}
 		
-		E06 = { #Buto
+		EAD = { #Buto
 			government = theocratic_monarchy
 			primary_culture = lower_kemetic
 			religion = kemetic_pantheon
@@ -2081,7 +2081,7 @@ country = {
 
 		}
 		
-		E23 = { #Semabehdet
+		EAE = { #Semabehdet
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2092,7 +2092,7 @@ country = {
 			}
 		}
 		
-		E24 = { #Bubastis
+		EAF = { #Bubastis
 			family = 7
 			government = despotic_monarchy
 			primary_culture = ma
@@ -2104,7 +2104,7 @@ country = {
 			}
 		}
 		
-		E05 = { #22nd Dynasty
+		EAG = { #22nd Dynasty
 			family = 4
 			government = aristocratic_monarchy
 			primary_culture = ma
@@ -2127,7 +2127,7 @@ country = {
 			
 		}
 		
-		E04 = { #Khito
+		EAH = { #Khito
 			government = tribal_kingdom
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2138,7 +2138,7 @@ country = {
 			}
 		}
 		
-		E02 = { #Per-Soped
+		EAI = { #Per-Soped
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = libyan_pantheon
@@ -2150,7 +2150,7 @@ country = {
 			
 		}
 		
-		E11 = { #Djedet
+		EAJ = { #Djedet
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2161,7 +2161,7 @@ country = {
 			}
 		}
 		
-		E12 = { #Sebennytos
+		EAK = { #Sebennytos
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2172,7 +2172,7 @@ country = {
 			}
 		}
 		
-		E13 = { #Busiris
+		EAL = { #Busiris
 			government = despotic_monarchy
 			primary_culture = libi
 			religion = kemetic_pantheon
@@ -2183,7 +2183,7 @@ country = {
 			}
 		}
 		
-		E14 = { #Ah-Bity
+		EAM = { #Ah-Bity
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2194,7 +2194,7 @@ country = {
 			}
 		}
 		
-		E15 = { #Sais
+		EAN = { #Sais
 			government = despotic_monarchy
 			primary_culture = libi
 			religion = kemetic_pantheon
@@ -2205,7 +2205,7 @@ country = {
 			}
 		}
 		
-		E16 = { #Parbaithos
+		EAO = { #Parbaithos
 			government = despotic_monarchy
 			primary_culture = ma
 			religion = kemetic_pantheon
@@ -2216,7 +2216,7 @@ country = {
 			}
 		}
 		
-		E17 = { #Hor-Aha
+		EAP = { #Hor-Aha
 			government = tribal_kingdom
 			primary_culture = medjay
 			religion = kemetic_pantheon
@@ -2227,7 +2227,7 @@ country = {
 			}
 		}
 		
-		E18 = { #Seteh
+		EAR = { #Seteh
 			government = despotic_monarchy
 			primary_culture = desert_kemetic
 			religion = kemetic_pantheon
@@ -2248,7 +2248,7 @@ country = {
 			}
 		}
 		
-		E19 = { #Hammamat
+		EAS = { #Hammamat
 			government = despotic_monarchy
 			primary_culture = desert_kemetic
 			religion = kemetic_pantheon
@@ -2269,7 +2269,7 @@ country = {
 			}
 		}
 		
-		E20 = { #Quseir
+		EAT = { #Quseir
 			government = despotic_monarchy
 			primary_culture = desert_kemetic
 			religion = kemetic_pantheon
@@ -2290,7 +2290,7 @@ country = {
 			}
 		}
 		
-		E21 = { #Scorpio
+		EAU = { #Scorpio
 			government = tribal_kingdom
 			primary_culture = medjay
 			religion = kemetic_pantheon
@@ -2301,7 +2301,7 @@ country = {
 			}
 		}
 		
-		E22 = { #Kharga
+		EAW = { #Kharga
 			government = despotic_monarchy
 			primary_culture = desert_kemetic
 			religion = kemetic_pantheon
@@ -2319,64 +2319,9 @@ country = {
 			}
 		}
 		
-		#E26 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = medjay
-		#	religion = kemetic_pantheon
-		#	capital = 5504
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#}
-		
-		#E27 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = medjay
-		#	religion = kemetic_pantheon
-		#	capital = 5504
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#}
-		
-		#E28 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = medjay
-		#	religion = kemetic_pantheon
-		#	capital = 5504
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#}
-		
-		#E29 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = medjay
-		#	religion = kemetic_pantheon
-		#	capital = 5504
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#}
-		
-		#E30 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = medjay
-		#	religion = kemetic_pantheon
-		#	capital = 5504
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#}
-		
 		#David and western kebebs
 		
-		J01 = { #Judah
+		JAA = { #Judah
 			family = 0
 			government = despotic_monarchy
 			primary_culture = judean
@@ -2408,7 +2353,7 @@ country = {
 			}
 		}
 		
-		J02 = { #Israel
+		JAB = { #Israel
 			family = 1
 			government = despotic_monarchy
 			primary_culture = israelic
@@ -2441,7 +2386,7 @@ country = {
 			}
 		}
 		
-		J06 = { #Gath
+		JAC = { #Gath
 			family = 8
 			government = despotic_monarchy
 			primary_culture = philistine
@@ -2467,7 +2412,7 @@ country = {
 			}
 		}
 		
-		J08 = { #Acco
+		JAD = { #Acco
 			government = despotic_monarchy
 			primary_culture = shardana
 			religion = canaanitic_pantheon
@@ -2485,7 +2430,7 @@ country = {
 			}
 		}
 		
-		J11 = { #Ekron
+		JAE = { #Ekron
 			government = despotic_monarchy
 			primary_culture = philistine
 			religion = canaanitic_pantheon
@@ -2510,7 +2455,7 @@ country = {
 			}
 		}
 		
-		J12 = { #Gaza
+		JAF = { #Gaza
 			government = despotic_monarchy
 			primary_culture = philistine
 			religion = canaanitic_pantheon
@@ -2535,7 +2480,7 @@ country = {
 			}
 		}
 		
-		J13 = { #Ashkelon
+		JAG = { #Ashkelon
 			government = despotic_monarchy
 			primary_culture = philistine
 			religion = canaanitic_pantheon
@@ -2560,7 +2505,7 @@ country = {
 			}
 		}
 		
-		J14 = { #Ashdod
+		JAH = { #Ashdod
 			government = despotic_monarchy
 			primary_culture = philistine
 			religion = canaanitic_pantheon
@@ -2585,7 +2530,7 @@ country = {
 			}
 		}
 		
-		J15 = { #Ammon
+		JAI = { #Ammon
 			family=19
 			government = despotic_monarchy
 			primary_culture = ammonite
@@ -2597,7 +2542,7 @@ country = {
 			}
 		}
 		
-		J16 = { #Moab
+		JAJ = { #Moab
 			government = despotic_monarchy
 			primary_culture = moabite
 			religion = anunnaki_pantheon
@@ -2608,7 +2553,7 @@ country = {
 			}
 		}
 		
-		J17 = { #Edom
+		JAK = { #Edom
 			government = tribal_kingdom
 			primary_culture = edomite
 			religion = judahic
@@ -2619,7 +2564,7 @@ country = {
 			}
 		}
 		
-		J20 = { #Tyre
+		JAL = { #Tyre
 			family=17
 			government = despotic_monarchy
 			primary_culture = core_punic
@@ -2638,7 +2583,7 @@ country = {
 			}
 		}
 		
-		J03 = { #Sarepta
+		JAM = { #Sarepta
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2656,7 +2601,7 @@ country = {
 			}
 		}
 		
-		J04 = { #Sidon
+		JAN = { #Sidon
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2674,7 +2619,7 @@ country = {
 			}
 		}
 		
-		J05 = { #Beirut
+		JAO = { #Beirut
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2692,7 +2637,7 @@ country = {
 			}
 		}
 		
-		J07 = { #Byblos
+		JAP = { #Byblos
 			family=18
 			government = despotic_monarchy
 			primary_culture = core_punic
@@ -2711,7 +2656,7 @@ country = {
 			}
 		}
 		
-		J09 = { #Trypolis
+		JAR = { #Trypolis
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2729,7 +2674,7 @@ country = {
 			}
 		}
 		
-		J10 = { #Arwad
+		JAS = { #Arwad
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2747,7 +2692,7 @@ country = {
 			}
 		}
 		
-		J18 = { #Carne
+		JAT = { #Carne
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2765,7 +2710,7 @@ country = {
 			}
 		}
 		
-		J19 = { #Soukas
+		JAU = { #Soukas
 			government = despotic_monarchy
 			primary_culture = core_punic
 			religion = canaanitic_pantheon
@@ -2783,7 +2728,7 @@ country = {
 			}
 		}
 		
-		J21 = { #Shasu
+		JAY = { #Shasu
 			government = tribal_federation
 			primary_culture = shasan
 			religion = judahic
@@ -2796,7 +2741,7 @@ country = {
 			}
 		}
 		
-		J22 = { #Girza
+		JAW = { #Girza
 			government = tribal_kingdom
 			primary_culture = girzite
 			religion = canaanitic_pantheon
@@ -2808,7 +2753,7 @@ country = {
 			
 		}
 		
-		J23 = { #Paphos
+		JAZ = { #Paphos
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2826,7 +2771,7 @@ country = {
 			}
 		}
 		
-		J24 = { #Kition
+		JBA = { #Kition
 			government = despotic_monarchy
 			primary_culture = greek_punic
 			religion = canaanitic_pantheon
@@ -2844,7 +2789,7 @@ country = {
 			}
 		}
 		
-		J25 = { #Amathus
+		JBB = { #Amathus
 			government = despotic_monarchy
 			primary_culture = cypro_minoic
 			religion = grecoid_pantheon
@@ -2862,7 +2807,7 @@ country = {
 			}
 		}
 		
-		J26 = { #Kourion
+		JBC = { #Kourion
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2880,7 +2825,7 @@ country = {
 			}
 		}
 		
-		J27 = { #Salamis
+		JBD = { #Salamis
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2898,7 +2843,7 @@ country = {
 			}
 		}
 		
-		J28 = { #Lapethos
+		JBE = { #Lapethos
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2916,7 +2861,7 @@ country = {
 			}
 		}
 		
-		J29 = { #Marion
+		JBF = { #Marion
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2934,7 +2879,7 @@ country = {
 			}
 		}
 		
-		J30 = { #Soloi
+		JBG = { #Soloi
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2952,7 +2897,7 @@ country = {
 			}
 		}
 		
-		J31 = { #Chytroi
+		JBH = { #Chytroi
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2970,7 +2915,7 @@ country = {
 			}
 		}
 		
-		J32 = { #Tamassos
+		JBI = { #Tamassos
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -2988,7 +2933,7 @@ country = {
 			}
 		}
 		
-		J33 = { #Idalion
+		JBJ = { #Idalion
 			government = despotic_monarchy
 			primary_culture = cypriotic
 			religion = grecoid_pantheon
@@ -3006,7 +2951,7 @@ country = {
 			}
 		}
 		
-		J34 = { #Karpasia
+		JBK = { #Karpasia
 			government = despotic_monarchy
 			primary_culture = cypro_minoic
 			religion = grecoid_pantheon
@@ -3024,7 +2969,7 @@ country = {
 			}
 		}
 		
-		J35 = { #Jebus
+		JBL = { #Jebus
 			family=24
 			government = despotic_monarchy
 			primary_culture = canaanites
@@ -3043,7 +2988,7 @@ country = {
 			}
 		}
 		
-		J36 = { #Dor
+		JBM = { #Dor
 			government = despotic_monarchy
 			primary_culture = tejeker
 			religion = canaanitic_pantheon
@@ -3061,7 +3006,7 @@ country = {
 			}
 		}
 		
-		J37 = { #Panallah
+		JBN = { #Panallah
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3073,7 +3018,7 @@ country = {
 			
 		}
 		
-		J38 = { #Arunah
+		JBO = { #Arunah
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3085,7 +3030,7 @@ country = {
 			
 		}
 		
-		J39 = { #Aphek
+		JBP = { #Aphek
 			government = despotic_monarchy
 			primary_culture = avite
 			religion = canaanitic_pantheon
@@ -3097,7 +3042,7 @@ country = {
 			
 		}
 		
-		J40 = { #Megiddo
+		JBR = { #Megiddo
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3109,7 +3054,7 @@ country = {
 			
 		}
 		
-		J41 = { #Taanach
+		JBS = { #Taanach
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3121,7 +3066,7 @@ country = {
 			
 		}
 		
-		J42 = { #Beth-shan
+		JBT = { #Beth-shan
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3133,7 +3078,7 @@ country = {
 			
 		}
 		
-		J43 = { #Amalek
+		JBU = { #Amalek
 			government = tribal_kingdom
 			primary_culture = amalekite
 			religion = judahic
@@ -3145,7 +3090,7 @@ country = {
 			
 		}
 		
-		J44 = { #Ibleam
+		JBW = { #Ibleam
 			government = despotic_monarchy
 			primary_culture = canaanites
 			religion = canaanitic_pantheon
@@ -3157,7 +3102,7 @@ country = {
 			
 		}
 		
-		J45 = { #Annaba
+		JBY = { #Annaba
 			government = despotic_monarchy
 			primary_culture = libo_punic
 			religion = canaanitic_pantheon
@@ -3176,7 +3121,7 @@ country = {
 			
 		}
 		
-		J46 = { #Ubon
+		JBZ = { #Ubon
 			government = despotic_monarchy
 			primary_culture = libo_punic
 			religion = canaanitic_pantheon
@@ -3195,7 +3140,7 @@ country = {
 			
 		}
 		
-		J47 = { #Utica
+		JCA = { #Utica
 			government = despotic_monarchy
 			primary_culture = libo_punic
 			religion = canaanitic_pantheon
@@ -3214,7 +3159,7 @@ country = {
 			
 		}
 		
-		J48 = { #Aziris
+		JCB = { #Aziris
 			government = despotic_monarchy
 			primary_culture = libo_punic
 			religion = canaanitic_pantheon
@@ -3233,7 +3178,7 @@ country = {
 			
 		}
 		
-		J49 = { #Gadir
+		JCC = { #Gadir
 			government = despotic_monarchy
 			primary_culture = ibero_punic
 			religion = canaanitic_pantheon
@@ -3252,7 +3197,7 @@ country = {
 			
 		}
 		
-		J50 = { #Olisipo
+		JCD = { #Olisipo
 			government = despotic_monarchy
 			primary_culture = ibero_punic
 			religion = canaanitic_pantheon
@@ -3271,7 +3216,7 @@ country = {
 			
 		}
 		
-		J51 = { #Kart
+		JCE = { #Kart
 			government = despotic_monarchy
 			primary_culture = ibero_punic
 			religion = canaanitic_pantheon
@@ -3290,7 +3235,7 @@ country = {
 			
 		}
 		
-		J52 = { #Abyla
+		JCF = { #Abyla
 			government = despotic_monarchy
 			primary_culture = ibero_punic
 			religion = canaanitic_pantheon
@@ -3309,105 +3254,9 @@ country = {
 			
 		}
 		
-		#J53 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J54 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J55 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J56 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J57 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J58 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J59 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
-		#J60 = { #Additional
-		#	government = despotic_monarchy
-		#	primary_culture = philistine
-		#	religion = canaanitic_pantheon
-		#	capital = 694
-		#	
-		#	own_control_core = 	{ 
-		#		
-		#	}
-		#	
-		#}
-		
 		#Hordes of Ahlamu
 		
-		A01 = { #Aram-Damascus
+		AAA = { #Aram-Damascus
 			family=16
 			government = despotic_monarchy
 			primary_culture = aramean
@@ -3419,7 +3268,7 @@ country = {
 			}
 		}
 		
-		A02 = { #Hamath
+		AAB = { #Hamath
 			family=14
 			government = despotic_monarchy
 			primary_culture = philistine
@@ -3438,7 +3287,7 @@ country = {
 			}
 		}
 		
-		A03 = { #Lukhuti
+		AAC = { #Lukhuti
 			government = despotic_monarchy
 			primary_culture = hatti_aramean
 			religion = luwic_pantheon
@@ -3456,7 +3305,7 @@ country = {
 			}
 		}
 		
-		A04 = { #Bit-Agusi
+		AAD = { #Bit-Agusi
 			government = despotic_monarchy
 			primary_culture = hatti_aramean
 			religion = luwic_pantheon
@@ -3474,7 +3323,7 @@ country = {
 			}
 		}
 		
-		A05 = { #Sam'al
+		AAE = { #Sam'al
 			government = despotic_monarchy
 			primary_culture = hatti_aramean
 			religion = luwic_pantheon
@@ -3492,7 +3341,7 @@ country = {
 			}
 		}
 		
-		A06 = { #Bit-Adini
+		AAF = { #Bit-Adini
 			government = despotic_monarchy
 			primary_culture = sutean
 			religion = anunnaki_pantheon
@@ -3503,10 +3352,6 @@ country = {
 					culture = hatti 
 					type = citizen
 				}
-				{
-					culture = aramean 
-					type = citizen
-				}
 			}
 			
 			own_control_core = 	{ 
@@ -3514,7 +3359,7 @@ country = {
 			}
 		}
 		
-		A07 = { #Bit-Rehob
+		AAG = { #Bit-Rehob
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3525,7 +3370,7 @@ country = {
 			}
 		}
 		
-		A08 = { #Tadmur
+		AAH = { #Tadmur
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3536,7 +3381,7 @@ country = {
 			}
 		}
 		
-		A09 = { #Bit-Hadyan
+		AAI = { #Bit-Hadyan
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3547,7 +3392,7 @@ country = {
 			}
 		}
 		
-		A10 = { #Bit-Yarim
+		AAJ = { #Bit-Yarim
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3558,7 +3403,7 @@ country = {
 			}
 		}
 		
-		A11 = { #Bit-Sovah
+		AAK = { #Bit-Sovah
 			family=15
 			government = despotic_monarchy
 			primary_culture = aramean
@@ -3577,7 +3422,7 @@ country = {
 			}
 		}
 		
-		A12 = { #Geshur
+		AAL = { #Geshur
 			family=20
 			government = despotic_monarchy
 			primary_culture = aramean
@@ -3589,7 +3434,7 @@ country = {
 			}
 		}
 		
-		A13 = { #Aram-Ma'akah
+		AAM = { #Aram-Ma'akah
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3600,7 +3445,7 @@ country = {
 			}
 		}
 		
-		A14 = { #Aram-Bet Rehob
+		AAN = { #Aram-Bet Rehob
 			government = despotic_monarchy
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3611,7 +3456,7 @@ country = {
 			}
 		}
 		
-		A15 = { #Immerinu
+		AAO = { #Immerinu
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3622,7 +3467,7 @@ country = {
 			}
 		}
 		
-		A16 = { #Surug
+		AAP = { #Surug
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3633,7 +3478,7 @@ country = {
 			}
 		}
 		
-		A17 = { #Til-Abni
+		AAR = { #Til-Abni
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3644,7 +3489,7 @@ country = {
 			}
 		}
 		
-		A18 = { #Kharran
+		AAS = { #Kharran
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3655,7 +3500,7 @@ country = {
 			}
 		}
 		
-		A19 = { #Khuzirina
+		AAT = { #Khuzirina
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3666,7 +3511,7 @@ country = {
 			}
 		}
 		
-		A20 = { #Bit-Zamani
+		AAU = { #Bit-Zamani
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3677,7 +3522,7 @@ country = {
 			}
 		}
 		
-		A21 = { #Izalla
+		AAW = { #Izalla
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3688,7 +3533,7 @@ country = {
 			}
 		}
 		
-		A22 = { #Ghuzana
+		AAY = { #Ghuzana
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3699,7 +3544,7 @@ country = {
 			}
 		}
 		
-		A23 = { #Bit-Halupe
+		AAZ = { #Bit-Halupe
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3710,7 +3555,7 @@ country = {
 			}
 		}
 		
-		A24 = { #Laqi
+		ABA = { #Laqi
 			government = despotic_monarchy
 			primary_culture = sutean
 			religion = anunnaki_pantheon
@@ -3721,7 +3566,7 @@ country = {
 			}
 		}
 		
-		A25 = { #Nisibin
+		ABB = { #Nisibin
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3732,7 +3577,7 @@ country = {
 			}
 		}
 		
-		A26 = { #Sirqu
+		ABC = { #Sirqu
 			government = despotic_monarchy
 			primary_culture = sutean
 			religion = anunnaki_pantheon
@@ -3743,7 +3588,7 @@ country = {
 			}
 		}
 		
-		A27 = { #Khindanu
+		ABD = { #Khindanu
 			government = despotic_monarchy
 			primary_culture = sutean
 			religion = anunnaki_pantheon
@@ -3754,7 +3599,7 @@ country = {
 			}
 		}
 		
-		A28 = { #Suhu
+		ABE = { #Suhu
 			government = despotic_monarchy
 			primary_culture = sutean
 			religion = anunnaki_pantheon
@@ -3765,7 +3610,7 @@ country = {
 			}
 		}
 		
-		A29 = { #Raqamatu
+		ABF = { #Raqamatu
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3776,7 +3621,7 @@ country = {
 			}
 		}
 		
-		A30 = { #Subartum Armenian minority?
+		ABG = { #Subartum Kaskan vassal?
 			government = tribal_kingdom
 			primary_culture = kaska
 			religion = luwic_pantheon
@@ -3794,7 +3639,7 @@ country = {
 			}
 		}
 		
-		A31 = { #Gambulu
+		ABH = { #Gambulu
 			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
@@ -3805,7 +3650,7 @@ country = {
 			}
 		}
 		
-		A32 = { #Puqudu
+		ABI = { #Puqudu
 			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
@@ -3816,7 +3661,7 @@ country = {
 			}
 		}
 		
-		A33 = { #Gurasimmu
+		ABJ = { #Gurasimmu
 			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
@@ -3827,7 +3672,7 @@ country = {
 			}
 		}
 		
-		A34 = { #Ruʾa
+		ABK = { #Ruʾa
 			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon
@@ -3838,7 +3683,7 @@ country = {
 			}
 		}
 		
-		A35 = { #Litau
+		ABL = { #Litau
 			government = despotic_monarchy
 			primary_culture = saramean
 			religion = anunnaki_pantheon

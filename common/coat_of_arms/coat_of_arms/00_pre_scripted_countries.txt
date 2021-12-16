@@ -60,7 +60,7 @@ A92 = {
 	}
 }
 
-J01 = {
+JAA = {
 	pattern = "pattern_solid.tga"
 	color1 = "judea_blue"
 	color2 = "ck2_white"
@@ -78,7 +78,7 @@ J01 = {
 	}
 }
 
-J02 = {
+JAB = {
 	pattern = "pattern_solid.tga"
 	color1 = "phrygia_red"
 	color2 = "ck2_white"

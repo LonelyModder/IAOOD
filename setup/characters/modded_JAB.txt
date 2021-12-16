@@ -1,8 +1,8 @@
-﻿"J02"={
-	country="J02"
+﻿"JAB"={
+	country="JAB"
 	23={
 		first_name="Ashbiel"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1170.1.1
 		death_date=1220.1.1
 		culture="israelic"
@@ -18,7 +18,7 @@
 	
 	24={
 		first_name="Kish"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1200.1.1
 		death_date=1250.1.1
 		father="char:23"
@@ -35,7 +35,7 @@
 	
 	25={
 		first_name="Saul"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1230.1.1
 		death_date=1290.1.1
 		father="char:24"
@@ -53,7 +53,7 @@
 	
 	26={
 		first_name="Ahinoam"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		female=yes
 		birth_date=1240.1.1
 		death_date=1290.1.1
@@ -70,7 +70,7 @@
 	
 	27={
 		first_name="Ishbaal"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1260.1.1
 		father="char:25"
 		mother="char:26"
@@ -86,7 +86,7 @@
 		add_trait="unnoticeable"
 		add_gold=500
 		add_popularity=40
-		c:J02={
+		c:JAB={
 			set_as_ruler=char:27
 		}
 		#dna=""
@@ -94,7 +94,7 @@
 	
 	28={
 		first_name="Jonathan"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1256.1.1
 		death_date=1290.1.1
 		father="char:25"
@@ -113,7 +113,7 @@
 	
 	29={
 		first_name="Mephibaal"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1275.1.1
 		father="char:28"
 		culture="israelic"
@@ -132,7 +132,7 @@
 	
 	30={
 		first_name="Abinadab"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1258.1.1
 		death_date=1290.1.1
 		father="char:25"
@@ -151,7 +151,7 @@
 	
 	31={
 		first_name="Ishvi"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1262.1.1
 		father="char:25"
 		mother="char:26"
@@ -171,7 +171,7 @@
 	
 	32={
 		first_name="Michal"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1269.1.1
 		female=yes
 		father="char:25"
@@ -192,7 +192,7 @@
 	
 	33={
 		first_name="Merab"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1270.1.1
 		female=yes
 		father="char:25"
@@ -213,7 +213,7 @@
 	
 	34={
 		first_name="Ner"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1200.1.1
 		death_date=1250.1.1
 		father="char:23"
@@ -230,7 +230,7 @@
 	
 	35={
 		first_name="Abner"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1240.1.1
 		father="char:34"
 		culture="israelic"
@@ -248,7 +248,7 @@
 	
 	36={
 		first_name="Jaasiel"
-		family = c:J02.fam:Bet-Saul
+		family = c:JAB.fam:Bet-Saul
 		birth_date=1270.1.1
 		father="char:35"
 		culture="israelic"

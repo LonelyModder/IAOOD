@@ -1,8 +1,8 @@
-﻿"A11"={
-	country="A11"
+﻿"AAK"={
+	country="AAK"
 	50={
 		first_name="Hadad-ezer"
-		family = c:A11.fam:Bet-Sovah
+		family = c:AAK.fam:Bet-Sovah
 		birth_date=1260.1.1
 		culture="aramean"
 		religion="anunnaki_pantheon"
@@ -15,7 +15,7 @@
 		add_trait="sovahid"
 		add_gold=500
 		add_popularity=100
-		c:A11={
+		c:AAK={
 			set_as_ruler=char:50
 		}
 		#dna=""

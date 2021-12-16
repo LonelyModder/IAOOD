@@ -1,43 +1,43 @@
 ﻿David_Ishbaal_conflict_effect = {
-	c:J01 = {
-		add_alliance = J06
-		add_alliance = J12
-		add_alliance = J13
-		add_alliance = J14
+	c:JAA = {
+		add_alliance = JAC
+		add_alliance = JAF
+		add_alliance = JAG
+		add_alliance = JAH
 	}
-	c:J01 = {
+	c:JAA = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
 		    province = p:673
-			target = c:J42
+			target = c:JBT
 		}
 	}
-	c:J02 = {
+	c:JAB = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:691
-			target = c:J01
+			target = c:JAA
 		}
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
 		    province = p:673
-			target = c:J42
+			target = c:JBT
 		}
 	}
-	c:J01 = {
-		break_alliance = J06
-		break_alliance = J12
-		break_alliance = J13
-		break_alliance = J14
+	c:JAA = {
+		break_alliance = JAC
+		break_alliance = JAF
+		break_alliance = JAG
+		break_alliance = JAH
 	}
 }
 
 Osorkons_rebelion_conflict_effect = {
-	c:E01 = {
+	c:EAA = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:539
-			target = c:E05
+			target = c:EAG
 		}
 	}
 }
@@ -50,28 +50,28 @@ Distatnt_descendent_of_elam_conflict_effect = {
 			target = c:A40
 		}
 	}
-	c:A35 = {
+	c:ABL = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
 			target = c:A40
 		}
 	}
-	c:A33 = {
+	c:ABJ = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
 			target = c:A40
 		}
 	}
-	c:A32 = {
+	c:ABI = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
 			target = c:A40
 		}
 	}
-	c:A31 = {
+	c:ABH = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926

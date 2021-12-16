@@ -6,7 +6,7 @@ bloodlines_startup.1 = { #Judah
 	hidden = yes
 	
 	trigger = {
-		tag = J01
+		tag = JAA
 	}
 	
 	immediate = {
@@ -90,8 +90,8 @@ bloodlines_startup.4 = { #22 dynasty
 	
 	trigger = {
 		OR = {
-			tag = E05
-			tag = E24
+			tag = EAG
+			tag = EAF
 		}
 	}
 	
@@ -145,7 +145,7 @@ bloodlines_startup.6 = { #Gathite Bloodline
 	hidden = yes
 	
 	trigger = {
-		tag = J06
+		tag = JAC
 	}
 	
 	immediate = {
@@ -195,7 +195,7 @@ bloodlines_startup.8 = { #bloodline of Toi
 	hidden = yes
 	
 	trigger = {
-		tag = A02
+		tag = AAB
 	}
 	
 	immediate = {
@@ -220,7 +220,7 @@ bloodlines_startup.9 = { #bloodline of Hadadezer
 	hidden = yes
 	
 	trigger = {
-		tag = A11
+		tag = AAK
 	}
 	
 	immediate = {
@@ -245,7 +245,7 @@ bloodlines_startup.10 = { #bloodline of Tob-Rimmon
 	hidden = yes
 	
 	trigger = {
-		tag = A01
+		tag = AAA
 	}
 	
 	immediate = {
@@ -270,7 +270,7 @@ bloodlines_startup.11 = { #bloodline of Saul
 	hidden = yes
 	
 	trigger = {
-		tag = J02
+		tag = JAB
 	}
 	
 	immediate = {
@@ -295,7 +295,7 @@ bloodlines_startup.12 = { #bloodline of Tyre
 	hidden = yes
 	
 	trigger = {
-		tag = J20
+		tag = JAL
 	}
 	
 	immediate = {
@@ -320,7 +320,7 @@ bloodlines_startup.13 = { #bloodline of Byblos
 	hidden = yes
 	
 	trigger = {
-		tag = J07
+		tag = JAP
 	}
 	
 	immediate = {
