@@ -1,8 +1,8 @@
-﻿"A57"={
-	country="A57"
+﻿"ACK"={
+	country="ACK"
 	98={
 		first_name="Akshir-Shimut"
-		family = c:A57.fam:Shutrukid
+		family = c:ACK.fam:Shutrukid
 		birth_date=1270.1.1
 		culture="susanian"
 		religion="elamite_pantheon"
@@ -15,7 +15,7 @@
 		add_trait="ofelam"
 		add_gold=500
 		add_popularity=100
-		c:A57={
+		c:ACK={
 			set_as_ruler=char:98
 		}
 		#dna=""

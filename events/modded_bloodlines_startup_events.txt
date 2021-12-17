@@ -345,7 +345,7 @@ bloodlines_startup.14 = { #bloodline of Adasi
 	hidden = yes
 	
 	trigger = {
-		tag = A39
+		tag = ABP
 	}
 	
 	immediate = {

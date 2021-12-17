@@ -38,7 +38,7 @@ PIR = {
 
 #Modded Emblems
 
-A39 = {
+ABP = {
 	pattern = "pattern_solid.tga"
 	color1 = "offwhite"
 	color2 = "roman_gold"
@@ -131,7 +131,7 @@ H19 = {
 	}
 }
 
-A40 = {
+ABR = {
 	pattern = "pattern_solid.tga"
 	color1 = "offwhite"
 	color2 = "roman_gold"

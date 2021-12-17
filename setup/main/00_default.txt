@@ -381,7 +381,7 @@ family={
 		}
 		11={
 			key="Hapatilid"
-			owner=A41
+			owner=ABS
 			culture = hatti
 			prestige=300
 		}
@@ -441,7 +441,7 @@ family={
 		}
 		21={
 			key="Adaside"
-			owner=A39
+			owner=ABP
 			culture = ashurite
 			prestige=300
 		}
@@ -453,7 +453,7 @@ family={
 		}
 		23={
 			key="Bit-Bazi"
-			owner=A40
+			owner=ABR
 			culture = kassite
 			prestige=300
 		}
@@ -513,7 +513,7 @@ family={
 		}
 		33={
 			key="Shutrukid"
-			owner=A57
+			owner=ACK
 			culture = susanian
 			prestige=300
 		}
@@ -561,10 +561,10 @@ diplomacy = {
 	#Babylonian migrant leader
 	dependency = { first = A92 second = ABE subject_type = tributary }
 	#Assyrian kaskan subject
-	dependency = { first = A39 second = ABG subject_type = feudatory }
+	dependency = { first = ABP second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass
 	dependency = { first = ABB second = ABF subject_type = feudatory }
-	dependency = { first = ABB second = A38 subject_type = feudatory }
+	dependency = { first = ABB second = ABO subject_type = feudatory }
 	#Tyre and its colonies
 	dependency = { first = JAL second = JBY subject_type = subject_colony }
 	dependency = { first = JAL second = JBZ subject_type = subject_colony }
@@ -581,7 +581,7 @@ diplomacy = {
 	dependency = { first = EAC second = L07 subject_type = feudatory }
 	dependency = { first = EAC second = EAW subject_type = feudatory }
 	#Elam ties with Ellipi
-	dependency = { first = A57 second = A58 subject_type = tributary }
+	dependency = { first = ACK second = ACL subject_type = tributary }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -3694,7 +3694,7 @@ country = {
 			}
 		}
 		
-		A36 = { #Bit-Hazael
+		ABM = { #Bit-Hazael
 			government = tribal_kingdom
 			primary_culture = aramean
 			religion = anunnaki_pantheon
@@ -3705,7 +3705,7 @@ country = {
 			}
 		}
 		
-		A37 = { #Shubria
+		ABN = { #Shubria
 			government = despotic_monarchy
 			primary_culture = mittanic
 			religion = hurrian_pantheon
@@ -3716,7 +3716,7 @@ country = {
 			}
 		}
 		
-		A38 = { #Tushan
+		ABO = { #Tushan
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3727,7 +3727,7 @@ country = {
 			}
 		}
 		
-		A39 = { #Assyrian Empire
+		ABP = { #Assyrian Empire
 			family=21
 			government = aristocratic_monarchy
 			primary_culture = ashurite
@@ -3752,7 +3752,7 @@ country = {
 			}
 		}
 		
-		A40 = { #Karduniash Bit-Bazi aramean or kassite?
+		ABR = { #Karduniash Bit-Bazi aramean or kassite?
 			family=23
 			government = aristocratic_monarchy
 			primary_culture = kassite
@@ -3766,7 +3766,7 @@ country = {
 			}
 		}
 		
-		A41 = { #Musuwari
+		ABS = { #Musuwari
 			family=11
 			government = despotic_monarchy
 			primary_culture = hatti
@@ -3778,7 +3778,7 @@ country = {
 			}
 		}
 		
-		A42 = { #Nirdun
+		ABT = { #Nirdun
 			government = tribal_kingdom
 			primary_culture = bianilic
 			religion = hurrian_pantheon
@@ -3789,7 +3789,7 @@ country = {
 			}
 		}
 		
-		A43 = { #Alzu
+		ABU = { #Alzu
 			government = tribal_kingdom
 			primary_culture = bianilic
 			religion = hurrian_pantheon
@@ -3800,7 +3800,7 @@ country = {
 			}
 		}
 		
-		A44 = { #Jahan
+		ABW = { #Jahan
 			government = despotic_monarchy
 			primary_culture = temannite
 			religion = anunnaki_pantheon
@@ -3811,7 +3811,7 @@ country = {
 			}
 		}
 		
-		A45 = { #Namar
+		ABY = { #Namar
 			government = despotic_monarchy
 			primary_culture = kassite
 			religion = kassite_pantheon
@@ -3822,7 +3822,7 @@ country = {
 			}
 		}
 		
-		A46 = { #Kadmukhian
+		ABZ = { #Kadmukhian
 			government = despotic_monarchy
 			primary_culture = mittanic
 			religion = hurrian_pantheon
@@ -3833,7 +3833,7 @@ country = {
 			}
 		}
 		
-		A47 = { #Nirbi
+		ACA = { #Nirbi
 			government = despotic_monarchy
 			primary_culture = mittanic
 			religion = hurrian_pantheon
@@ -3844,7 +3844,7 @@ country = {
 			}
 		}
 		
-		A48 = { #Qurkhi
+		ACB = { #Qurkhi
 			government = despotic_monarchy
 			primary_culture = mittanic
 			religion = hurrian_pantheon
@@ -3855,7 +3855,7 @@ country = {
 			}
 		}
 		
-		A49 = { #Ameka
+		ACC = { #Ameka
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3866,7 +3866,7 @@ country = {
 			}
 		}
 		
-		A50 = { #Arashtua
+		ACD = { #Arashtua
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3877,7 +3877,7 @@ country = {
 			}
 		}
 		
-		A51 = { #Ida
+		ACE = { #Ida
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3888,7 +3888,7 @@ country = {
 			}
 		}
 		
-		A52 = { #Birtu
+		ACF = { #Birtu
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3899,7 +3899,7 @@ country = {
 			}
 		}
 		
-		A53 = { #Ullubia
+		ACG = { #Ullubia
 			government = despotic_monarchy
 			primary_culture = bianilic
 			religion = hurrian_pantheon
@@ -3910,7 +3910,7 @@ country = {
 			}
 		}
 		
-		A54 = { #Bunasi
+		ACH = { #Bunasi
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3921,7 +3921,7 @@ country = {
 			}
 		}
 		
-		A55 = { #Larbusa
+		ACI = { #Larbusa
 			government = tribal_kingdom
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3932,7 +3932,7 @@ country = {
 			}
 		}
 		
-		A56 = { #Dagara
+		ACJ = { #Dagara
 			government = despotic_monarchy
 			primary_culture = lullubian
 			religion = kassite_pantheon
@@ -3943,7 +3943,7 @@ country = {
 			}
 		}
 		
-		A57 = { #Elam
+		ACK = { #Elam
 			family=33
 			government = aristocratic_monarchy
 			primary_culture = susanian
@@ -3970,7 +3970,7 @@ country = {
 			}
 		}
 		
-		A58 = { #Ellipi
+		ACL = { #Ellipi
 			government = despotic_monarchy
 			primary_culture = ellipian
 			religion = elamite_pantheon
@@ -3988,7 +3988,7 @@ country = {
 			}
 		}
 		
-		A59 = { #Bit-Hamban
+		ACM = { #Bit-Hamban
 			government = tribal_kingdom
 			primary_culture = kassite
 			religion = kassite_pantheon

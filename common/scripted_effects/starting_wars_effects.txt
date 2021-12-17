@@ -47,49 +47,49 @@ Distatnt_descendent_of_elam_conflict_effect = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:ABL = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:ABJ = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:ABI = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:ABH = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:A70 = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 	c:A90 = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
-			target = c:A40
+			target = c:ABR
 		}
 	}
 }

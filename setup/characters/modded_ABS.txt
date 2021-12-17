@@ -1,8 +1,8 @@
-﻿"A41"={
-	country="A41"
+﻿"ABS"={
+	country="ABS"
 	44={
 		first_name="Hapatila"
-		family = c:A41.fam:Hapatilid
+		family = c:ABS.fam:Hapatilid
 		birth_date=1265.1.1
 		culture="hatti"
 		religion="luwic_pantheon"
@@ -14,7 +14,7 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		c:A41={
+		c:ABS={
 			set_as_ruler=char:44
 		}
 		#dna=""

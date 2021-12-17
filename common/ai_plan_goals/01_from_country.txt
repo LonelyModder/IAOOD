@@ -26,7 +26,7 @@ is_great_power_aimod = {
 
 is_early_ashur_aimod = {
 	trigger = {
-		tag = A39
+		tag = ABP
 		#manpower > 4
 	}
 	ae_ceiling = 30
@@ -45,7 +45,7 @@ is_mighty_aryan_aimod = {
 
 is_elamite_aimod = {
 	trigger = {
-		tag = A57
+		tag = ACK
 	}
 	aggressive = -500
 }
