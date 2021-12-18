@@ -43,7 +43,7 @@ Osorkons_rebelion_conflict_effect = {
 }
 
 Distatnt_descendent_of_elam_conflict_effect = {
-	c:A92 = {
+	c:ADZ = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
@@ -78,14 +78,14 @@ Distatnt_descendent_of_elam_conflict_effect = {
 			target = c:ABR
 		}
 	}
-	c:A70 = {
+	c:ADA = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
 			target = c:ABR
 		}
 	}
-	c:A90 = {
+	c:ADW = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926

@@ -35,7 +35,7 @@ is_early_ashur_aimod = {
 
 is_mighty_aryan_aimod = {
 	trigger = {
-		tag = P10
+		tag = PAJ
 		primary_culture = medic
 		#manpower > 4
 	}

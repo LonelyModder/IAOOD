@@ -5,7 +5,7 @@
 		
 		potential = {
 			OR = {
-				primary_culture = setrusci
+				primary_culture = etrusci
 			}
 			#is_tribal = yes
 			NOT = {

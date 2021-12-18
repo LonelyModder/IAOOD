@@ -1,8 +1,8 @@
-﻿"P10"={
-	country="P10"
+﻿"PAJ"={
+	country="PAJ"
 	2={
 		first_name="Achemenos"
-		family = c:P10.fam:Achemenid
+		family = c:PAJ.fam:Achemenid
 		birth_date=1260.1.1
 		culture="persic"
 		religion="protoiranian_pantheon"
@@ -16,7 +16,7 @@
 		add_trait="achemenids"
 		add_gold=500
 		add_popularity=60
-		c:P10={
+		c:PAJ={
 			set_as_ruler=char:2
 		}
 		#dna=""

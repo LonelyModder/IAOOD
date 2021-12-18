@@ -31,7 +31,7 @@ bloodlines_startup.2 = { #Persia
 	hidden = yes
 	
 	trigger = {
-		tag = P10
+		tag = PAJ
 	}
 	
 	immediate = {
@@ -120,7 +120,7 @@ bloodlines_startup.5 = { #El-Kurru clan
 	hidden = yes
 	
 	trigger = {
-		tag = N07
+		tag = NAG
 	}
 	
 	immediate = {
@@ -170,7 +170,7 @@ bloodlines_startup.7 = { #Royal Bloodline of Hattusa
 	hidden = yes
 	
 	trigger = {
-		tag = H03
+		tag = HAC
 	}
 	
 	immediate = {
@@ -370,7 +370,7 @@ bloodlines_startup.15 = { #bloodline of Elam
 	hidden = yes
 	
 	trigger = {
-		tag = A92
+		tag = ADZ
 	}
 	
 	immediate = {
@@ -395,7 +395,7 @@ bloodlines_startup.16 = { #bloodline of Gordion
 	hidden = yes
 	
 	trigger = {
-		tag = H19
+		tag = HAT
 	}
 	
 	immediate = {
@@ -421,11 +421,11 @@ bloodlines_startup.17 = { #bloodline of Heracles
 	
 	trigger = {
 		OR = {
-			tag = H59
-			tag = G20
-			tag = G30
+			tag = HCM
+			tag = GAU
+			tag = GBG
 			tag = T45
-			tag = G31
+			tag = GBH
 		}
 	}
 	

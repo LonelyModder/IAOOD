@@ -1,8 +1,8 @@
-﻿"H19"={
-	country="H19"
+﻿"HAT"={
+	country="HAT"
 	73={
 		first_name="Godrias"
-		family = c:H19.fam:Gordianid
+		family = c:HAT.fam:Gordianid
 		birth_date=1220.1.1
 		death_date=1290.1.1
 		culture="phrygic"
@@ -19,7 +19,7 @@
 	
 	74={
 		first_name="Mita"
-		family = c:H19.fam:Gordianid
+		family = c:HAT.fam:Gordianid
 		father="char:73"
 		birth_date=1260.1.1
 		culture="phrygic"
@@ -33,7 +33,7 @@
 		add_trait="gordis"
 		add_gold=500
 		add_popularity=100
-		c:H19={
+		c:HAT={
 			set_as_ruler=char:74
 		}
 		#dna=""

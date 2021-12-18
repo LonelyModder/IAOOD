@@ -1,8 +1,8 @@
-﻿"G52"={
-	country="G52"
+﻿"GCF"={
+	country="GCF"
 	99={
 		first_name="Thersippus"
-		family = c:G52.fam:Thersid
+		family = c:GCF.fam:Thersid
 		birth_date=1270.1.1
 		culture="attic"
 		religion="grecoid_pantheon"
@@ -14,7 +14,7 @@
 		no_traits=yes
 		add_gold=500
 		add_popularity=100
-		c:G52={
+		c:GCF={
 			set_as_ruler=char:99
 		}
 		#dna=""

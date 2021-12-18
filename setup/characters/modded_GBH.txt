@@ -1,8 +1,8 @@
-﻿"G31"={
-	country="G31"
+﻿"GBH"={
+	country="GBH"
 	84={
 		first_name="Thestros"
-		family = c:G31.fam:Heraclidae
+		family = c:GBH.fam:Heraclidae
 		birth_date=1255.1.1
 		culture="laconic"
 		religion="grecoid_pantheon"
@@ -15,7 +15,7 @@
 		add_trait="heraclid"
 		add_gold=500
 		add_popularity=100
-		c:G31={
+		c:GBH={
 			set_as_ruler=char:84
 		}
 		#dna=""
@@ -23,7 +23,7 @@
 	
 	85={
 		first_name="Akoos"
-		family = c:G31.fam:Heraclidae
+		family = c:GBH.fam:Heraclidae
 		birth_date=1285.1.1
 		father="char:84"
 		culture="laconic"
@@ -42,7 +42,7 @@
 	
 	86={
 		first_name="Merops"
-		family = c:G31.fam:Heraclidae
+		family = c:GBH.fam:Heraclidae
 		birth_date=1285.1.1
 		father="char:84"
 		culture="laconic"
