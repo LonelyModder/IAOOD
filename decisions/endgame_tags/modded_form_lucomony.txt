@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1ET
+				tag = XET
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -40,7 +40,7 @@
 				text = lucomony_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1ET
+						tag = XET
 					}
 				}
 			}
@@ -75,7 +75,7 @@
 			hidden_effect = {
 				change_country_adjective = "Lucomony_ADJ"
 				change_country_color = "lucomony_color"
-				change_country_tag = 1ET
+				change_country_tag = XET
 			}
 			if = {
 				limit = {

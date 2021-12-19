@@ -7,7 +7,7 @@
 			primary_culture = persic
 			#is_tribal = yes
 			NOT = {
-				tag = 1AN
+				tag = XAN
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -27,7 +27,7 @@
 				text = anshan_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1AG
+						tag = XAN
 					}
 				}
 			}
@@ -51,7 +51,7 @@
 			hidden_effect = {
 				change_country_adjective = "Anshan_Adj"
 				#change_country_color =  "anshan_color"
-				change_country_tag = 1AN
+				change_country_tag = XAN
 			}
 			if = {
 				limit = {

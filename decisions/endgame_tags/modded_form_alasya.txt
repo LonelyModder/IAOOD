@@ -11,7 +11,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1CP
+				tag = XCP
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -42,7 +42,7 @@
 				text = alasya_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1CP
+						tag = XCP
 					}
 				}
 			}
@@ -103,7 +103,7 @@
 					change_country_adjective = "Alasya2_ADJ"
 				}
 				change_country_color =  "alasya_color"
-				change_country_tag = 1CP
+				change_country_tag = XCP
 			}
 			if = {
 				limit = {

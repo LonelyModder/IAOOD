@@ -10,7 +10,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1PL
+				tag = XPL
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -35,7 +35,7 @@
 				text = pelopones_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1PL
+						tag = XPL
 					}
 				}
 			}
@@ -64,7 +64,7 @@
 			hidden_effect = {
 				change_country_adjective = "Pelopones_ADJ"
 				change_country_color =  "pelopones_color"
-				change_country_tag = 1PL
+				change_country_tag = XPL
 			}
 			if = {
 				limit = {

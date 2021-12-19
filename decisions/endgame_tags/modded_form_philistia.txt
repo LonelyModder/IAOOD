@@ -7,7 +7,7 @@
 			primary_culture = philistine
 			#is_tribal = yes
 			NOT = {
-				tag = 1PH
+				tag = XPH
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -31,7 +31,7 @@
 				text = philistia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1PH
+						tag = XPH
 					}
 				}
 			}
@@ -59,7 +59,7 @@
 			hidden_effect = {
 				change_country_adjective = "Philistia_Adj"
 				change_country_color =  "philistia_color"
-				change_country_tag = 1PH
+				change_country_tag = XPH
 			}
 			if = {
 				limit = {

@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = T45
+				tag = TBY
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -29,7 +29,7 @@
 				text = makedonia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = T45
+						tag = TBY
 					}
 				}
 			}
@@ -40,7 +40,7 @@
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "Makedonia_Name"
-			change_country_flag = T45
+			change_country_flag = TBY
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -53,7 +53,7 @@
 			hidden_effect = {
 				change_country_adjective = "Makedonia_ADJ"
 				change_country_color =  "makedonia_color"
-				change_country_tag = T45
+				change_country_tag = TBY
 			}
 			if = {
 				limit = {

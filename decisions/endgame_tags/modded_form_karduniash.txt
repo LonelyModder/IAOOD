@@ -7,7 +7,7 @@
 			country_culture_group = kassites
 			#is_tribal = yes
 			NOT = {
-				tag = A40
+				tag = ABR
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -27,7 +27,7 @@
 				text = karduniash_must_not_exist
 				NOT = {
 					any_country = {
-						tag = A40
+						tag = ABR
 					}
 				}
 			}
@@ -37,8 +37,8 @@
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "A40"
-			change_country_flag = A40
+			change_country_name = "ABR"
+			change_country_flag = ABR
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -49,9 +49,9 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "A40_ADJ"
+				change_country_adjective = "ABR_ADJ"
 				change_country_color =  "karduniash_color"
-				change_country_tag = A40
+				change_country_tag = ABR
 			}
 			if = {
 				limit = {

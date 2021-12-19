@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1NA
+				tag = XNA
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -30,7 +30,7 @@
 				text = napata_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1NA
+						tag = XNA
 					}
 				}
 			}
@@ -55,7 +55,7 @@
 			hidden_effect = {
 				change_country_adjective = "Napata_ADJ"
 				change_country_color = "napata_color"
-				change_country_tag = 1NA
+				change_country_tag = XNA
 			}
 			if = {
 				limit = {

@@ -27,17 +27,6 @@
 	}
 
 	effect = {
-		if = {
-			limit = {
-				OR = {
-					has_variable = me_ant_start_flag
-					has_variable = me_mac_start_flag
-					tag = EGY
-					tag = SEL
-				}
-				war_with = c:TRE
-			}
-			# trigger_event = me_thrace_3_new_philhellene_policy.201
-		}
+		
 	}
 }

@@ -7,11 +7,11 @@
 			country_culture_group = akkadian
 			#is_tribal = yes
 			NOT = {
-				tag = 1AG
+				tag = XAG
 			}
 			OR = {
-				tag = A39
-				tag = A92
+				tag = ABP
+				tag = ADZ
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -42,7 +42,7 @@
 				text = agade_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1AG
+						tag = XAG
 					}
 				}
 			}
@@ -77,7 +77,7 @@
 			hidden_effect = {
 				change_country_adjective = "Agade_ADJ"
 				change_country_color =  "agade_color"
-				change_country_tag = 1AG
+				change_country_tag = XAG
 			}
 			if = {
 				limit = {

@@ -9,11 +9,11 @@
 				country_culture_group = eiranic
 			}
 			NOT = {
-				tag = 1PR
+				tag = XPR
 			}
 			OR = {
-				tag = 1AN
-				tag = 1ME
+				tag = XAN
+				tag = XME
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -39,7 +39,7 @@
 				text = "eranshar_must_not_exist"
 				NOT = {
 					any_country = {
-						tag = 1PR
+						tag = XPR
 					}
 				}
 			}
@@ -75,7 +75,7 @@
 			hidden_effect = {
 				change_country_adjective = "Persos_ADJ"
 				change_country_color =  "achaemenid_color"
-				change_country_tag = 1PR
+				change_country_tag = XPR
 			}
 			monarchy_republic_into_imperium_formable_effect = yes
 			if = {

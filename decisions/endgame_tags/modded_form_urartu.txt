@@ -10,7 +10,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1UR
+				tag = XUR
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -32,7 +32,7 @@
 				text = urartu_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1UR
+						tag = XUR
 					}
 				}
 			}
@@ -58,7 +58,7 @@
 			hidden_effect = {
 				change_country_adjective = "Urartu_ADJ"
 				change_country_color =  "offwhite"
-				change_country_tag = 1UR
+				change_country_tag = XUR
 			}
 			if = {
 				limit = {

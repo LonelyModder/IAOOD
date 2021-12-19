@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1LU
+				tag = XLU
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -31,7 +31,7 @@
 				text = urartu_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1LU
+						tag = XLU
 					}
 				}
 			}
@@ -57,7 +57,7 @@
 			hidden_effect = {
 				change_country_adjective = "Lukka_Adj"
 				change_country_color = "lucca_color"
-				change_country_tag = 1LU
+				change_country_tag = XLU
 			}
 			if = {
 				limit = {

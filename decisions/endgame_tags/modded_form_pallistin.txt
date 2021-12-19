@@ -7,7 +7,7 @@
 			primary_culture = philistine
 			#is_tribal = yes
 			NOT = {
-				tag = 1PL
+				tag = XPA
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -29,7 +29,7 @@
 				text = pallistin_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1PL
+						tag = XPA
 					}
 				}
 			}
@@ -55,7 +55,7 @@
 			hidden_effect = {
 				change_country_adjective = "Pallistin_Adj"
 				change_country_color =  "pallistin_color"
-				change_country_tag = 1PL
+				change_country_tag = XPA
 			}
 			if = {
 				limit = {

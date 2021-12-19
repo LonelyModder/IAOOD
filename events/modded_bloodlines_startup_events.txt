@@ -424,7 +424,7 @@ bloodlines_startup.17 = { #bloodline of Heracles
 			tag = HCM
 			tag = GAU
 			tag = GBG
-			tag = T45
+			tag = TBY
 			tag = GBH
 		}
 	}

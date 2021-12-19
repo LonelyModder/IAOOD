@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1PG
+				tag = XPG
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -38,7 +38,7 @@
 				text = kphrygia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1PG
+						tag = XPG
 					}
 				}
 			}
@@ -58,7 +58,7 @@
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "Kphrygia_Name"
-			change_country_flag = H19
+			change_country_flag = HAT
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -71,7 +71,7 @@
 			hidden_effect = {
 				change_country_adjective = "Kphrygia_ADJ"
 				change_country_color = "kphrygia_color"
-				change_country_tag = 1PG
+				change_country_tag = XPG
 			}
 			if = {
 				limit = {

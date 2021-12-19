@@ -7,7 +7,7 @@
 			country_culture_group = aramaic
 			#is_tribal = yes
 			NOT = {
-				tag = 1AR
+				tag = XAR
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -31,7 +31,7 @@
 				text = aram_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1AR
+						tag = XAR
 					}
 				}
 			}
@@ -58,7 +58,7 @@
 			hidden_effect = {
 				change_country_adjective = "Aram_Adj"
 				change_country_color =  "aram_color"
-				change_country_tag = 1AR
+				change_country_tag = XAR
 			}
 			if = {
 				limit = {

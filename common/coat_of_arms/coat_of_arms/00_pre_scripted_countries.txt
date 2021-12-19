@@ -174,7 +174,7 @@ GAU = {
 	}
 }
 
-T45 = {
+TBY = {
 	pattern = "pattern_solid.tga"
 	color1 = "macedonian_blue"
 	color2 = "roman_gold"

@@ -9,7 +9,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = 1CA
+				tag = XCA
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -32,7 +32,7 @@
 				text = canaan_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1CA
+						tag = XCA
 					}
 				}
 			}
@@ -59,7 +59,7 @@
 			hidden_effect = {
 				change_country_adjective = "Canaan_ADJ"
 				change_country_color = "canaan_color"
-				change_country_tag = 1CA
+				change_country_tag = XCA
 			}
 			if = {
 				limit = {

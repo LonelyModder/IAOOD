@@ -7,7 +7,7 @@
 			primary_culture = agade
 			#is_tribal = yes
 			NOT = {
-				tag = A92
+				tag = ADZ
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -27,7 +27,7 @@
 				text = babilu_must_not_exist
 				NOT = {
 					any_country = {
-						tag = A92
+						tag = ADZ
 					}
 				}
 			}
@@ -37,8 +37,8 @@
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "A92"
-			change_country_flag = A92
+			change_country_name = "ADZ"
+			change_country_flag = ADZ
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -49,9 +49,9 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "A92_ADJ"
+				change_country_adjective = "ADZ_ADJ"
 				#change_country_color =  "babilu_color"
-				change_country_tag = A92
+				change_country_tag = ADZ
 			}
 			if = {
 				limit = {

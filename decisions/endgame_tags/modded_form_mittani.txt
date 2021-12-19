@@ -7,7 +7,7 @@
 			primary_culture = mittanic
 			#is_tribal = yes
 			NOT = {
-				tag = 1MI
+				tag = XMI
 			}
 			NOT = {
 				is_endgame_tag_trigger = yes
@@ -32,7 +32,7 @@
 				text = mittani_must_not_exist
 				NOT = {
 					any_country = {
-						tag = 1MI
+						tag = XMI
 					}
 				}
 			}
@@ -61,7 +61,7 @@
 			hidden_effect = {
 				change_country_adjective = "Mittani_ADJ"
 				change_country_color =  "mittani_color"
-				change_country_tag = 1MI
+				change_country_tag = XMI
 			}
 			if = {
 				limit = {
