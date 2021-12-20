@@ -73,7 +73,7 @@ is_tribal_aimod = {
 	trigger = {
 		is_tribal = yes
 	}
-	aggressive = -500
+	aggressive = -100
 	global_tribesmen_output = 1000
 	global_tribesmen_happyness = 1000
 }

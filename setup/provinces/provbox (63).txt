@@ -440,9 +440,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="massaesylic"
 	province_rank=""
-	religion="totemic_pantheon"
+	religion="libyan_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }

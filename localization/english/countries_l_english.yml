@@ -1,4 +1,11 @@
 ﻿l_english:
+ #From Vanilla
+ REB:0 "Rebels"
+ REB_ADJ:0 "Rebel"
+ BAR:0 "Barbarians"
+ BAR_ADJ:0 "Barbarian"
+ MER:0 "Mercenaries"
+ MER_ADJ:0 "Mercenary"
  #Modded Countries
  BAA:0 "Qunbake"
  BAA_ADJ:0 "Tocharian"

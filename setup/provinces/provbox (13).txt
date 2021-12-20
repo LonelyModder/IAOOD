@@ -1105,9 +1105,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="bithynic"
 	province_rank=""
-	religion="totemic_pantheon"
+	religion="thracic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }
@@ -1135,9 +1135,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="bithynic"
 	province_rank=""
-	religion="totemic_pantheon"
+	religion="thracic_pantheon"
 	terrain="mountain"
 	trade_goods=""
 }

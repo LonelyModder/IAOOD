@@ -2190,9 +2190,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="chaldean"
 	province_rank="settlement"
-	religion="totemic_pantheon"
+	religion="anunnaki_pantheon"
 	terrain="plains"
 	trade_goods="wine"
 	citizen=
