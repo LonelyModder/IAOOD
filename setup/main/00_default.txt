@@ -6982,7 +6982,7 @@ country = {
 		}
 		
 		LAG = { #Amuni
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = libu
 			religion = libyan_pantheon
 			capital = 5501
@@ -7037,7 +7037,7 @@ country = {
 		}
 		
 		LAL = { #Hameka
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = libu
 			religion = libyan_pantheon
 			capital = 5518
@@ -7048,7 +7048,7 @@ country = {
 		}
 		
 		LAM = { #Namrud
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = libu
 			religion = libyan_pantheon
 			capital = 5532
