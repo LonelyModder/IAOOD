@@ -1994,7 +1994,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="venedi"
+	culture="vendi"
 	province_rank=""
 	religion="slavic_pantheon"
 	terrain="impassable_terrain"
@@ -2005,7 +2005,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="venedi"
+	culture="vendi"
 	province_rank=""
 	religion="slavic_pantheon"
 	terrain="impassable_terrain"
@@ -2324,9 +2324,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="macronian"
 	province_rank=""
-	religion="totemic_pantheon"
+	religion="caucasic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
@@ -2335,9 +2335,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="veddan"
+	culture="macronian"
 	province_rank=""
-	religion="totemic_pantheon"
+	religion="caucasic_pantheon"
 	terrain="impassable_terrain"
 	trade_goods=""
 }
