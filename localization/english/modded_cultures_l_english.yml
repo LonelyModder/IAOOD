@@ -116,7 +116,7 @@
  akkadian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heirs of the Mittani
  hurric:2 "Hurric"
- mittanic:0 "Hurrian"
+ mittanic:0 "Mittanic"
  bianilic:0 "Nairi"
  manneanic:0 "Mannean"
  hurric_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
