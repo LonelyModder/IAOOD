@@ -1,21 +1,5 @@
 ﻿#See 00_default.txt in same folder for description.
 
-is_major_power_aimod = {
-	trigger = {
-		rank = major_power
-	}
-	
-	aggressive = 20
-}
-
-is_great_power_aimod = {
-	trigger = {
-		rank = great_power
-	}
-	
-	aggressive = 30
-}
-
 is_child_of_ashur_aimod = {
 	trigger = {
 		tag = ABP

@@ -3950,13 +3950,6 @@ country = {
 			religion = elamite_pantheon
 			capital = 946
 			
-			poptype_rights = { 
-				{
-					culture = anshanian 
-					type = citizen
-				}
-			}
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }

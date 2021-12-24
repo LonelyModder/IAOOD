@@ -299,7 +299,7 @@
  vedic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Tibetan culture
  qiang:2 "Tibeto-Burmese"
- tibetan:0 "Kirata"
+ tibetan:0 "Kiratan"
  shakyan:0 "Shakyan"
  assamo_tibetic:0 "Assamo-Kiratan"
  bhergavic:0 "Bhergavan"
