@@ -2577,7 +2577,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="iberic"
+	culture="ciberic"
 	province_rank=""
 	religion="caucasic_pantheon"
 	terrain="impassable_terrain"
@@ -2854,8 +2854,8 @@
 	civilization_value=0
 	culture="bianilic"
 	province_rank=""
-	religion="totemic_pantheon"
-	terrain="hurrian_pantheon"
+	religion="hurrian_pantheon"
+	terrain="impassable_terrain"
 	trade_goods=""
 }
 #

@@ -2,7 +2,7 @@
 
 is_child_of_ashur_aimod = {
 	trigger = {
-		tag = ABP
+		primary_culture = ashurite
 		#manpower > 4
 	}
 	ae_ceiling = 30
@@ -11,7 +11,7 @@ is_child_of_ashur_aimod = {
 
 is_mighty_aryan_aimod = {
 	trigger = {
-		tag = PAJ
+		primary_culture = persic
 		primary_culture = medic
 		#manpower > 4
 	}
@@ -19,11 +19,13 @@ is_mighty_aryan_aimod = {
 	aggressive = 420
 }
 
-is_elamite_aimod = {
+is_rollin_scythian_aimod = {
 	trigger = {
-		tag = ACK
+		primary_culture = scythoi
+		#manpower > 4
 	}
-	aggressive = -500
+	ae_ceiling = 30
+	aggressive = 420
 }
 
 is_antagonist_aimod = {
@@ -49,7 +51,6 @@ is_tribal_aimod = {
 	trigger = {
 		is_tribal = yes
 	}
-	aggressive = -100
 	global_tribesmen_output = 1000
 	global_tribesmen_happyness = 1000
 }

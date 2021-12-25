@@ -1340,7 +1340,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwii"
+	culture="sideti"
 	province_rank="settlement"
 	religion="luwic_pantheon"
 	terrain="plains"

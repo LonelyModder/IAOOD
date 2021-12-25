@@ -938,17 +938,25 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="shasu"
-	province_rank="settlement"
+	province_rank="city"
 	religion="arabian_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
-	slaves=
+	citizen=
 	{
 		amount=2
 	}
-	tribesmen=
+	freemen=
 	{
 		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 #Gaiopolis

@@ -58,6 +58,7 @@
 	}
 	culture = {
 		susanian = {}
+		awanic = {}
 		anshanian = {}
 		ellipian = {}
 	}

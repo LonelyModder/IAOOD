@@ -51,7 +51,7 @@
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "Pelopones_Name"
-			change_country_flag = G20
+			change_country_flag = GAA
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {

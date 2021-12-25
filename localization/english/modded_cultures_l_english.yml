@@ -131,6 +131,7 @@
  #Elamites
  elamitic:2 "Elamite"
  susanian:0 "Susan"
+ awanic:0 "Awanic"
  anshanian:0 "Anshanese"
  ellipian:0 "Ellipian"
  elamitic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

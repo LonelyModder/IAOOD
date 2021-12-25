@@ -2359,7 +2359,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="susanian"
+	culture="awanic"
 	province_rank="settlement"
 	religion="elamite_pantheon"
 	terrain="hills"
@@ -2572,7 +2572,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="susanian"
+	culture="awanic"
 	province_rank="settlement"
 	religion="elamite_pantheon"
 	terrain="mountain"
@@ -2587,7 +2587,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="susanian"
+	culture="awanic"
 	province_rank="settlement"
 	religion="elamite_pantheon"
 	terrain="mountain"
