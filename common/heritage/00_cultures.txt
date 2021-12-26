@@ -150,6 +150,51 @@ akkadian_heritage = {
 	}
 }
 
+ashurite_heritage = {
+	modifier = {
+		#good
+		land_morale_modifier = 0.2
+		levy_size_multiplier = 0.05
+		
+		#bad
+		subject_opinions = -10
+	}
+	
+	trigger = {
+		country_culture_group = ashurite
+	}
+}
+
+mardukite_heritage = {
+	modifier = {
+		#good
+		global_pop_assimilation_speed_modifier = 0.1
+		happiness_for_wrong_culture_group_modifier = 0.1
+		
+		#bad
+		levy_size_multiplier = -0.025
+	}
+	
+	trigger = {
+		country_culture_group = agade
+	}
+}
+
+dilmunite_heritage = {
+	modifier = {
+		#good
+		global_tax_modifier = 0.2
+		global_commerce_modifier = 0.15
+		
+		#bad
+		levy_size_multiplier = -0.025
+	}
+	
+	trigger = {
+		country_culture_group = dilmunite
+	}
+}
+
 hurrian_heritage = {
 	modifier = {
 		#good

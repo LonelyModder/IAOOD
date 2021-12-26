@@ -175,13 +175,18 @@ gutium_region = {
 
 gedrosia_region = { #7
 	areas = {
-		omana_area
-		east_omana_area
-		gerrha_area
 		gedrosia_area
 		harmozeia_area
 		patalene_area
 		parecania_area
+	}
+}
+
+dilmun_and_magan_region = { #7
+	areas = {
+		omana_area
+		east_omana_area
+		gerrha_area
 	}
 }
 

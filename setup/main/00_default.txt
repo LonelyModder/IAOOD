@@ -576,7 +576,6 @@ diplomacy = {
 	dependency = { first = JAL second = JCF subject_type = subject_colony }
 	#Kushite pretender
 	dependency = { first = NAG second = NAH subject_type = feudatory }
-	dependency = { first = NAG second = NAM subject_type = feudatory }
 	#Siamun and some nomarchs loyal to him
 	dependency = { first = EAC second = LAG subject_type = feudatory }
 	dependency = { first = EAC second = EAW subject_type = feudatory }
@@ -1849,7 +1848,7 @@ country = {
 			capital = 7339
 			
 			own_control_core = 	{
-				7339 7342 7653 7347 7348
+				7339 7342 7653 7347 7348 7350 7341 7349
 			}
 		}
 		
@@ -1905,17 +1904,6 @@ country = {
 			
 			own_control_core = 	{
 				7340 7344
-			}
-		}
-		
-		BBK = { #Sonita
-			government = tribal_kingdom
-			primary_culture = assamo_tibetic
-			religion = tibetic_pantheon
-			capital = 7350
-			
-			own_control_core = 	{
-				7350 7341 7349
 			}
 		}
 		
@@ -4289,17 +4277,6 @@ country = {
 			}
 		}
 		
-		CAD = { #Anashi
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1581
-			
-			own_control_core = 	{ 
-				1581 1569
-			}
-		}
-		
 		CAE = { #Luqiuni
 			government = tribal_kingdom
 			primary_culture = bianilic
@@ -4307,7 +4284,7 @@ country = {
 			capital = 1579
 			
 			own_control_core = 	{ 
-				1579 1570 1580
+				1579 1570 1580 1581 1569
 			}
 		}
 		
@@ -4318,7 +4295,7 @@ country = {
 			capital = 1547
 			
 			own_control_core = 	{ 
-				1547 1546 1545 1548 1544 1543 1551
+				1547 1546 1545 1548 1544 1543 1551 1549 1568
 			}
 		}
 		
@@ -4341,17 +4318,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1534 1500 1537 1541 1533
-			}
-		}
-		
-		CAI = { #Aiadi
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1549
-			
-			own_control_core = 	{ 
-				1549 1568
 			}
 		}
 		
@@ -4406,29 +4372,7 @@ country = {
 			capital = 1589
 			
 			own_control_core = 	{ 
-				1589 1588 1591
-			}
-		}
-		
-		CAP = { #Etluni
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1577
-			
-			own_control_core = 	{ 
-				1577
-			}
-		}
-		
-		CAR = { #Eriaki
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1590
-			
-			own_control_core = 	{ 
-				1590
+				1589 1588 1591 1577 1590
 			}
 		}
 		
@@ -4439,29 +4383,7 @@ country = {
 			capital = 1606
 			
 			own_control_core = 	{ 
-				1606 1607
-			}
-		}
-		
-		CAT = { #Magaltu
-			government = tribal_kingdom
-			primary_culture = ciberic
-			religion = caucasic_pantheon
-			capital = 1686
-			
-			own_control_core = 	{ 
-				1686 1610 1677
-			}
-		}
-		
-		CAU = { #Akhuriani
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1609
-			
-			own_control_core = 	{ 
-				1609
+				1606 1607 1609
 			}
 		}
 		
@@ -4494,7 +4416,7 @@ country = {
 			capital = 1676
 			
 			own_control_core = 	{ 
-				1676 1683 1679 1678 1612
+				1676 1683 1679 1678 1612 1686 1610 1677
 			}
 		}
 		
@@ -4531,17 +4453,6 @@ country = {
 			}
 		}
 		
-		CBD = { #Shupa
-			government = tribal_kingdom
-			primary_culture = urumian
-			religion = armenic_pantheon
-			capital = 1855
-			
-			own_control_core = 	{ 
-				1855 858
-			}
-		}
-		
 		CBE = { #Kauri
 			government = tribal_kingdom
 			primary_culture = urumian
@@ -4549,7 +4460,7 @@ country = {
 			capital = 859
 			
 			own_control_core = 	{ 
-				859 235
+				859 235 1855 858
 			}
 		}
 		
@@ -4615,18 +4526,7 @@ country = {
 			capital = 1645
 			
 			own_control_core = 	{ 
-				1645 1656 
-			}
-		}
-		
-		CBL = { #Samukh
-			government = tribal_kingdom
-			primary_culture = calbanian
-			religion = caucasic_pantheon
-			capital = 1643
-			
-			own_control_core = 	{ 
-				1643 1641
+				1645 1656 1643 1641
 			}
 		}
 		
@@ -4641,14 +4541,14 @@ country = {
 			}
 		}
 		
-		CBN = { #Kamachia
+		CBN = { #Gelawu
 			government = tribal_kingdom
 			primary_culture = calbanian
 			religion = caucasic_pantheon
 			capital = 1634
 			
 			own_control_core = 	{ 
-				1634 1662
+				1634 1662 1636 1635
 			}
 		}
 		
@@ -4659,29 +4559,7 @@ country = {
 			capital = 5435
 			
 			own_control_core = 	{ 
-				5435 1657 1658 1659
-			}
-		}
-		
-		CBP = { #Begh
-			government = tribal_kingdom
-			primary_culture = calbanian
-			religion = caucasic_pantheon
-			capital = 1660
-			
-			own_control_core = 	{ 
-				1660 1611
-			}
-		}
-		
-		CBR = { #Kapalak
-			government = tribal_kingdom
-			primary_culture = calbanian
-			religion = caucasic_pantheon
-			capital = 1636
-			
-			own_control_core = 	{ 
-				1636 1635
+				5435 1657 1658 1659 1660 1611
 			}
 		}
 		
@@ -4747,18 +4625,7 @@ country = {
 			capital = 1670
 			
 			own_control_core = 	{ 
-				1670 1640 1671
-			}
-		}
-		
-		CCB = { #Gargark
-			government = tribal_kingdom
-			primary_culture = bianilic
-			religion = hurrian_pantheon
-			capital = 1639
-			
-			own_control_core = 	{ 
-				1639 1650
+				1670 1640 1671 1639 1650
 			}
 		}
 		
@@ -4773,28 +4640,6 @@ country = {
 			}
 		}
 		
-		CCD = { #Kissa
-			government = tribal_kingdom
-			primary_culture = macronian
-			religion = caucasic_pantheon
-			capital = 1727
-			
-			own_control_core = 	{ 
-				1727 1729
-			}
-		}
-		
-		CCE = { #Hyssos
-			government = tribal_kingdom
-			primary_culture = macronian
-			religion = caucasic_pantheon
-			capital = 1732
-			
-			own_control_core = 	{ 
-				1732 
-			}
-		}
-		
 		CCF = { #Rhizi
 			government = tribal_kingdom
 			primary_culture = macronian
@@ -4802,29 +4647,7 @@ country = {
 			capital = 1730
 			
 			own_control_core = 	{ 
-				1730 1731
-			}
-		}
-		
-		CCG = { #Arauraka
-			government = tribal_kingdom
-			primary_culture = mossynoetian
-			religion = caucasic_pantheon
-			capital = 1776
-			
-			own_control_core = 	{ 
-				1776 1778 1772
-			}
-		}
-		
-		CCH = { #Magnania
-			government = tribal_kingdom
-			primary_culture = macronian
-			religion = caucasic_pantheon
-			capital = 1775
-			
-			own_control_core = 	{ 
-				1775 1773
+				1730 1731 1732 1727 1729
 			}
 		}
 		
@@ -4835,7 +4658,7 @@ country = {
 			capital = 1770
 			
 			own_control_core = 	{ 
-				1770 1763
+				1770 1763 1776 1778 1772
 			}
 		}
 		
@@ -4857,18 +4680,7 @@ country = {
 			capital = 1698
 			
 			own_control_core = 	{ 
-				1698 1764
-			}
-		}
-		
-		CCL = { #Bagarizi
-			government = tribal_kingdom
-			primary_culture = azzian
-			religion = armenic_pantheon
-			capital = 1762
-			
-			own_control_core = 	{ 
-				1762 1765
+				1698 1764 1762 1765
 			}
 		}
 		
@@ -5815,17 +5627,6 @@ country = {
 			}
 		}
 		
-		PAY = { #Rudiane
-			government = tribal_kingdom
-			primary_culture = utic
-			religion = protoiranian_pantheon
-			capital = 4955
-			
-			own_control_core = 	{ 
-				4955
-			}
-		}
-		
 		PAZ = { #Agdinitiae
 			government = tribal_kingdom
 			primary_culture = utic
@@ -5833,7 +5634,7 @@ country = {
 			capital = 4791
 			
 			own_control_core = 	{ 
-				4791 6512 6514
+				4791 6512 6514 4955
 			}
 		}
 		
@@ -7303,7 +7104,7 @@ country = {
 			capital = 627
 			
 			own_control_core = 	{ 
-				627 7584
+				627 7584 628 629
 			}
 		}
 		
@@ -7348,17 +7149,6 @@ country = {
 			
 			own_control_core = 	{ 
 				622 619 620 621 614 615 616 617
-			}
-		}
-		
-		NAM = { #Alana
-			government = despotic_monarchy
-			primary_culture = upper_nubian
-			religion = kemetic_pantheon
-			capital = 628
-			
-			own_control_core = 	{ 
-				628 629
 			}
 		}
 		
@@ -7898,7 +7688,7 @@ country = {
 			capital = 1798
 			
 			own_control_core = 	{ 
-				1795 1798 1797 1734
+				1795 1798 1797 1734 1775 1773
 			}
 			
 		}
@@ -9537,18 +9327,6 @@ country = {
 			
 		}
 		
-		TAJ = { #Paitoi
-			government = tribal_kingdom
-			primary_culture = sthracian
-			religion = thracic_pantheon
-			capital = 353
-			
-			own_control_core = 	{ 
-				353 352 350
-			}
-			
-		}
-		
 		TAK = { #Odrysi
 			government = tribal_kingdom
 			primary_culture = sthracian
@@ -9556,19 +9334,7 @@ country = {
 			capital = 489
 			
 			own_control_core = 	{ 
-				489 4154 495 491 
-			}
-			
-		}
-		
-		TAL = { #Cicones
-			government = tribal_kingdom
-			primary_culture = sthracian
-			religion = thracic_pantheon
-			capital = 357
-			
-			own_control_core = 	{ 
-				357 490
+				489 4154 495 491 357 490 353 352 350
 			}
 			
 		}
@@ -9581,18 +9347,6 @@ country = {
 			
 			own_control_core = 	{ 
 				360 362 492 494
-			}
-			
-		}
-		
-		TAP = { #Caeni
-			government = tribal_kingdom
-			primary_culture = nthracian
-			religion = thracic_pantheon
-			capital = 4310
-			
-			own_control_core = 	{ 
-				4310 493
 			}
 			
 		}
@@ -9676,7 +9430,7 @@ country = {
 			capital = 4251
 			
 			own_control_core = 	{ 
-				4251 4247 4248
+				4251 4247 4248 4258 480
 			}
 			
 		}
@@ -9712,7 +9466,7 @@ country = {
 			capital = 484
 			
 			own_control_core = 	{ 
-				484 4313 4309 
+				484 4313 4309 4310 493 
 			}
 			
 		}
@@ -9777,18 +9531,6 @@ country = {
 			
 		}
 		
-		TBN = { #Tranipsai
-			government = tribal_kingdom
-			primary_culture = nthracian
-			religion = thracic_pantheon
-			capital = 4258
-			
-			own_control_core = 	{ 
-				4258 480
-			}
-			
-		}
-		
 		TBO = { #Paeoplae
 			government = tribal_kingdom
 			primary_culture = peonic
@@ -9796,19 +9538,7 @@ country = {
 			capital = 488
 			
 			own_control_core = 	{ 
-				488 487 3853
-			}
-			
-		}
-		
-		TBP = { #Laeaeans
-			government = tribal_kingdom
-			primary_culture = peonic
-			religion = thracic_pantheon
-			capital = 499
-			
-			own_control_core = 	{ 
-				499 4097
+				488 487 3853 499 4097
 			}
 			
 		}
@@ -9825,18 +9555,6 @@ country = {
 			
 		}
 		
-		TBS = { #Derrones
-			government = tribal_kingdom
-			primary_culture = peonic
-			religion = thracic_pantheon
-			capital = 4096
-			
-			own_control_core = 	{ 
-				4096 4108
-			}
-			
-		}
-		
 		TBT = { #Agrianes
 			government = tribal_kingdom
 			primary_culture = peonic
@@ -9844,7 +9562,7 @@ country = {
 			capital = 4152
 			
 			own_control_core = 	{ 
-				4152 4117 4305
+				4152 4117 4305 4096 4108
 			}
 			
 		}
@@ -11140,30 +10858,6 @@ country = {
 			
 		}
 		
-		MDF = { #Svarogi
-			government = tribal_kingdom
-			primary_culture = vendi
-			religion = slavic_pantheon
-			capital = 4758
-			
-			own_control_core = 	{ 
-				4758 4767 4762 4769
-			}
-			
-		}
-		
-		DAA = { #Scirtari
-			government = tribal_kingdom
-			primary_culture = dardanic
-			religion = illyric_pantheon
-			capital = 4112
-			
-			own_control_core = 	{ 
-				4112 4110
-			}
-			
-		}
-		
 		DAB = { #Dassareti
 			government = tribal_kingdom
 			primary_culture = dardanic
@@ -11171,31 +10865,7 @@ country = {
 			capital = 4111
 			
 			own_control_core = 	{ 
-				4111 4114
-			}
-			
-		}
-		
-		DAC = { #Thunaki
-			government = tribal_kingdom
-			primary_culture = dardanic
-			religion = illyric_pantheon
-			capital = 4219
-			
-			own_control_core = 	{ 
-				4219 4202
-			}
-			
-		}
-		
-		DAD = { #Galabri
-			government = tribal_kingdom
-			primary_culture = dardanic
-			religion = illyric_pantheon
-			capital = 4213
-			
-			own_control_core = 	{ 
-				4213 4212 4218
+				4111 4114 4112 4110
 			}
 			
 		}
@@ -11207,7 +10877,7 @@ country = {
 			capital = 4203
 			
 			own_control_core = 	{ 
-				4118 4203 4204
+				4118 4203 4204 4219 4202 4213 4212 4218
 			}
 			
 		}
@@ -11236,30 +10906,6 @@ country = {
 			
 		}
 		
-		DAH = { #Hermasini
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4106
-			
-			own_control_core = 	{ 
-				4106 4121 4105
-			}
-			
-		}
-		
-		DAI = { #Melcumani
-			government = tribal_kingdom
-			primary_culture = glasinac
-			religion = illyric_pantheon
-			capital = 4127
-			
-			own_control_core = 	{ 
-				4127 4122 4197
-			}
-			
-		}
-		
 		DAJ = { #Armistae
 			government = tribal_kingdom
 			primary_culture = glasinac
@@ -11267,7 +10913,7 @@ country = {
 			capital = 4124
 			
 			own_control_core = 	{ 
-				4124 4125 4123
+				4124 4125 4123 4106 4121 4105 4127 4122 4197
 			}
 			
 		}
@@ -11363,19 +11009,7 @@ country = {
 			capital = 4278
 			
 			own_control_core = 	{ 
-				4276 4278 4277 4279  
-			}
-			
-		}
-		
-		DAW = { #Popesti
-			government = tribal_kingdom
-			primary_culture = basarabi
-			religion = thracic_pantheon
-			capital = 4815
-			
-			own_control_core = 	{ 
-				4810 4809 4815 4813
+				4276 4278 4277 4279 4268 4271 4270 4267 4266 
 			}
 			
 		}
@@ -11387,19 +11021,7 @@ country = {
 			capital = 4816
 			
 			own_control_core = 	{ 
-				4816 4820 4818 4817 4819
-			}
-			
-		}
-		
-		DAZ = { #Acidava
-			government = tribal_kingdom
-			primary_culture = basarabi
-			religion = thracic_pantheon
-			capital = 4268
-			
-			own_control_core = 	{ 
-				4268 4271 4270 4267 4266 
+				4816 4820 4818 4817 4819 4810 4809 4815 4813
 			}
 			
 		}
@@ -12263,7 +11885,7 @@ country = {
 			capital = 3890
 			
 			own_control_core = 	{ 
-				3890 3837
+				3890 3837 3856 3855
 			}
 			
 		}
@@ -12287,19 +11909,7 @@ country = {
 			capital = 3901
 			
 			own_control_core = 	{ 
-				3901 3897
-			}
-			
-		}
-		
-		OCP = { #Hermunduri
-			government = tribal_chiefdom
-			primary_culture = west_barb
-			religion = chaosgods_pantheon
-			capital = 3894
-			
-			own_control_core = 	{ 
-				3894 3900
+				3901 3897 3894 3900
 			}
 			
 		}
@@ -12352,30 +11962,6 @@ country = {
 			
 		}
 		
-		OCW = { #Frisi
-			government = tribal_chiefdom
-			primary_culture = west_barb
-			religion = chaosgods_pantheon
-			capital = 3856
-			
-			own_control_core = 	{ 
-				3856 3855
-			}
-			
-		}
-		
-		OCY = { #Chauci
-			government = tribal_chiefdom
-			primary_culture = west_barb
-			religion = chaosgods_pantheon
-			capital = 3857
-			
-			own_control_core = 	{ 
-				3857 3861
-			}
-			
-		}
-		
 		OCZ = { #Batavi
 			government = tribal_chiefdom
 			primary_culture = west_barb
@@ -12383,7 +11969,7 @@ country = {
 			capital = 3859
 			
 			own_control_core = 	{ 
-				3859 3860
+				3859 3860 3857 3861
 			}
 			
 		}
@@ -12443,19 +12029,7 @@ country = {
 			capital = 3904
 			
 			own_control_core = 	{ 
-				3904 3903
-			}
-			
-		}
-		
-		ODH = { #Lemovii
-			government = tribal_chiefdom
-			primary_culture = east_barb
-			religion = chaosgods_pantheon
-			capital = 3905
-			
-			own_control_core = 	{ 
-				3905 3902
+				3904 3903 3905 3902
 			}
 			
 		}
@@ -12701,18 +12275,6 @@ country = {
 			
 		}
 		
-		IAF = { #Longonensi
-			government = tribal_federation
-			primary_culture = corsi
-			religion = nuragian_pantheon
-			capital = 3506
-			
-			own_control_core = 	{ 
-				3506 3505
-			}
-			
-		}
-		
 		IAG = { #Lestrigoni
 			government = tribal_federation
 			primary_culture = corsi
@@ -12720,7 +12282,7 @@ country = {
 			capital = 3504
 			
 			own_control_core = 	{ 
-				3504
+				3504 3506 3505
 			}
 			
 		}
@@ -12780,19 +12342,7 @@ country = {
 			capital = 3500
 			
 			own_control_core = 	{ 
-				3500 3499 3497 3496 3501
-			}
-			
-		}
-		
-		IAP = { #Giddilitani
-			government = aristocratic_republic
-			primary_culture = bnurage
-			religion = nuragian_pantheon
-			capital = 3494
-			
-			own_control_core = 	{ 
-				3494 3498
+				3500 3499 3497 3496 3501 3494 3498
 			}
 			
 		}
@@ -12865,18 +12415,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1466 1465 1467 1468 1464 1469
-			}
-			
-		}
-		
-		IAZ = { #Gallilesi
-			government = aristocratic_republic
-			primary_culture = nurage
-			religion = nuragian_pantheon
-			capital = 3487
-			
-			own_control_core = 	{ 
-				3487 3486
 			}
 			
 		}
@@ -13458,7 +12996,7 @@ country = {
 			capital = 3488
 			
 			own_control_core = 	{ 
-				3488 3489
+				3488 3489 3487 3486
 			}
 			
 		}
@@ -13818,7 +13356,7 @@ country = {
 			capital = 1424
 			
 			own_control_core = 	{ 
-				1424
+				1424 1420 1403 1418
 			}
 			
 		}
@@ -14063,18 +13601,6 @@ country = {
 			
 		}
 		
-		SBC = { #Varni
-			government = tribal_kingdom
-			primary_culture = anteleic
-			religion = iberic_pantheon
-			capital = 1420
-			
-			own_control_core = 	{ 
-				1420 1403 1418
-			}
-			
-		}
-		
 		SBD = { #Luseri
 			government = tribal_kingdom
 			primary_culture = anteleic
@@ -14190,19 +13716,7 @@ country = {
 			capital = 1287
 			
 			own_control_core = 	{ 
-				1287 1286 1382
-			}
-			
-		}
-		
-		SBN = { #Germani
-			government = tribal_kingdom
-			primary_culture = agragic
-			religion = iberic_pantheon
-			capital = 1399
-			
-			own_control_core = 	{ 
-				1399 1381
+				1287 1286 1382 1399 1381
 			}
 			
 		}
@@ -14303,18 +13817,6 @@ country = {
 			
 		}
 		
-		SBZ = { #Layetani
-			government = tribal_kingdom
-			primary_culture = ilevantic
-			religion = iberic_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				1242 1239
-			}
-			
-		}
-		
 		SCA = { #Indiketes
 			government = tribal_kingdom
 			primary_culture = ilevantic
@@ -14322,7 +13824,7 @@ country = {
 			capital = 1247
 			
 			own_control_core = 	{ 
-				1247 1246 1243
+				1247 1246 1243 1242 1239
 			}
 			
 		}
@@ -14406,7 +13908,7 @@ country = {
 			capital = 1002
 			
 			own_control_core = 	{ 
-				1002 1000 1001
+				1002 1000 1001 1004 1054 1003
 			}
 			
 		}
@@ -14419,18 +13921,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1059 1060 1008 1058 1005
-			}
-			
-		}
-		
-		SCN = { #Sueltri
-			government = tribal_kingdom
-			primary_culture = ibero_liguric
-			religion = liguric_pantheon
-			capital = 1004
-			
-			own_control_core = 	{ 
-				1004 1054 1003
 			}
 			
 		}
@@ -14483,18 +13973,6 @@ country = {
 			
 		}
 		
-		SCU = { #Elbocori
-			government = tribal_kingdom
-			primary_culture = beiric
-			religion = bakeric_pantheon
-			capital = 1320
-			
-			own_control_core = 	{ 
-				1320 1321 1328
-			}
-			
-		}
-		
 		SCW = { #Tapori
 			government = tribal_kingdom
 			primary_culture = beiric
@@ -14502,7 +13980,7 @@ country = {
 			capital = 1329
 			
 			own_control_core = 	{ 
-				1329 1315 1327 1309
+				1329 1315 1327 1309 1320 1321 1328
 			}
 			
 		}
@@ -14538,19 +14016,7 @@ country = {
 			capital = 1158
 			
 			own_control_core = 	{ 
-				1158 1300 1299 1290
-			}
-			
-		}
-		
-		SDB = { #Transcudani
-			government = tribal_kingdom
-			primary_culture = beiric
-			religion = bakeric_pantheon
-			capital = 1295
-			
-			own_control_core = 	{ 
-				1295 1292 1296
+				1158 1300 1299 1290 1295 1292 1296
 			}
 			
 		}
@@ -14759,18 +14225,6 @@ country = {
 			
 		}
 		
-		SDW = { #Superatii
-			government = tribal_kingdom
-			primary_culture = astur_cantabric
-			religion = bakeric_pantheon
-			capital = 1123
-			
-			own_control_core = 	{ 
-				1123 1125 1126
-			}
-			
-		}
-		
 		SDY = { #Gigurri
 			government = tribal_kingdom
 			primary_culture = astur_cantabric
@@ -14778,19 +14232,7 @@ country = {
 			capital = 1128
 			
 			own_control_core = 	{ 
-				1128 1122
-			}
-			
-		}
-		
-		SDZ = { #Zoelae
-			government = tribal_kingdom
-			primary_culture = astur_cantabric
-			religion = bakeric_pantheon
-			capital = 1170
-			
-			own_control_core = 	{ 
-				1170 1127 1121
+				1128 1122 1123 1125 1126 1170 1127 1121
 			}
 			
 		}
@@ -14850,19 +14292,7 @@ country = {
 			capital = 1305
 			
 			own_control_core = 	{ 
-				1305 1301 1307
-			}
-			
-		}
-		
-		SEF = { #Coerenses
-			government = tribal_kingdom
-			primary_culture = extramaduric
-			religion = bakeric_pantheon
-			capital = 1311
-			
-			own_control_core = 	{ 
-				1311 1312 1433
+				1305 1301 1307 1311 1312 1433
 			}
 			
 		}
@@ -14898,19 +14328,7 @@ country = {
 			capital = 1463
 			
 			own_control_core = 	{ 
-				1463 1460 1458
-			}
-			
-		}
-		
-		SEJ = { #Eloesti
-			government = tribal_kingdom
-			primary_culture = extramaduric
-			religion = bakeric_pantheon
-			capital = 1439
-			
-			own_control_core = 	{ 
-				1439 1448 1459
+				1463 1460 1458 1439 1448 1459
 			}
 			
 		}
@@ -14939,18 +14357,6 @@ country = {
 			
 		}
 		
-		SEM = { #Ileates
-			government = tribal_kingdom
-			primary_culture = extramaduric
-			religion = bakeric_pantheon
-			capital = 1437
-			
-			own_control_core = 	{ 
-				1437 1434 340
-			}
-			
-		}
-		
 		SEN = { #Turdetani
 			government = tribal_kingdom
 			primary_culture = extramaduric
@@ -14958,7 +14364,7 @@ country = {
 			capital = 1435
 			
 			own_control_core = 	{ 
-				1435 1431 1432 1454
+				1435 1431 1432 1454 1437 1434 340
 			}
 			
 		}
@@ -14970,31 +14376,7 @@ country = {
 			capital = 1013
 			
 			own_control_core = 	{ 
-				1013 1089 1212 1015 1090 1213
-			}
-			
-		}
-		
-		SEP = { #Belli
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1227
-			
-			own_control_core = 	{ 
-				1227 1220 1221 1228 1091
-			}
-			
-		}
-		
-		SER = { #Pelendones
-			government = tribal_kingdom
-			primary_culture = cagotic
-			religion = celtic_pantheon
-			capital = 1092
-			
-			own_control_core = 	{ 
-				1092 1018 1218 1019
+				1013 1089 1212 1015 1090 1213 1227 1220 1221 1228 1091
 			}
 			
 		}
@@ -15138,7 +14520,7 @@ country = {
 			capital = 1190
 			
 			own_control_core = 	{ 
-				1190 1093 1188 1192 1191
+				1190 1093 1188 1192 1191 1092 1018 1218 1019
 			}
 			
 		}
@@ -15210,31 +14592,7 @@ country = {
 			capital = 3579
 			
 			own_control_core = 	{ 
-				3579 3578 3580 3582
-			}
-			
-		}
-		
-		FAC = { #Lambrii
-			government = tribal_kingdom
-			primary_culture = cisalpine
-			religion = celtic_pantheon
-			capital = 3573
-			
-			own_control_core = 	{ 
-				3573 3572 3574 3575
-			}
-			
-		}
-		
-		FAD = { #Hasti
-			government = tribal_kingdom
-			primary_culture = cisalpine
-			religion = celtic_pantheon
-			capital = 3559
-			
-			own_control_core = 	{ 
-				3559 3558 3555
+				3579 3578 3580 3582 3573 3572 3574 3575
 			}
 			
 		}
@@ -15246,7 +14604,7 @@ country = {
 			capital = 3566
 			
 			own_control_core = 	{ 
-				3566 3565 3562 3568
+				3566 3565 3562 3568 3559 3558 3555
 			}
 			
 		}
@@ -15479,18 +14837,6 @@ country = {
 			
 		}
 		
-		FBB = { #Cavares
-			government = tribal_kingdom
-			primary_culture = galo_liguric
-			religion = liguric_pantheon
-			capital = 2322
-			
-			own_control_core = 	{ 
-				2322 2321
-			}
-			
-		}
-		
 		FBC = { #Menimii
 			government = tribal_kingdom
 			primary_culture = galo_liguric
@@ -15510,7 +14856,7 @@ country = {
 			capital = 2320
 			
 			own_control_core = 	{ 
-				2320 2309 2310
+				2320 2309 2310 2322 2321
 			}
 			
 		}
@@ -15715,19 +15061,7 @@ country = {
 			capital = 2141
 			
 			own_control_core = 	{ 
-				2141 2145
-			}
-			
-		}
-		
-		FBY = { #Aremori
-			government = tribal_kingdom
-			primary_culture = aceltic
-			religion = celtic_pantheon
-			capital = 2146
-			
-			own_control_core = 	{ 
-				2146 2143 2142
+				2141 2145 2146 2143 2142
 			}
 			
 		}
@@ -15739,19 +15073,7 @@ country = {
 			capital = 2140
 			
 			own_control_core = 	{ 
-				2140 2137 2139
-			}
-			
-		}
-		
-		FCA = { #Venelli
-			government = tribal_kingdom
-			primary_culture = aceltic
-			religion = celtic_pantheon
-			capital = 2135
-			
-			own_control_core = 	{ 
-				2135 5431 2134 2136
+				2140 2137 2139 2135 5431 2134 2136
 			}
 			
 		}
@@ -15780,18 +15102,6 @@ country = {
 			
 		}
 		
-		FCE = { #Diablintes
-			government = tribal_kingdom
-			primary_culture = aceltic
-			religion = celtic_pantheon
-			capital = 2217
-			
-			own_control_core = 	{ 
-				2217 2144 2215 2216 2214
-			}
-			
-		}
-		
 		FCF = { #Bricci
 			government = tribal_kingdom
 			primary_culture = aceltic
@@ -15799,7 +15109,7 @@ country = {
 			capital = 2402
 			
 			own_control_core = 	{ 
-				2402 2352 2351 2403 2400
+				2402 2352 2351 2403 2400 2217 2144 2215 2216 2214
 			}
 			
 		}
@@ -15960,18 +15270,6 @@ country = {
 			
 		}
 		
-		FDA = { #Morini
-			government = tribal_kingdom
-			primary_culture = bceltic
-			religion = celtic_pantheon
-			capital = 3030
-			
-			own_control_core = 	{ 
-				3030 3029 3028 3040
-			}
-			
-		}
-		
 		FDB = { #Menapii
 			government = tribal_kingdom
 			primary_culture = bceltic
@@ -15979,7 +15277,7 @@ country = {
 			capital = 3677
 			
 			own_control_core = 	{ 
-				3677 3675 3676 3843 3678 3844
+				3677 3675 3676 3843 3678 3844 3030 3029 3028 3040
 			}
 			
 		}
@@ -16063,31 +15361,7 @@ country = {
 			capital = 3703
 			
 			own_control_core = 	{ 
-				3703 3051 3047 3704 3705
-			}
-			
-		}
-		
-		FDK = { #Condrusi
-			government = tribal_kingdom
-			primary_culture = bceltic
-			religion = celtic_pantheon
-			capital = 3683
-			
-			own_control_core = 	{ 
-				3683 3684 3682
-			}
-			
-		}
-		
-		FDL = { #Paemani
-			government = tribal_kingdom
-			primary_culture = nceltic
-			religion = celtic_pantheon
-			capital = 3849
-			
-			own_control_core = 	{ 
-				3849 3846 3845 3713 3712
+				3703 3051 3047 3704 3705 3683 3684 3682
 			}
 			
 		}
@@ -16099,7 +15373,7 @@ country = {
 			capital = 3714
 			
 			own_control_core = 	{ 
-				3714 3711 3710 3715 3716 3717
+				3714 3711 3710 3715 3716 3717 3849 3846 3845 3713 3712
 			}
 			
 		}
@@ -17858,30 +17132,6 @@ country = {
 			
 		}
 		
-		RBC = { #Karige
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6936
-			
-			own_control_core = 	{ 
-				6936 6987 6934
-			}
-			
-		}
-		
-		RBD = { #Argau
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6992
-			
-			own_control_core = 	{ 
-				6992 6993
-			}
-			
-		}
-		
 		RBE = { #Koval
 			government = tribal_kingdom
 			primary_culture = tamilic
@@ -17889,7 +17139,7 @@ country = {
 			capital = 6988
 			
 			own_control_core = 	{ 
-				6988 6994 6996 6995
+				6988 6994 6996 6995 6936 6987 6934 6992 6993
 			}
 			
 		}

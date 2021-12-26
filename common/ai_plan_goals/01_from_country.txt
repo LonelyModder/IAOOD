@@ -1,31 +1,43 @@
 ﻿#See 00_default.txt in same folder for description.
 
-is_child_of_ashur_aimod = {
+is_agressive_culture_aimod = {
 	trigger = {
-		primary_culture = ashurite
+		OR = {
+			primary_culture = ashurite
+			primary_culture = persic
+			primary_culture = medic
+			primary_culture = scythoi
+		}
 		#manpower > 4
 	}
 	ae_ceiling = 30
 	aggressive = 420
 }
 
-is_mighty_aryan_aimod = {
+is_lacking_levies_pseudo_trigger = {
 	trigger = {
-		primary_culture = persic
-		primary_culture = medic
-		#manpower > 4
+		military_experience > 80
+		military_experience < 85
+		OR = {
+			primary_culture = ashurite
+			primary_culture = persic
+			primary_culture = medic
+			primary_culture = scythoi
+		}
 	}
-	ae_ceiling = 30
-	aggressive = 420
+	
+	aggressive = -500
 }
 
-is_rollin_scythian_aimod = {
+is_pacifist_culture_aimod = {
 	trigger = {
-		primary_culture = scythoi
+		OR = {
+			country_culture_group = elamitic
+			country_culture_group = dravidic
+		}
 		#manpower > 4
 	}
-	ae_ceiling = 30
-	aggressive = 420
+	aggressive = -30
 }
 
 is_antagonist_aimod = {
@@ -51,6 +63,7 @@ is_tribal_aimod = {
 	trigger = {
 		is_tribal = yes
 	}
+	aggressive = -30
 	global_tribesmen_output = 1000
 	global_tribesmen_happyness = 1000
 }
