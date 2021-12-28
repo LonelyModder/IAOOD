@@ -3677,7 +3677,7 @@ country = {
 			own_control_core = 	{ 
 				927 920 921 929 960 923 936 931 930 962  
 				900 914 926 912 899 898 924 976 933 973 928 925 
-				961 911 937 935 939 896
+				961 911 937 935 939 896 889 897
 			}
 		}
 		
@@ -4003,17 +4003,6 @@ country = {
 			
 			own_control_core = 	{ 
 				886 884
-			}
-		}
-		
-		ADA = { #Imlihiye
-			government = despotic_monarchy
-			primary_culture = saramean
-			religion = anunnaki_pantheon
-			capital = 889
-			
-			own_control_core = 	{ 
-				889 897
 			}
 		}
 		
@@ -11393,7 +11382,7 @@ country = {
 			capital = 2043
 			
 			own_control_core = 	{ 
-				2043 2027 2051 2045 2044 2034 2052 2054 2062 2053 2065 2058
+				2043 2027 2051 2034 2052 2044 2045
 			}
 			
 		}
@@ -11405,7 +11394,7 @@ country = {
 			capital = 2032
 			
 			own_control_core = 	{ 
-				2032 2033 2036 2035 2031
+				2032 2033 2036
 			}
 			
 		}
@@ -11417,7 +11406,7 @@ country = {
 			capital = 2057
 			
 			own_control_core = 	{ 
-				2057 2037 2063 2068 3057
+				2057 2037 2063
 			}
 			
 		}
@@ -11438,10 +11427,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = britonian
 			religion = celtic_pantheon
-			capital = 2079
+			capital = 2075
 			
 			own_control_core = 	{ 
-				2079 2076 2078 3058 2077 2075 2069 2067
+				2076 2075 3058
 			}
 			
 		}
@@ -11453,7 +11442,7 @@ country = {
 			capital = 2071
 			
 			own_control_core = 	{ 
-				2071 2047 2064 2070
+				2071 2047
 			}
 			
 		}
@@ -11465,19 +11454,7 @@ country = {
 			capital = 2085
 			
 			own_control_core = 	{ 
-				2085 2087 3060
-			}
-			
-		}
-		
-		OAS = { #Carvetii
-			government = tribal_kingdom
-			primary_culture = britonian
-			religion = celtic_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				2082 2083 2081
+				2085 2087
 			}
 			
 		}
@@ -11489,7 +11466,7 @@ country = {
 			capital = 2084
 			
 			own_control_core = 	{ 
-				2084 5432 3059 2088 2074 2080 2073 2072 5434 2066 5433
+				2084 5432 2088 2080
 			}
 			
 		}
@@ -11525,7 +11502,7 @@ country = {
 			capital = 2105
 			
 			own_control_core = 	{ 
-				2105 2104 2108
+				2105 2104
 			}
 			
 		}
@@ -11555,61 +11532,37 @@ country = {
 		}
 		
 		OBB = { #Novatae
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = caledic
 			religion = celtic_pantheon
-			capital = 4100
+			capital = 2109
 			
 			own_control_core = 	{ 
-				2110 2091 2109
+				2109 2112
 			}
 			
 		}
 		
 		OBC = { #Selgovae
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = caledic
 			religion = celtic_pantheon
-			capital = 2089
+			capital = 2086
 			
 			own_control_core = 	{ 
-				2089 2086
+				2113 2086
 			}
 			
 		}
 		
 		OBD = { #Votadini
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = caledic
 			religion = celtic_pantheon
 			capital = 2111
 			
 			own_control_core = 	{ 
-				2111 2113 2090
-			}
-			
-		}
-		
-		OBE = { #Venicones
-			government = tribal_kingdom
-			primary_culture = caledic
-			religion = celtic_pantheon
-			capital = 2115
-			
-			own_control_core = 	{ 
-				2115 2114
-			}
-			
-		}
-		
-		OBF = { #Damnonii
-			government = tribal_kingdom
-			primary_culture = caledic
-			religion = celtic_pantheon
-			capital = 2112
-			
-			own_control_core = 	{ 
-				2112 2124
+				2111 2114
 			}
 			
 		}
@@ -11638,18 +11591,6 @@ country = {
 			
 		}
 		
-		OBI = { #Cauci
-			government = tribal_kingdom
-			primary_culture = hibernianic
-			religion = celtic_pantheon
-			capital = 2165
-			
-			own_control_core = 	{ 
-				2165 2192 2164
-			}
-			
-		}
-		
 		OBK = { #Coriondi
 			government = tribal_kingdom
 			primary_culture = hibernianic
@@ -11674,188 +11615,68 @@ country = {
 			
 		}
 		
-		OBM = { #Hiberni
-			government = tribal_kingdom
-			primary_culture = hibernianic
-			religion = celtic_pantheon
-			capital = 2177
-			
-			own_control_core = 	{ 
-				2177 2161
-			}
-			
-		}
-		
-		OBN = { #Menapii
-			government = tribal_kingdom
-			primary_culture = hibernianic
-			religion = celtic_pantheon
-			capital = 2182
-			
-			own_control_core = 	{ 
-				2182 2181 2163
-			}
-			
-		}
-		
-		OBO = { #Darinii
-			government = tribal_kingdom
-			primary_culture = hibernianic
-			religion = celtic_pantheon
-			capital = 2208
-			
-			own_control_core = 	{ 
-				2208 2172
-			}
-			
-		}
-		
-		OBP = { #Robogdii
-			government = tribal_kingdom
-			primary_culture = hibernianic
-			religion = celtic_pantheon
-			capital = 2207
-			
-			own_control_core = 	{ 
-				2207 2173
-			}
-			
-		}
-		
-		OBR = { #Velabri
-			government = tribal_kingdom
-			primary_culture = dannic
-			religion = bakeric_pantheon
-			capital = 2176
-			
-			own_control_core = 	{ 
-				2176 2179
-			}
-			
-		}
-		
-		OBT = { #Auteini
-			government = tribal_kingdom
-			primary_culture = dannic
-			religion = bakeric_pantheon
-			capital = 2166
-			
-			own_control_core = 	{ 
-				2166 2185 2183 2180
-			}
-			
-		}
-		
 		OBU = { #Nagnati
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = dannic
 			religion = bakeric_pantheon
 			capital = 2184
 			
 			own_control_core = 	{ 
-				2184 2169 2200 2191 2199 2197 2198 2201
-			}
-			
-		}
-		
-		OBW = { #Erdini
-			government = tribal_kingdom
-			primary_culture = dannic
-			religion = bakeric_pantheon
-			capital = 2171
-			
-			own_control_core = 	{ 
-				2171 2202 2205 2170 2196 2194 
+				2184 2198 2201
 			}
 			
 		}
 		
 		OBY = { #Venicini
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = dannic
 			religion = bakeric_pantheon
 			capital = 2204
 			
 			own_control_core = 	{ 
-				2204 2203 2175
-			}
-			
-		}
-		
-		OBZ = { #Cruithin
-			government = tribal_kingdom
-			primary_culture = dannic
-			religion = bakeric_pantheon
-			capital = 2174
-			
-			own_control_core = 	{ 
-				2174 2206
+				2204 2175 2203
 			}
 			
 		}
 		
 		OCA = { #Epidii
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = pictic
 			religion = bakeric_pantheon
 			capital = 2117
 			
 			own_control_core = 	{ 
-				2117 2126 2127 6311
+				2117 2126
 			}
 			
 		}
 		
 		OCB = { #Cerones
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = pictic
 			religion = bakeric_pantheon
 			capital = 2120
 			
 			own_control_core = 	{ 
-				2120 2118
-			}
-			
-		}
-		
-		OCC = { #Cornonacae
-			government = tribal_kingdom
-			primary_culture = pictic
-			religion = bakeric_pantheon
-			capital = 2128
-			
-			own_control_core = 	{ 
-				2128 2130 2129 2119
-			}
-			
-		}
-		
-		OCE = { #Carnavii
-			government = tribal_kingdom
-			primary_culture = pictic
-			religion = bakeric_pantheon
-			capital = 2122
-			
-			own_control_core = 	{ 
-				2122 2131 2132 2121 7739
+				2120
 			}
 			
 		}
 		
 		OCG = { #Taexali
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = pictic
 			religion = bakeric_pantheon
 			capital = 2125
 			
 			own_control_core = 	{ 
-				2125 2116 2123
+				2125 2123
 			}
 			
 		}
 		
 		OCH = { #Vacomagi
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = pictic
 			religion = bakeric_pantheon
 			capital = 2133
@@ -12162,19 +11983,7 @@ country = {
 			capital = 6007
 			
 			own_control_core = 	{ 
-				6007 6009 6006 6015 6017 6010
-			}
-			
-		}
-		
-		ODU = { #Sitones
-			government = tribal_chiefdom
-			primary_culture = north_barb
-			religion = chaosgods_pantheon
-			capital = 6020
-			
-			own_control_core = 	{ 
-				6020 6008 6019 6018 6021
+				6007 6009 6006 6015 6017
 			}
 			
 		}
@@ -12187,30 +11996,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6014 6011 6013 6016s
-			}
-			
-		}
-		
-		ODY = { #Favonii
-			government = tribal_chiefdom
-			primary_culture = north_barb
-			religion = chaosgods_pantheon
-			capital = 6025
-			
-			own_control_core = 	{ 
-				6025 6012 6023 6034
-			}
-			
-		}
-		
-		OEA = { #Chaidini
-			government = tribal_chiefdom
-			primary_culture = north_barb
-			religion = chaosgods_pantheon
-			capital = 6041
-			
-			own_control_core = 	{ 
-				6041 6042 6040 6039
 			}
 			
 		}
@@ -15825,7 +15610,7 @@ country = {
 		}
 		
 		VAC = { #Kasmira
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = utkuruntic
 			religion = vedic_pantheon
 			capital = 4332
@@ -15849,7 +15634,7 @@ country = {
 		}
 		
 		VAE = { #Audumbatira
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 4342
@@ -15923,7 +15708,7 @@ country = {
 		}
 		
 		VAJ = { #Ksudraka
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = usinaran
 			religion = vedic_pantheon
 			capital = 4395
@@ -15935,7 +15720,7 @@ country = {
 		}
 		
 		VAK = { #Intra
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = indusic
 			religion = vedic_pantheon
 			capital = 4375
@@ -15971,7 +15756,7 @@ country = {
 		}
 		
 		VAN = { #Arabitae
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = indusic
 			religion = vedic_pantheon
 			capital = 4353
@@ -16268,7 +16053,7 @@ country = {
 		}
 		
 		VBG = { #Kaccha
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = ahiric
 			religion = vedic_pantheon
 			capital = 6842
@@ -16280,7 +16065,7 @@ country = {
 		}
 		
 		VBH = { #Kukura
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = annartic
 			religion = vedic_pantheon
 			capital = 6817
@@ -16292,7 +16077,7 @@ country = {
 		}
 		
 		VBI = { #Vrsni
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 6838
@@ -16304,7 +16089,7 @@ country = {
 		}
 		
 		VBJ = { #Saurashtra
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = annartic
 			religion = vedic_pantheon
 			capital = 6854
@@ -16359,7 +16144,7 @@ country = {
 		}
 		
 		VBN = { #Blahika
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 4392
@@ -16371,7 +16156,7 @@ country = {
 		}
 		
 		VBO = { #Kinnara
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 4401
@@ -16383,7 +16168,7 @@ country = {
 		}
 		
 		VBP = { #Kulinda
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 7402
@@ -16395,7 +16180,7 @@ country = {
 		}
 		
 		VBR = { #Vemaka
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 7385
@@ -16407,7 +16192,7 @@ country = {
 		}
 		
 		VBS = { #Nishad
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = nisadic
 			religion = vedic_pantheon
 			capital = 4435
@@ -16419,7 +16204,7 @@ country = {
 		}
 		
 		VBT = { #Kunti
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 7435
@@ -16431,7 +16216,7 @@ country = {
 		}
 		
 		VBU = { #Dasarna
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 7302
@@ -16443,7 +16228,7 @@ country = {
 		}
 		
 		VBW = { #Karusha
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 7307
@@ -16455,7 +16240,7 @@ country = {
 		}
 		
 		VBY = { #Maru
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = ahiric
 			religion = vedic_pantheon
 			capital = 7310
@@ -16467,7 +16252,7 @@ country = {
 		}
 		
 		VBZ = { #Kikata
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = kikatan
 			religion = vedic_pantheon
 			capital = 7322
@@ -16577,7 +16362,7 @@ country = {
 		}
 		
 		VCH = { #Abhiras
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 6826
@@ -16589,7 +16374,7 @@ country = {
 		}
 		
 		VCI = { #Utsava
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 4481
@@ -16601,7 +16386,7 @@ country = {
 		}
 		
 		VCJ = { #Yadus
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 7437
@@ -16613,7 +16398,7 @@ country = {
 		}
 		
 		VCK = { #Palanda
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 4491
@@ -16625,7 +16410,7 @@ country = {
 		}
 		
 		VCL = { #Jamvaka
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 4478
@@ -16656,7 +16441,7 @@ country = {
 		}
 		
 		VCN = { #Kamboja
-			government = oligarchic_republic
+			government = aristocratic_republic
 			primary_culture = ghandaric
 			religion = vedic_pantheon
 			capital = 7399
@@ -16675,7 +16460,7 @@ country = {
 		}
 		
 		VCO = { #Pisacha
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 4394
@@ -16687,7 +16472,7 @@ country = {
 		}
 		
 		VCP = { #Yaudheya
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = usinaran
 			religion = vedic_pantheon
 			capital = 4381
@@ -16699,7 +16484,7 @@ country = {
 		}
 		
 		VCR = { #Turvasa
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = usinaran
 			religion = vedic_pantheon
 			capital = 4393
@@ -16711,7 +16496,7 @@ country = {
 		}
 		
 		VCS = { #Mayuraka
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = dardic
 			religion = vedic_pantheon
 			capital = 4389
@@ -16723,7 +16508,7 @@ country = {
 		}
 		
 		VCT = { #Darva
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = utkuruntic
 			religion = vedic_pantheon
 			capital = 4341
@@ -16735,7 +16520,7 @@ country = {
 		}
 		
 		VCU = { #Dapada
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = utkuruntic
 			religion = vedic_pantheon
 			capital = 6997
@@ -16759,7 +16544,7 @@ country = {
 		}
 		
 		VCY = { #Anupa
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = maharashtric
 			religion = vedic_pantheon
 			capital = 7420
@@ -16771,7 +16556,7 @@ country = {
 		}
 		
 		VCZ = { #Bhadrakas
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = usinaran
 			religion = vedic_pantheon
 			capital = 5445
@@ -16783,7 +16568,7 @@ country = {
 		}
 		
 		VDA = { #Yoghandaras
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = usinaran
 			religion = vedic_pantheon
 			capital = 4415
@@ -16795,7 +16580,7 @@ country = {
 		}
 		
 		VDB = { #Bhargavas
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 4495
@@ -16807,7 +16592,7 @@ country = {
 		}
 		
 		VDC = { #Pulindakas
-			government = tribal_federation
+			government = aristocratic_republic
 			primary_culture = svedic
 			religion = vedic_pantheon
 			capital = 7430
