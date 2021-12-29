@@ -2257,13 +2257,17 @@
 	religion="anunnaki_pantheon"
 	terrain="desert"
 	trade_goods="dates"
+	freemen=
+	{
+		amount=1
+	}
 	tribesmen=
 	{
-		amount=7
+		amount=3
 	}
 	slaves=
 	{
-		amount=3
+		amount=2
 		culture="agade"
 	}
 }

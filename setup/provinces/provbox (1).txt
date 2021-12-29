@@ -785,7 +785,6 @@
 	{
 		amount=4
 	}
-	port_building=1
 }
 #Marma
 4638=

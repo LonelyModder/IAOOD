@@ -176,7 +176,6 @@ gutium_region = {
 gedrosia_region = { #7
 	areas = {
 		gedrosia_area
-		harmozeia_area
 		patalene_area
 		parecania_area
 	}
@@ -193,12 +192,24 @@ dilmun_and_magan_region = { #7
 persis_region = { #7
 	areas = {
 		pars_area
-		veshapur_area
-		utia_area
-		persepolis_area
-		ardashir_area
-		media_felix_area
 		susiana_area
+	}
+}
+
+anshan_region = { #7
+	areas = {
+		veshapur_area
+		persepolis_area
+		media_felix_area
+	}
+}
+
+carmana_region = { #7
+	areas = {
+		utia_area
+		ardashir_area
+		harmozeia_area
+		carmania_area
 	}
 }
 
@@ -233,7 +244,6 @@ ariana_region = { #7
 		arachosia_area
 		sagartia_area
 		drangiana_area
-		carmania_area
 		namek_area
 	}
 }
@@ -507,6 +517,14 @@ punt_region = {		#6 areas!
 		tana_area
 		aksum_area
 		punt_area
+	}
+}
+
+south_kush_region = {		#6 areas!
+	areas = {
+		alana_area
+		meroe_area
+		alut_area
 		atbaras_area
 	}
 }
@@ -593,9 +611,6 @@ nubia_region = {		#7 areas
 	areas = {
 		south_nubia_area
 		napata_area
-		alana_area
-		meroe_area
-		alut_area
 		aswan_area
 		north_nubia_area
 	}

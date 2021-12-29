@@ -50,15 +50,15 @@ is_antagonist_aimod = {
 	ae_ceiling = 10
 }
 
-is_germanic_migrator_aimod = {
-	trigger = {
-		AND = {
-			government = tribal_chiefdom
-			country_culture_group = barbaric
-		}
-	}
-	migration_chance = 50
-}
+#is_germanic_migrator_aimod = {
+#	trigger = {
+#		AND = {
+#			government = tribal_chiefdom
+#			country_culture_group = barbaric
+#		}
+#	}
+#	migration_chance = 50
+#}
 
 is_tribal_aimod = {
 	trigger = {
