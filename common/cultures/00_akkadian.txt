@@ -42,7 +42,7 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = carthaginian_gfx
+	graphical_culture = arabian_gfx
 	ethnicities = {
 		10 = persian
 	}

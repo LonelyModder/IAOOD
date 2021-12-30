@@ -7,6 +7,7 @@ is_agressive_culture_aimod = {
 			primary_culture = persic
 			primary_culture = medic
 			primary_culture = scythoi
+			primary_culture = maghadic
 		}
 		manpower > 4
 	}
@@ -23,6 +24,7 @@ is_lacking_levies_pseudo_trigger = {
 			primary_culture = persic
 			primary_culture = medic
 			primary_culture = scythoi
+			primary_culture = maghadic
 		}
 	}
 	

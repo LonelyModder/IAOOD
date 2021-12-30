@@ -1201,7 +1201,6 @@
 	{
 		amount=3
 	}
-	port_building=1
 }
 #Neogilla
 4706=
@@ -1278,7 +1277,6 @@
 	{
 		amount=2
 	}
-	port_building=1
 }
 #Rabun
 4710=

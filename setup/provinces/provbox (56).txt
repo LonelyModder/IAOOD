@@ -1707,7 +1707,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="dribysesic"
+	culture="gelic"
 	province_rank="settlement"
 	religion="protoiranian_pantheon"
 	terrain="farmland"

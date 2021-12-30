@@ -265,7 +265,7 @@ aspadana_area = { #11
 }
 
 utia_area = { #12
-    provinces = { 4956 4957 4955 3411 3410 3408 3409 3402 3400 3401 3404 3403 }
+    provinces = { 4956 4957 4955 3411 3410 3408 3409 }
 }
 
 harmozeia_area = { #12
@@ -464,7 +464,7 @@ veshapur_area = { #11
 }
 
 persepolis_area = { #11
-    provinces = { 4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 4782 }
+    provinces = { 4799 4953 4950 4948 4949 4798 4951 3405 3406 6511 4978 4782 3401 3403 3404 3400 3402 }
 }
 
 amardioi_area = { #12
@@ -672,7 +672,7 @@ paphlagonia_inferior_area = { #12
 }
 
 bithynia_superior_area = { #12
-    provinces = { 322 323 324 325 326 327 7765 7914 224 329 221 225 7763 }
+    provinces = { 322 323 324 325 326 327 7765 7914 224 329 221 7763 }
 }
 
 phrygia_area = { #12
@@ -688,7 +688,7 @@ mysia_abrettene_area = { #12
 }
 
 galatia_area = { #12
-    provinces = { 175 188 189 190 192 228 229 227 191 181 316 328 }
+    provinces = { 175 188 189 190 192 228 229 227 191 181 316 328 225 }
 }
 
 galatia_trocmi_area = { #12
