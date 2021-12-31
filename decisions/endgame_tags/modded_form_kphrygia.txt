@@ -23,7 +23,6 @@
 					province_id = 316
 					province_id = 194
 					province_id = 195
-					province_id = 988
 					province_id = 178
 					province_id = 1934
 					province_id = 315
@@ -47,7 +46,6 @@
 			owns = 316
 			owns = 194
 			owns = 195
-			owns = 988
 			owns = 178
 			owns = 1934
 			owns = 315

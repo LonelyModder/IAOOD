@@ -756,7 +756,6 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="bceltic"
-	port_building=1
 	province_rank="settlement"
 	religion="celtic_pantheon"
 	terrain="marsh"
