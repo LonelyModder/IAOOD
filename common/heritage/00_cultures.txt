@@ -510,21 +510,6 @@ iberic_heritage = {
 	}
 }
 
-tartessian_heritage = {
-	modifier = {
-		#good
-		global_commerce_modifier = 0.5
-		global_tax_modifier = 0.25
-		
-		#bad
-		levy_size_multiplier = -0.025
-	}
-	
-	trigger = {
-		country_culture_group = tartessian
-	}
-}
-
 bakeric_heritage = {
 	modifier = {
 		#good

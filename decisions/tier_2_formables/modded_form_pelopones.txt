@@ -1,15 +1,19 @@
 ﻿country_decisions = {
 		
-	# Form Mittani
-	form_mittani = {
+	# Form Peloponesian League
+	form_pelopones = {
 		
 		potential = {
-			primary_culture = mittanic
+			OR = {
+				primary_culture = laconic
+				primary_culture = arcadic
+			}
 			#is_tribal = yes
 			NOT = {
-				tag = XMI
+				tag = XPL
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -17,74 +21,74 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 845
-					province_id = 830
-					province_id = 819
-					province_id = 862
-					province_id = 809
-					province_id = 844
+					province_id = 427
+					province_id = 418
+					province_id = 431
+					province_id = 439
+					province_id = 446
+					province_id = 7891
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = mittani_must_not_exist
+				text = pelopones_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XMI
+						tag = XPL
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 845
-			owns = 830
-			owns = 819
-			owns = 862
-			owns = 809
-			owns = 844
+			owns = 427
+			owns = 418
+			owns = 431
+			owns = 439
+			owns = 446
+			owns = 7891
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Mittani_Name"
-			change_country_flag = mittani_flag
+			change_country_name = "Pelopones_Name"
+			change_country_flag = GAA
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = aristocratic_monarchy
+				change_government = oligarchic_republic
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Mittani_ADJ"
-				change_country_color =  "mittani_color"
-				change_country_tag = XMI
+				change_country_adjective = "Pelopones_ADJ"
+				change_country_color =  "pelopones_color"
+				change_country_tag = XPL
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 844
+							province_id = 427
 						}
 					}
 				}
-				set_capital = 844
+				set_capital = 427
 				hidden_effect = {
-					p:844.state = {
-						set_state_capital = 844
+					p:427.state = {
+						set_state_capital = 427
 					}
 				}
 			}
-			p:844 = {
+			p:427 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:844 = {
+			p:427 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

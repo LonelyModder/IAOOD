@@ -43,6 +43,8 @@
 	culture = {
 		ilevantic = {}
 		agragic = {}
+		tartessic = {}
+		anteleic = {}
 	}
 	
 	barbarian_names = { AUSETANI BASTETANI LAIETANI CASTELLANI CERRETANI HELISYCES SORDONES PITYUSSAI }

@@ -1,18 +1,18 @@
 ﻿country_decisions = {
 		
-	# Form Urartu
-	form_urartu = {
+	# Form Etruria
+	form_lucomony = {
 		
 		potential = {
 			OR = {
-				primary_culture = bianilic
-				country_culture_group = hazzian
+				primary_culture = etrusci
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XUR
+				tag = XET
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -20,68 +20,86 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 1564
-					province_id = 978
-					province_id = 988
+					province_id = 16
+					province_id = 14
+					province_id = 17
+					province_id = 22
+					province_id = 114
+					province_id = 126
+					province_id = 135
+					province_id = 131
+					province_id = 124
+					province_id = 116
+					province_id = 120
+					province_id = 21
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = urartu_must_not_exist
+				text = lucomony_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XUR
+						tag = XET
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 1564
-			owns = 978
-			owns = 988
+			owns = 16
+			owns = 14
+			owns = 17
+			owns = 22
+			owns = 114
+			owns = 126
+			owns = 135
+			owns = 131
+			owns = 124
+			owns = 116
+			owns = 120
+			owns = 21
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Urartu_Name"
-			change_country_flag = haldi_flag
+			change_country_name = "Lucomony_Name"
+			change_country_flag = Lucomony_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = despotic_monarchy
+				change_government = oligarchic_republic
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Urartu_ADJ"
-				change_country_color =  "offwhite"
-				change_country_tag = XUR
+				change_country_adjective = "Lucomony_ADJ"
+				change_country_color = "lucomony_color"
+				change_country_tag = XET
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 988
+							province_id = 22
 						}
 					}
 				}
-				set_capital = 988
+				set_capital = 22
 				hidden_effect = {
-					p:988.state = {
-						set_state_capital = 988
+					p:22.state = {
+						set_state_capital = 22
 					}
 				}
 			}
-			p:988 = {
+			p:22 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:988 = {
+			p:22 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

@@ -1,15 +1,16 @@
 ﻿country_decisions = {
 	
-	# Form Pallistin
-	form_pallistin = {
+	# Form Karduniash
+	form_karduniash = {
 		
 		potential = {
-			primary_culture = philistine
+			country_culture_group = kassites
 			#is_tribal = yes
 			NOT = {
-				tag = XPA
+				tag = ABR
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -17,68 +18,64 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 777
-					province_id = 7985
-					province_id = 790
+					province_id = 918
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = pallistin_must_not_exist
+				text = karduniash_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XPA
+						tag = ABR
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 777
-			owns = 7985
-			owns = 790
+			owns = 918
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Pallistin_Name"
-			change_country_flag = Pallistin_Flag
+			change_country_name = "ABR"
+			change_country_flag = ABR
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = despotic_monarchy
+				change_government = aristocratic_monarchy
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Pallistin_Adj"
-				change_country_color =  "pallistin_color"
-				change_country_tag = XPA
+				change_country_adjective = "ABR_ADJ"
+				change_country_color =  "karduniash_color"
+				change_country_tag = ABR
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 790
+							province_id = 918
 						}
 					}
 				}
-				set_capital = 790
+				set_capital = 918
 				hidden_effect = {
-					p:790.state = {
-						set_state_capital = 790
+					p:918.state = {
+						set_state_capital = 918
 					}
 				}
 			}
-			p:790 = {
-				if = {
-					limit = { has_city_status = no }
-					set_city_status = city
-				}
-			}
-			p:790 = {
+			#p:918 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:918 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

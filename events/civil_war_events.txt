@@ -34,26 +34,6 @@ civil_war.1 = { #Civil war end event notifications for ORIGINAL COUNTRY WINNING
 		scope:target = {
 			save_scope_as = resistance_ruler
 		}
-		if = {
-			limit = {
-				num_of_cities >= 100
-			}
-			every_country = {
-				limit = {
-					NOR = {
-						this = ROOT
-						any_neighbour_country = {
-							this = ROOT
-						}
-					}
-					num_of_cities >= 100
-				}
-				trigger_event = { #Trigger infomercial
-					id = civil_war.2 
-					days = { 2 10 }
-				}
-			}
-		}
 	}
 
 }
@@ -94,6 +74,7 @@ civil_war.2 = {
 	}
 	
 	left_portrait = scope:victorious_side.current_ruler
+	right_portrait = scope:resistance_ruler
 	
 	immediate = {
 		
@@ -136,39 +117,6 @@ civil_war.3 = { #Civil war end event notifications for REBEL COUNTRY WINNING
 		scope:target = {
 			save_scope_as = resistance_ruler 
 		}
-		else = {
-			every_neighbour_country = {
-				limit = {
-					NOR = {
-						war_with = ROOT
-					}
-				}
-				trigger_event = { #Trigger infomercial
-					id = civil_war.4 
-					days = { 2 10 }
-				}
-			}
-		}
-		if = {
-			limit = {
-				num_of_cities >= 100
-			}
-			every_country = {
-				limit = {
-					NOR = {
-						this = ROOT
-						any_neighbour_country = {
-							this = ROOT
-						}
-					}
-					num_of_cities >= 100
-				}
-				trigger_event = { #Trigger infomercial for great powers, if civil war target is great.
-					id = civil_war.4
-					days = { 2 10 }
-				}
-			}
-		}
 	}
 }
 
@@ -208,6 +156,7 @@ civil_war.4 = {
 	}
 	
 	left_portrait = scope:victorious_side.current_ruler
+	right_portrait = scope:resistance_ruler
 	
 	immediate = {
 		
@@ -229,41 +178,20 @@ civil_war.5 = {
 	
 	picture = romans_marching
 	
-	trigger = {
-		NOR = { 
-		}
-	}
-	
 	immediate = {
-		current_ruler = { add_popularity = 30 }
-		add_greater_stability_effect = yes
+		add_stability_effect = yes
 		add_country_modifier = {
 			name = civil_war_benefits
 			duration = 1825
 		}
 		hidden_effect = {
-			scope:target = {
-				add_to_list = traitor_list
-				move_country = ROOT
-				set_home_country = ROOT
-				if = {
-					limit = { is_minor_character = yes }
-					set_as_minor_character = THIS
-				}
-			}
 			scope:civil_war_target = {
 				every_family = {
+					move_family = ROOT
 					every_living_character = {
 						limit = {
 							family = PREV
-							is_minor_character = no
 							from_ruler_family = no
-						}
-						if = {
-							limit = {
-								employer = scope:civil_war_target
-							}
-							add_to_list = traitor_list
 						}
 						if = {
 							limit = {
@@ -276,26 +204,16 @@ civil_war.5 = {
 							move_country = ROOT
 						}
 					}
-					move_family = ROOT
 				}
 				every_character = {
 					limit = { is_minor_character = yes }
 					move_country = ROOT
 					set_home_country = ROOT
 					set_as_minor_character = THIS
-					add_to_list = traitor_list
 				}
 				every_character = {
-					if = {
-						limit = { is_adult = yes }
-						death = {
-							death_reason = death_crucified
-						}
-					}
-					else = {
-						death = {
-							death_reason = death_obscurity
-						}
+					death = {
+						death_reason = death_crucified
 					}
 				}
 			}
@@ -311,32 +229,14 @@ civil_war.5 = {
 	
 	option = {
 		name = "civil_war.5.a"
-		ai_chance = {
-			factor = 0
-		}
 		add_manpower = {
 			value = root.max_manpower
 			divide = 4
-		}
-		every_in_list = {
-			limit = {
-				is_alive = yes
-				is_adult = yes #No need to punish children for the rest of their lives
-			}
-			custom = loser_tt
-			list = traitor_list
-			add_character_modifier = {
-				name = "traitor_in_civil_war_modifier"
-				duration = -1
-			}
 		}
 	}
 	
 	option = {
 		name = "civil_war.5.b"
-		ai_chance = {
-			factor = 100
-		}
 		custom_tooltip = "forgiving_bad_tooltip"
 		trigger = {
 			current_ruler = {
@@ -351,50 +251,20 @@ civil_war.5 = {
 				target = root
 			}
 		}
-		every_in_list = {
-			limit = {
-				is_alive = yes
-				is_adult = yes #No need to punish children for the rest of their lives
-			}
-			custom = loser_tt
-			list = traitor_list
-			add_character_modifier = {
-				name = "traitor_in_civil_war_modifier"
-				duration = -1
-			}
-		}
+		
 	}
 	
 	option = {
 		name = "civil_war.5.c"
-		ai_chance = {
-			factor = 100
-		}
 		add_country_modifier = {
 			name = civil_war_decimation
 			duration = 1825
 		}
 		custom_tooltip = civil_war_5_kill_all
 		hidden_effect = {
-			every_in_list = {
-				limit = { is_alive = yes }
-				list = traitor_list
-				if = {
-					limit = { is_adult = yes }
-					death = {
-						death_reason = death_crucified
-					}
-				}
-				else = {
-					death = {
-						death_reason = death_obscurity
-					}
-				}
+			every_character = {
+				add_loyalty = loyalty_civil_war_victory
 			}
-		}
-		every_character = {
-			custom = all_non_traitors_tt
-			add_loyalty = loyalty_civil_war_victory
 		}
 	}
 	
@@ -408,11 +278,6 @@ civil_war.6 = {
 	
 	left_portrait = root.current_ruler
 	right_portrait = scope:target
-	
-	trigger = {
-		NOR = { 
-		}
-	}
 	
 	immediate = {
 		add_stability_effect = yes

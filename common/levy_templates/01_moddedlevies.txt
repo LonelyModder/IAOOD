@@ -447,17 +447,6 @@ levy_bosquian = { #Vasconic militia
 	chariot_light = 0.1
 }
 
-#Tartessian
-
-levy_tartessian = { #Tartessian militia
-	default = no
-
-	missile_spearthrowers = 0.3
-	light_spearmen = 0.4
-	light_swordsmen = 0.2
-	chariot_light = 0.2
-}
-
 #Etrurians
 
 levy_thyrrenic = { #Etruscan militia

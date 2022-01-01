@@ -1,18 +1,18 @@
 ﻿country_decisions = {
 		
-	# Form Peloponesian League
-	form_pelopones = {
+	# Form Lydia
+	form_croesus = {
 		
 		potential = {
 			OR = {
-				primary_culture = laconic
-				primary_culture = arcadic
+				primary_culture = lydii
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XPL
+				tag = XLY
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -20,74 +20,70 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 427
-					province_id = 418
-					province_id = 431
-					province_id = 439
-					province_id = 446
-					province_id = 7891
+					province_id = 296
+					province_id = 292
+					province_id = 1947
+					province_id = 295
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = pelopones_must_not_exist
+				text = croesus_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XPL
+						tag = XLY
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 427
-			owns = 418
-			owns = 431
-			owns = 439
-			owns = 446
-			owns = 7891
+			owns = 296
+			owns = 292
+			owns = 1947
+			owns = 295
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Pelopones_Name"
-			change_country_flag = GAA
+			change_country_name = "Croesus_Name"
+			change_country_flag = Croesus_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = oligarchic_republic
+				change_government = despotic_monarchy
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Pelopones_ADJ"
-				change_country_color =  "pelopones_color"
-				change_country_tag = XPL
+				change_country_adjective = "Croesus_ADJ"
+				change_country_color =  "croesus_color"
+				change_country_tag = XLY
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 427
+							province_id = 292
 						}
 					}
 				}
-				set_capital = 427
+				set_capital = 292
 				hidden_effect = {
-					p:427.state = {
-						set_state_capital = 427
+					p:292.state = {
+						set_state_capital = 292
 					}
 				}
 			}
-			p:427 = {
+			p:292 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:427 = {
+			p:292 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

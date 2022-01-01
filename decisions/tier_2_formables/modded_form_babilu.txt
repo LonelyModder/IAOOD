@@ -9,7 +9,8 @@
 			NOT = {
 				tag = ADZ
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}

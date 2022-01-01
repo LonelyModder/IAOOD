@@ -1,18 +1,18 @@
 ﻿country_decisions = {
 		
-	# Form Israel
-	form_unisrael = {
+	# Form Kush
+	form_napata = {
 		
 		potential = {
 			OR = {
-				primary_culture = judean
-				primary_culture = israelic
+				country_culture_group = nubian
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XIS
+				tag = XNA
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -20,32 +20,30 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 691
-					province_id = 679
-					province_id = 720
+					province_id = 626
+					province_id = 608
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = unisrael_must_not_exist
+				text = napata_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XIS
+						tag = XNA
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 691
-			owns = 679
-			owns = 720
+			owns = 626
+			owns = 608
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Unisrael_Name"
-			change_country_flag = JAA
+			change_country_name = "Napata_Name"
+			change_country_flag = Napata_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -56,32 +54,32 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Unisrael_ADJ"
-				change_country_color = "unisrael_color"
-				change_country_tag = XIS
+				change_country_adjective = "Napata_ADJ"
+				change_country_color = "napata_color"
+				change_country_tag = XNA
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 691
+							province_id = 626
 						}
 					}
 				}
-				set_capital = 691
+				set_capital = 626
 				hidden_effect = {
-					p:691.state = {
-						set_state_capital = 691
+					p:626.state = {
+						set_state_capital = 626
 					}
 				}
 			}
-			p:691 = {
+			p:626 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:691 = {
+			p:626 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

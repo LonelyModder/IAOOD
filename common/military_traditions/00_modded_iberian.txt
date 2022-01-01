@@ -16,7 +16,7 @@
 					is_integrated = yes
 					OR = {
 						this.culture.culture_group = culture_group:iberic
-						this.culture.culture_group = culture_group:tartessian
+						this.culture.culture_group = culture_group:bosquian
 					}
 				}
 			}
@@ -26,7 +26,7 @@
 					is_integrated = yes
 					OR = {
 						this.culture.culture_group = culture_group:iberic
-						this.culture.culture_group = culture_group:tartessian
+						this.culture.culture_group = culture_group:bosquian
 					}
 				}
 			}
@@ -38,7 +38,6 @@
 					is_integrated = yes
 					OR = {
 						this.culture.culture_group = culture_group:iberic
-						this.culture.culture_group = culture_group:tartessian
 						this.culture.culture_group = culture_group:bosquian
 					}	
 				}

@@ -15,7 +15,7 @@
 				tag = XAN
 				tag = XME
 			}
-			NOT = {
+			NOR = {
 				is_endgame_tag_trigger = yes
 			}
 		}

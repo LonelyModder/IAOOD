@@ -13,7 +13,7 @@
 				tag = ABP
 				tag = ADZ
 			}
-			NOT = {
+			NOR = {
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -62,7 +62,7 @@
 		}
 		
 		effect = {
-			custom_tooltip = "tier_2_formable_tooltip"
+			custom_tooltip = "tier_3_formable_tooltip"
 			change_country_name = "Agade_Name"
 			change_country_flag = Agade_Flag
 			if = {

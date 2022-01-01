@@ -6,10 +6,10 @@ ia_startup.1 = { #Mesopotamia
     desc = ia_startup.1.desc
     picture = aqueducts
     
-    left_portrait = c:A92.current_ruler
-    left_portrait = c:A39.current_ruler
-	right_portrait = c:J02.current_ruler
-	right_portrait = c:J01.current_ruler
+    left_portrait = c:ADZ.current_ruler
+    left_portrait = c:ABP.current_ruler
+	right_portrait = c:JAA.current_ruler
+	right_portrait = c:JAB.current_ruler
 
     trigger = {
 		OR = {
@@ -18,9 +18,172 @@ ia_startup.1 = { #Mesopotamia
 			country_culture_group = synaic
 		}
     }
-
+	
     option = {    
         name = ia_startup.1.a
+		hidden_effect = {
+			#Babylonian claims		
+			c:ABK = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABE = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABR = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABD = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABC = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABA = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABH = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABL = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABI = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ABJ = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ACS = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ACT = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			c:ACR = {
+				every_owned_province = { add_claim = c:ADZ }
+			}
+			#Assyrian claims
+			c:ADZ = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABE = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABK = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABR = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABD = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABC = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABA = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABH = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABL = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABI = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABJ = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ACS = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ACT = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ACR = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ADY = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ACZ = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ACN = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ADW = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABW = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABB = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAZ = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAY = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABF = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABO = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAW = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAU = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAS = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAT = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAR = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAP = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAO = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:ABS = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:HAC = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAF = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAH = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAD = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:HAA = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAC = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAB = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+			c:AAG = {
+				every_owned_province = { add_claim = c:ABP }
+			}
+		}
     }
 }
 
@@ -30,11 +193,11 @@ ia_startup.2 = { #Egypt
     desc = ia_startup.2.desc
     picture = aqueducts
     
-    left_portrait = c:E01.current_ruler
-	left_portrait = c:E03.current_ruler
-	left_portrait = c:E25.current_ruler
-	right_portrait = c:E05.current_ruler
-	right_portrait = c:N07.current_ruler
+    left_portrait = c:EAA.current_ruler
+	left_portrait = c:EAB.current_ruler
+	left_portrait = c:EAC.current_ruler
+	right_portrait = c:EAG.current_ruler
+	right_portrait = c:EAF.current_ruler
 
     trigger = {
     	OR = {
@@ -55,9 +218,9 @@ ia_startup.3 = { #Kanaan and Phoenicia
     desc = ia_startup.3.desc
     picture = aqueducts
 	
-    left_portrait = c:J07.current_ruler
-	left_portrait = c:J20.current_ruler
-	right_portrait = c:J06.current_ruler
+    left_portrait = c:JAL.current_ruler
+	left_portrait = c:JAP.current_ruler
+	right_portrait = c:JAC.current_ruler
 	
     trigger = {
     	OR = {
@@ -77,8 +240,8 @@ ia_startup.4 = { #Saba and Damot
     desc = ia_startup.4.desc
     picture = aqueducts
     
-    left_portrait = c:K06.current_ruler
-	right_portrait = c:K05.current_ruler
+    left_portrait = c:KAE.current_ruler
+	right_portrait = c:KAF.current_ruler
 
     trigger = {
     	OR = {
@@ -97,8 +260,6 @@ ia_startup.5 = { #Caucasus Region
     title = ia_startup.5.t
     desc = ia_startup.5.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -119,8 +280,8 @@ ia_startup.6 = { #Zagros Mountains
     desc = ia_startup.6.desc
     picture = aqueducts
     
-	left_portrait = c:A45.current_ruler
-    left_portrait = c:A57.current_ruler
+	left_portrait = c:ABR.current_ruler
+    left_portrait = c:ABY.current_ruler
 
     trigger = {
     	OR = {
@@ -140,7 +301,7 @@ ia_startup.7 = { #Iranian Platau
     desc = ia_startup.7.desc
     picture = aqueducts
     
-    left_portrait = c:P10.current_ruler
+    left_portrait = c:PAJ.current_ruler
 
     trigger = {
     	OR = {
@@ -159,8 +320,6 @@ ia_startup.8 = { #Eurasian Steppes
     title = ia_startup.8.t
     desc = ia_startup.8.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -180,8 +339,8 @@ ia_startup.9 = { #Anatolia and Thrace
     desc = ia_startup.9.desc
     picture = aqueducts
     
-    left_portrait = c:H03.current_ruler
-	right_portrait = c:H19.current_ruler
+    left_portrait = c:HAT.current_ruler
+	right_portrait = c:HCM.current_ruler
 
     trigger = {
     	OR = {
@@ -202,9 +361,9 @@ ia_startup.10 = { #Greece
     desc = ia_startup.10.desc
     picture = aqueducts
     
-    left_portrait = c:G20.current_ruler
-	left_portrait = c:G20.current_co_ruler
-	right_portrait = c:T45.current_ruler
+    left_portrait = c:GAA.current_ruler
+	left_portrait = c:GAA.current_co_ruler
+	right_portrait = c:TBY.current_ruler
 
     trigger = {
     	OR = {
@@ -222,8 +381,6 @@ ia_startup.11 = { #Italy
     title = ia_startup.11.t
     desc = ia_startup.11.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -243,8 +400,6 @@ ia_startup.12 = { #Illyrians and Nuragians
     title = ia_startup.12.t
     desc = ia_startup.12.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -265,13 +420,12 @@ ia_startup.13 = { #Iberia
     desc = ia_startup.13.desc
     picture = aqueducts
     
-    left_portrait = c:S01.current_ruler
+    left_portrait = c:SAA.current_ruler
 
     trigger = {
     	OR = {
 			country_culture_group = bosquian
 			country_culture_group = iberic
-			country_culture_group = tartessian
 		}
     }
 
@@ -285,8 +439,6 @@ ia_startup.14 = { #Celts
     title = ia_startup.14.t
     desc = ia_startup.14.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -306,8 +458,6 @@ ia_startup.15 = { #Northerners
     title = ia_startup.15.t
     desc = ia_startup.15.desc
     picture = aqueducts
-    
-    #left_portrait = c:K06.current_ruler
 
     trigger = {
     	OR = {
@@ -328,9 +478,9 @@ ia_startup.16 = { #Vedic and Dravidan tribes
     desc = ia_startup.16.desc
     picture = aqueducts
     
-	left_portrait = c:V15.current_ruler
-	left_portrait = c:V21.current_ruler
-	left_portrait = c:V24.current_ruler
+	left_portrait = c:VAO.current_ruler
+	left_portrait = c:RDS.current_ruler
+	left_portrait = c:VBA.current_ruler
 
     trigger = {
     	OR = {

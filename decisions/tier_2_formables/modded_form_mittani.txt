@@ -1,17 +1,16 @@
 ﻿country_decisions = {
 		
-	# Form Phrygia
-	form_kphrygia = {
+	# Form Mittani
+	form_mittani = {
 		
 		potential = {
-			OR = {
-				primary_culture = phrygic
-			}
+			primary_culture = mittanic
 			#is_tribal = yes
 			NOT = {
-				tag = XPG
+				tag = XMI
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -19,80 +18,74 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 189
-					province_id = 316
-					province_id = 194
-					province_id = 195
-					province_id = 178
-					province_id = 1934
-					province_id = 315
-					province_id = 319
-					province_id = 1941
+					province_id = 845
+					province_id = 830
+					province_id = 819
+					province_id = 862
+					province_id = 809
+					province_id = 844
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = kphrygia_must_not_exist
+				text = mittani_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XPG
+						tag = XMI
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 189
-			owns = 316
-			owns = 194
-			owns = 195
-			owns = 178
-			owns = 1934
-			owns = 315
-			owns = 319
-			owns = 1941
+			owns = 845
+			owns = 830
+			owns = 819
+			owns = 862
+			owns = 809
+			owns = 844
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Kphrygia_Name"
-			change_country_flag = HAT
+			change_country_name = "Mittani_Name"
+			change_country_flag = mittani_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = despotic_monarchy
+				change_government = aristocratic_monarchy
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Kphrygia_ADJ"
-				change_country_color = "kphrygia_color"
-				change_country_tag = XPG
+				change_country_adjective = "Mittani_ADJ"
+				change_country_color =  "mittani_color"
+				change_country_tag = XMI
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 189
+							province_id = 844
 						}
 					}
 				}
-				set_capital = 189
+				set_capital = 844
 				hidden_effect = {
-					p:189.state = {
-						set_state_capital = 189
+					p:844.state = {
+						set_state_capital = 844
 					}
 				}
 			}
-			p:189 = {
+			p:844 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:189 = {
+			p:844 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

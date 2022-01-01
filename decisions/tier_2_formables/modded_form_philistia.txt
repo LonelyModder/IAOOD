@@ -1,15 +1,16 @@
 ﻿country_decisions = {
 	
-	# Form Anshan
-	form_anshan = {
+	# Form Philistia
+	form_philistia = {
 		
 		potential = {
-			primary_culture = persic
+			primary_culture = philistine
 			#is_tribal = yes
 			NOT = {
-				tag = XAN
+				tag = XPH
 			}
-			NOT = {
+			NOR = {
+				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
 		}
@@ -17,28 +18,36 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 4950
+					province_id = 659
+					province_id = 660
+					province_id = 661
+					province_id = 685
+					province_id = 690
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = anshan_must_not_exist
+				text = philistia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XAN
+						tag = XPH
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 4950
+			owns = 659
+			owns = 660
+			owns = 661
+			owns = 685
+			owns = 690
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "Anshan_Name"
-			change_country_flag = P10
+			change_country_name = "Philistia_Name"
+			change_country_flag = Philistia_Flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -49,32 +58,32 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "Anshan_Adj"
-				#change_country_color =  "anshan_color"
-				change_country_tag = XAN
+				change_country_adjective = "Philistia_Adj"
+				change_country_color =  "philistia_color"
+				change_country_tag = XPH
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 4950
+							province_id = 690
 						}
 					}
 				}
-				set_capital = 4950
+				set_capital = 690
 				hidden_effect = {
-					p:4950.state = {
-						set_state_capital = 4950
+					p:690.state = {
+						set_state_capital = 690
 					}
 				}
 			}
-			p:4950 = {
+			p:690 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:4950 = {
+			p:690 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

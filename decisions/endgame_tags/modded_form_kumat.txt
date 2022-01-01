@@ -4,19 +4,19 @@
 	form_kumat = {
 		
 		potential = {
-			OR = {
-				country_culture_group = kemetic
-				country_culture_group = libyan
-				tag = 1NA
-			}
+			#OR = {
+			#	country_culture_group = kemetic
+			#	country_culture_group = libyan
+			#	tag = XNA
+			#}
 			religion = kemetic_pantheon
 			#is_tribal = yes
 			NOT = {
 				tag = XKE
 			}
-			#NOT = {
-			#	is_endgame_tag_trigger = yes
-			#}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
 		}
 		
 		highlight = {
@@ -45,7 +45,7 @@
 		}
 		
 		effect = {
-			custom_tooltip = "tier_2_formable_tooltip"
+			custom_tooltip = "tier_3_formable_tooltip"
 			if = {
 				limit = {
 					OR = {
