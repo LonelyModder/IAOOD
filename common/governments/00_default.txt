@@ -374,7 +374,7 @@ tribal_federation = {
 	}
 	base = {
 		country_civilization_value = 10
-		levy_size_multiplier = 0.1
+		levy_size_multiplier = 0.2
 	}
 
 	election_delay = 0

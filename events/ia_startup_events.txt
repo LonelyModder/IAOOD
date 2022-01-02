@@ -209,6 +209,20 @@ ia_startup.2 = { #Egypt
 
     option = {    
         name = ia_startup.2.a
+		hidden_effect = {
+			#Pharoh claims		
+			c:EAC = { every_owned_province = { add_claim = c:EAA } }
+			c:EAB = { every_owned_province = { add_claim = c:EAA } }
+			c:EAG = { every_owned_province = { add_claim = c:EAA } }
+			#Son claims
+			c:EAA = { every_owned_province = { add_claim = c:EAC } }
+			c:EAB = { every_owned_province = { add_claim = c:EAC } }
+			c:EAG = { every_owned_province = { add_claim = c:EAC } }
+			#Priest claims
+			c:EAC = { every_owned_province = { add_claim = c:EAB } }
+			c:EAA = { every_owned_province = { add_claim = c:EAB } }
+			c:EAG = { every_owned_province = { add_claim = c:EAB } }
+		}
     }
 }
 

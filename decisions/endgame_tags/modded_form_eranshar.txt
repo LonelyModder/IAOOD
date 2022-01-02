@@ -85,23 +85,42 @@
 							province_id = 4799
 						}
 					}
+					primary_culture = medic
 				}
+				set_capital = 1595
+				hidden_effect = {
+					p:1595.state = {
+						set_state_capital = 1595
+					}
+				}
+				p:1595 = {
+					if = {
+						limit = { has_city_status = no }
+						set_city_status = city
+					}
+				}
+				p:1595 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			else = {
 				set_capital = 4799
 				hidden_effect = {
 					p:4799.state = {
 						set_state_capital = 4799
 					}
 				}
-			}
-			p:4799 = {
-				if = {
-					limit = { has_city_status = no }
-					set_city_status = city
+				p:4799 = {
+					if = {
+						limit = { has_city_status = no }
+						set_city_status = city
+					}
 				}
-			}
-			p:4799 = {
-				capital_formable_medium_effect = yes
-				formable_capital_modifier_normal_effect = yes
+				p:4799 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
 			}
 			add_country_modifier = {
 				name = "persia_unified"

@@ -9,7 +9,10 @@
 			#	country_culture_group = libyan
 			#	tag = XNA
 			#}
-			religion = kemetic_pantheon
+			OR = {
+				tag = XNA
+				religion = kemetic_pantheon
+			}
 			#is_tribal = yes
 			NOT = {
 				tag = XKE
@@ -69,7 +72,7 @@
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = despotic_monarchy
+				change_government = aristocratic_monarchy
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {

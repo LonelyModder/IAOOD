@@ -21,6 +21,7 @@
 					province_id = 1595 #Ecbatana
 					province_id = 4991
 					province_id = 4979
+					province_id = 4963
 				}
 			}
 		}
@@ -38,6 +39,7 @@
 			owns = 1595
 			owns = 4991
 			owns = 4979
+			owns = 4963
 		}
 		
 		effect = {

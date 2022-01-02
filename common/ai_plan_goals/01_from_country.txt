@@ -8,6 +8,7 @@ is_agressive_culture_aimod = {
 			primary_culture = medic
 			primary_culture = scythoi
 			primary_culture = maghadic
+			primary_culture = lydii
 		}
 		manpower > 4
 	}
@@ -25,22 +26,11 @@ is_lacking_levies_pseudo_trigger = {
 			primary_culture = medic
 			primary_culture = scythoi
 			primary_culture = maghadic
+			primary_culture = lydii
 		}
 	}
 	
 	aggressive = -500
-}
-
-is_calmer_culture_aimod = {
-	trigger = {
-		OR = {
-			country_culture_group = elamitic
-			country_culture_group = dravidic
-			country_culture_group = aramaic
-			country_culture_group = luwian
-		}
-	}
-	aggressive = -420
 }
 
 is_antagonist_aimod = {
@@ -52,15 +42,14 @@ is_antagonist_aimod = {
 	ae_ceiling = 10
 }
 
-#is_germanic_migrator_aimod = {
-#	trigger = {
-#		AND = {
-#			government = tribal_chiefdom
-#			country_culture_group = barbaric
-#		}
-#	}
-#	migration_chance = 50
-#}
+is_migrator_aimod = {
+	trigger = {
+		AND = {
+			government = tribal_chiefdom
+		}
+	}
+	migration_chance = 50
+}
 
 is_tribal_aimod = {
 	trigger = {
@@ -82,5 +71,6 @@ is_monarchy_aimod = {
 	trigger = {
 		is_monarchy = yes
 	}
+	aggressive = 15
 	ruler_popularity_gain = 2000
 }

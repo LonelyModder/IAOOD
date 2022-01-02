@@ -33,6 +33,15 @@
 }
 
 Osorkons_rebelion_conflict_effect = {
+	c:EAG = {
+		add_alliance = EAF
+		add_alliance = EAJ
+		add_alliance = EAI
+		add_alliance = EAE
+		add_alliance = EAK
+		add_alliance = EAM
+		add_alliance = LAY
+	}
 	c:EAA = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
@@ -40,38 +49,19 @@ Osorkons_rebelion_conflict_effect = {
 			target = c:EAG
 		}
 	}
+	c:EAG = {
+		break_alliance = EAF
+		break_alliance = EAJ
+		break_alliance = EAI
+		break_alliance = EAE
+		break_alliance = EAK
+		break_alliance = EAM
+		break_alliance = LAY
+	}
 }
 
 Distatnt_descendent_of_elam_conflict_effect = {
 	c:ADZ = {
-		declare_war_with_wargoal = {
-			war_goal = diadochi_wargoal
-		    province = p:926
-			target = c:ABR
-		}
-	}
-	c:ABL = {
-		declare_war_with_wargoal = {
-			war_goal = diadochi_wargoal
-		    province = p:926
-			target = c:ABR
-		}
-	}
-	c:ABJ = {
-		declare_war_with_wargoal = {
-			war_goal = diadochi_wargoal
-		    province = p:926
-			target = c:ABR
-		}
-	}
-	c:ABH = {
-		declare_war_with_wargoal = {
-			war_goal = diadochi_wargoal
-		    province = p:926
-			target = c:ABR
-		}
-	}
-	c:ADW = {
 		declare_war_with_wargoal = {
 			war_goal = diadochi_wargoal
 		    province = p:926
