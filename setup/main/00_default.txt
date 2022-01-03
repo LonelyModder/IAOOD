@@ -4804,6 +4804,13 @@ country = {
 			religion = protoiranian_pantheon
 			capital = 4951
 			
+			poptype_rights = { 
+				{
+					culture = anshanian 
+					type = citizen
+				}
+			}
+			
 			own_control_core = 	{ 
 				4799 4798 3405 4951 3401 4792 4797
 			}
