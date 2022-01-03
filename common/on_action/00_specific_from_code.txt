@@ -293,7 +293,7 @@ on_reign_ending_successor = { #scope:former_ruler = the successor, because onact
 		else_if = {
 			limit = {
 				NOT = { has_law = elective_succession_law }
-				heritage = attalid_heritage
+				#heritage = attalid_heritage
 				exists = fam:Attalid
 				scope:former_ruler = {
 					NOT = { THIS = char:67 } # Attalos, father of Philetairos, Eumenes, and Attalos

@@ -8,7 +8,7 @@
 
 	country = {
 		build_cost = -0.1
-		levy_size_multiplier = 0.05
+		global_monthly_state_loyalty = 0.05
 	}
 	
 }
@@ -23,7 +23,7 @@ achemenids = {
 
 	country = {
 		happiness_for_wrong_culture_group_modifier = wrong_culture_group_large
-		global_monthly_state_loyalty = 0.05
+		levy_size_multiplier = 0.05
 	}
 	
 }

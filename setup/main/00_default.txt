@@ -547,14 +547,6 @@ diplomacy = {
 		member = JAT
 		member = JAU
 	}
-	#Osorkon the Elder and some of the rebel leaders
-	#dependency = { first = EAG second = EAF subject_type = feudatory }
-	#dependency = { first = EAG second = EAJ subject_type = feudatory }
-	#dependency = { first = EAG second = EAI subject_type = feudatory }
-	#dependency = { first = EAG second = EAE subject_type = feudatory }
-	#dependency = { first = EAG second = EAK subject_type = feudatory }
-	#dependency = { first = EAG second = EAM subject_type = feudatory }
-	#dependency = { first = EAG second = LAY subject_type = feudatory }
 	#Babylonian migrant leader
 	dependency = { first = ADZ second = ABE subject_type = tributary }
 	#Assyrian kaskan subject
@@ -575,10 +567,9 @@ diplomacy = {
 	dependency = { first = NAG second = NAH subject_type = feudatory }
 	#Siamun and some nomarchs loyal to him
 	dependency = { first = EAC second = EAW subject_type = feudatory }
-	dependency = { first = EAC second = EAS subject_type = feudatory }
-	dependency = { first = EAC second = EAT subject_type = feudatory }
-	#Elam ties with Ellipi
+	#Elam ties with Ellipi and weakening control over Anshan
 	dependency = { first = ACK second = ACL subject_type = tributary }
+	dependency = { first = ACK second = VCK subject_type = tributary }
 	#Macedon and their mountain semi tribal vassals
 	dependency = { first = TBY second = TCC subject_type = feudatory }
 }
@@ -2108,17 +2099,6 @@ country = {
 			religion = judahic
 			capital = 691
 			
-			poptype_rights = { 
-				{
-					culture = israelic 
-					type = citizen
-				}
-				{
-					culture = dannien 
-					type = citizen
-				}
-			}
-			
 			own_control_core = 	{ 
 				691 688 689 692 711 695 710 700
 			}
@@ -2139,17 +2119,6 @@ country = {
 			primary_culture = israelic
 			religion = judahic
 			capital = 720
-			
-			poptype_rights = { 
-				{
-					culture = judean 
-					type = citizen
-				}
-				{
-					culture = dannien 
-					type = citizen
-				}
-			}
 			
 			own_control_core = 	{ 
 				680 683 684 682 686 679 719 713 717 715 720 676 675 
@@ -3595,8 +3564,8 @@ country = {
 			}
 		}
 		
-		ACC = { #Ameka
-			government = tribal_kingdom
+		ACC = { #Lullubu
+			government = tribal_federation
 			primary_culture = lullubian
 			religion = kassite_pantheon
 			capital = 958
@@ -3640,7 +3609,7 @@ country = {
 		}
 		
 		ACJ = { #Dagara
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = lullubian
 			religion = kassite_pantheon
 			capital = 1518
@@ -3666,8 +3635,8 @@ country = {
 			
 			own_control_core = 	{ 
 				946 947 948 4969 980 975 949 950 972 970 951 952 967 966 945 969 943 4779 974
-				4780 4784 4785 4782 4953 4950 4948 4949 4796 4781 4795 4786 4787
-			}
+				4780   
+			}    
 		}
 		
 		ACL = { #Ellipi
@@ -4425,17 +4394,6 @@ country = {
 			
 			own_control_core = 	{ 
 				4697 4681 4691 4643 4642
-			}
-		}
-		
-		KAG = { #Blemmya
-			government = tribal_kingdom
-			primary_culture = medjay
-			religion = ethiopian_pantheon
-			capital = 7500
-			
-			own_control_core = 	{ 
-				7500 7501 7599
 			}
 		}
 		
@@ -5371,7 +5329,7 @@ country = {
 		}
 		
 		PDS = { #Scythians
-			government = tribal_kingdom
+			government = tribal_federation
 			primary_culture = scythoi
 			religion = scythic_pantheon
 			capital = 6201
@@ -5738,7 +5696,7 @@ country = {
 			capital = 3068
 			
 			own_control_core = 	{ 
-				3064 3062 3061 3078 3076 3077 
+				3064 3062 3061 3078 3076 3077 3075
 			}
 			
 		}
@@ -5762,7 +5720,7 @@ country = {
 			capital = 3063
 			
 			own_control_core = 	{ 
-				3063 3066 3065 3074 3070 3071
+				3063 3066 3065 3074 3070 3071 3069 3067 3073
 			}
 			
 		}
@@ -5799,18 +5757,6 @@ country = {
 			
 			own_control_core = 	{ 
 				3095 3100 3096 3093 3092 3091 
-			}
-			
-		}
-		
-		LCH = { #Cenavi
-			government = tribal_chiefdom
-			primary_culture = massaesylic
-			religion = libyan_pantheon
-			capital = 3104
-			
-			own_control_core = 	{ 
-				3104 3103 3099 3105 
 			}
 			
 		}
@@ -5859,18 +5805,6 @@ country = {
 			
 			own_control_core = 	{ 
 				3214 3216 3247 3208 3210 3246 3248 3209 3197
-			}
-			
-		}
-		
-		LCR = { #Bagai
-			government = tribal_chiefdom
-			primary_culture = massylic
-			religion = libyan_pantheon
-			capital = 3182
-			
-			own_control_core = 	{ 
-				3182 3167 3184 3168
 			}
 			
 		}
@@ -6016,17 +5950,6 @@ country = {
 			}
 		}
 		
-		NAS = { #Anak
-			government = tribal_kingdom
-			primary_culture = south_nubian
-			religion = ethiopian_pantheon
-			capital = 7587
-			
-			own_control_core = 	{ 
-				7587 3322
-			}
-		}
-		
 		NAU = { #Meroe
 			government = tribal_kingdom
 			primary_culture = meroitic_nubian
@@ -6035,17 +5958,6 @@ country = {
 			
 			own_control_core = 	{ 
 				641 638 639
-			}
-		}
-		
-		NAW = { #Naqa
-			government = tribal_kingdom
-			primary_culture = meroitic_nubian
-			religion = ethiopian_pantheon
-			capital = 644
-			
-			own_control_core = 	{ 
-				644 3311
 			}
 		}
 		
@@ -10904,7 +10816,7 @@ country = {
 		}
 		
 		SAB = { #Mastia
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1036
@@ -10916,7 +10828,7 @@ country = {
 		}
 		
 		SAC = { #Mainake
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1362
@@ -10928,7 +10840,7 @@ country = {
 		}
 		
 		SAM = { #Bevipo
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1318
@@ -10940,7 +10852,7 @@ country = {
 		}
 		
 		SAN= { #Selli
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1298
@@ -10952,7 +10864,7 @@ country = {
 		}
 		
 		SAO = { #Sexi
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1367
@@ -10964,7 +10876,7 @@ country = {
 		}
 		
 		SAP = { #Murgi
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = tartessic
 			religion = canaanitic_pantheon
 			capital = 1282
@@ -13234,14 +13146,14 @@ country = {
 			
 		}
 		
-		VCK = { #Palanda
-			government = aristocratic_republic
-			primary_culture = svedic
-			religion = vedic_pantheon
-			capital = 4491
+		VCK = { #Anshan
+			government = despotic_monarchy
+			primary_culture = anshanian
+			religion = elamite_pantheon
+			capital = 4950
 			
 			own_control_core = 	{ 
-				4491 7417 7416 4489
+				4950 4948 4949 4953 4782 4781 4796 4795 4786 4787 4785 4784
 			}
 			
 		}
@@ -13253,7 +13165,7 @@ country = {
 			capital = 4478
 			
 			own_control_core = 	{ 
-				4478 7419
+				4478 7419 4491 7417 7416 4489
 			}
 			
 		}
@@ -13423,19 +13335,7 @@ country = {
 			capital = 4495
 			
 			own_control_core = 	{ 
-				4495 4496
-			}
-			
-		}
-		
-		VDC = { #Pulindakas
-			government = aristocratic_republic
-			primary_culture = svedic
-			religion = vedic_pantheon
-			capital = 7430
-			
-			own_control_core = 	{ 
-				7430 7431
+				4495 4496 7430 7431
 			}
 			
 		}
@@ -13562,18 +13462,6 @@ country = {
 			
 		}
 		
-		RAJ = { #Mohur
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6942
-			
-			own_control_core = 	{ 
-				6942 
-			}
-			
-		}
-		
 		RAK = { #Kottiara
 			government = tribal_kingdom
 			primary_culture = tamilic
@@ -13606,30 +13494,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6914 
-			}
-			
-		}
-		
-		RAP = { #Kareskaras
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6910
-			
-			own_control_core = 	{ 
-				6910 
-			}
-			
-		}
-		
-		RAR = { #Kollagiri
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6937
-			
-			own_control_core = 	{ 
-				6937 
 			}
 			
 		}
@@ -13678,18 +13542,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6908 
-			}
-			
-		}
-		
-		RBA = { #Kathan
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6943
-			
-			own_control_core = 	{ 
-				6943 
 			}
 			
 		}
@@ -13798,18 +13650,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7034 
-			}
-			
-		}
-		
-		RBR = { #Nitra
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 4100
-			
-			own_control_core = 	{ 
-				6888 
 			}
 			
 		}
@@ -14042,18 +13882,6 @@ country = {
 			
 		}
 		
-		RDA = { #Karnapravarna
-			government = tribal_kingdom
-			primary_culture = asmakan
-			religion = harrapan_pantheon
-			capital = 7182
-			
-			own_control_core = 	{ 
-				7182 
-			}
-			
-		}
-		
 		RDD = { #Pamsurastra
 			government = tribal_kingdom
 			primary_culture = asmakan
@@ -14062,18 +13890,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7061
-			}
-			
-		}
-		
-		RDF = { #Tagara
-			government = tribal_kingdom
-			primary_culture = asmakan
-			religion = harrapan_pantheon
-			capital = 7078
-			
-			own_control_core = 	{ 
-				7078 
 			}
 			
 		}
@@ -14170,30 +13986,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7096 
-			}
-			
-		}
-		
-		RDY = { #Seoni
-			government = tribal_kingdom
-			primary_culture = gonkui
-			religion = harrapan_pantheon
-			capital = 7451
-			
-			own_control_core = 	{ 
-				7451 
-			}
-			
-		}
-		
-		REA = { #Chakrakot
-			government = tribal_kingdom
-			primary_culture = gonkui
-			religion = harrapan_pantheon
-			capital = 7134
-			
-			own_control_core = 	{ 
-				7134 
 			}
 			
 		}

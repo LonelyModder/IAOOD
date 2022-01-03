@@ -135,7 +135,7 @@ minoic_heritage = {
 	}
 }
 
-akkadian_heritage = {
+ashurite_heritage = {
 	modifier = {
 		#good
 		land_morale_modifier = 0.2
@@ -146,22 +146,7 @@ akkadian_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = akkadian
-	}
-}
-
-ashurite_heritage = {
-	modifier = {
-		#good
-		land_morale_modifier = 0.2
-		levy_size_multiplier = 0.05
-		
-		#bad
-		subject_opinions = -10
-	}
-	
-	trigger = {
-		country_culture_group = ashurite
+		primary_culture = ashurite
 	}
 }
 
@@ -176,7 +161,7 @@ mardukite_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = agade
+		primary_culture = agade
 	}
 }
 
@@ -191,7 +176,7 @@ dilmunite_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = dilmunite
+		primary_culture = dilmunite
 	}
 }
 

@@ -4,13 +4,7 @@
 		add_alliance = JAF
 		add_alliance = JAG
 		add_alliance = JAH
-	}
-	c:JAA = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:673
-			target = c:JBT
-		}
+		add_alliance = JAE
 	}
 	c:JAB = {
 		declare_war_with_wargoal = {
@@ -18,17 +12,13 @@
 		    province = p:691
 			target = c:JAA
 		}
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:673
-			target = c:JBT
-		}
 	}
 	c:JAA = {
 		break_alliance = JAC
 		break_alliance = JAF
 		break_alliance = JAG
 		break_alliance = JAH
+		break_alliance = JAE
 	}
 }
 

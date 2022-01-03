@@ -180,9 +180,12 @@ ia_startup.1 = { #Mesopotamia
 			c:AAB = {
 				every_owned_province = { add_claim = c:ABP }
 			}
-			c:AAG = {
-				every_owned_province = { add_claim = c:ABP }
-			}
+			c:AAG = { every_owned_province = { add_claim = c:ABP } }
+			#Jewish civil war
+			c:JAA = { every_owned_province = { add_claim = c:JAB } }
+			c:JBT = { every_owned_province = { add_claim = c:JAB } }
+			c:JAB = { every_owned_province = { add_claim = c:JAA } }
+			c:JBT = { every_owned_province = { add_claim = c:JAA } }
 		}
     }
 }
