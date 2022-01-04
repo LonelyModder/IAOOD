@@ -527,26 +527,6 @@ family={
 		}
 }
 diplomacy = {
-	#Philistine Pentapolis
-	defensive_league = {
-		member = JAC
-		member = JAE
-		member = JAF
-		member = JAG
-		member = JAH
-	}
-	#Phoenician defensive league
-	defensive_league = {
-		member = JAL
-		member = JAM
-		member = JAN
-		member = JAO
-		member = JAP
-		member = JAR
-		member = JAS
-		member = JAT
-		member = JAU
-	}
 	#Babylonian migrant leader
 	dependency = { first = ADZ second = ABE subject_type = tributary }
 	#Assyrian kaskan subject
@@ -554,18 +534,7 @@ diplomacy = {
 	#Assyrian pain in the ass
 	dependency = { first = ABB second = ABF subject_type = feudatory }
 	dependency = { first = ABB second = ABO subject_type = feudatory }
-	#Tyre and its colonies
-	dependency = { first = JAL second = JBY subject_type = subject_colony }
-	dependency = { first = JAL second = JBZ subject_type = subject_colony }
-	dependency = { first = JAL second = JCA subject_type = subject_colony }
-	dependency = { first = JAL second = JCB subject_type = subject_colony }
-	dependency = { first = JAL second = JCC subject_type = subject_colony }
-	dependency = { first = JAL second = JCD subject_type = subject_colony }
-	dependency = { first = JAL second = JCE subject_type = subject_colony }
-	dependency = { first = JAL second = JCF subject_type = subject_colony }
-	#Kushite pretender
-	dependency = { first = NAG second = NAH subject_type = feudatory }
-	#Siamun and some nomarchs loyal to him
+	#Siamun and Kharga penal colony
 	dependency = { first = EAC second = EAW subject_type = feudatory }
 	#Elam ties with Ellipi and weakening control over Anshan
 	dependency = { first = ACK second = ACL subject_type = tributary }
@@ -2321,7 +2290,7 @@ country = {
 			capital = 743
 			
 			own_control_core = 	{ 
-				743
+				743 3225 3258 3257 3365 1344 1319 1348 3085 84
 			}
 			
 			technology={
@@ -2833,158 +2802,6 @@ country = {
 			
 		}
 		
-		JBY = { #Annaba
-			government = despotic_monarchy
-			primary_culture = libo_punic
-			religion = canaanitic_pantheon
-			capital = 3225
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				3225
-			}
-			
-		}
-		
-		JBZ = { #Ubon
-			government = despotic_monarchy
-			primary_culture = libo_punic
-			religion = canaanitic_pantheon
-			capital = 3258
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				3258
-			}
-			
-		}
-		
-		JCA = { #Utica
-			government = despotic_monarchy
-			primary_culture = libo_punic
-			religion = canaanitic_pantheon
-			capital = 3257
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				3257
-			}
-			
-		}
-		
-		JCB = { #Aziris
-			government = despotic_monarchy
-			primary_culture = libo_punic
-			religion = canaanitic_pantheon
-			capital = 3365
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				3365
-			}
-			
-		}
-		
-		JCC = { #Gadir
-			government = despotic_monarchy
-			primary_culture = ibero_punic
-			religion = canaanitic_pantheon
-			capital = 1344
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1344
-			}
-			
-		}
-		
-		JCD = { #Olisipo
-			government = despotic_monarchy
-			primary_culture = ibero_punic
-			religion = canaanitic_pantheon
-			capital = 1319
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1319
-			}
-			
-		}
-		
-		JCE = { #Kart
-			government = despotic_monarchy
-			primary_culture = ibero_punic
-			religion = canaanitic_pantheon
-			capital = 1348
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1348
-			}
-			
-		}
-		
-		JCF = { #Abyla
-			government = despotic_monarchy
-			primary_culture = ibero_punic
-			religion = canaanitic_pantheon
-			capital = 3085
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				3085
-			}
-			
-		}
-		
 		#Hordes of Ahlamu
 		
 		AAA = { #Aram-Damascus
@@ -3471,7 +3288,7 @@ country = {
 			own_control_core = 	{ 
 				927 920 921 929 960 923 936 931 930 962  
 				900 914 926 912 899 898 924 976 933 973 928 925 
-				961 911 937 935 939 896 889 897
+				961 911 937 935 939 896 897
 			}
 		}
 		
@@ -3527,7 +3344,7 @@ country = {
 			capital = 981
 			
 			own_control_core = 	{ 
-				982 981 1603 1602 1599 888 983
+				982 981 1603 1602 1599 888 983 889
 			}
 		}
 		
@@ -5846,7 +5663,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				599 598 597 595 592 600 603 604 7580 7579
+				599 598 597 595 592 600 603 604 7580 7579 594 593 596 601 602
 			}
 		}
 		
@@ -5898,18 +5715,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				626 646 645 7586 7585 624 625 623
-			}
-		}
-		
-		NAH = { #Maru
-			government = despotic_monarchy
-			primary_culture = upper_nubian
-			religion = ethiopian_pantheon
-			capital = 627
-			
-			own_control_core = 	{ 
-				627 7584 628 629
+				626 646 645 7586 7585 624 625 623 627 7584 628 629
 			}
 		}
 		
@@ -5932,28 +5738,6 @@ country = {
 			
 			own_control_core = 	{ 
 				622 619 620 621 614 615 616 617
-			}
-		}
-		
-		NAN = { #Gabgaba
-			government = despotic_monarchy
-			primary_culture = lower_nubian
-			religion = ethiopian_pantheon
-			capital = 594
-			
-			own_control_core = 	{ 
-				594 593 596
-			}
-		}
-		
-		NAO = { #Allaqi
-			government = despotic_monarchy
-			primary_culture = lower_nubian
-			religion = ethiopian_pantheon
-			capital = 601
-			
-			own_control_core = 	{ 
-				601 602
 			}
 		}
 		
@@ -10151,24 +9935,6 @@ country = {
 			
 		}
 		
-		IBJ = { #Ortygia
-			government = despotic_monarchy
-			primary_culture = italo_punic
-			religion = canaanitic_pantheon
-			capital = 84
-			
-			own_control_core = 	{ 
-				84
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-		}
-		
 		IBK = { #Veii
 			government = despotic_monarchy
 			primary_culture = etrusci
@@ -11525,7 +11291,7 @@ country = {
 			capital = 1177
 			
 			own_control_core = 	{ 
-				1177 1022 1993 1176 1184
+				1177 1022 1176 1184
 			}
 			
 		}

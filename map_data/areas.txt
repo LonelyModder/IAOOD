@@ -506,7 +506,7 @@ south_phoenicia_area = { #11
 }
 
 syria_coele_area = { #12
-    provinces = { 738 750 751 753 757 758 759 760 763 764 765 762 740 749 752 741}
+    provinces = { 738 750 751 753 759 760 763 764 765 762 740 749 752 741 }
 }
 
 apamene_area = { #12
@@ -514,7 +514,7 @@ apamene_area = { #12
 }
 
 palmyra_area = { #12
-    provinces = { 754 755 756 775 800 801 802 803 815 850 }
+    provinces = { 754 755 756 775 800 801 802 803 815 850 757 758 }
 }
 
 decapolis_area = { #12

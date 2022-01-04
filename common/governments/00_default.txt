@@ -334,7 +334,7 @@ tribal_chiefdom = {
 	}
 	base = {
 		global_tribesmen_happyness = happiness_large_svalue
-		levy_size_multiplier = 0.3
+		levy_size_multiplier = 0.4
 		land_morale_modifier = -0.05
 	}
 
