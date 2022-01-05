@@ -565,7 +565,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -584,7 +584,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="forest"
@@ -641,7 +641,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -660,7 +660,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -850,7 +850,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -869,7 +869,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -884,7 +884,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -1313,7 +1313,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="gyzantianic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1351,7 +1351,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="gyzantianic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1370,7 +1370,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="gyzantianic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1389,7 +1389,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="gyzantianic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1427,7 +1427,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="gyzantianic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1674,7 +1674,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -1693,7 +1693,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="forest"
@@ -1724,13 +1724,13 @@
 	slaves=
 	{
 		amount=4
-		culture="luwatic"
+		culture="massylic"
 		religion="libyan_pantheon"
 	}
 	tribesmen=
 	{
 		amount=2
-		culture="luwatic"
+		culture="massylic"
 		religion="libyan_pantheon"
 	}
 	port_building=1
@@ -1740,7 +1740,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1759,7 +1759,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1778,7 +1778,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"
@@ -1797,7 +1797,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1812,7 +1812,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="luwatic"
+	culture="massylic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="hills"

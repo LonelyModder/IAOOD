@@ -521,7 +521,7 @@ nbaker_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = bakeric
+		country_culture_group = nbaker
 	}
 }
 

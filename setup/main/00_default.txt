@@ -2289,6 +2289,21 @@ country = {
 			religion = canaanitic_pantheon
 			capital = 743
 			
+			#poptype_rights = { 
+			#	{
+			#		culture = libo_punic 
+			#		type = citizen
+			#	}
+			#	{
+			#		culture = ibero_punic 
+			#		type = citizen
+			#	}
+			#	{
+			#		culture = italo_punic 
+			#		type = citizen
+			#	}
+			#}
+			
 			own_control_core = 	{ 
 				743 3225 3258 3257 3365 1344 1319 1348 3085 84
 			}
@@ -5429,9 +5444,9 @@ country = {
 			
 		}
 		
-		LBD = { #Machlya
+		LBD = { #Gyzantia
 			government = tribal_kingdom
-			primary_culture = machlyanic
+			primary_culture = gyzantianic
 			religion = libyan_pantheon
 			capital = 3288
 			
@@ -5443,24 +5458,12 @@ country = {
 		
 		LBE = { #Ausea
 			government = tribal_kingdom
-			primary_culture = auseic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3283
 			
 			own_control_core = 	{ 
 				3283 3287 3285 3281 3280 3284 3286 3279 3276 3277 3278 3282
-			}
-			
-		}
-		
-		LBF = { #Thiges
-			government = tribal_chiefdom
-			primary_culture = garamantes
-			religion = libyan_pantheon
-			capital = 3190
-			
-			own_control_core = 	{ 
-				3190 3191 3189
 			}
 			
 		}
@@ -5479,7 +5482,7 @@ country = {
 		
 		LBL = { #Maxya
 			government = tribal_kingdom
-			primary_culture = maxyanic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3272
 			
@@ -5491,7 +5494,7 @@ country = {
 		
 		LBM = { #Zavecia
 			government = tribal_kingdom
-			primary_culture = zavecianic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3244
 			
@@ -5503,7 +5506,7 @@ country = {
 		
 		LBN = { #Gyzantia
 			government = tribal_kingdom
-			primary_culture = gyzantianic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3259
 			
@@ -5513,21 +5516,9 @@ country = {
 			
 		}
 		
-		LBO = { #Arzeila
-			government = tribal_kingdom
-			primary_culture = mauri
-			religion = libyan_pantheon
-			capital = 3068
-			
-			own_control_core = 	{ 
-				3064 3062 3061 3078 3076 3077 3075
-			}
-			
-		}
-		
 		LBS = { #Luwatae
 			government = tribal_kingdom
-			primary_culture = luwatic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3229
 			
@@ -5537,31 +5528,19 @@ country = {
 			
 		}
 		
-		LBT = { #Thamusi
+		LBT = { #Mauria
 			government = tribal_kingdom
 			primary_culture = mauri
 			religion = libyan_pantheon
 			capital = 3063
 			
 			own_control_core = 	{ 
-				3063 3066 3065 3074 3070 3071 3069 3067 3073
+				3063 3066 3065 3074 3070 3071 3069 3067 3073 3064 3062 3061 3078 3076 3077 3075
 			}
 			
 		}
 		
-		LCB = { #Iolli
-			government = tribal_kingdom
-			primary_culture = massaesylic
-			religion = libyan_pantheon
-			capital = 3116
-			
-			own_control_core = 	{ 
-				3116 3118 3119 3120 3113 3111
-			}
-			
-		}
-		
-		LCC = { #Arsennari
+		LCC = { #Massaesylia
 			government = tribal_kingdom
 			primary_culture = massaesylic
 			religion = libyan_pantheon
@@ -5569,18 +5548,8 @@ country = {
 			
 			own_control_core = 	{ 
 				3106 3108 3110 3107 3109 3102 3101
-			}
-			
-		}
-		
-		LCD = { #Maggani
-			government = tribal_kingdom
-			primary_culture = massaesylic
-			religion = libyan_pantheon
-			capital = 3095
-			
-			own_control_core = 	{ 
 				3095 3100 3096 3093 3092 3091 
+				3116 3118 3119 3120 3113 3111
 			}
 			
 		}
@@ -5635,7 +5604,7 @@ country = {
 		
 		LCT = { #Cuiculi
 			government = tribal_kingdom
-			primary_culture = luwatic
+			primary_culture = massylic
 			religion = libyan_pantheon
 			capital = 3149
 			
@@ -6716,31 +6685,6 @@ country = {
 			
 		}
 		
-		GAH = { #Thasos
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = canaanitic_pantheon
-			capital = 356
-			
-			poptype_rights = { 
-				{
-					culture = sthracian 
-					type = citizen
-				}
-			}
-			
-			own_control_core = 	{ 
-				356
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-		}
-		
 		GAI = { #Phaeacia
 			government = tribal_kingdom
 			primary_culture = grecoid_illyrian
@@ -6921,31 +6865,6 @@ country = {
 				399
 			}
 			
-		}
-		
-		GBD = { #Kythera
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = canaanitic_pantheon
-			capital = 471
-			
-			poptype_rights = { 
-				{
-					culture = doric 
-					type = citizen
-				}
-			}
-			
-			own_control_core = 	{ 
-				471
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
 		}
 		
 		GBE = { #Kynouria
@@ -7515,24 +7434,6 @@ country = {
 			
 		}
 		
-		GEA = { #Callista
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = grecoid_pantheon
-			capital = 454
-			
-			own_control_core = 	{ 
-				454
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-		}
-		
 		GEB = { #Naxos
 			government = despotic_monarchy
 			primary_culture = ionic
@@ -7553,25 +7454,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1835
-			}
-			
-		}
-		
-		GED = { #Syros
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = grecoid_pantheon
-			capital = 447
-			
-			own_control_core = 	{ 
-				447
-			}
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
 			}
 			
 		}
@@ -7901,24 +7783,6 @@ country = {
 			
 		}
 		
-		TCH = { #Abydos
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = canaanitic_pantheon
-			capital = 261
-			
-			own_control_core = 	{ 
-				261 256
-			}
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
-		}
-		
 		TCI = { #Lesbos
 			government = despotic_monarchy
 			primary_culture = aeolic
@@ -8004,7 +7868,7 @@ country = {
 		}
 		
 		TCP = { #Adramyttion
-			government = despotic_monarchy
+			government = tribal_federation
 			primary_culture = lelegian
 			religion = luwic_pantheon
 			capital = 281
@@ -8015,14 +7879,14 @@ country = {
 			
 		}
 		
-		TCR = { #Erythrai
-			government = despotic_monarchy
+		TCR = { #Greco-Punic League
+			government = oligarchic_republic
 			primary_culture = greek_punic
 			religion = canaanitic_pantheon
 			capital = 289
 			
 			own_control_core = 	{ 
-				289 288
+				289 288 447 387 454 471 261 356
 			}
 			
 			technology={
@@ -8187,24 +8051,6 @@ country = {
 				1996
 			}
 			
-		}
-		
-		TDI = { #Ios
-			government = despotic_monarchy
-			primary_culture = greek_punic
-			religion = canaanitic_pantheon
-			capital = 387
-			
-			own_control_core = 	{ 
-				387
-			}
-			
-			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
-			}
 		}
 		
 		TDJ = { #Milos

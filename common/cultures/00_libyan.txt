@@ -45,10 +45,7 @@
 		gindanic = {}
 		macaic = {}
 		machlyanic = {}
-		maxyanic = {}
-		zavecianic = {}
 		gyzantianic = {}
-		auseic = {}
 		libu = {}
 		libi = {
 		male_names = {
@@ -428,7 +425,6 @@
 		garamantes = {}
 		mauri = {}
 		massylic = {}
-		luwatic = {}
 		massaesylic = {}
 		lotophage = {}
 		ma = {
