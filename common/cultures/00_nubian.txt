@@ -52,6 +52,7 @@
 		upper_nubian = {}
 		meroitic_nubian = {}
 		south_nubian = {}
+		south_west_nubian = {}
 		medjay = {}
 	}
 	

@@ -1628,7 +1628,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1647,7 +1647,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"

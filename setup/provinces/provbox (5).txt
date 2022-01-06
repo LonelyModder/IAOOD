@@ -594,7 +594,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="lydii"
+	culture="mysic"
 	province_rank="city"
 	religion="luwic_pantheon"
 	terrain="forest"

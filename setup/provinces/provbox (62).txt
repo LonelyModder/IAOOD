@@ -1210,7 +1210,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="meroitic_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="plains"
@@ -1229,7 +1229,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="meroitic_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="plains"
@@ -1287,7 +1287,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="meroitic_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1306,7 +1306,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="meroitic_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="plains"
@@ -1325,7 +1325,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1344,7 +1344,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="plains"
@@ -1363,7 +1363,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="plains"
@@ -1382,7 +1382,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1401,7 +1401,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1420,7 +1420,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1439,7 +1439,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"
@@ -1458,7 +1458,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank="settlement"
 	religion="ethiopian_pantheon"
 	terrain="desert"

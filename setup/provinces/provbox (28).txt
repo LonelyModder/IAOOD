@@ -3,7 +3,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	holy_site="omen_mnanna_tala"
 	province_rank="settlement"
 	religion="libyan_pantheon"
@@ -23,7 +23,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -42,7 +42,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="city"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -70,7 +70,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -89,7 +89,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -108,7 +108,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gindanic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -127,7 +127,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -146,7 +146,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	holy_site="omen_mgurzil"
 	province_rank="settlement"
 	religion="libyan_pantheon"
@@ -166,7 +166,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -185,7 +185,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -204,7 +204,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -223,7 +223,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -242,7 +242,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -261,7 +261,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="macaic"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -333,7 +333,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -352,7 +352,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -371,7 +371,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="garamantes"
+	culture="psylli"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -390,7 +390,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="auschisaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -409,7 +409,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="auschisaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -428,7 +428,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="auschisaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -466,7 +466,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="auschisaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -878,7 +878,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -897,7 +897,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="abystaic"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -916,7 +916,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -935,7 +935,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -954,7 +954,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -973,7 +973,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -992,7 +992,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1011,7 +1011,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1030,7 +1030,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1049,7 +1049,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1068,7 +1068,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1087,7 +1087,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="gilgamaic"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1106,7 +1106,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1125,7 +1125,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1144,7 +1144,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1163,7 +1163,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1182,7 +1182,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1201,7 +1201,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1273,7 +1273,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1288,7 +1288,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1322,7 +1322,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1341,7 +1341,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1390,7 +1390,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"

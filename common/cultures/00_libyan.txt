@@ -41,12 +41,8 @@
 		psylli = {}
 		gilgamaic = {}
 		abystaic = {}
-		auschisaic = {}
-		gindanic = {}
-		macaic = {}
 		machlyanic = {}
 		gyzantianic = {}
-		libu = {}
 		libi = {
 		male_names = {
 		Thanub Tjaenhebu Thanenhebu Senakhtenre Ahmose Apries Haaibre Amenmesse Amenemhat Ahmenhotep Akhenamun Ay Amenemnisu Amenemope Atlanersa Anlamani Aspelta Apries
@@ -422,7 +418,6 @@
 		}
 		nessamones = {}
 		gaetuli = {}
-		garamantes = {}
 		mauri = {}
 		massylic = {}
 		massaesylic = {}

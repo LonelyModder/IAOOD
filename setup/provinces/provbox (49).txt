@@ -3,7 +3,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -22,7 +22,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1745,7 +1745,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1760,7 +1760,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1779,7 +1779,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1798,7 +1798,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="plains"
@@ -1829,7 +1829,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1848,7 +1848,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1863,7 +1863,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1882,7 +1882,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1897,7 +1897,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1912,7 +1912,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1927,7 +1927,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"
@@ -1946,7 +1946,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank="settlement"
 	religion="libyan_pantheon"
 	terrain="desert"

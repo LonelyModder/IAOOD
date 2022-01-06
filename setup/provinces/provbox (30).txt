@@ -4073,7 +4073,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank=""
 	religion="libyan_pantheon"
 	terrain="impassable_terrain"
@@ -4128,7 +4128,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank=""
 	religion="libyan_pantheon"
 	terrain="impassable_terrain"
@@ -5010,7 +5010,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="south_nubian"
+	culture="south_west_nubian"
 	province_rank=""
 	religion="ethiopian_pantheon"
 	terrain="impassable_terrain"
@@ -5560,7 +5560,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank=""
 	religion="libyan_pantheon"
 	terrain="impassable_terrain"
@@ -7661,7 +7661,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank=""
 	religion="libyan_pantheon"
 	terrain="impassable_terrain"
@@ -7672,7 +7672,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="libu"
+	culture="libi"
 	province_rank=""
 	religion="libyan_pantheon"
 	terrain="impassable_terrain"

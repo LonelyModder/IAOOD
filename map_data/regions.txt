@@ -604,6 +604,8 @@ numidia_region = {		#8 areas
 		gaetulia_septentrionalis_area
 		mauretania_caesariensis_maioris_area
 		mauretania_caesariensis_minoris_area
+		mauretania_caesariensis_occidentalis_area
+		mauretania_caesariensis_centralis_area
 	}
 }
 	
@@ -887,8 +889,6 @@ mauretainia_region = {	#6 areas!
 		tadla_area
 		mauretania_tingitana_septentrionalis_area
 		mauretania_tingitana_meridionalis_area
-		mauretania_caesariensis_occidentalis_area
-		mauretania_caesariensis_centralis_area
 	}
 }
 

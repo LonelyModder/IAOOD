@@ -527,8 +527,9 @@ family={
 		}
 }
 diplomacy = {
-	#Babylonian migrant leader
-	dependency = { first = ADZ second = ABE subject_type = tributary }
+	#Babylonian surprising good relations with elam and sutians
+	guarantee = { first = ADZ second = ABE }
+	alliance = { first = ADZ second = ACK }
 	#Assyrian kaskan subject
 	dependency = { first = ABP second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass
@@ -5271,42 +5272,31 @@ country = {
 			}
 		}
 		
-		LAC = { #Tuchira
+		LAC = { #Auschisae
 			government = tribal_kingdom
 			primary_culture = abystaic
 			religion = libyan_pantheon
 			capital = 3353
 			
 			own_control_core = 	{ 
-				3352 3353 3354 3350 3346 3348 
+				3352 3353 3354 3350 3346 3348 3347 3349 3351 3357
 			}
 		}
 		
-		LAE = { #Darnisi
+		LAE = { #Abystae
 			government = tribal_kingdom
 			primary_culture = abystaic
 			religion = libyan_pantheon
-			capital = 3363
+			capital = 3360
 			
 			own_control_core = 	{ 
-				3364 3363 3366 3360 3361 3358
-			}
-		}
-		
-		LAF = { #Psylli
-			government = tribal_kingdom
-			primary_culture = psylli
-			religion = libyan_pantheon
-			capital = 3335
-			
-			own_control_core = 	{ 
-				3334 3335 3336 
+				3363 3360 3361 3358 3359 3362
 			}
 		}
 		
 		LAH = { #Dakhla
 			government = tribal_kingdom
-			primary_culture = libu
+			primary_culture = libi
 			religion = libyan_pantheon
 			capital = 5514
 			
@@ -5317,7 +5307,7 @@ country = {
 		
 		LAI = { #Farafra
 			government = tribal_kingdom
-			primary_culture = libu
+			primary_culture = libi
 			religion = libyan_pantheon
 			capital = 5523
 			
@@ -5328,7 +5318,7 @@ country = {
 		
 		LAJ = { #Baharia
 			government = tribal_kingdom
-			primary_culture = libu
+			primary_culture = libi
 			religion = libyan_pantheon
 			capital = 5534
 			
@@ -5337,14 +5327,14 @@ country = {
 			}
 		}
 		
-		LAO = { #Chetti
-			government = tribal_chiefdom
-			primary_culture = gilgamaic
+		LAO = { #Giligammae
+			government = tribal_kingdom
+			primary_culture = abystaic
 			religion = libyan_pantheon
-			capital = 3375
+			capital = 3366
 			
 			own_control_core = 	{ 
-				3375 3374 3376
+				3366 3364 3367 3368
 			}
 		}
 		
@@ -5420,26 +5410,14 @@ country = {
 			
 		}
 		
-		LBB = { #Gindanes
+		LBB = { #Psylli
 			government = tribal_kingdom
-			primary_culture = gindanic
+			primary_culture = psylli
 			religion = libyan_pantheon
 			capital = 3303
 			
 			own_control_core = 	{ 
 				3303 3302 3304
-			}
-			
-		}
-		
-		LBC = { #Macae
-			government = tribal_chiefdom
-			primary_culture = macaic
-			religion = libyan_pantheon
-			capital = 3325
-			
-			own_control_core = 	{ 
-				3325 3326 3327
 			}
 			
 		}
@@ -5464,18 +5442,6 @@ country = {
 			
 			own_control_core = 	{ 
 				3283 3287 3285 3281 3280 3284 3286 3279 3276 3277 3278 3282
-			}
-			
-		}
-		
-		LBJ = { #Kainon
-			government = tribal_chiefdom
-			primary_culture = auschisaic
-			religion = libyan_pantheon
-			capital = 3342
-			
-			own_control_core = 	{ 
-				3342 3341
 			}
 			
 		}
@@ -5566,31 +5532,7 @@ country = {
 			
 		}
 		
-		LCL = { #Thuggi
-			government = tribal_kingdom
-			primary_culture = massylic
-			religion = libyan_pantheon
-			capital = 3269
-			
-			own_control_core = 	{ 
-				3269 3268 3235 3234 3237 3232
-			}
-			
-		}
-		
-		LCM = { #Tipasi
-			government = tribal_kingdom
-			primary_culture = massylic
-			religion = libyan_pantheon
-			capital = 3218
-			
-			own_control_core = 	{ 
-				3218 3220 3217 3165 3163 3180 3181 3355 3164 3221 3148
-			}
-			
-		}
-		
-		LCN = { #Thesaci
+		LCN = { #Massylia
 			government = tribal_kingdom
 			primary_culture = massylic
 			religion = libyan_pantheon
@@ -5598,6 +5540,8 @@ country = {
 			
 			own_control_core = 	{ 
 				3214 3216 3247 3208 3210 3246 3248 3209 3197
+				3218 3220 3217 3165 3163 3180 3181 3355 3164 3221 3148
+				3269 3268 3235 3234 3237 3232
 			}
 			
 		}
@@ -5723,7 +5667,7 @@ country = {
 		
 		NAZ = { #Syuta
 			government = tribal_kingdom
-			primary_culture = south_nubian
+			primary_culture = south_west_nubian
 			religion = ethiopian_pantheon
 			capital = 3319
 			
@@ -6488,8 +6432,8 @@ country = {
 		}
 		
 		HDH = { #Pergamon
-			government = despotic_monarchy
-			primary_culture = lydii
+			government = tribal_kingdom
+			primary_culture = mysic
 			religion = luwic_pantheon
 			capital = 278
 			
@@ -7886,7 +7830,7 @@ country = {
 			capital = 289
 			
 			own_control_core = 	{ 
-				289 288 447 387 454 471 261 356
+				289 288 447 387 454 471 261 356 256
 			}
 			
 			technology={
@@ -11161,7 +11105,7 @@ country = {
 			capital = 1042
 			
 			own_control_core = 	{ 
-				1042 1041 1178 1189 1181 1178
+				1042 1041 1178 1189 1181
 			}
 			
 		}
