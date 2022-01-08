@@ -369,6 +369,17 @@ ia_startup.9 = { #Anatolia and Thrace
 
     option = {    
         name = ia_startup.9.a
+		hidden_effect = {
+			#Gordion claims		
+			c:HAY = { every_owned_province = { add_claim = c:HAT } }
+			c:HAZ = { every_owned_province = { add_claim = c:HAT } }
+			c:HBA = { every_owned_province = { add_claim = c:HAT } }
+			c:HBN = { every_owned_province = { add_claim = c:HAT } }
+			c:HAW = { every_owned_province = { add_claim = c:HAT } }
+			c:HAU = { every_owned_province = { add_claim = c:HAT } }
+			#Lydian claims	
+			c:HDC = { every_owned_province = { add_claim = c:HCM } }
+		}
     }
 }
 

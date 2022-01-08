@@ -1,0 +1,182 @@
+texticon = {
+    icon = elephants_african
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/elephants_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+texticon = {
+    icon = elephants_forest
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/elephants_forest.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+texticon = {
+    icon = elephants_indian
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/elephants_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+texticon = {
+    icon = tin
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/tin.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = axemen_heavy
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/axemen_heavy.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = cavalry_camels
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/cavalry_camels.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = cavalry_heavy
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/cavalry_heavy.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = cavalry_horse_archers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/cavalry_horse_archers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = cavalry_light
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/cavalry_light.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = chariot_heavy
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/chariot_heavy.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = chariot_light
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/chariot_light.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = elephant_forest
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/elephant_forest.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = elephant_african
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/elephant_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = elephant_indian
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/elephant_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = heavy_spearmen
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/heavy_spearmen.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = heavy_swordsmen
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/heavy_swordsmen.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = light_swordsmen
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/light_swordsmen.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = light_spearmen
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/light_spearmen.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = missile_archers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/missile_archers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
+    icon = missile_spearthrowers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/missile_spearthrowers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+
