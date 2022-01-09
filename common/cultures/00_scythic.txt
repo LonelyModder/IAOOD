@@ -51,8 +51,6 @@
 		chustic = {levy_template = levy_forestnomad}
 		dahic = {}
 		tagiskic = {}
-		east_scythoi = {}
-		west_scythoi = {}
 		amirabic = {}
 	}
 	

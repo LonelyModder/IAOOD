@@ -193,15 +193,15 @@
 	trade_goods="grain"
 	freemen=
 	{
-		amount=4
+		amount=1
 	}
 	slaves=
 	{
-		amount=3
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 #Surat
@@ -216,15 +216,15 @@
 	trade_goods="fish"
 	freemen=
 	{
-		amount=2
+		amount=1
 	}
 	slaves=
 	{
-		amount=4
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 #Nousaripa
@@ -1668,15 +1668,15 @@
 	trade_goods="wood"
 	freemen=
 	{
-		amount=3
+		amount=1
 	}
 	slaves=
 	{
-		amount=3
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=5
+		amount=2
 	}
 }
 #Barwani
@@ -1714,15 +1714,15 @@
 	trade_goods="wood"
 	freemen=
 	{
-		amount=3
+		amount=1
 	}
 	slaves=
 	{
-		amount=5
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 #Pandhurna
@@ -1806,15 +1806,15 @@
 	trade_goods="wild_game"
 	freemen=
 	{
-		amount=3
+		amount=1
 	}
 	slaves=
 	{
-		amount=5
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 #Melghat

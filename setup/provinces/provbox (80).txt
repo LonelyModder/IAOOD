@@ -787,7 +787,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -966,7 +966,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1062,7 +1062,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="mountain"
@@ -1081,7 +1081,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1100,7 +1100,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1119,7 +1119,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1138,7 +1138,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1263,7 +1263,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1391,7 +1391,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1407,7 +1407,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1422,7 +1422,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1437,7 +1437,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="hills"
@@ -1452,7 +1452,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1467,7 +1467,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1482,7 +1482,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1497,7 +1497,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1512,7 +1512,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1527,7 +1527,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1542,7 +1542,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1558,7 +1558,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1603,7 +1603,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -1633,7 +1633,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"

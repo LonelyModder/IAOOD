@@ -540,8 +540,6 @@ diplomacy = {
 	#Elam ties with Ellipi and weakening control over Anshan
 	dependency = { first = ACK second = ACL subject_type = tributary }
 	dependency = { first = ACK second = VCK subject_type = tributary }
-	#Macedon and their mountain semi tribal vassals
-	dependency = { first = TBY second = TCC subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -3728,7 +3726,7 @@ country = {
 			capital = 1527
 			
 			own_control_core = 	{ 
-				1527 1565 1502 1526
+				1527 1565 1502 1526 1532 1529 1528 1530 1531 1539 
 			}
 		}
 		
@@ -3845,7 +3843,7 @@ country = {
 			capital = 1752
 			
 			own_control_core = 	{ 
-				1752 1586 1587 1582 1583 1585
+				1752 1586 1587 1582 1583 1585 1702 1755 1753 1754 1697 1696 1756
 			}
 		}
 		
@@ -3911,7 +3909,7 @@ country = {
 			capital = 1669
 			
 			own_control_core = 	{ 
-				1669 1668 1550 1542 1501
+				1669 1668 1550 1542 1501 1540 1538 1613 1614 1615
 			}
 		}
 		
@@ -3933,7 +3931,7 @@ country = {
 			capital = 1605
 			
 			own_control_core = 	{ 
-				1605 1592 1606
+				1605 1592 1606 1663
 			}
 		}
 		
@@ -3955,7 +3953,7 @@ country = {
 			capital = 1691
 			
 			own_control_core = 	{ 
-				1691 1692 1689
+				1691 1692 1689 1690 1694 1703 1695 1699
 			}
 		}
 		
@@ -3966,7 +3964,7 @@ country = {
 			capital = 1676
 			
 			own_control_core = 	{ 
-				1676 1683 1679 1685
+				1676 1683 1679 1685 1612 1686 1677
 			}
 		}
 		
@@ -3977,7 +3975,7 @@ country = {
 			capital = 1647
 			
 			own_control_core = 	{ 
-				1647 1648 1632 1652
+				1647 1648 1632 1652 1649 1654 1672 1638 1651 1644
 			}
 		}
 		
@@ -3988,7 +3986,7 @@ country = {
 			capital = 1680
 			
 			own_control_core = 	{ 
-				1680 1681 1687
+				1680 1681 1687 1678 1673 
 			}
 		}
 		
@@ -3999,7 +3997,7 @@ country = {
 			capital = 1630
 			
 			own_control_core = 	{ 
-				1630 1628 1629 1631
+				1630 1628 1629 1631 1627 1626 
 			}
 		}
 		
@@ -4025,14 +4023,14 @@ country = {
 			}
 		}
 		
-		CBI = { #Satala
+		CBI = { #Mossynoeti
 			government = tribal_kingdom
 			primary_culture = mossynoetian
 			religion = caucasic_pantheon
 			capital = 1770
 			
 			own_control_core = 	{ 
-				1770 1763 1778
+				1770 1763 1778 1772 1776 1779 1781 1783 1782
 			}
 		}
 		
@@ -4043,7 +4041,7 @@ country = {
 			capital = 1645
 			
 			own_control_core = 	{ 
-				1645 1636
+				1645 1636 1635 1637 1661 1670 1656 1641 1643 1646
 			}
 		}
 		
@@ -4054,7 +4052,7 @@ country = {
 			capital = 1634
 			
 			own_control_core = 	{ 
-				1634 1662 1642
+				1634 1662 1642 7603 1633 1584 1655 
 			}
 		}
 		
@@ -4065,7 +4063,7 @@ country = {
 			capital = 5435
 			
 			own_control_core = 	{ 
-				5435 1611 1657 1658
+				5435 1611 1657 1658 1659 1660 1608 1607 1610 1609
 			}
 		}
 		
@@ -4076,7 +4074,7 @@ country = {
 			capital = 1621
 			
 			own_control_core = 	{ 
-				1621 1624 1620 1625
+				1621 1624 1620 1625 1619 1622 1623
 			}
 		}
 		
@@ -4084,10 +4082,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = bianilic
 			religion = hurrian_pantheon
-			capital = 1670
+			capital = 1617
 			
 			own_control_core = 	{ 
-				1670 1640 1639 1671
+				1617 1640 1639 1671 1650 1665 1664 1666 1667 1618 1616
 			}
 		}
 		
@@ -4098,7 +4096,7 @@ country = {
 			capital = 1730
 			
 			own_control_core = 	{ 
-				1730 1731 1732
+				1730 1731 1732 1729 1727
 			}
 		}
 		
@@ -4109,18 +4107,7 @@ country = {
 			capital = 1698
 			
 			own_control_core = 	{ 
-				1698 1764 1762 
-			}
-		}
-		
-		CCN = { #Anniaka
-			government = tribal_kingdom
-			primary_culture = mossynoetian
-			religion = caucasic_pantheon
-			capital = 1783
-			
-			own_control_core = 	{ 
-				1783 1782
+				1698 1764 1762 483 1744 1747 8010 8008 1765 1767 1768 7845 1857 1856 
 			}
 		}
 		
@@ -4131,18 +4118,7 @@ country = {
 			capital = 1759
 			
 			own_control_core = 	{ 
-				1759 1757
-			}
-		}
-		
-		CCP = { #Gogharena
-			government = tribal_kingdom
-			primary_culture = ciberic
-			religion = caucasic_pantheon
-			capital = 1702
-			
-			own_control_core = 	{ 
-				1755 1702
+				1759 1757 1760 1761 1758
 			}
 		}
 		
@@ -4153,7 +4129,9 @@ country = {
 			capital = 7629
 			
 			own_control_core = 	{ 
-				7629 7631 7627 7628 7625 1674 7622 7630 7606
+				7629 7631 7627 7628 7625 1674 7622 7630 7606 5871 5869 7626 7624 5867 7623 
+				5866 7602 7633 7632 7621 7604 7605 7619 7620 7609 7611 7607 7610 7615 7614 
+				7608 7616 7600 4566 4567 4568 1745 1743 
 			}
 		}
 		
@@ -4161,10 +4139,11 @@ country = {
 			government = tribal_kingdom
 			primary_culture = shasu
 			religion = arabian_pantheon
-			capital = 4716
+			capital = 4714
 			
 			own_control_core = 	{ 
 				4718 4717 4716 4714 4615 4616 4622 4609 4618 4617 4619 
+				4621 4620 4610 4608 4607 4605 4606 4715
 			}
 		}
 		
@@ -4215,7 +4194,7 @@ country = {
 			capital = 3331
 			
 			own_control_core = 	{ 
-				3331 7590
+				3331 7590 3328 7589
 			}
 		}
 		
@@ -4472,28 +4451,6 @@ country = {
 			}
 		}
 		
-		KBZ = { #Harenae
-			government = tribal_kingdom
-			primary_culture = shasu
-			religion = arabian_pantheon
-			capital = 4621
-			
-			own_control_core = 	{ 
-				4621 4620 4610 4608
-			}
-		}
-		
-		KCB = { #Badais
-			government = tribal_kingdom
-			primary_culture = shasu
-			religion = arabian_pantheon
-			capital = 4607
-			
-			own_control_core = 	{ 
-				4607 4605 4606 4715
-			}
-		}
-		
 		KCC = { #Omana
 			government = despotic_monarchy
 			primary_culture = maganese
@@ -4527,14 +4484,14 @@ country = {
 			}
 		}
 		
-		KCF = { #Durnatha
+		KCF = { #Ahlamu
 			government = tribal_kingdom
 			primary_culture = ahlamic
 			religion = anunnaki_pantheon
 			capital = 4721
 			
 			own_control_core = 	{ 
-				4721
+				4721 7560 7559 7561 7562 7563 7564 7565 7566 7567 7554 7555 7556 7556 7557 7558
 			}
 		}
 		
@@ -4789,17 +4746,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6575 6584 6577 6587 6576 6586 6574 6513
-			}
-		}
-		
-		PBM = { #Ramnae
-			government = tribal_kingdom
-			primary_culture = gedrosic
-			religion = protoiranian_pantheon
-			capital = 6535
-			
-			own_control_core = 	{ 
-				6618 6534 6535
 			}
 		}
 		
@@ -5064,7 +5010,7 @@ country = {
 			capital = 6715
 			
 			own_control_core = 	{ 
-				6715 6714 6713 6717 6710 6711 6716 6712
+				6715 6714 6713 6717 6710 6711 6716 6712 6707
 			}
 		}
 		
@@ -5086,7 +5032,7 @@ country = {
 			capital = 6805
 			
 			own_control_core = 	{ 
-				6805 5483 5484 7260
+				6805 5483 5484 7260 6804 6799 6800 6801 5479 6803
 			}
 		}
 		
@@ -5143,7 +5089,7 @@ country = {
 			capital = 7248
 			
 			own_control_core = 	{ 
-				7247 7248 7249 7250 7246
+				7247 7248 7249 7250 7246 7252 7253 7254 7255 7256 7257 7258 7259 7251 7261 7262 7269 7272 7273 7270 7267 7278 7277 7274 6682
 			}
 		}
 		
@@ -5157,18 +5103,10 @@ country = {
 				5877 5909 6225 6228 5910 5878 6229 5879 5911 6201 6193 6191 6198 6200 6197 6199 6206 
 				6214 6202 6203 6207 6209 6215 6210 6211 6216 6217 6213 6220 6219 6222 6224 6223 6226
 				6227 6230 6231 6232 6218 6221 5904 5905 5908 8050 6194 6196 6188 6189 6178 6180 6179
-				6182 6181 6184 6195 6185 6183 6186 6187 6192 6190 5888 6204 6205 6212
-			}
-		}
-		
-		PDW = { #East Saka
-			government = tribal_kingdom
-			primary_culture = east_scythoi
-			religion = scythic_pantheon
-			capital = 7267
-			
-			own_control_core = 	{ 
-				7267 7268 7278
+				6182 6181 6184 6195 6185 6183 6186 6187 6192 6190 5888 6204 6205 6212 5876 5874 5868
+				5907 5919 5873 5870 5906 5903 5902 6208 5901 5891 5889 5890 5933 5899 5900 5892 5893 
+				5932 5930 5931 5929 5926 5872 5875 5924 5923 5897 5894 5896 5895 5927 5928 5918 5917 
+				5920 5921 5922 5898 5925
 			}
 		}
 		
@@ -5209,21 +5147,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = dahic
 			religion = scythic_pantheon
-			capital = 5485
+			capital = 5460
 			
 			own_control_core = 	{ 
-				5485 5488 5482
-			}
-		}
-		
-		PED = { #West Saka
-			government = tribal_kingdom
-			primary_culture = west_scythoi
-			religion = scythic_pantheon
-			capital = 5465
-			
-			own_control_core = 	{ 
-				5465 5464
+				5460 5473 5459 5461
 			}
 		}
 		
@@ -5640,7 +5567,7 @@ country = {
 			capital = 641
 			
 			own_control_core = 	{ 
-				641 638 639
+				641 638 639 7592 642 640 637
 			}
 		}
 		
@@ -5651,7 +5578,7 @@ country = {
 			capital = 3319
 			
 			own_control_core = 	{ 
-				3319
+				3319 3314 3317 3313
 			}
 		}
 		
@@ -6062,14 +5989,14 @@ country = {
 			
 		}
 		
-		HBB = { #Pteria
-			government = tribal_kingdom
+		HBB = { #Mushki
+			government = tribal_federation
 			primary_culture = mushkian
 			religion = caucasic_pantheon
 			capital = 1836
 			
 			own_control_core = 	{ 
-				1836 1832 1923
+				1836 1832 1923 1820 7981 1913 1932 202 197 1825 1841 1909 1907 7999 1839 1845 6420 1899
 			}
 			
 		}
@@ -6081,7 +6008,7 @@ country = {
 			capital = 1798
 			
 			own_control_core = 	{ 
-				1798 1797
+				1798 1797 1795 1773 1775 1734 
 			}
 			
 		}
@@ -6093,7 +6020,7 @@ country = {
 			capital = 1824
 			
 			own_control_core = 	{ 
-				1824 1809 1821
+				1824 1809 1821 1826 7994 1804 1807
 			}
 			
 		}
@@ -6105,19 +6032,7 @@ country = {
 			capital = 1790
 			
 			own_control_core = 	{ 
-				1790 1791
-			}
-			
-		}
-		
-		HBI = { #Karana
-			government = tribal_kingdom
-			primary_culture = mushkian
-			religion = caucasic_pantheon
-			capital = 1839
-			
-			own_control_core = 	{ 
-				1839 1840
+				1790 1791 1833 1840 1789 1846 1844 1843 1842
 			}
 			
 		}
@@ -6129,7 +6044,7 @@ country = {
 			capital = 231
 			
 			own_control_core = 	{ 
-				231 1837
+				231 1837 1838 1834 7998 1819 1822 1823 1831 
 			}
 			
 		}
@@ -6176,7 +6091,7 @@ country = {
 			religion = caucasic_pantheon
 			capital = 1793
 			own_control_core = 	{ 
-				1793 1806
+				1793 1806 1786 1801 1787 1792 
 			}
 			
 		}
@@ -6381,7 +6296,7 @@ country = {
 			capital = 271
 			
 			own_control_core = 	{ 
-				271 253
+				271 320 218 303 306 304 273 
 			}
 			
 		}
@@ -6405,7 +6320,7 @@ country = {
 			capital = 252
 			
 			own_control_core = 	{ 
-				254 252 7908
+				254 252 7908 253 251
 			}
 			
 		}
@@ -6417,7 +6332,7 @@ country = {
 			capital = 278
 			
 			own_control_core = 	{ 
-				278
+				278 276 337 272
 			}
 			
 		}
@@ -6429,7 +6344,7 @@ country = {
 			capital = 265
 			
 			own_control_core = 	{ 
-				265 269
+				265 269 264
 			}
 			
 		}
@@ -6453,7 +6368,7 @@ country = {
 			capital = 219
 			
 			own_control_core = 	{ 
-				219 215 214 210
+				219 215 214 210 223 221 224 326 329 237
 			}
 			
 		}
@@ -6465,7 +6380,7 @@ country = {
 			capital = 325
 			
 			own_control_core = 	{ 
-				325 244
+				325 244 7765 327 324 322 
 			}
 			
 		}
@@ -6477,7 +6392,7 @@ country = {
 			capital = 248
 			
 			own_control_core = 	{ 
-				248 245 246
+				248 245 246 247 323 250 249
 			}
 			
 		}
@@ -6489,31 +6404,19 @@ country = {
 			capital = 243
 			
 			own_control_core = 	{ 
-				243 239
+				243 239 236 234
 			}
 			
-		}
+		} 
 		
-		HDT = { #Enetoi
-			government = tribal_kingdom
-			primary_culture = paphlagonic
-			religion = luwic_pantheon
-			capital = 208
-			
-			own_control_core = 	{ 
-				208 212 206
-			}
-			
-		}
-		
-		HDW = { #Blainoi
-			government = tribal_kingdom
+		HDW = { #Paphlagonia
+			government = tribal_federation
 			primary_culture = paphlagonic
 			religion = luwic_pantheon
 			capital = 1829
 			
 			own_control_core = 	{ 
-				1829 232 1827
+				1829 232 1827 208 212 206 211 213 216 217 199 198 201 200 203 1828 1816 1815 1814 1812 1810
 			}
 			
 		}
@@ -7436,7 +7339,7 @@ country = {
 			capital = 4223
 			
 			own_control_core = 	{ 
-				4223 4224 4226 4225
+				4223 4224 4226 4225 4221 4217 4220 4216 4215
 			}
 			
 		}
@@ -7460,7 +7363,7 @@ country = {
 			capital = 343
 			
 			own_control_core = 	{ 
-				343 342 4314
+				343 342 4314 482 481 480
 			}
 			
 		}
@@ -7496,7 +7399,7 @@ country = {
 			capital = 489
 			
 			own_control_core = 	{ 
-				489 4154 495 491 357 490 353 352 350
+				489 4154 495 491 357 490 353 352 350 493 4309 4312 496
 			}
 			
 		}
@@ -7556,7 +7459,7 @@ country = {
 			capital = 393
 			
 			own_control_core = 	{ 
-				393 397
+				393 397 405
 			}
 			
 		}
@@ -7568,7 +7471,7 @@ country = {
 			capital = 4243
 			
 			own_control_core = 	{ 
-				4243 4258 4251
+				4243 4258 4251 4247 4248 4246 4253 4242
 			}
 			
 		}
@@ -7580,7 +7483,7 @@ country = {
 			capital = 479
 			
 			own_control_core = 	{ 
-				479 4245
+				479 4245 4307 4259 4240 4241 
 			}
 			
 		}
@@ -7592,7 +7495,7 @@ country = {
 			capital = 4116
 			
 			own_control_core = 	{ 
-				4116 4115 477
+				4116 4115 477 4109 4230 4222
 			}
 			
 		}
@@ -7604,7 +7507,7 @@ country = {
 			capital = 486
 			
 			own_control_core = 	{ 
-				486 478 485
+				486 478 485 4311 4313 484 4310
 			}
 			
 		}
@@ -7616,7 +7519,7 @@ country = {
 			capital = 4238
 			
 			own_control_core = 	{ 
-				4238 4239 4231 4233 4237
+				4238 4239 4231 4233 4237 4244 4236 4234 4232 4227 4228 4229 4235
 			}
 			
 		}
@@ -7628,7 +7531,7 @@ country = {
 			capital = 4153
 			
 			own_control_core = 	{ 
-				4153 498
+				4153 498 497 4306 499 4097 3853 488 487
 			}
 			
 		}
@@ -7640,7 +7543,7 @@ country = {
 			capital = 4152
 			
 			own_control_core = 	{ 
-				4152 4117 4304
+				4152 4117 4304 4302 4303 4305 4096 4108
 			}
 			
 		}
@@ -7664,20 +7567,15 @@ country = {
 			religion = grecoid_pantheon
 			capital = 382
 			
-			own_control_core = 	{ 
-				382 383 381 400 408 411
+			poptype_rights = { 
+				{
+					culture = doric 
+					type = citizen
+				}
 			}
 			
-		}
-		
-		TCC = { #Orestis
-			government = despotic_monarchy
-			primary_culture = doric
-			religion = grecoid_pantheon
-			capital = 3175
-			
 			own_control_core = 	{ 
-				3175 3125
+				382 383 381 400 408 411 3175 3125
 			}
 			
 		}
@@ -8007,7 +7905,7 @@ country = {
 			capital = 4080
 			
 			own_control_core = 	{ 
-				4080 4107
+				4080 4107 4079 4078 4068 4067 
 			}
 			
 		}
@@ -8103,7 +8001,7 @@ country = {
 			capital = 4062
 			
 			own_control_core = 	{ 
-				4062 4063 4084 8026 4081 4066
+				4062 4063 4084 8026 4081 4066 4064 4069
 			}
 			
 		}
@@ -8115,43 +8013,19 @@ country = {
 			capital = 4099
 			
 			own_control_core = 	{ 
-				4099 4098
+				4099 4098 4095 4093 4100 4113 
 			}
 			
 		}
 		
-		MAA = { #Nesactium
+		MAA = { #Histrii
 			government = tribal_kingdom
 			primary_culture = castelieric
 			religion = bosutan_pantheon
 			capital = 4020
 			
 			own_control_core = 	{ 
-				4020 4019 4021
-			}
-			
-		}
-		
-		MAB = { #Muggia
-			government = tribal_kingdom
-			primary_culture = castelieric
-			religion = bosutan_pantheon
-			capital = 4018
-			
-			own_control_core = 	{ 
-				4018 4022
-			}
-			
-		}
-		
-		MAC = { #Opatija
-			government = tribal_kingdom
-			primary_culture = bosutic
-			religion = bosutan_pantheon
-			capital = 4023
-			
-			own_control_core = 	{ 
-				4023
+				4020 4019 4021 4018 4022 4023
 			}
 			
 		}
@@ -8235,7 +8109,7 @@ country = {
 			capital = 4024
 			
 			own_control_core = 	{ 
-				4024 4026 3607
+				4024 4026 3607 4025 4027 4028 4029 4039 4030 4048
 			}
 			
 		}
@@ -8247,7 +8121,7 @@ country = {
 			capital = 3671
 			
 			own_control_core = 	{ 
-				3671 3672 4047
+				3671 3672 4047 2668 3673 4131 3674 3688
 			}
 			
 		}
@@ -8259,7 +8133,7 @@ country = {
 			capital = 4135
 			
 			own_control_core = 	{ 
-				4135 4143 4134
+				4135 4143 4134 4031 4136
 			}
 			
 		}
@@ -8271,7 +8145,7 @@ country = {
 			capital = 4184
 			
 			own_control_core = 	{ 
-				4184 4185 4187 4171
+				4184 4185 4187 4171 4169 4168 4170 4188
 			}
 			
 		}
@@ -8283,7 +8157,8 @@ country = {
 			capital = 4073
 			
 			own_control_core = 	{ 
-				4073 4043 4074
+				4073 4043 4074 4042 4046 4041 4177 4178 4183
+				4076 4075 4072 4071 4061 4070 4065
 			}
 			
 		}
@@ -8295,19 +8170,7 @@ country = {
 			capital = 4045
 			
 			own_control_core = 	{ 
-				4045 4040 4044
-			}
-			
-		}
-		
-		MAT = { #Anarti
-			government = tribal_kingdom
-			primary_culture = pannonic
-			religion = celtic_pantheon
-			capital = 4850
-			
-			own_control_core = 	{ 
-				4850 4847 4856 4840 4835
+				4045 4040 4044 4036 4038 4181
 			}
 			
 		}
@@ -8319,7 +8182,7 @@ country = {
 			capital = 4157
 			
 			own_control_core = 	{ 
-				4157 4852 4867 4868
+				4157 4156 4155 4158 4159
 			}
 			
 		}
@@ -8331,7 +8194,7 @@ country = {
 			capital = 4138
 			
 			own_control_core = 	{ 
-				4138 4148 4132 4139 4149 4150 4151
+				4138 4148 4132 4139 4149 4150 4151 4141 4142 4144 4145 3653 3918 4146 4147 4133
 			}
 			
 		}
@@ -8355,7 +8218,7 @@ country = {
 			capital = 4180
 			
 			own_control_core = 	{ 
-				4180 4179 4174 4172 4173
+				4180 4179 4174 4172 4173 4167 4166 4165 4140 4137 4175 4182 4176
 			}
 			
 		}
@@ -8367,19 +8230,7 @@ country = {
 			capital = 3669
 			
 			own_control_core = 	{ 
-				3669 
-			}
-			
-		}
-		
-		MBH = { #Isarci
-			government = tribal_kingdom
-			primary_culture = raetic
-			religion = villanic_pantheon
-			capital = 3664
-			
-			own_control_core = 	{ 
-				3664 
+				3669 3664 3667 3670
 			}
 			
 		}
@@ -8391,7 +8242,7 @@ country = {
 			capital = 3658
 			
 			own_control_core = 	{ 
-				3658 
+				3658 3663 3665 3666
 			}
 			
 		}
@@ -8403,7 +8254,7 @@ country = {
 			capital = 3655
 			
 			own_control_core = 	{ 
-				3655
+				3655 3656 3657
 			}
 			
 		}
@@ -8415,7 +8266,7 @@ country = {
 			capital = 3651
 			
 			own_control_core = 	{ 
-				3651 3652 3650 3921 3916 3923
+				3651 3652 3650 3921 3916 3923 3649 
 			}
 			
 		}
@@ -8424,10 +8275,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = halstattan
 			religion = celtic_pantheon
-			capital = 3647
+			capital = 3764
 			
 			own_control_core = 	{ 
-				3647 3646 3645
+				3647 3646 3645 3648 3763 3762 3644 3643 3764 3761 3760 3755 3756 3759 3758
 			}
 			
 		}
@@ -8439,7 +8290,7 @@ country = {
 			capital = 3752
 			
 			own_control_core = 	{ 
-				3752 3751 3640 3753 3641
+				3752 3751 3640 3753 3641 3654 3748 3749 3773 3757 3642 3754 
 			}
 			
 		}
@@ -8451,7 +8302,8 @@ country = {
 			capital = 3744
 			
 			own_control_core = 	{ 
-				3744 3745 3746 3743
+				3744 3745 3746 3743 3732 3731 3733 3734 3639 3637 3739 3012
+				3741 3740 3750 3775 3747 3638
 			}
 			
 		}
@@ -8463,7 +8315,7 @@ country = {
 			capital = 3735
 			
 			own_control_core = 	{ 
-				3735 3736 3800
+				3735 3736 3052 3025 3020 3022
 			}
 			
 		}
@@ -8571,7 +8423,7 @@ country = {
 			capital = 4203
 			
 			own_control_core = 	{ 
-				4203 4202 4118 4213
+				4203 4202 4118 4213 4111 4114 4204 4212 4218 4219 4112 4110
 			}
 			
 		}
@@ -8583,7 +8435,7 @@ country = {
 			capital = 4103
 			
 			own_control_core = 	{ 
-				4103 4102 4101
+				4103 4102 4101 4106 4105 4119 
 			}
 			
 		}
@@ -8595,7 +8447,7 @@ country = {
 			capital = 4125
 			
 			own_control_core = 	{ 
-				4125 4127 4122
+				4125 4127 4122 4123 4124 4197 4121 4206 4120
 			}
 			
 		}
@@ -8607,7 +8459,7 @@ country = {
 			capital = 4564
 			
 			own_control_core = 	{ 
-				4564 4563 4562 4565 4561 7612
+				4564 4563 4562 4565 4561 7612 7613 
 			}
 			
 		}
@@ -8619,7 +8471,7 @@ country = {
 			capital = 7637
 			
 			own_control_core = 	{ 
-				7637 4558 5884
+				7637 4558 5884 5885 5887
 			}
 			
 		}
@@ -8631,7 +8483,7 @@ country = {
 			capital = 7617
 			
 			own_control_core = 	{ 
-				7617 4560 7634 4559
+				7617 4560 7634 4559 7636 7618 7635 5886 
 			}
 			
 		}
@@ -8643,7 +8495,7 @@ country = {
 			capital = 4278
 			
 			own_control_core = 	{ 
-				4278 4270 4276
+				4278 4270 4276 4266 4267 4268 4271 4274 
 			}
 			
 		}
@@ -8655,7 +8507,7 @@ country = {
 			capital = 4816
 			
 			own_control_core = 	{ 
-				4816 4817 4810 
+				4816 4817 4810 4815 4823 4819 4818 
 			}
 			
 		}
@@ -8667,19 +8519,7 @@ country = {
 			capital = 4273
 			
 			own_control_core = 	{ 
-				4273 4272 4822 4280
-			}
-			
-		}
-		
-		DBC = { #Senses
-			government = tribal_kingdom
-			primary_culture = basarabi
-			religion = thracic_pantheon
-			capital = 4812
-			
-			own_control_core = 	{ 
-				4812 4808 4805
+				4273 4272 4822 4280 4820 4269 4821 4281
 			}
 			
 		}
@@ -8688,10 +8528,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = belegan
 			religion = thracic_pantheon
-			capital = 4826
+			capital = 4195
 			
 			own_control_core = 	{ 
-				4826 4831 4827 4833 
+				4195 4199 4205 4198 4196 4193 4190 4189
 			}
 			
 		}
@@ -8703,7 +8543,7 @@ country = {
 			capital = 4502
 			
 			own_control_core = 	{ 
-				4502 4503 4501 4298 4297
+				4502 4503 4501 4298 4297 4295 4296 4287 4910
 			}
 			
 		}
@@ -8715,19 +8555,7 @@ country = {
 			capital = 4508
 			
 			own_control_core = 	{ 
-				4508 4506 4511 4507 4907
-			}
-			
-		}
-		
-		DBL = { #Biephi
-			government = tribal_kingdom
-			primary_culture = fnthracian
-			religion = thracic_pantheon
-			capital = 4851
-			
-			own_control_core = 	{ 
-				4851 4860 4861 4858 
+				4508 4506 4511 4507 4907 4505 4509 4510 4906 4504
 			}
 			
 		}
@@ -8739,19 +8567,7 @@ country = {
 			capital = 4208
 			
 			own_control_core = 	{ 
-				4208 4207 4209 
-			}
-			
-		}
-		
-		DBP = { #Ansamenses
-			government = tribal_kingdom
-			primary_culture = fnthracian
-			religion = thracic_pantheon
-			capital = 4885
-			
-			own_control_core = 	{ 
-				4885 4884 4879 4883 4880
+				4208 4207 4209 4200 4201 4214
 			}
 			
 		}
@@ -8763,7 +8579,7 @@ country = {
 			capital = 4288
 			
 			own_control_core = 	{ 
-				4288 4830 4285 4282
+				4288 4830 4285 4282 4290 4289 4284 4283 4286 4291 4861 4839
 			}
 			
 		}
@@ -8787,7 +8603,7 @@ country = {
 			capital = 4294
 			
 			own_control_core = 	{ 
-				4294 4293 4292
+				4294 4293 4292 4500 4909 4911 4299 
 			}
 			
 		}
@@ -8799,7 +8615,7 @@ country = {
 			capital = 4254
 			
 			own_control_core = 	{ 
-				4254 4250 4255 
+				4254 4250 4255 4257 4249 4256 4252
 			}
 			
 		}
@@ -8811,7 +8627,7 @@ country = {
 			capital = 4517
 			
 			own_control_core = 	{ 
-				4517 4514 4520
+				4517 4514 4520 4518 4519 4516 4515 4513 4512
 			}
 			
 		}
@@ -8907,7 +8723,7 @@ country = {
 			capital = 2043
 			
 			own_control_core = 	{ 
-				2043 2027 2051 2034 2052 2044 2045
+				2043 2027 2051 2034 2052 2044 2045 2041 2061 2053 2054 2055 2062 2065 2058
 			}
 			
 		}
@@ -8919,7 +8735,7 @@ country = {
 			capital = 2032
 			
 			own_control_core = 	{ 
-				2032 2033 2036
+				2032 2033 2036 2035 2037 2031
 			}
 			
 		}
@@ -8931,7 +8747,7 @@ country = {
 			capital = 2057
 			
 			own_control_core = 	{ 
-				2057 2063
+				2057 2063 2068 3057 
 			}
 			
 		}
@@ -8943,7 +8759,7 @@ country = {
 			capital = 2075
 			
 			own_control_core = 	{ 
-				2076 2075 3058
+				2076 2075 2079
 			}
 			
 		}
@@ -8955,7 +8771,7 @@ country = {
 			capital = 2071
 			
 			own_control_core = 	{ 
-				2071 2047
+				2071 2047 2046 2059 2064 
 			}
 			
 		}
@@ -8967,7 +8783,8 @@ country = {
 			capital = 2084
 			
 			own_control_core = 	{ 
-				2084 5432 2088 2080
+				2084 5432 2088 2080 2081 2082 2083 2087 3060 2073 2072 2070 5434 2066 5433 
+				2067 2069 3058 2074 2077 2078 3059 2085
 			}
 			
 		}
@@ -8979,7 +8796,7 @@ country = {
 			capital = 2048
 			
 			own_control_core = 	{ 
-				2048 2056 2050 2060
+				2048 2056 2050 2060 2049 2040 2039 2024 2009 2025
 			}
 			
 		}
@@ -8991,7 +8808,7 @@ country = {
 			capital = 2103
 			
 			own_control_core = 	{ 
-				2096 2103
+				2096 2103 2100 2098 2101 2102 
 			}
 			
 		}
@@ -9003,7 +8820,7 @@ country = {
 			capital = 2105
 			
 			own_control_core = 	{ 
-				2105 2104
+				2105 2104 2106 2107
 			}
 			
 		}
@@ -9015,19 +8832,19 @@ country = {
 			capital = 2095
 			
 			own_control_core = 	{ 
-				2095 2099 2094 2093 2097
+				2095 2099 2094 2093 2097 2092
 			}
 			
 		}
 		
-		OBC = { #Selgovae
-			government = tribal_kingdom
+		OBC = { #Caledonia
+			government = tribal_federation
 			primary_culture = caledic
 			religion = celtic_pantheon
 			capital = 2086
 			
 			own_control_core = 	{ 
-				2113 2086
+				2113 2086 2089 2090 2111 2114 2115 2124 2112 2109 2110 2091
 			}
 			
 		}
@@ -9056,26 +8873,14 @@ country = {
 			
 		}
 		
-		OCB = { #Cerones
-			government = tribal_kingdom
+		OCB = { #Picts
+			government = tribal_federation
 			primary_culture = pictic
 			religion = bakeric_pantheon
 			capital = 2120
 			
 			own_control_core = 	{ 
-				2120 2123
-			}
-			
-		}
-		
-		OCH = { #Vacomagi
-			government = tribal_kingdom
-			primary_culture = pictic
-			religion = bakeric_pantheon
-			capital = 2133
-			
-			own_control_core = 	{ 
-				2133 7740
+				2120 2123 6311 2117 2133 7740 2116 2125 7739 2131 2122 2121 2119 2118  
 			}
 			
 		}
@@ -10143,7 +9948,7 @@ country = {
 			capital = 3564
 			
 			own_control_core = 	{ 
-				3564 3563
+				3564 3563 3530 3548 3550 
 			}
 			
 		}
@@ -10155,7 +9960,7 @@ country = {
 			capital = 137
 			
 			own_control_core = 	{ 
-				137 141
+				137 141 154 153
 			}
 			
 		}
@@ -10167,7 +9972,7 @@ country = {
 			capital = 3554
 			
 			own_control_core = 	{ 
-				3554 3553
+				3554 3553 3557 3556
 			}
 			
 		}
@@ -10196,14 +10001,14 @@ country = {
 			
 		}
 		
-		IED = { #Ariolici
+		IED = { #Camunni
 			government = tribal_kingdom
 			primary_culture = camunnic
 			religion = villanic_pantheon
 			capital = 3583
 			
 			own_control_core = 	{ 
-				3583 3584 3662
+				3583 3584 3662 3661 3660 3659
 			}
 			
 		}
@@ -10663,7 +10468,7 @@ country = {
 			capital = 1166
 			
 			own_control_core = 	{ 
-				1166 1165 1048
+				1166 1165 1048 1167 
 			}
 			
 		}
@@ -10675,7 +10480,7 @@ country = {
 			capital = 1289
 			
 			own_control_core = 	{ 
-				1289 1288 1051 1153
+				1289 1288 1051 1153 1156 1157 1050
 			}
 			
 		}
@@ -10867,7 +10672,8 @@ country = {
 			capital = 1430
 			
 			own_control_core = 	{ 
-				1430 1310 1427 1425 1426 1423 1432 1428 1424
+				1430 1310 1427 1425 1426 1423 1432 1428 1424 1433 1311 1312
+				1307 1301
 			}
 			
 		}
@@ -10904,7 +10710,7 @@ country = {
 			
 			own_control_core = 	{ 
 				1435 1454 340 1434 1431 1400 1436 1407 1406 1404
-				1408 1402 1403 1401 1418 1420 
+				1408 1402 1403 1401 1418 1420 1437 1201 1304 1306
 			}
 			
 		}
@@ -10928,7 +10734,7 @@ country = {
 			capital = 1223
 			
 			own_control_core = 	{ 
-				1223 1207 1225 1222 1206 1226 1205 1219 1218 1227 1221 1018 1092
+				1223 1207 1225 1222 1206 1226 1205 1219 1218 1227 1221 1018 1092 1193
 			}
 			
 		}
@@ -10940,7 +10746,7 @@ country = {
 			capital = 1024
 			
 			own_control_core = 	{ 
-				1024 1203 1204 1023 1202 1208 1025 1456 1455
+				1024 1203 1204 1023 1202 1208 1025 1456 1455 1438 1200 1194
 			}
 			
 		}
@@ -10964,7 +10770,7 @@ country = {
 			capital = 1102
 			
 			own_control_core = 	{ 
-				1102 1097 1104 1103 1105
+				1102 1097 1104 1103 1105 1107 1020 1109 1112 1110 1111
 			}
 			
 		}
@@ -10988,7 +10794,7 @@ country = {
 			capital = 1177
 			
 			own_control_core = 	{ 
-				1177 1022 1176 1184
+				1177 1022 1176 1184 1195 1175 1196 1180
 			}
 			
 		}
@@ -11000,7 +10806,7 @@ country = {
 			capital = 1190
 			
 			own_control_core = 	{ 
-				1190 1191 1192 1019
+				1190 1191 1192 1019 1188 1093 1094 1086 1096 1100
 			}
 			
 		}
@@ -11012,7 +10818,8 @@ country = {
 			capital = 1042
 			
 			own_control_core = 	{ 
-				1042 1041 1178 1189 1181
+				1042 1041 1178 1189 1181 1174 1183 1182 1021 1186 1187 
+				1185 1044 1120 1172 1171 1168 1169 1045
 			}
 			
 		}
@@ -11024,7 +10831,8 @@ country = {
 			capital = 1043
 			
 			own_control_core = 	{ 
-				1043 1161 1046 1173 1179
+				1043 1161 1046 1173 1179 1197 1199 1198 1160 1305 1049
+				1159 1162 1164 1163
 			}
 			
 		}
@@ -11036,7 +10844,7 @@ country = {
 			capital = 3571
 			
 			own_control_core = 	{ 
-				3571 3572 3578 3567 3566
+				3571 3567 3566 3570 3569 3568 3565 3562 3561 3555 3558 3559 3560 3551 3535
 			}
 			
 		}
@@ -11048,7 +10856,7 @@ country = {
 			capital = 3579
 			
 			own_control_core = 	{ 
-				3579 3580 3582 3581 3575 3573
+				3579 3580 3582 3581 3575 3573 3574 3577 3578 3572
 			}
 			
 		}
@@ -11108,7 +10916,7 @@ country = {
 			capital = 3520
 			
 			own_control_core = 	{ 
-				3520 3529
+				3520 3529 3528 3524 3527 3525 3533 3536
 			}
 			
 		}
@@ -11120,7 +10928,7 @@ country = {
 			capital = 3542
 			
 			own_control_core = 	{ 
-				3542 3521
+				3542 3521 3522 3518 2324
 			}
 			
 		}
@@ -11168,7 +10976,7 @@ country = {
 			capital = 2320
 			
 			own_control_core = 	{ 
-				2320 2309 2310 2322 2321
+				2320 2309 2310 2322 2321 2308 3526 3519
 			}
 			
 		}
@@ -11180,7 +10988,7 @@ country = {
 			capital = 2316
 			
 			own_control_core = 	{ 
-				2316 2317 2311
+				2316 2317 2311 2296
 			}
 			
 		}
@@ -11204,7 +11012,7 @@ country = {
 			capital = 2260
 			
 			own_control_core = 	{ 
-				2260 2313 2259
+				2260 2313 2259 2312 2315 2297
 			}
 			
 		}
@@ -11216,7 +11024,7 @@ country = {
 			capital = 2255
 			
 			own_control_core = 	{ 
-				2255 2258 2254
+				2255 2258 2254 2267 2263 2253 2276 2265 2266 2278
 			}
 			
 		}
@@ -11228,7 +11036,7 @@ country = {
 			capital = 2268
 			
 			own_control_core = 	{ 
-				2268 
+				2268 2280 2262 2261 2295 3309 2285
 			}
 			
 		}
@@ -11324,7 +11132,7 @@ country = {
 			capital = 2227
 			
 			own_control_core = 	{ 
-				2227 2224 2210 2211 2225 
+				2227 2224 2210 2211 2225 2228 2397 2398
 			}
 			
 		}
@@ -11336,7 +11144,7 @@ country = {
 			capital = 2402
 			
 			own_control_core = 	{ 
-				2402 2401 2351
+				2402 2401 2351 2400 2352 2403 2144 2217 2215 2216 2214 2394 2349 2423 2426
 			}
 			
 		}
@@ -11348,7 +11156,7 @@ country = {
 			capital = 2441
 			
 			own_control_core = 	{ 
-				2441 2460 2461 2463 
+				2441 2460 2461 2463 2458 2456 2459 2219 2464 2457 2478 2476 2462 2442 2477 2475
 			}
 			
 		}
@@ -11372,7 +11180,7 @@ country = {
 			capital = 2236
 			
 			own_control_core = 	{ 
-				2236 2233 2288 2289 2234
+				2236 2233 2288 2289 2234 2281 2294 2292 2287
 			}
 			
 		}
@@ -11384,7 +11192,7 @@ country = {
 			capital = 2232
 			
 			own_control_core = 	{ 
-				2232 2231 2229 2230 2226 
+				2232 2231 2229 2230 2226 2282 2291 2290 2332 
 			}
 			
 		}
@@ -11396,7 +11204,7 @@ country = {
 			capital = 2329
 			
 			own_control_core = 	{ 
-				2329 2328 2327 2338
+				2329 2328 2327 2338 2339 2335 2269 2326 2279 2271 2293 2270 
 			}
 			
 		}
@@ -11408,7 +11216,7 @@ country = {
 			capital = 3036
 			
 			own_control_core = 	{ 
-				3036 3033 3026 2471 
+				3036 3033 3026 2471 3037 3027 3030 3029 3035 3034 2469 2443 2473
 			}
 			
 		}
@@ -11420,7 +11228,7 @@ country = {
 			capital = 3677
 			
 			own_control_core = 	{ 
-				3677 3675 3843 3028
+				3677 3675 3843 3028 3676 3678 3844
 			}
 			
 		}
@@ -11432,7 +11240,7 @@ country = {
 			capital = 2491
 			
 			own_control_core = 	{ 
-				2491 2451
+				2491 2451 2492 2452 3048 3043
 			}
 			
 		}
@@ -11444,7 +11252,7 @@ country = {
 			capital = 3044
 			
 			own_control_core = 	{ 
-				3044 3032 2493 2445
+				3044 3032 2493 2445 2447 2484 2444 2474 2472 2446 3031 
 			}
 			
 		}
@@ -11456,7 +11264,7 @@ country = {
 			capital = 3679
 			
 			own_control_core = 	{ 
-				3679 3042 3046 3041
+				3679 3042 3046 3041 3705 3707 3680 3047 3045 3038 3040 3039
 			}
 			
 		}
@@ -11468,7 +11276,7 @@ country = {
 			capital = 3706
 			
 			own_control_core = 	{ 
-				3706 3681 3708 3709 3682
+				3706 3681 3708 3709 3682 3719 3718 3716
 			}
 			
 		}
@@ -11480,7 +11288,7 @@ country = {
 			capital = 3703
 			
 			own_control_core = 	{ 
-				3703 3051 3684
+				3703 3051 3684 3704 3683
 			}
 			
 		}
@@ -11492,7 +11300,7 @@ country = {
 			capital = 3714
 			
 			own_control_core = 	{ 
-				3714 3712 3713 3711
+				3714 3712 3713 3711 3717 3715 3710 3845 3849 3846
 			}
 			
 		}
@@ -11504,7 +11312,7 @@ country = {
 			capital = 2284
 			
 			own_control_core = 	{ 
-				2284 2298 1719 2342 2299 2371
+				2284 2298 1719 2342 2299 2371 2286 2337 3307 1721 2300 2370
 			}
 			
 		}
@@ -11516,7 +11324,7 @@ country = {
 			capital = 2408
 			
 			own_control_core = 	{ 
-				2408 2424 2416 2350 2425 
+				2408 2424 2416 2350 2425 2407 2410 2411 2414 2417 2479 
 			}
 			
 		}
@@ -11528,7 +11336,8 @@ country = {
 			capital = 2388
 			
 			own_control_core = 	{ 
-				2388 2389 2390 2345 2387 2385
+				2388 2389 2390 2345 2387 2385 2392 3000 2391 2393 2399 2396 2334 2333 2283 2386
+				2331 2341 2330 2404 2340
 			}
 			
 		}
@@ -11540,7 +11349,7 @@ country = {
 			capital = 2346
 			
 			own_control_core = 	{ 
-				2346 2405 2409 2406
+				2346 2405 2409 2406 2382 2383 2384 2420 2419 2422 2421 2385 2343 2379 2344 2378 2395
 			}
 			
 		}
@@ -11552,7 +11361,7 @@ country = {
 			capital = 2306
 			
 			own_control_core = 	{ 
-				2306 2304 2303 2301
+				2306 2304 2303 2301 2302 2305 2307
 			}
 			
 		}
@@ -11564,7 +11373,7 @@ country = {
 			capital = 3014
 			
 			own_control_core = 	{ 
-				3014 2427 3015 3010 3013
+				3014 2427 3015 3010 3013 2355 2363 2429 2428 2354 3004
 			}
 			
 		}
@@ -11576,7 +11385,7 @@ country = {
 			capital = 3019
 			
 			own_control_core = 	{ 
-				3019 3018 3024
+				3019 3018 3024 3011 3009 3021
 			}
 			
 		}
@@ -11588,7 +11397,7 @@ country = {
 			capital = 3023
 			
 			own_control_core = 	{ 
-				3023 3693 3695
+				3023 3693 3695 3053 3017 3694 3692 
 			}
 			
 		}
@@ -11600,7 +11409,7 @@ country = {
 			capital = 3056
 			
 			own_control_core = 	{ 
-				3056 3701 3698 3697
+				3056 3701 3698 3697 3725 3723 3696 3054
 			}
 			
 		}
@@ -11612,7 +11421,7 @@ country = {
 			capital = 3690
 			
 			own_control_core = 	{ 
-				3690 3691 3688 3724 3722 3726
+				3690 3691 3688 3724 3722 3726 3721 2454 3001 3689
 			}
 			
 		}
@@ -11624,7 +11433,7 @@ country = {
 			capital = 3728
 			
 			own_control_core = 	{ 
-				3728 3727 3720 7738 3730
+				3728 3727 3720 7738 3730 3685 3729
 			}
 			
 		}
@@ -11636,7 +11445,7 @@ country = {
 			capital = 2449
 			
 			own_control_core = 	{ 
-				2449 3005 3006 2489
+				2449 3005 3006 2489 2488 2495 2450 2490 2487
 			}
 			
 		}
@@ -11648,7 +11457,7 @@ country = {
 			capital = 2374
 			
 			own_control_core = 	{ 
-				2374 2367 2368 2376
+				2374 2367 2368 2376 2373 2375 2380 2372 2366 2381 2412 2347 2377
 			}
 			
 		}
@@ -11660,7 +11469,7 @@ country = {
 			capital = 2480
 			
 			own_control_core = 	{ 
-				2480 2448 2482 2483 
+				2480 2448 2482 2483 2481 2418 2485 2486 
 			}
 			
 		}
@@ -11672,7 +11481,7 @@ country = {
 			capital = 2430
 			
 			own_control_core = 	{ 
-				2430 2432 2439 2353
+				2430 2432 2439 2353 2437 2438 2434 2413 2415
 			}
 			
 		}
@@ -11696,7 +11505,7 @@ country = {
 			capital = 2360
 			
 			own_control_core = 	{ 
-				2360 2365 2359 2358 2356
+				2360 2365 2359 2358 2356 2361 2357 2364 2369 2348 2435 2362 
 			}
 			
 		}
@@ -11708,7 +11517,7 @@ country = {
 			capital = 2497
 			
 			own_control_core = 	{ 
-				2497 2453 2499 3002
+				2497 2453 2499 3002 3016 3003 3007 2498 2496 3008
 			}
 			
 		}
@@ -11720,7 +11529,7 @@ country = {
 			capital = 2494
 			
 			own_control_core = 	{ 
-				2494 2455 3049 3050 3686
+				2494 2455 3049 3050 3686 3687
 			}
 			
 		}
@@ -11732,7 +11541,7 @@ country = {
 			capital = 3537
 			
 			own_control_core = 	{ 
-				3537
+				3537 3534 3532 3531 3538
 			}
 			
 		}
@@ -11744,7 +11553,7 @@ country = {
 			capital = 3610
 			
 			own_control_core = 	{ 
-				3610 
+				3610 3611 3609 3608 
 			}
 			
 		}
@@ -11756,7 +11565,7 @@ country = {
 			capital = 3615
 			
 			own_control_core = 	{ 
-				3615 
+				3615 3614 3613 3620 3612
 			}
 			
 		}
@@ -11768,7 +11577,7 @@ country = {
 			capital = 3617
 			
 			own_control_core = 	{ 
-				3617 
+				3617 3618 3616 3619 3636
 			}
 			
 		}
@@ -11780,7 +11589,7 @@ country = {
 			capital = 3621
 			
 			own_control_core = 	{ 
-				3621 
+				3621 3539 3623 3622
 			}
 			
 		}
@@ -11792,7 +11601,7 @@ country = {
 			capital = 3625
 			
 			own_control_core = 	{ 
-				3625 
+				3625 3630 3629 3628 3624 3627 3626
 			}
 			
 		}
@@ -11804,7 +11613,7 @@ country = {
 			capital = 3632
 			
 			own_control_core = 	{ 
-				3632 
+				3632 3633 3634 3635 3631
 			}
 			
 		}
@@ -12944,18 +12753,6 @@ country = {
 			
 		}
 		
-		RAN = { #Malayana
-			government = tribal_kingdom
-			primary_culture = tamilic
-			religion = harrapan_pantheon
-			capital = 6922
-			
-			own_control_core = 	{ 
-				6922 
-			}
-			
-		}
-		
 		RAO = { #Alaivay
 			government = tribal_kingdom
 			primary_culture = tamilic
@@ -13196,18 +12993,6 @@ country = {
 			
 		}
 		
-		RCB = { #Kadapa
-			government = tribal_kingdom
-			primary_culture = telugic
-			religion = harrapan_pantheon
-			capital = 7026
-			
-			own_control_core = 	{ 
-				7026 
-			}
-			
-		}
-		
 		RCE = { #Rsika
 			government = tribal_kingdom
 			primary_culture = telugic
@@ -13228,18 +13013,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7154 
-			}
-			
-		}
-		
-		RCK = { #Gomanta
-			government = tribal_kingdom
-			primary_culture = asmakan
-			religion = harrapan_pantheon
-			capital = 6883
-			
-			own_control_core = 	{ 
-				6883 
 			}
 			
 		}
@@ -13456,18 +13229,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7096 
-			}
-			
-		}
-		
-		REC = { #Guntupalli
-			government = tribal_kingdom
-			primary_culture = gonkui
-			religion = harrapan_pantheon
-			capital = 7054
-			
-			own_control_core = 	{ 
-				7054 
 			}
 			
 		}

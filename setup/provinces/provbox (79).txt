@@ -167,7 +167,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -251,7 +251,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="desert"
@@ -274,7 +274,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -301,7 +301,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -320,7 +320,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -343,7 +343,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -362,7 +362,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -381,7 +381,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -404,7 +404,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -427,7 +427,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="desert"
@@ -450,7 +450,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="desert"
@@ -469,7 +469,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"
@@ -614,7 +614,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="desert"
@@ -907,7 +907,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="west_scythoi"
+	culture="dahic"
 	province_rank="settlement"
 	religion="scythic_pantheon"
 	terrain="plains"

@@ -206,8 +206,6 @@
  chustic:0 "Chustian"
  dahic:0 "Dahean"
  tagiskic:0 "Tagiskenian"
- east_scythoi:0 "East Sakan"
- west_scythoi:0 "West Sakan"
  amirabic:0 "Amirabadi"
  scythic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  scythic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

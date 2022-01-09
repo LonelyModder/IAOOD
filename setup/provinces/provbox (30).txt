@@ -5252,7 +5252,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank=""
 	religion="scythic_pantheon"
 	terrain="impassable_terrain"
@@ -7716,7 +7716,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_scythoi"
+	culture="tagiskic"
 	province_rank=""
 	religion="scythic_pantheon"
 	terrain="impassable_terrain"
