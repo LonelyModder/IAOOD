@@ -527,9 +527,9 @@ family={
 		}
 }
 diplomacy = {
-	#Babylonian surprising good relations with elam and sutians
+	#Babylonian relations
 	guarantee = { first = ADZ second = ABE }
-	alliance = { first = ADZ second = ACK }
+	#alliance = { first = ADZ second = ACK }
 	#Assyrian kaskan subject
 	dependency = { first = ABP second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass
@@ -4491,7 +4491,7 @@ country = {
 			capital = 4721
 			
 			own_control_core = 	{ 
-				4721 7560 7559 7561 7562 7563 7564 7565 7566 7567 7554 7555 7556 7556 7557 7558
+				4721 7560 7559 7561 7562 7563 7564 7565 7566 7567 7554 7555 7556 7557 7558
 			}
 		}
 		
@@ -5139,7 +5139,7 @@ country = {
 			capital = 6807
 			
 			own_control_core = 	{ 
-				6807 5392 6659 5398 5393 6726 5391 6810 6806 6808 5452
+				6807 5392 6659 5398 5393 6726 5391 6810 6806 6808
 			}
 		}
 		
@@ -8121,7 +8121,7 @@ country = {
 			capital = 3671
 			
 			own_control_core = 	{ 
-				3671 3672 4047 2668 3673 4131 3674 3688
+				3671 3672 4047 3673 4131 3674
 			}
 			
 		}
@@ -11336,7 +11336,7 @@ country = {
 			capital = 2388
 			
 			own_control_core = 	{ 
-				2388 2389 2390 2345 2387 2385 2392 3000 2391 2393 2399 2396 2334 2333 2283 2386
+				2388 2389 2390 2345 2387 2392 3000 2391 2393 2399 2396 2334 2333 2283 2386
 				2331 2341 2330 2404 2340
 			}
 			
@@ -12700,7 +12700,7 @@ country = {
 			capital = 6917
 			
 			own_control_core = 	{ 
-				6917 
+				6917 6919 6923 6921 6915 6942 6947 6948 6925
 			}
 			
 		}
@@ -12712,7 +12712,7 @@ country = {
 			capital = 6929
 			
 			own_control_core = 	{ 
-				6929 
+				6929 6931 6932
 			}
 			
 		}
@@ -12724,7 +12724,7 @@ country = {
 			capital = 6946
 			
 			own_control_core = 	{ 
-				6946 
+				6946 6938 6930
 			}
 			
 		}
@@ -12736,7 +12736,7 @@ country = {
 			capital = 6895
 			
 			own_control_core = 	{ 
-				6895 
+				6895 6904 6896
 			}
 			
 		}
@@ -12748,7 +12748,7 @@ country = {
 			capital = 6899
 			
 			own_control_core = 	{ 
-				6899 
+				6899 6900
 			}
 			
 		}
@@ -12760,7 +12760,7 @@ country = {
 			capital = 6914
 			
 			own_control_core = 	{ 
-				6914 
+				6914 6902 6903
 			}
 			
 		}
@@ -12808,7 +12808,7 @@ country = {
 			capital = 6908
 			
 			own_control_core = 	{ 
-				6908 
+				6908 6906
 			}
 			
 		}
@@ -12820,7 +12820,7 @@ country = {
 			capital = 6984
 			
 			own_control_core = 	{ 
-				6984 
+				6984 6986 6983 6985
 			}
 			
 		}
@@ -12832,7 +12832,7 @@ country = {
 			capital = 6988
 			
 			own_control_core = 	{ 
-				6988 
+				6988 6994 6936
 			}
 			
 		}
@@ -12844,7 +12844,7 @@ country = {
 			capital = 7032
 			
 			own_control_core = 	{ 
-				7032
+				7032 6995
 			}
 			
 		}
@@ -12856,7 +12856,7 @@ country = {
 			capital = 7035
 			
 			own_control_core = 	{ 
-				7035
+				7035 7023 7004 7036 7037
 			}
 			
 		}
@@ -12868,7 +12868,7 @@ country = {
 			capital = 7072
 			
 			own_control_core = 	{ 
-				7072 
+				7072 7071 7006 7090 7088 7015 7038
 			}
 			
 		}
@@ -12880,7 +12880,7 @@ country = {
 			capital = 7069
 			
 			own_control_core = 	{ 
-				7069 
+				7069 7091 7021 7005
 			}
 			
 		}
@@ -12892,19 +12892,7 @@ country = {
 			capital = 7070
 			
 			own_control_core = 	{ 
-				7070 
-			}
-			
-		}
-		
-		RBN = { #Pravipura
-			government = tribal_kingdom
-			primary_culture = kannadic
-			religion = harrapan_pantheon
-			capital = 7010
-			
-			own_control_core = 	{ 
-				7010 
+				7070 7092 7120
 			}
 			
 		}
@@ -12916,7 +12904,7 @@ country = {
 			capital = 7034
 			
 			own_control_core = 	{ 
-				7034 
+				7034 7014 7024
 			}
 			
 		}
@@ -12976,7 +12964,7 @@ country = {
 			capital = 7041
 			
 			own_control_core = 	{ 
-				7041 
+				7041 7040
 			}
 			
 		}
@@ -12988,7 +12976,7 @@ country = {
 			capital = 7001
 			
 			own_control_core = 	{ 
-				7001 
+				7001 6999 7000 6998
 			}
 			
 		}
@@ -13000,7 +12988,7 @@ country = {
 			capital = 7058
 			
 			own_control_core = 	{ 
-				7058 
+				7058 7056
 			}
 			
 		}
@@ -13012,7 +13000,7 @@ country = {
 			capital = 7154
 			
 			own_control_core = 	{ 
-				7154 
+				7154 7156 7155 7142 7153
 			}
 			
 		}
@@ -13024,7 +13012,7 @@ country = {
 			capital = 6881
 			
 			own_control_core = 	{ 
-				6881 
+				6881 6882
 			}
 			
 		}
@@ -13036,7 +13024,7 @@ country = {
 			capital = 6876
 			
 			own_control_core = 	{ 
-				6876 
+				6876 6877
 			}
 			
 		}
@@ -13048,19 +13036,7 @@ country = {
 			capital = 7108
 			
 			own_control_core = 	{ 
-				7108 
-			}
-			
-		}
-		
-		RCP = { #Arparanta
-			government = tribal_kingdom
-			primary_culture = asmakan
-			religion = harrapan_pantheon
-			capital = 7111
-			
-			own_control_core = 	{ 
-				7111 
+				7108 7109 7087
 			}
 			
 		}
@@ -13072,7 +13048,7 @@ country = {
 			capital = 6868
 			
 			own_control_core = 	{ 
-				6868 
+				6868 6867 6870 6871
 			}
 			
 		}
@@ -13084,7 +13060,7 @@ country = {
 			capital = 6866
 			
 			own_control_core = 	{ 
-				6866
+				6866 6864 6869
 			}
 			
 		}
@@ -13096,7 +13072,7 @@ country = {
 			capital = 7074
 			
 			own_control_core = 	{ 
-				7074 
+				7074 7146 7063 7159 7062 7102 7105 7127
 			}
 			
 		}
@@ -13108,7 +13084,7 @@ country = {
 			capital = 7075
 			
 			own_control_core = 	{ 
-				7075 
+				7075 7121 7097 7456 7094
 			}
 			
 		}
@@ -13120,7 +13096,7 @@ country = {
 			capital = 7162
 			
 			own_control_core = 	{ 
-				7162 
+				7162 7157
 			}
 			
 		}
@@ -13132,7 +13108,7 @@ country = {
 			capital = 7061
 			
 			own_control_core = 	{ 
-				7061
+				7061 7104
 			}
 			
 		}
@@ -13144,7 +13120,7 @@ country = {
 			capital = 7172
 			
 			own_control_core = 	{ 
-				7172 
+				7172 7081 7082
 			}
 			
 		}
@@ -13204,7 +13180,7 @@ country = {
 			capital = 7167
 			
 			own_control_core = 	{ 
-				7167 
+				7167 7100 7166 7168
 			}
 			
 		}
@@ -13216,7 +13192,7 @@ country = {
 			capital = 7139
 			
 			own_control_core = 	{ 
-				7139 
+				7139 7140
 			}
 			
 		}
@@ -13228,7 +13204,7 @@ country = {
 			capital = 7096
 			
 			own_control_core = 	{ 
-				7096 
+				7096 7169
 			}
 			
 		}
