@@ -388,8 +388,7 @@
  castelic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Germanic culture
  barbaric:2 "Germanic"
- west_barb:0 "West Germanic"
- east_barb:0 "East Germanic"
+ west_barb:0 "Germanic"
  north_barb:0 "Nordic"
  barbaric_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  barbaric_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

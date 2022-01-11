@@ -8988,7 +8988,7 @@ country = {
 		
 		ODA = { #Bastarni
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4757
 			
@@ -9000,7 +9000,7 @@ country = {
 		
 		ODB = { #Vandals
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4750
 			
@@ -9012,7 +9012,7 @@ country = {
 		
 		ODD = { #Scirii
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3985
 			
@@ -9024,7 +9024,7 @@ country = {
 		
 		ODF = { #Heruli
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4751
 			
@@ -9036,7 +9036,7 @@ country = {
 		
 		ODG = { #Rugii
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3904
 			
@@ -9048,7 +9048,7 @@ country = {
 		
 		ODI = { #Varini
 			government = tribal_kingdom
-			primary_culture = east_barb
+			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3899
 			

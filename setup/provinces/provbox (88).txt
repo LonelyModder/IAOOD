@@ -201,7 +201,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	port_building=1
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
@@ -217,7 +217,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="plains"
@@ -233,7 +233,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	port_building=1
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
@@ -249,7 +249,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="plains"
@@ -268,7 +268,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="plains"
@@ -302,7 +302,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="forest"
@@ -317,7 +317,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="forest"
@@ -362,7 +362,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="east_barb"
+	culture="west_barb"
 	province_rank="settlement"
 	religion="chaosgods_pantheon"
 	terrain="plains"
