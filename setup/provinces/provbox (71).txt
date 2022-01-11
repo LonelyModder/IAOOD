@@ -1,0 +1,1859 @@
+﻿#Pataliputra
+4440=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="silk"
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	fortress_building=1
+}
+#Nalanda
+4442=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="papyrus"
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nadikagama
+4443=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="silk"
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gaya
+4444=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="papyrus"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Rajagagrha
+4445=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	nobles=
+	{
+		amount=2
+	}
+	citizen=
+	{
+		amount=6
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=10
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Campa
+4446=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="precious_metals"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+	port_building=1
+}
+#Kajangala
+4447=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="precious_metals"
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Vaisali
+4448=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=5
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Pattana
+4459=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="shakyan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="mountain"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sugauna
+4460=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Dwarbanga
+4461=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Modgagiri
+4462=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="base_metals"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Malini
+4463=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="leather"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Devaprastha
+4464=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Purnia
+7322=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Kirrhadia
+7323=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Balipura
+7324=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Pundra
+7325=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Kotivarsa
+7326=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Karnasuvarna
+7327=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="silk"
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Vardhamana
+7328=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Chandraketugarh
+7329=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bargysi
+7330=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Chittagong
+7331=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="marsh"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site="omen_thagyamin"
+}
+#Salariga
+7332=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Srihatta
+7333=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bikrampur
+7334=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Souannagoura
+7335=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Selampoura
+7336=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aganagara
+7337=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Deoghar
+7338=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pragjyotishpura
+7339=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="city"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="incense"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=9
+	}
+	slaves=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site="omen_mtingnam_gyalmo"
+}
+#Suhma
+7340=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="plains"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sonitapur
+7341=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hajo
+7342=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dhuburi
+7343=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Goalpara
+7344=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nabadwipa
+7345=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="dye"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Bhargava
+7346=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhergavic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhallaka
+7347=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Davaka
+7348=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gramera
+7349=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gosira
+7350=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Japa
+7351=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Turupa
+7352=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bengmara
+7353=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sadiya
+7354=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Donga
+7355=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Karmanta
+7356=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="marsh"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Khulna
+7358=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mukund
+7359=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sita
+7360=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Manbhum
+7364=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Ladha
+7365=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="spices"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Bhagdatpuram
+7367=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Yavana
+7368=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	tribesmen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+}
+#Kishan
+7383=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vajra
+7392=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kasipur
+7393=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Fathabad
+7394=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Barisal
+7395=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bagerhat
+7396=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="marsh"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Jessore
+7397=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kushtia
+7398=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Jayapura
+7400=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ramgati
+7401=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="marsh"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Samastipur
+7479=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Saharsa
+7480=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Supaul
+7481=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kikatan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mithila
+7486=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="earthware"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Bijalpura
+7487=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="shakyan"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bethadipa
+7488=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Birganj
+7489=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="vratic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Nagarpur
+7490=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sripur
+7491=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Varendra
+7493=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Durgapur
+7494=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Egarosindur
+7495=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhaluka
+7496=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhallatic"
+	province_rank="settlement"
+	religion="burmese_pantheon"
+	terrain="jungle"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site="omen_bo_bo_gyi"
+}
+#Puthia
+7497=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Malda
+7498=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Porsha
+7499=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Itahar
+7650=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Balurghat
+7651=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Gosanimari
+7652=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhergavic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Manasa Kamata
+7653=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="assamo_tibetic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Thakurgaon
+7654=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kurmal"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Siliguri
+7655=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhergavic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Damak
+7656=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bhergavic"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Madanpur
+7659=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maghadic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="jungle"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=4
+	}
+}

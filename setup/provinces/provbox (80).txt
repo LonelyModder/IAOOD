@@ -1,0 +1,1645 @@
+﻿#Ghore
+5396=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shenia
+5397=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Marakanda
+6682=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Erbend
+6683=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gazaba
+6687=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="tin"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Ikroni
+6698=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Marouka
+6699=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Petra Arimazou
+6700=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Petra Chorienou
+6701=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Shakria
+6702=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kyropolis Baktriane
+6703=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Alexandreia Eschate
+6704=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="farmland"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Matuaspa
+6705=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kis
+6706=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="tin"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tribactra
+6707=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Amul
+6708=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Rapete
+6709=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Xenippa
+6710=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Charva
+6711=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kaza
+6712=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kermine
+6713=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Karnab
+6714=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Naura
+6715=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="city"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nautaka
+6716=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="tin"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Branchidai
+6717=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kogon
+6718=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Petra Sisimithrou
+6719=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Drepsiana
+6721=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Imarash
+6722=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Khavakand
+6730=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="city"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Massagetia
+6731=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Makhram
+6732=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Istarava
+6733=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Chust
+6734=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dawan
+6735=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Osh
+6736=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Andijan
+6737=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Namakan
+6738=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Akhsiket
+6739=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="city"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="silk"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Shakrikhan
+6740=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Uvikat
+6777=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Balasaghun
+6778=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="tin"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Suyab
+6779=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Nevaket
+6780=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Yul
+6781=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ashpara
+6782=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kulan
+6783=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Barskhan
+6784=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Shelji
+6785=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Tobe
+6786=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Narin
+6787=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	holy_site="omen_blessing_life"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Shura
+6788=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Uskat
+6789=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Tunket
+6790=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chustic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Chach
+6791=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Isfijab
+6792=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Otrar
+6793=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kuyruk
+6794=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Shavgar
+6795=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Varakhsha
+6802=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Burguchi
+7231=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nikhshapaya
+7238=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Zariaspa
+7240=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Artamis
+7241=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bactric"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Lebap
+7242=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chorasmic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Chinaz
+7245=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=1
+		religion="scythic_pantheon"
+	}
+}
+#Yangikent
+7246=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Altinasar
+7247=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Janaqala
+7248=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+	holy_site="omen_mthagimasadas"
+}
+#Akkum
+7249=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Koga
+7250=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=3
+	}
+
+}
+#Besta
+7251=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+
+}
+#Maidankoga
+7261=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tagiskic"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Maidankuyryk
+7262=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=3
+	}
+
+}
+#Jaxartes
+7263=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Maidanchach
+7264=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Zintik
+7265=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Qaram
+7266=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Araq
+7267=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Osht
+7268=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Jaxartia
+7269=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kashram
+7270=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kush
+7271=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Khanus
+7272=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+
+}
+#Poshkar
+7273=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gabae
+7274=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shahr Jaxartha
+7275=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ust
+7276=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arcum
+7277=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Padri
+7278=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="east_scythoi"
+	province_rank="settlement"
+	religion="scythic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+}

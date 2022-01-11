@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10450-10469 ###
+		10450 = {
+			key = omen_kazaghan
+			deity = deity_kazaghan
+		}
+		10452 = {
+			key = omen_ulgen
+			deity = deity_ulgen
+		}
+		10453 = {
+			key = omen_tengiri
+			deity = deity_tengiri
+		}
+		10454 = {
+			key = omen_umay
+			deity = deity_umay
+		}
+		10455 = {
+			key = omen_alaz
+			deity = deity_alaz
+		}
+		10456 = {
+			key = omen_mergen
+			deity = deity_mergen
+		}
+		10457 = {
+			key = omen_elos
+			deity = deity_elos
+		}
+		10458 = {
+			key = omen_gun_ana
+			deity = deity_gun_ana
+		}
+	}
+}
+

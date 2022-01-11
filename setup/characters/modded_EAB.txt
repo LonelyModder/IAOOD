@@ -1,0 +1,218 @@
+﻿"EAB"={
+	country="EAB"
+	87={
+		first_name="Mekheperre"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1221.1.1
+		death_date=1284.1.1
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		#dna=""
+	}
+	
+	88={
+		first_name="Nesbenebjet"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1255.1.1
+		death_date=1286.1.1
+		father="char:87"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		#dna=""
+	}
+	
+	89={
+		first_name="Pinedjem"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1265.1.1
+		father="char:87"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		c:EAB={
+			set_as_ruler=char:89
+		}
+		#dna=""
+	}
+	
+	90={
+		first_name="Henuttawy"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1256.1.1
+		death_date=1286.1.1
+		female=yes
+		father="char:87"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		#dna=""
+	}
+	
+	91={
+		first_name="Takhentdjehuti"
+		birth_date=1257.1.1
+		death_date=1286.1.1
+		female=yes
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		#dna=""
+	}
+	
+	92={
+		first_name="Isetemkheb"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1275.1.1
+		female=yes
+		father="char:88"
+		mother="char:90"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		#dna=""
+	}
+	
+	93={
+		first_name="Neskhons"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1275.1.1
+		female=yes
+		father="char:88"
+		mother="char:91"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		marry_character=char:89
+		#dna=""
+	}
+	
+	94={
+		first_name="Isetemkheb"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1265.1.1
+		death_date=1290.1.1
+		female=yes
+		father="char:87"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		#dna=""
+	}
+	
+	95={
+		first_name="Psusennes"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1282.1.1
+		father="char:89"
+		mother="char:94"
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		#dna=""
+	}
+	
+	96={
+		first_name="Herweben"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1283.1.1
+		father="char:89"
+		mother="char:94"
+		female=yes
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		#dna=""
+	}
+	
+	97={
+		first_name="Henuttawy"
+		family = c:EAB.fam:Hem-netjer-tep-en-Amun
+		birth_date=1284.1.1
+		father="char:89"
+		mother="char:94"
+		female=yes
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=6
+		add_finesse=4
+		add_zeal=10
+		no_traits=yes
+		add_trait="21dynastys"
+		add_gold=500
+		add_popularity=80
+		#dna=""
+	}
+}

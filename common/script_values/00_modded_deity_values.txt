@@ -1,0 +1,15 @@
+﻿very_common_deity_svalue = {
+	value = 10
+}
+
+common_deity_svalue = {
+	value = 30
+}
+
+rare_deity_svalue = {
+	value = 60
+}
+
+very_rare_deity_svalue = {
+	value = 100
+}

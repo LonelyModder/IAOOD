@@ -1,0 +1,23 @@
+﻿"AAB"={
+	country="AAB"
+	49={
+		first_name="Toi"
+		family = c:AAB.fam:Taitid
+		birth_date=1260.1.1
+		culture="philistine"
+		religion="luwic_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=4
+		add_finesse=10
+		add_zeal=6
+		no_traits=yes
+		add_trait="taitids"
+		add_gold=500
+		add_popularity=100
+		c:AAB={
+			set_as_ruler=char:49
+		}
+		#dna=""
+	}
+}

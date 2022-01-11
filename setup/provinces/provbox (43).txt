@@ -1,0 +1,1462 @@
+﻿#Khyunglung
+5557=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Achuk
+5558=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Tachok Dzong
+5559=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Sindhu
+5560=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+	holy_site="omen_mtraphu"
+}
+#Ladakh
+5561=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Rutok
+5562=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Rabzhi Senge Dzong
+5563=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+}
+#Echen Khar
+5564=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Aparing
+5565=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="iron"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Lashang
+5566=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Tiret
+5567=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Mune
+5568=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Tsaparang
+5569=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Khayu
+5570=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+	holy_site="omen_mati_muwer"
+}
+#Nghulmo Khar
+5571=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Upper Terai
+5572=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="stone"
+}
+#Terai
+5573=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Pumaring
+5574=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Gyangri
+5575=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="gems"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Kailash
+5576=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Nguot
+5577=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Sangya
+5582=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Leh
+5591=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Skardo
+5592=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Darada
+5593=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="woad"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+	holy_site="omen_mdrablai_gyalmo"
+}
+#Gilgit
+5594=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Hunza
+5595=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Druzhiya
+5596=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kargah
+5597=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Mulbek
+5598=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Teclas
+5599=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Parsni
+5600=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Kusta
+5601=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Gondogoro Pass
+5602=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank=""
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods=""
+}
+#Gondogoro Pass
+5603=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank=""
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods=""
+}
+#Gondogoro Pass
+5604=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank=""
+	religion="tibetic_pantheon"
+	terrain="mountain"
+	trade_goods=""
+}
+#Ormogang
+5614=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tibetan"
+	province_rank="settlement"
+	religion="tibetic_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Taklamakan
+5665=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Taklamakan
+5666=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="steppe_horses"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Taklamakan
+5667=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Taklamakan
+5668=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="fur"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Taklamakan
+5669=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Baskata
+6720=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Yutian
+6741=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+	holy_site="omen_gun_ana"
+}
+#Pishan
+6742=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="iron"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+	holy_site="omen_alaz"
+}
+#Shiyan
+6743=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kashgar
+6744=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_umay"
+}
+#Keriya
+6745=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shaju
+6746=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Wumi
+6747=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="hills"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Cadota
+6748=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Loulan
+6749=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_kazaghan"
+}
+#Iuwo
+6750=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Sherchan
+6752=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Toksa
+6753=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kagra
+6754=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kumo
+6755=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="hills"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Khata
+6756=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Shachi
+6757=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Surkhab
+6758=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tashqurgan
+6760=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kasia
+6761=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="silk"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kaahka Pamir
+6762=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Bulaq
+6763=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Miena
+6764=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kafir Kala
+6765=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="tin"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Yamchun
+6766=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Urang
+6767=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kokcha
+6768=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Pamir
+6769=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Toquzbolaq
+6770=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="dye"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kezhen
+6771=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Irkeshtam
+6772=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gulka
+6773=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Karamyk
+6774=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kabyk
+6775=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sogdic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Rucya
+7183=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="hills"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Kuche
+7184=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tocharic"
+	province_rank="settlement"
+	religion="tocharic_pantheon"
+	terrain="hills"
+	trade_goods="silk"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_tengiri"
+}

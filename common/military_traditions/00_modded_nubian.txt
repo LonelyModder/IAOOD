@@ -1,0 +1,152 @@
+﻿nubian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = levantine_egyptian_path_end_bonus
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = nubian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = nubian
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:nubian
+						this.culture.culture_group = culture_group:axumitic
+					}
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:nubian
+						this.culture.culture_group = culture_group:axumitic
+					}
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_nubian"
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:nubian
+						this.culture.culture_group = culture_group:axumitic
+					}	
+				}
+			}
+		}
+	}
+	
+	nubian_path_1 = { ###nubian path
+		modifier = {
+			missile_archers_morale = 0.1
+			missile_archers_offensive = 0.1
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {}
+	}
+	
+	nubian_path_2a = { ###nubian path
+		modifier = {		
+			missile_archers_offensive = 0.1
+			missile_archers_defensive = 0.15
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_1}
+	}
+	
+	nubian_path_3a = { ###nubian path
+		modifier = {		
+			light_spearmen_offensive = 0.1
+			light_spearmen_defensive = 0.05
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_2a}
+	}
+	
+	nubian_path_4a = { ###nubian path
+		modifier = {		
+			army_movement_speed = 0.2
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_3a}
+	}
+	
+	nubian_path_5a = { ###nubian path
+		modifier = {		
+			siege_ability = 0.1
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_4a}
+	}
+	
+	nubian_path_6a = { ###nubian path
+		modifier = {		
+			fort_maintenance_cost = -0.2
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_5a}
+	}
+	
+	nubian_path_2b = { ###nubian path
+		modifier = {		
+			chariot_light_offensive = 0.1
+			chariot_light_defensive = 0.05
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_1}
+	}
+	
+	nubian_path_3b = { ###nubian path
+		modifier = {		
+			elephant_forest_offensive = 0.15
+			elephant_forest_defensive = 0.1
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_2b}
+	}
+	
+	nubian_path_4b = { ###nubian path
+		modifier = {		
+			desert_combat_bonus = 0.2
+			plains_combat_bonus = 0.2
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_3b}
+	}
+	
+	nubian_path_5b = { ###nubian path
+		modifier = {		
+			missile_spearthrowers_offensive = 0.15
+			missile_spearthrowers_defensive = 0.15
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_4b}
+	}
+	
+	nubian_path_6b = { ###nubian path
+		modifier = {		
+			global_commerce_modifier = 0.1
+			navy_maintenance_cost = -0.1
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_5b}
+	}
+	
+	nubian_path_end_bonus = { ###nubian path
+		modifier = {		
+			missile_archers_offensive = 0.15
+		}
+		icon = levantine_egyptian_path_end_bonus
+		requires = {nubian_path_6a nubian_path_6b}
+	}
+}

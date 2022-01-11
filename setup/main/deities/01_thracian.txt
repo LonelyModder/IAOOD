@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10200-10219 ###
+		10200 = {
+			key = omen_mpleistoros
+			deity = deity_mpleistoros
+		}
+		10201 = {
+			key = omen_mzalmoxis
+			deity = deity_mzalmoxis
+		}
+		10202 = {
+			key = omen_mderzelas
+			deity = deity_mderzelas
+		}
+		10203 = {
+			key = omen_mbassareus
+			deity = deity_mbassareus
+		}
+		10204 = {
+			key = omen_msabazios
+			deity = deity_msabazios
+		}
+		10205 = {
+			key = omen_mbendis
+			deity = deity_mbendis
+		}
+		10206 = {
+			key = omen_mzibelthiurdos
+			deity = deity_mzibelthiurdos
+		}
+		10207 = {
+			key = omen_msemele
+			deity = deity_msemele
+		}
+	}
+}
+

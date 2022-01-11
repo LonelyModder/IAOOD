@@ -1,0 +1,1785 @@
+﻿#Hormirzad
+4791=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="utic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Valashgerd
+4958=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="carmanic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Arabia Deserta
+5402=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5403=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5404=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5405=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5406=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Efa
+5408=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Largis
+5409=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Utea
+5410=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arabia Deserta
+5411=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5412=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5413=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Motta Omania
+5415=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Ecrune
+5416=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ialla
+5417=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Vatum
+5418=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mazir
+5419=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="city"
+	religion="arabian_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Zirne
+5420=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Acte
+5421=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Iepana
+5429=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Trazel
+5430=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="city"
+	religion="arabian_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Harmozeia
+6512=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="utic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Pura
+6513=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Badis
+6514=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="utic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Bagaseira
+6515=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Troesos
+6516=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kanasida
+6517=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mephas
+6520=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Barna
+6521=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="incense"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Mosarna
+6522=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kolame
+6523=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Malana
+6524=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kabana
+6525=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pagala
+6526=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Morontobara
+6527=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Paisi
+6530=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kokala
+6531=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arbis
+6532=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Rhamna
+6533=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zetis
+6534=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oskana
+6535=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arbiti
+6536=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Soxetra
+6537=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Badara
+6538=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Musarna
+6539=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="marble"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kottabura
+6540=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pharsaga
+6571=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Parsikeia
+6578=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Samydai
+6579=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Salarous
+6580=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kanate
+6581=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="desert"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Taroukane
+6582=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="carmanic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kabouleia
+6583=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Hydriakos
+6592=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gedrosiana
+6593=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Choarene
+6616=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pardiai
+6617=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="marble"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oltos
+6618=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arbia
+6619=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Alexandreia Rhambakias
+6620=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gedrosic"
+	province_rank="settlement"
+	religion="protoiranian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Patala
+6815=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	port_building=1
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="gedrosic"
+		religion="protoiranian_pantheon"
+	}
+}
+#Alexandrou Limen
+6821=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	port_building=1
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Barbarikon
+6822=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sangama
+6848=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bibakta
+6849=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	port_building=1
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Samarabriva
+6852=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Adros
+7196=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Itamos
+7197=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Istana
+7198=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Gerrha
+7199=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	port_building=1
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="camel"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Theppra
+7200=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Atta
+7201=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="incense"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Tylos
+7202=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	port_building=1
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="gems"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=10
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=1
+	}
+}
+#Gylus
+7203=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dye"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+	port_building=1
+}
+#Sarkoi
+7204=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="dilmunite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Labrys Omana
+7205=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Attiaca
+7206=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kanepsa
+7207=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Regna
+7208=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Omana
+7209=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	port_building=1
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Heliou Limen
+7210=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="gems"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+	port_building=1
+}
+#Kalas
+7211=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+	port_building=1
+}
+#Kryptos Limen
+7212=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	port_building=1
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Dirma Omana
+7213=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Artemidos
+7214=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Metas
+7215=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sarapis
+7216=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Ganta
+7217=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arabia Relicta
+7572=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Jiddat al-Harasis
+7573=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="maganese"
+	province_rank="settlement"
+	religion="arabian_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=3
+	}
+}

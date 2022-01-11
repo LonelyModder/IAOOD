@@ -1,0 +1,1653 @@
+﻿#Birent
+134=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="etrusci"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Valvata
+135=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="etrusci"
+	province_rank="city"
+	religion="villanic_pantheon"
+	terrain="plains"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Pisna
+136=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="etrusci"
+	port_building=1
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Luna
+137=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Luca
+138=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pistoriae
+139=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Portus Veneris
+141=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	port_building=1
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Brundulum
+143=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Spina
+144=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="marsh"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Corniculani
+145=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bononia
+146=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mutina
+149=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vicus Aventia
+150=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Regium Lepidum
+151=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Parma
+152=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Forum Novum
+153=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="mountain"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Rubra
+154=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mustiae Calmes
+3530=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="mountain"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Segusio
+3535=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Cemelenum
+3544=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Album Intemelium
+3545=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Albom Ingaunom
+3546=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	port_building=1
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Savo
+3547=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bagiennia
+3548=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Genua
+3549=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	port_building=1
+	province_rank="city"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=8
+	}
+	holy_site="omen_taurine"
+}
+#Coeba
+3550=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Taurasia
+3551=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Segesta
+3552=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Libarna
+3553=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dertona
+3554=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Forum Fulvii Valentinum
+3555=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="farmland"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Aquae Statiellae
+3556=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Crixia
+3557=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vardagate
+3558=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Hasta
+3559=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Industria
+3560=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Eporedia
+3561=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vercellae
+3562=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Forum Vibii
+3563=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pollentia
+3564=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_liguric"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="farmland"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Laumellum
+3565=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Novaria
+3566=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Plumbia
+3567=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Victimulae
+3568=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sebuinus Vicus
+3569=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Comum
+3570=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="hills"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mediolanum
+3571=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ticinum
+3572=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Lambrum
+3573=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Clastidium
+3574=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Placentia
+3575=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Florentiola
+3576=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Forum Licinii
+3577=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Argentea
+3578=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bergomum
+3579=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="city"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Laus Pompeia
+3580=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Brixia
+3581=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Cremona
+3582=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="cisalpine"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ariolica
+3583=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Verona
+3584=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bedriacum
+3585=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Mantua
+3586=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Brixellum
+3587=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="city"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Colicaria
+3588=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hostilia
+3589=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Auraei
+3590=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Vicus Varianus
+3591=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Feraria
+3592=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Hatria
+3593=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Patavium
+3594=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="city"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=8
+	}
+	port_building=1
+}
+#Ateste
+3595=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Vicetia
+3596=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Anneianum
+3597=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="paddan_venetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Altinum
+3598=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tarvisium
+3599=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Acelum
+3600=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Portus Liquentiae
+3601=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Concordia
+3602=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Opitergium
+3603=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Reunia
+3604=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Forum Iulii
+3605=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="forest"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aquileia
+3606=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="uvenetic"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Fons Timavi
+3607=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="pannonic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tridentium
+3661=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bretina
+3662=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="camunnic"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}

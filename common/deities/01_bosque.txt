@@ -1,0 +1,269 @@
+﻿deity_aide = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_aide = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { build_time = deity_build_time_svalue }
+	omen = { fort_maintenance_cost = omen_fort_maintenance_cost_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = economy #This Deity uses a Economy slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_amalur = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_amalur = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = economy #This Deity uses a Economy slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_eate = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_eate = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { agressive_expansion_monthly_change = deity_agressive_expansion_monthly_change_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = war #This Deity uses a War Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_egoi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_egoi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { happiness_for_same_culture_modifier = deity_happiness_for_same_culture_modifier_svalue }
+	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+}
+
+deity_meki = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_meki = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_ilargi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_ilargi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { hostile_attrition = omen_hostile_attrition_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_inguma = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_inguma = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { fabricate_claim_speed = deity_fabricate_claim_speed_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = war #This Deity uses a War Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_mmari = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_mmari = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_orko = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_orko = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
+	omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = war #This Deity uses a War Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_sugaar = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = bosque_pantheon
+			}
+			deity:omen_sugaar = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue  } #Bonus from Omen
+	religion = bosque_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+}

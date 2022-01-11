@@ -1,0 +1,109 @@
+﻿country_decisions = {
+		
+	# Form Phrygia
+	form_kphrygia = {
+		
+		potential = {
+			OR = {
+				primary_culture = phrygic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XPG
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 189
+					province_id = 316
+					province_id = 194
+					province_id = 195
+					province_id = 988
+					province_id = 178
+					province_id = 1934
+					province_id = 315
+					province_id = 319
+					province_id = 1941
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = kphrygia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XPG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 189
+			owns = 316
+			owns = 194
+			owns = 195
+			owns = 988
+			owns = 178
+			owns = 1934
+			owns = 315
+			owns = 319
+			owns = 1941
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Kphrygia_Name"
+			change_country_flag = HAT
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Kphrygia_ADJ"
+				change_country_color = "kphrygia_color"
+				change_country_tag = XPG
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 189
+						}
+					}
+				}
+				set_capital = 189
+				hidden_effect = {
+					p:189.state = {
+						set_state_capital = 189
+					}
+				}
+			}
+			p:189 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:189 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

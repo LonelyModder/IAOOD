@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10670-10689 ###
+		10670 = {
+			key = omen_thagyamin
+			deity = deity_thagyamin
+		}
+		10671 = {
+			key = omen_min_mahagiri
+			deity = deity_min_mahagiri
+		}
+		10672 = {
+			key = omen_bo_bo_gyi
+			deity = deity_bo_bo_gyi
+		}
+		10673 = {
+			key = omen_shwe_nabay
+			deity = deity_shwe_nabay
+		}
+		10674 = {
+			key = omen_thonbanla
+			deity = deity_thonbanla
+		}
+		10675 = {
+			key = omen_maungminshin
+			deity = deity_maungminshin
+		}
+		10676 = {
+			key = omen_taungmagyi
+			deity = deity_taungmagyi
+		}
+		10677 = {
+			key = omen_popa_medaw
+			deity = deity_popa_medaw
+		}
+	}
+}
+

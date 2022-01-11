@@ -1,0 +1,241 @@
+﻿### General Deity Checks ###
+
+
+### Exclusive Deity Checks ###
+deity_malilat = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_malilat = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_mal_qaum = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mal_qaum = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+}
+
+deity_mal_kutbay = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mal_kutbay = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { global_citizen_happyness = omen_global_citizen_happiness_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_mtalab = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mtalab = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_slaves_effect = yes
+	}
+}
+
+deity_malmaqah = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ethiopian_pantheon
+			}
+			deity:omen_malmaqah  = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = 0.05 }
+	omen = { war_exhaustion = -0.05 } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_slaves_effect = yes
+	}
+}
+
+deity_mal_uzza = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mal_uzza = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+	 
+}
+
+deity_mmanat = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mmanat = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes 
+	}
+}
+
+deity_mailiah = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_mailiah = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { agressive_expansion_monthly_change = deity_agressive_expansion_monthly_change_svalue }
+	omen = { happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+
+deity_morotalt = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = arabian_pantheon
+			}
+			deity:omen_morotalt = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
+	religion = arabian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}

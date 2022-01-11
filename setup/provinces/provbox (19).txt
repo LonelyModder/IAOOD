@@ -1,0 +1,1109 @@
+﻿#Athenai Pontikai
+1729=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Rhizaion
+1730=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ophis
+1731=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hyssos
+1732=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pisingara
+1733=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Trapezous
+1734=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Arane
+1766=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Til
+1768=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sabos
+1769=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Satala
+1770=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="mountain"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Analibna
+1771=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sediska
+1772=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Zigana
+1773=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Magnana
+1775=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arauraka
+1776=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Chorsabia
+1778=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Olotoedariza
+1779=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Basgoedariza
+1781=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dasteira
+1782=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Anniaka
+1783=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sauronisena
+1786=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Danai
+1787=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Syderos
+1789=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Komana Pontike
+1790=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ibora
+1791=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kabeira
+1792=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Side Pontike
+1793=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kotyora
+1795=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Koralla
+1797=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kerasous
+1798=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Matouasko
+1801=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="macronian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Boinasa
+1804=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Amaseia
+1819=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Phazemon
+1821=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Etonia
+1822=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Diakopa
+1823=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Andrapa
+1824=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pteria Pontias
+1826=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pimolisa
+1831=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dazimon
+1833=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zela
+1834=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Euchaita
+1837=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pleuramis
+1838=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Karana
+1839=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ouerisa
+1840=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Zara
+1842=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kamisa
+1843=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Talaura
+1844=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Phiara
+1845=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pedachthoe
+1846=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Zoana
+1848=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Goundousa
+1850=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Euspena
+1851=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Daskousa
+1858=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zimara
+7844=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kaska"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ani
+7845=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kizari
+7994=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gazioura
+7998=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sermousa
+7999=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mushkian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}

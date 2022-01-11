@@ -1,0 +1,45 @@
+deity_manager = {
+	deities_database = { ### KEYS 10430-10449 ###
+		10430 = {
+			key = omen_tork_angegh
+			deity = deity_tork_angegh
+		}
+		10431 = {
+			key = omen_amanor
+			deity = deity_amanor
+		}
+		10432 = {
+			key = omen_areg
+			deity = deity_areg
+		}
+		10433 = {
+			key = omen_astlig
+			deity = deity_astlig
+		}
+		10434 = {
+			key = omen_angel
+			deity = deity_angel
+		}
+		10435 = {
+			key = omen_ayg
+			deity = deity_ayg
+		}
+		10436 = {
+			key = omen_vanatur
+			deity = deity_vanatur
+		}
+		10437 = {
+			key = omen_nvard
+			deity = deity_nvard
+		}
+		10438 = {
+			key = omen_andndayin_oj
+			deity = deity_andndayin_oj
+		}
+		10439 = {
+			key = omen_mtsovinar
+			deity = deity_mtsovinar
+		}
+	}
+}
+

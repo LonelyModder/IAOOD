@@ -1,0 +1,370 @@
+﻿### General Deity Checks ###
+deity_msekhmet = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_msekhmet = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_manubis = { # ECONOMY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_manubis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { global_slaves_happyness = omen_global_slaves_happiness_svalue } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_capital_slaves_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mosiris = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			common_deity_trigger = { RELIGION = libyan_pantheon }
+			deity:omen_mosiris = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_misis = { # FERTILITY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			common_deity_trigger = { RELIGION = libyan_pantheon }
+			religion_pops_in_country = {
+				target = kemetic_pantheon
+				value >= very_common_deity_svalue
+			}
+			deity:omen_misis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mamun = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			common_deity_trigger = { RELIGION = libyan_pantheon }
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_mamun = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { agressive_expansion_impact = deity_agressive_expansion_impact_svalue }
+	omen = { global_freemen_output = omen_global_freemen_output_svalue } #Bonus from Omen
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mhorus = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_mhorus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
+	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	on_activate = {
+		culture_apotheosis_rel_tech_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mptah = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_mptah = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { civic_tech_investment = deity_civic_tech_investment_svalue }
+	omen = { global_citizen_output = omen_global_citizen_output_svalue } #Bonus from Omen
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mhathor = { # ECONOMY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_mhathor = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_nobles_happyness = deity_global_nobles_happiness_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mresheph = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			religion = canaanitic_pantheon
+			deity:omen_mresheph = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { cohort_reinforcement_speed = deity_cohort_reinforcement_speed_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_manhur = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_manhur = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { war_no_cb_cost_modifier = deity_war_no_cb_cost_modifier }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mra = { # FERTILITY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_mra = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+	religion = kemetic_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+### Exclusive Deity Checks ###
+deity_msobek = {
+	trigger = {
+		has_dlc = "Heirs of Alexander"
+		polytheistic_check_religion_trigger = yes
+		#NOT = { country_culture_group = latin }
+		OR = {
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_msobek = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_war
+	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } #Bonus from Omen
+	religion = kemetic_pantheon
+	deity_category = war #This Deity uses a War slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_mbanebdjedet = {
+	trigger = {
+		has_dlc = "Heirs of Alexander"
+		polytheistic_check_religion_trigger = yes
+		#is_monarchy = yes
+		NOT = { country_culture_group = latin }
+		OR = {
+			deity:omen_mbanebdjedet = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_culture
+	passive_modifier = { monthly_legitimacy = deity_monthly_legitimacy_svalue }
+	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
+	religion = kemetic_pantheon
+	deity_category = culture #This Deity uses a Culture slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}
+
+deity_mthoth_hermes = {
+	trigger = {
+		has_dlc = "Heirs of Alexander"
+		polytheistic_check_religion_trigger = yes
+		is_monarchy = yes
+		NOT = { country_culture_group = latin }
+		OR = {
+			AND = {
+				religion = kemetic_pantheon
+				religion_pops_in_country = {
+					target = grecoid_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			AND = {
+				religion = grecoid_pantheon
+				religion_pops_in_country = {
+					target = kemetic_pantheon
+					value >= very_rare_deity_svalue
+				}
+			}
+			deity:omen_mthoth_hermes = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diadochi_economy
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = kemetic_pantheon
+	deity_category = economy #This Deity uses a Culture slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_characters_effect = yes
+	}
+}

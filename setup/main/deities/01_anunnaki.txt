@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10020-10039 ###
+		10020 = {
+			key = omen_mninurta
+			deity = deity_mninurta
+		}
+		10021 = {
+			key = omen_mshamash
+			deity = deity_mshamash
+		}
+		10022 = {
+			key = omen_mea
+			deity = deity_mea
+		}
+		10023 = {
+			key = omen_msin
+			deity = deity_msin
+		}
+		10024 = {
+			key = omen_mishtar
+			deity = deity_mishtar
+		}
+		10025 = {
+			key = omen_mnabu
+			deity = deity_mnabu
+		}
+		10026 = {
+			key = omen_menlil
+			deity = deity_menlil
+		}
+		10027 = {
+			key = omen_mashshur
+			deity = deity_mashshur
+		}
+		10028 = {
+			key = omen_mmarduk
+			deity = deity_mmarduk
+		}
+	}
+}
+

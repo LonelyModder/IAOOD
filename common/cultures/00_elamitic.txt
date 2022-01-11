@@ -1,0 +1,74 @@
+﻿elamitic = {	
+	color = hsv { 0.9 0.55 0.56 }
+ 
+	levy_template = levy_elamitic
+	
+	primary = missile_archers
+	second = light_swordsmen
+	flank = chariot_light
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+
+	male_names = { 
+		Kur-Ishshak Peli Tata Ukku-Tanhish Hishutash Shushun-Tarana Napi-Ilhush Kkku-Siwe-Temti Hishep-Ratep Luh-Ishshan Emahsini Helu Hita Kutik-Inshushinak
+		Gir-Namme Tazitta Eparti Lurak-Luhhan Hutran-Temti Idattu-Inshushinak Kindattu Tan-Ruhuratir Indattu-Napir Indattu-Temti Shilhaha Kuk-Nashur
+		Atta-hushu Tetep-Mada Palar-Ishshan Kuk-Sanit Kuk-Kirwash Tem-Sanit Kuk-Nahhunte Shirukduh Shimut-Wartash Siwe-Palar-Hupak Kuduzulush Kutir-Nahhunte
+		Atta-Merra-Haiki Lila-Irtash Temti-Agun Temti-Raptash Shirtuh Tan-Uli Temti-Halksi Kutik-Matlat Kidinu Kidinu Insushinak-Sunkir-Nappipir Shalla
+		Temti-Ahar Ata-Halki Attar-Kittah Ige-Halki Pahir-Ishshan Kidin-Hutran Humban-Numena Untash-Napirisha Untash_Humban Unpatar-Napirisha Unpatar-Humban
+		Humban-Untash Napirisha-Untash Atamaita Asina Martiya Umamaita Upadarma
+	}
+
+	female_names = {
+		Tabguri Shatilu Shashru Iapru Gizili Hu_urti Azahar Iapulmat Napganaza Shimuthisha Liliriri Temukra Zana Zanidah		
+	}
+	family = {
+		Ahmid.Ahmid.Ahmid.Ahmid
+		Galestus.Galestid.Galestid.Galestid
+		Kenamus.Kenamid.Kenamid.Kenamid
+		Naravid.Naravid.Naravid.Naravid
+		Penamus.Penamid.Penamid.Penamid
+		Senuid.Senuid.Senuid.Senuid
+		Setnid.Setnid.Setnid.Setnid
+		Arganid.Arganid.Arganid.Arganid
+		Psammid.Psammid.Psammid.Psammid
+		Philothid.Philothid.Philothid.Philothid
+		Timolid.Timolid.Timolid.Timolid
+		Zosid.Zosid.Zosid.Zosid
+		Phileid.Phileid.Phileid.Phileid
+		Nicodemid.Nicodemid.Nicodemid.Nicodemid
+		Nefarid.Nefarid.Nefarid.Nefarid
+		Bastid.Bastid.Bastid.Bastid
+		Xeneid.Xeneid.Xeneid.Xeneid
+		Naravid.Naravid.Naravid.Naravid
+		Ezanid.Ezanid.Ezanid.Ezanid
+		Ahmid.Ahmid.Ahmid.Ahmid
+		Alarus.Alara.Alarid.Alarid
+		Harsiotes.Harsiotes.Harsiotid.Harsiotid
+		Henus.Hena.Henid.Henid
+		Ibus.Iba.Ibid.Ibid
+		Khabbash.Khabbash.Khabbashid.Khabbashid	
+		Amasus.Amasa.Amasid.Amasid
+		Nectanebo.Nectanebo.Nectanebid.Nectanebid
+		Petubast.Petubast.Petubastes.Petubastid
+		Djedhid.Djedhid.Djedhid.Djedhid
+		Tachys.Tachya.Tachyes.Tachyid
+		Mago.Mago.Mago.Magid	
+	}
+	culture = {
+		susanian = {}
+		awanic = {}
+		anshanian = {}
+		ellipian = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = persian_gfx
+	ethnicities = {
+		10 = persian
+	}
+}

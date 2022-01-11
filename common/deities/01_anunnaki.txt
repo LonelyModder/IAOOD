@@ -1,0 +1,256 @@
+﻿### General Deity Checks ###
+
+### Exclusive Deity Checks ###
+
+deity_mninurta = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_mninurta = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_mshamash = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
+			deity:omen_mshamash = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		#can_deify_trigger = yes
+		NOT = { 
+			OR = {
+				primary_culture = judean
+				primary_culture = israelic
+			}
+		}
+	}
+	
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_mea = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_mea = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_citizen_happyness = deity_global_citizen_happiness_svalue }
+	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_assimilate_effect = yes
+	}
+}
+
+deity_msin = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_msin = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+
+deity_mishtar = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = judahic
+			}
+			deity:omen_mishtar = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		#can_deify_trigger = yes
+		NOT = { 
+			OR = {
+				primary_culture = judean
+				primary_culture = israelic
+			}
+		}
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_mnabu = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_mnabu = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_menlil = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_menlil = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_mashshur = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		NOT = { primary_culture = agade }
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_mashshur = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { levy_size_multiplier = 0.025 }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_military_experience_effect = yes
+	}
+}
+
+deity_mmarduk = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = anunnaki_pantheon
+			}
+			deity:omen_mmarduk = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_nobles_happyness = omen_global_nobles_happiness_svalue }
+	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
+	religion = anunnaki_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+}

@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10080-10099 ###
+		10080 = {
+			key = omen_malilat
+			deity = deity_malilat
+		}
+		10081 = {
+			key = omen_mal_qaum
+			deity = deity_mal_qaum
+		}
+		10082 = {
+			key = omen_mal_kutbay
+			deity = deity_mal_kutbay
+		}
+		10083 = {
+			key = omen_mtalab
+			deity = deity_mtalab
+		}
+		10084 = {
+			key = omen_mal_uzza
+			deity = deity_mal_uzza
+		}
+		10085 = {
+			key = omen_mmanat
+			deity = deity_mmanat
+		}
+		10086 = {
+			key = omen_mailiah
+			deity = deity_mailiah
+		}
+		10087 = {
+			key = omen_morotalt
+			deity = deity_morotalt
+		}
+		10088 = {
+			key = omen_malmaqah
+			deity = deity_malmaqah
+		}
+	}
+}
+

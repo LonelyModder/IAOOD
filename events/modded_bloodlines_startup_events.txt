@@ -1,0 +1,452 @@
+﻿namespace = bloodlines_startup
+
+bloodlines_startup.1 = { #Judah
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = JAA
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:16
+			}
+			add_trait = davidids
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.2 = { #Persia
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = PAJ
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:2
+			}
+			add_trait = achemenids
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.3 = { #21 dynasty
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			tag = EAA
+			tag = EAC
+			tag = EAB
+		}
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				OR = {
+					has_same_family = char:3
+					has_same_family = char:4
+					has_same_family = char:95
+				}
+			}
+			add_trait = 21dynastys
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.4 = { #22 dynasty
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			tag = EAG
+			tag = EAF
+		}
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				OR = {
+					has_same_family = char:7
+					has_same_family = char:8
+				}
+			}
+			add_trait = 22dynastys
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.5 = { #El-Kurru clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = NAG
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:12
+			}
+			add_trait = kurruntic
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.6 = { #Gathite Bloodline
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = JAC
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:1
+			}
+			add_trait = gathite
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.7 = { #Royal Bloodline of Hattusa
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = HAC
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:41
+			}
+			add_trait = rhatti
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.8 = { #bloodline of Toi
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = AAB
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:49
+			}
+			add_trait = taitids
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.9 = { #bloodline of Hadadezer
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = AAK
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:50
+			}
+			add_trait = sovahid
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.10 = { #bloodline of Tob-Rimmon
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = AAA
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:51
+			}
+			add_trait = damaskid
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.11 = { #bloodline of Saul
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = JAB
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:27
+			}
+			add_trait = saulid
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.12 = { #bloodline of Tyre
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = JAL
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:53
+			}
+			add_trait = tyrian
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.13 = { #bloodline of Byblos
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = JAP
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:55
+			}
+			add_trait = byblid
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.14 = { #bloodline of Adasi
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = ABP
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:38
+			}
+			add_trait = badaside
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.15 = { #bloodline of Elam
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = ADZ
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:37
+			}
+			add_trait = ofelam
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.16 = { #bloodline of Gordion
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = HAT
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:74
+			}
+			add_trait = gordis
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.17 = { #bloodline of Heracles
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			tag = HCM
+			tag = GAA
+			tag = GBG
+			tag = TBY
+			tag = GBH
+		}
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				OR = {
+					has_same_family = char:75
+					has_same_family = char:77
+					has_same_family = char:81
+					has_same_family = char:83
+					has_same_family = char:85
+				}
+			}
+			add_trait = heraclid
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}

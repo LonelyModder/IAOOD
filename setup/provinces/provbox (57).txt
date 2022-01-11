@@ -1,0 +1,2640 @@
+﻿#Mare Tyrrenum
+2500=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Siculum
+2501=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Paestanus
+2502=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2503=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2504=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2505=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2506=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Veneticus
+2507=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2508=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2509=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2510=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2511=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Liburnus
+2512=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2513=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2514=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Veneticus
+2515=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Melitense
+2516=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Siculum
+2517=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2518=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Melitense
+2519=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Siculum
+2520=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2521=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Tarentinus
+2522=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2523=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Balearium
+2524=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2525=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2527=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2528=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2529=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Sipontinus
+2530=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2531=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2532=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Hydruntis
+2533=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2534=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2535=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2536=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2537=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2538=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Superum
+2539=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Superum
+2540=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Superum
+2541=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Superum
+2542=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Superum
+2544=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Superum
+2545=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2546=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ligusticum
+2547=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Genuensis
+2548=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ligusticum
+2549=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Sardoum
+2550=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Gallicus
+2551=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Gallicus
+2552=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Internum
+2553=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2554=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2555=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2556=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2557=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2558=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2559=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2560=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Hibericum
+2561=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Internum
+2562=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Hipponensis
+2563=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Uticensis
+2564=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Siculum
+2565=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Neapolitanus
+2566=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Libycum
+2567=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Syrtis Minor
+2568=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Libycum
+2569=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Libycum
+2570=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Syrtis Maior
+2571=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Syrtis Maior
+2572=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Syrtis Maior
+2573=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2574=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2575=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2576=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2577=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Delta Nili
+2578=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Delta Nili
+2579=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Phoenicium
+2580=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Phoenicium
+2581=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Phoenicium
+2582=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Phoenicium
+2583=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Phoenicium
+2584=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Cilicium
+2585=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Cilicium
+2586=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Lycium
+2587=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Lycium
+2588=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Lycium
+2589=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Icarium
+2590=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Lycium
+2591=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Carpathium
+2592=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Icarium
+2593=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Icarium
+2594=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Icarium
+2595=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2596=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2597=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Creticum
+2598=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Creticum
+2599=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2600=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegyptium
+2601=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Creticum
+2602=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Argolicus
+2603=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Saronicus
+2604=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Carysteum
+2605=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Creticum
+2606=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Myrtoum
+2607=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2608=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2609=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2610=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2611=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2612=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ionium
+2613=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Artemisium
+2614=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Thermaeus
+2615=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Thracum
+2616=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2617=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2619=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2620=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2621=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+2622=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Fretum Siculum
+2624=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Fretum Siculum
+2625=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Libycum
+2626=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2627=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2628=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2629=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Fretum Melitense
+2630=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2631=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2632=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2633=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2634=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2635=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2636=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2637=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2638=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2639=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2640=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2641=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2642=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Syrtis Maior
+2643=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Syrtis Maior
+2644=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2645=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2646=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2647=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2648=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2649=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2650=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2651=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2652=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2653=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Libycum
+2654=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2655=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2656=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ionium
+2657=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2658=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2659=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2660=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2661=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2662=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2663=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2664=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2665=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2666=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2667=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2668=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Phoenicium
+2669=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2670=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Phoenicium
+2671=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Phoenicium
+2672=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2673=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Internum
+2674=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2675=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Aegyptium
+2676=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Phoenicium
+2677=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Lycium
+2678=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Phoenicium
+2679=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Cilicium
+2680=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2681=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2682=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2683=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2684=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2685=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2686=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2687=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2688=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2689=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Sardoum
+2690=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2691=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Sardoum
+2692=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2693=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ligusticum
+2694=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Ligusticum
+2695=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Ligusticum
+2696=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2697=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2698=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2699=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Tyrrhenum
+2700=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Internum
+2701=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Internum
+2702=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2703=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2704=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Internum
+2705=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2706=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Sinus Gallicus
+2707=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2708=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2709=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2710=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2711=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2712=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2713=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2714=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Balearium
+2715=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2716=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2717=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2718=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Balearium
+2719=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Sardoum
+2720=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Balearium
+2721=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Balearium
+2722=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2723=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2724=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2725=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2726=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2727=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2728=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Mare Hibericum
+2729=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+#Fretum Gaditanum
+2730=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Messenius
+4723=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Laconicus
+4724=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Myrtoum
+5865=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Thermaeus
+6418=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+6436=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Aegaeum
+6437=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Patraicus
+7747=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Corinthius
+7748=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Myrtoum
+7749=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Myrtoum
+7750=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Pagasaeus Sinus
+7906=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Sinus Malianus
+7907=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}
+#Mare Thracum
+8020=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="coastal_terrain"
+	trade_goods=""
+}

@@ -1,0 +1,154 @@
+﻿country_decisions = {
+		
+	# Form Urartu
+	form_delias = {
+		
+		potential = {
+			OR = {
+				primary_culture = attic
+				primary_culture = ionic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XDL
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 416 # Athens
+					province_id = 1835 # Delos
+					province_id = 417 # Megara
+					province_id = 413 # Oropos
+					province_id = 407 # Chalcis
+					province_id = 263 # Naxos
+					province_id = 266 # Rhodos
+					province_id = 1981 # Halicarnassus
+					province_id = 1973 # Miletos
+					province_id = 290 # Ephesos
+					province_id = 283 # Mytilene
+					province_id = 259 # Assos
+					province_id = 256 # Lampsakos
+					province_id = 245 # Kios
+					province_id = 240 # Chalcedon
+					province_id = 1453 # Byzantion
+					province_id = 270 # Lemnos
+					province_id = 365 # Amphipolis
+					province_id = 376 # Poteidaia
+					province_id = 277 # Skyros
+					province_id = 460 # Zakynthos
+					province_id = 461 # Cephalonia
+					province_id = 470 # Korkyra
+					province_id = 403 # Histiaia
+					province_id = 409 # Karystos
+					province_id = 1903 # Andros
+					province_id = 349 # Sestos
+					province_id = 1974 # Samos
+					province_id = 356 # Thasos
+					province_id = 362 # Abdera
+					province_id = 286 # Chios
+					province_id = 1964 # Melos
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = delias_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XDL
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 416 # Athens
+			owns_or_subject_owns = 1835 # Delos
+			owns_or_subject_owns = 417 # Megara
+			owns_or_subject_owns = 413 # Oropos
+			owns_or_subject_owns = 407 # Chalcis
+			owns_or_subject_owns = 263 # Naxos
+			owns_or_subject_owns = 266 # Rhodos
+			owns_or_subject_owns = 1981 # Halicarnassus
+			owns_or_subject_owns = 1973 # Miletos
+			owns_or_subject_owns = 290 # Ephesos
+			owns_or_subject_owns = 283 # Mytilene
+			owns_or_subject_owns = 259 # Assos
+			owns_or_subject_owns = 256 # Lampsakos
+			owns_or_subject_owns = 245 # Kios
+			owns_or_subject_owns = 240 # Chalcedon
+			owns_or_subject_owns = 1453 # Byzantion
+			owns_or_subject_owns = 270 # Lemnos
+			owns_or_subject_owns = 365 # Amphipolis
+			owns_or_subject_owns = 376 # Poteidaia
+			owns_or_subject_owns = 277 # Skyros
+			owns_or_subject_owns = 460 # Zakynthos
+			owns_or_subject_owns = 461 # Cephalonia
+			owns_or_subject_owns = 470 # Korkyra
+			owns_or_subject_owns = 403 # Histiaia
+			owns_or_subject_owns = 409 # Karystos
+			owns_or_subject_owns = 1903 # Andros
+			owns_or_subject_owns = 349 # Sestos
+			owns_or_subject_owns = 1974 # Samos
+			owns_or_subject_owns = 356 # Thasos
+			owns_or_subject_owns = 362 # Abdera
+			owns_or_subject_owns = 286 # Chios
+			owns_or_subject_owns = 1964 # Melos
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Delias_Name"
+			change_country_flag = delias_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = democratic_republic
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Delias_ADJ"
+				change_country_color =  "delias_color"
+				change_country_tag = XDL
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 416
+						}
+					}
+				}
+				set_capital = 416
+				hidden_effect = {
+					p:416.state = {
+						set_state_capital = 416
+					}
+				}
+			}
+			p:416 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:416 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,0 +1,33 @@
+deity_manager = {
+	deities_database = { ### KEYS 10690-10709 ###
+		10690 = {
+			key = omen_cicnu
+			deity = deity_cicnu
+		}
+		10691 = {
+			key = omen_beg
+			deity = deity_beg
+		}
+		10692 = {
+			key = omen_matronae
+			deity = deity_matronae
+		}
+		10693 = {
+			key = omen_taurine
+			deity = deity_taurine
+		}
+		10694 = {
+			key = omen_borvo
+			deity = deity_borvo
+		}
+		10695 = {
+			key = omen_penn
+			deity = deity_penn
+		}
+		10696 = {
+			key = omen_alb
+			deity = deity_alb
+		}
+	}
+}
+

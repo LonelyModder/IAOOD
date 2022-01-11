@@ -1,0 +1,1733 @@
+﻿#Rotomagus
+2443=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Augustomagus
+2445=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Caesaromagus
+2446=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Iatinon
+2447=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Durocatalaunum
+2450=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Durocortorum
+2451=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Seussonia
+2452=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Viriodunum
+2455=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Caracotinum
+2468=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aceltic"
+	port_building=1
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ritumagus
+2469=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Galetia Occidentalis
+2470=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Galetia Orientalis
+2471=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Senonia
+2487=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Malliacus
+2490=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mugilonia
+2491=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Odomagus
+2492=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Isara
+2493=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Basillia
+2494=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tanomia
+2495=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Caturicis
+2496=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sauriciacum
+2498=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Castrum Vabrense
+3001=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gesoriacum
+3026=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	port_building=1
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tarvenna
+3027=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Castellum
+3028=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Portus Itius
+3029=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ardellum
+3030=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Teucera
+3031=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Curmiliaca
+3032=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Briga
+3033=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	port_building=1
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Caletia Minor
+3034=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Samarobriva
+3035=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Lintomagus
+3036=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Durocoregum
+3037=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nemetocenna
+3038=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Estia
+3039=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Minariacum
+3040=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Turnacum
+3041=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bagacum
+3042=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Viromanduorum
+3043=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sefulae
+3044=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Camaracum
+3045=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Hermoniacum
+3046=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Duronum
+3047=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Verbinum
+3048=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vungovicus
+3049=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mosomagus
+3050=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Porricum
+3051=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Cortoriacum
+3675=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Feliciacum
+3676=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Asse
+3677=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Condacum
+3678=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vodgoriacum
+3679=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Geminiacum
+3680=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Momalle
+3681=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Amanium
+3682=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vervigium
+3683=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nasagus
+3684=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Orolaunum
+3685=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Eposium
+3686=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Caranusca
+3687=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ricciacum
+3688=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Andethanna
+3689=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Treveria
+3690=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Remia
+3703=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nervia Prima
+3704=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nervia Secunda
+3705=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tienen
+3706=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site="omen_mcamulus"
+}
+#Andellium
+3707=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Teudurum
+3708=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Traiectus
+3709=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Catualium
+3710=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Blariacum
+3711=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Harenatium
+3712=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ad Duodecimum
+3713=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Castra Vetera
+3714=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Asciburgium
+3715=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Iuliacum
+3716=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Novaesium
+3717=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="nceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Aquae Granni
+3718=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Belsonancum
+3719=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bonna
+3720=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Confluentes
+3721=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vosolvia
+3722=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Belginum
+3724=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Beda
+3726=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Marcomagus
+3727=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Icorigium
+3728=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="forest"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Epternacus
+3729=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vicus Voclannionum
+3730=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Rigomagus
+7738=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wceltic"
+	province_rank="settlement"
+	religion="celtic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}

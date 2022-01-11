@@ -1,0 +1,33 @@
+deity_manager = {
+	deities_database = { ### KEYS 10100-10119 ###
+		10100 = {
+			key = omen_mgurzil
+			deity = deity_mgurzil
+		}
+		10101 = {
+			key = omen_mshaheded
+			deity = deity_mshaheded
+		}
+		10102 = {
+			key = omen_mtannit
+			deity = deity_mtannit
+		}
+		10103 = {
+			key = omen_mnanna_tala
+			deity = deity_mnanna_tala
+		}
+		10104 = {
+			key = omen_msinifere
+			deity = deity_msinifere
+		}
+		10105 = {
+			key = omen_mneith
+			deity = deity_mneith
+		}
+		10106 = {
+			key = omen_mset
+			deity = deity_mset
+		}
+	}
+}
+

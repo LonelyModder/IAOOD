@@ -1,0 +1,1709 @@
+﻿#Curana
+6903=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Kolkoi
+6912=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="amber"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Tamraparni
+6913=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Alaivay
+6914=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Koti
+6915=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Madurai
+6917=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	holy_site="omen_angayarkanni"
+}
+#Karivala
+6918=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tangala
+6919=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Malayana
+6920=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Perinkari
+6921=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Vilath
+6922=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Kamai
+6923=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Karukka
+6924=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Akour
+6925=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Bata Pandiya
+6926=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Urayur
+6927=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Thanjavur
+6928=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Venni
+6929=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Karafur
+6930=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nikama
+6931=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Koroula
+6932=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Karmara
+6933=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Abour
+6934=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Chaberis
+6935=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Karige
+6936=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Karur
+6938=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Chavadi
+6939=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Selour
+6941=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mohur
+6942=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kilandha
+6945=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kavera
+6946=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kodumbalur
+6947=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Codasi
+6948=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Anuradhapura
+6950=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="city"
+	religion="totemic_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	holy_site="omen_kande_yakka"
+}
+#Odoka
+6951=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_nae_yaku"
+}
+#Dagana
+6952=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mahagrama
+6953=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+	port_building=1
+}
+#Oulippada
+6965=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="spices"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rohanada
+6966=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gokanna
+6967=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Modoutou
+6968=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	port_building=1
+}
+#Jambukola Pattana
+6969=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="plains"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vijitanagara
+6970=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kalyani
+6971=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Mahatittha
+6972=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Upatissagama
+6973=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="farmland"
+	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+}
+#Etalava
+6974=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="incense"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Mihintale
+6975=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Girikandi
+6976=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="plains"
+	trade_goods="amber"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Dighavapi
+6977=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="plains"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Avakana
+6978=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Simhalava
+6979=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="veddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Salikhaprava
+6980=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Litta
+6981=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+}
+#Nabartha
+6982=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sveddan"
+	province_rank="settlement"
+	religion="totemic_pantheon"
+	terrain="jungle"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+}
+#Arkatapura
+6983=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kancipuram
+6984=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="city"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site="omen_thirumaal"
+}
+#Mavilankai
+6985=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sopattinam
+6986=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Colapattinam
+6987=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Koval
+6988=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Karoura
+6991=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Argaru
+6992=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kolinah
+6993=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nadhapura
+6994=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Chengam
+6995=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tiruvannamalai
+6996=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="tamilic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gudimallam
+6998=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Mayurasattapattinam
+6999=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tondana
+7000=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="elephants_indian"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Melange
+7001=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nellore
+7002=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="pattapic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kottis
+7003=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="pattapic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Palakka
+7012=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Srisailam
+7013=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rayachoti
+7025=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kadapa
+7026=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rapur
+7027=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tirumala
+7028=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kantakossyla
+7039=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mallayapalam
+7043=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Yerraguddi
+7047=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sriparvata
+7048=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chenchuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Naconda
+7049=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chenchuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kuromolinava
+7050=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kadinava
+7051=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pravarapura
+7055=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bhakkuli
+7091=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="telugic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="jungle"
+	trade_goods="gems"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
