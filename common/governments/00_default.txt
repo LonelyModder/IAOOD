@@ -334,7 +334,7 @@ tribal_chiefdom = {
 	}
 	base = {
 		global_tribesmen_happyness = happiness_large_svalue
-		levy_size_multiplier = 0.25
+		levy_size_multiplier = 0.1
 	}
 
 	election_delay = 0
