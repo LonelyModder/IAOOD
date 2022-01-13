@@ -96,7 +96,7 @@ monarchy_military_reforms = {
 	
 	work_for_the_best = { #Royal Guard - Diadochi
 		allow = {
-			rank >= regional_power
+			rank >= local_power
 		}
 		modifier = {
 			discipline = 0.05
