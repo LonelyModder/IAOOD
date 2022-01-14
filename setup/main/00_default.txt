@@ -3300,6 +3300,7 @@ country = {
 			primary_culture = kassite
 			religion = anunnaki_pantheon
 			capital = 926
+			monarchy_military_reforms = work_for_the_best
 			
 			own_control_core = 	{ 
 				927 920 921 929 960 923 936 931 930 962  

@@ -42,7 +42,7 @@
 		allow = {
 			invention = discipline_inv_5
 			OR = {
-				rank >= great_power
+				rank >= regional_power
 				custom_tooltip = {
 					text = marian_event_fired
 					has_variable = had_military_reforms 

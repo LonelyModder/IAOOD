@@ -1,7 +1,7 @@
 ﻿levantine = {	
 	color = hsv { 0.75 0.9 0.73 }
 	
-	primary = missile_spearthrowers
+	primary = missile_archers
 	second = light_spearmen
 	flank = chariot_heavy
 	

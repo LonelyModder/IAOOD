@@ -111,7 +111,7 @@ monarchy_military_reforms = {
 	standing_army_law = { #Roman Empire
 		allow = {
 			invention = discipline_inv_5
-			rank >= great_power
+			rank >= regional_power
 		}
 		modifier = {
 			army_maintenance_cost = -0.15
