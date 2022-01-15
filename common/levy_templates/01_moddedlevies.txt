@@ -294,10 +294,9 @@ levy_harrapic = { #Harrapan remnant militia
 levy_piratic = { #Illyrian militia
 	default = no
 
-	missile_spearthrowers = 0.3
+	missile_spearthrowers = 0.4
 	light_spearmen = 0.3
-	axemen_heavy = 0.2
-	chariot_light = 0.2
+	axemen_heavy = 0.3
 }
 
 #Castelic
