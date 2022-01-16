@@ -7,7 +7,7 @@ egiptic_heritage = {
 		global_population_capacity_modifier = 0.2
 		
 		#bad
-		naval_morale_modifier = -0.1	
+		levy_size_multiplier = -0.025	
 	}
 	
 	trigger = {

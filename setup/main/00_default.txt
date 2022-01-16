@@ -5520,13 +5520,6 @@ country = {
 				religious_tech= { level=1 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = upper_kemetic 
-					type = citizen
-				}
-			}
-			
 			own_control_core = 	{ 
 				626 646 645 7586 7585 624 625 623 627 7584 628 629
 			}
@@ -5681,13 +5674,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1882 1872 1883 1887 1881 1889 1880 1875 1874 1879 796 795 1892 1873
-			}
-			
-			poptype_rights = { 
-				{
-					culture = kzzuwi
-					type = citizen
-				}
 			}
 			
 			technology={

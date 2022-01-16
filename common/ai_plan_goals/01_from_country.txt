@@ -4,12 +4,13 @@ is_agressive_culture_aimod = {
 	trigger = {
 		OR = {
 			primary_culture = ashurite
-			primary_culture = persic
-			primary_culture = medic
+			tag = PAJ
+			tag = PAG
 			primary_culture = scythoi
-			primary_culture = maghadic
-			primary_culture = lydii
-			primary_culture = upper_nubian
+			tag = VBA
+			tag = HCM
+			tag = NAG
+			tag = ADH
 		}
 		manpower > 4
 	}
@@ -23,12 +24,13 @@ is_lacking_levies_pseudo_trigger = {
 		military_experience < 85
 		OR = {
 			primary_culture = ashurite
-			primary_culture = persic
-			primary_culture = medic
+			tag = PAJ
+			tag = PAG
 			primary_culture = scythoi
-			primary_culture = maghadic
-			primary_culture = lydii
-			primary_culture = upper_nubian
+			tag = VBA
+			tag = HCM
+			tag = NAG
+			tag = ADH
 		}
 	}
 	
@@ -44,14 +46,15 @@ is_antagonist_aimod = {
 	ae_ceiling = 10
 }
 
-is_migrator_aimod = {
-	trigger = {
-		AND = {
-			government = tribal_chiefdom
-		}
-	}
-	migration_chance = 50
-}
+#is_migrator_aimod = {
+#	trigger = {
+#		AND = {
+#			government = tribal_chiefdom
+#		}
+#	}
+#	aggressive = -30
+#	migration_chance = 50
+#}
 
 is_tribal_aimod = {
 	trigger = {

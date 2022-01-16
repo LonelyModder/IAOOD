@@ -353,7 +353,7 @@ tribal_kingdom = {
 	}
 	base = {
 		country_civilization_value = 5
-		levy_size_multiplier = 0.05
+		levy_size_multiplier = 0.1
 		land_morale_modifier = -0.1
 	}
 
@@ -377,7 +377,7 @@ tribal_federation = {
 	base = {
 		country_civilization_value = 10
 		levy_size_multiplier = 0.1
-		land_morale_modifier = -0.1
+		land_morale_modifier = -0.05
 	}
 
 	election_delay = 0
