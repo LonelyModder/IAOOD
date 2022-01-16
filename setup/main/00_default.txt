@@ -4574,40 +4574,40 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4799 4798 3405 4951 3401 4792 4797
+				4799 4798 3405 4951 3401 4792 4797 4794 4793 4978 4977 3406 6511 3400 3402 3403 3404
 			}
 		}
 		
-		PAK = { #Masapii
+		PAK = { #Suzaei
 			government = tribal_kingdom
 			primary_culture = persic
 			religion = protoiranian_pantheon
-			capital = 4978
+			capital = 4962
 			
 			own_control_core = 	{ 
-				4978 4977 3406 6511 
+				4962 4956 4957
 			}
 		}
 		
-		PAN = { #Suzaei
+		PAN = { #Soxotae
 			government = tribal_kingdom
 			primary_culture = persic
 			religion = protoiranian_pantheon
 			capital = 4788
 			
 			own_control_core = 	{ 
-				4788 4789 4790 4794 4793 4962 4956 4957
+				4788 4789 4790 
 			}
 		}
 		
-		PAP = { #Maraphii
+		PAP = { #Stabaei
 			government = tribal_kingdom
 			primary_culture = persic
 			religion = protoiranian_pantheon
-			capital = 3400
+			capital = 3407
 			
 			own_control_core = 	{ 
-				3400 3402 3403 3404 3409 3407
+				 3409 3407 3422
 			}
 		}
 		
@@ -4618,7 +4618,7 @@ country = {
 			capital = 3429
 			
 			own_control_core = 	{ 
-				3429 3473 3430 3417 3420 3421 3423 3416 3412 3422 
+				3429 3473 3430 3417 3420 3421 3423 3416 3412 
 			}
 		}
 		
@@ -5088,7 +5088,7 @@ country = {
 		}
 		
 		PDS = { #Scythians
-			government = tribal_federation
+			government = despotic_monarchy
 			primary_culture = scythoi
 			religion = scythic_pantheon
 			capital = 6201
@@ -5484,7 +5484,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = lower_nubian
 			religion = ethiopian_pantheon
-			capital = 608
+			capital = 610
 			
 			own_control_core = 	{ 
 				608 609 610 7583 607 605 606 7581 7582

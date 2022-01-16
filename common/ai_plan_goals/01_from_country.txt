@@ -9,6 +9,7 @@ is_agressive_culture_aimod = {
 			primary_culture = scythoi
 			primary_culture = maghadic
 			primary_culture = lydii
+			primary_culture = upper_nubian
 		}
 		manpower > 4
 	}
@@ -27,6 +28,7 @@ is_lacking_levies_pseudo_trigger = {
 			primary_culture = scythoi
 			primary_culture = maghadic
 			primary_culture = lydii
+			primary_culture = upper_nubian
 		}
 	}
 	

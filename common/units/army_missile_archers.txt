@@ -35,9 +35,9 @@
 
 	
 	attrition_loss = 0.05
-	ai_max_percentage = 15
+	#ai_max_percentage = 15
 	build_cost = {
-		gold = 16
+		gold = 8
 		manpower = 1
 	}
 	food_consumption = 0.1

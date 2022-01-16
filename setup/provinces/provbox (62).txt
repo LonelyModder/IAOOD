@@ -211,25 +211,39 @@
 		amount=4
 	}
 }
-#Tene
+#Silimi
 597=
 {
 	barbarian_power=0
 	civilization_value=0
 	culture="lower_nubian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="ethiopian_pantheon"
 	terrain="plains"
 	trade_goods="vegetables"
-	freemen=
+	nobles=
 	{
 		amount=1
+	}
+	citizen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	freemen=
+	{
+		amount=5
+	}
+	freemen=
+	{
+		amount=3
 		culture="upper_kemetic"
 		religion="kemetic_pantheon"
 	}
 	slaves=
 	{
-		amount=1
+		amount=5
 	}
 	tribesmen=
 	{
@@ -261,7 +275,7 @@
 		amount=4
 	}
 }
-#Kambousis
+#Pekhoras
 599=
 {
 	barbarian_power=0
@@ -374,7 +388,7 @@
 		amount=3
 	}
 }
-#Boon
+#Buhen
 603=
 {
 	barbarian_power=0
@@ -408,23 +422,47 @@
 	}
 	fortress_building=1
 }
-#Semna Nubia
+#Semna
 604=
 {
 	barbarian_power=0
 	civilization_value=0
 	culture="lower_nubian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="ethiopian_pantheon"
 	terrain="desert"
 	trade_goods="wild_game"
-	tribesmen=
+	nobles=
 	{
-		amount=4
+		amount=1
+	}
+	citizen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	freemen=
+	{
+		amount=5
 	}
 	slaves=
 	{
 		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
 	}
 }
 #Noa
@@ -446,23 +484,47 @@
 		amount=2
 	}
 }
-#Saye
+#Sedinga
 606=
 {
 	barbarian_power=0
 	civilization_value=0
 	culture="lower_nubian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="ethiopian_pantheon"
 	terrain="desert"
 	trade_goods="vegetables"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	freemen=
+	{
+		amount=5
+	}
 	slaves=
 	{
 		amount=2
 	}
 	tribesmen=
 	{
-		amount=5
+		amount=4
 	}
 }
 #Gugo
@@ -484,7 +546,7 @@
 		amount=4
 	}
 }
-#Paroa
+#Amara
 608=
 {
 	barbarian_power=0
@@ -526,7 +588,6 @@
 	{
 		amount=4
 	}
-	holy_site="omen_menhit"
 }
 #Acina
 609=
@@ -547,24 +608,49 @@
 		amount=2
 	}
 }
-#Prummu
+#Kerma
 610=
 {
 	barbarian_power=0
 	civilization_value=0
 	culture="lower_nubian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="kemetic_pantheon"
 	terrain="plains"
 	trade_goods="stone"
-	slaves=
+	nobles=
 	{
 		amount=1
+	}
+	citizen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+		culture="upper_kemetic"
+		religion="kemetic_pantheon"
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
 	}
 	tribesmen=
 	{
 		amount=4
 	}
+	holy_site="omen_menhit"
 }
 #Orsum
 611=

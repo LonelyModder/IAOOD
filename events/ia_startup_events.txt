@@ -329,6 +329,13 @@ ia_startup.7 = { #Iranian Platau
 
     option = {    
         name = ia_startup.7.a
+		hidden_effect = {
+			#Mighty Medes		
+			c:PAD = { every_owned_province = { add_claim = c:PAG } }
+			c:PAB = { every_owned_province = { add_claim = c:PAG } }
+			#Rise of Persia		
+			c:VCK = { every_owned_province = { add_claim = c:PAJ } }
+		}
     }
 }
 
