@@ -58,7 +58,7 @@
  LEGION_NAME_barbaric:0 "$NUM$$ORDER$ Harjaz of $BASE$"
  LEGION_NAME_celtic:0 "$NUM$$ORDER$ Slougos of $BASE$"
  LEGION_NAME_baltian:0 "$NUM$$ORDER$ Slog of $BASE$"
- LEGION_NAME_scythic:0 "$LEGION_NAME_persia$"
+ LEGION_NAME_scythic:0 "$NUM$$ORDER$ Tumen of $BASE$"
 
  ### Levy name ###
  LEVY_NAME_italic:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
