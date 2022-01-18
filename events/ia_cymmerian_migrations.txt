@@ -1,0 +1,57 @@
+﻿namespace = cymmerian_invasion
+
+cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
+	type = country_event
+	title = "cymmerian_invasion.1.t"
+	desc = "cymmerian_invasion.1.desc"
+	#picture = celtic_chiefs
+	
+	trigger = {
+		NOT = { has_global_variable = gimmiri1_invasion_occurred }
+		trigger_if ={
+			limit = {
+				c:PDM = { exists = no }
+			}
+			c:PDM = { is_ai = yes }
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = gimmiri1_invasion_occurred
+		}
+		
+	}
+	
+	option = {
+		name = cymmerian_invasion.1.a
+	}
+}
+
+cymmerian_invasion.2 = { # Invasion of Anatolia
+	type = country_event
+	title = "cymmerian_invasion.2.t"
+	desc = "cymmerian_invasion.2.desc"
+	#picture = celtic_chiefs
+	
+	trigger = {
+		NOT = { has_global_variable = gimmiri2_invasion_occurred }
+		trigger_if ={
+			limit = {
+				c:PDM = { exists = no }
+			}
+			c:PDM = { is_ai = yes }
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = gimmiri2_invasion_occurred
+		}
+		
+	}
+	
+	option = {
+		name = cymmerian_invasion.2.a
+	}
+}

@@ -23,163 +23,73 @@ ia_startup.1 = { #Mesopotamia
         name = ia_startup.1.a
 		hidden_effect = {
 			#Babylonian claims		
-			c:ABK = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABE = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABR = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABD = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABC = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABA = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABH = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABL = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABI = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ABJ = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ACS = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ACT = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
-			c:ACR = {
-				every_owned_province = { add_claim = c:ADZ }
-			}
+			c:ABK = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABE = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABR = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABD = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABC = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABA = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABH = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABL = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABI = { every_owned_province = { add_claim = c:ADZ } }
+			c:ABJ = { every_owned_province = { add_claim = c:ADZ } }
+			c:ACS = { every_owned_province = { add_claim = c:ADZ } }
+			c:ACT = { every_owned_province = { add_claim = c:ADZ } }
+			c:ACR = { every_owned_province = { add_claim = c:ADZ } }
+			#Karduniash claims
+			c:ADZ = { every_owned_province = { add_claim = c:ABK } }
+			c:ABE = { every_owned_province = { add_claim = c:ABK } }
+			c:ABR = { every_owned_province = { add_claim = c:ABK } }
+			c:ABD = { every_owned_province = { add_claim = c:ABK } }
+			c:ABC = { every_owned_province = { add_claim = c:ABK } }
+			c:ABA = { every_owned_province = { add_claim = c:ABK } }
+			c:ABH = { every_owned_province = { add_claim = c:ABK } }
+			c:ABL = { every_owned_province = { add_claim = c:ABK } }
+			c:ABI = { every_owned_province = { add_claim = c:ABK } }
+			c:ABJ = { every_owned_province = { add_claim = c:ABK } }
+			c:ACS = { every_owned_province = { add_claim = c:ABK } }
+			c:ACT = { every_owned_province = { add_claim = c:ABK } }
+			c:ACR = { every_owned_province = { add_claim = c:ABK } }
 			#Assyrian claims
-			c:ADZ = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABE = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABK = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABR = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABD = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABC = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABA = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABH = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABL = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABI = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABJ = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ACS = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ACT = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ACR = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ADY = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ACZ = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ACN = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ADW = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABW = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABB = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAZ = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAY = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABF = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABO = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAW = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAU = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAS = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAT = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAR = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAP = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAO = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:ABS = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:HAC = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAF = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAH = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAD = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:HAA = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAC = {
-				every_owned_province = { add_claim = c:ABP }
-			}
-			c:AAB = {
-				every_owned_province = { add_claim = c:ABP }
-			}
+			c:ADZ = { every_owned_province = { add_claim = c:ABP } }
+			c:ABE = { every_owned_province = { add_claim = c:ABP } }
+			c:ABK = { every_owned_province = { add_claim = c:ABP } }
+			c:ABR = { every_owned_province = { add_claim = c:ABP } }
+			c:ABD = { every_owned_province = { add_claim = c:ABP } }
+			c:ABC = { every_owned_province = { add_claim = c:ABP } }
+			c:ABA = { every_owned_province = { add_claim = c:ABP } }
+			c:ABH = { every_owned_province = { add_claim = c:ABP } }
+			c:ABL = { every_owned_province = { add_claim = c:ABP } }
+			c:ABI = { every_owned_province = { add_claim = c:ABP } }
+			c:ABJ = { every_owned_province = { add_claim = c:ABP } }
+			c:ACS = { every_owned_province = { add_claim = c:ABP } }
+			c:ACT = { every_owned_province = { add_claim = c:ABP } }
+			c:ACR = { every_owned_province = { add_claim = c:ABP } }
+			c:ADY = { every_owned_province = { add_claim = c:ABP } }
+			c:ACZ = { every_owned_province = { add_claim = c:ABP } }
+			c:ACN = { every_owned_province = { add_claim = c:ABP } }
+			c:ADW = { every_owned_province = { add_claim = c:ABP } }
+			c:ABW = { every_owned_province = { add_claim = c:ABP } }
+			c:ABB = { every_owned_province = { add_claim = c:ABP } }
+			c:AAZ = { every_owned_province = { add_claim = c:ABP } }
+			c:AAY = { every_owned_province = { add_claim = c:ABP } }
+			c:ABF = { every_owned_province = { add_claim = c:ABP } }
+			c:ABO = { every_owned_province = { add_claim = c:ABP } }
+			c:AAW = { every_owned_province = { add_claim = c:ABP } }
+			c:AAU = { every_owned_province = { add_claim = c:ABP } }
+			c:AAS = { every_owned_province = { add_claim = c:ABP } }
+			c:AAT = { every_owned_province = { add_claim = c:ABP } }
+			c:AAR = { every_owned_province = { add_claim = c:ABP } }
+			c:AAP = { every_owned_province = { add_claim = c:ABP } }
+			c:AAO = { every_owned_province = { add_claim = c:ABP } }
+			c:ABS = { every_owned_province = { add_claim = c:ABP } }
+			c:HAC = { every_owned_province = { add_claim = c:ABP } }
+			c:AAF = { every_owned_province = { add_claim = c:ABP } }
+			c:AAH = { every_owned_province = { add_claim = c:ABP } }
+			c:AAD = { every_owned_province = { add_claim = c:ABP } }
+			c:HAA = { every_owned_province = { add_claim = c:ABP } }
+			c:AAC = { every_owned_province = { add_claim = c:ABP } }
+			c:AAB = { every_owned_province = { add_claim = c:ABP } }
 			c:AAG = { every_owned_province = { add_claim = c:ABP } }
 			#Jewish civil war
 			c:JAA = { every_owned_province = { add_claim = c:JAB } }
@@ -354,6 +264,15 @@ ia_startup.8 = { #Eurasian Steppes
 
     option = {    
         name = ia_startup.8.a
+		hidden_effect = {
+			#Scythian expansion		
+			c:PDL = { every_owned_province = { add_claim = c:PDS } }
+			c:PDM = { every_owned_province = { add_claim = c:PDS } }
+			c:PDH = { every_owned_province = { add_claim = c:PDS } }
+			c:DAK = { every_owned_province = { add_claim = c:PDS } }
+			c:DAL = { every_owned_province = { add_claim = c:PDS } }
+			c:DAN = { every_owned_province = { add_claim = c:PDS } }
+		}
     }
 }
 

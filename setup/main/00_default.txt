@@ -5052,7 +5052,7 @@ country = {
 			}
 		}
 		
-		PDL = { #Gamir
+		PDL = { #Uishdish
 			government = tribal_kingdom
 			primary_culture = cymmeric
 			religion = scythic_pantheon
@@ -5064,7 +5064,7 @@ country = {
 			}
 		}
 		
-		PDM = { #Uishdish
+		PDM = { #Gamir
 			government = tribal_kingdom
 			primary_culture = cymmeric
 			religion = scythic_pantheon
