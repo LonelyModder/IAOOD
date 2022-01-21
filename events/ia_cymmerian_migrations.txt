@@ -4,7 +4,7 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 	type = country_event
 	title = "cymmerian_invasion.1.t"
 	desc = "cymmerian_invasion.1.desc"
-	#picture = celtic_chiefs
+	picture = steppe_cavalry
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri1_invasion_occurred }
@@ -20,7 +20,51 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 		set_global_variable = {
 			name = gimmiri1_invasion_occurred
 		}
-		
+		p:1621 = { #Gomora
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = cymmeric
+				set_country_religion = scythic_pantheon
+				change_country_name = "Gomara_NAME"
+				change_country_adjective = "Gomara_ADJECTIVE"
+			}
+		}
+		p:1621 = {
+            while = {
+                count = 20
+                define_pop = {
+                type = tribesmen
+                culture = cymmeric
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		scope:every_neighbour_country = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:1621
+				target = scope:p:1621.owner
+			}
+		}
+		create_unit = {
+			navy = no
+			location = p:1621
+			commander = scope:p:1621.owner.current_ruler
+			while = {
+				count = 10
+				add_subunit = cavalry_horse_archers
+			}
+			while = {
+				count = 5
+				add_subunit = chariot_light
+			}
+			while = {
+				count = 5
+				add_subunit = cavalry_heavy
+			}
+			add_food = 50
+			add_morale = 2
+		}
 	}
 	
 	option = {
@@ -32,15 +76,15 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 	type = country_event
 	title = "cymmerian_invasion.2.t"
 	desc = "cymmerian_invasion.2.desc"
-	#picture = celtic_chiefs
+	picture = steppe_cavalry
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri2_invasion_occurred }
 		trigger_if ={
 			limit = {
-				c:PDM = { exists = no }
+				c:PDL = { exists = no }
 			}
-			c:PDM = { is_ai = yes }
+			c:PDL = { is_ai = yes }
 		}
 	}
 	
@@ -48,7 +92,51 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 		set_global_variable = {
 			name = gimmiri2_invasion_occurred
 		}
-		
+		p:195 = { #Kappadokia
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = cymmeric
+				set_country_religion = scythic_pantheon
+				change_country_name = "Kappadokia_NAME"
+				change_country_adjective = "Kappadokia_ADJECTIVE"
+			}
+		}
+		p:195 = {
+            while = {
+                count = 20
+                define_pop = {
+                type = tribesmen
+                culture = cymmeric
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		scope:every_neighbour_country = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:195
+				target = scope:p:195.owner
+			}
+		}
+		create_unit = {
+			navy = no
+			location = p:195
+			commander = scope:p:195.owner.current_ruler
+			while = {
+				count = 10
+				add_subunit = cavalry_horse_archers
+			}
+			while = {
+				count = 5
+				add_subunit = chariot_light
+			}
+			while = {
+				count = 5
+				add_subunit = cavalry_heavy
+			}
+			add_food = 50
+			add_morale = 2
+		}
 	}
 	
 	option = {

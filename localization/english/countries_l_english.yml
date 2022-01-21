@@ -4013,3 +4013,8 @@
  Delias_ADJ:0 "Delian"
  Makedonia_Name:0 "Macedon"
  Makedonia_ADJ:0 "Macedonian"
+ #Event country names
+ Gomara_NAME:0 "Gomara"
+ Gomara_ADJECTIVE:0 "Gomaran"
+ Kappadokia_NAME:0 "Kappadokia"
+ Kappadokia_ADJECTIVE:0 "Kappadokian"
