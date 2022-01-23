@@ -1,6 +1,6 @@
 ﻿NGame = {
 	START_DATE = "1292.11.19"
-	END_DATE = "1729.1.1"
+	END_DATE = "1667.1.1"
 	GAME_SPEED_TICKS = {	 #how many seconds should a day take in every game speed
 		1
 		0.75
@@ -116,8 +116,8 @@ NCountry = {
 	CIVIL_WAR_CITIES_THRESHOLD = 2
 	
 	
-	CIVIL_WAR_MONTHLY_TICK = 5 #Issue
-	REVOLT_MONTHLY_TICK = 2.5 #Issue
+	CIVIL_WAR_MONTHLY_TICK = 5 
+	REVOLT_MONTHLY_TICK = 2.5 
 	
 	LOYALTY_INCREASE_AT_CIVIL_WAR_OR_REBELLION = 50
 	
@@ -142,7 +142,7 @@ NCountry = {
 	BAD_RESEARCH_RATIO = 66 #Entirely arbitrary number where we'll want to alert player.
 	MAX_RESEARCH_EFFICIENCY = 1.25 #multiply by 100 to receive initial base max research efficiency. Global modifier is applied on top of this.
 	
-	BASE_NAVAL_RANGE = 650
+	BASE_NAVAL_RANGE = 300
 
 	POTENTIAL_MISSION_COUNT = 4 # Number of random missions to pick between
 
@@ -439,7 +439,7 @@ NDiplomacy = {
 	INTERVENE_OPINION_THRESHOLD = 100
 
 	
-	DIPLOMATIC_RANGE = 800
+	DIPLOMATIC_RANGE = 400
 
 	OPINION_MIN = -200
 	OPINION_MAX = 200

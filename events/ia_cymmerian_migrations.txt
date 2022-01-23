@@ -8,12 +8,7 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri1_invasion_occurred }
-		trigger_if ={
-			limit = {
-				c:PDM = { exists = no }
-			}
-			c:PDM = { is_ai = yes }
-		}
+		c:PDS = { owns = 7193 }
 	}
 	
 	immediate = {
@@ -31,7 +26,7 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 		}
 		p:1621 = {
             while = {
-                count = 20
+                count = 30
                 define_pop = {
                 type = tribesmen
                 culture = cymmeric
@@ -39,31 +34,47 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
                 }
             }                
         }
-		scope:every_neighbour_country = {
+		p:1620.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:1621
-				target = scope:p:1621.owner
+				target = p:1621.owner
 			}
 		}
-		create_unit = {
-			navy = no
-			location = p:1621
-			commander = scope:p:1621.owner.current_ruler
-			while = {
-				count = 10
-				add_subunit = cavalry_horse_archers
+		p:1621.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 1621
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+					}
+				}
 			}
-			while = {
-				count = 5
-				add_subunit = chariot_light
+			every_unit = {
+				add_food = 100
 			}
-			while = {
-				count = 5
-				add_subunit = cavalry_heavy
-			}
-			add_food = 50
-			add_morale = 2
+			add_treasury = 1000
 		}
 	}
 	
@@ -80,12 +91,7 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri2_invasion_occurred }
-		trigger_if ={
-			limit = {
-				c:PDL = { exists = no }
-			}
-			c:PDL = { is_ai = yes }
-		}
+		c:PDS = { owns = 4551 }
 	}
 	
 	immediate = {
@@ -103,7 +109,7 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 		}
 		p:195 = {
             while = {
-                count = 20
+                count = 30
                 define_pop = {
                 type = tribesmen
                 culture = cymmeric
@@ -111,31 +117,47 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
                 }
             }                
         }
-		scope:every_neighbour_country = {
+		p:196.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:195
-				target = scope:p:195.owner
+				target = p:195.owner
 			}
 		}
-		create_unit = {
-			navy = no
-			location = p:195
-			commander = scope:p:195.owner.current_ruler
-			while = {
-				count = 10
-				add_subunit = cavalry_horse_archers
+		p:195.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 195
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+					}
+				}
 			}
-			while = {
-				count = 5
-				add_subunit = chariot_light
+			every_unit = {
+				add_food = 100
 			}
-			while = {
-				count = 5
-				add_subunit = cavalry_heavy
-			}
-			add_food = 50
-			add_morale = 2
+			add_treasury = 1000
 		}
 	}
 	

@@ -3,8 +3,6 @@
 	
 	color = { 0.4 0.9 0.4 }
 	modifier = {
-		local_population_capacity_modifier  = 1.5
-		local_population_growth = 0.05
 		local_monthly_food = 4
 	}
 }
@@ -17,7 +15,7 @@ mountain = {
 	modifier = {
 		supply_limit_modifier = -0.5
 		movement_cost = 0.8	
-		local_population_capacity_modifier  = 0.1
+		local_population_capacity_modifier  = -0.2
 		local_monthly_food = 2
 		local_country_civilization_value = -4
 	}
@@ -30,7 +28,6 @@ hills = {
 	color = { 0.4 0.1 0.0 }
 	modifier = {
 		movement_cost = 0.2
-		local_population_capacity_modifier  = 0.3
 		local_monthly_food = 3
 		local_country_civilization_value = -2
 	}
@@ -43,6 +40,7 @@ desert = {
 	modifier = {
 		movement_cost = 0.1
 		attrition = 1
+		local_population_capacity_modifier  = -0.25
 		local_monthly_food = 2
 		local_country_civilization_value = -3
 	}
@@ -56,7 +54,7 @@ marsh = {
 	modifier = {
 		movement_cost = 0.5
 		supply_limit_modifier = -0.5
-		local_population_capacity_modifier  = 0.3
+		local_population_capacity_modifier  = -0.10
 		local_monthly_food = 2.5
 		local_country_civilization_value = -4
 	}
@@ -70,7 +68,7 @@ jungle = {
 	modifier = {
 		movement_cost = 0.5
 		supply_limit_modifier = -0.5
-		local_population_capacity_modifier  = 0.1
+		local_population_capacity_modifier  = -0.15
 		local_monthly_food = 3
 		local_country_civilization_value = -2
 	}
@@ -81,9 +79,8 @@ farmland = {
 	
 	color = { 0.7 0.7 0.0 }
 	modifier = {
-		local_population_capacity_modifier = 2
+		local_population_capacity_modifier = 0.1
 		local_goods_from_slaves = -2
-		local_population_growth = 0.05
 		local_monthly_food = 5
 		local_country_civilization_value = 2
 	}
@@ -96,7 +93,7 @@ forest = {
 	color = { 0.1 0.3 0.1 }
 	modifier = {
 		movement_cost = 0.3
-		local_population_capacity_modifier  = 0.5
+		local_population_capacity_modifier  = -0.1
 		local_monthly_food = 2.5
 		local_country_civilization_value = -2
 	}
@@ -113,7 +110,6 @@ coastal_terrain = {
 
 	color = { 0.1 0.2 0.9 }
 	modifier = {
-		local_population_capacity_modifier  = 0.5
 		movement_cost = 0.15
 	}
 }
@@ -124,9 +120,8 @@ riverine_terrain = {
 
 	color = { 0.1 0.05 1.0 }
 	modifier = {
-		local_population_capacity_modifier  = 0.5
-		local_population_growth = 0.05
 		movement_cost = 0.15
+		local_population_capacity_modifier  = 0.5
 	}
 }
 

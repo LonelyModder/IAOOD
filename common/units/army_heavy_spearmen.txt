@@ -2,7 +2,7 @@
 	army = yes
 	assault = yes
 
-	levy_tier = advanced
+	levy_tier = basic
 
 	allow = {
 		OR = {

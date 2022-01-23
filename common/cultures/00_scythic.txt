@@ -1,5 +1,5 @@
 ﻿scythic = {
-	color = hsv { 0.2 0.32 0.55 }
+	color = hsv { 0.16 1 0.8 }
 	
 	levy_template = levy_nomadoi
 	

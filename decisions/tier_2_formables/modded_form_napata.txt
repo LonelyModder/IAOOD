@@ -21,7 +21,7 @@
 			scope:province = {
 				OR = {
 					province_id = 626
-					province_id = 608
+					province_id = 610
 				}
 			}
 		}
@@ -37,7 +37,7 @@
 			}
 			can_form_nation_trigger = yes
 			owns = 626
-			owns = 608
+			owns = 610
 		}
 		
 		effect = {

@@ -1,5 +1,5 @@
 ﻿kemetic = {
-	color = hsv { 0.15  1  0.7 }
+	color = hsv { 0.09  1  0.76 }
 	
 	primary = missile_spearthrowers
 	second = light_swordsmen
