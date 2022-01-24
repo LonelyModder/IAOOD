@@ -15,25 +15,25 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 		set_global_variable = {
 			name = gimmiri1_invasion_occurred
 		}
-		p:1621 = { #Gomora
-			create_country = {
-				change_government = despotic_monarchy
-				set_primary_culture = cymmeric
-				set_country_religion = scythic_pantheon
-				change_country_name = "Gomara_NAME"
-				change_country_adjective = "Gomara_ADJECTIVE"
-			}
-		}
 		p:1621 = {
             while = {
                 count = 30
                 define_pop = {
                 type = tribesmen
-                culture = cymmeric
+                culture = gomoran
                 religion = scythic_pantheon
                 }
             }                
         }
+		p:1621 = { #Gomora
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = gomoran
+				set_country_religion = scythic_pantheon
+				change_country_name = "Gomara_NAME"
+				change_country_adjective = "Gomara_ADJECTIVE"
+			}
+		}
 		p:1620.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
@@ -71,10 +71,14 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 					}
 				}
 			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				duration = 7300 # 20 years
+			}
 			every_unit = {
 				add_food = 100
 			}
-			add_treasury = 1000
+			add_treasury = 150
 		}
 	}
 	
@@ -91,6 +95,7 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri2_invasion_occurred }
+		has_global_variable = gimmiri1_invasion_occurred
 		c:PDS = { owns = 4551 }
 	}
 	
@@ -98,25 +103,25 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 		set_global_variable = {
 			name = gimmiri2_invasion_occurred
 		}
-		p:195 = { #Kappadokia
-			create_country = {
-				change_government = despotic_monarchy
-				set_primary_culture = cymmeric
-				set_country_religion = scythic_pantheon
-				change_country_name = "Kappadokia_NAME"
-				change_country_adjective = "Kappadokia_ADJECTIVE"
-			}
-		}
 		p:195 = {
             while = {
                 count = 30
                 define_pop = {
                 type = tribesmen
-                culture = cymmeric
+                culture = kappadokian
                 religion = scythic_pantheon
                 }
             }                
         }
+		p:195 = { #Kappadokia
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = kappadokian
+				set_country_religion = scythic_pantheon
+				change_country_name = "Kappadokia_NAME"
+				change_country_adjective = "Kappadokia_ADJECTIVE"
+			}
+		}
 		p:196.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
@@ -154,10 +159,14 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 					}
 				}
 			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				duration = 7300 # 20 years
+			}
 			every_unit = {
 				add_food = 100
 			}
-			add_treasury = 1000
+			add_treasury = 150
 		}
 	}
 	

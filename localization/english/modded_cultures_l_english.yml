@@ -207,6 +207,8 @@
  dahic:0 "Dahean"
  tagiskic:0 "Tagiskenian"
  amirabic:0 "Amirabadi"
+ gomoran:0 "Gomoran"
+ kappadokian:0 "Kappadokian"
  scythic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  scythic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Armenian theories

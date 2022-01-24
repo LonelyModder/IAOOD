@@ -2527,3 +2527,10 @@ mauryan_decline_refused_modifier = {
 	stability_monthly_change = -0.1
 	character_loyalty = -10
 }
+
+#From mod
+
+cymmerian_invasion_modifier = {
+    global_tax_income = 8
+	#global_tax_modifier
+}

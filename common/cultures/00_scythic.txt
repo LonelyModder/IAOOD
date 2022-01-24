@@ -45,13 +45,15 @@
 	culture = {
 		cymmeric = {}
 		scythoi = {}
-		tauric = {}
+		tauric = {levy_template = levy_forestnomad}
 		meotic = {}
 		bfc = {levy_template = levy_forestnomad}
 		chustic = {levy_template = levy_forestnomad}
 		dahic = {}
 		tagiskic = {}
 		amirabic = {}
+		gomoran = {}
+		kappadokian = {}
 	}
 	
 	barbarian_names = { 
