@@ -209,6 +209,7 @@
  amirabic:0 "Amirabadi"
  gomoran:0 "Gomoran"
  kappadokian:0 "Kappadokian"
+ massagetic:0 "Massagetan"
  scythic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  scythic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Armenian theories

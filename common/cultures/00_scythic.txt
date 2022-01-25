@@ -54,6 +54,7 @@
 		amirabic = {}
 		gomoran = {}
 		kappadokian = {}
+		massagetic = {}
 	}
 	
 	barbarian_names = { 

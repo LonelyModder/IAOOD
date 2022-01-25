@@ -73,7 +73,7 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 			}
 			add_country_modifier = {
 				name = cymmerian_invasion_modifier
-				duration = 7300 # 20 years
+				#duration = 7300 # 20 years
 			}
 			every_unit = {
 				add_food = 100
@@ -161,7 +161,7 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 			}
 			add_country_modifier = {
 				name = cymmerian_invasion_modifier
-				duration = 7300 # 20 years
+				#duration = 7300 # 20 years
 			}
 			every_unit = {
 				add_food = 100
