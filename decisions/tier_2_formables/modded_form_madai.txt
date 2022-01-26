@@ -43,6 +43,9 @@
 		}
 		
 		effect = {
+			set_global_variable = {
+				name = madai_formed
+			}
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "Madai_Name"
 			change_country_flag = Madai_Flag
