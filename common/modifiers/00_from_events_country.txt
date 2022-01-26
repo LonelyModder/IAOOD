@@ -2531,6 +2531,6 @@ mauryan_decline_refused_modifier = {
 #From mod
 
 cymmerian_invasion_modifier = {
-    global_tax_income = 8
+    global_tax_income = 14
 	#global_tax_modifier
 }

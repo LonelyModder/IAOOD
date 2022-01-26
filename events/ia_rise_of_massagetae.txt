@@ -8,7 +8,9 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 	
 	trigger = {
 		NOT = { has_global_variable = massagetae_invasion_occurred }
-		#TODO condition
+		has_global_variable = gimmiri1_invasion_occurred
+		has_global_variable = gimmiri2_invasion_occurred
+		has_global_variable = madai_formed
 	}
 	
 	immediate = {
@@ -17,7 +19,7 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 		}
 		p:1621 = {
             while = {
-                count = 30
+                count = 50
                 define_pop = {
                 type = tribesmen
                 culture = massagetic
@@ -68,11 +70,33 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 						add_subunit = cavalry_horse_archers
 						add_subunit = cavalry_horse_archers
 						add_subunit = cavalry_horse_archers
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
 					}
 				}
 			}
 			add_country_modifier = {
-				name = rise_of_massagetae_modifier
+				name = cymmerian_invasion_modifier
 				#duration = 7300 # 20 years
 			}
 			every_unit = {
