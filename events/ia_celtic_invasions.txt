@@ -1,0 +1,49 @@
+﻿namespace = celtic_invasions
+
+celtic_invasions.1 = { # Tribes under Brennus? invades Italy
+	type = country_event
+	title = "celtic_invasions.1.t"
+	desc = "celtic_invasions.1.desc"
+	picture = celtic_chiefs
+	
+	trigger = {
+		NOT = { has_global_variable = celtic_invasion1_italy }
+		
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = celtic_invasion1_italy
+		}
+		p:1621 = {
+            while = {
+                count = 20
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		p:7248 = { #Gomora
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "massagetae_NAME"
+				change_country_adjective = "massagetae_ADJECTIVE"
+			}
+		}
+		p:7247.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:7248
+				target = p:7248.owner
+			}
+		}
+	}
+	
+	option = {
+		name = celtic_invasions.1.a
+	}
+}
