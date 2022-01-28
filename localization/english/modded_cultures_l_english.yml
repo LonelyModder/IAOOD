@@ -322,6 +322,7 @@
  caledic:0 "Caledonian"
  hibernianic:0 "Hibernian"
  belgo_britonic:0 "Belgo-Britonic"
+ leponte_gallic:0 "Cisalpine"
  celtic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  celtic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Italic culture

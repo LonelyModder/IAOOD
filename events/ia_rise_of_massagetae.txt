@@ -17,7 +17,7 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 		set_global_variable = {
 			name = massagetae_invasion_occurred
 		}
-		p:1621 = {
+		p:7248 = {
             while = {
                 count = 50
                 define_pop = {

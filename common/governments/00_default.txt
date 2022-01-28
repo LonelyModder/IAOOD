@@ -331,6 +331,8 @@ tribal_chiefdom = {
 	
 	bonus = {
 		global_tribesmen_output = output_huge_svalue
+		global_pop_assimilation_speed_modifier = 2
+		global_pop_conversion_speed_modifier = 2
 	}
 	base = {
 		global_tribesmen_happyness = happiness_large_svalue
@@ -350,6 +352,8 @@ tribal_kingdom = {
 	
 	bonus = {
 		global_tribesmen_happyness = happiness_huge_svalue
+		global_pop_assimilation_speed_modifier = 2
+		global_pop_conversion_speed_modifier = 2
 	}
 	base = {
 		country_civilization_value = 5
@@ -373,6 +377,8 @@ tribal_federation = {
 	bonus = {
 		global_tribesmen_output = 0.2
 		global_pop_promotion_speed_modifier = 0.25
+		global_pop_assimilation_speed_modifier = 0.5
+		global_pop_conversion_speed_modifier = 0.5
 	}
 	base = {
 		country_civilization_value = 10
