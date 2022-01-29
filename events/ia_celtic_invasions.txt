@@ -97,12 +97,13 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				war_goal = conquer_wargoal
 				province = p:142
 				target = p:142.owner
-			}
+			}	
+		}
+		p:142.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
 		}
 		#Boi
 		p:146 = {
@@ -130,11 +131,12 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:146
 				target = p:146.owner
 			}
+		}
+		p:146.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
 		}
 		#Insubri
 		p:3571 = {
@@ -162,11 +164,12 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3571
 				target = p:3571.owner
 			}
+		}
+		p:3571.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
 		}
 		#Taurini
 		p:3551 = {
@@ -194,11 +197,12 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3551
 				target = p:3551.owner
 			}
+		}
+		p:3551.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
 		}
 		#Cenomani
 		p:3587 = {
@@ -226,11 +230,12 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3587
 				target = p:3587.owner
 			}
+		}
+		p:3587.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
 		}
 		#Lingoni
 		p:3593 = {
@@ -258,11 +263,37 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3593
 				target = p:3593.owner
 			}
+		}
+		p:3593.owner = {
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
-			
+		}
+		p:142.owner = { #Senoni
+			add_alliance = p:146.owner #Boi
+			add_alliance = p:3551.owner #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:146.owner = { #Boi
+			add_alliance = p:3551.owner #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3551.owner  = { #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3587.owner = { #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3571.owner = { #Insubri
+			add_alliance = p:3593.owner #Lingoni
 		}
 	}
 	
