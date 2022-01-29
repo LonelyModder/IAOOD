@@ -339,7 +339,7 @@ scythian_heritage = {
 	modifier = {
 		#good
 		war_score_cost = -0.15
-		army_movement_speed = 0.2
+		army_movement_speed = 0.5
 		
 		#bad
 		navy_maintenance_cost = -0.2

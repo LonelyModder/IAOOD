@@ -152,8 +152,8 @@ NCountry = {
 	
 	DEIFIED_RULERS_EXPIRE = 20 # Years before a deified ruler that has not been in a pantheon is forgotten and removed
 
-	CULTURAL_INTEGRATION_MIN_SPEED = 0.00005
-	CULTURAL_INTEGRATION_MAX_SPEED = 0.0004
+	CULTURAL_INTEGRATION_MIN_SPEED = 0.0005
+	CULTURAL_INTEGRATION_MAX_SPEED = 0.004
 	
 	CULTURAL_INTEGRATION_FACTOR = 0.02 # Multiplied by percentage of integrating culture pops in country to make monthly progress towards cultural integration (1.0)
 

@@ -27,36 +27,43 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				c:IBN = { owns = 3571 }
 				c:IBN = { owns = 3579 }
 				c:IBN = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+				c:IBN = { owns = 142 }
+				c:IBN = { owns = 146 }
 			}
 			AND = {
 				c:IBO = { owns = 3571 }
 				c:IBO = { owns = 3579 }
 				c:IBO = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+				c:IBO = { owns = 142 }
+				c:IBO = { owns = 146 }
 			}
 			AND = {
 				c:IBP = { owns = 3571 }
 				c:IBP = { owns = 3579 }
 				c:IBP = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+				c:IBP = { owns = 142 }
+				c:IBP = { owns = 146 }
 			}
 			AND = {
 				c:IBR = { owns = 3571 }
 				c:IBR = { owns = 3579 }
 				c:IBR = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+				c:IBR = { owns = 142 }
+				c:IBR = { owns = 146 }
 			}
 			AND = {
 				c:IBW = { owns = 3571 }
 				c:IBW = { owns = 3579 }
 				c:IBW = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+				c:IBW = { owns = 142 }
+				c:IBW = { owns = 146 }
+			}
+			AND = {
+				c:ICA = { owns = 3571 }
+				c:ICA = { owns = 3579 }
+				c:ICA = { owns = 3587 }
+				c:ICA = { owns = 142 }
+				c:ICA = { owns = 146 }
 			}
 		}
 	}
@@ -91,6 +98,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:142
 				target = p:142.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 		#Boi
 		p:146 = {
@@ -118,6 +130,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:146
 				target = p:146.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 		#Insubri
 		p:3571 = {
@@ -145,6 +162,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3571
 				target = p:3571.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 		#Taurini
 		p:3551 = {
@@ -172,6 +194,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3551
 				target = p:3551.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 		#Cenomani
 		p:3587 = {
@@ -199,6 +226,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3587
 				target = p:3587.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 		#Lingoni
 		p:3593 = {
@@ -226,6 +258,11 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				province = p:3593
 				target = p:3593.owner
 			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+			
 		}
 	}
 	
