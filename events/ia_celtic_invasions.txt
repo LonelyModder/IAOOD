@@ -92,18 +92,18 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Senoni_ADJECTIVE"
 			}
 		}
+		p:142.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:133.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:142
 				target = p:142.owner
 			}	
-		}
-		p:142.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
-			}
 		}
 		#Boi
 		p:146 = {
@@ -125,17 +125,17 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Boi_ADJECTIVE"
 			}
 		}
+		p:146.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:149.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:146
 				target = p:146.owner
-			}
-		}
-		p:146.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
 			}
 		}
 		#Insubri
@@ -158,17 +158,17 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Insubri_ADJECTIVE"
 			}
 		}
+		p:3571.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:3578.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:3571
 				target = p:3571.owner
-			}
-		}
-		p:3571.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
 			}
 		}
 		#Taurini
@@ -191,17 +191,17 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Taurini_ADJECTIVE"
 			}
 		}
+		p:3551.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:3559.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:3551
 				target = p:3551.owner
-			}
-		}
-		p:3551.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
 			}
 		}
 		#Cenomani
@@ -224,17 +224,17 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Cenomani_ADJECTIVE"
 			}
 		}
+		p:3587.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:3585.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:3587
 				target = p:3587.owner
-			}
-		}
-		p:3587.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
 			}
 		}
 		#Lingoni
@@ -257,17 +257,17 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				change_country_adjective = "Lingoni_ADJECTIVE"
 			}
 		}
+		p:3593.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
 		p:145.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:3593
 				target = p:3593.owner
-			}
-		}
-		p:3593.owner = {
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 3650 # 10 years
 			}
 		}
 		p:142.owner = { #Senoni
