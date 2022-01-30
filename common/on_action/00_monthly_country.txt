@@ -13,6 +13,7 @@
 		cymmerian_invasion.2
 		rise_of_massagetae.1
 		celtic_invasions.1
+		tibetan_invasions.1
 		#Modded events
 	#	flavor_egy.15
 	}

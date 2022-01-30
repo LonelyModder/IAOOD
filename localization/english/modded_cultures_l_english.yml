@@ -297,6 +297,7 @@
  assamo_tibetic:0 "Assamo-Kiratan"
  bhergavic:0 "Bhergavan"
  bhallatic:0 "Bhallatan"
+ salvan:0 "Salvan"
  qiang_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  qiang_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Tocharian culture

@@ -164,6 +164,12 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 				duration = 3650 # 10 years
 			}
 		}
+		p:3571 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+		}
 		p:3578.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
