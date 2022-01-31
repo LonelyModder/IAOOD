@@ -4013,6 +4013,12 @@
  Delias_ADJ:0 "Delian"
  Makedonia_Name:0 "Macedon"
  Makedonia_ADJ:0 "Macedonian"
+ dilmun_Name:0 "Dilmun"
+ dilmun_ADJ:0 "Dilmunite"
+ magan_Name:0 "Magan"
+ magan_ADJ:0 "Maganese"
+ quedar_Name:0 "Quedarite Kingdom"
+ quedar_ADJ:0 "Quedarite Kingdom"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

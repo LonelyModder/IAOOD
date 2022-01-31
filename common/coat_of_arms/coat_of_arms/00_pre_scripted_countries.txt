@@ -384,3 +384,37 @@ delias_flag = {
 		instance = { scale = { 0.85 0.85 } }
 	}
 }
+
+KAU  = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 148 119 212 }
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_persian_3.dds"
+		color1 = rgb { 255 241 43 }
+	}
+}
+
+magan_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "yellowish_grey"
+
+	colored_emblem = {
+		texture = "ce_nabatea.dds"
+		color1 = "bone_white"
+		color2 = "yellowish_grey"
+	}
+}
+
+quedar_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 125 46 20 }
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_11.dds"
+		color2 = "yellowish_grey"
+	}
+}

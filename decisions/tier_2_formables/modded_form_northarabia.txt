@@ -1,0 +1,94 @@
+﻿country_decisions = {
+		
+	# Form Quedarite Kingdom
+	form_quedar = {
+		
+		potential = {
+			OR = {
+				primary_culture = bianilic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XQR
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4714
+					province_id = 4721
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = quedar_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XQR
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 4714
+			owns = 4721
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "quedar_Name"
+			change_country_flag = quedar_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "quedar_ADJ"
+				change_country_color =  rgb { 156 132 72 }
+				change_country_tag = XQR
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4721
+						}
+					}
+				}
+				set_capital = 4721
+				hidden_effect = {
+					p:4721.state = {
+						set_state_capital = 4721
+					}
+				}
+			}
+			p:4721 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:4721 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

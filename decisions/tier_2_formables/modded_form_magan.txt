@@ -1,0 +1,98 @@
+﻿country_decisions = {
+		
+	# Form Magan
+	form_magan = {
+		
+		potential = {
+			OR = {
+				primary_culture = maganese
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XMG
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5419
+					province_id = 7210
+					province_id = 5430
+					province_id = 7209
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = magan_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XMG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 5419
+			owns = 7210
+			owns = 5430
+			owns = 7209
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "magan_Name"
+			change_country_flag = magan_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "magan_ADJ"
+				change_country_color =  rgb { 107 49 4 }
+				change_country_tag = XMG
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 5419
+						}
+					}
+				}
+				set_capital = 5419
+				hidden_effect = {
+					p:5419.state = {
+						set_state_capital = 5419
+					}
+				}
+			}
+			p:5419 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:5419 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
