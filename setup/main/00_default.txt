@@ -4171,7 +4171,7 @@ country = {
 		}
 		
 		KAF = { #Saba
-			government = despotic_monarchy
+			government = theocratic_monarchy
 			primary_culture = sabean
 			religion = arabian_pantheon
 			capital = 4697

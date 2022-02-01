@@ -4017,8 +4017,10 @@
  dilmun_ADJ:0 "Dilmunite"
  magan_Name:0 "Magan"
  magan_ADJ:0 "Maganese"
- quedar_Name:0 "Quedarite Kingdom"
- quedar_ADJ:0 "Quedarite Kingdom"
+ quedar_Name:0 "Quedar"
+ quedar_ADJ:0 "Quedarite"
+ yemen_Name:0 "Saba"
+ yemen_ADJ:0 "Sabean"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

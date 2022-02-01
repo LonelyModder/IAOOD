@@ -418,3 +418,14 @@ quedar_flag = {
 		color2 = "yellowish_grey"
 	}
 }
+
+KAF = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 125 46 20 }
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_13.dds"
+		color2 = rgb { 161 37 13 }
+	}
+}
