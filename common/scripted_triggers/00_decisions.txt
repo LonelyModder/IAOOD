@@ -31,6 +31,7 @@ is_tier_2_formable_trigger = {
 		tag = XMG #Magan
 		tag = XQR #Quedar kingdom
 		tag = KAF #Sabean kingdom
+		tag = XBE #Belgae Confederation 
 	}
 }
 
