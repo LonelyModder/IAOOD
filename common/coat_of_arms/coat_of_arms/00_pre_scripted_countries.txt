@@ -440,3 +440,14 @@ belgae_FLAG = {
 		color2 = rgb { 34 163 43 }
 	}
 }
+
+celtoi_FLAG  = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 14 161 73 }
+	color2 = rgb { 14 161 73 }
+
+	colored_emblem = {
+		texture = "ce_15.dds"
+		color2 = rgb { 138 30 26 }
+	}
+}
