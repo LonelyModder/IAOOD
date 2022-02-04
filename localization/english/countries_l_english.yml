@@ -4025,6 +4025,8 @@
  belgae_ADJECTIVE:0 "Belgan"
  celtoi_NAME:0 "Celtic Confederation"
  celtoi_ADJECTIVE:0 "Celtic"
+ roman_kingdom_Name:0 "Roman Kingdom"
+ roman_kingdom_ADJ:0 "Roman"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

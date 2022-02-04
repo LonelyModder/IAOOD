@@ -90,4 +90,7 @@
  celtoi_must_not_exist:0 "Celtic Confederation must not exist."
  form_celtoi:0 "Form Celtic Confederation"
  form_celtoi_desc:0 "The Gauls lived in an agricultural society ruled by landowners and led by druids. The basic social cell was the family that was part of the clan, which in turn was part of the tribe (tuath). The stronger tribes made the weaker ones dependent on each other and in time they formed confederations but never managed to create a centralized state. "
+ roman_kingdom_must_not_exist:0 "Roman Kingdom must not exist."
+ form_roman_kingdom:0 "Form Roman Kingdom"
+ form_roman_kingdom_desc:0 "In addition to the official version, there are also other theories about the founding of the eternal city. One of them tells about an Arcadian merchant named Romos who founded Rome as a Greek colony that united culturally and politically with local tribes. "
  

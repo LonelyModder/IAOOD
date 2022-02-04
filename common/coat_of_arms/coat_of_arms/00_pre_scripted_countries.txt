@@ -451,3 +451,14 @@ celtoi_FLAG  = {
 		color2 = rgb { 138 30 26 }
 	}
 }
+
+roman_kingdom_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_roman_eagle.dds"
+		color1 = "roman_red"
+	}
+}

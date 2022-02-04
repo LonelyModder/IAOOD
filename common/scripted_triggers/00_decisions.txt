@@ -33,6 +33,7 @@ is_tier_2_formable_trigger = {
 		tag = KAF #Sabean kingdom
 		tag = XBE #Belgae Confederation 
 		tag = XCT #Celtic Confederation
+		tag = XRM #Roman Kingdom
 	}
 }
 

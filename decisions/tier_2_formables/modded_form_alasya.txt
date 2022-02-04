@@ -21,20 +21,7 @@
 		
 		highlight = {
 			scope:province = {
-				OR = { # 330 331 332 333 334 335 336 338 6431 6433 7990 7991 
-					province_id = 330
-					province_id = 331
-					province_id = 332
-					province_id = 333
-					province_id = 334
-					province_id = 335
-					province_id = 336
-					province_id = 338
-					province_id = 6431
-					province_id = 6433
-					province_id = 7990
-					province_id = 7991
-				}
+				is_in_area = cyprus_area
 			}
 		}
 		
@@ -48,18 +35,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 330
-			owns = 331
-			owns = 332
-			owns = 333
-			owns = 334
-			owns = 335
-			owns = 336
-			owns = 338
-			owns = 6431
-			owns = 6433
-			owns = 7990
-			owns = 7991
+			owns_area = cyprus_area
 		}
 		
 		effect = {
