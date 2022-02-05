@@ -93,4 +93,7 @@
  roman_kingdom_must_not_exist:0 "Roman Kingdom must not exist."
  form_roman_kingdom:0 "Form Roman Kingdom"
  form_roman_kingdom_desc:0 "In addition to the official version, there are also other theories about the founding of the eternal city. One of them tells about an Arcadian merchant named Romos who founded Rome as a Greek colony that united culturally and politically with local tribes. "
+ samnium_must_not_exist:0 "Samnium must not exist."
+ form_samnium:0 "Form Samnium"
+ form_samnium_desc:0 "The Samnite tribes usually acted independently of each other, occasionally forming a confederation like the Latin League. Known members of such an alliance were the Hirpini, Caudini, Caraceni, and Pentri tribes. Despite the existence of democratic institutions such as the senate in Bovianum, Samnite politics was dominated by a few influential families. "
  

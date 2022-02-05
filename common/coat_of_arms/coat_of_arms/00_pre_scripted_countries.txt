@@ -462,3 +462,19 @@ roman_kingdom_flag = {
 		color1 = "roman_red"
 	}
 }
+
+samnium_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "samnite_green"
+	color2 = "samnite_red"
+	
+	colored_emblem = {
+		texture = "ce_samnite.dds"
+		instance = { position = { 0.3 0.3 } scale = { 0.4 0.4 }  } #top left
+		instance = { position = { 0.7 0.3 } scale = { -0.4 0.4 }  } # top right
+		instance = { position = { 0.3 0.7 } scale = { 0.4 -0.4 }  } # bottom left
+		instance = { position = { 0.7 0.7 } scale = { -0.4 -0.4 }  } # top right
+		color1 = "samnite_beige"
+		color2 = "samnite_red"
+	}
+}

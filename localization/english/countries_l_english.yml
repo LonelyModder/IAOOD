@@ -4027,6 +4027,8 @@
  celtoi_ADJECTIVE:0 "Celtic"
  roman_kingdom_Name:0 "Roman Kingdom"
  roman_kingdom_ADJ:0 "Roman"
+ samnium_Name:0 "Samnium"
+ samnium_ADJ:0 "Samnite"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

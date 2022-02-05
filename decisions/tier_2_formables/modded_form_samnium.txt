@@ -1,0 +1,96 @@
+﻿country_decisions = {
+		
+	# Form Samnium
+	form_samnium = {
+		
+		potential = {
+			primary_culture = oscan
+			#is_tribal = yes
+			NOT = {
+				tag = XSA
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 43 #Irpini
+					province_id = 1718 #Caudini
+					province_id = 41 #Pentri
+					province_id = 32 # Cirricini
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = samnium_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XSA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 43 #Irpini
+			owns = 1718 #Caudini
+			owns = 41 #Pentri
+			owns = 32 # Cirricini
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "samnium_Name"
+			change_country_flag = samnium_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_republic
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "samnium_ADJ"
+				change_country_color =  rgb { 74 117 49 }
+				change_country_tag = XSA
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 32
+						}
+					}
+				}
+				set_capital = 32
+				hidden_effect = {
+					p:32.state = {
+						set_state_capital = 32
+					}
+				}
+			}
+			p:32 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:32 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
