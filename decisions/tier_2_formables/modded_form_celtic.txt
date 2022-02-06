@@ -31,7 +31,7 @@
 			hidden_effect = {
 				change_country_adjective = "celtoi_ADJECTIVE"
 				change_country_tag = XCT
-				change_country_color = rgb { 26 143 30 }
+				change_country_color = "celtoi_color"
 				change_country_flag = celtoi_FLAG
 				if = {
 					limit = { is_tribal = yes }

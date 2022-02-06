@@ -184,6 +184,15 @@ colors = {
 	unisrael_color = rgb { 24 188 217 }
 	delias_color = rgb { 22 141 245 }
 	makedonia_color = rgb { 17 12 156 }
+	dilmun_color = rgb { 255 241 43 }
+	magan_color = rgb { 107 49 4 }
+	quedar_color = rgb { 156 132 72 }
+	tarshish_color = rgb { 161 127 66 }
+	celtoi_color = rgb { 26 143 30 }
+	belgae_color = rgb { 70 141 153 }
+	yemen_color = rgb { 131 163 3 }
+	samnium_color = rgb { 74 117 49 }
+	roman_kingdom_color = rgb { 153 9 19 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

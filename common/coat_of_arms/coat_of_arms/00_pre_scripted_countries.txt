@@ -478,3 +478,14 @@ samnium_flag = {
 		color2 = "samnite_red"
 	}
 }
+
+SAA = {
+	pattern = "pattern_solid.tga"
+	color1 = "pitch_black"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_7.dds"
+		color1 = rgb { 199 193 20 }
+	}
+}

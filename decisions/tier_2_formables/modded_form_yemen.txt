@@ -57,7 +57,7 @@
 			}
 			hidden_effect = {
 				change_country_adjective = "yemen_ADJ"
-				change_country_color =  rgb { 131 163 3 }
+				change_country_color =  "yemen_color"
 				change_country_tag = KAF
 			}
 			if = {

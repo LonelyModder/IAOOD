@@ -1,15 +1,15 @@
 ﻿country_decisions = {
 		
-	# Form Quedarite Kingdom
-	form_quedar = {
+	# Form Tartessos
+	form_tarshish = {
 		
 		potential = {
 			OR = {
-				primary_culture = bianilic
+				primary_culture = tartessic
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XQR
+				tag = SAA
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -20,30 +20,28 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 4714
-					province_id = 4721
+					province_id = 1341
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = quedar_must_not_exist
+				text = tarshish_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XQR
+						tag = SAA
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 4714
-			owns = 4721
+			owns = 1341
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "quedar_Name"
-			change_country_flag = quedar_flag
+			change_country_name = "tarshish_Name"
+			change_country_flag = SAA
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -54,32 +52,32 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "quedar_ADJ"
-				change_country_color =  "quedar_color"
-				change_country_tag = XQR
+				change_country_adjective = "tarshish_ADJ"
+				change_country_color =  "tarshish_color"
+				change_country_tag = SAA
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 4721
+							province_id = 1341
 						}
 					}
 				}
-				set_capital = 4721
+				set_capital = 1341
 				hidden_effect = {
-					p:4721.state = {
-						set_state_capital = 4721
+					p:1341.state = {
+						set_state_capital = 1341
 					}
 				}
 			}
-			p:4721 = {
+			p:1341 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:4721 = {
+			p:1341 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}
