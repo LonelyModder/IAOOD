@@ -7,6 +7,9 @@ provinces = {
 	}
 	7314={
 		great_work=17
+	}
+	918={ # Babylon
+		great_work=21
 	}	
 }
 
@@ -30,6 +33,28 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_overlord_boost"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		21={
+			ancient_wonder = yes
+			key="hanging_gardens_of_babylon"
+			great_work_state=great_work_state_completed
+			finished_date=450.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_isagil_temple"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_hanging_gardens"
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_civic_science_doctrine"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
