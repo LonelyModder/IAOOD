@@ -73,7 +73,13 @@ wonder_hanging_gardens={
 }
 
 wonder_isagil_temple={ #Modded
-	entity_name={"wonder_isagil_temple"}
+	entity_name={"wonder_isagil_temple_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_choga_zunbil={ #Modded
+	entity_name={"wonder_choga_zunbil_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }

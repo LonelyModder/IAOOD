@@ -489,3 +489,14 @@ SAA = {
 		color1 = rgb { 199 193 20 }
 	}
 }
+
+ACK  = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_elam.dds"
+		color1 = rgb { 79 79 78 }
+	}
+}
