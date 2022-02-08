@@ -500,3 +500,37 @@ ACK  = {
 		color1 = rgb { 79 79 78 }
 	}
 }
+
+partianpersia_flag ={
+	pattern="pattern_solid.tga"
+	color1=etruscan_blue	color2=roman_gold	color3=maurya_brown	colored_emblem={
+		color1=roman_gold		color2=navy_blue		texture="ce_circle_wheel_01.dds"
+		mask={
+			1 2 3 
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ -0.750000 0.750000 }
+			depth=0.010000
+			rotation=0
+		}
+	}
+	colored_emblem={
+		color1=roman_gold		color2=navy_blue		texture="ce_border_zigzag_02.dds"
+		mask={
+			1 2 3 
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 1.000000 1.000000 }
+			depth=0.010000
+			rotation=0
+		}
+		instance={
+			position={ 0.500000 0.500000 }
+			scale={ 1.000000 1.000000 }
+			depth=0.010000
+			rotation=180
+		}
+	}
+}

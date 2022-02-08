@@ -14,6 +14,7 @@
 			OR = {
 				tag = XAN
 				tag = XME
+				tag = XPT
 			}
 			NOR = {
 				is_endgame_tag_trigger = yes

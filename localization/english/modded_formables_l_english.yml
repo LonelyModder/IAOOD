@@ -102,4 +102,6 @@
  haltamti_must_not_exist:0 "Elam must not exist."
  form_haltamti:0 "Form Elam"
  form_haltamti_desc:0 "Little is known about elam because their writing has not been read so far, therefore we rely mainly on the information of their neighbors. The name itself means more or less 'highlands'. During the Iron Age, the eastern lands of the country experienced a crisis visible after a dramatic decline in population, when in the west the capital of Susa was still one of the most populous cities in the region. We also know after the construction of the sanctuary in Choga Zunbil that the rulers probably tried to unite the country using religion."
-  
+ partianpersia_must_not_exist:0 "Parthia must not exist."
+ form_partianpersia:0 "Form Parthia"
+ form_partianpersia_desc:0 "One common mistake is to identify the founders of the Parthian Empire with the nation called Parthians. The Arsacids, or the ruling clan, led the Parni tribe, and these in turn belonged to the Dahean people. They simply adopted the customs and language of the people of northeastern Iran when they conquered these lands. "

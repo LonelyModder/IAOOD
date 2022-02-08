@@ -37,6 +37,7 @@ is_tier_2_formable_trigger = {
 		tag = XSA #Samnium
 		tag = SAA #Tartessos
 		tag = ACK #Elam
+		tag = XPT #Parthia
 	}
 }
 
@@ -105,6 +106,7 @@ has_minable_trade_good_trigger = {
 			trade_goods = precious_metals
 			trade_goods = base_metals
 			trade_goods = iron
+			trade_goods = tin
 		}
 	}
 }
@@ -116,6 +118,7 @@ has_unminable_trade_good_trigger = {
 		trade_goods = precious_metals
 		trade_goods = base_metals
 		trade_goods = iron
+		trade_goods = tin
 	}
 }
 
