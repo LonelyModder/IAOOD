@@ -195,6 +195,7 @@ colors = {
 	roman_kingdom_color = rgb { 153 9 19 }
 	haltamti_color = rgb { 79 79 78 }
 	partianpersia_color = rgb { 181 89 9 }
+	sharda_color = rgb { 153 8 29 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

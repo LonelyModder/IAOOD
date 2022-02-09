@@ -534,3 +534,14 @@ partianpersia_flag ={
 		}
 	}
 }
+
+sharda_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "nuragian.dds"
+		color1 = rgb { 153 8 29 }
+	}
+}
