@@ -541,7 +541,18 @@ sharda_flag  = {
 	color2 = "offwhite"
 
 	colored_emblem = {
-		texture = "nuragian.dds"
+		texture = "ce_nuragian.dds"
 		color1 = rgb { 153 8 29 }
+	}
+}
+
+bharata_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_bharata.dds"
+		color1 = rgb { 176 77 11 }
 	}
 }

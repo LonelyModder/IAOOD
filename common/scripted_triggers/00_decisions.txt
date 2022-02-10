@@ -47,6 +47,7 @@ is_endgame_tag_trigger = {
 		tag = XKE #Pharonic Egypt
 		tag = XPR #Persian Empire
 		tag = XAG #Akkadian Empire
+		tag = XBT #Bharata
 	}
 }
 
