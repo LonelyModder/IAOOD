@@ -197,6 +197,7 @@ colors = {
 	partianpersia_color = rgb { 181 89 9 }
 	sharda_color = rgb { 153 8 29 }
 	bharata_color = rgb { 176 77 11 }
+	mannai_color = rgb { 22 43 112 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

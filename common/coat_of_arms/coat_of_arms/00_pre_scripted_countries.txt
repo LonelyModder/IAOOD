@@ -60,6 +60,17 @@ ADZ = {
 	}
 }
 
+ADP = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "roman_gold"
+
+	colored_emblem = {
+		texture = "ce_bow_01.dds"
+		color1 = "phrygia_red"
+	}
+}
+
 JAA = {
 	pattern = "pattern_solid.tga"
 	color1 = "judea_blue"
