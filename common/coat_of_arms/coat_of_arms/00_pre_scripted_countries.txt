@@ -567,3 +567,24 @@ bharata_flag = {
 		color1 = rgb { 176 77 11 }
 	}
 }
+
+shekel_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "sicily_color"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_border_meander_02.tga"
+		color1 = "offwhite"
+		color2 = "roman_red"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_syracuse.dds"
+		color1 = "offwhite"
+		color2= "roman_red"
+		instance = { scale = { 0.9 0.9 }  }
+	}
+}
