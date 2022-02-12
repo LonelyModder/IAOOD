@@ -199,6 +199,7 @@ colors = {
 	bharata_color = rgb { 176 77 11 }
 	mannai_color = rgb { 22 43 112 }
 	shekel_color = rgb { 105 125 39 }
+	bactria_color = rgb { 222 134 27 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

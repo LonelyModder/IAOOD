@@ -11,8 +11,8 @@
 				is_endgame_tag_trigger = yes
 			}
 			OR = {
-				primaty_culture = bceltic
-				primaty_culture = belgo_britonic
+				primary_culture = bceltic
+				primary_culture = belgo_britonic
 			}
 		}
 		
