@@ -44,6 +44,8 @@
  canaanites:0 "Canaanite"
  girzite:0 "Girzite"
  avite:0 "Avite"
+ judean:0 "South-Jewish"
+ israelic:0 "North-Jewish"
  levantine_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  levantine_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Arameans
@@ -58,6 +60,9 @@
  temannite:0 "Temannite"
  ahlamic:0 "Aramean"
  midianic:0 "Midianite"
+ shasan:0 "Shasian"
+ amalekite:0 "Amalekite"
+ edomite:0 "Edomite"
  aramaic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aramaic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Arabian
@@ -262,7 +267,6 @@
  glasinac:0 "Glasinacian"
  lapygian:0 "Lapygian"
  sikelic:0 "Sicelic"
- sicanic:0 "Sicanic"
  dardanic:0 "Dardanian"
  grecoid_illyrian:0 "Greco-Illyrian"
  illyric_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
@@ -383,6 +387,7 @@
  lelegian:0 "Lelegian"
  rutulic: "Rutulian"
  wilusan:0 "Wilusan"
+ sicanic:0 "Sicanic"
  thyrrenic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  thyrrenic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Castelic culture
@@ -410,15 +415,6 @@
  vysotsko:0 "Vysotskan"
  baltian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  baltian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
- #Synaic culture
- synaic:2 "Synaic"
- shasan:0 "Shasian"
- amalekite:0 "Amalekite"
- judean:0 "South-Jewish" 
- israelic:0 "North-Jewish"
- edomite:0 "Edomite"
- synaic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
- synaic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Polynesian culture
  veddic:2 "Vedda"
  veddan:0 "Nagan"

@@ -886,9 +886,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="oscan"
+	culture="sikelic"
 	province_rank="settlement"
-	religion="italiotan_pantheon"
+	religion="illyric_pantheon"
 	terrain="hills"
 	trade_goods="glass"
 	slaves=
@@ -905,9 +905,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="oscan"
+	culture="sikelic"
 	province_rank="settlement"
-	religion="italiotan_pantheon"
+	religion="illyric_pantheon"
 	terrain="hills"
 	trade_goods="earthware"
 	slaves=
@@ -924,9 +924,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="oscan"
+	culture="sikelic"
 	province_rank="settlement"
-	religion="italiotan_pantheon"
+	religion="illyric_pantheon"
 	terrain="hills"
 	trade_goods="fish"
 	slaves=
@@ -943,9 +943,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="oscan"
+	culture="sikelic"
 	province_rank="city"
-	religion="italiotan_pantheon"
+	religion="illyric_pantheon"
 	terrain="hills"
 	trade_goods="wood"
 	citizen=

@@ -8,7 +8,12 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 	
 	trigger = {
 		NOT = { has_global_variable = gimmiri1_invasion_occurred }
-		c:PDS = { owns = 7193 }
+		OR = {
+			c:PDS = { owns = 7193 }
+			c:PDS = { owns = 6155 }
+			c:PDS = { owns = 6164 }
+		}
+		#c:PDM = { exists = no }
 	}
 	
 	immediate = {
@@ -118,7 +123,12 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 	trigger = {
 		NOT = { has_global_variable = gimmiri2_invasion_occurred }
 		has_global_variable = gimmiri1_invasion_occurred
-		c:PDS = { owns = 4551 }
+		OR = {
+			c:PDS = { owns = 4551 }
+			c:PDS = { owns = 7192 }
+			c:PDS = { owns = 6139 }
+		}
+		#c:PDL = { exists = no }
 	}
 	
 	immediate = {

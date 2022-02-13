@@ -501,15 +501,7 @@ levy_romuvi = { #Baltic militia
 	axemen_heavy = 0.2
 }
 
-#Synaic
-
-levy_yahwic = { #Synaitic militia
-	default = no
-
-	missile_spearthrowers = 0.2
-	light_spearmen = 0.6
-	chariot_heavy = 0.2
-}
+#Jews
 
 levy_jewishic = { #Jewish militia
 	default = no

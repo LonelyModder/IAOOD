@@ -304,6 +304,7 @@
 		pelasgian = {}
 		lelegian = {}
 		rutulic = {}
+		sicanic = {}
 	}
 	
 	barbarian_names = { 

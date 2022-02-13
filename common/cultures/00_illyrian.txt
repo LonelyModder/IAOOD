@@ -38,7 +38,6 @@
 		glasinac = {}
 		lapygian = {}
 		sikelic = {}
-		sicanic = {}
 		dardanic = {}
 		grecoid_illyrian = {}
 	}

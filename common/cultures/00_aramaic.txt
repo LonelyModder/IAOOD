@@ -66,6 +66,9 @@
 		chaldean = {}
 		ahlamic = {}
 		midianic = {}
+		edomite = {}
+		shasan = {}
+		amalekite = {}
 	}
 	
 	barbarian_names = { 

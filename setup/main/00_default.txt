@@ -9851,8 +9851,8 @@ country = {
 		
 		IDL = { #Itali
 			government = tribal_kingdom
-			primary_culture = oscan
-			religion = italiotan_pantheon
+			primary_culture = sikelic
+			religion = illyric_pantheon
 			capital = 72
 			
 			own_control_core = 	{ 

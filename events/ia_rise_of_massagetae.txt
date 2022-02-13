@@ -10,7 +10,19 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 		NOT = { has_global_variable = massagetae_invasion_occurred }
 		has_global_variable = gimmiri1_invasion_occurred
 		has_global_variable = gimmiri2_invasion_occurred
-		has_global_variable = madai_formed
+		OR = {
+			AND = {
+				p:7226.owner = {
+					NOT = { is_tribal = yes }
+				}
+				p:6671.owner = {
+					NOT = { is_tribal = yes }
+				}
+			}
+			p:6678.owner = {
+				NOT = { is_tribal = yes }
+			}
+		}
 	}
 	
 	immediate = {
@@ -27,7 +39,7 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
                 }
             }                
         }
-		p:7248 = { #Gomora
+		p:7248 = { #Massagetae
 			create_country = {
 				change_government = despotic_monarchy
 				set_primary_culture = massagetic

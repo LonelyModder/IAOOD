@@ -56,6 +56,42 @@
 		canaanites = {}
 		girzite = {}
 		avite = {}
+		judean = {
+			levy_template = levy_jewishic
+			male_names = {
+				Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus 
+				Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel 
+				Nathan Nebalta Nicandus Jason Jeremiah Kasaias Ishbaal
+			}
+					
+			female_names = {
+				Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba 
+				Esther Lysia Judith Julia Mara 
+			}
+					
+			family = {	
+				Bet-David Bet-Saul Bet-Judah Bet-Joshua Bet-Manahem Bet-Jacob Bet-Ezekiah Bet-Levi Bet-Nathan Bet-Jason Bet-Harsom
+				Bet-Nathan Bet-Jeremiah Bet-Nathaniel Bet-Gadish Bet-Harqaq Bet-Nebalta Bet-Jonathan
+			}
+		}
+		israelic = {
+			levy_template = levy_jewishic
+			male_names = {
+				Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus 
+				Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel 
+				Nathan Nebalta Nicandus Jason Jeremiah Kasaias Ishbaal
+			}
+					
+			female_names = {
+				Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba 
+				Esther Lysia Judith Julia Mara 
+			}
+					
+			family = {	
+				Bet-David Bet-Saul Bet-Judah Bet-Joshua Bet-Manahem Bet-Jacob Bet-Ezekiah Bet-Levi Bet-Nathan Bet-Jason Bet-Harsom
+				Bet-Nathan Bet-Jeremiah Bet-Nathaniel Bet-Gadish Bet-Harqaq Bet-Nebalta Bet-Jonathan
+			}
+		}
 	}
 	
 	barbarian_names = { 

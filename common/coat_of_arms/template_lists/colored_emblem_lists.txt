@@ -45,7 +45,7 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				country_culture_group = "synaic"
+				country_culture_group = "aramaic"
 			}
 			4 = "ce_border_leaves_01.dds"
 		}
