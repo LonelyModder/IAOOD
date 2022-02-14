@@ -9189,30 +9189,6 @@ country = {
 			
 		}
 		
-		IAD = { #Adrani
-			government = tribal_kingdom
-			primary_culture = sicanic
-			religion = illyric_pantheon
-			capital = 7843
-			
-			own_control_core = 	{ 
-				90 93 7843
-			}
-			
-		}
-		
-		IAE = { #Murganti
-			government = tribal_kingdom
-			primary_culture = sikelic
-			religion = illyric_pantheon
-			capital = 88
-			
-			own_control_core = 	{ 
-				88 7840 85
-			}
-			
-		}
-		
 		IAG = { #Lestrigoni
 			government = tribal_federation
 			primary_culture = corsi
@@ -9357,62 +9333,26 @@ country = {
 			
 		}
 		
-		IBC = { #Camici
+		IBC = { #Sicania
 			government = tribal_kingdom
 			primary_culture = sicanic
 			religion = illyric_pantheon
 			capital = 7841
 			
 			own_control_core = 	{ 
-				7841 91 86 89
+				7841 91 86 89 98 7842 97 90 93 7843
 			}
 			
 		}
 		
-		IBE = { #Petri
-			government = tribal_kingdom
-			primary_culture = sicanic
-			religion = illyric_pantheon
-			capital = 98
-			
-			own_control_core = 	{ 
-				98 7842 97
-			}
-			
-		}
-		
-		IBG = { #Tapsi
-			government = tribal_kingdom
-			primary_culture = sikelic
-			religion = illyric_pantheon
-			capital = 7837
-			
-			own_control_core = 	{ 
-				7837 83 87 101
-			}
-			
-		}
-		
-		IBH = { #Centuripi
+		IBH = { #Sicelia
 			government = tribal_kingdom
 			primary_culture = sikelic
 			religion = illyric_pantheon
 			capital = 7838
 			
 			own_control_core = 	{ 
-				7838 7839 82
-			}
-			
-		}
-		
-		IBI = { #Adrani
-			government = tribal_kingdom
-			primary_culture = sikelic
-			religion = illyric_pantheon
-			capital = 81
-			
-			own_control_core = 	{ 
-				81 80 99 100 1472
+				7838 7839 82 88 7840 85 7837 83 87 101 81 80 99 100 1472
 			}
 			
 		}

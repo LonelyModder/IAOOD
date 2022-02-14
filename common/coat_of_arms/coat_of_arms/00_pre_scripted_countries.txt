@@ -629,3 +629,14 @@ bactria_flag = {
 		}
 	}
 }
+
+hyksos_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_hyksos.dds"
+		color1 = rgb { 105 56 44 }
+	}
+}

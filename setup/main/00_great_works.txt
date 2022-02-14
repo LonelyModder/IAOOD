@@ -10,6 +10,9 @@ provinces = {
 	}
 	918={ # Babylon
 		great_work=21
+	}
+	967={ # Choga Zunbil
+		great_work=22
 	}	
 }
 

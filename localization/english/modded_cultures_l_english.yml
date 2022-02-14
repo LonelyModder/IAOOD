@@ -72,15 +72,6 @@
  maganese:0 "Maganese" #Arab kingdoms or akkadian city states?
  arabian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  arabian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
- #Hattians
- hattian:2 "Hattian"
- hatti:0 "Hittite"
- syro_hatti:0 "Syro-Hittite"
- lowland_hatti: "Lowland-Hittite"
- kaska:0 "Kaskan"
- paphlagonic:0 "Paphlagonian"
- hattian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
- hattian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Greeks
  grekoid:2 "Hellenic"
  cypriotic:0 "Cypriotic"
@@ -146,7 +137,7 @@
  caucasic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  caucasic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Luwian
- luwian:2 "West Anatolian"
+ luwian:2 "Luwian"
  luwii:0 "Tarhuntassan"
  sideti:0 "Sidetian"
  pisidic:0 "Pisidian"
@@ -156,6 +147,11 @@
  lydii:0 "Lydian"
  happalic:0 "Hapallan"
  tejeker:0 "Tejeker"
+ hatti:0 "Hittite"
+ syro_hatti:0 "Syro-Hittite"
+ lowland_hatti: "Lowland-Hittite"
+ kaska:0 "Kaskan"
+ paphlagonic:0 "Paphlagonian"
  luwian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  luwian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Western Iranian

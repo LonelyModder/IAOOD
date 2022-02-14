@@ -200,6 +200,7 @@ colors = {
 	mannai_color = rgb { 22 43 112 }
 	shekel_color = rgb { 105 125 39 }
 	bactria_color = rgb { 222 134 27 }
+	hyksos_color = rgb { 105 56 44 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

@@ -42,6 +42,7 @@ is_tier_2_formable_trigger = {
 		tag = ADP #Mannea
 		tag = XSE #Shekel
 		tag = XBC #Bactria
+		tag = XHX #Hyksos
 	}
 }
 

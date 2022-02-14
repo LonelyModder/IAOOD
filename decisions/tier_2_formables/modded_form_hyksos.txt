@@ -1,0 +1,102 @@
+﻿country_decisions = {
+		
+	# Form Hyksos
+	form_hyksos = {
+		
+		potential = {
+			OR = {
+				country_culture_group = levantine
+				country_culture_group = aramaic
+				country_culture_group = illyric
+				country_culture_group = occidental
+				country_culture_group = minoic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XHX
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 508
+					province_id = 569
+					province_id = 500
+					province_id = 511
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hyksos_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XHX
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 508
+			owns = 569
+			owns = 500
+			owns = 511
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "hyksos_Name"
+			change_country_flag = hyksos_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "hyksos_ADJ"
+				change_country_color =  "hyksos_color"
+				change_country_tag = XHX
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 511
+						}
+					}
+				}
+				set_capital = 511
+				hidden_effect = {
+					p:511.state = {
+						set_state_capital = 511
+					}
+				}
+			}
+			p:511 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:511 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
