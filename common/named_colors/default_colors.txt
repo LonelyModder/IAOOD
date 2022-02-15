@@ -201,6 +201,8 @@ colors = {
 	shekel_color = rgb { 105 125 39 }
 	bactria_color = rgb { 222 134 27 }
 	hyksos_color = rgb { 105 56 44 }
+	minoa_color = rgb { 19 12 110 }
+	epyrion_color = rgb { 200 153 39 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

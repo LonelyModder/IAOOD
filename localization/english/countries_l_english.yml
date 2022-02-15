@@ -4047,6 +4047,10 @@
  bactria_ADJ:0 "Bactrian"
  hyksos_Name:0 "Hyksos"
  hyksos_flag:0 "Hyksosite"
+ minoa_Name:0 "Crete"
+ minoa_ADJ:0 "Cretan"
+ epyrion_Name:0 "Epirus"
+ epyrion_ADJ:0 "Epirote"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

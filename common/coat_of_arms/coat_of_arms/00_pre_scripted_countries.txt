@@ -640,3 +640,34 @@ hyksos_flag  = {
 		color1 = rgb { 105 56 44 }
 	}
 }
+
+minoa_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "cretan_blue"
+	color2 = "offwhite"
+	
+	colored_emblem = {
+		texture = "ce_border_simple_02.tga"
+		color1 = "offwhite"
+		color2 = "cretan_blue"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_bull_02.dds"
+		color1 = "offwhite"
+		instance = { scale = { 0.75 0.75 }  }
+	}
+}
+
+epyrion_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "epirus_light_yellow"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_epirus.dds"
+		color1 = "pitch_black"
+	}
+}
