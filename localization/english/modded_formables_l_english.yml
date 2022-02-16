@@ -129,4 +129,7 @@
  epyrion_must_not_exist:0 "Epirus must not exist."
  form_epyrion:0 "Form Epirus"
  form_epyrion_desc:0 "In ancient Greece, the epir was of marginal importance. It was mainly related to the division of the country into many Doric tribes fighting each other for supremacy. The most powerful tribes were the Chaonians, Thesprotians, and the Molossians. The country was also constantly exposed to attacks by illirians. "
+ thrakia_must_not_exist:0 "Thrace must not exist."
+ form_thrakia:0 "Form Thrace"
+ form_thrakia_desc:0 "Organized state structures appear in Thrace only after the growers repel the Persian invasion, which enables the previously dominated Thracian tribes to shed Persian domination. The country is founded by the Odrysian tribe and is also called the Odrysian Kingdom after them. "
  

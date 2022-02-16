@@ -671,3 +671,14 @@ epyrion_flag = {
 		color1 = "pitch_black"
 	}
 }
+
+thrakia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 179 79 4 }
+	color2 = rgb { 179 79 4 }
+
+	colored_emblem = {
+		texture = "ce_sabaz.dds"
+		color1 = rgb { 107 112 108 }
+	}
+}

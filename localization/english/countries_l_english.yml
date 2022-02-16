@@ -4051,6 +4051,8 @@
  minoa_ADJ:0 "Cretan"
  epyrion_Name:0 "Epirus"
  epyrion_ADJ:0 "Epirote"
+ thrakia_Name:0 "Thrace"
+ thrakia_ADJ:0 "Thracian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

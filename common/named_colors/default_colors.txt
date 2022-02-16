@@ -203,6 +203,7 @@ colors = {
 	hyksos_color = rgb { 105 56 44 }
 	minoa_color = rgb { 19 12 110 }
 	epyrion_color = rgb { 200 153 39 }
+	thrakia_color = rgb { 107 112 108 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
