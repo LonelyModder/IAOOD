@@ -682,3 +682,14 @@ thrakia_flag = {
 		color1 = rgb { 107 112 108 }
 	}
 }
+
+chorasmia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 50 100 227 }
+	color2 = rgb { 50 100 227 }
+
+	colored_emblem = {
+		texture = "ce_aryanfish.dds"
+		color1 = rgb { 61 64 71 }
+	}
+}

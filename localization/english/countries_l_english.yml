@@ -4053,6 +4053,8 @@
  epyrion_ADJ:0 "Epirote"
  thrakia_Name:0 "Thrace"
  thrakia_ADJ:0 "Thracian"
+ chorasmia_Name:0 "Chorasmia"
+ chorasmia_ADJ:0 "Chorasmian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"
