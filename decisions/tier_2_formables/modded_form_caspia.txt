@@ -1,17 +1,17 @@
 ﻿country_decisions = {
 		
-	# Form Chorasmia
-	form_chorasmia = {
+	# Form Caspia
+	form_caspia = {
 		
 		potential = {
 			OR = {
-				primary_culture = chorasmic
-				primary_culture = margianic
-				primary_culture = amirabic
+				primary_culture = hyrkanii
+				primary_culture = gelic
+				primary_culture = dribysesic
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XCH
+				tag = XSP
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -21,28 +21,28 @@
 		
 		highlight = {
 			scope:province = {
-				province_id = 6805
+				province_id = 4997
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = chorasmia_must_not_exist
+				text = caspia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XCH
+						tag = XSP
 					}
 				}
 			}
 			can_form_nation_trigger = yes
 			num_of_cities >= 60
-			owns = 6805
+			owns = 4997
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "chorasmia_Name"
-			change_country_flag = chorasmia_flag
+			change_country_name = "caspia_Name"
+			change_country_flag = caspia_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -53,32 +53,32 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "chorasmia_ADJ"
-				change_country_color =  "chorasmia_color"
-				change_country_tag = XCH
+				change_country_adjective = "caspia_ADJ"
+				change_country_color =  "caspia_color"
+				change_country_tag = XSP
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 6805
+							province_id = 4997
 						}
 					}
 				}
-				set_capital = 6805
+				set_capital = 4997
 				hidden_effect = {
-					p:6805.state = {
-						set_state_capital = 6805
+					p:4997.state = {
+						set_state_capital = 4997
 					}
 				}
 			}
-			p:6805 = {
+			p:4997 = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
 			}
-			p:6805 = {
+			p:4997 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

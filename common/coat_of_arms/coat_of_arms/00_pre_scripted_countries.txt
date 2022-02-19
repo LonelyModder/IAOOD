@@ -693,3 +693,25 @@ chorasmia_flag = {
 		color1 = rgb { 61 64 71 }
 	}
 }
+
+carmania_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 190 210 232 }
+	color2 = rgb { 190 210 232 }
+
+	colored_emblem = {
+		texture = "ce_carmana.dds"
+		color1 = rgb { 44 51 59 }
+	}
+}
+
+caspia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 99 37 3 }
+	color2 = rgb { 99 37 3 }
+
+	colored_emblem = {
+		texture = "ce_magna_graecia.dds"
+		color1 = rgb { 248 255 31 }
+	}
+}

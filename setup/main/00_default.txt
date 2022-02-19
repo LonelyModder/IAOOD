@@ -4964,7 +4964,7 @@ country = {
 			}
 		}
 		
-		PCT = { #West Hyrkanii
+		PCT = { #Hyrkania
 			government = tribal_kingdom
 			primary_culture = hyrkanii
 			religion = protoiranian_pantheon

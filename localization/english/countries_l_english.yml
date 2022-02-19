@@ -4055,6 +4055,10 @@
  thrakia_ADJ:0 "Thracian"
  chorasmia_Name:0 "Chorasmia"
  chorasmia_ADJ:0 "Chorasmian"
+ carmania_Name:0 "Carmania"
+ carmania_ADJ:0 "Carmanian"
+ caspia_Name:0 "Hyrkanian Kingdom"
+ caspia_ADJ:0 "Hyrkanian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"
