@@ -180,10 +180,10 @@ feudatory = { #Latin Allies
 	}
 	
 	allow = {
-		num_of_cities <= 10
+		num_of_cities <= 5
 		scope:future_overlord = {
 			is_subject = no
-			num_of_cities >= 20
+			num_of_cities >= 10
 			is_tribal = no
 			this.culture_group = root.culture_group
 		}
@@ -282,7 +282,11 @@ satrapy = {
 	}
 	
 	allow = {
-		is_tradition_tree_allowed = iranian_philosophy #subjected state is Persian.
+		#is_tradition_tree_allowed = iranian_philosophy #subjected state is Persian.
+		OR = {
+			this.culture_group = scythic
+			is_tradition_tree_allowed = iranian_philosophy 
+		}
 		num_of_cities > 40
 		is_monarchy = yes
 		scope:future_overlord = {
