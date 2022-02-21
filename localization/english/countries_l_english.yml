@@ -4059,6 +4059,8 @@
  carmania_ADJ:0 "Carmanian"
  caspia_Name:0 "Hyrkanian Kingdom"
  caspia_ADJ:0 "Hyrkanian"
+ dakia_Name:0 "Dacia"
+ dakia_ADJ:0 "Dacian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

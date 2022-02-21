@@ -1,0 +1,95 @@
+﻿country_decisions = {
+		
+	# Form Dacia
+	form_dakia = {
+		
+		potential = {
+			OR = {
+				primary_culture = basarabi
+				primary_culture = belegan
+				primary_culture = corlatenian
+				primary_culture = fnthracian
+				primary_culture = pilinic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XDC
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				province_id = 4282
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = dakia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XDC
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 60
+			owns = 4282
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "dakia_Name"
+			change_country_flag = dakia_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "dakia_ADJ"
+				change_country_color =  "dakia_color"
+				change_country_tag = XDC
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4282
+						}
+					}
+				}
+				set_capital = 4282
+				hidden_effect = {
+					p:4282.state = {
+						set_state_capital = 4282
+					}
+				}
+			}
+			p:4282 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:4282 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

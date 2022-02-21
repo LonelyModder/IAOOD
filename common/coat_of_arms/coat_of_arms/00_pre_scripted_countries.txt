@@ -715,3 +715,14 @@ caspia_flag = {
 		color1 = rgb { 248 255 31 }
 	}
 }
+
+dakia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 237 121 26 }
+	color2 = rgb { 237 121 26 }
+
+	colored_emblem = {
+		texture = "ce_dakwolf.dds"
+		color1 = rgb { 77 71 69 }
+	}
+}
