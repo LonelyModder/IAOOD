@@ -208,6 +208,7 @@ colors = {
 	carmania_color = rgb { 86 93 102 }
 	caspia_color = rgb { 99 37 3 }
 	dakia_color = rgb { 156 49 3 }
+	ariana_color = rgb { 177 19 189 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

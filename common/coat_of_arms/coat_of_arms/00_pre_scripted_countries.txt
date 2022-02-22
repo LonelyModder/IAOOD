@@ -726,3 +726,14 @@ dakia_flag = {
 		color1 = rgb { 77 71 69 }
 	}
 }
+
+ariana_flag  = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 59 209 25 }
+	color2 = rgb { 59 209 25 }
+
+	colored_emblem = {
+		texture = "ce_grapes.dds"
+		color1 = rgb { 177 19 189 }
+	}
+}

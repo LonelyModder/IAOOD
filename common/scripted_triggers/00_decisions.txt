@@ -50,6 +50,7 @@ is_tier_2_formable_trigger = {
 		tag = XCM #Carmania
 		tag = XSP #Hyrkanian Kingdom
 		tag = XDC #Dacia
+		tag = XAI #Aria
 	}
 }
 
