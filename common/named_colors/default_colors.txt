@@ -209,6 +209,8 @@ colors = {
 	caspia_color = rgb { 99 37 3 }
 	dakia_color = rgb { 156 49 3 }
 	ariana_color = rgb { 177 19 189 }
+	drangiana_color = rgb { 94 102 96 }
+	gedrosia_color = rgb { 163 150 73 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

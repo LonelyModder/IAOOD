@@ -51,6 +51,8 @@ is_tier_2_formable_trigger = {
 		tag = XSP #Hyrkanian Kingdom
 		tag = XDC #Dacia
 		tag = XAI #Aria
+		tag = XDG #Drangiana
+		tag = XGS #Gedrosia
 	}
 }
 

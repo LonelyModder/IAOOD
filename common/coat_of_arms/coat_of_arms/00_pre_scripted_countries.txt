@@ -727,7 +727,7 @@ dakia_flag = {
 	}
 }
 
-ariana_flag  = {
+ariana_flag = {
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 59 209 25 }
 	color2 = rgb { 59 209 25 }
@@ -735,5 +735,27 @@ ariana_flag  = {
 	colored_emblem = {
 		texture = "ce_grapes.dds"
 		color1 = rgb { 177 19 189 }
+	}
+}
+
+drangiana_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 32 64 179 }
+	color2 = rgb { 32 64 179 }
+
+	colored_emblem = {
+		texture = "ce_pickaxe.dds"
+		color1 = rgb { 94 102 96 }
+	}
+}
+
+gedrosia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 163 150 73 }
+	color2 = rgb { 163 150 73 }
+
+	colored_emblem = {
+		texture = "ce_gedrosian.dds"
+		color1 = rgb { 189 82 11 }
 	}
 }
