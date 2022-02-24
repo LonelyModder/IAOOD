@@ -211,6 +211,7 @@ colors = {
 	ariana_color = rgb { 177 19 189 }
 	drangiana_color = rgb { 94 102 96 }
 	gedrosia_color = rgb { 163 150 73 }
+	celtiberia_color = rgb { 132 209 44 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
