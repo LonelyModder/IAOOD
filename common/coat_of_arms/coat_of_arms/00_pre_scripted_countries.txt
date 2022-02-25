@@ -789,3 +789,14 @@ celtiberia_flag = {
 		}
 	}
 }
+
+kimmeria_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 250 247 248 }
+	color2 = rgb { 250 247 248 }
+
+	colored_emblem = {
+		texture = "ce_kimmer.dds"
+		color1 = rgb { 235 9 9 }
+	}
+}

@@ -54,6 +54,7 @@ is_tier_2_formable_trigger = {
 		tag = XDG #Drangiana
 		tag = XGS #Gedrosia
 		tag = XCR #Celtiberia
+		tag = XKM #Cymmeria
 	}
 }
 

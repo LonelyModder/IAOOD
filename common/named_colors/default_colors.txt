@@ -212,6 +212,7 @@ colors = {
 	drangiana_color = rgb { 94 102 96 }
 	gedrosia_color = rgb { 163 150 73 }
 	celtiberia_color = rgb { 132 209 44 }
+	kimmeria_color = rgb { 201 97 44 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
