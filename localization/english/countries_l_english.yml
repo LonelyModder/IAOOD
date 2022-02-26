@@ -4071,6 +4071,10 @@
  celtiberia_ADJ:0 "Celtiberian"
  kimmeria_Name:0 "Cymmeria"
  kimmeria_ADJ:0 "Cymmerian"
+ calbania_Name:0 "Albania"
+ calbania_ADJ:0 "Albanian"
+ ciberia_Name:0 "Iberia"
+ ciberia_ADJ:0 "Iberian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

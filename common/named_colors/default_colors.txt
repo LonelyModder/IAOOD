@@ -213,6 +213,8 @@ colors = {
 	gedrosia_color = rgb { 163 150 73 }
 	celtiberia_color = rgb { 132 209 44 }
 	kimmeria_color = rgb { 201 97 44 }
+	calbania_color = rgb { 107 18 23 }
+	ciberia_color = rgb { 125 102 92 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

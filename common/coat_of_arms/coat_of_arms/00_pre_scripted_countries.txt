@@ -800,3 +800,26 @@ kimmeria_flag = {
 		color1 = rgb { 235 9 9 }
 	}
 }
+
+calbania_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 107 18 23 }
+	color2 = rgb { 107 18 23 }
+
+	colored_emblem = {
+		texture = "ce_alban.dds"
+		color1 = rgb { 232 202 84 }
+		color2 = rgb { 36 35 33 }
+	}
+}
+
+ciberia_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 51 60 214 }
+	color2 = rgb { 51 60 214 }
+
+	colored_emblem = {
+		texture = "ce_hellenic_4.dds"
+		color1 = rgb { 189 180 19 }
+	}
+}

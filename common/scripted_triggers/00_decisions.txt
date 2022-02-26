@@ -55,6 +55,8 @@ is_tier_2_formable_trigger = {
 		tag = XGS #Gedrosia
 		tag = XCR #Celtiberia
 		tag = XKM #Cymmeria
+		tag = XAL #Albania
+		tag = XIR #Iberia
 	}
 }
 
