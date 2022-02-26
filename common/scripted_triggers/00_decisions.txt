@@ -57,6 +57,7 @@ is_tier_2_formable_trigger = {
 		tag = XKM #Cymmeria
 		tag = XAL #Albania
 		tag = XIR #Iberia
+		tag = XMS #Mushkia
 	}
 }
 

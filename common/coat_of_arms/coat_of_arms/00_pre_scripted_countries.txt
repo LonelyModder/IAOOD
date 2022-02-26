@@ -823,3 +823,14 @@ ciberia_FLAG = {
 		color1 = rgb { 189 180 19 }
 	}
 }
+
+mushkia_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 191 179 159 }
+	color2 = rgb { 191 179 159 }
+
+	colored_emblem = {
+		texture = "ce_5.dds"
+		color1 = rgb { 189 75 19 }
+	}
+}

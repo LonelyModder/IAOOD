@@ -1,0 +1,66 @@
+﻿country_decisions = {
+	
+	# Form Mushki
+	form_mushkia = {
+		potential = {
+			NOT = {
+				tag = XMS
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+			OR = {
+				primary_culture = mushkian
+				primary_culture = macronian
+				primary_culture = mossynoetian
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = mushkia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XMS
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 50
+		}
+		
+		effect = {
+			change_country_name = "mushkia_NAME"
+			hidden_effect = {
+				change_country_adjective = "mushkia_ADJECTIVE"
+				change_country_tag = XMS
+				change_country_color = "mushkia_color"
+				change_country_flag = mushkia_FLAG
+				if = {
+					limit = { is_tribal = yes }
+					add_country_modifier = {
+						name = civilized_tribe
+						duration = 5475
+					}
+					change_government = despotic_monarchy
+					switch_government_type_event_clearup_effect = yes
+				}
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

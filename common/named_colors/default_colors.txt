@@ -215,6 +215,7 @@ colors = {
 	kimmeria_color = rgb { 201 97 44 }
 	calbania_color = rgb { 107 18 23 }
 	ciberia_color = rgb { 125 102 92 }
+	mushkia_color = rgb { 135 97 32 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
