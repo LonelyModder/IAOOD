@@ -867,3 +867,14 @@ baltia_FLAG = {
 		color1 = rgb { 11 13 11 }
 	}
 }
+
+tamilland_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 242 245 242 }
+	color2 = rgb { 242 245 242 }
+
+	colored_emblem = {
+		texture = "ce_om.dds"
+		color1 = rgb { 11 13 11 }
+	}
+}

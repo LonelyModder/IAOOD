@@ -219,6 +219,7 @@ colors = {
 	hermania_color = rgb { 61 48 35 }
 	lusatia_color = rgb { 235 196 26 }
 	baltia_color = rgb { 107 100 143 }
+	tamilland_color = rgb { 153 11 103 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

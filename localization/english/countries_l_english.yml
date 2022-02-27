@@ -4083,6 +4083,8 @@
  lusatia_ADJECTIVE:0 "Lusatian"
  baltia_NAME:0 "Baltic Confederation"
  baltia_ADJECTIVE:0 "Baltian"
+ tamilland_Name:0 "Tamilkam"
+ tamilland_ADJ:0 "Tamil"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"
