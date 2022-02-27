@@ -4077,6 +4077,12 @@
  ciberia_ADJECTIVE:0 "Iberian"
  mushkia_NAME:0 "Mushki"
  mushkia_ADJECTIVE:0 "Mushkian"
+ hermania_NAME:0 "Germanic Confederation"
+ hermania_ADJECTIVE:0 "Germanic"
+ lusatia_NAME:0 "Lusatia"
+ lusatia_ADJECTIVE:0 "Lusatian"
+ baltia_NAME:0 "Baltic Confederation"
+ baltia_ADJECTIVE:0 "Baltian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

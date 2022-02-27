@@ -216,6 +216,9 @@ colors = {
 	calbania_color = rgb { 107 18 23 }
 	ciberia_color = rgb { 125 102 92 }
 	mushkia_color = rgb { 135 97 32 }
+	hermania_color = rgb { 61 48 35 }
+	lusatia_color = rgb { 235 196 26 }
+	baltia_color = rgb { 107 100 143 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
