@@ -878,3 +878,25 @@ tamilland_flag = {
 		color1 = rgb { 11 13 11 }
 	}
 }
+
+kannada_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 242 245 242 }
+	color2 = rgb { 242 245 242 }
+
+	colored_emblem = {
+		texture = "ce_kanname.dds"
+		color1 = rgb { 11 13 11 }
+	}
+}
+
+jorwa_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 242 245 242 }
+	color2 = rgb { 242 245 242 }
+
+	colored_emblem = {
+		texture = "ce_1.dds"
+		color1 = rgb { 141 75 163 }
+	}
+}

@@ -4085,6 +4085,10 @@
  baltia_ADJECTIVE:0 "Baltian"
  tamilland_Name:0 "Tamilkam"
  tamilland_ADJ:0 "Tamil"
+ kannada_Name:0 "Kannada"
+ kannada_ADJ:0 "Kannadan"
+ jorwa_Name:0 "Jorwa"
+ jorwa_ADJ:0 "Jorwan"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

@@ -62,6 +62,8 @@ is_tier_2_formable_trigger = {
 		tag = XLA #Lusatia
 		tag = XAT #Baltia
 		tag = XTM #Tamilkam
+		tag = XKD #Kannada
+		tag = XJW #Jorwa
 	}
 }
 
