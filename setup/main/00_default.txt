@@ -3292,6 +3292,10 @@ country = {
 			{ deity = 10027 }
 			
 			}
+			
+			historical_regnal_numbers = {
+				Ashur-rabi = 1
+			}
 		}
 		
 		ABR = { #Karduniash Bit-Bazi aramean or kassite?
