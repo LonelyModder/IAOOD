@@ -95,7 +95,7 @@
  ###NEW TRADEGOODS###
  base_metals:0 "Copper"
  base_metalsDESC:0 "Copper was the first metal used on a large scale to make tools and weapons. After some time it was improved by adding arsenic and thus creating bronze, but due to the harmfulness of this substance, a substitute was found in the form of tin. "
- tin:0 "tin"
+ tin:0 "Tin"
  tinDESC:0 "Tin is a very rare metal that replaced arsenic in ancient forges in the Bronze Age due to the harmfulness of this material. Due to the rarity, it is very expensive, and merchants could cover great distances to obtain it (e.g. from Tire to southern Spain or Cornwall). In the Iron Age it was still widely used because bronze (about 0.9 copper and 0.1 tin depending on the region) does not rust (but oxidizes). Today, bronze is used, among others for explosives because it does not produce sparks (hence the hollow noise it makes)."
  precious_metals:0 "Precious Metals"
  precious_metalsDESC:0 "Gold and silver have been regarded as a measure of relative value since the minting of coins began. The history of gold as a commodity is deeply intertwined with its use in religious and mythological imagery."
