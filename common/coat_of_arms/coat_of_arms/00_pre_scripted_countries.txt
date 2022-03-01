@@ -900,3 +900,14 @@ jorwa_flag = {
 		color1 = rgb { 141 75 163 }
 	}
 }
+
+liguria_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 141 227 }
+	color2 = rgb { 36 141 227 }
+
+	colored_emblem = {
+		texture = "ce_goatfish_01.dds"
+		color1 = rgb { 24 28 31 }
+	}
+}
