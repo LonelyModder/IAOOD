@@ -911,3 +911,23 @@ liguria_FLAG = {
 		color1 = rgb { 24 28 31 }
 	}
 }
+
+numida_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "rust_brown"
+	color2 = "numidia_yellow"
+	
+	colored_emblem = {
+		texture = "ce_border_stars_01.dds"
+		color1 = "numidia_yellow"
+		color2 = "rust_brown"
+		instance = { rotation = 0 }
+		instance = { rotation = 180 }
+	}
+
+	colored_emblem = {
+		texture = "ce_horse_07.dds"
+		color1 = "numidia_yellow"
+		instance = { scale = { 0.75 0.75 }  }
+	}
+}
