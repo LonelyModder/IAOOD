@@ -931,3 +931,14 @@ numida_flag = {
 		instance = { scale = { 0.75 0.75 }  }
 	}
 }
+
+bithynia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "light_purple"
+	color2 = "pitch_black"
+
+	colored_emblem = {
+		texture = "ce_bithynia.dds"
+		color1 = "pitch_black"
+	}
+}

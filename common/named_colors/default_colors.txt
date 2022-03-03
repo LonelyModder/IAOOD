@@ -224,6 +224,7 @@ colors = {
 	jorwa_color = rgb { 141 75 163 }
 	liguria_color = rgb { 192 245 162 }
 	numida_color = rgb { 173 63 3 }
+	bithynia_color = rgb { 224 118 245 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
