@@ -225,6 +225,7 @@ colors = {
 	liguria_color = rgb { 192 245 162 }
 	numida_color = rgb { 173 63 3 }
 	bithynia_color = rgb { 224 118 245 }
+	mysia_color = rgb { 128 79 5 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

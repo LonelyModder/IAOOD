@@ -942,3 +942,14 @@ bithynia_flag = {
 		color1 = "pitch_black"
 	}
 }
+
+mysia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 33 29 }
+	color2 = rgb { 36 33 29 }
+
+	colored_emblem = {
+		texture = "ce_telefos.dds"
+		color1 = rgb { 219 137 13 }
+	}
+}
