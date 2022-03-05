@@ -110,7 +110,7 @@ levy_troic = { #Luwian militia
 levy_sonsofAshur = { #Assyrian militia
 	default = no
 
-	heavy_swordsmen = 0.4
+	heavy_spearmen = 0.4
 	missile_archers = 0.2
 	chariot_heavy = 0.2
 	cavalry_horse_archers = 0.2
@@ -120,7 +120,7 @@ levy_sonsofMarduk = { #Babylonian militia
 	default = no
 
 	missile_archers = 0.2
-	light_swordsmen = 0.5
+	light_spearmen = 0.5
 	chariot_heavy = 0.2
 	cavalry_horse_archers = 0.1
 }

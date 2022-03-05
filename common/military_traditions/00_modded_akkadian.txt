@@ -65,12 +65,10 @@
 	
 	assyrian_path_3a = { ###akkadian path
 		modifier = { 
-			heavy_swordsmen_cost=-0.1
-			light_swordsmen_cost=-0.1
-			heavy_swordsmen_offensive = 0.1
-			heavy_swordsmen_defensive = 0.1
-			light_swordsmen_offensive = 0.1
-			light_swordsmen_defensive = 0.1
+			heavy_spearmen_cost=-0.1
+			light_spearmen_cost=-0.1
+			heavy_spearmen_defensive = 0.1
+			light_spearmen_defensive = 0.1
 		}
 		enable_tactic = greek_phalanx
 		icon = mauryan_mauryas_path_3
@@ -79,8 +77,8 @@
 	
 	assyrian_path_4a = { ###akkadian path
 		modifier = { 
-			heavy_swordsmen_morale = 0.1
-			light_swordsmen_morale = 0.1
+			heavy_spearmen_morale = 0.1
+			light_spearmen_morale = 0.1
 			missile_archers_morale = 0.1
 			missile_archers_offensive = 0.1
 		}
