@@ -1,19 +1,19 @@
 ﻿country_decisions = {
-	
-	# Form Numidia
-	form_numida = {
+		
+	# Form Libya
+	form_libuland = {
 		
 		potential = {
 			OR = {
-				primary_culture = massylic
-				primary_culture = massaesylic
-				primary_culture = gaetuli
-				primary_culture = gyzantianic
-				primary_culture = lotophage
+				primary_culture = abystaic
+				primary_culture = psylli
+				primary_culture = gilgamaic
+				primary_culture = libi
+				primary_culture = nessamones
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XND
+				tag = XLL
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -24,36 +24,40 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 3163
-					province_id = 3227
-					province_id = 3102
-					province_id = 3209
-					province_id = 3113
+					province_id = 5514
+					province_id = 5523
+					province_id = 5534
+					province_id = 3353
+					province_id = 3360
+					province_id = 5537
+					province_id = 5504
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = numida_must_not_exist
+				text = libuland_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XND
+						tag = XLL
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 3163
-			owns = 3227
-			owns = 3102
-			owns = 3209
-			owns = 3113
+			owns = 5514
+			owns = 5523
+			owns = 5534
+			owns = 3353
+			owns = 3360
+			owns = 5537
+			owns = 5504
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "numida_Name"
-			change_country_flag = numida_flag
+			change_country_name = "libuland_Name"
+			change_country_flag = libuland_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -64,32 +68,15 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "numida_Adj"
-				#change_country_color =  "numida_color"
-				change_country_tag = XND
+				change_country_adjective = "libuland_ADJ"
+				change_country_color =  "libuland_color"
+				change_country_tag = XLL
 			}
-			if = {
-				limit = {
-					NOT = {
-						capital_scope = {
-							province_id = 3163
-						}
-					}
-				}
-				set_capital = 3163
-				hidden_effect = {
-					p:3163.state = {
-						set_state_capital = 3163
-					}
-				}
-			}
-			p:3163 = {
+			capital_scope = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
-			}
-			p:3163 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

@@ -953,3 +953,36 @@ mysia_flag = {
 		color1 = rgb { 219 137 13 }
 	}
 }
+
+karkija_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 45 203 224 }
+	color2 = rgb { 45 203 224 }
+
+	colored_emblem = {
+		texture = "ce_3.dds"
+		color1 = rgb { 255 247 3 }
+	}
+}
+
+libuland_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 252 200 104 }
+	color2 = rgb { 252 200 104 }
+
+	colored_emblem = {
+		texture = "ce_eagle_01.dds"
+		color1 = rgb { 250 250 247 }
+	}
+}
+
+assuwa_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 39 184 97 }
+	color2 = rgb { 39 184 97 }
+
+	colored_emblem = {
+		texture = "ce_bolts_01.dds"
+		color1 = rgb { 247 240 32 }
+	}
+}

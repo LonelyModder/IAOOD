@@ -7,6 +7,7 @@
 			OR = {
 				primary_culture = hatti
 				primary_culture = hatti_aramean
+				primary_culture = paphlagonic
 			}
 			#is_tribal = yes
 			NOT = {

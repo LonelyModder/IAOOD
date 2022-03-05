@@ -226,6 +226,9 @@ colors = {
 	numida_color = rgb { 173 63 3 }
 	bithynia_color = rgb { 224 118 245 }
 	mysia_color = rgb { 128 79 5 }
+	karkija_color = rgb { 255 247 3 }
+	libuland_color = rgb { 252 200 104 }
+	assuwa_color = rgb { 39 184 97 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

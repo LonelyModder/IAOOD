@@ -4097,6 +4097,12 @@
  bithynia_ADJ:0 "Bithynian"
  mysia_Name:0 "Mysia"
  mysia_ADJ:0 "Mysian"
+ karkija_Name:0 "Caria"
+ karkija_ADJ:0 "Carian"
+ libuland_Name:0 "Libya"
+ libuland_ADJ:0 "Libyan"
+ assuwa_NAME:0 "Assuwa"
+ assuwa_ADJECTIVE:0 "Assuwan"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"
