@@ -229,6 +229,7 @@ colors = {
 	karkija_color = rgb { 255 247 3 }
 	libuland_color = rgb { 252 200 104 }
 	assuwa_color = rgb { 39 184 97 }
+	ibera_color = rgb { 125 122 85 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

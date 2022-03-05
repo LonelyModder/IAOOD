@@ -986,3 +986,14 @@ assuwa_FLAG = {
 		color1 = rgb { 247 240 32 }
 	}
 }
+
+ibera_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 252 }
+	color2 = rgb { 255 255 252 }
+
+	colored_emblem = {
+		texture = "ce_ibercav.dds"
+		color1 = rgb { 23 23 20 }
+	}
+}
