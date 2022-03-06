@@ -4105,6 +4105,12 @@
  assuwa_ADJECTIVE:0 "Assuwan"
  ibera_NAME:0 "Iberian Confederation"
  ibera_ADJECTIVE:0 "Iberian"
+ illyre_NAME:0 "Illyria"
+ illyre_ADJECTIVE:0 "Illyrian"
+ lanka_Name:0 "Lanka"
+ lanka_ADJ:0 "Lankan"
+ harrapa_Name:0 "Harrapan Empire"
+ harrapa_ADJ:0 "Harrapan"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

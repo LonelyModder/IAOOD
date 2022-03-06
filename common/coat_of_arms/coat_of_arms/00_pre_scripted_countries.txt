@@ -997,3 +997,36 @@ ibera_FLAG = {
 		color1 = rgb { 23 23 20 }
 	}
 }
+
+illyre_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 27 163 181 }
+	color2 = rgb { 27 163 181 }
+
+	colored_emblem = {
+		texture = "ce_illyrian_1.dds"
+		color1 = rgb { 45 59 61 }
+	}
+}
+
+RAA = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 112 229 250 }
+	color2 = rgb { 112 229 250 }
+
+	colored_emblem = {
+		texture = "ce_shell_01.dds"
+		color1 = rgb { 94 94 92 }
+	}
+}
+
+harrapa_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 109 186 73 }
+	color2 = rgb { 109 186 73 }
+
+	colored_emblem = {
+		texture = "ce_bull_04.dds"
+		color1 = rgb { 143 63 6 }
+	}
+}

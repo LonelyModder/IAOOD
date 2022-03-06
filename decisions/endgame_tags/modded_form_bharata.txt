@@ -76,7 +76,7 @@
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = aristocratic_monarchy
+				change_government = imperium
 				switch_government_type_event_clearup_effect = yes
 			}
 			change_country_adjective = "bharata_ADJ"

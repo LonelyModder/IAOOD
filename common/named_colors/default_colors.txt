@@ -230,6 +230,9 @@ colors = {
 	libuland_color = rgb { 252 200 104 }
 	assuwa_color = rgb { 39 184 97 }
 	ibera_color = rgb { 125 122 85 }
+	illyre_color = rgb { 27 163 181 }
+	lanka_color = rgb { 147 189 58 }
+	harrapa_color = rgb { 143 63 6 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
