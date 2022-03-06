@@ -21,7 +21,7 @@
 					is_in_area = sauvira_area
 					is_in_area = south_sindhu_area
 					is_in_area = kaccha_area
-					is_in_area = abhira_area
+					is_in_area = abhiria_area
 					is_in_area = outer_saurashtra_area
 					is_in_area = inner_saurashtra_area
 					is_in_area = maru_area
@@ -53,7 +53,7 @@
 			owns_area = sauvira_area
 			owns_area = south_sindhu_area
 			owns_area = kaccha_area
-			owns_area = abhira_area
+			owns_area = abhiria_area
 			owns_area = outer_saurashtra_area
 			owns_area = inner_saurashtra_area
 			owns_area = maru_area
