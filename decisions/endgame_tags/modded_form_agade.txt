@@ -9,10 +9,6 @@
 			NOT = {
 				tag = XAG
 			}
-			OR = {
-				tag = ABP
-				tag = ADZ
-			}
 			NOR = {
 				is_endgame_tag_trigger = yes
 			}

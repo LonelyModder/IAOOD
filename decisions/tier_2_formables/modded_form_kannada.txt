@@ -31,7 +31,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			num_of_cities >= 40
+			num_of_cities >= 60
 			owns = 7035
 		}
 		

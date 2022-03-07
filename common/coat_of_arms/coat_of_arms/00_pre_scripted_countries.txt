@@ -1030,3 +1030,14 @@ harrapa_flag = {
 		color1 = rgb { 143 63 6 }
 	}
 }
+
+telugu_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_telugu.dds"
+		color1 = rgb { 84 56 17 }
+	}
+}
