@@ -1041,3 +1041,14 @@ telugu_FLAG = {
 		color1 = rgb { 84 56 17 }
 	}
 }
+
+cagota_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_wheel_02.dds"
+		color1 = rgb { 230 90 80 }
+	}
+}
