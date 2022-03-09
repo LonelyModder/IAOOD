@@ -235,6 +235,7 @@ colors = {
 	harrapa_color = rgb { 143 63 6 }
 	telugu_color = rgb { 84 56 17 }
 	cagota_color = rgb { 230 90 80 }
+	albidosia_color = rgb { 6 8 107 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

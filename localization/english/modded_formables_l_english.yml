@@ -206,7 +206,7 @@
  form_libuland_desc:0 "The Iron Age is not the first time that Libyans have been fighting for power in Egypt. Due to their proximity, both peoples have always had difficult contact. Libyan warriors are depicted with a lighter complexion, beards, long hair, and feathers on their heads. "
  assuwa_must_not_exist:0 "Assuwa must not exist."
  form_assuwa:0 "Form Assuwa"
- form_assuwa_desc:0 "Although the geography of most of Anatolia hindered the emergence of centralized states, the Luvans living in these areas, in order to defend themselves against stronger opponents, united into confederations such as Arzawa (countries from Western Anatolia) and Assuwa (from central, southern and even northern Anatolia). "
+ form_assuwa_desc:0 "Although the geography of most of Anatolia hindered the emergence of centralized states, the Luwians living in these areas, in order to defend themselves against stronger opponents, united into confederations such as Arzawa (countries from Western Anatolia) and Assuwa (from central, southern and even northern Anatolia). "
  ibera_must_not_exist:0 "Iberian Confederation must not exist."
  form_ibera:0 "Form Iberia"
  form_ibera_desc:0 "The Iberians had traded the rich stocks of tin and gold since the early Bronze Age which makes them a truly old people. Though they never created a state for those on the eastern shores of the Mediterranean, there were fortified settlements and even towns on the shores, indicating more advanced state structures than tribal ones. "
@@ -225,4 +225,7 @@
  cagota_must_not_exist:0 "Cagota must not exist."
  form_cagota:0 "Form Cagota"
  form_cagota_desc:0 "The peoples of Western Iberia were very much like Celts, but on closer contact you could see differences in language and culture, which surprised the ancients. Today, historians have developed a theory about the descent of these peoples from the earlier wave of Indo-Europeans, the so-called Beaker peoples, who created the Cagota culture, which in the second phase underwent gradual Celticization. "
+ albidosia_must_not_exist:0 "Alba must not exist."
+ form_albidosia:0 "Form Alba"
+ form_albidosia_desc:0 "The name of the Picts comes from the paintings on the bodies of their warriors. They called themselves Albidosi and that is why the name of their first kingdom was Alba. "
  

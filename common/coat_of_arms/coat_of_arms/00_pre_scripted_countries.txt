@@ -1052,3 +1052,14 @@ cagota_FLAG = {
 		color1 = rgb { 230 90 80 }
 	}
 }
+
+albidosia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_triskelion_01.dds"
+		color1 = rgb { 6 8 107 }
+	}
+}
