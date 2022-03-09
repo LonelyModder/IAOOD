@@ -1063,3 +1063,14 @@ albidosia_flag = {
 		color1 = rgb { 6 8 107 }
 	}
 }
+
+hibernia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_hiber.dds"
+		color1 = rgb { 32 122 22 }
+	}
+}
