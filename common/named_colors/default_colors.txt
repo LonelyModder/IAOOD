@@ -237,6 +237,8 @@ colors = {
 	cagota_color = rgb { 230 90 80 }
 	albidosia_color = rgb { 6 8 107 }
 	hibernia_color = rgb { 32 122 22 }
+	armorica_color = rgb { 9 214 142 }
+	transdanubia_color = rgb { 16 82 23 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

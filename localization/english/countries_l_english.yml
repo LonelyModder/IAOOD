@@ -4119,6 +4119,10 @@
  albidosia_ADJ:0 "Albidosian"
  hibernia_Name:0 "Iweriu"
  hibernia_ADJ:0 "Iwerian"
+ armorica_NAME:0 "Armorica"
+ armorica_ADJECTIVE:0 "Armorican"
+ transdanubia_NAME:0 "Pannonia"
+ transdanubia_ADJECTIVE:0 "Pannonian"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"

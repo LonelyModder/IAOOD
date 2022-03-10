@@ -1074,3 +1074,25 @@ hibernia_flag = {
 		color1 = rgb { 32 122 22 }
 	}
 }
+
+armorica_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 87 67 217 }
+	color2 = rgb { 87 67 217 }
+
+	colored_emblem = {
+		texture = "ce_ship_01.dds"
+		color1 = rgb { 166 91 45 }
+	}
+}
+
+transdanubia_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_horse_02.dds"
+		color1 = rgb { 16 82 23 }
+	}
+}
