@@ -1096,3 +1096,14 @@ transdanubia_FLAG = {
 		color1 = rgb { 16 82 23 }
 	}
 }
+
+escelt_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_antlers_01.dds"
+		color1 = rgb { 74 68 64 }
+	}
+}

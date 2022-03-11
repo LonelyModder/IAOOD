@@ -80,6 +80,7 @@ is_tier_2_formable_trigger = {
 		tag = XHB #Iweriu
 		tag = XAA #Armorica
 		tag = XPN #Pannonia
+		tag = XEC #East Celtic Confederacy
 	}
 }
 

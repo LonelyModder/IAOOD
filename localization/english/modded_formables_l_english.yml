@@ -237,4 +237,7 @@
  transdanubia_must_not_exist:0 "Pannonia must not exist."
  form_transdanubia:0 "Form Pannonia"
  form_transdanubia_desc:0 "During the Fall of the Bronze Age, proto-Celts began to migrate in all directions from their headquarters north of the Alps and push other peoples to create a domino effect. One of their factions pushed the Italians from the eastern slopes and began their expansion east and south. "
+ escelt_must_not_exist:0 "East Celtic Confederacy must not exist."
+ form_escelt:0 "Form East Celtic Confederacy"
+ form_escelt_desc:0 "In the Iron Age, the areas of central Europe were under constant attack by the Scythians, which weakened the cultures living in this area and gave room for the expansion of the Celts to the east as far as southern Poland"
  

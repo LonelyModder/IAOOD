@@ -239,6 +239,7 @@ colors = {
 	hibernia_color = rgb { 32 122 22 }
 	armorica_color = rgb { 9 214 142 }
 	transdanubia_color = rgb { 16 82 23 }
+	escelt_color = rgb { 151 186 61 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

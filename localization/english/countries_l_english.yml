@@ -4123,6 +4123,8 @@
  armorica_ADJECTIVE:0 "Armorican"
  transdanubia_NAME:0 "Pannonia"
  transdanubia_ADJECTIVE:0 "Pannonian"
+ escelt_NAME:0 "East Celtic Confederacy"
+ escelt_ADJECTIVE:0 "Eastern Celtic"
  #Event country names
  Gomara_NAME:0 "Gomorah"
  Gomara_ADJECTIVE:0 "Gomoran"
