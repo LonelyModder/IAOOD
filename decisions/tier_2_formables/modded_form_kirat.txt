@@ -1,0 +1,69 @@
+﻿country_decisions = {
+	
+	# Form Kirat
+	form_kirat = {
+		potential = {
+			NOT = {
+				tag = XKT
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+			OR = {
+				primary_culture = tibetan
+				primary_culture = shakyan
+				primary_culture = assamo_tibetic
+				primary_culture = bhergavic
+				primary_culture = salvan
+				primary_culture = bhallatic
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = kirat_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XKT
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 100
+		}
+		
+		effect = {
+			change_country_name = "kirat_NAME"
+			hidden_effect = {
+				change_country_adjective = "kirat_ADJECTIVE"
+				change_country_tag = XKT
+				change_country_color = "kirat_color"
+				change_country_flag = kirat_FLAG
+				if = {
+					limit = { is_tribal = yes }
+					add_country_modifier = {
+						name = civilized_tribe
+						duration = 5475
+					}
+					change_government = despotic_monarchy
+					switch_government_type_event_clearup_effect = yes
+				}
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

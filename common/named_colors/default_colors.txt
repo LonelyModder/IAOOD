@@ -245,6 +245,8 @@ colors = {
 	cisalpia_color = rgb { 179 230 85 }
 	kurmal_color = rgb { 18 28 166 }
 	gondwana_color = rgb { 209 212 51 }
+	kirat_color = rgb { 89 14 66 }
+	tocharia_color = rgb { 192 201 111 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }
