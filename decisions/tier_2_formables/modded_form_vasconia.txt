@@ -1,19 +1,16 @@
 ﻿country_decisions = {
 		
-	# Form Tamilkam
-	form_tamilland = {
+	# Form Vasconia
+	form_vasconia = {
 		
 		potential = {
 			OR = {
-				primary_culture = tamilic
-				primary_culture = badagic
-				primary_culture = kudiyiac
-				primary_culture = kuragic
-				primary_culture = tulic
+				primary_culture = bosquic
+				primary_culture = aquitanic
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XTM
+				tag = XVS
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -23,28 +20,33 @@
 		
 		highlight = {
 			scope:province = {
-				province_id = 6917
+				is_in_area = vasconia_area
+				is_in_area = vardulia_area
+				is_in_area = aquitania_occidentalis_area
+				is_in_area = aquitania_orientalis_area
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = tamilland_must_not_exist
+				text = vasconia_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XTM
+						tag = XVS
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			num_of_cities >= 60
-			owns = 6917
+			owns_area = vasconia_area
+			owns_area = vardulia_area
+			owns_area = aquitania_occidentalis_area
+			owns_area = aquitania_orientalis_area
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "tamilland_Name"
-			change_country_flag = tamilland_flag
+			change_country_name = "vasconia_Name"
+			change_country_flag = vasconia_flag
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -55,32 +57,15 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "tamilland_ADJ"
-				change_country_color =  "tamilland_color"
-				change_country_tag = XTM
+				change_country_adjective = "vasconia_ADJ"
+				change_country_color =  "vasconia_color"
+				change_country_tag = XVS
 			}
-			if = {
-				limit = {
-					NOT = {
-						capital_scope = {
-							province_id = 6917
-						}
-					}
-				}
-				set_capital = 6917
-				hidden_effect = {
-					p:6917.state = {
-						set_state_capital = 6917
-					}
-				}
-			}
-			p:6917 = {
+			capital_scope = {
 				if = {
 					limit = { has_city_status = no }
 					set_city_status = city
 				}
-			}
-			p:6917 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

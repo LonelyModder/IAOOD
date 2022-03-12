@@ -240,6 +240,11 @@ colors = {
 	armorica_color = rgb { 9 214 142 }
 	transdanubia_color = rgb { 16 82 23 }
 	escelt_color = rgb { 151 186 61 }
+	vasconia_color = rgb { 138 22 22 }
+	italiotia_color = rgb { 255 0 0 }
+	cisalpia_color = rgb { 179 230 85 }
+	kurmal_color = rgb { 18 28 166 }
+	gondwana_color = rgb { 209 212 51 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

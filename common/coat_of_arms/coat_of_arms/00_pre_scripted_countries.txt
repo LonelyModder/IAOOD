@@ -1107,3 +1107,59 @@ escelt_FLAG = {
 		color1 = rgb { 74 68 64 }
 	}
 }
+
+vasconia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_vasc.dds"
+		color1 = rgb { 138 22 22 }
+	}
+}
+
+italiotia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_eagle_03.dds"
+		color1 = rgb { 255 0 0 }
+	}
+}
+
+cisalpia_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_triskelion_02.dds"
+		color1 = rgb { 179 230 85 }
+	}
+}
+
+kurmal_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_kurmal.dds"
+		color1 = rgb { 15 15 15 }
+	}
+}
+
+gondwana_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_gonrel.dds"
+		color1 = rgb { 81 82 71 }
+		color2 = rgb { 227 7 10 }
+	}
+}
