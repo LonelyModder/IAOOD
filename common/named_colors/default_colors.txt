@@ -247,6 +247,7 @@ colors = {
 	gondwana_color = rgb { 209 212 51 }
 	kirat_color = rgb { 89 14 66 }
 	tocharia_color = rgb { 192 201 111 }
+	grekoidia_color = rgb { 36 98 199 }
 	
 	##metals
 	#ck2_white 			= rgb { 255 255 255 }

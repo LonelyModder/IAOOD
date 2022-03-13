@@ -1185,3 +1185,18 @@ tocharia_FLAG = {
 		color1 = rgb { 192 201 111 }
 	}
 }
+
+grekoidia_flag = {
+	pattern = "pattern_solid.tga"
+	color1 = "helvetia_color"
+	color2 = "pan_hellenic_blue"
+
+	colored_emblem = {
+		texture = "ce_pegasus_01.dds"
+		color1 = "pan_hellenic_blue"
+		color2= "helvetia_color"
+		instance = { 
+			scale = { 1 1 }  
+		}
+	}
+}

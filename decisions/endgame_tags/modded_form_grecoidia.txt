@@ -1,0 +1,107 @@
+﻿country_decisions = {
+		
+	# Form Greek Empire
+	form_grekoidia = {
+		
+		potential = {
+			country_culture_group = grekoid
+			#is_tribal = yes
+			NOT = {
+				tag = XGE
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = central_greece_area
+					is_in_area = achaea_area
+					is_in_area = south_peleponnesos_area
+					is_in_area = thessaly_area
+					is_in_area = epirus_area
+					is_in_area = crete_area
+					is_in_area = aegean_islands_area
+					is_in_area = arcadia_area
+					is_in_area = aetolia_area
+					is_in_area = euboea_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = grekoidia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XGE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_area = central_greece_area
+			owns_area = achaea_area
+			owns_area = south_peleponnesos_area
+			owns_area = thessaly_area
+			owns_area = epirus_area
+			owns_area = crete_area
+			owns_area = aegean_islands_area
+			owns_area = arcadia_area
+			owns_area = aetolia_area
+			owns_area = euboea_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			change_country_name = "grekoidia_Name"
+			change_country_flag = grekoidia_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = imperium
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "grekoidia_ADJ"
+				change_country_color =  "grekoidia_color"
+				change_country_tag = XGE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 7894
+						}
+					}
+				}
+				set_capital = 7894
+				hidden_effect = {
+					p:7894.state = {
+						set_state_capital = 7894
+					}
+				}
+			}
+			p:7894 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:7894 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

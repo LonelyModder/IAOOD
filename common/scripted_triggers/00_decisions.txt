@@ -98,6 +98,7 @@ is_endgame_tag_trigger = {
 		tag = XBT #Bharata
 		tag = XHR #Harrapan Empire
 		tag = XTT #Italia
+		tag = XGE #Greek Empire
 	}
 }
 
