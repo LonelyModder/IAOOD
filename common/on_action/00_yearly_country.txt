@@ -70,27 +70,16 @@
 	}
 	
 	random_events = {
-	#	100 = dhe_bactria.5
 		10 = succession_crisis.4
-	#	30 = flavor_arm.1
 		30 = country_diplomacy.39
 		110 = 0
 	}
 	events = {
 		country_diplomacy.40
-	#	diadochi_flavor.1
-	#	diadochi_flavor.2
-	#	diadochi_flavor.3
-	#	diadochi_flavor.4
-	#	diadochi_flavor.5
-	#	flavor_egy.1
-	#	dhe_iberia.1
-	#	dhe_iberia.2
-	#	dhe_iberia.6
-	#	dhe_iberia.10
 		gw_effects.1	# Great Works martial training
 		gw_effects.2	# Great Works finesse training
 		gw_effects.3	# Great Works charisma training
 		gw_effects.4	# Great Works zeal training
+		#akitu_festival.1
 	}
 }

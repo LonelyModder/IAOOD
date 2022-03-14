@@ -2539,3 +2539,8 @@ lepontic_invasion_modifier = {
     levy_size_multiplier = 0.4
 	#global_tax_modifier
 }
+
+appeasing_mardukites = {
+    global_tax_income = -4
+	#global_tax_modifier
+}
