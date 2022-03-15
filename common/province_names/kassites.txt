@@ -1,3 +1,0 @@
-﻿kassites = { # Kassite names
-	918 = PROV918_kassite #Babylon
-}
