@@ -1,0 +1,59 @@
+﻿country_decisions = {
+		
+	# Make Jerusalem Capital
+	capture_of_jerusalem = {
+		
+		potential = {
+			OR = {
+				primary_culture = judean
+				primary_culture = israelic
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 687
+				}
+			}
+		}
+		
+		allow = {
+			owns = 687
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 687
+						}
+					}
+				}
+				set_capital = 687
+				hidden_effect = {
+					p:687.state = {
+						set_state_capital = 687
+					}
+				}
+			}
+			p:687 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:687 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

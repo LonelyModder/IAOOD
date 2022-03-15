@@ -7,7 +7,7 @@ akitu_festival.1 = {
 	picture = religious_rite
 	
 	trigger = {
-		religion = anunnaki_pantheon
+		#religion = anunnaki_pantheon
 		owns = 918
 		owns = 919
 	}
@@ -18,6 +18,9 @@ akitu_festival.1 = {
 			name = #TODO
 			duration = 365
 		}
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = akitu_festival.1.b
@@ -25,12 +28,21 @@ akitu_festival.1 = {
 			name = appeasing_mardukites
 			duration = 365
 		}
+		ai_chance = {
+			factor = 0.2
+		}
 	}
 	option = {
 		name = akitu_festival.1.c
+		trigger  = {
+			primary_culture = ashurite
+		}
 		add_country_modifier = {
 			name = #TODO
 			duration = 365
+		}
+		ai_chance = {
+			factor = 5
 		}
 	}
 }

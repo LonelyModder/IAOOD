@@ -2541,6 +2541,11 @@ lepontic_invasion_modifier = {
 }
 
 appeasing_mardukites = {
-    global_tax_income = -4
+    global_tax_modifier = -0.2
+	#global_tax_modifier
+}
+
+akitu_happened = {
+    
 	#global_tax_modifier
 }
