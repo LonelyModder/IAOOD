@@ -1,0 +1,48 @@
+﻿# The game needs a 'engineer_cohort' definition. If you change it, make sure to keep this, as it uses this to add a cohort to legions for siege
+engineer_cohort = {
+	army = yes
+	assault = no
+	support = yes
+
+	reduces_road_building_cost = yes
+	watercrossing_negation = 1.0
+	siege_impact = 1.0
+
+	maneuver = 1
+	movement_speed = 2.5
+
+	axemen_heavy = 0.1
+	cavalry_camels = 0.1
+	cavalry_heavy = 0.1
+	cavalry_horse_archers = 0.1
+	cavalry_light = 0.1
+	chariot_heavy = 0.1
+	chariot_light = 0.1
+	elephant_african = 0.1
+	elephant_forest = 0.1
+	elephant_indian = 0.1
+	heavy_spearmen = 0.1
+	heavy_swordsmen = 0.1
+	light_spearmen = 0.1
+	light_swordsmen = 0.1
+	missile_archers = 0.1
+	missile_spearthrowers = 0.1
+	supply_train = 0.1
+	
+	attrition_weight = 1.0
+	attrition_loss = 0.1
+	food_consumption = 0.05
+	food_storage = 5
+
+	morale_damage_taken = 2.0
+
+	build_time = 120
+	build_cost = {
+		gold = 40
+		manpower = 1
+	}
+
+	setup_fraction = 0.0
+	ai_max_percentage = 10
+	merc_cohorts_required = 10
+}

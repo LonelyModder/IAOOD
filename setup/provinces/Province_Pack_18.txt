@@ -1,0 +1,88 @@
+﻿#Tanais
+8042=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tanais
+8043=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tanais
+8044=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tanais
+8045=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tanais
+8046=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rha
+8047=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rha
+8048=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Rha
+8049=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}

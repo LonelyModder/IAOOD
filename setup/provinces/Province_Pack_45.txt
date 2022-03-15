@@ -1,0 +1,1430 @@
+﻿#Malava
+4349=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="usinaran"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="dates"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Roruka
+4352=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	port_building=1
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=12
+	}
+}
+#Brahmanaka
+4353=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Minnagara Sauvira
+4354=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sindhimana
+4355=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kahu-Jo-Darro
+4356=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Umarkot
+4357=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Singai
+4358=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Samarabriai
+4359=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sarophages
+4360=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Megaroi
+4361=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sambos
+4362=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sembrakenoi
+4363=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oumbrai
+4364=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nereai
+4365=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kokondai
+4366=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="desert"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Avanta
+4368=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gandava
+4369=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="brahuic"
+	province_rank="settlement"
+	religion="harrapan_pantheon"
+	terrain="mountain"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Alexandreia en Indos
+4371=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	port_building=1
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="incense"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vijnot
+4372=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Siberai
+4373=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mousikanoi
+4374=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mesai
+4375=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Nerai
+4376=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bisambritai
+4377=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Osioi
+4378=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Hydrakai
+4381=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="usinaran"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="tin"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Dumbritai
+4382=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="usinaran"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Anandpura
+4489=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Candanaputraka
+4494=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Dvaraka
+6813=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	port_building=1
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_mkrishna"
+}
+#Automula
+6814=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Prabhasa
+6816=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	holy_site="omen_msoma"
+	port_building=1
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="woad"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sana
+6817=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Girinagara
+6818=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ujjayanta
+6819=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Valabhi
+6820=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Monoglosson
+6823=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Astakapra
+6824=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kanthi
+6825=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Andhau
+6826=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="wild_game"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Khadro
+6827=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kukurra
+6828=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Anartta
+6829=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Svabhra
+6830=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Satrunavha
+6831=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	port_building=1
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Khambalida
+6832=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Baraca
+6833=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kalavad
+6834=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="elephants_indian"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Malia
+6835=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="vegetables"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Dhanduka
+6836=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Vardhamane
+6837=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Jhala
+6838=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kuvada
+6839=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Maltecoria
+6840=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	port_building=1
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="elephants_indian"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bacchav
+6841=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kaccha
+6842=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Darangia
+6844=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bissai
+6845=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Horrai
+6846=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="svedic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rusia
+6847=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sura
+6850=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Daria
+6851=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gallita
+6853=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vallai
+6856=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="city"
+	religion="vedic_pantheon"
+	terrain="marsh"
+	trade_goods="salt"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	port_building=1
+}
+#Detta
+6857=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Saraswata
+7220=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahiric"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Satyapura
+7412=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Patan
+7414=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mehsana
+7415=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="annartic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Abad Sauvira
+7660=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="indusic"
+	province_rank="settlement"
+	religion="vedic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}

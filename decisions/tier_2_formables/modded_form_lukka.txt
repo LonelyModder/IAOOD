@@ -1,0 +1,96 @@
+﻿country_decisions = {
+		
+	# Form Lycia
+	form_lukka = {
+		
+		potential = {
+			OR = {
+				primary_culture = lukkanic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XLU
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1995
+					province_id = 1990
+					province_id = 166
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = urartu_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XLU
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 1995
+			owns = 1990
+			owns = 166
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Lukka_Name"
+			change_country_flag = H43
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Lukka_Adj"
+				change_country_color = "lucca_color"
+				change_country_tag = XLU
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1995
+						}
+					}
+				}
+				set_capital = 1995
+				hidden_effect = {
+					p:1995.state = {
+						set_state_capital = 1995
+					}
+				}
+			}
+			p:1995 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:1995 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

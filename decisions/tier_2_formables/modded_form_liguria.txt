@@ -1,0 +1,67 @@
+﻿country_decisions = {
+	
+	# Form Liguria
+	form_liguria = {
+		potential = {
+			NOT = {
+				tag = XLG
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+			OR = {
+				primary_culture = italo_liguric
+				primary_culture = galo_liguric
+				primary_culture = ibero_liguric
+				primary_culture = ilvatic
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = liguria_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XLG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 50
+		}
+		
+		effect = {
+			change_country_name = "liguria_NAME"
+			hidden_effect = {
+				change_country_adjective = "liguria_ADJECTIVE"
+				change_country_tag = XLG
+				change_country_color = "liguria_color"
+				change_country_flag = liguria_FLAG
+				if = {
+					limit = { is_tribal = yes }
+					add_country_modifier = {
+						name = civilized_tribe
+						duration = 5475
+					}
+					change_government = despotic_monarchy
+					switch_government_type_event_clearup_effect = yes
+				}
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

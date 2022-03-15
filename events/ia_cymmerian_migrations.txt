@@ -1,0 +1,230 @@
+﻿namespace = cymmerian_invasion
+
+cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
+	type = country_event
+	title = "cymmerian_invasion.1.t"
+	desc = "cymmerian_invasion.1.desc"
+	picture = steppe_cavalry
+	
+	trigger = {
+		NOT = { has_global_variable = gimmiri1_invasion_occurred }
+		OR = {
+			c:PDS = { owns = 7193 }
+			c:PDS = { owns = 6155 }
+			c:PDS = { owns = 6164 }
+		}
+		#c:PDM = { exists = no }
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = gimmiri1_invasion_occurred
+		}
+		p:1621 = {
+            while = {
+                count = 50
+                define_pop = {
+                type = tribesmen
+                culture = gomoran
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		p:1621 = { #Gomora
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = gomoran
+				set_country_religion = scythic_pantheon
+				change_country_name = "Gomara_NAME"
+				change_country_adjective = "Gomara_ADJECTIVE"
+			}
+		}
+		p:1620.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:1621
+				target = p:1621.owner
+			}
+		}
+		p:1621.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 1621
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				#duration = 7300 # 20 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 150
+		}
+	}
+	
+	option = {
+		name = cymmerian_invasion.1.a
+	}
+}
+
+cymmerian_invasion.2 = { # Invasion of Anatolia
+	type = country_event
+	title = "cymmerian_invasion.2.t"
+	desc = "cymmerian_invasion.2.desc"
+	picture = steppe_cavalry
+	
+	trigger = {
+		NOT = { has_global_variable = gimmiri2_invasion_occurred }
+		has_global_variable = gimmiri1_invasion_occurred
+		OR = {
+			c:PDS = { owns = 4551 }
+			c:PDS = { owns = 7192 }
+			c:PDS = { owns = 6139 }
+		}
+		#c:PDL = { exists = no }
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = gimmiri2_invasion_occurred
+		}
+		p:195 = {
+            while = {
+                count = 50
+                define_pop = {
+                type = tribesmen
+                culture = kappadokian
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		p:195 = { #Kappadokia
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = kappadokian
+				set_country_religion = scythic_pantheon
+				change_country_name = "Kappadokia_NAME"
+				change_country_adjective = "Kappadokia_ADJECTIVE"
+			}
+		}
+		p:196.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:195
+				target = p:195.owner
+			}
+		}
+		p:195.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 195
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				#duration = 7300 # 20 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 150
+		}
+	}
+	
+	option = {
+		name = cymmerian_invasion.2.a
+	}
+}

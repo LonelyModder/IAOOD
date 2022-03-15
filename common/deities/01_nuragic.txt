@@ -1,0 +1,199 @@
+﻿deity_babai = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_babai = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { war_score_cost = omen_war_score_cost_svalue } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+}
+
+deity_great_mother = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_great_mother = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_moon = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_moon = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_bull_sun = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_bull_sun = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { war_exhaustion = deity_war_exhaustion_svalue }
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier  } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = economy #This Deity uses a Economy slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_norax = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_norax = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { build_cost = omen_build_cost_svalue  } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = economy #This Deity uses a Economy slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_aristeus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_norax = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue  } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = economy #This Deity uses a Economy slot.
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_sardus = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_sardus = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { naval_morale_modifier = deity_naval_morale_modifier_svalue  }
+	omen = { navy_maintenance_cost = deity_navy_maintenance_cost_svalue } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = war #This Deity uses a War Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}
+
+deity_iolaos = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = nuragian_pantheon }
+			deity:omen_iolaos = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { monthly_experience_gain = deity_monthly_experience_gain_svalue  }
+	omen = { naval_damage_done = omen_naval_damage_done_svalue } #Bonus from Omen
+	religion = nuragian_pantheon
+	deity_category = war #This Deity uses a War Slot
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_manpower_effect = yes
+	}
+}

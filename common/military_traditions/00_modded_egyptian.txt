@@ -1,0 +1,153 @@
+﻿egyptian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = levantine_greco_path_1
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = kemetic }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = kemetic
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:kemetic
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:kemetic
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_kemetic"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:kemetic	
+				}
+			}
+		}
+	}
+	
+	egyptian_path_1 = { ###egyptian path
+		modifier = { 
+			chariot_light_offensive = 0.15
+			chariot_light_defensive = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {}
+	}
+	
+	egyptian_path_2 = { ###egyptian path
+		modifier = { 
+			missile_spearthrowers_offensive = 0.1
+			missile_spearthrowers_defensive = 0.05
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_1}
+	}
+	
+	egyptian_path_3 = { ###egyptian path
+		modifier = { 
+			missile_archers_offensive = 0.1
+			missile_archers_defensive = 0.05
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_2}
+	}
+	
+	egyptian_path_2a = { ###egyptian path
+		modifier = { 
+			light_spearmen_offensive = 0.1
+			light_spearmen_defensive = 0.05
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_3}
+	}
+	
+	egyptian_path_3a = { ###egyptian path
+		modifier = { 
+			global_defensive = 0.05
+		}
+		enable_tactic = greek_phalanx
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_2a}
+	}
+	
+	egyptian_path_4a = { ###egyptian path
+		modifier = { 
+			light_swordsmen_offensive = 0.15
+			light_swordsmen_defensive = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_3a}
+	}
+	
+	egyptian_path_5a = { ###egyptian path
+		modifier = { 
+			heavy_spearmen_offensive = 0.05
+			heavy_spearmen_defensive = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_4a}
+	}
+	
+	egyptian_path_2b = { ###egyptian path
+		modifier = { 
+			global_tax_modifier = 0.1
+			fort_maintenance_cost = -0.15
+		}
+		enable_ability = military_colonies
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_3}
+	}
+	
+	egyptian_path_3b = { ###egyptian path
+		modifier = { 
+			farmland_combat_bonus = 0.1
+			plains_combat_bonus = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_2b}
+	}
+	
+	egyptian_path_4b = { ###egyptian path
+		modifier = { 
+			coastal_terrain_combat_bonus = 0.1
+			riverine_terrain_combat_bonus = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_3b}
+	}
+	
+	egyptian_path_5b = { ###egyptian path
+		modifier = { 
+			naval_damage_done = 0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_4b}
+	}
+	
+	egyptian_path_6b = { ###egyptian path
+		modifier = { 
+			naval_damage_taken = -0.1
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_5b}
+	}
+	
+	egyptian_path_end_bonus = { ###egyptian path
+		modifier = { 
+			global_manpower_modifier = 0.2
+		}
+		icon = levantine_greco_path_1
+		requires = {egyptian_path_5a egyptian_path_6b}
+	}
+}

@@ -1,0 +1,92 @@
+﻿country_decisions = {
+		
+	# Form Carmania
+	form_carmania = {
+		
+		potential = {
+			OR = {
+				primary_culture = carmanic
+				primary_culture = utic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XCM
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				province_id = 4959
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = carmania_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XCM
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 60
+			owns = 4959
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "carmania_Name"
+			change_country_flag = carmania_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "carmania_ADJ"
+				change_country_color =  "carmania_color"
+				change_country_tag = XCM
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4959
+						}
+					}
+				}
+				set_capital = 4959
+				hidden_effect = {
+					p:4959.state = {
+						set_state_capital = 4959
+					}
+				}
+			}
+			p:4959 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:4959 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

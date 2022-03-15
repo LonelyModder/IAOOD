@@ -1,0 +1,89 @@
+﻿country_decisions = {
+		
+	# Form Jorwa
+	form_jorwa = {
+		
+		potential = {
+			primary_culture = asmakan
+			#is_tribal = yes
+			NOT = {
+				tag = XJW
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				province_id = 7079
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = jorwa_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XJW
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 40
+			owns = 7079
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "jorwa_Name"
+			change_country_flag = jorwa_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "jorwa_ADJ"
+				change_country_color =  "jorwa_color"
+				change_country_tag = XJW
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 7079
+						}
+					}
+				}
+				set_capital = 7079
+				hidden_effect = {
+					p:7079.state = {
+						set_state_capital = 7079
+					}
+				}
+			}
+			p:7079 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:7079 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

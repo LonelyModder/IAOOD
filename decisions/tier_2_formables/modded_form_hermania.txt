@@ -1,0 +1,65 @@
+﻿country_decisions = {
+	
+	# Form Germania
+	form_hermania = {
+		potential = {
+			NOT = {
+				tag = XGA
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+			OR = {
+				primary_culture = west_barb
+				primary_culture = north_barb
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hermania_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XGA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 50
+		}
+		
+		effect = {
+			change_country_name = "hermania_NAME"
+			hidden_effect = {
+				change_country_adjective = "hermania_ADJECTIVE"
+				change_country_tag = XGA
+				change_country_color = "hermania_color"
+				change_country_flag = hermania_FLAG
+				if = {
+					limit = { is_tribal = yes }
+					add_country_modifier = {
+						name = civilized_tribe
+						duration = 5475
+					}
+					change_government = despotic_monarchy
+					switch_government_type_event_clearup_effect = yes
+				}
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

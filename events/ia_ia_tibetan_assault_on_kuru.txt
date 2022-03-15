@@ -1,0 +1,57 @@
+﻿namespace = tibetan_invasions
+
+tibetan_invasions.1 = { # Tribes under Brennus? invade Italy
+	type = country_event
+	title = "tibetan_invasions.1.t"
+	desc = "tibetan_invasions.1.desc"
+	picture = indian_city
+	
+	trigger = {
+		NOT = { has_global_variable = tibetan_invasion_on_kuru }
+		current_date > 1369.11.19
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = tibetan_invasion_on_kuru
+		}
+		#Salva
+		p:4404 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = salvan
+                religion = tibetic_pantheon
+                }
+            }                
+        }
+		p:4404 = {
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = salvan
+				set_country_religion = tibetic_pantheon
+				change_country_name = "Salva_NAME"
+				change_country_adjective = "Salva_ADJECTIVE"
+			}
+		}
+		p:4404.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:4403.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4404
+				target = p:4404.owner
+			}	
+		}
+		
+	}
+	
+	option = {
+		name = tibetan_invasions.1.a
+	}
+}

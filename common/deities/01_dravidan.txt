@@ -1,0 +1,217 @@
+﻿### General Deity Checks ###
+
+deity_sivan = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_sivan = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { war_score_cost = deity_war_score_cost_svalue }
+	omen = { fabricate_claim_speed = omen_fabricate_claim_speed_svalue } #Bonus from Omen
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_murugan = { # WAR
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_murugan = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { agressive_expansion_impact = deity_agressive_expansion_impact_svalue }
+	omen = { assault_ability = omen_assault_ability_svalue } #Bonus from Omen
+	on_activate = {
+		military_apotheosis_capital_freemen_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_seyyon = { # ECONOMY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_seyyon = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { build_cost = omen_build_cost_svalue } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = economy #This Deity uses a Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_thirumaal = { # ECONOMY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_thirumaal = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = economy #This Deity uses a Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_vaali = { # ECONOMY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_vaali = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_freemen_happyness = omen_global_freemen_happyness_svalue } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = economy #This Deity uses a Economy Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_khotravai = { # FERTILITY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_khotravai = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mayyon = { # FERTILITY
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_mayyon = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
+	on_activate = {
+		fertility_apotheosis_food_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_vanji_ko = { # CULTURE
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_vanji_ko = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { war_score_cost = omen_war_score_cost_svalue } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = culture #This Deity uses a Culture slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_angayarkanni = { # CULTURE Meenakshi
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = harrapan_pantheon }
+			deity:omen_angayarkanni = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { global_monthly_civilization = deity_global_monthly_civilization_svalue }
+	omen = { happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue } #Bonus from Omen
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+	religion = harrapan_pantheon
+	deity_category = culture #This Deity uses a Culture slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}

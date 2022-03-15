@@ -1,0 +1,3 @@
+﻿scythic = { # Scythic names
+	1621 = PROV1621_scythic #Gomorah
+}

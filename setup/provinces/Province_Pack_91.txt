@@ -1,0 +1,1663 @@
+﻿#Yermena
+1470=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="elymoi"
+	province_rank="settlement"
+	religion="liguric_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Thiges
+3190=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="elephants_african"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Castra Neptitana
+3191=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Thelepte
+3194=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gemellia
+3195=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Capsa Iustiniana
+3196=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sufetula
+3197=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Cillium
+3198=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nara Maxyesia
+3199=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Oviscae
+3200=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tabira
+3201=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Silesva
+3202=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Menegesum
+3205=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thala Musulamia
+3209=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sufes
+3210=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Masclinae
+3211=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Aquae Regiae
+3212=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thabraca
+3230=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bulla Regia
+3233=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sika
+3234=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Lares
+3235=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Assuras
+3236=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Obba
+3237=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zama
+3238=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Uzappa
+3239=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Seressi
+3240=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Furnos Maius
+3241=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Abthugni
+3242=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Feradi Maius
+3243=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Thinissut
+3244=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Curubis
+3245=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="spices"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Mactaris
+3246=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Althiburos
+3247=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Thugga Terebenthina
+3248=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Ziqua
+3249=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Oudna
+3250=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Membressa
+3251=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Carpis
+3252=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Nepheris
+3253=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kerkouane
+3254=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Missua
+3255=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Carthage
+3256=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Atiq
+3257=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libo_punic"
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="farmland"
+	trade_goods="base_metals"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=5
+		culture="massylic"
+		religion="libyan_pantheon"
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="massylic"
+		religion="libyan_pantheon"
+	}
+	port_building=1
+	holy_site="omen_mbaal_hammon"
+}
+#Ubon
+3258=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="libo_punic"
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=5
+		culture="massylic"
+		religion="libyan_pantheon"
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="massylic"
+		religion="libyan_pantheon"
+	}
+	port_building=1
+	holy_site="omen_mtanit"
+}
+#Uzali Sar
+3259=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Matar
+3260=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Thizika
+3261=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kinna Thabracania
+3262=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Rucuma
+3263=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Vaga
+3264=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thimida Bure
+3265=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ureu
+3266=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Numluli
+3267=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aunobaris
+3268=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thugga
+3269=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	holy_site="omen_mtannit"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bisica Lucana
+3270=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Thignica
+3271=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Muzuc
+3272=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aquae Casae
+3273=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Mediccera
+3274=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Ulizibbira
+3275=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Adramat
+3276=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Lapki
+3277=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Tapsa
+3278=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Vaga Byssatis
+3279=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="elephants_african"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#A'qola
+3280=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Bararus
+3281=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Thysdrus
+3282=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Usula
+3283=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Qarkna
+3284=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Thaenae
+3285=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Aeliae
+3286=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Taparura
+3287=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="massylic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="elephants_african"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Makom Hadash
+3288=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Bennafa
+3289=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Turris Tamalleni
+3290=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="gyzantianic"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Takapes
+3291=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Bezereos
+3292=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gigthis
+3293=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tipaza
+3294=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gergis
+3295=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Zitha
+3296=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Putea Pallene
+3297=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Zouchis
+3298=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lotophage"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Pisida
+3299=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="psylli"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Lokri
+3300=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="psylli"
+	province_rank="settlement"
+	religion="libyan_pantheon"
+	terrain="desert"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}

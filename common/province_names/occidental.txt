@@ -1,0 +1,3 @@
+﻿occidental = { # Nuragian names
+	511 = PROV511_hyksosi #Avaris
+}

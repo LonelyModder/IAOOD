@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10510-10529 ###
+		10510 = {
+			key = omen_mverethragna
+			deity = deity_mverethragna
+		}
+		10511 = {
+			key = omen_msraosha
+			deity = deity_msraosha
+		}
+		10512 = {
+			key = omen_mahura_mazda
+			deity = deity_mahura_mazda
+		}
+		10513 = {
+			key = omen_mtishtrya
+			deity = deity_mtishtrya
+		}
+		10514 = {
+			key = omen_mameretat
+			deity = deity_mameretat
+		}
+		10515 = {
+			key = omen_spenta_aramati
+			deity = deity_spenta_aramati
+		}
+		10516 = {
+			key = omen_manahita
+			deity = deity_manahita
+		}
+		10517 = {
+			key = omen_tiri
+			deity = deity_tiri
+		}
+		10518 = {
+			key = omen_mmithra
+			deity = deity_mmithra
+		}
+	}
+}
+

@@ -1,0 +1,76 @@
+﻿country_decisions = {
+		
+	# Form Sharda
+	form_sharda = {
+		
+		potential = {
+			OR = {
+				primary_culture = nurage
+				primary_culture = bnurage
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XSD
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				is_in_area = sardinia_septentrionalis
+				is_in_area = sardinia_meridionalis
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = sharda_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XSD
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_area = sardinia_septentrionalis
+			owns_area = sardinia_meridionalis
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "sharda_Name"
+			change_country_flag = sharda_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "sharda_ADJ"
+				change_country_color =  "sharda_color"
+				change_country_tag = XSD
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

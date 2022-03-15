@@ -1,0 +1,148 @@
+﻿arabian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = levantine_arabian_path_2
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = arabian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = arabian
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:arabian	
+						this.culture.culture_group = culture_group:aramaic
+					}
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:arabian	
+						this.culture.culture_group = culture_group:aramaic
+					}
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_arabian"
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:arabian	
+						this.culture.culture_group = culture_group:aramaic
+					}
+				}
+			}
+		}
+	}
+	
+	arabian_path_1 = { ###arabian path
+		modifier = { 
+			light_spearmen_offensive = 0.1
+			light_spearmen_defensive = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {}
+	}
+	
+	arabian_path_2 = { ###arabian path
+		modifier = { 
+			missile_spearthrowers_offensive = 0.1
+			missile_spearthrowers_defensive = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_1}
+	}
+	
+	arabian_path_3 = { ###arabian path
+		modifier = { 
+			army_movement_speed = 0.25
+			desert_combat_bonus = 0.2
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_2}
+	}
+	
+	arabian_path_4 = { ###arabian path
+		modifier = { 
+			chariot_light_offensive = 0.1
+			chariot_light_defensive = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_3}
+	}
+	
+	arabian_path_4a = { ###arabian path
+		modifier = { 
+			light_swordsmen_offensive = 0.1
+			light_swordsmen_defensive = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_4}
+	}
+	
+	arabian_path_5a = { ###arabian path
+		modifier = { 
+			siege_ability = 0.2
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_4a}
+	}
+	
+	arabian_path_6a = { ###arabian path
+		modifier = { 
+			levy_size_multiplier = 0.025
+			happiness_for_wrong_culture_group_modifier = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_5a}
+	}
+	
+	arabian_path_4b = { ###arabian path
+		modifier = { 
+			cavalry_camels_offensive = 0.1
+			cavalry_camels_defensive = 0.05
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_4}
+	}
+	
+	arabian_path_5b = { ###arabian path
+		modifier = { 
+			naval_morale_recovery = 0.25
+			global_commerce_modifier = 0.15
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_4b}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				order_by = total_population
+				max = 2
+				check_range_bounds = no
+				add_building_level = port_building
+			}
+		}
+	}
+	
+	arabian_path_end_bonus = { ###arabian path
+		modifier = { 
+			desert_combat_bonus = 0.2
+		}
+		icon = levantine_arabian_path_2
+		requires = {arabian_path_6a arabian_path_5b}
+	}
+}

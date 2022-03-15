@@ -1,0 +1,48 @@
+﻿namespace = akitu_festival
+
+akitu_festival.1 = { 
+	type = country_event
+	title = "akitu_festival.1.t"
+	desc = "akitu_festival.1.desc"
+	picture = religious_rite
+	
+	trigger = {
+		#religion = anunnaki_pantheon
+		owns = 918
+		owns = 919
+	}
+	
+	option = {
+		name = akitu_festival.1.a
+		add_country_modifier = {
+			name = #TODO
+			duration = 365
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = akitu_festival.1.b
+		add_country_modifier = {
+			name = appeasing_mardukites
+			duration = 365
+		}
+		ai_chance = {
+			factor = 0.2
+		}
+	}
+	option = {
+		name = akitu_festival.1.c
+		trigger  = {
+			primary_culture = ashurite
+		}
+		add_country_modifier = {
+			name = #TODO
+			duration = 365
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}

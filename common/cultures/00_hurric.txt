@@ -1,0 +1,86 @@
+﻿hurric = {	
+	color = hsv { 0.33 0.46 0.63 }
+
+	primary = missile_archers
+	second = light_spearmen
+	flank = cavalry_light
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_urumic
+
+	male_names = {
+		Atal-s_en Biridaswa Kikkula Kirta Mattiwaza Parattarna Parsatatar S_atar-mat Sattawaza Saushtatar Shuttarna Tehiptilla 
+		Tis_ata Tushratta Abi-tisan Adal-seni Aga-tisan Agap-eli Agap-tanu Aya-zi Aka-ya Aki-ya Aki-yan Aki-ra Aku-ya Alla-e 
+		Allae-kiyazi Allai-az Alli-turah Amma-ta-n Amman-kiyazi Amman-tahi Ammen-ammume Ammen-ki Ammin-na Ana-ta-n Anis-hurpe 
+		Anis-kipa-l Anni-kabi Anni-sar Ara-zah Arda-kanda Arim-adal Arip-hurmis Arip-Negal Arip-Tesub Ari-tupki Arip-turi Ari-ab 
+		Arip-an Arriyuk Aru-pa Aru-pal Arzi-hip Asar-musni Asa-kka Asma-ate Asmun-saki Asta-kuzi Astu Astua-unna Asu-zi Atta-ha-n 
+		Atta-za Attu-Aya Attu-e Attu-ki Attu-zar Awi-yazi Awis-na Azi-za-n Azu-na-n Azzu Azzu-e Azzu-eli Azzu-ka Azzu-kki Azzu-nni 
+		Ehli Ehlip-adal Ehlip-sarri Ela-ni Ela-pi Elan-kiyazi Elan-saki Elan-za Ela-patal Ela-paraluh Elen-za Elili-s Elili-sa 
+		Elum-sehir-e Enis-agum Eni-ya Etem-meni Ete-ya Ewe Ewe-ni Ewenni-kki Hama-nna Hame-za Hapa-luk Hapi-ya Hapu-ri Hari-pan 
+		Hari-ya Hari-yazu Hazip-adal Hazip-aranzih Hazi-pa Hazi-pa-n Hazip-Kakka Hazip-Kuzuli Hazip-Nawar Hazip-saki Hazip-saya
+		Hazip-sarri Hazip-Tesub Hazip-ulme Hazu-ka-n Herzu-k Hui-zzi Hupa-zza Hupa-za-n Iku-za Illu-te Ilu-Ila Ilu-Ili Ima-ku 
+		Inna-ha-n Ira-he Iwari Iza-mu Izi-za Iza-n Izza-ni Izzu-nni Kabi Kabi-ata Kabi-pursa Kabi-ta Kabi-ta-ya Kabi-ya Kai-ta 
+		Kali-ya Kana-n Kani-pa-n Kanni Kannu-kka Kanzu Kari-ta-n Kari-ya Katir-he Katu-li Kilip-sarri Kili-ya Kilum-allai Kilum-ana 
+		Kimma Kinum-adal Kinzi-ya Kipa-r Kipi-ri Kipu-seni Kiyazi Kizzi-ya Kupa-m Kupa-n Kuppi-ya Kuta-te Kutti Kuwari-ya Kuza-n 
+		Kuza-ri-na Kuza-zzi Kuzi Kuzuh-adal Kuzu-zari Kuza-ri Memen-kanazi Memen-ki Memen-saki Mema-nna Menna Mulu-ka-n Muza-n-adal 
+		Muza-ni Muzu-m Muzum-eni Nana-kka Nana-ta-n Nani-ku Nanip-naya Nanip-sawri Nani-ya Nawar-adal Nawar-kanazi Nawar-zi Nenis-naya 
+		Nergal-adal Nikir-sarri Nubar-ela Nubar-sarri Nubar-wari Nuki-za-n Nupa-ta Nupa-tiya Nupu-ri Nupu-ta Nuza-pa Nuza-wari Nuzu-kka 
+		Paban-sarri Pahar-mi Pai-la Pai-pa Paip-sarri Paki-annae Paki-la Paku-zi Pala-Ila Pala-mi Pala-n Pandi Pandi-ya Papu-zi Paru-ri 
+		Patala-n Patalla Pata-ni-te Pinzi-ya Pirhen-saki Pirhu-na Pir-kina Pir-kinnu Pir-paya Piru-ya-n Pisr-uhli Pthu-na Piz-kina 
+		Puhe-n Puh-tani Purama-n Puram-zi Purra-n Puta-ma-n Puta-n Sadum-naya Sadun-sarri Sahis-menni Saki-ya-n Sama-his Sama-hul Samba-ri 
+		Sanin-naya Sa-pi-lum-kiyazi Sas-karu Sat-pa Satta-kiyazi Sattu-ri Sazu-e Sazum-sarri Sahhi-ya Sehlip-sarri Sehlum-naya Sehrum-nirzi 
+		Seh-saya Sena-m Sena-ya Senip-sarri Senis-wari Senu-urhi Serum-naya Ser-za-n Sewa-ni Sewum-sarri Sime-tagup Sim-kinna Sinim-sali 
+		Sinis-tar-e Sinu-ka Sukrum-nawar Sukrum-Tesub Suk-siya Sur-e Sur-siya Susa-ki Taga-zi Tagi Tagis-nati-e Tagu-zza Tahi Tahi-ya 
+		Tahu-k Tahu-za-n Tai-ra Tai-zi Taki-ki Taki-ya Taku-na Talmu-asihi Tamaku-meni TAmar-tahi Tamaru Tamar-zi Tami Tamma Tanu-ta 
+		Tapu-zi Tarma-ri-s Tasap-kildi Tata-ra Tatta Tawe-nna Tidi-ka-n Tis-ulme Tisan-ki Tiswen-adal Tizi-ha-n Tizwi-na Tuli-s Tundi 
+		Tupki Turip-seni Turum-nadki Tuza-na Tuza-ya Ullu-ki Ullum-tisni Ullu-ni Ullu-ri Ullu-waru Ulme Una-kka Unap-sarri Unap-se 
+		Unap-tagi Una-tis Una-ya Uni-na Un-takki Unus-kiyazi Ura-ki Urra-n Usse Uski-za-n Ussu-ultu Usta-ni Ustan-sarri Ustap-adal Ustap-kiris 
+		Usta-ya Uti-na Uwe-hul-e Uza-na Uzi Uzzi-ya Uzzu Uzu-li Uzu-na-n Wari-kipa Wari-muza Wari-taldu Zata-n Zaza-naya Zazi-ya Zigi 
+		Zigil-tanu-m Zika-n Zina-ki Zirbi-kuni Ziri-ta-n Zirri Zitu-ya Ziwe-ni Ziza-pa-n Zuna-n Zunna Zunzu-m Zuwe-ne Zuza-n Zuzu Zip-musni
+	}
+	female_names = { 
+		Gilukhepa Tadukhepa Ahahuia Ahassunu Ahat-abisha Ahat-kubi Ahatiia Akim-ninu Ala-Pusha Alitu Allai-talma Allai-tatta 
+		Allai-turahe Allai-wahri Allaishe Allie-shar Allisha Anza-peki Arip-umella Elhip-ninu Elip-nuzu Epiritu Eres-kenni 
+		Erwin-nirshe Halb-abusa Halb-ahi Halu-teni Haluti Tulpun-naja Nama-zzani
+	}
+	family = {
+		Abbarid.Abbarid.Abbarid.Abbarid
+		Adonibaal.Adonibaalid.Adonibaalid.Adonibaalid
+		Ahirom.Ahiromid.Ahiromid.Ahiromid
+		Baalhannid.Baalhannid.Baalhannid.Baalhannid
+		Baalid.Baalid.Baalid.Baalid
+		Barca.Barca.Barcid.Barcid
+		Bostara.Bostara.Bostarid.Bostarid
+		Chelbesid.Chelbesid.Chelbesid.Chelbesid
+		Eshbaalid.Eshbaalid.Eshbaalid.Eshbaalid
+		Eugorid.Eugorid.Eugorid.Eugorid
+		Hannid.Hannid.Hannid.Hannid
+		Hiramid.Hiramid.Hiramid.Hiramid
+		Mago.Mago.Magid.Magid
+		Mattanid.Mattanid.Mattanid.Mattanid
+		Metallid.Metallid.Metallid.Metallid
+		Milkiramid.Milkiramid.Milkiramid.Milkiramid
+		Philosirid.Philosirid.Philosirid.Philosirid
+		Gisgo.Gisgo.Gisgoid.Gisgoid
+		Gerbalid.Gerbalid.Gerbalid.Gerbalid
+		Hammid.Hammid.Hammid.Hammid
+		Eugarid.Eugarid.Eugarid.Eugarid
+		Mashhid.Mashhid.Mashhid.Mashhid
+		Ummashid.Ummashid.Ummashid.Ummashid
+	}
+	culture = {
+		mittanic = {}
+		bianilic = {}
+		manneanic = {}
+	}
+	
+	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = levantine
+	}
+}

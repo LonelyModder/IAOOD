@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10490-10509 ###
+		10490 = {
+			key = omen_sivan
+			deity = deity_sivan
+		}
+		10491 = {
+			key = omen_murugan
+			deity = deity_murugan
+		}
+		10492 = {
+			key = omen_seyyon
+			deity = deity_seyyon
+		}
+		10493 = {
+			key = omen_thirumaal
+			deity = deity_thirumaal
+		}
+		10494 = {
+			key = omen_vaali
+			deity = deity_vaali
+		}
+		10495 = {
+			key = omen_khotravai
+			deity = deity_khotravai
+		}
+		10496 = {
+			key = omen_mayyon
+			deity = deity_mayyon
+		}
+		10497 = {
+			key = omen_vanji_ko
+			deity = deity_vanji_ko
+		}
+		10498 = {
+			key = omen_angayarkanni
+			deity = deity_angayarkanni
+		}
+	}
+}
+

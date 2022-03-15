@@ -1,0 +1,2162 @@
+﻿#Kallydion
+218=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ikaria
+220=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="pelasgian"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Miletopolis
+251=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="marsh"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kyzikos
+252=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="city"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+	port_building=1
+}
+#Antigoneia Daskyleion
+253=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Zeleia
+254=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="marble"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Parion
+255=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wilusan"
+	port_building=1
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="salt"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Lampsakos
+256=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="greek_punic"
+	province_rank="settlement"
+	religion="canaanitic_pantheon"
+	terrain="plains"
+	trade_goods="salt"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+		culture="wilusan"
+		religion="luwic_pantheon"
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="wilusan"
+		religion="luwic_pantheon"
+	}
+}
+#Ilion
+257=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mycenean"
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=4
+		culture="wilusan"
+	}
+	port_building=1
+}
+#Antigoneia Troas
+258=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mycenean"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="iron"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=1
+		culture="wilusan"
+	}
+	slaves=
+	{
+		amount=3
+		culture="wilusan"
+	}
+}
+#Assos
+259=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+		culture="wilusan"
+		religion="luwic_pantheon"
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="wilusan"
+		religion="luwic_pantheon"
+	}
+	port_building=1
+}
+#Kebren
+260=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wilusan"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="forest"
+	trade_goods="iron"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+		culture="wilusan"
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="wilusan"
+	}
+}
+#Abydos
+261=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="greek_punic"
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="wilusan"
+		religion="luwic_pantheon"
+	}
+	port_building=1
+}
+#Kolonai
+262=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wilusan"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Baris Mysias
+264=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Argiza
+265=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Rhodos
+266=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mycenean"
+	holy_site="omen_mhelios"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="laconic"
+	}
+}
+#Kale Peuke
+267=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wilusan"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Skepsis
+268=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wilusan"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Pericharaxis
+269=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Attea
+271=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hiera Germe
+272=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Inde
+273=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Thyateira
+274=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Iasos
+275=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="attic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+		culture="caric"
+		religion="luwic_pantheon"
+	}
+}
+#Apollonia Mysias
+276=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Pergamon
+278=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="papyrus"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Elaia
+279=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lelegian"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Poseidion
+280=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Adramyttion
+281=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lelegian"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	port_building=1
+}
+#Atarna
+282=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lelegian"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Mytilene
+283=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Eresos
+284=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="dye"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	port_building=1
+}
+#Kyme
+285=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="glass"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+	port_building=1
+}
+#Chios
+286=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ionic"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Smyrna
+287=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="papyrus"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+}
+#Teos
+288=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="greek_punic"
+	province_rank="settlement"
+	religion="canaanitic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+}
+#Erythrai
+289=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="greek_punic"
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+	port_building=1
+}
+#Ephesos
+290=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="attic"
+	holy_site="omen_martemis"
+	port_building=1
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="papyrus"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+}
+#Kolophon
+291=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="attic"
+	province_rank="city"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+	port_building=1
+}
+#Sardeis
+292=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	nobles=
+	{
+		amount=2
+	}
+	citizen=
+	{
+		amount=6
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Myloukome
+293=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Larisa Ionias
+294=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="marble"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Hypaipa
+295=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Magnesia
+296=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aigai
+298=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Maiboza
+299=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Maionia
+300=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Silandos
+301=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Synaos
+303=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Hyssa
+304=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hyrkanis
+305=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Ankyra Sidera
+306=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Leros
+310=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Ariste
+320=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kybellion
+321=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="phrygic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Pioniai
+337=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="forest"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kalymnos
+1653=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=1
+		culture="caric"
+		religion="luwic_pantheon"
+	}
+}
+#Metropolis
+1808=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="attic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	freemen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+}
+#Lindos
+1830=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Physkos
+1876=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Syme
+1884=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Apollonia Maiandrou
+1947=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="forest"
+	trade_goods="hemp"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	holy_site = "omen_wurrukatte"
+}
+#Diospolis Lykou
+1948=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aphrodisias
+1952=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Saleia Salbakes
+1953=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tabai
+1956=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kidrama
+1957=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Athymbra
+1962=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Harpasa
+1963=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="honey"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tralleis
+1966=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Alabanda
+1967=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Alexandreia pros to Latmo
+1968=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Magnesia Maiandrou
+1969=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="plains"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kos
+1970=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="silk"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	port_building=1
+}
+#Priene
+1972=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="aeolic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="plains"
+	trade_goods="glass"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=1
+		culture="lelegian"
+		religion="luwic_pantheon"
+	}
+}
+#Miletos
+1973=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="attic"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="caric"
+		religion="luwic_pantheon"
+	}
+}
+#Samos
+1974=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ionic"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Mylasa
+1977=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="marble"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Chrysaoris
+1980=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Halikarnassos
+1981=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	port_building=1
+	province_rank="city"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thera Karias
+1984=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Idyma
+1985=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Knidos
+1987=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	port_building=1
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kaunos
+1989=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="dye"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Astypalaia
+1996=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mycenean"
+	port_building=1
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Artake
+7908=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mysic"
+	province_rank="settlement"
+	religion="thracic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Keramos
+7934=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bargylia
+7935=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="dye"
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nisyros
+7936=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Telos
+7937=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Bargasa
+7938=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Hyllarima
+7939=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="caric"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Kranaos
+7941=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lydii"
+	province_rank="settlement"
+	religion="luwic_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kameiros
+8015=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="laconic"
+	province_rank="settlement"
+	religion="grecoid_pantheon"
+	terrain="mountain"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}

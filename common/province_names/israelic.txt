@@ -1,0 +1,3 @@
+﻿israelic = { # Israelic names
+	687 = PROV687_israelic #Jerusalem
+}

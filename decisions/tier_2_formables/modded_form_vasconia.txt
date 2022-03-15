@@ -1,0 +1,80 @@
+﻿country_decisions = {
+		
+	# Form Vasconia
+	form_vasconia = {
+		
+		potential = {
+			OR = {
+				primary_culture = bosquic
+				primary_culture = aquitanic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XVS
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				is_in_area = vasconia_area
+				is_in_area = vardulia_area
+				is_in_area = aquitania_occidentalis_area
+				is_in_area = aquitania_orientalis_area
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = vasconia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XVS
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_area = vasconia_area
+			owns_area = vardulia_area
+			owns_area = aquitania_occidentalis_area
+			owns_area = aquitania_orientalis_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "vasconia_Name"
+			change_country_flag = vasconia_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "vasconia_ADJ"
+				change_country_color =  "vasconia_color"
+				change_country_tag = XVS
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,0 +1,20 @@
+﻿l_english:
+  ## Generic ##
+ deity_yhwh:0 "$omen_yhwh$"
+ omen_yhwh:1 "Yahweh"
+ omen_yhwh_desc:3 "The national god of Israel. The almighty defender of it's children. A harsh but just ruler over everything on the ground, below and beyond it."
+ deity_ashera:0 "$omen_ashera$"
+ omen_ashera:1 "Ashera"
+ omen_ashera_desc:3 "The dedicated wife of Yahweh. A role model for other women. Guardian of marriages and guardian of families."
+ deity_malakim:0 "$omen_malakim$"
+ omen_malakim:1 "Malakim"
+ omen_malakim_desc:3 "Servants of God who most often act as messengers but woe to those who get in their way because their primary function is to fight the enemies of Yahweh."
+ deity_cherubs:0 "$omen_cherubs$"
+ omen_cherubs:1 "Cherubs"
+ omen_cherubs_desc:3 "Yahweh's personal guardians guarding his throne. Two also guard the ark of the covenant."
+ deity_nehushtan:0 "$omen_nehushtan$"
+ omen_nehushtan:1 "Nehushtan"
+ omen_nehushtan_desc:3 "It protects people from poisoning and disease. Mostly worshiped in its serpentine form hung on pole."
+ 
+
+

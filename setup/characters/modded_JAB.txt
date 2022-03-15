@@ -1,0 +1,266 @@
+﻿"JAB"={
+	country="JAB"
+	23={
+		first_name="Ashbiel"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1170.1.1
+		death_date=1220.1.1
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		#dna=""
+	}
+	
+	24={
+		first_name="Kish"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1200.1.1
+		death_date=1250.1.1
+		father="char:23"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		#dna=""
+	}
+	
+	25={
+		first_name="Saul"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1230.1.1
+		death_date=1290.1.1
+		father="char:24"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=10
+		add_charisma=8
+		add_finesse=5
+		add_zeal=5
+		no_traits=yes
+		add_trait="saulid"
+		#dna=""
+	}
+	
+	26={
+		first_name="Ahinoam"
+		family = c:JAB.fam:Bet-Saul
+		female=yes
+		birth_date=1240.1.1
+		death_date=1290.1.1
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		#dna=""
+	}
+	
+	27={
+		first_name="Ishbaal"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1260.1.1
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=2
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		add_trait="unnoticeable"
+		add_gold=500
+		add_popularity=40
+		c:JAB={
+			set_as_ruler=char:27
+		}
+		#dna=""
+	}
+	
+	28={
+		first_name="Jonathan"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1256.1.1
+		death_date=1290.1.1
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=5
+		add_zeal=7
+		no_traits=yes
+		add_trait="saulid"
+		#dna=""
+	}
+	
+	29={
+		first_name="Mephibaal"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1275.1.1
+		father="char:28"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+	
+	30={
+		first_name="Abinadab"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1258.1.1
+		death_date=1290.1.1
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		#dna=""
+	}
+	
+	31={
+		first_name="Ishvi"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1262.1.1
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+	
+	32={
+		first_name="Michal"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1269.1.1
+		female=yes
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+	
+	33={
+		first_name="Merab"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1270.1.1
+		female=yes
+		father="char:25"
+		mother="char:26"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_trait="saulid"
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+	
+	34={
+		first_name="Ner"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1200.1.1
+		death_date=1250.1.1
+		father="char:23"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		#dna=""
+	}
+	
+	35={
+		first_name="Abner"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1240.1.1
+		father="char:34"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+	
+	36={
+		first_name="Jaasiel"
+		family = c:JAB.fam:Bet-Saul
+		birth_date=1270.1.1
+		father="char:35"
+		culture="israelic"
+		religion="judahic"
+		no_stats=yes
+		add_martial=3
+		add_charisma=3
+		add_finesse=5
+		add_zeal=2
+		no_traits=yes
+		add_gold=500
+		add_popularity=60
+		#dna=""
+	}
+}

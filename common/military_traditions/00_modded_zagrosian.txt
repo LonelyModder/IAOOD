@@ -1,0 +1,151 @@
+﻿zagrosian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = persian_achaemenid_path_4
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = kassites }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = kassites
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:kassites
+						this.culture.culture_group = culture_group:elamitic
+					}
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:kassites
+						this.culture.culture_group = culture_group:elamitic
+					}
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_kassites"
+				any_country_culture = {
+					is_integrated = yes
+					OR = {
+						this.culture.culture_group = culture_group:kassites
+						this.culture.culture_group = culture_group:elamitic
+					}
+				}
+			}
+		}
+	}
+	
+	zagrosian_path_1 = { ###zagrosian path
+		modifier = { 
+			light_spearmen_offensive = 0.1
+			light_spearmen_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {}
+	}
+	
+	zagrosian_path_2 = { ###zagrosian path
+		modifier = { 
+			chariot_light_offensive = 0.1
+			chariot_light_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_1}
+	}
+	
+	zagrosian_path_3 = { ###zagrosian path
+		modifier = { 
+			hills_combat_bonus = 0.2
+			mountain_combat_bonus = 0.2
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_2}
+	}
+	
+	zagrosian_path_2a = { ###zagrosian path
+		modifier = { 
+			chariot_light_offensive = 0.15
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_3}
+	}
+	
+	zagrosian_path_3a = { ###zagrosian path
+		modifier = { 
+			axemen_heavy_offensive = 0.1
+			axemen_heavy_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_2a}
+	}
+	
+	zagrosian_path_4a = { ###zagrosian path
+		modifier = { 
+			missile_archers_offensive = 0.1
+			missile_archers_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_3a}
+	}
+	
+	zagrosian_path_2b = { ###zagrosian path
+		modifier = { 
+			missile_archers_offensive = 0.15
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_3}
+	}
+	
+	zagrosian_path_3b = { ###zagrosian path
+		modifier = { 
+			light_swordsmen_offensive = 0.1
+			light_swordsmen_defensive = 0.05
+		}
+		enable_tactic = greek_phalanx
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_2b}
+	}
+	
+	zagrosian_path_4b = { ###zagrosian path
+		modifier = { 
+			army_movement_speed = 0.25
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_3b}
+	}
+	
+	zagrosian_path_5b = { ###zagrosian path
+		modifier = { 
+			global_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_4b}
+	}
+	
+	zagrosian_path_6b = { ###zagrosian path
+		modifier = { 
+			cavalry_light_offensive = 0.1
+			cavalry_light_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_5b}
+	}
+	
+	zagrosian_path_end_bonus = { ###zagrosian path
+		modifier = { 
+			global_defensive = 0.05
+		}
+		icon = persian_achaemenid_path_4
+		requires = {zagrosian_path_4a zagrosian_path_6b}
+	}
+}

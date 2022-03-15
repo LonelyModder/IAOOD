@@ -1,0 +1,1 @@
+Get-ChildItem *.txt | ForEach-Object -Begin { $count = 1 } -Process { Rename-Item $_ -NewName "Province_Pack_$count.txt"; $count++ }

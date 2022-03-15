@@ -1,0 +1,2739 @@
+﻿#Qatnu
+824=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="temannite"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=6
+		culture="ashurite"
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Magdalu
+825=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="temannite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=3
+		culture="ashurite"
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Appadana
+826=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Kerkesion
+827=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="stone"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Terqa
+828=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+}
+#Doura Europos
+829=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Hatra
+835=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ashurite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="horses"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+		culture="temannite"
+	}
+	tribesmen=
+	{
+		amount=1
+		culture="temannite"
+	}
+}
+#Ashur
+883=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ashurite"
+	holy_site="omen_mashshur"
+	province_rank="city_metropolis"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	nobles=
+	{
+		amount=3
+	}
+	citizen=
+	{
+		amount=7
+	}
+	freemen=
+	{
+		amount=14
+	}
+	slaves=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=7
+		culture="temannite"
+	}
+	slaves=
+	{
+		amount=4
+		culture="temannite"
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="sutean"
+	}
+}
+#Lashom
+885=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Lahir
+888=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="plains"
+	trade_goods="honey"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Me-Turnat
+889=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=6
+	}
+	freemen=
+	{
+		amount=10
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=7
+		culture="saramean"
+	}
+}
+#Gubba
+890=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	citizen=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+}
+#Birtha
+891=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ashurite"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=10
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Dura
+892=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+		culture="agade"
+	}
+}
+#Samarra
+893=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="earthware"
+	tribesmen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=2
+		culture="agade"
+	}
+}
+#Maskin
+894=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+}
+#Awana
+895=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+}
+#Artemita
+896=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Daskara
+897=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+}
+#Nahrawan
+898=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="dates"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Bagdata
+899=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Dur-Kurigalzu
+900=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="glass"
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=5
+	}
+	holy_site="omen_dunias"
+}
+#Aswad
+901=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="honey"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Misiche
+902=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Kerbala
+903=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Idu
+904=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+}
+#Bechchouphrein
+905=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Anatho
+906=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=7
+		culture="agade"
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Haradu
+907=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Hindanu
+908=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Naarda
+909=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Sippar
+910=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	holy_site="omen_mshamash"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	nobles=
+	{
+		amount=1
+	}
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Seleukeia Megale
+911=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="papyrus"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Ktesiphon
+912=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	port_building=1
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="papyrus"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Vologesias
+913=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="glass"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Opis
+914=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	nobles=
+	{
+		amount=2
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=10
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=10
+	}
+}
+#Kutha
+915=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Girumu
+916=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Kish
+917=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	nobles=
+	{
+		amount=1
+	}
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Babylon
+918=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	holy_site="omen_mmarduk"
+	province_rank="city_metropolis"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	nobles=
+	{
+		amount=1
+	}
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	nobles=
+	{
+		amount=1
+		culture="susanian"
+	}
+	citizen=
+	{
+		amount=2
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=2
+		culture="susanian"
+	}
+	citizen=
+	{
+		amount=6
+	}
+	freemen=
+	{
+		amount=16
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=3
+		culture="susanian"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+	fortress_building=1
+	port_building=1
+}
+#Borsippa
+919=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	holy_site="omen_mnabu"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=5
+	}
+	freemen=
+	{
+		amount=8
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=4
+		culture="saramean"
+	}
+}
+#Dilbat
+920=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Marad
+921=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Aqola
+922=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="camel"
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Qadissiyya
+923=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Aberta
+924=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Shemali
+925=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Sumaka
+926=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	nobles=
+	{
+		amount=1
+		culture="saramean"
+	}
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=10
+		culture="saramean"
+	}
+	holy_site="omen_suqamuna"
+}
+#Sittake
+927=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Deru
+928=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="hills"
+	trade_goods="honey"
+	nobles=
+	{
+		amount=1
+	}
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=1
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+	holy_site="omen_manzat"
+	fortress_building=1
+}
+#Nippur
+929=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	holy_site="omen_menlil"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="glass"
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Kuara
+930=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Isin
+931=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	nobles=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=1
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Dabrum
+932=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Apameia Tigridos
+933=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="dates"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Kashkar
+934=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Girsu
+935=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="steppe_horses"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Fara
+936=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Orchoe
+937=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	holy_site="omen_mishtar"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="base_metals"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=1
+		culture="kassite"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=6
+		culture="saramean"
+	}
+}
+#Nina
+938=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Larsa
+939=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="vegetables"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=7
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Alexandreia Sousiane
+940=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	port_building=1
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=2
+		culture="chaldean"
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="chaldean"
+	}
+}
+#Forat
+941=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=4
+		culture="agade"
+	}
+}
+#Apologos
+942=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=4
+		culture="agade"
+	}
+}
+#Akkaz
+944=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Bijan
+953=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Haditha
+954=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sutean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kar Tukulti Ninurta
+955=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ashurite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=4
+	}
+}
+#Ajri
+956=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ashurite"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+		culture="temannite"
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="temannite"
+	}
+}
+#Kurh u Kich
+958=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lullubian"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=3
+		culture="ashurite"
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+	holy_site="omen_harbe"
+}
+#Syarazur
+959=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lullubian"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=3
+		culture="kassite"
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Zibliyat
+960=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Adab
+961=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Khay
+962=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Ikaros
+963=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Teredon
+964=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="earthware"
+	tribesmen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=4
+	}
+}
+#Apphana
+965=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="dates"
+	tribesmen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=4
+	}
+}
+#Eridu
+968=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	holy_site="omen_mea"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="dates"
+	freemen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+		culture="agade"
+	}
+}
+#Darak
+969=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="susanian"
+	province_rank="city"
+	religion="elamite_pantheon"
+	terrain="marsh"
+	trade_goods="dates"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=4
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="chaldean"
+	}
+	port_building=1
+	fortress_building=1
+}
+#Ampe
+971=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=4
+		culture="agade"
+	}
+}
+#Bakusaya
+973=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Kossaia
+974=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="awanic"
+	province_rank="settlement"
+	religion="elamite_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=4
+		culture="agade"
+	}
+	tribesmen=
+	{
+		amount=2
+		culture="chaldean"
+	}
+}
+#Lawami
+976=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Shahraban
+977=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="saramean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=3
+		culture="agade"
+	}
+}
+#Mandali
+979=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="agade"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="plains"
+	trade_goods="wild_game"
+	citizen=
+	{
+		amount=1
+		culture="saramean"
+	}
+	freemen=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=6
+	}
+}
+#Kelonai
+981=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="city"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	nobles=
+	{
+		amount=1
+		culture="agade"
+	}
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+		culture="agade"
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=5
+		culture="saramean"
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+	holy_site="omen_gidar"
+}
+#Yazdigird
+982=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	freemen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+		culture="saramean"
+	}
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Paikuli
+983=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Zagrou Pylai
+1603=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="kassite"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="mountain"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=2
+		culture="ellipian"
+		religion="elamite_pantheon"
+	}
+}
+#Zaranis
+4970=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="awanic"
+	province_rank="settlement"
+	religion="elamite_pantheon"
+	terrain="mountain"
+	trade_goods="marble"
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Sabatika
+4971=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="awanic"
+	province_rank="settlement"
+	religion="elamite_pantheon"
+	terrain="mountain"
+	trade_goods="marble"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=2
+		culture="kassite"
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Arabia Deserta
+5399=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5400=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+5401=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Arabia Deserta
+7566=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahlamic"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Arabia Deserta
+7567=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ahlamic"
+	province_rank="settlement"
+	religion="anunnaki_pantheon"
+	terrain="desert"
+	trade_goods="wild_game"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Durum
+7723=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="chaldean"
+	province_rank="city"
+	religion="anunnaki_pantheon"
+	terrain="marsh"
+	trade_goods="dates"
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=10
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=6
+		culture="agade"
+	}
+}

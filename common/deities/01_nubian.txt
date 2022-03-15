@@ -1,0 +1,178 @@
+﻿### General Deity Checks ###
+deity_menhit = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			common_deity_trigger = { RELIGION = kemetic_pantheon }
+			deity:omen_menhit = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { levy_size_multiplier = 0.025 }
+	omen = { archers_offensive = 0.1 } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = war #This Deity uses an War Slot
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_apedemak = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_apedemak = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { cohort_reinforcement_speed = deity_cohort_reinforcement_speed_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = war #This Deity uses an War Slot
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_amesemi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_amesemi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_population_growth = 0.06 } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = fertility #This Deity uses an Fertility Slot
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_sobomakal = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_sobomakal = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_freemen_happyness = deity_global_freemen_happyness_svalue }
+	omen = { happiness_for_wrong_culture_group_modifier = omen_happiness_for_wrong_culture_group_modifier_svalue } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = fertility #This Deity uses an Fertility Slot
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_arensnuphis = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_arensnuphis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { agressive_expansion_impact = deity_agressive_expansion_impact_svalue }
+	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = culture #This Deity uses an Culture Slot
+	
+	on_activate = {
+		culture_apotheosis_civic_tech_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_dedun = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_dedun = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_nobles_happyness = deity_global_nobles_happiness_svalue }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_mandulis = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = ethiopian_pantheon }
+			deity:omen_mandulis = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { build_cost = deity_build_cost_svalue }
+	omen = { price_local_civ_button_cost_modifier = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = ethiopian_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	on_activate = {
+		economy_apotheosis_capital_noble_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+### Exclusive Deity Checks ###

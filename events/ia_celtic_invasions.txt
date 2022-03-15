@@ -1,0 +1,309 @@
+﻿namespace = celtic_invasions
+
+celtic_invasions.1 = { # Tribes under Brennus? invade Italy
+	type = country_event
+	title = "celtic_invasions.1.t"
+	desc = "celtic_invasions.1.desc"
+	picture = celtic_chiefs
+	
+	trigger = {
+		NOT = { has_global_variable = celtic_invasion1_italy }
+		OR = {
+			AND = {
+				c:IBK = { owns = 3571 }
+				c:IBK = { owns = 3579 }
+				c:IBK = { owns = 3587 }
+				c:IBK = { owns = 142 }
+				c:IBK = { owns = 146 }
+			}
+			AND = {
+				c:IBM = { owns = 3571 }
+				c:IBM = { owns = 3579 }
+				c:IBM = { owns = 3587 }
+				c:IBM = { owns = 142 }
+				c:IBM = { owns = 146 }
+			}
+			AND = {
+				c:IBN = { owns = 3571 }
+				c:IBN = { owns = 3579 }
+				c:IBN = { owns = 3587 }
+				c:IBN = { owns = 142 }
+				c:IBN = { owns = 146 }
+			}
+			AND = {
+				c:IBO = { owns = 3571 }
+				c:IBO = { owns = 3579 }
+				c:IBO = { owns = 3587 }
+				c:IBO = { owns = 142 }
+				c:IBO = { owns = 146 }
+			}
+			AND = {
+				c:IBP = { owns = 3571 }
+				c:IBP = { owns = 3579 }
+				c:IBP = { owns = 3587 }
+				c:IBP = { owns = 142 }
+				c:IBP = { owns = 146 }
+			}
+			AND = {
+				c:IBR = { owns = 3571 }
+				c:IBR = { owns = 3579 }
+				c:IBR = { owns = 3587 }
+				c:IBR = { owns = 142 }
+				c:IBR = { owns = 146 }
+			}
+			AND = {
+				c:IBW = { owns = 3571 }
+				c:IBW = { owns = 3579 }
+				c:IBW = { owns = 3587 }
+				c:IBW = { owns = 142 }
+				c:IBW = { owns = 146 }
+			}
+			AND = {
+				c:ICA = { owns = 3571 }
+				c:ICA = { owns = 3579 }
+				c:ICA = { owns = 3587 }
+				c:ICA = { owns = 142 }
+				c:ICA = { owns = 146 }
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = celtic_invasion1_italy
+		}
+		#Senoni
+		p:142 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:142 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Senoni_NAME"
+				change_country_adjective = "Senoni_ADJECTIVE"
+			}
+		}
+		p:142.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:133.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:142
+				target = p:142.owner
+			}	
+		}
+		#Boi
+		p:146 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:146 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Boi_NAME"
+				change_country_adjective = "Boi_ADJECTIVE"
+			}
+		}
+		p:146.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:149.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:146
+				target = p:146.owner
+			}
+		}
+		#Insubri
+		p:3571 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:3571 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Insubri_NAME"
+				change_country_adjective = "Insubri_ADJECTIVE"
+			}
+		}
+		p:3571.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:3571 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+		}
+		p:3578.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:3571
+				target = p:3571.owner
+			}
+		}
+		#Taurini
+		p:3551 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:3551 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Taurini_NAME"
+				change_country_adjective = "Taurini_ADJECTIVE"
+			}
+		}
+		p:3551.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:3559.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:3551
+				target = p:3551.owner
+			}
+		}
+		#Cenomani
+		p:3587 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:3587 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Cenomani_NAME"
+				change_country_adjective = "Cenomani_ADJECTIVE"
+			}
+		}
+		p:3587.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:3585.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:3587
+				target = p:3587.owner
+			}
+		}
+		#Lingoni
+		p:3593 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = tribesmen
+                culture = leponte_gallic
+                religion = celtic_pantheon
+                }
+            }                
+        }
+		p:3593 = {
+			create_country = {
+				change_government = tribal_kingdom
+				set_primary_culture = leponte_gallic
+				set_country_religion = celtic_pantheon
+				change_country_name = "Lingoni_NAME"
+				change_country_adjective = "Lingoni_ADJECTIVE"
+			}
+		}
+		p:3593.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 3650 # 10 years
+			}
+		}
+		p:145.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:3593
+				target = p:3593.owner
+			}
+		}
+		p:142.owner = { #Senoni
+			add_alliance = p:146.owner #Boi
+			add_alliance = p:3551.owner #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:146.owner = { #Boi
+			add_alliance = p:3551.owner #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3551.owner  = { #Taurini
+			add_alliance = p:3587.owner #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3587.owner = { #Cenomani
+			add_alliance = p:3571.owner #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+		p:3571.owner = { #Insubri
+			add_alliance = p:3593.owner #Lingoni
+		}
+	}
+	
+	option = {
+		name = celtic_invasions.1.a
+	}
+}

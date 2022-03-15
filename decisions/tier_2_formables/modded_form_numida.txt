@@ -1,0 +1,104 @@
+﻿country_decisions = {
+	
+	# Form Numidia
+	form_numida = {
+		
+		potential = {
+			OR = {
+				primary_culture = massylic
+				primary_culture = massaesylic
+				primary_culture = gaetuli
+				primary_culture = gyzantianic
+				primary_culture = lotophage
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XND
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 3163
+					province_id = 3227
+					province_id = 3102
+					province_id = 3209
+					province_id = 3113
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = numida_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XND
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 3163
+			owns = 3227
+			owns = 3102
+			owns = 3209
+			owns = 3113
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "numida_Name"
+			change_country_flag = numida_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "numida_Adj"
+				#change_country_color =  "numida_color"
+				change_country_tag = XND
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 3163
+						}
+					}
+				}
+				set_capital = 3163
+				hidden_effect = {
+					p:3163.state = {
+						set_state_capital = 3163
+					}
+				}
+			}
+			p:3163 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:3163 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

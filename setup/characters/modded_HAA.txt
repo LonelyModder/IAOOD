@@ -1,0 +1,40 @@
+﻿"HAA"={
+	country="HAA"
+	47={
+		first_name="Manana"
+		family = c:HAA.fam:Mananid
+		birth_date=1245.1.1
+		culture="hatti"
+		religion="luwic_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=4
+		add_finesse=10
+		add_zeal=6
+		no_traits=yes
+		add_gold=500
+		add_popularity=100
+		c:HAA={
+			set_as_ruler=char:47
+		}
+		#dna=""
+	}
+	
+	48={
+		first_name="Supiluliuma"
+		family = c:HAA.fam:Mananid
+		father="char:47"
+		birth_date=1265.1.1
+		culture="hatti"
+		religion="luwic_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=4
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+}

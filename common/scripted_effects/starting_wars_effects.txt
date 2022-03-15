@@ -1,0 +1,71 @@
+﻿David_Ishbaal_conflict_effect = {
+	c:JAA = {
+		add_alliance = JAC
+		add_alliance = JAF
+		add_alliance = JAG
+		add_alliance = JAH
+		add_alliance = JAE
+	}
+	c:JAB = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:691
+			target = c:JAA
+		}
+	}
+	c:JAA = {
+		break_alliance = JAC
+		break_alliance = JAF
+		break_alliance = JAG
+		break_alliance = JAH
+		break_alliance = JAE
+	}
+}
+
+Osorkons_rebelion_conflict_effect = {
+	c:EAG = {
+		add_alliance = EAF
+		add_alliance = EAJ
+		add_alliance = EAI
+		add_alliance = EAE
+		add_alliance = EAK
+		add_alliance = EAM
+		add_alliance = LAY
+	}
+	c:EAA = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:539
+			target = c:EAG
+		}
+	}
+	c:EAG = {
+		break_alliance = EAF
+		break_alliance = EAJ
+		break_alliance = EAI
+		break_alliance = EAE
+		break_alliance = EAK
+		break_alliance = EAM
+		break_alliance = LAY
+	}
+}
+
+Distatnt_descendent_of_elam_conflict_effect = {
+	c:ADZ = {
+		add_alliance = ABH
+		add_alliance = ABJ
+		add_alliance = ABL
+	}
+	c:ABR = {
+		declare_war_with_wargoal = {
+			war_goal = diadochi_wargoal
+		    province = p:918
+			target = c:ADZ
+		}
+	}
+	c:ADZ = {
+		add_alliance = ABH
+		add_alliance = ABJ
+		add_alliance = ABL
+	}
+}

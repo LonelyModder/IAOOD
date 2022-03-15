@@ -1,0 +1,401 @@
+﻿kemetic = {
+	color = hsv { 0.09  1  0.76 }
+	
+	primary = missile_spearthrowers
+	second = light_swordsmen
+	flank = chariot_light
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_amun
+	
+	male_names = {
+		Thanub Tjaenhebu Thanenhebu Senakhtenre Ahmose Apries Haaibre Amenmesse Amenemhat Ahmenhotep Akhenamun Ay Amenemnisu Amenemope Atlanersa Anlamani Aspelta Apries
+		Wahibre Haaibre Bek Bebiankh Bebnum Bakenranef Bebiankh Bay Isru Baskakeren Babaef Baufra Buneb Baqet Isesi Djedkare Isesi Djoser Djehutyemhat Dedumose Djehuty
+		Didia Djehuiti Dju Nebwy Djer Den Djet Dedi Djaty Djedefhor Djedefre Djedi Duaenhor Duaenre Djau Djedkare Shemai Dagi Djedhor Djehutynahkht Djehutihotep Djedefptah
+		Djediufankh Hannu Hsekiu Hor Hapuseneb Hui Huya Hori Henuttawy Harsiese Hedjkheperre Setepenamun Hornakht Hepu Horemheb Hori Herihor Hewernef Horus Ba Hemaka 
+		Hotepsekhemwy Hsy-Ra Huni Hemiunu Horbaef Heqaib Harkhuf Hotepibre Heqanakht Hunefer Harkhebi Hor-Aha Haremakhet Harwa Hannu Iufni Intef Iuty Iymeru Ibau Ibiaw
+		Iput Inenek-Inti Inenek Inti Isesi-ankh Isesi Inkaef Isu Itisen Itu Iunmin Iunre Iynefer Imhotep Iry-Hor Iuwelot Intef Imyrwemeshaw Inaros Psamtik Ibiaw Menkheperre
+		Ini Menkheperre Nebet Khayu Khnumhotep Kaaper Khety Kheti Khui Kagemni Kaemqed Kaemsekhem Kakhent Kanefer Kawab Khafra Khentimeresh Khufu Khufukhaf Khaba Khasekhemwy
+		Khenthap Ka Khabaw Khaemweset Khyan Khendjer Userkare Khamwaset Khabekhnet Khaemtir Kheti Kashta Khawy Khay Khamudi Kamose Khabash Khuiqer Meni Mahu Mentuhotep
+		Nebhepetre Meketre Merikare Meru Mentuhotep Minkhaf Merit-Ptah Mentuhotepi Mesehti Muthis Mesen-ka Minmose Maya Merysekhmet Merneptah Masaharta Meryatum Merenptah
+		Merymose Meryre Nakhthoreb Nakhtnebef Nebnuni Nebre Neby Nuya Nebwawy Nikare Nykara Narmer Nedjem Nehesy Nekauba Necho Neferkare Nakhtpaaten Nectanebo Neferhotep
+		Nefaarud Osorkon Qa_a Qakare Qareh Qar Qen Qenna Udjahorresenet Unas Useramen Userhet Userkaf Userkare Usermontu Yanhamu Yuny Yuya Yuyu Wadjmose Wadjitefni Ibiau
+		Wakhare Wakhare Khety Webensenu Wegaf Wegaf Khutawyre Khutawyre Wehemka Weneg Weni Wentawet Wetka Wazad Wenennefer Teti Tjahapimu Tutu Tefibi Teta Tefnakht Tutkheperre
+		Shosqenq Tutkheperre Teos Thutmose Talakhamani Seqenenre Seqenenre-Tao Tao Tantamani Taharqa Raemka Raherka Rahotep Menpehtyre Usimare Heqamaatre Sekhepenre Akhenamun
+		Khepermare Ramose Raneb Rashepses Rehuerdjersen Rawer Rekhmire Renseneb Rudamun Setepenamun Meryamun Usermaatre Sabef Sabni Sabu Ibebi Thety Saure Salitis Sebkay
+		Segerseni Sehebre Sehetepre Perenmaat Sekhemib Sobekhotep Seneb Senebhenaf Sennedjem Sennefer Senneferi Senusret Seti Seth-Peribsen Seth Peribsen Setepenre Setau
+		Sesheshet Serfka Menmaatre Userkeperure Setepenre Setut Sewadjkare Hori Shabaka Neferkare Sharek Shebitku Shepenupet Shepseska Shery Sheshi Sheshi Maaibre Maaibre
+		Sneferukhaf Sobekemhat Sonbef Sobekneferu Sobeknakht Merkawre
+	}
+	female_names = {
+		Behenu Beketamun Baketwernel Betrest Bunefer Bintanath Duatentopet Duathathor-Henuttawy Duathathor Henuttawy Djetfatnebti Djeseretnebti Djefatsen Dakhamunzu Gautseshen 
+		Gilukhipa Hatshepsut Hatshepsut-Merytre Henuttaneb Henutmehyt Henutmire Henuttawy Henutwati Henut Taui Henut Taui Hetephernebti Hekenuhedjet Hemetre Henutsen Hetepheres 
+		Khamerernebty Khentkaus Khentetka Kapes Weret Khedebneithirinet Keminub Khensa Karomama Karomama Meritmut Meritmut Kiya Meresamun Meret-Isesi Meresankh Mereret Meritites
+		Merneith Maatkare Mutnedjmet Mutnofret Mentuhotep Maatkare Mutemhat Maatkare Meritamen Nebetnehat Nesitaudjatakhet Nakht Neith Nebet Nefertnebty Nubwenet Nefertkau
+		Nefertiabet Nimaethap Nofret Nakhtneith Neferu Qalhata Udjebten Tyti Twosret Tuya Tutu Tjuyu Tetisheri Reptynub Reputnebty Satiah Shepset-ipet Sitamun Sitdjehuti Sitre
+		Hedjetnebu Isesu Itet Inetkawes Iaret Isetemkheb Isetnofret Iset Ipu Kekheretnebti Khenut Khuit
+	}
+	family = {
+		Sneferu-Nabma_at.Sneferu-Nabma_at.Sneferu-Nabma_at.Sneferu-Nabma_at
+		Khety.Khety.Khety.Khety
+		Narmer-Min.Narmer-Min.Narmer-Min.Narmer-Min
+		Khui-Amun.Khui-Amun.Khui-Amun.Khui-Amun
+		Thety-Horus.Thety-Horus.Thety-Horus.Thety-Horus
+		Thanub-Aker.Thanub-Aker.Thanub-Aker.Thanub-Aker
+		Tjaenhebu-Amun.Tjaenhebu-Amun.Tjaenhebu-Amun.Tjaenhebu-Amun
+		Thanenhebu-Anhur.Thanenhebu-Anhur.Thanenhebu-Anhur.Thanenhebu-Anhur
+		Senakhtenre-Aten.Senakhtenre-Aten.Senakhtenre-Aten.Senakhtenre-Aten
+		Ahmose-Atum.Ahmose-Atum.Ahmose-Atum.Ahmose-Atum
+		Apries-Bennu.Apries-Bennu.Apries-Bennu.Apries-Bennu
+		Wahibre-Geb.Wahibre-Geb.Wahibre-Geb.Wahibre-Geb
+		Haaibre-Hapi.Haaibre-Hapi.Haaibre-Hapi.Haaibre-Hapi
+		Amenmesse-Horus.Amenmesse-Horus.Amenmesse-Horus.Amenmesse-Horus
+		Amenemhat-Khepri.Amenemhat-Khepri.Amenemhat-Khepri.Amenemhat-Khepri
+		Ahmenhotep-Khnum.Ahmenhotep-Khnum.Ahmenhotep-Khnum.Ahmenhotep-Khnum
+		Akhenamun-Khonsu.Akhenamun-Khonsu.Akhenamun-Khonsu.Akhenamun-Khonsu
+		Ay-Maahes.Ay-Maahes.Ay-Maahes.Ay-Maahes
+		Kheperkheprure-Nemty.Kheperkheprure-Nemty.Kheperkheprure-Nemty.Kheperkheprure-Nemty
+		Amenemnisu-Nefertum.Amenemnisu-Nefertum.Amenemnisu-Nefertum.Amenemnisu-Nefertum
+		Amenemope-Neper.Amenemope-Neper.Amenemope-Neper.Amenemope-Neper
+		Atlanersa-Osiris.Atlanersa-Osiris.Atlanersa-Osiris.Atlanersa-Osiris
+		Anlamani-Ptah.Anlamani-Ptah.Anlamani-Ptah.Anlamani-Ptah
+		Aspelta-Ra.Aspelta-Ra.Aspelta-Ra.Aspelta-Ra
+		Apries-Set.Apries-Set.Apries-Set.Apries-Set
+		Wahibre-Shu.Wahibre-Shu.Wahibre-Shu.Wahibre-Shu
+		Haaibre-Sobek.Haaibre-Sobek.Haaibre-Sobek.Haaibre-Sobek
+		Bek-Sopdu.Bek-Sopdu.Bek-Sopdu.Bek-Sopdu
+		Bebiankh-Wadj-wer.Bebiankh-Wadj-wer.Bebiankh-Wadj-wer.Bebiankh-Wadj-wer
+		Bebnum-Amunet.Bebnum-Amunet.Bebnum-Amunet.Bebnum-Amunet
+		Bakenranef-Anuket.Bakenranef-Anuket.Bakenranef-Anuket.Bakenranef-Anuket
+		Bebiankh-Bastet.Bebiankh-Bastet.Bebiankh-Bastet.Bebiankh-Bastet
+		Bay-Bat.Bay-Bat.Bay-Bat.Bay-Bat
+		Isru-Hathor.Isru-Hathor.Isru-Hathor.Isru-Hathor
+		Baskakeren-Heqet.Baskakeren-Heqet.Baskakeren-Heqet.Baskakeren-Heqet
+		Babaef-Hesat.Babaef-Hesat.Babaef-Hesat.Babaef-Hesat
+		Baufra-Imentet.Baufra-Imentet.Baufra-Imentet.Baufra-Imentet
+		Buneb-Isis.Buneb-Isis.Buneb-Isis.Buneb-Isis
+		Baqet-Maat.Baqet-Maat.Baqet-Maat.Baqet-Maat
+		Isesi-Menhit.Isesi-Menhit.Isesi-Menhit.Isesi-Menhit
+		Djedkare-Mut.Djedkare-Mut.Djedkare-Mut.Djedkare-Mut
+		Isesi-Neith.Isesi-Neith.Isesi-Neith.Isesi-Neith
+		Djoser-Nekbhet.Djoser-Nekbhet.Djoser-Nekbhet.Djoser-Nekbhet
+		Djehutyemhat-Nephthys.Djehutyemhat-Nephthys.Djehutyemhat-Nephthys.Djehutyemhat-Nephthys
+		Dedumose-Nepit.Dedumose-Nepit.Dedumose-Nepit.Dedumose-Nepit
+		Djehuty-Nut.Djehuty-Nut.Djehuty-Nut.Djehuty-Nut
+		Didia-Pakhet.Didia-Pakhet.Didia-Pakhet.Didia-Pakhet
+		Djedkhonsuefankh-Renenutet.Djedkhonsuefankh-Renenutet.Djedkhonsuefankh-Renenutet.Djedkhonsuefankh-Renenutet
+		Djedptahiufankh-Satet.Djedptahiufankh-Satet.Djedptahiufankh-Satet.Djedptahiufankh-Satet
+		Djehuiti-Sekhmet.Djehuiti-Sekhmet.Djehuiti-Sekhmet.Djehuiti-Sekhmet
+		Dju-Tefnut.Dju-Tefnut.Dju-Tefnut.Dju-Tefnut
+		Nebwy-Wadjet.Nebwy-Wadjet.Nebwy-Wadjet.Nebwy-Wadjet
+		Djer-Wosret.Djer-Wosret.Djer-Wosret.Djer-Wosret
+		Den-Aker.Den-Aker.Den-Aker.Den-Aker
+		Djet-Amun.Djet-Amun.Djet-Amun.Djet-Amun
+		Dedi-Anhur.Dedi-Anhur.Dedi-Anhur.Dedi-Anhur
+		Djaty-Aten.Djaty-Aten.Djaty-Aten.Djaty-Aten
+		Djedefhor-Atum.Djedefhor-Atum.Djedefhor-Atum.Djedefhor-Atum
+		Djedefre-Bennu.Djedefre-Bennu.Djedefre-Bennu.Djedefre-Bennu
+		Djedi-Geb.Djedi-Geb.Djedi-Geb.Djedi-Geb
+		Duaenhor-Hapi.Duaenhor-Hapi.Duaenhor-Hapi.Duaenhor-Hapi
+		Duaenre-Horus.Duaenre-Horus.Duaenre-Horus.Duaenre-Horus
+		Djau-Khepri.Djau-Khepri.Djau-Khepri.Djau-Khepri
+		Djedkare-Khnum.Djedkare-Khnum.Djedkare-Khnum.Djedkare-Khnum
+		Shemai-Khonsu.Shemai-Khonsu.Shemai-Khonsu.Shemai-Khonsu
+		Dagi-Maahes.Dagi-Maahes.Dagi-Maahes.Dagi-Maahes
+		Djedhor-Nemty.Djedhor-Nemty.Djedhor-Nemty.Djedhor-Nemty
+		Djehutynahkht-Nefertum.Djehutynahkht-Nefertum.Djehutynahkht-Nefertum.Djehutynahkht-Nefertum
+		Djehutihotep-Neper.Djehutihotep-Neper.Djehutihotep-Neper.Djehutihotep-Neper
+		Djedefptah-Osiris.Djedefptah-Osiris.Djedefptah-Osiris.Djedefptah-Osiris
+		Djediufankh-Ptah.Djediufankh-Ptah.Djediufankh-Ptah.Djediufankh-Ptah
+		Hannu-Set.Hannu-Set.Hannu-Set.Hannu-Set
+		Hsekiu-Shu.Hsekiu-Shu.Hsekiu-Shu.Hsekiu-Shu
+		Hor-Sobek.Hor-Sobek.Hor-Sobek.Hor-Sobek
+		Hapuseneb-Sopdu.Hapuseneb-Sopdu.Hapuseneb-Sopdu.Hapuseneb-Sopdu
+		Hui-Wadj-wer.Hui-Wadj-wer.Hui-Wadj-wer.Hui-Wadj-wer
+		Huya-Amunet.Huya-Amunet.Huya-Amunet.Huya-Amunet
+		Huya-Anuket.Huya-Anuket.Huya-Anuket.Huya-Anuket
+		Hori-Bastet.Hori-Bastet.Hori-Bastet.Hori-Bastet
+		Henuttawy-Bat.Henuttawy-Bat.Henuttawy-Bat.Henuttawy-Bat
+		Harsiese-Hathor.Harsiese-Hathor.Harsiese-Hathor.Harsiese-Hathor
+		Harsiese-Heqet.Harsiese-Heqet.Harsiese-Heqet.Harsiese-Heqet
+		Hedjkheperre-Hesat.Hedjkheperre-Hesat.Hedjkheperre-Hesat.Hedjkheperre-Hesat
+		Setepenamun-Imentet.Setepenamun-Imentet.Setepenamun-Imentet.Setepenamun-Imentet
+		Hornakht-Isis.Hornakht-Isis.Hornakht-Isis.Hornakht-Isis
+		Hepu-Maat.Hepu-Maat.Hepu-Maat.Hepu-Maat
+		Horemheb-Menhit.Horemheb-Menhit.Horemheb-Menhit.Horemheb-Menhit
+		Hori-Mut.Hori-Mut.Hori-Mut.Hori-Mut
+		Herihor-Neith.Herihor-Neith.Herihor-Neith.Herihor-Neith
+		Hewernef-Nekbhet.Hewernef-Nekbhet.Hewernef-Nekbhet.Hewernef-Nekbhet
+		Horus Ba-Nephthys.Horus Ba-Nephthys.Horus Ba-Nephthys.Horus Ba-Nephthys
+		Hemaka-Nepit.Hemaka-Nepit.Hemaka-Nepit.Hemaka-Nepit
+		Hotepsekhemwy-Nut.Hotepsekhemwy-Nut.Hotepsekhemwy-Nut.Hotepsekhemwy-Nut
+		Hsy-Ra-Pakhet.Hsy-Ra-Pakhet.Hsy-Ra-Pakhet.Hsy-Ra-Pakhet
+		Huni-Renenutet.Huni-Renenutet.Huni-Renenutet.Huni-Renenutet
+		Hemiunu-Satet.Hemiunu-Satet.Hemiunu-Satet.Hemiunu-Satet
+		Horbaef-Sekhmet.Horbaef-Sekhmet.Horbaef-Sekhmet.Horbaef-Sekhmet
+		Heqaib-Tefnut.Heqaib-Tefnut.Heqaib-Tefnut.Heqaib-Tefnut
+		Harkhuf-Wadjet.Harkhuf-Wadjet.Harkhuf-Wadjet.Harkhuf-Wadjet
+		Hotepibre-Wosret.Hotepibre-Wosret.Hotepibre-Wosret.Hotepibre-Wosret
+		Heqanakht-Aker.Heqanakht-Aker.Heqanakht-Aker.Heqanakht-Aker
+		Hunefer-Amun.Hunefer-Amun.Hunefer-Amun.Hunefer-Amun
+		Harkhebi-Anhur.Harkhebi-Anhur.Harkhebi-Anhur.Harkhebi-Anhur
+		Hor-Aha-Aten.Hor-Aha-Aten.Hor-Aha-Aten.Hor-Aha-Aten
+		Haremakhet-Atum.Haremakhet-Atum.Haremakhet-Atum.Haremakhet-Atum
+		Harwa-Bennu.Harwa-Bennu.Harwa-Bennu.Harwa-Bennu
+		Hannu-Geb.Hannu-Geb.Hannu-Geb.Hannu-Geb
+		Iufni-Hapi.Iufni-Hapi.Iufni-Hapi.Iufni-Hapi
+		Intef-Horus.Intef-Horus.Intef-Horus.Intef-Horus
+		Iuty-Khepri.Iuty-Khepri.Iuty-Khepri.Iuty-Khepri
+		Iymeru-Khnum.Iymeru-Khnum.Iymeru-Khnum.Iymeru-Khnum
+		Ibau-Khonsu.Ibau-Khonsu.Ibau-Khonsu.Ibau-Khonsu
+		Ibiaw-Maahes.Ibiaw-Maahes.Ibiaw-Maahes.Ibiaw-Maahes
+		Iput-Nemty.Iput-Nemty.Iput-Nemty.Iput-Nemty
+		Inenek-Inti-Nefertum.Inenek-Inti-Nefertum.Inenek-Inti-Nefertum.Inenek-Inti-Nefertum
+		Inenek-Neper.Inenek-Neper.Inenek-Neper.Inenek-Neper
+		Inti-Osiris.Inti-Osiris.Inti-Osiris.Inti-Osiris
+		Isesi-ankh-Ptah.Isesi-ankh-Ptah.Isesi-ankh-Ptah.Isesi-ankh-Ptah
+		Isesi-Ra.Isesi-Ra.Isesi-Ra.Isesi-Ra
+		Inkaef-Set.Inkaef-Set.Inkaef-Set.Inkaef-Set
+		Isu-Shu.Isu-Shu.Isu-Shu.Isu-Shu
+		Itisen-Sobek.Itisen-Sobek.Itisen-Sobek.Itisen-Sobek
+		Itu-Sopdu.Itu-Sopdu.Itu-Sopdu.Itu-Sopdu
+		Iunmin-Wadj-wer.Iunmin-Wadj-wer.Iunmin-Wadj-wer.Iunmin-Wadj-wer
+		Iunre-Amunet.Iunre-Amunet.Iunre-Amunet.Iunre-Amunet
+		Iynefer-Anuket.Iynefer-Anuket.Iynefer-Anuket.Iynefer-Anuket
+		Imhotep-Bastet.Imhotep-Bastet.Imhotep-Bastet.Imhotep-Bastet
+		Iry-Hor-Bat.Iry-Hor-Bat.Iry-Hor-Bat.Iry-Hor-Bat
+		Iuwelot-Hathor.Iuwelot-Hathor.Iuwelot-Hathor.Iuwelot-Hathor
+		Intef-Heqet.Intef-Heqet.Intef-Heqet.Intef-Heqet
+		Imyrwemeshaw-Hesat.Imyrwemeshaw-Hesat.Imyrwemeshaw-Hesat.Imyrwemeshaw-Hesat
+		Inaros-Imentet.Inaros-Imentet.Inaros-Imentet.Inaros-Imentet
+		Psamtik-Isis.Psamtik-Isis.Psamtik-Isis.Psamtik-Isis
+		Ibiaw-Maat.Ibiaw-Maat.Ibiaw-Maat.Ibiaw-Maat
+		Menkheperre-Menhit.Menkheperre-Menhit.Menkheperre-Menhit.Menkheperre-Menhit
+		Ini-Mut.Ini-Mut.Ini-Mut.Ini-Mut
+		Menkheperre-Neith.Menkheperre-Neith.Menkheperre-Neith.Menkheperre-Neith
+		Nebet-Nekbhet.Nebet-Nekbhet.Nebet-Nekbhet.Nebet-Nekbhet
+		Khayu-Nephthys.Khayu-Nephthys.Khayu-Nephthys.Khayu-Nephthys
+		Khnumhotep-Nepit.Khnumhotep-Nepit.Khnumhotep-Nepit.Khnumhotep-Nepit
+		Kaaper-Nut.Kaaper-Nut.Kaaper-Nut.Kaaper-Nut
+		Khety-Pakhet.Khety-Pakhet.Khety-Pakhet.Khety-Pakhet
+		Kheti-Renenutet.Kheti-Renenutet.Kheti-Renenutet.Kheti-Renenutet
+		Khui-Satet.Khui-Satet.Khui-Satet.Khui-Satet
+		Kagemni-Sekhmet.Kagemni-Sekhmet.Kagemni-Sekhmet.Kagemni-Sekhmet
+		Kaemqed-Tefnut.Kaemqed-Tefnut.Kaemqed-Tefnut.Kaemqed-Tefnut
+		Kaemsekhem-Wadjet.Kaemsekhem-Wadjet.Kaemsekhem-Wadjet.Kaemsekhem-Wadjet
+		Kakhent-Wosret.Kakhent-Wosret.Kakhent-Wosret.Kakhent-Wosret
+		Kanefer-Aker.Kanefer-Aker.Kanefer-Aker.Kanefer-Aker
+		Kawab-Amun.Kawab-Amun.Kawab-Amun.Kawab-Amun
+		Khafra-Anhur.Khafra-Anhur.Khafra-Anhur.Khafra-Anhur
+		Khentimeresh-Aten.Khentimeresh-Aten.Khentimeresh-Aten.Khentimeresh-Aten
+		Khufu-Atum.Khufu-Atum.Khufu-Atum.Khufu-Atum
+		Khufukhaf-Bennu.Khufukhaf-Bennu.Khufukhaf-Bennu.Khufukhaf-Bennu
+		Khaba-Geb.Khaba-Geb.Khaba-Geb.Khaba-Geb
+		Khasekhemwy-Hapi.Khasekhemwy-Hapi.Khasekhemwy-Hapi.Khasekhemwy-Hapi
+		Khenthap-Horus.Khenthap-Horus.Khenthap-Horus.Khenthap-Horus
+		Ka-Khepri.Ka-Khepri.Ka-Khepri.Ka-Khepri
+		Khabaw-Khnum.Khabaw-Khnum.Khabaw-Khnum.Khabaw-Khnum
+		Khaemweset-Khonsu.Khaemweset-Khonsu.Khaemweset-Khonsu.Khaemweset-Khonsu
+		Khyan-Maahes.Khyan-Maahes.Khyan-Maahes.Khyan-Maahes
+		Khendjer-Nemty.Khendjer-Nemty.Khendjer-Nemty.Khendjer-Nemty
+		Userkare-Nefertum.Userkare-Nefertum.Userkare-Nefertum.Userkare-Nefertum
+		Khamwaset-Neper.Khamwaset-Neper.Khamwaset-Neper.Khamwaset-Neper
+		Khabekhnet-Osiris.Khabekhnet-Osiris.Khabekhnet-Osiris.Khabekhnet-Osiris
+		Khaemtir-Ptah.Khaemtir-Ptah.Khaemtir-Ptah.Khaemtir-Ptah
+		Kheti-Ra.Kheti-Ra.Kheti-Ra.Kheti-Ra
+		Kashta-Set.Kashta-Set.Kashta-Set.Kashta-Set
+		Khawy-Shu.Khawy-Shu.Khawy-Shu.Khawy-Shu
+		Khay-Sobek.Khay-Sobek.Khay-Sobek.Khay-Sobek
+		Khamudi-Sopdu.Khamudi-Sopdu.Khamudi-Sopdu.Khamudi-Sopdu
+		Kamose-Wadj-wer.Kamose-Wadj-wer.Kamose-Wadj-wer.Kamose-Wadj-wer
+		Khabash-Amunet.Khabash-Amunet.Khabash-Amunet.Khabash-Amunet
+		Khuiqer-Anuket.Khuiqer-Anuket.Khuiqer-Anuket.Khuiqer-Anuket
+		Meni-Bastet.Meni-Bastet.Meni-Bastet.Meni-Bastet
+		Mentuherkhophef-Bat.Mentuherkhophef-Bat.Mentuherkhophef-Bat.Mentuherkhophef-Bat
+		Mahu-Hathor.Mahu-Hathor.Mahu-Hathor.Mahu-Hathor
+		Mentuhotep-Heqet.Mentuhotep-Heqet.Mentuhotep-Heqet.Mentuhotep-Heqet
+		Nebhepetre-Hesat.Nebhepetre-Hesat.Nebhepetre-Hesat.Nebhepetre-Hesat
+		Meketre-Imentet.Meketre-Imentet.Meketre-Imentet.Meketre-Imentet
+		Merikare-Isis.Merikare-Isis.Merikare-Isis.Merikare-Isis
+		Meru-Maat.Meru-Maat.Meru-Maat.Meru-Maat
+		Mentuhotep-Menhit.Mentuhotep-Menhit.Mentuhotep-Menhit.Mentuhotep-Menhit
+		Minkhaf-Mut.Minkhaf-Mut.Minkhaf-Mut.Minkhaf-Mut
+		Merit-Ptah-Neith.Merit-Ptah-Neith.Merit-Ptah-Neith.Merit-Ptah-Neith
+		Mentuhotepi-Nekbhet.Mentuhotepi-Nekbhet.Mentuhotepi-Nekbhet.Mentuhotepi-Nekbhet
+		Mesehti-Nephthys.Mesehti-Nephthys.Mesehti-Nephthys.Mesehti-Nephthys
+		Muthis-Nepit.Muthis-Nepit.Muthis-Nepit.Muthis-Nepit
+		Mesen-ka-Nut.Mesen-ka-Nut.Mesen-ka-Nut.Mesen-ka-Nut
+		Minmose-Pakhet.Minmose-Pakhet.Minmose-Pakhet.Minmose-Pakhet
+		Maya-Renenutet.Maya-Renenutet.Maya-Renenutet.Maya-Renenutet
+		Merysekhmet-Satet.Merysekhmet-Satet.Merysekhmet-Satet.Merysekhmet-Satet
+		Merneptah-Tefnut.Merneptah-Tefnut.Merneptah-Tefnut.Merneptah-Tefnut
+		Masaharta-Wadjet.Masaharta-Wadjet.Masaharta-Wadjet.Masaharta-Wadjet
+		Meryatum-Wosret.Meryatum-Wosret.Meryatum-Wosret.Meryatum-Wosret
+		Merenptah-Aker.Merenptah-Aker.Merenptah-Aker.Merenptah-Aker
+		Merymose-Amun.Merymose-Amun.Merymose-Amun.Merymose-Amun
+		Meryre-Anhur.Meryre-Anhur.Meryre-Anhur.Meryre-Anhur
+		Nakhthoreb-Aten.Nakhthoreb-Aten.Nakhthoreb-Aten.Nakhthoreb-Aten
+		Nakhtnebef-Atum.Nakhtnebef-Atum.Nakhtnebef-Atum.Nakhtnebef-Atum
+		Nebnuni-Bennu.Nebnuni-Bennu.Nebnuni-Bennu.Nebnuni-Bennu
+		Nebre-Geb.Nebre-Geb.Nebre-Geb.Nebre-Geb
+		Neby-Hapi.Neby-Hapi.Neby-Hapi.Neby-Hapi
+		Nuya-Horus.Nuya-Horus.Nuya-Horus.Nuya-Horus
+		Nebwawy-Khepri.Nebwawy-Khepri.Nebwawy-Khepri.Nebwawy-Khepri
+		Nikare-Khnum.Nikare-Khnum.Nikare-Khnum.Nikare-Khnum
+		Nykara-Khonsu.Nykara-Khonsu.Nykara-Khonsu.Nykara-Khonsu
+		Narmer-Maahes.Narmer-Maahes.Narmer-Maahes.Narmer-Maahes
+		Nedjem-Nemty.Nedjem-Nemty.Nedjem-Nemty.Nedjem-Nemty
+		Nehesy-Nefertum.Nehesy-Nefertum.Nehesy-Nefertum.Nehesy-Nefertum
+		Nekauba-Neper.Nekauba-Neper.Nekauba-Neper.Nekauba-Neper
+		Necho-Osiris.Necho-Osiris.Necho-Osiris.Necho-Osiris
+		Neferkare-Ptah.Neferkare-Ptah.Neferkare-Ptah.Neferkare-Ptah
+		Nakhtpaaten-Ra.Nakhtpaaten-Ra.Nakhtpaaten-Ra.Nakhtpaaten-Ra
+		Nectanebo-Set.Nectanebo-Set.Nectanebo-Set.Nectanebo-Set
+		Neferhotep-Shu.Neferhotep-Shu.Neferhotep-Shu.Neferhotep-Shu
+		Nefaarud-Sobek.Nefaarud-Sobek.Nefaarud-Sobek.Nefaarud-Sobek
+		Osorkon-Sopdu.Osorkon-Sopdu.Osorkon-Sopdu.Osorkon-Sopdu
+		Qa_a-Wadj-wer.Qa_a-Wadj-wer.Qa_a-Wadj-wer.Qa_a-Wadj-wer
+		Qakare-Amunet.Qakare-Amunet.Qakare-Amunet.Qakare-Amunet
+		QakareIbi-Anuket.QakareIbi-Anuket.QakareIbi-Anuket.QakareIbi-Anuket
+		QakareIni-Bastet.QakareIni-Bastet.QakareIni-Bastet.QakareIni-Bastet
+		Qareh-Bat.Qareh-Bat.Qareh-Bat.Qareh-Bat
+		Qar-Hathor.Qar-Hathor.Qar-Hathor.Qar-Hathor
+		Qen-Heqet.Qen-Heqet.Qen-Heqet.Qen-Heqet
+		Qenna-Hesat.Qenna-Hesat.Qenna-Hesat.Qenna-Hesat
+		Unas-Isis.Unas-Isis.Unas-Isis.Unas-Isis
+		Useramen-Maat.Useramen-Maat.Useramen-Maat.Useramen-Maat
+		Userhet-Menhit.Userhet-Menhit.Userhet-Menhit.Userhet-Menhit
+		Userkaf-Mut.Userkaf-Mut.Userkaf-Mut.Userkaf-Mut
+		Userkare-Neith.Userkare-Neith.Userkare-Neith.Userkare-Neith
+		Usermontu-Nekbhet.Usermontu-Nekbhet.Usermontu-Nekbhet.Usermontu-Nekbhet
+		Yanhamu-Nephthys.Yanhamu-Nephthys.Yanhamu-Nephthys.Yanhamu-Nephthys
+		Yuny-Nepit.Yuny-Nepit.Yuny-Nepit.Yuny-Nepit
+		Yuya-Nut.Yuya-Nut.Yuya-Nut.Yuya-Nut
+		Yuyu-Pakhet.Yuyu-Pakhet.Yuyu-Pakhet.Yuyu-Pakhet
+		Wadjmose-Renenutet.Wadjmose-Renenutet.Wadjmose-Renenutet.Wadjmose-Renenutet
+		Wadjitefni-Satet.Wadjitefni-Satet.Wadjitefni-Satet.Wadjitefni-Satet
+		Wahibre-Tefnut.Wahibre-Tefnut.Wahibre-Tefnut.Wahibre-Tefnut
+		Ibiau-Wadjet.Ibiau-Wadjet.Ibiau-Wadjet.Ibiau-Wadjet
+		Wakhare-Wosret.Wakhare-Wosret.Wakhare-Wosret.Wakhare-Wosret
+		Wakhare Khety-Aker.Wakhare Khety-Aker.Wakhare Khety-Aker.Wakhare Khety-Aker
+		Webensenu-Amun.Webensenu-Amun.Webensenu-Amun.Webensenu-Amun
+		Wegaf-Anhur.Wegaf-Anhur.Wegaf-Anhur.Wegaf-Anhur
+		Wegaf Khutawyre-Aten.Wegaf Khutawyre-Aten.Wegaf Khutawyre-Aten.Wegaf Khutawyre-Aten
+		Khutawyre-Atum.Khutawyre-Atum.Khutawyre-Atum.Khutawyre-Atum
+		Wehemka-Bennu.Wehemka-Bennu.Wehemka-Bennu.Wehemka-Bennu
+		Weneg-Geb.Weneg-Geb.Weneg-Geb.Weneg-Geb
+		Weni-Hapi.Weni-Hapi.Weni-Hapi.Weni-Hapi
+		Wentawet-Horus.Wentawet-Horus.Wentawet-Horus.Wentawet-Horus
+		Wetka-Khepri.Wetka-Khepri.Wetka-Khepri.Wetka-Khepri
+		Wazad-Khnum.Wazad-Khnum.Wazad-Khnum.Wazad-Khnum
+		Wenennefer-Khonsu.Wenennefer-Khonsu.Wenennefer-Khonsu.Wenennefer-Khonsu
+		Teti-Nemty.Teti-Nemty.Teti-Nemty.Teti-Nemty
+		Tjahapimu-Nefertum.Tjahapimu-Nefertum.Tjahapimu-Nefertum.Tjahapimu-Nefertum
+		Tutu-Neper.Tutu-Neper.Tutu-Neper.Tutu-Neper
+		Tefibi-Osiris.Tefibi-Osiris.Tefibi-Osiris.Tefibi-Osiris
+		Teta-Ptah.Teta-Ptah.Teta-Ptah.Teta-Ptah
+		Tefnakht-Ra.Tefnakht-Ra.Tefnakht-Ra.Tefnakht-Ra
+		Tutkheperre-Set.Tutkheperre-Set.Tutkheperre-Set.Tutkheperre-Set
+		Shosqenq-Shu.Shosqenq-Shu.Shosqenq-Shu.Shosqenq-Shu
+		Tutkheperre Soshenq-Sobek.Tutkheperre Soshenq-Sobek.Tutkheperre Soshenq-Sobek.Tutkheperre Soshenq-Sobek
+		Teos-Sopdu.Teos-Sopdu.Teos-Sopdu.Teos-Sopdu
+		Thutmose-Wadj-wer.Thutmose-Wadj-wer.Thutmose-Wadj-wer.Thutmose-Wadj-wer
+		Talakhamani-Amunet.Talakhamani-Amunet.Talakhamani-Amunet.Talakhamani-Amunet
+		Seqenenre-Anuket.Seqenenre-Anuket.Seqenenre-Anuket.Seqenenre-Anuket
+		Seqenenre Tao-Bastet.Seqenenre Tao-Bastet.Seqenenre Tao-Bastet.Seqenenre Tao-Bastet
+		Tao-Bat.Tao-Bat.Tao-Bat.Tao-Bat
+		Tantamani-Hathor.Tantamani-Hathor.Tantamani-Hathor.Tantamani-Hathor
+		Taharqa-Heqet.Taharqa-Heqet.Taharqa-Heqet.Taharqa-Heqet
+		Raemka-Hesat.Raemka-Hesat.Raemka-Hesat.Raemka-Hesat
+		Raherka-Imentet.Raherka-Imentet.Raherka-Imentet.Raherka-Imentet
+		Rahotep-Isis.Rahotep-Isis.Rahotep-Isis.Rahotep-Isis
+		Menpehtyre-Menhit.Menpehtyre-Menhit.Menpehtyre-Menhit.Menpehtyre-Menhit
+		Usimare-Mut.Usimare-Mut.Usimare-Mut.Usimare-Mut
+		Heqamaatre-Neith.Heqamaatre-Neith.Heqamaatre-Neith.Heqamaatre-Neith
+		Sekhepenre-Nekbhet.Sekhepenre-Nekbhet.Sekhepenre-Nekbhet.Sekhepenre-Nekbhet
+		Akhenamun-Nephthys.Akhenamun-Nephthys.Akhenamun-Nephthys.Akhenamun-Nephthys
+		Khepermare-Nepit.Khepermare-Nepit.Khepermare-Nepit.Khepermare-Nepit
+		Ramose-Nut.Ramose-Nut.Ramose-Nut.Ramose-Nut
+		Raneb-Pakhet.Raneb-Pakhet.Raneb-Pakhet.Raneb-Pakhet
+		Rashepses-Renenutet.Rashepses-Renenutet.Rashepses-Renenutet.Rashepses-Renenutet
+		Rehuerdjersen-Satet.Rehuerdjersen-Satet.Rehuerdjersen-Satet.Rehuerdjersen-Satet
+		Rawer-Sekhmet.Rawer-Sekhmet.Rawer-Sekhmet.Rawer-Sekhmet
+		Rekhmire-Tefnut.Rekhmire-Tefnut.Rekhmire-Tefnut.Rekhmire-Tefnut
+		Renseneb-Wadjet.Renseneb-Wadjet.Renseneb-Wadjet.Renseneb-Wadjet
+		Rudamun-Wosret.Rudamun-Wosret.Rudamun-Wosret.Rudamun-Wosret
+		Setepenamun-Aker.Setepenamun-Aker.Setepenamun-Aker.Setepenamun-Aker
+		Usermaatre-Setepenamun.Usermaatre-Setepenamun.Usermaatre-Setepenamun.Usermaatre-Setepenamun
+		Meryamun-Amun.Meryamun-Amun.Meryamun-Amun.Meryamun-Amun
+		Usermaatre-Anhur.Usermaatre-Anhur.Usermaatre-Anhur.Usermaatre-Anhur
+		Sabef-Aten.Sabef-Aten.Sabef-Aten.Sabef-Aten
+		Sabni-Atum.Sabni-Atum.Sabni-Atum.Sabni-Atum
+		Sabu-Bennu.Sabu-Bennu.Sabu-Bennu.Sabu-Bennu
+		Ibebi-Geb.Ibebi-Geb.Ibebi-Geb.Ibebi-Geb
+		Thety-Hapi.Thety-Hapi.Thety-Hapi.Thety-Hapi
+		Saure-Horus.Saure-Horus.Saure-Horus.Saure-Horus
+		Salitis-Khepri.Salitis-Khepri.Salitis-Khepri.Salitis-Khepri
+		Sebkay-Khnum.Sebkay-Khnum.Sebkay-Khnum.Sebkay-Khnum
+		Segerseni-Khonsu.Segerseni-Khonsu.Segerseni-Khonsu.Segerseni-Khonsu
+		Sehebre-Maahes.Sehebre-Maahes.Sehebre-Maahes.Sehebre-Maahes
+		Sehetepre-Nemty.Sehetepre-Nemty.Sehetepre-Nemty.Sehetepre-Nemty
+		Perenmaat-Nefertum.Perenmaat-Nefertum.Perenmaat-Nefertum.Perenmaat-Nefertum
+		Sekhemib-Neper.Sekhemib-Neper.Sekhemib-Neper.Sekhemib-Neper
+		Sekhemib-Perenmaat-Osiris.Sekhemib-Perenmaat-Osiris.Sekhemib-Perenmaat-Osiris.Sekhemib-Perenmaat-Osiris
+		Sobekhotep-Ptah.Sobekhotep-Ptah.Sobekhotep-Ptah.Sobekhotep-Ptah
+		Seneb-Ra.Seneb-Ra.Seneb-Ra.Seneb-Ra
+		Senebhenaf-Set.Senebhenaf-Set.Senebhenaf-Set.Senebhenaf-Set
+		Sennedjem-Shu.Sennedjem-Shu.Sennedjem-Shu.Sennedjem-Shu
+		Sennefer-Sobek.Sennefer-Sobek.Sennefer-Sobek.Sennefer-Sobek
+		Senneferi-Sopdu.Senneferi-Sopdu.Senneferi-Sopdu.Senneferi-Sopdu
+		Senusret-Wadj-wer.Senusret-Wadj-wer.Senusret-Wadj-wer.Senusret-Wadj-wer
+		Seti-Amunet.Seti-Amunet.Seti-Amunet.Seti-Amunet
+		Seth-Peribsen-Anuket.Seth-Peribsen-Anuket.Seth-Peribsen-Anuket.Seth-Peribsen-Anuket
+		Seth-Bastet.Seth-Bastet.Seth-Bastet.Seth-Bastet
+		Peribsen-Bat.Peribsen-Bat.Peribsen-Bat.Peribsen-Bat
+		Setepenre-Hathor.Setepenre-Hathor.Setepenre-Hathor.Setepenre-Hathor
+		Setau-Heqet.Setau-Heqet.Setau-Heqet.Setau-Heqet
+		Sesheshet-Hesat.Sesheshet-Hesat.Sesheshet-Hesat.Sesheshet-Hesat
+		Serfka-Imentet.Serfka-Imentet.Serfka-Imentet.Serfka-Imentet
+		Menmaatre-Isis.Menmaatre-Isis.Menmaatre-Isis.Menmaatre-Isis
+		Userkeperure-Maat.Userkeperure-Maat.Userkeperure-Maat.Userkeperure-Maat
+		Setepenre-Menhit.Setepenre-Menhit.Setepenre-Menhit.Setepenre-Menhit
+		Setut-Mut.Setut-Mut.Setut-Mut.Setut-Mut
+		Sewadjkare-Neith.Sewadjkare-Neith.Sewadjkare-Neith.Sewadjkare-Neith
+		Hori-Nekbhet.Hori-Nekbhet.Hori-Nekbhet.Hori-Nekbhet
+		Shabaka-Nephthys.Shabaka-Nephthys.Shabaka-Nephthys.Shabaka-Nephthys
+		Neferkare-Nepit.Neferkare-Nepit.Neferkare-Nepit.Neferkare-Nepit
+		Sharek-Nut.Sharek-Nut.Sharek-Nut.Sharek-Nut
+		Shebitku-Pakhet.Shebitku-Pakhet.Shebitku-Pakhet.Shebitku-Pakhet
+		Shepenupet-Renenutet.Shepenupet-Renenutet.Shepenupet-Renenutet.Shepenupet-Renenutet
+		Shepseska-Satet.Shepseska-Satet.Shepseska-Satet.Shepseska-Satet
+		Shery-Sekhmet.Shery-Sekhmet.Shery-Sekhmet.Shery-Sekhmet
+		Sheshi-Tefnut.Sheshi-Tefnut.Sheshi-Tefnut.Sheshi-Tefnut
+		Sheshi Maaibre-Wadjet.Sheshi Maaibre-Wadjet.Sheshi Maaibre-Wadjet.Sheshi Maaibre-Wadjet
+		Maaibre-Wosret.Maaibre-Wosret.Maaibre-Wosret.Maaibre-Wosret
+		Sneferukhaf-Aker.Sneferukhaf-Aker.Sneferukhaf-Aker.Sneferukhaf-Aker
+		Sobekemhat-Amun.Sobekemhat-Amun.Sobekemhat-Amun.Sobekemhat-Amun
+		Sonbef-Anhur.Sonbef-Anhur.Sonbef-Anhur.Sonbef-Anhur
+		Sobekneferu-Aten.Sobekneferu-Aten.Sobekneferu-Aten.Sobekneferu-Aten
+		Sobeknakht-Atum.Sobeknakht-Atum.Sobeknakht-Atum.Sobeknakht-Atum
+		Merkawre-Bennu.Merkawre-Bennu.Merkawre-Bennu.Merkawre-Bennu
+
+	}
+
+	culture = {
+		upper_kemetic = {} #Upper Kemetic
+		middle_kemetic = {} #Middle Kemetic
+		lower_kemetic = {} #Lower Kemetic
+		desert_kemetic = {} #Deshretic
+	}
+	
+	barbarian_names = { GARAMANTES NASSAMONES ASBYSTAE ADYRMACHIDAE GILLIGAMAE AUSCHISAE TROGLODYTAE PSYLLI LAGUATANI MESHWESH }
+	
+	graphical_culture = egyptian_gfx
+	
+	ethnicities = {
+		10 = north_african
+	}
+}

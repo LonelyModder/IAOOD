@@ -1,0 +1,91 @@
+﻿country_decisions = {
+		
+	# Form Libya
+	form_libuland = {
+		
+		potential = {
+			OR = {
+				primary_culture = abystaic
+				primary_culture = psylli
+				primary_culture = gilgamaic
+				primary_culture = libi
+				primary_culture = nessamones
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XLL
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5514
+					province_id = 5523
+					province_id = 5534
+					province_id = 3353
+					province_id = 3360
+					province_id = 5537
+					province_id = 5504
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = libuland_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XLL
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 5514
+			owns = 5523
+			owns = 5534
+			owns = 3353
+			owns = 3360
+			owns = 5537
+			owns = 5504
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "libuland_Name"
+			change_country_flag = libuland_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "libuland_ADJ"
+				change_country_color =  "libuland_color"
+				change_country_tag = XLL
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

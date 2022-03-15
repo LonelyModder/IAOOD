@@ -1,0 +1,148 @@
+﻿dravidic_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = mauryan_mauryas_path_2
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = dravidic }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = dravidic
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:dravidic
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:dravidic
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_dravidic"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:dravidic	
+				}
+			}
+		}
+	}
+	
+	dravidic_path_1 = { ###dravidic path
+		modifier = { 
+			light_swordsmen_offensive = 0.1
+			light_swordsmen_defensive = 0.05
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {}
+	}
+	
+	dravidic_path_2 = { ###dravidic path
+		modifier = { 
+			jungle_combat_bonus = 0.4
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_1}
+	}
+	
+	dravidic_path_2a = { ###dravidic path
+		modifier = { 
+			missile_spearthrowers_offensive = 0.1
+			missile_spearthrowers_defensive = 0.05
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_2}
+	}
+	
+	dravidic_path_3a = { ###dravidic path
+		modifier = { 
+			elephant_indian_morale = 0.15
+			elephant_indian_offensive = 0.15
+			elephant_indian_defensive = 0.15
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_2a}
+	}
+	
+	dravidic_path_4a = { ###dravidic path
+		modifier = { 
+			light_spearmen_defensive = 0.05
+			light_spearmen_offensive = 0.1
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_3a}
+	}
+	
+	dravidic_path_5a = { ###dravidic path
+		modifier = { 
+			levy_size_multiplier = 0.025
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_4a}
+	}
+	
+	dravidic_path_2b = { ###dravidic path
+		modifier = { 
+			naval_unit_attrition = -0.5
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_2}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				order_by = total_population
+				max = 2
+				check_range_bounds = no
+				add_building_level = port_building
+			}
+		}
+	}
+	
+	dravidic_path_3b = { ###dravidic path
+		modifier = { 
+			navy_maintenance_cost = -0.25
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_2b}
+	}
+	
+	dravidic_path_4b = { ###dravidic path
+		modifier = { 
+			naval_morale_recovery = 0.25
+			global_commerce_modifier = 0.15
+		}
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_3b}
+	}
+	
+	dravidic_path_5b = { ###dravidic path
+		modifier = { 
+			ocean_combat_bonus = 0.2
+			global_capital_trade_routes = 1 
+		}
+		allow_unit_type = octere
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_4b}
+	}
+	
+	dravidic_path_end_bonus = { ###dravidic path
+		modifier = { 
+			navy_movement_speed = 0.3
+		}
+		allow_unit_type = mega_galley
+		icon = mauryan_mauryas_path_2
+		requires = {dravidic_path_5a dravidic_path_5b}
+	}
+}

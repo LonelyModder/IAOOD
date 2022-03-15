@@ -1,0 +1,143 @@
+﻿#Tigris
+7710=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7711=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7712=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7713=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7714=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7715=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7716=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Euphrates
+7717=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Euphrates
+7718=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Euphrates
+7719=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Euphrates
+7720=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Euphrates
+7721=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}
+#Tigris
+7722=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="riverine_terrain"
+	trade_goods=""
+}

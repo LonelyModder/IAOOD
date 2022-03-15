@@ -1,0 +1,360 @@
+﻿kemetic_pantheon = { # Egyptian Faith
+	color = hsv { 0.15  1  0.7 }
+	modifier = { 
+		ruler_popularity_gain = 0.05
+		global_building_slot = 1
+		global_pop_conversion_speed_modifier = -0.15
+	}
+	religion_category = pantheon
+}
+
+libyan_pantheon = { # Libu Faith
+	color = hsv { 0.05  0.5  0.4 }
+	modifier = { 
+		agressive_expansion_impact = -0.05
+		global_manpower_modifier = 0.1
+		character_loyalty = -0.1
+	}
+	religion_category = pantheon
+}
+
+judahic = { # Yahwic
+	color = hsv { 0.86 0.16 0.96 }
+	modifier = { 
+		research_points_modifier = 0.05
+		omen_power = 0.25
+		global_pop_assimilation_speed_modifier = -0.2
+	}
+	religion_category = pantheon
+	can_deify_ruler = no
+}
+
+canaanitic_pantheon = { # Caananite
+	color = hsv { 0.75 0.9 0.73 }
+	modifier = { 
+		global_capital_trade_routes = 2
+		control_range_modifier = 0.5
+		levy_size_multiplier = -0.1
+	}
+	religion_category = pantheon
+}
+
+arabian_pantheon = { # Arabs
+	color = hsv { 0.28 0.95 1 }
+	modifier = { 
+		global_commerce_modifier = 0.2
+		global_tribesmen_happyness = 0.2
+		diplomatic_reputation = -3
+	}
+	religion_category = pantheon
+}
+
+anunnaki_pantheon = { # Mesopotamian 
+	color = hsv { 0.99 0.1 0.11 }
+	modifier = { 
+		levy_size_multiplier = 0.025
+		land_morale_modifier = 0.1
+		subject_loyalty = -0.25
+	}
+	religion_category = pantheon
+}
+
+grecoid_pantheon = { # Hellenic gods 
+	color = hsv { 0.57 0.77 0.96 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.15
+		monthly_political_influence = 0.2
+		happiness_for_wrong_culture_modifier = -0.1
+	}
+	religion_category = pantheon
+}
+
+villanic_pantheon = { # Villanovan gods 
+	color = hsv { 0.23 0.79 0.55 }
+	modifier = { 
+		global_monthly_civilization = 0.05
+		global_capital_trade_routes = 2
+		diplomatic_reputation = -1
+	}
+	religion_category = pantheon
+}
+
+hurrian_pantheon = { # Mittani gods 
+	color = hsv { 0.33 0.46 0.63 }
+	modifier = { 
+		improve_relation_impact = 0.25
+		diplomatic_relations = 2
+		stability_cost_modifier = 0.1
+	}
+	religion_category = pantheon
+}
+
+kassite_pantheon = { # Kassite gods 
+	color = hsv { 0.9 1 0.81 }
+	modifier = { 
+		stability_monthly_change = 0.025
+		stability_monthly_decay = -0.05
+		levy_size_multiplier = -0.1
+	}
+	religion_category = pantheon
+}
+
+elamite_pantheon = { # Elamite gods 
+	color = hsv { 0.9 0.55 0.56 }
+	modifier = { 
+		monthly_legitimacy = 0.05
+		global_monthly_state_loyalty = 0.025
+		diplomatic_reputation = -1
+	}
+	religion_category = pantheon
+}
+
+caucasic_pantheon = { # Caucasus gods 
+	color = hsv { 0.12 0.45 0.68 }
+	modifier = { 
+		global_population_happiness = 0.05
+		global_defensive = 0.2
+		global_tax_modifier = -0.1
+	}
+	religion_category = pantheon
+}
+
+armenic_pantheon = { # Armenian gods 
+	color = hsv { 0.04 0.50 0.58 }
+	modifier = { 
+		happiness_for_same_culture_modifier = 0.05
+		happiness_for_same_religion_modifier = 0.05
+		global_pop_assimilation_speed_modifier = -0.2
+	}
+	religion_category = pantheon
+}
+
+protoiranian_pantheon = { # Pre Zoroaster gods 
+	color = hsv { 0.68 0.86 0.63 }
+	modifier = { 
+		happiness_for_wrong_culture_group_modifier = 0.05
+		happiness_for_wrong_culture_modifier = 0.05
+		discipline = -0.05
+	}
+	religion_category = pantheon
+}
+
+nuragian_pantheon = { # Nuragic gods 
+	color = hsv { 0.2  0.25  0.5 }
+	modifier = { 
+		land_morale_modifier = 0.1
+		global_capital_trade_routes = 2
+		global_pop_assimilation_speed_modifier = -0.2
+	}
+	religion_category = pantheon
+}
+
+ethiopian_pantheon = { # Nubian gods 
+	color = hsv { 0.15  0.4  0.6 }
+	modifier = { 
+		agressive_expansion_monthly_change = -0.025
+		monthly_tyranny = -0.025
+		research_points_modifier = -0.05
+	}
+	religion_category = pantheon
+}
+
+scythic_pantheon = { # Nomadic gods 
+	color = hsv { 0.2 0.32 0.55 }
+	modifier = { 
+		agressive_expansion_impact = -0.1
+		land_morale_modifier = 0.2
+		diplomatic_relations = -2
+	}
+	religion_category = pantheon
+}
+
+luwic_pantheon = { # Luwian gods 
+	color = hsv { 0.06 0.9 0.84 }
+	modifier = { 
+		diplomatic_reputation = 3
+		diplomatic_relations = 2
+		agressive_expansion_impact = 0.05
+	}
+	religion_category = pantheon
+}
+
+thracic_pantheon = { # Phrygian gods 
+	color = hsv { 0.0 0.5 1.0 }
+	modifier = { 
+		war_exhaustion = -0.025
+		fabricate_claim_speed = 0.5
+		omen_duration = -0.2
+	}
+	religion_category = pantheon
+}
+
+harrapan_pantheon = { # Dravidan gods
+	color = hsv { 0.09 0.73 0.56 }
+	modifier = { 
+		global_population_growth = 0.04
+		global_tribesmen_happyness = 0.05
+		land_morale_modifier = -0.1
+	}
+	religion_category = pantheon
+}
+
+illyric_pantheon = { # Illyrian gods
+	color = hsv { 0.4 0.4 0.4 }
+	modifier = { 
+		naval_morale_modifier = 0.1
+		navy_maintenance_cost = -0.25
+		omen_power = -0.20
+	}
+	religion_category = pantheon
+}
+
+tibetic_pantheon = { # Tibetan gods
+	color = hsv { 0.93 0.89 0.81 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.15
+		happiness_for_same_religion_modifier = 0.05
+		agressive_expansion_impact = 0.05
+	}
+	religion_category = pantheon
+}
+
+tocharic_pantheon = { # Tocharian gods
+	color = hsv { 0.03 0.7 0.7 }
+	modifier = { 
+		global_capital_trade_routes = 2
+		global_monthly_food_modifier = 0.1
+		diplomatic_relations = -2
+	}
+	religion_category = pantheon
+}
+
+vedic_pantheon = { # Vedic gods
+	color = hsv { 0.09 0.95 0.92 }
+	modifier = { 
+		global_population_growth = 0.04
+		global_population_capacity_modifier = 0.2
+		global_pop_promotion_speed_modifier = -0.2
+	}
+	religion_category = pantheon
+}
+
+totemic_pantheon = { # Sri Lankan gods
+	color = hsv { 0.30 0 0.58 }
+	modifier = { 
+		global_start_experience = 5
+		land_morale_modifier = 0.1
+		omen_power = -0.2
+	}
+	religion_category = pantheon
+}
+
+burmese_pantheon = { # Nats
+	color = hsv { 0.07 1 1 }
+	modifier = { 
+		monthly_tyranny = -0.025
+		omen_power = 0.2
+		call_omen_cost_modifier = 0.2
+	}
+	religion_category = pantheon
+}
+
+italiotan_pantheon = { # Italian gods
+	color = hsv { 1 1 1 }
+	modifier = { 
+		war_score_cost = -0.2
+		global_manpower_modifier = 0.2
+		diplomatic_reputation = -3
+	}
+	religion_category = pantheon
+}
+
+iberic_pantheon = { # Iberian gods
+	color = hsv { 0.07 1.0 1.0 }
+	modifier = { 
+		global_commerce_modifier = 0.15
+		global_defensive = 0.12
+		agressive_expansion_impact = 0.1
+	}
+	religion_category = pantheon
+}
+
+celtic_pantheon = { # Celtic gods
+	color = hsv { 0.3 0.7 0.4 }
+	modifier = { 
+		agressive_expansion_monthly_change = -0.04
+		land_morale_modifier = 0.1
+		global_monthly_state_loyalty = -0.025
+	}
+	religion_category = pantheon
+}
+
+liguric_pantheon = { # Ligurian gods
+	color = hsv { 0.92 0.83 0.95 }
+	modifier = { 
+		experience_decay = -0.005
+		global_tribesmen_output = 0.2
+		global_pop_conversion_speed_modifier = -0.05
+	}
+	religion_category = pantheon
+}
+
+bakeric_pantheon = { # Lusitanian gods
+	color = hsv { 0.47 0.76 0.80 }
+	modifier = { 
+		global_capital_trade_routes = 2
+		happiness_for_wrong_culture_group_modifier = 0.05
+		global_pop_assimilation_speed_modifier = -0.05
+	}
+	religion_category = pantheon
+}
+
+bosque_pantheon = { # Vasconic gods
+	color = hsv { 1 0.95 0.46 }
+	modifier = { 
+		global_defensive = 0.12
+		hostile_attrition = 2
+		land_morale_modifier = -0.1
+	}
+	religion_category = pantheon
+}
+
+bosutan_pantheon = { # North Illyrian gods
+	color = hsv { 0.93 0.97 0.88 }
+	modifier = { 
+		navy_maintenance_cost = -0.25
+		naval_morale_modifier = 0.1
+		land_morale_modifier = -0.1
+	}
+	religion_category = pantheon
+}
+
+chaosgods_pantheon = { # Germanic gods
+	color = hsv { 0.05 0.7 0.3 }
+	modifier = { 
+		start_migration_cost_modifier = -0.5
+		land_morale_modifier = 0.4
+		character_loyalty = -0.15
+	}
+	religion_category = pantheon
+}
+
+slavic_pantheon = { # Lusatian gods
+	color = hsv { 0.14 0.52 1 }
+	modifier = { 
+		global_population_capacity_modifier = 0.1 ### POPULATION
+		global_population_growth = 0.07
+		stability_cost_modifier = 0.25
+	}
+	religion_category = pantheon
+}
+
+baltic_pantheon = { # Baltic gods
+	color = hsv { 0.57 0.61 0.33 }
+	modifier = { 
+		manpower_recovery_speed = 0.1
+		happiness_for_wrong_culture_group_modifier = 0.05
+		global_tax_modifier = -0.1
+	}
+	religion_category = pantheon
+}

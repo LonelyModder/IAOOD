@@ -1,0 +1,242 @@
+﻿minoic = {	
+	color = hsv { 0.5 0.3 0.5 }
+	levy_template = levy_minoitic
+	
+	primary = missile_archers
+	second = heavy_spearmen
+	flank = chariot_light
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+
+
+	male_names = { #Aegean names by Skotos of Sinope
+		Ageleus Aigeus Aigialeus Aiglapios Aineus Akhilleus Akraipheus Amphiktyon Amyntor Asbetos 
+		Asgelatas Athamas Atreus Atumnios Bliarios Epopeus Erekhtheus Eurystheus Guneus
+		Hephaistos Hypseus Iapetos Idomeneus Kadmos Kaineus Kalydnos Kapaneus Katreus Kekrops 
+		Korythos Labdakos Leonteus Lethos Leukopeus Melanthos Melisseus Membliaros Menestheus 
+		Menoikeus Nanas Narkissos Neleus Nireus Nykteus Odlukeus Oileus Oineus Ophioneus 
+		Orestheus Pandareus Pelasgos Peleus Peparethos Peneus Penthilos Peteus Phereus Phoinikes 
+		Phrastor Phthonos Phyleus Pittakos Prosymnos Proteus Pylaios Rhadamanthys Sisyphos Teutamos 
+		Theseus Thyreus Titaresios Trikorynthos Tydeus Udaeus Xanthos
+	}
+	female_names = {
+		Adrasteia Amaltheia Amathuia Argeia Ariadne Arepuia Bateia Boudeia Daphne Deianira 
+		Demonassa Diktynna Eileithyia Euanthe Europa Euryganeia Euryphaessa Galateia Gello Gorgo 
+		Harpuia Io Iophossa Iphianassa Iphimedeia Kalaureia Kassiopeia Keruneia Keto Khariklo Kythereia 
+		Lasthaneia Lebadeia Leto Manto Mideia Penelopeia Pero Persophoneia Physadeia Pitane Psalakantha 
+		Sappho Semele Skelerdeia Telephassa Tyro
+	}
+	family = {
+		Abale.Abale.Abale.Abale
+		Abna.Abna.Abna.Abna
+		Adrottathe.Adrottathe.Adrottathe.Adrottathe
+		Aiginthos.Aigintha.Aiginthos.Aiginthos
+		Aigurathe.Aigurathe.Aigurathe.Aigurathe
+		Aisurathe.Aisurathe.Aisurathe.Aisurathe
+		Alasarnathe.Alasarnathe.Alasarnathe.Alasarnathe
+		Alikurnathe.Alikurnathe.Alikurnathe.Alikurnathe
+		Allariathe.Allariathe.Allariathe.Allariathe
+		Amarunthathe.Amarunthathe.Amarunthathe.Amarunthathe
+		Amuklanthe.Amuklanthe.Amuklanthe.Amuklanthe
+		Andanathe.Andanathe.Andanathe.Andanathe
+		Apidanathe.Apidanathe.Apidanathe.Apidanathe
+		Aptarathe.Aptarathe.Aptarathe.Aptarathe
+		Aradnethe.Aradnethe.Aradnethe.Aradnethe
+		Arpinathe.Arpinathe.Arpinathe.Arpinathe
+		Asopinthos.Asopintha.Asopinthos.Asopinthos
+		Assorathe.Assorathe.Assorathe.Assorathe
+		Astupalathe.Astupalathe.Astupalathe.Astupalathe
+		Athamale.Athamale.Athamale.Athamale
+		Athamna.Athamna.Athamna.Athamna
+		Aziottenathe.Aziottenathe.Aziottenathe.Aziottenathe
+		Babrantiathe.Babrantiathe.Babrantiathe.Babrantiathe
+		Brugindarathe.Brugindarathe.Brugindarathe.Brugindarathe
+		Babukathe.Babukathe.Babukathe.Babukathe
+		Danapaxathe.Danapaxathe.Danapaxathe.Danapaxathe
+		Danainthos.Danaintha.Danainthos.Danainthos
+		Dandexathe.Dandexathe.Dandexathe.Dandexathe
+		Delanthe.Delanthe.Delanthe.Delanthe
+		Dirpossathe.Dirpossathe.Dirpossathe.Dirpossathe
+		Drakanathe.Drakanathe.Drakanathe.Drakanathe
+		Ekhthas.Ekhthas.Ekhthas.Ekhthas
+		Ekhthina.Ekhthina.Ekhthina.Ekhthina
+		Elurathe.Elurathe.Elurathe.Elurathe
+		Epidaurathe.Epidaurathe.Epidaurathe.Epidaurathe
+		Epopale.Epopale.Epopale.Epopale
+		Epopna.Epopna.Epopna.Epopna
+		Erekhthinthos.Erekhthintha.Erekhthinthos.Erekhthinthos
+		Erumanthe.Erumanthe.Erumanthe.Erumanthe
+		Euripathe.Euripathe.Euripathe.Euripathe
+		Europathe.Europathe.Europathe.Europathe
+		Gortunathe.Gortunathe.Gortunathe.Gortunathe
+		Gunale.Gunale.Gunale.Gunale
+		Gunna.Gunna.Gunna.Gunna
+		Heridanathe.Heridanathe.Heridanathe.Heridanathe
+		Hermonossathe.Hermonossathe.Hermonossathe.Hermonossathe
+		Ialusathe.Ialusathe.Ialusathe.Ialusathe
+		Iardanathe.Iardanathe.Iardanathe.Iardanathe
+		Idomenale.Idomenale.Idomenale.Idomenale
+		Idomenna.Idomenna.Idomenna.Idomenna
+		Inakhinthos.Inakhintha.Inakhinthos.Inakhinthos
+		Kadmale.Kadmale.Kadmale.Kadmale
+		Kadmna.Kadmna.Kadmna.Kadmna
+		Kaduiethe.Kaduiethe.Kaduiethe.Kaduiethe
+		Kairatathe.Kairatathe.Kairatathe.Kairatathe
+		Kaludnathe.Kaludnathe.Kaludnathe.Kaludnathe
+		Kalundathe.Kalundathe.Kalundathe.Kalundathe
+		Kalydna.Kalydna.Kalydna.Kalydna
+		Kalydnale.Kalydnale.Kalydnale.Kalydnale
+		Kamundathe.Kamundathe.Kamundathe.Kamundathe
+		Kandebathe.Kandebathe.Kandebathe.Kandebathe
+		Kantanathe.Kantanathe.Kantanathe.Kantanathe
+		Kapanale.Kapanale.Kapanale.Kapanale
+		Kapanna.Kapanna.Kapanna.Kapanna
+		Kardamulethe.Kardamulethe.Kardamulethe.Kardamulethe
+		Karumaithe.Karumaithe.Karumaithe.Karumaithe
+		Karustathe.Karustathe.Karustathe.Karustathe
+		Kassiopethe.Kassiopethe.Kassiopethe.Kassiopethe
+		Kastabathe.Kastabathe.Kastabathe.Kastabathe
+		Kastaliathe.Kastaliathe.Kastaliathe.Kastaliathe
+		Kattabithe.Kattabithe.Kattabithe.Kattabithe
+		Kedrisathe.Kedrisathe.Kedrisathe.Kedrisathe
+		Kekropale.Kekropale.Kekropale.Kekropale
+		Kekropna.Kekropna.Kekropna.Kekropna
+		Kelousathe.Kelousathe.Kelousathe.Kelousathe
+		Kephisathe.Kephisathe.Kephisathe.Kephisathe
+		Keskorathe.Keskorathe.Keskorathe.Keskorathe
+		Kimolathe.Kimolathe.Kimolathe.Kimolathe
+		Kinduiathe.Kinduiathe.Kinduiathe.Kinduiathe
+		Kissamathe.Kissamathe.Kissamathe.Kissamathe
+		Kogamathe.Kogamathe.Kogamathe.Kogamathe
+		Koinurathe.Koinurathe.Koinurathe.Koinurathe
+		Kollutathe.Kollutathe.Kollutathe.Kollutathe
+		Koropethe.Koropethe.Koropethe.Koropethe
+		Kothokidaithe.Kothokidaithe.Kothokidaithe.Kothokidaithe
+		Krausindathe.Krausindathe.Krausindathe.Krausindathe
+		Kuardathe.Kuardathe.Kuardathe.Kuardathe
+		Kuamathe.Kuamathe.Kuamathe.Kuamathe
+		Kuariathe.Kuariathe.Kuariathe.Kuariathe
+		Kurbasathe.Kurbasathe.Kurbasathe.Kurbasathe
+		Kurtarpaxathe.Kurtarpaxathe.Kurtarpaxathe.Kurtarpaxathe
+		Kuthnathe.Kuthnathe.Kuthnathe.Kuthnathe
+		Labdakale.Labdakale.Labdakale.Labdakale
+		Labdakna.Labdakna.Labdakna.Labdakna
+		Laginaputathe.Laginaputathe.Laginaputathe.Laginaputathe
+		Larumnathe.Larumnathe.Larumnathe.Larumnathe
+		Larisathe.Larisathe.Larisathe.Larisathe
+		Latmathe.Latmathe.Latmathe.Latmathe
+		Lebedathe.Lebedathe.Lebedathe.Lebedathe
+		Lernathe.Lernathe.Lernathe.Lernathe
+		Lethale.Lethale.Lethale.Lethale
+		Lethna.Lethna.Lethna.Lethna
+		Leukopale.Leukopale.LeukopaleLeukopale
+		Leukopna.Leukopna.Leukopna.Leukopna
+		Lorumathe.Lorumathe.Lorumathe.Lorumathe
+		Lukastathe.Lukastathe.Lukastathe.Lukastathe
+		Lukosourathe.Lukosourathe.Lukosourathe.Lukosourathe
+		Lynkinthos.Lynkintha.Lynkinthos.Lynkinthos
+		Marpessathe.Marpessathe.Marpessathe.Marpessathe
+		Mathumnathe.Mathumnathe.Mathumnathe.Mathumnathe
+		Medmasathe.Medmasathe.Medmasathe.Medmasathe
+		Medousathe.Medousathe.Medousathe.Medousathe
+		Megarathe.Megarathe.Megarathe.Megarathe
+		Milatathe.Milatathe.Milatathe.Milatathe
+		Mosukhlathe.Mosukhlathe.Mosukhlathe.Mosukhlathe
+		Muiandrathe.Muiandrathe.Muiandrathe.Muiandrathe
+		Mukalessathe.Mukalessathe.Mukalessathe.Mukalessathe
+		Murinathe.Murinathe.Murinathe.Murinathe
+		Naruxathe.Naruxathe.Naruxathe.Naruxathe
+		Nelinthos.Nelintha.Nelinthos.Nelinthos
+		Nirale.Nirale.Nirale.Nirale
+		Nirna.Nirna.Nirna.Nirna
+		Nisurathe.Nisurathe.Nisurathe.Nisurathe
+		Nyktale.Nyktale.Nyktale.Nyktale
+		Nyktna.Nyktna.Nyktna.Nyktna
+		Oinale.Oinale.Oinale.Oinale
+		Oinna.Oinna.Oinna.Oinna
+		Olerathe.Olerathe.Olerathe.Olerathe
+		Olophuxathe.Olophuxathe.Olophuxathe.Olophuxathe
+		Onkestathe.Onkestathe.Onkestathe.Onkestathe
+		Orgyginthos.Orgygintha.Orgyginthos.Orgyginthos
+		Pandarle.Pandarle.Pandarle.Pandarle
+		Pandarna.Pandarna.Pandarna.Pandarna
+		Panopathe.Panopathe.Panopathe.Panopathe
+		Patarathe.Patarathe.Patarathe.Patarathe
+		Patmathe.Patmathe.Patmathe.Patmathe
+		Pedasathe.Pedasathe.Pedasathe.Pedasathe
+		Pelasginthos.Pelasgintha.Pelasginthos.Pelasginthos
+		Pelopale.Pelopale.Pelopale.Pelopale
+		Pelopna.Pelopna.Pelopna.Pelopna
+		Perraibothe.Perraibothe.Perraibothe.Perraibothe
+		Phaistathe.Phaistathe.Phaistathe.Phaistathe
+		Phalasarnathe.Phalasarnathe.Phalasarnathe.Phalasarnathe
+		Pharsalathe.Pharsalathe.Pharsalathe.Pharsalathe
+		Phoinikale.Phoinikale.Phoinikale.Phoinikale
+		Phoinikna.Phoinikna.Phoinikna.Phoinikna
+		Pholegandrathe.Pholegandrathe.Pholegandrathe.Pholegandrathe
+		Pidossathe.Pidossathe.Pidossathe.Pidossathe
+		Pinarathe.Pinarathe.Pinarathe.Pinarathe
+		Priansathe.Priansathe.Priansathe.Priansathe
+		Purasathe.Purasathe.Purasathe.Purasathe
+		Purindathe.Purindathe.Purindathe.Purindathe
+		Saransathe.Saransathe.Saransathe.Saransathe
+		Sedamnathe.Sedamnathe.Sedamnathe.Sedamnathe
+		Selemnathe.Selemnathe.Selemnathe.Selemnathe
+		Sibullathe.Sibullathe.Sibullathe.Sibullathe
+		Sidumathe.Sidumathe.Sidumathe.Sidumathe
+		Sikinathe.Sikinathe.Sikinathe.Sikinathe
+		Skandilethe.Skandilethe.Skandilethe.Skandilethe
+		Stumphalthe.Stumphalthe.Stumphalthe.Stumphalthe
+		Subritathe.Subritathe.Subritathe.Subritathe
+		Sumaithathe.Sumaithathe.Sumaithathe.Sumaithathe
+		Taletathe.Taletathe.Taletathe.Taletathe
+		Taugetathe.Taugetathe.Taugetathe.Taugetathe
+		Tegurathe.Tegurathe.Tegurathe.Tegurathe
+		Telandrathe.Telandrathe.Telandrathe.Telandrathe
+		Tendebathe.Tendebathe.Tendebathe.Tendebathe
+		Tenedathe.Tenedathe.Tenedathe.Tenedathe
+		Teutamale.Teutamale.Teutamale.Teutamale
+		Teutamna.Teutamna.Teutamna.Teutamna
+		Therethe.Therethe.Therethe.Therethe
+		Thesprotathe.Thesprotathe.Thesprotathe.Thesprotathe
+		Thyrale.Thyrale.Thyrale.Thyrale
+		Thyrna.Thyrna.Thyrna.Thyrna
+		Torrebathe.Torrebathe.Torrebathe.Torrebathe
+		Troizethe.Troizethe.Troizethe.Troizethe
+		Tumandrathe.Tumandrathe.Tumandrathe.Tumandrathe
+		Tulisathe.Tulisathe.Tulisathe.Tulisathe
+		Tydale.Tydale.Tydale.Tydale
+		Tydna.Tydna.Tydna.Tydna
+		Tyrseninthos.Tyrsenintha.Tyrseninthos.Tyrseninthos
+		Udramathe.Udramathe.Udramathe.Udramathe
+		Urnathithe.Urnathithe.Urnathithe.Urnathithe
+		Xupetathe.Xupetathe.Xupetathe.Xupetathe
+		Zaraxathe.Zaraxathe.Zaraxathe.Zaraxathe
+		Zakunthathe.Zakunthathe.Zakunthathe.Zakunthathe
+	}
+	culture = {
+		caphtorite = {}
+		cypro_minoic = {}
+		philistine = {}
+	}
+	
+	barbarian_names = { 
+		# Paeonian Tribes
+		AESTRAEI AGRIANES DERRONES DOBERES LAIAIOUS MYGDONES ODOMANTI PAIOPLAI SIRIOPAIONES TRIBALLI 
+
+		# Thracian Tribes
+		MAEDI PAETI SATRI DERSAEI KORPILOI KORELI NIPSAIOI SAPAIOI SINTEIS MELANOPHAGI MELANDITAE CEBRENII
+
+		# Other
+		PELASGOI
+	}
+	
+	
+	
+	graphical_culture = greek_gfx
+	ethnicities = {
+		10 = north_african
+	}
+}

@@ -1,0 +1,117 @@
+﻿country_decisions = {
+		
+	# Form Bharata
+	form_bharata = {
+		
+		potential = {
+			religion = vedic_pantheon
+			#is_tribal = yes
+			NOT = {
+				tag = XBT
+			}
+			NOT = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4300 #Ghandara
+					province_id = 4404 #Kuru
+					province_id = 4420 #Surasena
+					province_id = 4438 #Mastya
+					province_id = 4430 #Vatsa
+					province_id = 4429 #Kasi
+					province_id = 4437 #Kosala
+					province_id = 4449 #Malla
+					province_id = 4448 #Varji
+					province_id = 4445 #Magadha
+					province_id = 4446 #Anga
+					province_id = 4467 #Cedi
+					province_id = 4476 #Avanti
+					province_id = 7079 #Asmaka
+					province_id = 4424 #Panchala
+					province_id = 4440 #Pataliputra
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = bharata_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XBT
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 4300 #Ghandara
+			owns = 4404 #Kuru
+			owns = 4420 #Surasena
+			owns = 4438 #Mastya
+			owns = 4430 #Vatsa
+			owns = 4429 #Kasi
+			owns = 4437 #Kosala
+			owns = 4449 #Malla
+			owns = 4448 #Varji
+			owns = 4445 #Magadha
+			owns = 4446 #Anga
+			owns = 4467 #Cedi
+			owns = 4476 #Avanti
+			owns = 7079 #Asmaka
+			owns = 4424 #Panchala
+			owns = 4440 #Pataliputra
+		}
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			change_country_name = "bharata_Name"
+			change_country_flag = bharata_flag
+			change_country_tag = XBT
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = imperium
+				switch_government_type_event_clearup_effect = yes
+			}
+			change_country_adjective = "bharata_ADJ"
+			change_country_color =  "bharata_color"
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4440
+						}
+					}
+				}
+				set_capital = 4440
+				hidden_effect = {
+					p:4440.state = {
+						set_state_capital = 4440
+					}
+				}
+			}
+			p:4440 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:4440 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

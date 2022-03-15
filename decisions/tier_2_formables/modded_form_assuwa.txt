@@ -1,0 +1,68 @@
+﻿country_decisions = {
+	
+	# Form Assuwa
+	form_assuwa = {
+		potential = {
+			NOT = {
+				tag = XSS
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+			OR = {
+				primary_culture = sideti
+				primary_culture = pisidic
+				primary_culture = kzzuwi
+				primary_culture = happalic
+				primary_culture = kaska
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = assuwa_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XSS
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			num_of_cities >= 100
+		}
+		
+		effect = {
+			change_country_name = "assuwa_NAME"
+			hidden_effect = {
+				change_country_adjective = "assuwa_ADJECTIVE"
+				change_country_tag = XSS
+				change_country_color = "assuwa_color"
+				change_country_flag = assuwa_FLAG
+				if = {
+					limit = { is_tribal = yes }
+					add_country_modifier = {
+						name = civilized_tribe
+						duration = 5475
+					}
+					change_government = despotic_monarchy
+					switch_government_type_event_clearup_effect = yes
+				}
+			}
+			capital_scope = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+} 
+

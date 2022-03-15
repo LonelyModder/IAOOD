@@ -1,0 +1,124 @@
+﻿namespace = rise_of_massagetae
+
+rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
+	type = country_event
+	title = "rise_of_massagetae.1.t"
+	desc = "rise_of_massagetae.1.desc"
+	picture = steppe_cavalry
+	
+	trigger = {
+		NOT = { has_global_variable = massagetae_invasion_occurred }
+		has_global_variable = gimmiri1_invasion_occurred
+		has_global_variable = gimmiri2_invasion_occurred
+		OR = {
+			AND = {
+				p:7226.owner = {
+					NOT = { is_tribal = yes }
+				}
+				p:6671.owner = {
+					NOT = { is_tribal = yes }
+				}
+			}
+			p:6678.owner = {
+				NOT = { is_tribal = yes }
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = massagetae_invasion_occurred
+		}
+		p:7248 = {
+            while = {
+                count = 50
+                define_pop = {
+                type = tribesmen
+                culture = massagetic
+                religion = scythic_pantheon
+                }
+            }                
+        }
+		p:7248 = { #Massagetae
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = massagetic
+				set_country_religion = scythic_pantheon
+				change_country_name = "massagetae_NAME"
+				change_country_adjective = "massagetae_ADJECTIVE"
+			}
+		}
+		p:7247.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:7248
+				target = p:7248.owner
+			}
+		}
+		p:7248.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 7248
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = chariot_light
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = missile_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+						add_subunit = cavalry_horse_archers
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				#duration = 7300 # 20 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 150
+		}
+	}
+	
+	option = {
+		name = rise_of_massagetae.1.a
+	}
+}

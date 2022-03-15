@@ -1,0 +1,231 @@
+﻿### General Deity Checks ###
+deity_inshushinak = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			deity:omen_inshushinak = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_food_capacity = deity_global_food_capacity_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue }
+	religion = elamite_pantheon
+	deity_category = war #This Deity uses an War Slot
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_narundi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			deity:omen_narundi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { army_maintenance_cost = deity_army_maintenance_cost_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed }
+	religion = elamite_pantheon
+	deity_category = war #This Deity uses an War Slot
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_luhurati = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			deity:omen_luhurati = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue } 
+	omen = { global_population_growth = omen_global_population_growth }
+	religion = elamite_pantheon
+	deity_category = fertility #This Deity uses an Fertility Slot
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_humban = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			religion = protoiranian_pantheon
+			deity:omen_humban = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue } 
+	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue }
+	religion = elamite_pantheon
+	deity_category = culture #This Deity uses an Culture Slot
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_nahhunte = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			deity:omen_nahhunte = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty }
+	religion = elamite_pantheon
+	deity_category = culture #This Deity uses an Culture Slot
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_pinikir = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			religion = hurrian_pantheon
+			deity:omen_pinikir = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_freemen_happyness = deity_global_freemen_happyness_svalue }
+	omen = { global_population_growth = omen_global_population_growth }
+	religion = elamite_pantheon
+	deity_category = fertility #This Deity uses an Fertility Slot
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_kirmashir = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			deity:omen_kirmashir = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_tribesmen_happyness = global_tribesmen_happiness_svalue }
+	omen = { army_weight_modifier = omen_army_weight_modifier }
+	religion = elamite_pantheon
+	deity_category = fertility #This Deity uses an Fertility Slot
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_manzat = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			common_deity_trigger = { RELIGION = anunnaki_pantheon }
+			deity:omen_manzat = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { build_cost = deity_build_cost_svalue }
+	omen = { monthly_wage_modifier = omen_monthly_wage_modifier_svalue }
+	religion = elamite_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_napirisha = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = { RELIGION = elamite_pantheon }
+			common_deity_trigger = { RELIGION = anunnaki_pantheon }
+			deity:omen_napirisha = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
+	omen = { price_local_civ_button_cost_modifier = omen_global_monthly_civilization_svalue }
+	religion = elamite_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	on_activate = {
+		economy_apotheosis_capital_citizens_effect = yes
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+### Exclusive Deity Checks ###

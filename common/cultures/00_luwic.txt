@@ -1,0 +1,190 @@
+﻿luwian = {	
+	
+	levy_template = levy_troic
+	
+	primary = missile_spearthrowers
+	second = light_swordsmen
+	flank = chariot_heavy
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	color = hsv { 0.06 0.9 0.84 }
+
+	male_names = {
+		Adad-bani	Adad-beli	Adad-Samsi	Ah-lipa	Ahuwanu	Akija	Alaksandu	Alalimi	Alasaili	Ali-Sarruma	Alihesni	
+		Alipahemes	Allawanni	Allija	Alliwanatti	Alluwa	Amarutulamma	Ammadana	Ammaskuwanni	Ammihatna	Ammuna	Amur-asur	
+		Ananuri	Anguli	Anitta	Annarumija	Annija	Ansurlu	Anuwanza	Apaitti	Apalla	Apalli	Apassija	Ar-ma-aArdul	
+		Arinnaziti	Arinnel	Arip-ibla	Ariwasu	Arma-Tarhunta	Armandalla	Armapija	Armati	Armaziti	Armaziti	
+		Arnili	Arnuwanda	Artaja	Artatama	Artesna	Asdu	Asduwar	Asduwara	Ashapala	Asiri	Asmunikkal	Aspinani	
+		Assur-ari	Assur-emu	Assur-emuqi	Assur-en	Assur-ena	Assur-ide	Assur-masa	Assur-masaksid	Asuha	
+		Asuhani	Atiunna	Atramhasis	Atta	Attanali	Attanali	Azira	Bappi	Bentesina	Bilanza	Daa	Dantanku	
+		Duddusi	Dudduwalli	Dudduwanza	Dulakki	Dumanima	Dumni	Duppi-Tesub	Dusa	Duwajalla	Duwanna	Duwanza	
+		Duwazzi	Ehal-Tesub	Eheja	Ehepabu	Eni-adali	Esi-adali	Ewri-Sarruma	Gapija	Gapisuwaziti	Gasaluwa	
+		Gasgamuwa	Gassu	Gasturrahseli	Gathaili	Gispalu	Hahla-Taruppasani	Halpaili	Halpamuwa	Halpassi	
+		Halpasulupi	Halpaziti	Halpaziti	Haluti	Halwaziti	Hammi	Hamsa	Handapi	Haniqaili	Hannikkuili	Hantili	Hapiri	
+		Hapuwa	Harrani	Harwawasha	Harwaziti	Hasamili	Hasduili	Hasipranzaha	Hassana	Hassuili	Hassuwas-Innara	
+		Hatepta	Hatipaziti	Hesni	Hilalla	Hilamnaziti	Hilanani	Hillani	Himmuili	Hisaili	Hismija	Huallappi	Huallizzi	
+		Huidudduwalli	Huilli	Hulanabi	Huliyazalmanu	Humie	Hupasija	Huppili	Hurli	Hutubijanza	Hutupalla	Huzpa	
+		Huzzija	Idna	Ija-Assur	Ijamula	Ijarapija	Ijaratiwa	Ijarraziti	Ijarri	Ijuni	Ili-tukulti	Ili-turam	
+		Ilima-abi	Illa	Illali	Illamihurra	Illu	Ilum-beli	Immaraziti	Immaraziti	Impakru	Innara	Innarawa	Irhamuwa	
+		Irkabtum	Isari	Isuwanza	Kalawija	Kalimuna	Kalli	Kallu	Kannazu	Kantuzili	Karasmuwa	Karruwa	Karunuwa	
+		Kasilti	Kaskanu	Kastanda	Kasui	Katapaili	Kenzamuwa	Kenzamuwa	Kikarsa	Kikkilu	Kilili	Kilitumma	Kippuruwa	
+		Kissi	Kiyarukki	Kudur-Illil	Kuikuisanduwa	Kukku	Kullil	Kunija	Kunijapija	Kunni	Kupandu	Kupanta-Kurunta	Kupantazalma	
+		Kurigalzu	Kurimma	Kururi	Kuttuwa	Kuturi	Kuwalanaziti	Kuwammi	Kuwatnaziti	Kuzi	Labarna	Lalantiwasha	
+		Larija	Lislamma	Luggawanni	Lullu	Luparrui	Luwa	Luwanza	Madaru	Madunani	Mahuri	Malliti	Manapa-Tarhunta	Manattalu	
+		Manija	Manija	Manninni	Marakkui	Marasa	Marassa	Marassanda	Maresre	Mariamahu	Marija	Maruwa	Masamuwa	
+		Masduri	Mashuiluwa	Masnapiya	Masnijalli	Massananza	Meki	Meramuwa	Minzana	Miseni	Mitannamuwa	Mittannamuwa	
+		Mizramuwa	Muiri	Mukkarra	Mulla	Mumulanti	Mursili	Musu	Mutta	Mutti	Muwa	Muwatalli	Muwaziti	
+		Nakiliat	Nakkilija	Nama	Nana	Nananta	Nananza	Nanaziti	Nani	Nanili	Nanza	Narizu	Nasadda	Nasali	
+		Nasdda	Natu	Naza	Nenini	Nerikkaili	Ninna	Nirni	Nuhati	Nunnu	Nunu	Nuwanza	Paa	Paddatissu	Pahinakke	
+		Pahripitanna	Paib-ibla	Paihami	Pakkuwaduwalla	Palla	Pallanna	Pallanza	Pallija	Pallili	Palluluwa	
+		Palluwa	Palluwara	Palluwaraziti	Papadilmah	Pappi	Pariwatra	Pariziti	Parkuwalanni	Partahulaziti	
+		Partahulla	Parzueni	Pasadda	Pasakki	Pasijara	Passana	Patahuli	Patija	Pazizi	Peipapa	Pemasa	Phaziti	
+		Phiasdu	Piganna	Pigganu	Piggapilu	Pihamuwa	Pihapzuppi	Pihases	Pihassamuwa	Pihawalwa	Pihaziti	Pihina	Pihinakki	
+		Pija	Pijamaradu	Pijamatarhu	Pijammu	Pijassili	Pikasduili	Pikku	Pikudustenah	Pimaskuru	Pimpira	Pinaura	Pintuntuna	
+		Pipitahi	Pirui	Pirwa	Piseni	Pisgatalli	Pissuri	Pististi	Pittaruru	Pittatta	Pizikarra	Pizzu	Puduhepa	
+		Pulli	Punanku	Purandamuwa	Purazi	Purijanni	Purilla	Purra	Pwazzanikar	ReamasesaMaidAmana	Reamasja	Reamassi	Riamasesa	
+		Sabili	Sagarakti-Surias	Sahurunuwa	Sahuwitamuwa	Sajanu	Salu	Samas-bani	Samas-iddinam	Samuhalu	Sanahunnanni	
+		Santa	Santaziti	Saparta	Sapinuwa	Sarpa	Sarri-Kusuh	Sasza	Satanduhepa	Sattiwaza	Sausgatti	Sausgaziti	Saussili	
+		Silalluhi	Simitili	Siparta	Summijara	Summiri	Sunaili	SunailiPigappelu	SunailiPihu	Sunnassura	Sunupassi	Suplaki	Suplakija	
+		Suppiluliuma	Surhili	Susuin	Tahasta	Tahazili	Tahpurili	Takkuri	Taksa	Talmo-Tesub	Tametti	Tapalauma	Tapalija	Tares	
+		Targasnalli	Tarhumuwa	Tarhunani	Tarhunanija	Tarhunaradu	Tarhunimma	Tarhunimma	Tarhunipihanu	Tarhunmija	Tarhunna	Tarhunnassu	Tarhuntapija	
+		Tarhuwa	Tarhuwasu	Tarhuziti	Tarkasnatala	Tarkasnatalana	Tarkumuwa	Taruli	Taruppasija	Tarwaski	Tasmi-sarri	Tata	Tatigganna	Tatileni	
+		Tatili	Tatinani	Tatta	Tazzelli	Tesub-nerari	Tili-Tesub	Timetti	Tippurrui	Titi	Titti	Tiwaziti	Tulka	Tupari	Uhhamuwa	
+		Uhhawaranu	Ukkura	Ulilamuwa	Ullu	Ulmi-Tesub	Ululija	Uppatisipa	Urhi-Tesub	Urkat	Usua	Utapista	Utulu	Utului	Uzzu	Walkui	
+		Walwa	Walwalli	Walwanu	Walwaziti	Wanni	Warihnawa	Warrantija	Warsija	Warwantija	Wasili	Wasupija	Wattiti	Wineswa	Wulla	Yaratiwa	
+		Yaraziti	Zagasaluwasseni	Zaldumanni	Zamnaziti	Zamnaziti	Zapalli	Zardumanni	Zardumma	Zarnijaziti	Zazalla	Zidanta	Zidanza	Zidi	Zinapa	
+		Zinupi	Zipalija	Zipili	Zulija	Zunaulti	Zupari	Zuplantawija	Zuu	Zuwa	Zuwanna	Zuzzu Zuzzuwa
+
+	}
+	female_names = { # Names by JR Dolan
+		Abba Agattiswa Ajatarza Allaiturahi Allalla Alli Amma Ammama Amrmawija Anna Annawanni Anni Annijami Anniwiya 
+		Armawiya Ars Arzakiti Aspunawiya Azzari Daniti Danuhepa Gassulawiya Halpawija Halpawiya Harapsili Henti Hepate 
+		Hepattarakki Hilesdu Ija Ijaja Jaruhepa Kallawiya Kammawiya Katteshapi Kattittahi Kikki Kilushepa Kumajali Kururu
+		Mala Mamma Manana Manattawija Manattawiya Manna Mannanna Manni Marassawija Marassawiya Mastanazi Mastigga Mazzatasalla
+		Mida Mizramuwa Naptera Nerikkawiya Parsanawiya Pihawiya Sallapawiya Santawiya Taduhepa Tawananna Tiwatawiya Tuja Tumnallina 
+		Tunnawiya Ulilawiya Uruwanda Utati Wajan Wallani Yarawiya Zamnawiya Ziplantawiya
+	}
+	family = {
+		Ahmid.Ahmid.Ahmid.Ahmid
+		Galestus.Galestid.Galestid.Galestid
+		Kenamus.Kenamid.Kenamid.Kenamid
+		Naravid.Naravid.Naravid.Naravid
+		Penamus.Penamid.Penamid.Penamid
+		Senuid.Senuid.Senuid.Senuid
+		Setnid.Setnid.Setnid.Setnid
+		Arganid.Arganid.Arganid.Arganid
+		Psammid.Psammid.Psammid.Psammid
+		Philothid.Philothid.Philothid.Philothid
+		Timolid.Timolid.Timolid.Timolid
+		Zosid.Zosid.Zosid.Zosid
+		Phileid.Phileid.Phileid.Phileid
+		Nicodemid.Nicodemid.Nicodemid.Nicodemid
+		Nefarid.Nefarid.Nefarid.Nefarid
+		Bastid.Bastid.Bastid.Bastid
+		Xeneid.Xeneid.Xeneid.Xeneid
+		Naravid.Naravid.Naravid.Naravid
+		Ezanid.Ezanid.Ezanid.Ezanid
+		Ahmid.Ahmid.Ahmid.Ahmid
+		Alarus.Alara.Alarid.Alarid
+		Harsiotes.Harsiotes.Harsiotid.Harsiotid
+		Henus.Hena.Henid.Henid
+		Ibus.Iba.Ibid.Ibid
+		Khabbash.Khabbash.Khabbashid.Khabbashid	
+		Amasus.Amasa.Amasid.Amasid
+		Nectanebo.Nectanebo.Nectanebid.Nectanebid
+		Petubast.Petubast.Petubastes.Petubastid
+		Djedhid.Djedhid.Djedhid.Djedhid
+		Tachys.Tachya.Tachyes.Tachyid
+		Mago.Mago.Mago.Magid	
+	}
+	culture = {
+		luwii = {}
+		sideti = {}
+		pisidic = {}
+		lukkanic = {}
+		caric = {}
+		kzzuwi = {}
+		lydii = {levy_template = levy_hattian}
+		happalic = {}
+		tejeker = {}
+		hatti = {
+			levy_template = levy_hattian
+			male_names = {
+				Piyassili Sahurunuwa Ini-Tessub Talmi-Tessub Kuzi-Tessub Mazakarhuha Ir-Tessub Tudhaliya Suppiluliuma Hattusili X-paziti Uratarhunza
+				Suhi Astuwalamanza Katuwa Sangara Astiruwa Yariri Kamani Sastura Pisiri Pugnus-mili Runtiya Arnuwanti Halpasulupi Kundašpu Sulumal
+				Gunzinanu Tarhunazi Muwatalli Mugallu Lalli Kundaspu Hapatila Ariyahina Hamiyata Muwizi Larama Tarhulara Taita Manana Halparuntiya
+				Labarna Surri Tutammu 
+			}
+			female_names = {
+				Nysa Aryenis Ada Glaphyra Pythodorida Etazeta Drypetina Orsabaris Hypsicratea Boa Taita
+			} 
+			family = {
+				
+				Piyassilid Sahurunuwanid Mazakarhuhanid Tudhaliyanid Suppiluliumid Hattusilid Hamiyatanid Muwizid Manananid Labarnanid
+				
+			}
+		}
+		syro_hatti = {
+			levy_template = levy_hattian
+			male_names = {
+				Piyassili Sahurunuwa Ini-Tessub Talmi-Tessub Kuzi-Tessub Mazakarhuha Ir-Tessub Tudhaliya Suppiluliuma Hattusili X-paziti Uratarhunza
+				Suhi Astuwalamanza Katuwa Sangara Astiruwa Yariri Kamani Sastura Pisiri Pugnus-mili Runtiya Arnuwanti Halpasulupi Kundašpu Sulumal
+				Gunzinanu Tarhunazi Muwatalli Mugallu Lalli Kundaspu Hapatila Ariyahina Hamiyata Muwizi Larama Tarhulara Taita Manana Halparuntiya
+				Labarna Surri Tutammu 
+			}
+			female_names = {
+				Nysa Aryenis Ada Glaphyra Pythodorida Etazeta Drypetina Orsabaris Hypsicratea Boa Taita
+			} 
+			family = {
+				
+				Piyassilid Sahurunuwanid Mazakarhuhanid Tudhaliyanid Suppiluliumid Hattusilid Hamiyatanid Muwizid Manananid Labarnanid
+				
+			}
+		}
+		lowland_hatti = {
+			levy_template = levy_hattian
+			male_names = {
+				Piyassili Sahurunuwa Ini-Tessub Talmi-Tessub Kuzi-Tessub Mazakarhuha Ir-Tessub Tudhaliya Suppiluliuma Hattusili X-paziti Uratarhunza
+				Suhi Astuwalamanza Katuwa Sangara Astiruwa Yariri Kamani Sastura Pisiri Pugnus-mili Runtiya Arnuwanti Halpasulupi Kundašpu Sulumal
+				Gunzinanu Tarhunazi Muwatalli Mugallu Lalli Kundaspu Hapatila Ariyahina Hamiyata Muwizi Larama Tarhulara Taita Manana Halparuntiya
+				Labarna Surri Tutammu 
+			}
+			female_names = {
+				Nysa Aryenis Ada Glaphyra Pythodorida Etazeta Drypetina Orsabaris Hypsicratea Boa Taita
+			} 
+			family = {
+				
+				Piyassilid Sahurunuwanid Mazakarhuhanid Tudhaliyanid Suppiluliumid Hattusilid Hamiyatanid Muwizid Manananid Labarnanid
+				
+			}
+		}
+		kaska = {
+			levy_template = levy_hattian
+			male_names = {
+				Piyassili Sahurunuwa Ini-Tessub Talmi-Tessub Kuzi-Tessub Mazakarhuha Ir-Tessub Tudhaliya Suppiluliuma Hattusili X-paziti Uratarhunza
+				Suhi Astuwalamanza Katuwa Sangara Astiruwa Yariri Kamani Sastura Pisiri Pugnus-mili Runtiya Arnuwanti Halpasulupi Kundašpu Sulumal
+				Gunzinanu Tarhunazi Muwatalli Mugallu Lalli Kundaspu Hapatila Ariyahina Hamiyata Muwizi Larama Tarhulara Taita Manana Halparuntiya
+				Labarna Surri Tutammu 
+			}
+			female_names = {
+				Nysa Aryenis Ada Glaphyra Pythodorida Etazeta Drypetina Orsabaris Hypsicratea Boa Taita
+			} 
+			family = {
+				
+				Piyassilid Sahurunuwanid Mazakarhuhanid Tudhaliyanid Suppiluliumid Hattusilid Hamiyatanid Muwizid Manananid Labarnanid
+				
+			}
+		}
+		paphlagonic = {}
+	}
+	
+	barbarian_names = { AMARDI ANARIACAE AUGASII CASPII CHORASMII CYRTII DAHAE DERBICII ISSEDONES LEGAE MATIANI MASSAGETAE PARNI SACAE SARMATAE SOANES VITII }
+	
+	graphical_culture = carthaginian_gfx
+	ethnicities = {
+		10 = levantine
+	}
+}

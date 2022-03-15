@@ -1,0 +1,50 @@
+﻿castelic = {
+	color = hsv { 0.93 0.97 0.88 }
+	
+	primary = missile_spearthrowers
+	second = light_swordsmen
+	flank = chariot_light
+	
+	primary_navy = tetrere
+	secondary_navy = hexere
+	flank_navy = liburnian
+
+	levy_template = levy_stronghold
+
+	male_names = {
+       Andinos Andios Anneses Annos Aplis Aploudos Aplos Apouros Baidaros Baizo Baizos Baolios Bardourios Bato Byoukos Byousas Bizo Bryoukos Karrios Daiekos Daitor Dasantos Dasios Dazomenos Dazos Epikaris Iettos Implaios Laidikalios Laidietis Laidos Labios Ledros Massurios Messios Messor Paio Panentios Panes Panto Pantos Plannios Plares Prorados Sarnos Skenobarbos Sestos Statanios Statikos Statos Souttis Temaios Tizios Tritonos Tritos Turelios Ulkidios Baranos Baridios Bendo Bepos Berzoulos
+       Karbanios Germanos Labianos Pinsos Pladomenos Verzaieos # Of Dalmatian origin
+       Anadros Bouzetios Ditos Loantios Pantadienos Plator Platourios Rufantius Sestenius Stennas Vendes # Used among the Japodes
+       Tourranios Tourrinios Touros # Used among the Japodes; of Liburnian origin
+       Andes Iaritos Montanos Parmanicos Sarios Seneka Silos Sinos # Used among the Japodes; probably of Celtic origin
+       Blaidaros Dasmenos Lensos Sassaios Skilos Sourko # Used among the Breuci
+       Kralos Liros Passalos Likkaios # Used among the Colapiani
+       Skenos # Used among the Jasi
+   }
+   female_names = {
+       Andio Aplo Arbo Kallo Kato Kourbania Koursolabia Dasa Dasantilla Dasto Genthena Glabikida Iato Labinkia Likko Lossa Mabida Nebato Pantia Passia Promano Samountio Seio Sesto Stato Surio Soutta Tito Tritano Barro
+       Stataria Testo Tritto # Of Dalmatian origin
+       Deidmou Dennaia Ditoueio Stennato Tatonia Vandano # Used among the Japodes
+       Ammida Matera Maxa # Used among the Japodes; probably of Celtic origin
+       Mellito Nantia Nonntio Poia Sicou # Used among the Japodes; of Celtic origin
+       Arsa # Probably of Thracian origin
+   }
+   family = {
+       Andinid Andid Annesid Annid Aplid Apludid Apurid Baizid Bardurid Batid Beukid Beusid Bizid Karrid Daitorid Dasid Dazomenid Dazid Epicarid Iettid Laidicalid Laidietid Laidid Ledrid Messid Messorid Panentid Panid Pantid Plannid Plarid Proradid Samekkid Sarnid Skenobarbid Statanid Statikid Statid Suttid Tizid Tritonid Tritid Turelid Varanid Varidid Vendid Vepid Verzulid Carvanid Germanid Lavianid Pinsid Pladomenid Platid Verzaiid Anadrid Buzetid Ditid Loantid Pantadienid Platorid Platourid Portid Rufantid Sestenid Stennid Vendid Tourranid Tourrinid Tourid Iaritid Montanid Parmanikid Sarid Senekid Silid Sinid Blaidarid Dasmenid Lensid Sassaid Skilid Surkid Kralid Lirid Passalid Likkaid Skenid
+   }
+
+	culture = {
+		castelieric = {}
+		bosutic = {}
+	}
+
+	barbarian_names = {
+		# Illyrian Tribes
+		BARIDUSTAE TARIOTES SELEPITANOI PARTHINI BREUCI PIRUSTAE SARDEATI BYLLIONES BALAITES PARTHENI PEUCETI CINAMBRI DASSARETI PENESTI DEUNI NARENSI CHELIDONI BATHIATAE
+	}
+
+	graphical_culture = iberian_gfx
+	ethnicities = {
+		10 = illyrian
+	}
+}

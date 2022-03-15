@@ -1,0 +1,114 @@
+﻿country_decisions = {
+	
+	# Form Akkadian Empire
+	form_agade = {
+		
+		potential = {
+			country_culture_group = akkadian
+			#is_tribal = yes
+			NOT = {
+				tag = XAG
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 918
+					province_id = 883
+					province_id = 903
+					province_id = 1954
+					province_id = 774
+					province_id = 946
+					province_id = 4950
+					province_id = 4959
+					province_id = 862
+					province_id = 830
+					province_id = 809
+					province_id = 750
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = agade_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XAG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 918
+			owns = 883
+			owns = 903
+			owns = 1954
+			owns = 774
+			owns = 946
+			owns = 4950
+			owns = 4959
+			owns = 862
+			owns = 830
+			owns = 809
+			owns = 750
+		}
+		
+		effect = {
+			custom_tooltip = "tier_3_formable_tooltip"
+			change_country_name = "Agade_Name"
+			change_country_flag = Agade_Flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = imperium
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Agade_ADJ"
+				change_country_color =  "agade_color"
+				change_country_tag = XAG
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 918
+						}
+					}
+				}
+				set_capital = 918
+				hidden_effect = {
+					p:918.state = {
+						set_state_capital = 918
+					}
+				}
+				capital_scope = {
+					establish_city_effect = yes
+				}
+			}
+			#p:918 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:918 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,0 +1,1749 @@
+﻿#Capua
+6=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="setrusci"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Neapolis
+7=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="setrusci"
+	port_building=1
+	province_rank="city"
+	religion="villanic_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Saticula
+8=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Pompeii
+9=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Irna
+10=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Paestum
+11=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="setrusci"
+	province_rank="city"
+	religion="villanic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Elea
+12=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="setrusci"
+	port_building=1
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Blanda
+13=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Venafrum
+31=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bovianum
+32=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Corneliani
+33=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Teanum Apulum
+36=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Luceria
+37=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sipious
+38=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Canusium
+39=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Nola
+40=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Beneventum
+41=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="city"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Venusia
+42=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Compsa
+43=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tuticum
+44=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ausculum
+45=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Potentia
+46=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="fur"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Volcei
+47=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Urium
+50=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Laus
+51=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thourioi
+52=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Grumentum
+53=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Herakleia
+54=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Metapontion
+55=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Taras
+56=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Brundisium
+57=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Barduli
+58=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Consilinum
+59=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Bantia
+60=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Siris
+61=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="city"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="hemp"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Menturia
+62=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Callipolis
+63=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Hydruntum
+64=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Lupiae
+65=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Barium
+66=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Gnatia
+67=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	port_building=1
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_zis"
+}
+#Turum
+68=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Natiolum
+69=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lapygian"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Silvium
+70=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Stiglianum
+71=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Rhegion
+72=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Lokroi Epizephyrioi
+73=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Stylacium
+74=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Hipponion
+75=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Tempsa
+76=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Consentia
+77=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kroton
+78=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Petelia
+79=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="farmland"
+	trade_goods="cloth"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Messana
+80=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tauromenion
+81=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Katane
+82=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Leontinoi
+83=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Syrakousai
+84=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="italo_punic"
+	port_building=1
+	province_rank="city"
+	religion="canaanitic_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=2
+		culture="sikelic"
+		religion="illyric_pantheon"
+	}
+	tribesmen=
+	{
+		amount=5
+		culture="sikelic"
+		religion="illyric_pantheon"
+	}
+}
+#Gelas
+85=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Akragas
+86=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	port_building=1
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Akrai
+87=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Morgantina
+88=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Enna
+89=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hippana
+90=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Herakleia Minoa
+91=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="salt"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Egesta
+92=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="elymoi"
+	province_rank="city"
+	religion="nuragian_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Selinous
+93=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="forest"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Lilibaya
+94=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="elymoi"
+	port_building=1
+	province_rank="settlement"
+	religion="nuragian_pantheon"
+	terrain="farmland"
+	trade_goods="wine"
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Eryx
+95=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="elymoi"
+	province_rank="settlement"
+	religion="nuragian_pantheon"
+	terrain="plains"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Ziz
+96=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="elymoi"
+	port_building=1
+	province_rank="settlement"
+	religion="nuragian_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Thermai
+97=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kephaloidion
+98=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="wine"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Tyndaris
+99=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kalakta
+100=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kamarina
+101=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Mliet
+1471=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="desert"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Lipara
+1472=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="setrusci"
+	province_rank="settlement"
+	religion="villanic_pantheon"
+	terrain="hills"
+	trade_goods="earthware"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nuceria
+1713=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="glass"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Abellinum
+1716=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="hills"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Aeclanum
+1718=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="oscan"
+	province_rank="settlement"
+	religion="italiotan_pantheon"
+	terrain="plains"
+	trade_goods="olive"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_mcastores"
+}
+#Megara Hyblaia
+7837=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Kentoripa
+7838=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="farmland"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+	holy_site="omen_damatura"
+}
+#Capitium
+7839=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Menai
+7840=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sikelic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Myttistraton
+7841=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Qapara
+7842=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="settlement"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Adranon
+7843=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="sicanic"
+	province_rank="city"
+	religion="illyric_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}

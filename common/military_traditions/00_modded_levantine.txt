@@ -1,0 +1,168 @@
+﻿westsemite_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = levantine_greco_path_2
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = levantine }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = levantine
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:levantine
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:levantine
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_westsemite"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:levantine
+				}
+			}
+		}
+	}
+	
+	westsemite_path_1 = { ###levantine path
+		modifier = { 
+			light_spearmen_offensive = 0.1
+			light_spearmen_defensive = 0.05
+		}
+		enable_tactic = greek_phalanx
+		icon = levantine_greco_path_2
+		requires = {}
+	}
+	
+	westsemite_path_2 = { ###levantine path
+		modifier = { 
+			chariot_heavy_offensive = 0.1
+			chariot_heavy_defensive = 0.05
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_1}
+	}
+	
+	westsemite_path_3 = { ###levantine path
+		modifier = { 
+			mercenary_land_maintenance_cost = -0.25
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_2}
+	}
+	
+	westsemite_path_3a = { ###levantine path
+		modifier = { 
+			missile_spearthrowers_offensive = 0.1
+			missile_spearthrowers_defensive = 0.05
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_3}
+	}
+	
+	westsemite_path_4a = { ###levantine path
+		modifier = { 
+			levy_size_multiplier = -0.025
+			mercenary_land_maintenance_cost = -0.25
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_3a}
+	}
+	
+	westsemite_path_5a = { ###levantine path
+		modifier = { 
+			governor_loyalty = 5
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_4a}
+	}
+	
+	westsemite_path_3b = { ###levantine path
+		modifier = { 
+			global_commerce_modifier = 0.25
+			naval_damage_taken = -0.15
+		}
+		allow_unit_type = octere
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_3}
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = octere
+						add_subunit = octere
+					}
+				}
+			}
+		}
+	}
+	
+	westsemite_path_4b = { ###levantine path
+		modifier = { 
+			global_commerce_modifier = 0.25
+			naval_damage_done = 0.15
+		}
+		enable_ability = military_colonies
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_3b}
+	}
+	
+	westsemite_path_5b = { ###levantine path
+		modifier = { 
+			elephant_african_offensive = 0.2
+			missile_archers_offensive = 0.1
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_4b}
+	}
+	
+	westsemite_path_6b = { ###levantine path
+		modifier = { 
+			ocean_combat_bonus = 0.2
+			coastal_terrain_combat_bonus = 0.2
+			riverine_terrain_combat_bonus = 0.2
+		}
+		allow_unit_type = mega_galley
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_5b}
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = mega_galley
+					}
+				}
+			}
+		}
+	}
+	
+	westsemite_path_end_bonus = { ###levantine path
+		modifier = { 
+			navy_maintenance_cost = -0.4
+		}
+		icon = levantine_greco_path_2
+		requires = {westsemite_path_5a westsemite_path_6b}
+	}
+}

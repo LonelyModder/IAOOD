@@ -1,0 +1,25 @@
+deity_manager = {
+	deities_database = { ### KEYS 10000-10019 ###
+		10000 = {
+			key = omen_yhwh
+			deity = deity_yhwh
+		}
+		10001 = {
+			key = omen_ashera
+			deity = deity_ashera
+		}
+		10002 = {
+			key = omen_malakim
+			deity = deity_malakim
+		}
+		10003 = {
+			key = omen_cherubs
+			deity = deity_cherubs
+		}
+		10004 = {
+			key = omen_nehushtan
+			deity = deity_nehushtan
+		}
+	}
+}
+

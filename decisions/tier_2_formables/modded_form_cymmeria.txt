@@ -1,0 +1,103 @@
+﻿country_decisions = {
+		
+	# Form Cymmeria
+	form_kimmeria = {
+		
+		potential = {
+			OR = {
+				primary_culture = cymmeric
+				primary_culture = meotic
+				primary_culture = tauric
+				primary_culture = bfc
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XKM
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				province_id = 7193
+				province_id = 4551
+				province_id = 4542
+				province_id = 4564
+				province_id = 7637
+				province_id = 7617
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = kimmeria_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XKM
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 7193
+			owns = 4551
+			owns = 4542
+			owns = 4564
+			owns = 7637
+			owns = 7617
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "kimmeria_Name"
+			change_country_flag = kimmeria_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "kimmeria_ADJ"
+				change_country_color =  "kimmeria_color"
+				change_country_tag = XKM
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 7193
+						}
+					}
+				}
+				set_capital = 7193
+				hidden_effect = {
+					p:7193.state = {
+						set_state_capital = 7193
+					}
+				}
+			}
+			p:7193 = {
+				if = {
+					limit = { has_city_status = no }
+					set_city_status = city
+				}
+			}
+			p:7193 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

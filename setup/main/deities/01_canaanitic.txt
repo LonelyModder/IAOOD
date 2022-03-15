@@ -1,0 +1,77 @@
+deity_manager = {
+	deities_database = { ### KEYS 10060-10079 ###
+		10060 = {
+			key = omen_mbaal_qarnaim
+			deity = deity_mbaal_qarnaim
+		}
+		10061 = {
+			key = omen_mattar
+			deity = deity_mattar
+		}
+		10062 = {
+			key = omen_mtanit
+			deity = deity_mtanit
+		}
+		10063 = {
+			key = omen_mbaal_hammon
+			deity = deity_mbaal_hammon
+		}
+		10064 = {
+			key = omen_manat
+			deity = deity_manat
+		}
+		10065 = {
+			key = omen_mel
+			deity = deity_mel
+		}
+		10066 = {
+			key = omen_mkothar
+			deity = deity_mkothar
+		}
+		10067 = {
+			key = omen_myam
+			deity = deity_myam
+		}
+		10068 = {
+			key = omen_mmelqart
+			deity = deity_mmelqart
+		}
+		10069 = {
+			key = omen_mbaal
+			deity = deity_mbaal
+		}
+		10070 = {
+			key = omen_mdagon
+			deity = deity_mdagon
+		}
+		10071 = {
+			key = omen_mshapash
+			deity = deity_mshapash
+		}
+		10072 = {
+			key = omen_mastarte
+			deity = deity_mastarte
+		}
+		10073 = {
+			key = omen_meshmun
+			deity = deity_meshmun
+		}
+		10074 = {
+			key = omen_matargatis
+			deity = deity_matargatis
+		}
+		10075 = {
+			key = omen_mbaalat
+			deity = deity_mbaalat
+		}
+		10076 = {
+			key = omen_mgad
+			deity = deity_mgad
+		}
+		10077 = {
+			key = omen_mhadad
+			deity = deity_mhadad
+		}
+	}
+}
+

@@ -1,0 +1,2000 @@
+﻿#Artales
+483=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="mountain"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Cymiza
+846=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Taraichiya
+978=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="city"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	holy_site="omen_teshub"
+}
+#Zoaranda
+987=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Thospia
+988=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=9
+	}
+	holy_site="omen_mshivini"
+}
+#Nymphaeum
+989=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	citizen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Elegoana
+990=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Arest
+991=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=9
+	}
+}
+#Balales Pass
+992=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Calata
+993=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Ashtishat
+994=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Molchia
+995=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=9
+	}
+}
+#Alouaka
+996=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Kotorodz
+997=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="mountain"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Artemita Vaspurakan
+998=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Hayk
+999=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Chauon
+1500=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Naxouana
+1501=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Tasuk
+1502=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Salamas
+1503=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gazrik
+1504=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Arziyayad tepe
+1505=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Ormi
+1506=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mittanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Sormanabad tepe
+1507=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Balajuk tepe
+1508=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mittanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Siraganon
+1509=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mittanic"
+	province_rank="city"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
+	{
+		amount=5
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+	holy_site="omen_haldi"
+}
+#Qalatgah
+1511=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lullubian"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	citizen=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Kuh-i Chorblach
+1518=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="lullubian"
+	province_rank="settlement"
+	religion="kassite_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	citizen=
+	{
+		amount=1
+	}
+	freemen=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Qalat
+1519=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mittanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="fish"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Yanik tepe
+1527=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="cattle"
+	tribesmen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=3
+	}
+}
+#Morounda
+1528=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Darman
+1529=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=4
+	}
+}
+#Halaqu Qal'eh
+1530=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Malejin
+1531=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Zarawand
+1532=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Qara Zia Eddin tepe
+1533=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="horses"
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Bastam
+1534=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Qiz Chakhlu
+1535=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Khezerlu Qal'eh
+1536=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="mountain"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Nuarsak
+1537=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sanora
+1538=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gavur Qal'eh
+1539=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="manneanic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	tribesmen=
+	{
+		amount=1
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Parakan
+1540=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Oghlu Qal'eh
+1541=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Arxata
+1542=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Siah Qal'eh
+1543=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Catispi
+1544=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Barun Qal'eh
+1545=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Shawarshan
+1546=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Keshmesh
+1547=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sangar Qal'eh
+1548=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="mountain"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Teroua
+1549=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="precious_metals"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Verahram Qal'eh
+1550=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Hajestan Qal'eh
+1551=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Aladagh Qal'eh
+1559=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Andzevatsik
+1560=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Mardastan
+1561=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
+	}
+}
+#Isumbo
+1562=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Acachia
+1563=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Colchion
+1564=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="city"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=5
+	}
+	slaves=
+	{
+		amount=4
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+	holy_site = "omen_tork_angegh"
+}
+#Didima
+1566=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Bagauna
+1567=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="wine"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Hariza
+1568=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Paracata
+1569=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="grain"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Armaouira
+1570=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="steppe_horses"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Artaxata
+1571=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Doubios
+1572=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Gorneae
+1573=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=3
+	}
+	slaves=
+	{
+		amount=2
+	}
+}
+#Erebuni
+1575=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kainepolis Syracene
+1576=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Motene
+1577=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=3
+	}
+	tribesmen=
+	{
+		amount=6
+	}
+}
+#Ashnak
+1579=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Katnakhpyur
+1580=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Eruandashat
+1581=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	tribesmen=
+	{
+		amount=4
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Ani
+1582=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="plains"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dzhrapi
+1583=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="honey"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shirakavan
+1585=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Kamo
+1588=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Atarbegian
+1589=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Dzhrarat
+1590=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Karchakhpyur
+1591=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	holy_site="omen_mtsovinar"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Akunk
+1592=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Gezlu
+1605=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="forest"
+	trade_goods="fish"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Berdatekh
+1606=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Shalat
+1613=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Balaberd
+1615=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="iron"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Arevik
+1623=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="base_metals"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Vayots Dzor
+1668=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Chahuk
+1669=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="bianilic"
+	province_rank="settlement"
+	religion="hurrian_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Sinara
+1698=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Vagharshakert
+1736=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="wood"
+	tribesmen=
+	{
+		amount=2
+	}
+	slaves=
+	{
+		amount=1
+	}
+}
+#Karana
+1744=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=5
+	}
+}
+#Gymnias
+1747=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Barantea
+1751=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="armenic"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="forest"
+	trade_goods="horses"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sper
+1759=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ciberic"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Sinoria
+1760=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ciberic"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="mountain"
+	trade_goods="leather"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Charton
+1761=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="ciberic"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="stone"
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bagariza
+1762=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	holy_site="omen_areg"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Tareina
+1763=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="mossynoetian"
+	province_rank="settlement"
+	religion="caucasic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=2
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Bizana
+1764=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+#Koubina
+1765=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="vegetables"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}
+#Eriza
+1767=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="azzian"
+	holy_site="omen_nvard"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="cattle"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=4
+	}
+}
+#Kitharizon
+4037=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="urumian"
+	province_rank="settlement"
+	religion="armenic_pantheon"
+	terrain="hills"
+	trade_goods="wood"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
+	}
+}

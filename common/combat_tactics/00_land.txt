@@ -1,0 +1,322 @@
+﻿# Offensive tactics
+
+shock_action = {
+	use_as_default = yes
+
+	enable = yes
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	envelopment = 0.20
+	padma_vyuha = 0.20
+	bottleneck = -0.1
+	greek_phalanx = -0.1
+	
+	casualties = 0.1
+
+	effective_composition = {
+		missile_archers = 0
+		missile_spearthrowers = 0
+		cavalry_camels = 0
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 1.0
+		heavy_spearmen = 1.0
+		heavy_swordsmen = 1.0
+		cavalry_horse_archers = 0
+		cavalry_light = 0.0
+		light_spearmen = 0.75
+		light_swordsmen = 0.75
+		elephant_african = 2.0
+		elephant_forest = 2.0
+		elephant_indian = 2.0
+	}
+}
+
+envelopment = {
+	enable = yes
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	deception = 0.20
+	greek_phalanx = 0.20
+	shock_action = -0.1
+	padma_vyuha = -0.1
+	
+	effective_composition = {
+		missile_archers = 0
+		missile_spearthrowers = 0
+		cavalry_camels = 1.0
+		chariot_heavy = 0.5
+		chariot_light = 0.5
+		axemen_heavy = 0
+		cavalry_heavy = 0.5
+		heavy_spearmen = 0
+		heavy_swordsmen = 0
+		cavalry_horse_archers = 0.5
+		cavalry_light = 1.0
+		light_spearmen = 1.0
+		light_swordsmen = 1.0
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+skirmishing = {
+	enable = yes
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+	
+	bottleneck = 0.20
+	cavalry_skirmish = 0.20
+	deception = -0.1
+	triplex_acies = -0.1
+		
+	casualties = -0.25
+
+	effective_composition = {
+		missile_archers = 1
+		missile_spearthrowers = 1
+		cavalry_camels = 0
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 0
+		heavy_spearmen = 0
+		heavy_swordsmen = 0
+		cavalry_horse_archers = 0.25
+		cavalry_light = 0.25
+		light_spearmen = 1.0
+		light_swordsmen = 1.0
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+deception = {
+	enable = yes
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	skirmishing = 0.2
+	triplex_acies = 0.2
+	envelopment = -0.1
+	hit_and_run_tactics = -0.1
+
+	effective_composition = {
+		missile_archers = 1
+		missile_spearthrowers = 1
+		cavalry_camels = 1
+		chariot_heavy = 1
+		chariot_light = 1
+		axemen_heavy = 0
+		cavalry_heavy = 0
+		heavy_spearmen = 0
+		heavy_swordsmen = 0
+		cavalry_horse_archers = 1.5
+		cavalry_light = 1.5
+		light_spearmen = 0
+		light_swordsmen = 0
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+bottleneck = {
+	enable = yes
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	shock_action = 0.2
+	hit_and_run_tactics = 0.2
+	skirmishing = -0.1
+	cavalry_skirmish = -0.1
+
+	effective_composition = {
+		missile_archers = 1
+		missile_spearthrowers = 1
+		cavalry_camels = 0
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 0.8
+		heavy_spearmen = 1
+		heavy_swordsmen = 1
+		cavalry_horse_archers = 0
+		cavalry_light = 0
+		light_spearmen = 0
+		light_swordsmen = 0
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+# Military Tradition
+
+greek_phalanx = { #Good vs Shock - Bad vs Envelopment
+	enable = no
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	shock_action = 0.25
+	cavalry_skirmish = 0.25
+	envelopment = -0.1
+	triplex_acies = -0.1
+	
+	casualties = -0.1
+
+	effective_composition = { #
+		missile_archers = 0
+		missile_spearthrowers = 0
+		cavalry_camels = 0
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 0.15
+		heavy_spearmen = 1
+		heavy_swordsmen = 1
+		cavalry_horse_archers = 0
+		cavalry_light = 0.75
+		light_spearmen = 0.5
+		light_swordsmen = 0.5
+		elephant_african = 1
+		elephant_forest = 1
+		elephant_indian = 1
+	}
+}
+
+triplex_acies = { #Good vs Envelopment - Bad vs Skirmishing
+
+	enable = no
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	skirmishing = 0.25
+	greek_phalanx = 0.25
+	deception = -0.1
+	hit_and_run_tactics = -0.1
+	
+	effective_composition = { #
+		missile_archers = 0
+		missile_spearthrowers = 0
+		cavalry_camels = 0
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 0
+		heavy_spearmen = 1
+		heavy_swordsmen = 1
+		cavalry_horse_archers = 0
+		cavalry_light = 0.6
+		light_spearmen = 1
+		light_swordsmen = 1
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+cavalry_skirmish = {
+
+	enable = no
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	bottleneck = 0.25
+	padma_vyuha = 0.25
+	skirmishing = -0.1
+	greek_phalanx = -0.1
+	
+	casualties = -0.1
+
+	effective_composition = {
+		missile_archers = 0
+		missile_spearthrowers = 0
+		cavalry_camels = 0.5
+		chariot_heavy = 0
+		chariot_light = 0
+		axemen_heavy = 0
+		cavalry_heavy = 0.5
+		heavy_spearmen = 0
+		heavy_swordsmen = 0
+		cavalry_horse_archers = 1.5
+		cavalry_light = 1.5
+		light_spearmen = 0
+		light_swordsmen = 0
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
+
+padma_vyuha = {
+
+	enable = no
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	envelopment = 0.25
+	hit_and_run_tactics = 0.25
+	shock_action = -0.1
+	cavalry_skirmish = -0.1
+	
+	casualties = -0.1
+
+	effective_composition = {
+		missile_archers = 1
+		missile_spearthrowers = 1
+		cavalry_camels = 0
+		chariot_heavy = 0.5
+		chariot_light = 0.5
+		axemen_heavy = 0
+		cavalry_heavy = 0
+		heavy_spearmen = 0.75
+		heavy_swordsmen = 0.75
+		cavalry_horse_archers = 0
+		cavalry_light = 0.25
+		light_spearmen = 0
+		light_swordsmen = 0
+		elephant_african = 1.0
+		elephant_forest = 1.0
+		elephant_indian = 1.0
+	}
+}
+
+
+hit_and_run_tactics = {
+
+	enable = no
+
+	sound = "event:/SFX/UI/Unit/sfx_ui_unit_tactic_set_offensive"
+
+	deception = 0.25
+	triplex_acies = 0.25
+	bottleneck = -0.1
+	padma_vyuha = -0.1
+	
+	casualties = -0.1
+
+	effective_composition = {
+		missile_archers = 0.5
+		missile_spearthrowers = 0.5
+		cavalry_camels = 0
+		chariot_heavy = 0.5
+		chariot_light = 0.5
+		axemen_heavy = 0
+		cavalry_heavy = 0
+		heavy_spearmen = 0
+		heavy_swordsmen = 0
+		cavalry_horse_archers = 0.5
+		cavalry_light = 1
+		light_spearmen = 0.5
+		light_swordsmen = 0.5
+		elephant_african = 0
+		elephant_forest = 0
+		elephant_indian = 0
+	}
+}
