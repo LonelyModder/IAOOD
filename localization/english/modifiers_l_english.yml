@@ -3670,7 +3670,9 @@
  engineer_cohort_defensive:0 "Engineer Defense"
  engineer_cohort_morale:0 "Engineer Morale"
  #Modified
- appeasing_mardukites:0 "Donations for the Marduks Priests"
+ appeasing_mardukites:0 "Donations for the Mardukite Priests"
  desc_appeasing_mardukites:1 "TMP"
- akitu_happened:0 "Akitu successful"
- desc_akitu_happened:1 "TMP"
+ joining_mardukites:0 "Recent participation of ruler in Akitu"
+ desc_joining_mardukites:1 "TMP"
+ angering_mardukites:0 "Akitu has been profaned"
+ desc_angering_mardukites:1 "TMP"

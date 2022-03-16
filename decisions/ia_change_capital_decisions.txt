@@ -8,6 +8,9 @@
 				primary_culture = judean
 				primary_culture = israelic
 			}
+			NOT = {
+				capital = 687
+			}
 		}
 		
 		highlight = {
@@ -20,6 +23,9 @@
 		
 		allow = {
 			owns = 687
+			NOT = {
+				capital = 687
+			}
 		}
 		
 		effect = {

@@ -8,16 +8,19 @@ akitu_festival.1 = {
 	
 	trigger = {
 		#religion = anunnaki_pantheon
+		#religion = protoiranian_pantheon
 		owns = 918
 		owns = 919
 	}
 	
 	option = {
 		name = akitu_festival.1.a
-		add_country_modifier = {
-			name = #TODO
-			duration = 365
-		}
+		p:918 = {
+        	add_province_modifier = {
+        		name = joining_mardukites
+        		duration = 3650
+        	}
+        }
 		ai_chance = {
 			factor = 1
 		}
@@ -29,18 +32,20 @@ akitu_festival.1 = {
 			duration = 365
 		}
 		ai_chance = {
-			factor = 0.2
+			factor = 0.5
 		}
 	}
 	option = {
 		name = akitu_festival.1.c
-		trigger  = {
-			primary_culture = ashurite
-		}
-		add_country_modifier = {
-			name = #TODO
-			duration = 365
-		}
+		#trigger  = {
+		#	primary_culture = ashurite
+		#}
+		p:918 = {
+        	add_province_modifier = {
+        		name = angering_mardukites
+        		duration = 3650
+        	}
+        }
 		ai_chance = {
 			factor = 5
 		}
