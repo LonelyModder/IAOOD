@@ -2556,3 +2556,31 @@ angering_mardukites = {
 	local_pop_assimilation_speed = 0.5
 	local_migration_attraction = -2
 }
+#Heb Sed festival
+sed_festival_none = {
+	global_citizen_happyness = -0.10
+	global_freemen_happyness = -0.10
+	global_slaves_happyness = -0.10
+	omen_power = -0.10
+}
+
+sed_festival_small = {
+	global_citizen_happyness = 0.05
+	global_freemen_happyness = 0.05
+	global_slaves_happyness = 0.05
+	omen_power = 0.10
+}
+
+sed_festival_med = {
+	global_citizen_happyness = 0.10
+	global_freemen_happyness = 0.10
+	global_slaves_happyness = 0.10
+	omen_power = 0.20
+}
+
+sed_festival_huge = {
+	global_citizen_happyness = 0.25
+	global_freemen_happyness = 0.25
+	global_slaves_happyness = 0.25
+	omen_power = 0.50
+}
