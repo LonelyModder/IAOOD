@@ -2542,7 +2542,6 @@ lepontic_invasion_modifier = {
 #3 akitu modifiers
 appeasing_mardukites = {
     global_tax_modifier = -0.1
-	#global_tax_modifier
 }
 
 joining_mardukites = {

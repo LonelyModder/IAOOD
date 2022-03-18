@@ -3670,9 +3670,9 @@
  engineer_cohort_defensive:0 "Engineer Defense"
  engineer_cohort_morale:0 "Engineer Morale"
  #Modified
- appeasing_mardukites:0 "Donations for the Mardukite Priests"
- desc_appeasing_mardukites:1 "TMP"
+ appeasing_mardukites:0 "Donations to the Mardukite Priests"
+ desc_appeasing_mardukites:1 "You have decided to pay the marduk priests to mitigate the fact that you are not present at the festivities. The priests, however, are quite greedy and this burdens the state budget. "
  joining_mardukites:0 "Recent participation of ruler in Akitu"
- desc_joining_mardukites:1 "TMP"
+ desc_joining_mardukites:1 "You swallowed your pride and decided to take part in Akitu. Perhaps your authority will suffer, but why make enemies of Marduk's influential priests. "
  angering_mardukites:0 "Akitu has been profaned"
- desc_angering_mardukites:1 "TMP"
+ desc_angering_mardukites:1 "You made a decision to end your problems with Babylonian priests once and for all. It can cause problems, but you found shedding their influence worth it. "

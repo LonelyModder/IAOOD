@@ -37,9 +37,11 @@ akitu_festival.1 = {
 	}
 	option = {
 		name = akitu_festival.1.c
-		#trigger  = {
-		#	primary_culture = ashurite
-		#}
+		trigger  = {
+			NOT = {
+				primary_culture = agade
+			}
+		}
 		p:918 = {
         	add_province_modifier = {
         		name = angering_mardukites
@@ -47,7 +49,7 @@ akitu_festival.1 = {
         	}
         }
 		ai_chance = {
-			factor = 5
+			factor = 0.1
 		}
 	}
 }
