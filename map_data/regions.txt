@@ -587,6 +587,11 @@ caledonia_region = {		#7 areas
 		caledonia_meridionalis_area
 		caledonia_occidentalis_area
 		caledonia_septentrionalis_area
+	}
+}
+
+hibernia_region = {
+	areas = {
 		hibernia_septentrionalis_area
 		hibernia_orientalis_area
 		hibernia_occidentalis_area
@@ -776,6 +781,11 @@ magna_graecia_region = {		#8 areas
 		tarentum_area
 		heraclea_area
 		croton_area
+	}
+}
+
+sicily_region = {
+	areas = {
 		east_sicily_area
 		west_sicily_area
 		syracuse_area

@@ -29,6 +29,8 @@ salt = { #177 territories
 	color = { 0.6 0.4 0.6 }
 }
 
+# Armor and wepons resources
+
 iron = { #119 territories
 	category = 0
 	allow_unit_type = axemen_heavy
@@ -48,6 +50,45 @@ iron = { #119 territories
 
 	color = hsv { 0.0 0.0 0.11 }
 }
+
+base_metals = { #199 territories #copper
+	category = 0
+
+	gold = 0.25
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		light_spearmen_offensive = 0.1
+		light_swordsmen_offensive = 0.1
+	} 
+	
+	color = hsv { 0.0 0.0 0.3 }
+}
+
+tin = { #199 territories
+	category = 0
+	
+	allow_unit_type = axemen_heavy
+	allow_unit_type = heavy_spearmen
+	allow_unit_type = heavy_swordsmen
+	
+	gold = 0.5
+	
+	province = {
+		global_tax_modifier = 0.05
+	}
+	country = {
+		axemen_heavy_offensive = 0.1
+		heavy_spearmen_offensive = 0.1
+		heavy_swordsmen_offensive = 0.1
+	} 
+	
+	color = hsv { 0.0 0.0 0.0 }
+}
+
+# Armor and wepons resources
 
 horses = { #276 territories
 	category = 0
@@ -379,43 +420,6 @@ leather = { #338 territories
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
-}
-
-base_metals = { #199 territories
-	category = 0
-
-	gold = 0.25
-	
-	province = {
-		local_freemen_happyness = happiness_small_svalue
-	}
-	country = {
-		light_spearmen_offensive = 0.1
-		light_swordsmen_offensive = 0.1
-	} 
-	
-	color = hsv { 0.0 0.0 0.3 }
-}
-
-tin = { #199 territories
-	category = 0
-	
-	allow_unit_type = axemen_heavy
-	allow_unit_type = heavy_spearmen
-	allow_unit_type = heavy_swordsmen
-	
-	gold = 0.5
-	
-	province = {
-		global_tax_modifier = 0.05
-	}
-	country = {
-		axemen_heavy_offensive = 0.1
-		heavy_spearmen_offensive = 0.1
-		heavy_swordsmen_offensive = 0.1
-	} 
-	
-	color = hsv { 0.0 0.0 0.0 }
 }
 
 woad = { #141 territories
