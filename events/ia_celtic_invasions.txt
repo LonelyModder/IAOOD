@@ -94,6 +94,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 		}
 		p:142.owner = {
 			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
@@ -127,6 +131,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 		}
 		p:146.owner = {
 			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
@@ -159,6 +167,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 			}
 		}
 		p:3571.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
@@ -199,6 +211,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 		}
 		p:3551.owner = {
 			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
@@ -232,6 +248,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 		}
 		p:3587.owner = {
 			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
 			}
@@ -264,6 +284,10 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 			}
 		}
 		p:3593.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years

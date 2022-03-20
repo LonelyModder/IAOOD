@@ -56,6 +56,10 @@ rise_of_massagetae.1 = { # Invasion of todays Azerbeijan
 			}
 		}
 		p:7248.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
 			capital_scope.governorship = {
 				raise_legion = {
 					create_unit = {
