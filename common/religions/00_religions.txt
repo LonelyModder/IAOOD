@@ -34,7 +34,7 @@ canaanitic_pantheon = { # Caananite
 	modifier = { 
 		global_capital_trade_routes = 2
 		control_range_modifier = 0.5
-		levy_size_multiplier = -0.1
+		global_tax_modifier = -0.1
 	}
 	religion_category = pantheon
 }
@@ -52,7 +52,7 @@ arabian_pantheon = { # Arabs
 anunnaki_pantheon = { # Mesopotamian 
 	color = hsv { 0.99 0.1 0.11 }
 	modifier = { 
-		levy_size_multiplier = 0.025
+		global_population_growth = 0.025
 		land_morale_modifier = 0.1
 		subject_loyalty = -0.25
 	}
@@ -94,7 +94,7 @@ kassite_pantheon = { # Kassite gods
 	modifier = { 
 		stability_monthly_change = 0.025
 		stability_monthly_decay = -0.05
-		levy_size_multiplier = -0.1
+		global_pop_assimilation_speed_modifier = -0.1
 	}
 	religion_category = pantheon
 }

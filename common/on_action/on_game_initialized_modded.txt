@@ -68,6 +68,9 @@ on_game_initialized = {
 				}
 				civilization_level_effect = yes
 			}
+			every_country = {
+				militarisation_level_effect = yes
+			}
 			David_Ishbaal_conflict_effect = yes
 			Osorkons_rebelion_conflict_effect = yes
 			Distatnt_descendent_of_elam_conflict_effect = yes

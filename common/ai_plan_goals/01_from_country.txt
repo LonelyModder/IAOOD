@@ -4,16 +4,12 @@ is_agressive_culture_aimod = {
 	trigger = {
 		OR = {
 			primary_culture = ashurite
-			tag = PAJ
-			tag = PAG
+			primary_culture = persic
+			primary_culture = medic
 			primary_culture = scythoi
 			primary_culture = gomoran
 			primary_culture = kappadokian
 			primary_culture = massagetic
-			tag = VBA
-			tag = HCM
-			tag = NAG
-			tag = ADH
 		}
 		manpower > 4
 	}
@@ -27,16 +23,12 @@ is_lacking_levies_pseudo_trigger = {
 		military_experience < 85
 		OR = {
 			primary_culture = ashurite
-			tag = PAJ
-			tag = PAG
+			primary_culture = persic
+			primary_culture = medic
 			primary_culture = scythoi
 			primary_culture = gomoran
 			primary_culture = kappadokian
 			primary_culture = massagetic
-			tag = VBA
-			tag = HCM
-			tag = NAG
-			tag = ADH
 		}
 	}
 	
