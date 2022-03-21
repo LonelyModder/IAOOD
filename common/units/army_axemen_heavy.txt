@@ -2,17 +2,17 @@
 	army = yes
 	assault = yes
 
-	levy_tier = advanced
+	levy_tier = basic
 
-	allow = {
-		OR = {
-			trade_good_surplus = { target = iron value > 0 }
-			AND = {
-				trade_good_surplus = { target = base_metals value > 0 }
-				trade_good_surplus = { target = tin value > 0 }
-			}
-		}
-	}
+	#allow = {
+	#	OR = {
+	#		trade_good_surplus = { target = iron value > 0 }
+	#		AND = {
+	#			trade_good_surplus = { target = base_metals value > 0 }
+	#			trade_good_surplus = { target = tin value > 0 }
+	#		}
+	#	}
+	#}
 
 	maneuver = 1
 	movement_speed = 2.5
@@ -20,7 +20,6 @@
 
 	axemen_heavy = 1.0
 	cavalry_camels = 1.2
-	cavalry_heavy = 1.1
 	cavalry_horse_archers = 0.7
 	cavalry_light = 1.2
 	chariot_heavy = 1.1
@@ -28,8 +27,6 @@
 	elephant_african = 0.5
 	elephant_forest = 0.7
 	elephant_indian = 0.6
-	heavy_spearmen = 0.9
-	heavy_swordsmen = 1.1
 	light_spearmen = 1.2
 	light_swordsmen = 1.3
 	missile_archers = 0.8

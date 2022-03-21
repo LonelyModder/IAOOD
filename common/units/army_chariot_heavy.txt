@@ -5,16 +5,8 @@
 	levy_tier = advanced
 
 	allow = {
-		OR = {
-			AND = {
-				trade_good_surplus = { target = wood value > 0 }
-				trade_good_surplus = { target = horses value > 0 }
-			}
-			AND = {
-				trade_good_surplus = { target = wood value > 0 }
-				trade_good_surplus = { target = steppe_horses value > 0 }
-			}
-		}
+		trade_good_surplus = { target = wood value > 0 }
+		trade_good_surplus = { target = horses value > 0 }
 	}
 
 	maneuver = 1
@@ -24,7 +16,6 @@
 
 	axemen_heavy = 0.9
 	cavalry_camels = 0.9
-	cavalry_heavy = 0.8
 	cavalry_horse_archers = 0.8
 	cavalry_light = 0.9
 	chariot_heavy = 1.0
@@ -32,8 +23,6 @@
 	elephant_african = 0.7
 	elephant_forest = 0.9
 	elephant_indian = 0.8
-	heavy_spearmen = 0.8
-	heavy_swordsmen = 0.9
 	light_spearmen = 1.1
 	light_swordsmen = 1.2
 	missile_archers = 1.1

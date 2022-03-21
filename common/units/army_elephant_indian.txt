@@ -16,7 +16,6 @@
 	
 	axemen_heavy = 1.4
 	cavalry_camels = 1.2
-	cavalry_heavy = 1.3
 	cavalry_horse_archers = 0.8
 	cavalry_light = 1.2
 	chariot_heavy = 1.2
@@ -24,8 +23,6 @@
 	elephant_african = 0.9
 	elephant_forest = 1.2
 	elephant_indian = 1.0
-	heavy_spearmen = 1.2
-	heavy_swordsmen = 1.3
 	light_spearmen = 1.2
 	light_swordsmen = 1.4
 	missile_archers = 0.9
