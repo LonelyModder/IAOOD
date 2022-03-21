@@ -1,0 +1,111 @@
+﻿namespace = hidden_events
+
+hidden_events.1 = { 
+	type = country_event
+	title = "hidden_events.1.t"
+	desc = "hidden_events.1.desc"
+	picture = religious_rite
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = iron
+						value >= 2
+					}
+				}
+			}
+			add_country_modifier = {
+				name = iron_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = bronze_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = copper_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = stone_equipment
+				#duration = 365
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = tin
+						value >= 2
+					}
+				}
+			}
+			add_country_modifier = {
+				name = bronze_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = iron_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = copper_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = stone_equipment
+				#duration = 365
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = base_metals
+						value >= 2
+					}
+				}
+			}
+			add_country_modifier = {
+				name = copper_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = iron_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = bronze_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = stone_equipment
+				#duration = 365
+			}
+		}
+		else_if = {
+			add_country_modifier = {
+				name = stone_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = iron_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = copper_equipment
+				#duration = 365
+			}
+			remove_country_modifier = {
+				name = copper_equipment
+				#duration = 365
+			}
+		}
+	}
+}

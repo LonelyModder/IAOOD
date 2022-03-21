@@ -14,6 +14,7 @@
 		rise_of_massagetae.1
 		celtic_invasions.1
 		tibetan_invasions.1
+		hidden_events.1
 		#Modded events
 	#	flavor_egy.15
 	}
