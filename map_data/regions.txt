@@ -26,23 +26,7 @@ taurica_region = { #8
 		maeotia_area
 		bosproranum_area
 		taurica_area
-		maeotia_minores_area
-		alania_area
-		tanaissa_area
-		sattara_area
 		borysthenia_minor_area
-	}
-}
-
-sarmatia_asiatica_region = {		#8 areas
-	areas = {
-		borysthenia_maioris_area
-		danaia_superioris_area
-		tanassa_area
-		danaia_area
-		confluenta_area
-		alania_proper_area
-		alania_orientalis_area
 	}
 }
 
@@ -217,12 +201,17 @@ media_region = { #9
 	areas = {
 		aspadana_area
 		rhagai_area
-		media_area
-		media_atropatene_area
 		media_choromithrene
 		ecbatana_area
+	}
+}
+
+mannai_region = {
+	areas = {
+		media_area
 		amardioi_area
 		kadousioi_area
+		media_atropatene_area
 	}
 }
 
@@ -255,8 +244,6 @@ parthia_region = { #7
 		hyrcania_area
 		vishpauzatis_area
 		margu_area
-		derbicca_area
-		parnia_area
 	}
 }
 
@@ -491,11 +478,31 @@ scythia_region = { #9
 		atara_area
 		transhyrcania_area
 		darn_area
-		scythia_ultima_area
-		scythia_prima_area
+		sarmatia_hyrcania_area
+		scythia_trans_montem_area
+		sattara_area
+		alania_area
+		tanaissa_area
+		maeotia_minores_area
+		borysthenia_maioris_area
+		danaia_superioris_area
+		tanassa_area
+		danaia_area
+		confluenta_area
+		alania_proper_area
+		alania_orientalis_area
+	}
+}
+
+dahea_region = {
+	areas = {
 		dahaea_area
 		scythia_ad_pontem_area
 		kharesmia_area
+		scythia_ultima_area
+		scythia_prima_area
+		parnia_area
+		derbicca_area
 	}
 }
 
@@ -729,8 +736,6 @@ albania_region = { #7
 		paytankert_area
 		artshak_area
 		kahetia_area
-		scythia_trans_montem_area
-		sarmatia_hyrcania_area
 	}
 }
 

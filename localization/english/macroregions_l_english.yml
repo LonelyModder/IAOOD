@@ -1,7 +1,6 @@
 ﻿l_english:
  central_italy_region:0 "Italia"
  taurica_region:0 "Taurica"
- sarmatia_asiatica_region:0 "Sarmatia Asiatica"
  greece_region:0 "Greece"
  asia_region:0 "Asia"
  cilicia_region:0 "Cilicia"
@@ -15,6 +14,8 @@
  gutium_region:0 "Gutium"
  gedrosia_region:0 "Gedrosia"
  persis_region:0 "Susiana"
+ mannai_region:0 "Mannea"
+ dahea_region:0 "Dahea"
  anshan_region:0 "Anshan"
  carmana_region:0 "Carmania"
  deshret_region:0 "Deshret"
