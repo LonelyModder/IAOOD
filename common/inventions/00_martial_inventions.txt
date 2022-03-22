@@ -209,8 +209,8 @@
 		requires = { army_maintenance_cost_inv_2 }
 		modifier = { 
 			global_start_experience = 5
-			heavy_spearmen_discipline = 0.05 
-			heavy_swordsmen_discipline = 0.05
+			light_spearmen_discipline = 0.05 
+			light_swordsmen_discipline = 0.05
 		}
 		on_activate = {
 			custom_tooltip = "create_high_martial_rising_star"

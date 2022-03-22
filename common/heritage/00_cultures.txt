@@ -90,21 +90,6 @@ arabian_heritage = {
 	}
 }
 
-hattian_heritage = {
-	modifier = {
-		#good
-		monthly_political_influence_modifier = 0.1
-		global_monthly_state_loyalty = 0.025
-		
-		#bad
-		global_pop_conversion_speed_modifier = 0.05
-	}
-	
-	trigger = {
-		country_culture_group = hattian
-	}
-}
-
 grekoid_heritage = {
 	modifier = {
 		#good
@@ -634,21 +619,6 @@ baltian_heritage = {
 		country_culture_group = baltian
 	}
 }
-
-#synaic_heritage = {
-#	modifier = {
-#		#good
-#		global_pop_conversion_speed_modifier = 0.3
-#		omen_power = 0.25
-#		
-#		#bad
-#		stability_cost_modifier = 0.15
-#	}
-#	
-#	trigger = {
-#		country_culture_group = synaic
-#	}
-#}
 
 veddic_heritage = {
 	modifier = {

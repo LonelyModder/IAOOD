@@ -22,7 +22,7 @@ confident = { #
 	character_loyalty = -5
 	martial = 1
 	unit = {
-		cavalry_heavy_discipline = 0.05
+		cavalry_light_discipline = 0.05
 		chariot_heavy_discipline = 0.05
 		chariot_light_discipline = 0.05
 	}
@@ -53,8 +53,8 @@ steadfast = { #
 	character_loyalty = 5
 	
 	unit = {
-		heavy_spearmen_discipline = 0.05
-		heavy_swordsmen_discipline = 0.05
+		light_spearmen_discipline = 0.05
+		light_swordsmen_discipline = 0.05
 		elephant_indian_discipline = 0.05
 	}
 }

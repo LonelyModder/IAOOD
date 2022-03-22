@@ -75,7 +75,7 @@
 	
 	grekoid_path_3a = { ###grekoid path
 		modifier = { 
-			heavy_spearmen_discipline = 0.15
+			light_spearmen_discipline = 0.15
 		}
 		enable_tactic = greek_phalanx
 		icon = greek_states_path_7

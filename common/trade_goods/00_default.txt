@@ -33,9 +33,6 @@ salt = { #177 territories
 
 iron = { #119 territories
 	category = 0
-	allow_unit_type = axemen_heavy
-	allow_unit_type = heavy_spearmen
-	allow_unit_type = heavy_swordsmen
 	
 	gold = 0.3
 	
@@ -44,8 +41,8 @@ iron = { #119 territories
 	}
 	country = {
 		axemen_heavy_discipline = 0.1
-		heavy_spearmen_discipline = 0.1
-		heavy_swordsmen_discipline = 0.1
+		light_spearmen_discipline = 0.1
+		light_swordsmen_discipline = 0.1
 	}
 
 	color = hsv { 0.0 0.0 0.11 }
@@ -70,10 +67,6 @@ base_metals = { #199 territories #copper
 tin = { #199 territories
 	category = 0
 	
-	allow_unit_type = axemen_heavy
-	allow_unit_type = heavy_spearmen
-	allow_unit_type = heavy_swordsmen
-	
 	gold = 0.5
 	
 	province = {
@@ -81,8 +74,8 @@ tin = { #199 territories
 	}
 	country = {
 		axemen_heavy_offensive = 0.1
-		heavy_spearmen_offensive = 0.1
-		heavy_swordsmen_offensive = 0.1
+		light_spearmen_offensive = 0.1
+		light_swordsmen_offensive = 0.1
 	} 
 	
 	color = hsv { 0.0 0.0 0.0 }
