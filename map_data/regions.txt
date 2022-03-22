@@ -64,8 +64,18 @@ cilicia_region = {	#Lycia, Pamphylia, Cilicia	#7 areas
 	areas = {
 		cilicia_trachea_area
 		cilicia_pedias_area
-		lycia_area
+	}
+}
+
+cyprus_region = {
+	areas = {
 		cyprus_area
+	}
+}
+
+lukka_region = {
+	areas = {
+		lycia_area
 		pamphylia_area
 		pisidia_area
 		milyas_area
