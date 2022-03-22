@@ -61,31 +61,14 @@
 				change_country_color = "unisrael_color"
 				change_country_tag = XIS
 			}
-			if = {
-				limit = {
-					NOT = {
-						capital_scope = {
-							province_id = 691
-						}
-					}
-				}
-				set_capital = 691
-				hidden_effect = {
-					p:691.state = {
-						set_state_capital = 691
-					}
-				}
-			}
-			p:691 = {
-				if = {
-					limit = { has_city_status = no }
-					set_city_status = city
-				}
-			}
-			p:691 = {
-				capital_formable_medium_effect = yes
-				formable_capital_modifier_normal_effect = yes
-			}
+			#capital_scope = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#	capital_formable_medium_effect = yes
+			#	formable_capital_modifier_normal_effect = yes
+			#}
 			add_2_free_province_investments = yes
 		}
 		

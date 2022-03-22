@@ -4,12 +4,14 @@
 	capture_of_jerusalem = {
 		
 		potential = {
+			NOT = {
+				root.capital_scope = {
+					province_id = 687
+				}
+			}
 			OR = {
 				primary_culture = judean
 				primary_culture = israelic
-			}
-			NOT = {
-				capital = 687
 			}
 		}
 		
@@ -22,26 +24,19 @@
 		}
 		
 		allow = {
-			owns = 687
 			NOT = {
-				capital = 687
+				root.capital_scope = {
+					province_id = 687
+				}
 			}
+			owns = 687
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						capital_scope = {
-							province_id = 687
-						}
-					}
-				}
-				set_capital = 687
-				hidden_effect = {
-					p:687.state = {
-						set_state_capital = 687
-					}
+			set_capital = 687
+			hidden_effect = {
+				p:687.state = {
+					set_state_capital = 687
 				}
 			}
 			p:687 = {
