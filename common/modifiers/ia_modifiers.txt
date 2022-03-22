@@ -81,21 +81,21 @@ pacifist_culture = {
 }
 #equipment
 iron_equipment = {
-	land_offensive = 0.2
-	land_defensive = 0.2
+	global_offensive = 0.2
+	global_defensive = 0.2
 }
 
 bronze_equipment = {
-	land_offensive = 0.15
-	land_defensive = 0.15
+	global_offensive = 0.15
+	global_defensive = 0.15
 }
 
 copper_equipment = {
-	land_offensive = 0.1
-	land_defensive = 0.1
+	global_offensive = 0.1
+	global_defensive = 0.1
 }
 
 stone_equipment = {
-	land_offensive = -0.1
-	land_defensive = -0.1
+	global_offensive = -0.1
+	global_defensive = -0.1
 }

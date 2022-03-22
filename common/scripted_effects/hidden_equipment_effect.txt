@@ -1,0 +1,106 @@
+﻿hidden_equipment_effect = { 
+		if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = iron
+						value > 0
+					}
+				}
+			}
+			capital_scope.owner = {
+				add_country_modifier = {
+					name = iron_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = bronze_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = copper_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = stone_equipment
+					#duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = tin
+						value > 0
+					}
+				}
+			}
+			capital_scope.owner = {
+				add_country_modifier = {
+					name = bronze_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = iron_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = copper_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = stone_equipment
+					#duration = 365
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope.state = {
+					trade_good_surplus = {
+						target = base_metals
+						value > 0
+					}
+				}
+			}
+			capital_scope.owner = {
+				add_country_modifier = {
+					name = copper_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = iron_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = bronze_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = stone_equipment
+					#duration = 365
+				}
+			}
+		}
+		else = {
+			capital_scope.owner = {
+				add_country_modifier = {
+					name = stone_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = iron_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = bronze_equipment
+					#duration = 365
+				}
+				remove_country_modifier = {
+					name = copper_equipment
+					#duration = 365
+				}
+			}
+		}
+}

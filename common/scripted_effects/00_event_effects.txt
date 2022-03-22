@@ -2248,7 +2248,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = camels
+				add_subunit = cavalry_camels
 			}
 			25 = {
 				trigger = {
@@ -2524,8 +2524,8 @@ add_relevant_loyal_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = steppe_horses
+								trade_goods = steppe_horses
 							}
 						}
 					}
@@ -2534,19 +2534,6 @@ add_relevant_loyal_subunit_effect = {
 			}
 			25 = {
 				add_loyal_subunit = light_spearmen
-			}
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = cavalry_heavy
 			}
 		}
 	}
@@ -2582,7 +2569,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_spearmen
+				add_loyal_subunit = light_spearmen
 			}
 			20 = {
 				add_loyal_subunit = missile_archers
@@ -2658,7 +2645,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_spearmen
+				add_loyal_subunit = light_spearmen
 			}
 			30 = {
 				add_loyal_subunit = missile_archers
@@ -2785,7 +2772,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = heavy_spearmen
+				add_loyal_subunit = light_spearmen
 			}
 		}
 	}

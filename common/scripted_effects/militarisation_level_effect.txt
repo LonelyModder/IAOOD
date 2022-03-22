@@ -3,7 +3,7 @@
 			limit = { 
 				OR = {
 					primary_culture = ashurite 
-					primary_culture = scythic
+					primary_culture = scythoi
 				}				
 			}
 			add_country_modifier = {

@@ -39,8 +39,8 @@
 
 	# Level 2
 	heavy_infantry_discipline_inv = {
-		modifier = { heavy_spearmen_discipline = 0.05 
-					 heavy_swordsmen_discipline = 0.05 }
+		modifier = { light_spearmen_discipline = 0.05 
+					 light_swordsmen_discipline = 0.05 }
 		requires = { global_start_experience_inv_3 }
 	}
 
@@ -366,7 +366,7 @@ military_inventions = {
 
 	# Level 2
 	heavy_cavalry_discipline_inv = {
-		modifier = { cavalry_heavy_discipline = 0.1 }
+		modifier = { cavalry_light_discipline = 0.1 }
 		requires = { discipline_inv_1 }
 	}
 
@@ -592,9 +592,7 @@ military_inventions = {
     	modifier = { 
     		light_swordsmen_defensive  = 0.05 
 			light_spearmen_defensive  = 0.05
-			heavy_swordsmen_defensive = 0.05
-			heavy_spearmen_defensive = 0.05
-    		cavalry_heavy_defensive = 0.05
+    		cavalry_light_defensive = 0.05
 		}
     	requires = { gallic_noric_steel_inv }
         allow = {
@@ -618,8 +616,7 @@ military_inventions = {
     } 
 
     gallic_four_horned_saddle_inv = {
-    	modifier = { cavalry_light_offensive = 0.1 
-    				 cavalry_heavy_offensive = 0.1 
+    	modifier = { cavalry_light_offensive = 0.1
     				 cavalry_horse_archers_offensive = 0.1}
         requires = { gallic_celtic_calendar_inv }
 		allow = {
@@ -645,9 +642,7 @@ military_inventions = {
     ## Gallic Specific - Level 3
     gallic_montefortino_helmet_inv = {
     	modifier = { light_swordsmen_discipline = 0.1 
-					 light_spearmen_discipline = 0.1 
-    				 heavy_swordsmen_discipline = 0.1
-					 heavy_spearmen_discipline = 0.1 }
+					 light_spearmen_discipline = 0.1 }
         requires = { gallic_celtic_plough_inv gallic_chainmail_inv }
         allow = {
 			OR = {
@@ -671,7 +666,6 @@ military_inventions = {
 
     gallic_trimarcisia_inv = {
     	modifier = { cavalry_light_morale = 0.1 
-    				 cavalry_heavy_morale = 0.1 
     				 cavalry_horse_archers_morale = 0.1 }
         requires = { gallic_four_horned_saddle_inv }
 		allow = {
