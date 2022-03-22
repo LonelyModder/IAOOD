@@ -79,23 +79,3 @@ pacifist_culture = {
 	global_freemen_happyness = 0.1
 	global_slaves_happyness = 0.1
 }
-#equipment
-iron_equipment = {
-	global_offensive = 0.2
-	global_defensive = 0.2
-}
-
-bronze_equipment = {
-	global_offensive = 0.15
-	global_defensive = 0.15
-}
-
-copper_equipment = {
-	global_offensive = 0.1
-	global_defensive = 0.1
-}
-
-stone_equipment = {
-	global_offensive = -0.1
-	global_defensive = -0.1
-}

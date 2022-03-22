@@ -1,172 +1,75 @@
 ﻿hidden_equipment_effect = { 
-		if = {
-			limit = {
-				trade_good_surplus = {
-					target = iron
-					value > 0
-				}
+	if = {
+		limit = { 
+			AND = {
+				NOT = { has_country_modifier = { name = fanatical_culture }}
+				NOT = { has_country_modifier = { name = militarized_culture }}
+				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
+				NOT = { has_country_modifier = { name = pacifist_culture }}
 			}
-				add_country_modifier = {
-					name = iron_equipment
-					#duration = 365
-				}
-				if = {
-					limit = {
-							trade_good_surplus = {
-								target = tin
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = bronze_equipment
-						#duration = 365
-					}
-				}
-				else_if = {
-					limit = {
-							trade_good_surplus = {
-								target = base_metals
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = copper_equipment
-						#duration = 365
-					}
-				}
-				else = {
-					remove_country_modifier = {
-						name = stone_equipment
-						#duration = 365
-					}
-				}
+			OR = {
+				primary_culture = ashurite 
+				primary_culture = scythoi
+			}			
 		}
-		else_if = {
-			limit = {
-					trade_good_surplus = {
-						target = tin
-						value > 0
-					}
-			}
-				add_country_modifier = {
-					name = bronze_equipment
-					#duration = 365
-				}
-				if = {
-					limit = {
-							trade_good_surplus = {
-								target = iron
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = iron_equipment
-						#duration = 365
-					}
-				}
-				else_if = {
-					limit = {
-							trade_good_surplus = {
-								target = base_metals
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = copper_equipment
-						#duration = 365
-					}
-				}
-				else = {
-					remove_country_modifier = {
-						name = stone_equipment
-						#duration = 365
-					}
-				}
+		add_country_modifier = {
+			name = fanatical_culture
+			#duration = 365
 		}
-		else_if = {
-			limit = {
-					trade_good_surplus = {
-						target = base_metals
-						value > 0
-					}
+	}
+	else_if = {
+		limit = { 
+			AND = {
+				NOT = { has_country_modifier = { name = fanatical_culture }}
+				NOT = { has_country_modifier = { name = militarized_culture }}
+				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
+				NOT = { has_country_modifier = { name = pacifist_culture }}
 			}
-			capital_scope.owner = {
-				add_country_modifier = {
-					name = copper_equipment
-					#duration = 365
-				}
-				if = {
-					limit = {
-							trade_good_surplus = {
-								target = iron
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = iron_equipment
-						#duration = 365
-					}
-				}
-				if = {
-					limit = {
-							trade_good_surplus = {
-								target = tin
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = bronze_equipment
-						#duration = 365
-					}
-				}
-				else = {
-					remove_country_modifier = {
-						name = stone_equipment
-						#duration = 365
-					}
-				}
+			OR = {
+				primary_culture = agade 
+				primary_culture = medic 
+				primary_culture = persic 
+				primary_culture = rroman
+				primary_culture = west_barb
+				primary_culture = north_barb
 			}
 		}
-		else = {
-				add_country_modifier = {
-					name = stone_equipment
-					#duration = 365
-				}
-				if = {
-					limit = {
-							trade_good_surplus = {
-								target = iron
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = iron_equipment
-						#duration = 365
-					}
-				}
-				else_if = {
-					limit = {
-							trade_good_surplus = {
-								target = tin
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = bronze_equipment
-						#duration = 365
-					}
-				}
-				else_if = {
-					limit = {
-							trade_good_surplus = {
-								target = base_metals
-								value > 0
-							}
-					}
-					remove_country_modifier = {
-						name = copper_equipment
-						#duration = 365
-					}
-				}
+		add_country_modifier = {
+			name = militarized_culture
+			#duration = 365
 		}
+	}
+	else_if = {
+		limit = {  
+			AND = {
+				NOT = { has_country_modifier = { name = fanatical_culture }}
+				NOT = { has_country_modifier = { name = militarized_culture }}
+				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
+				NOT = { has_country_modifier = { name = pacifist_culture }}
+			}
+			OR = {
+				primary_culture = upper_kemetic 
+				primary_culture = middle_kemetic 
+				primary_culture = lower_kemetic 
+			}
+		}
+		add_country_modifier = {
+			name = pacifist_culture
+			#duration = 365
+		}
+	}
+	else_if = {
+		limit = {
+			AND = {
+				NOT = { has_country_modifier = { name = fanatical_culture }}
+				NOT = { has_country_modifier = { name = militarized_culture }}
+				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
+				NOT = { has_country_modifier = { name = pacifist_culture }}
+			}
+		}
+		add_country_modifier = {
+			name = neutral_militarly_culture
+			#duration = 365
+		}
+	}
 }

@@ -3692,11 +3692,4 @@
  desc_neutral_militarly_culture:1 "The country places no particular emphasis on the military and uses it as a political tool. Citizens approach the service as an uncomfortable duty. "
  pacifist_culture:0 "Pacifist culture"
  desc_pacifist_culture:1 "This country maintains the army only for defense purposes and feels safe enough (or demoralised enough) that it does not see the need to have more forces. Citizens avoid service like fire. "
- iron_equipment:0 "Iron Weponry"
- desc_iron_equipment:1 "Iron armaments were initially not much better than bronze. The advantage was the availability of this mineral, which allowed for the mass production of weapons. "
- bronze_equipment:0 "Bronze Weponry"
- desc_bronze_equipment:1 "Bronze is an alloy of copper and tin, the latter of which is quite a scarce metal. To balance this, bronze is relatively easy to melt when needed and needs a lower temperature than iron. "
- copper_equipment:0 "Copper Weponry"
- desc_copper_equipment:1 "Pierwszym metalem jaki opanowała ludzkość była miedź. Powód jest dość prosty. Mianowicie ładnie wygląda :) i w końcu ktoś wpadł na pomysł by wrzucić ją do ognia. Jest stosunkowo giętka dlatego poszukiwano zamiennika."
- stone_equipment:0 "Primitive Wepons"
- desc_stone_equipment:1 "When there were no deposits of any metals in the area, people used wood and stone. "
+ 
