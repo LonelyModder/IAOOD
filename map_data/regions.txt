@@ -42,6 +42,10 @@ greece_region = {	#10 areas
 		boeotia_area
 		arcadia_area
 		euboea_area
+		thessaly_area
+		sporades_area
+		coastal_caria_area
+		ionia_area
 	}
 }
 
@@ -50,13 +54,10 @@ greece_region = {	#10 areas
 asia_region = {		#8 areas
 	areas = {
 		lydia_area
-		ionia_area
 		aeolia_area
 		mysia_area
 		mysia_abrettene_area
 		inland_caria_area
-		coastal_caria_area
-		sporades_area
 	}
 }
 
@@ -170,8 +171,8 @@ gutium_region = {
 gedrosia_region = { #7
 	areas = {
 		gedrosia_area
-		patalene_area
 		parecania_area
+		drangiana_area
 	}
 }
 
@@ -228,12 +229,11 @@ mannai_region = {
 bactriana_region = { #7
 	areas = {
 		bactria_area
-		bamyan_area
-		sattagydia_area
 		candara_area
 		oxiana_area
 		transoxus_area
 		margiana_area
+		kharesmia_area
 	}
 }
 ariana_region = { #7
@@ -241,9 +241,8 @@ ariana_region = { #7
 		aria_area
 		pactya_area
 		arachosia_area
-		sagartia_area
-		drangiana_area
-		namek_area
+		bamyan_area
+		sattagydia_area
 	}
 }
 
@@ -254,6 +253,8 @@ parthia_region = { #7
 		hyrcania_area
 		vishpauzatis_area
 		margu_area
+		namek_area
+		sagartia_area
 	}
 }
 
@@ -341,19 +342,25 @@ gandhara_region = { #7
 		madra_area
 		panchanada_area
 		trigarta_area
-		sivi_area
 	}
 }
 
 maru_region = { #7
 	areas = {
-		sauvira_area
-		north_sindhu_area
-		south_sindhu_area
 		abhiria_area
 		kaccha_area
 		outer_saurashtra_area
 		inner_saurashtra_area
+	}
+}
+
+sindh_area = {
+	areas = {
+		sauvira_area
+		north_sindhu_area
+		south_sindhu_area
+		sivi_area
+		patalene_area
 	}
 }
 
@@ -460,13 +467,18 @@ tibet_region = { #6 !
 
 himalayan_region = { #7
 	areas = {
+		gilgit_area
+		suvarna_gotra_area
+		zhangzhung_area
+	}
+}
+
+tocharia_region = { #7
+	areas = {
 		tarim_area
 		north_tarim_area
 		south_tarim_area
 		pamir_area
-		gilgit_area
-		suvarna_gotra_area
-		zhangzhung_area
 	}
 }
 
@@ -508,7 +520,6 @@ dahea_region = {
 	areas = {
 		dahaea_area
 		scythia_ad_pontem_area
-		kharesmia_area
 		scythia_ultima_area
 		scythia_prima_area
 		parnia_area
@@ -696,9 +707,6 @@ thrace_region = { #8 areas
 		europa_area
 		rhodope_area
 		haemimontus_area
-		moesia_orientalis_area
-		moesia_occidentalis_area
-		scythia_area
 	}
 }
 
@@ -712,6 +720,9 @@ moesia_region = { #8
 		dacia_mediterranea_area
 		moesia_prima_orientalis_area
 		moesia_prima_occidentalis_area
+		moesia_orientalis_area
+		moesia_occidentalis_area
+		scythia_area
 	}
 }
 
@@ -783,7 +794,6 @@ illyria_region = {			#7 regions
 		dalmatia_occidentalis_area
 		dalmatia_centralis_area
 		dalmatia_orientalis_area
-		illyria_graeca_area
 		savia_occidentalis_area
 		savia_orientalis_area
 	}
@@ -855,7 +865,7 @@ macedonia_region = { #7 areas
 		macedonia_salutaris_area
 		dardania_inferioris_area
 		dardania_superioris_area
-		thessaly_area
+		illyria_graeca_area
 	}
 }
 
