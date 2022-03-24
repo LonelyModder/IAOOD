@@ -16,7 +16,7 @@
 
 	maneuver = 1
 	movement_speed = 2.5
-	build_time = 60
+	build_time = 30
 
 	axemen_heavy = 1.0
 	cavalry_camels = 1.1
@@ -39,7 +39,7 @@
 	morale_damage_taken = 0.9
 
 	build_cost = {
-		gold = 16
+		gold = 8
 		manpower = 1
 	}
 	food_consumption = 0.20

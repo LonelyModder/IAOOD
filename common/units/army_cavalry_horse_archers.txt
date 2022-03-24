@@ -33,7 +33,7 @@
 	
 	morale_damage_taken = 1.25
 	build_cost = {
-		gold = 16
+		gold = 26
 		manpower = 1
 	}
 	food_consumption = 0.25

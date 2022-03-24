@@ -32,7 +32,7 @@
 	
 	ai_max_percentage = 15
 	build_cost = {
-		gold = 10
+		gold = 12
 		manpower = 1
 	}
 	food_consumption = 0.25
