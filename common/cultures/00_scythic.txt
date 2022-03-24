@@ -3,7 +3,7 @@
 	
 	levy_template = levy_nomadoi
 	
-	primary = cavalry_heavy
+	primary = cavalry_light
 	second = missile_archers
 	flank = cavalry_horse_archers
 
