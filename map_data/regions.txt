@@ -91,7 +91,6 @@ galatia_region = {	#Galatia & Phrygia	#7 areas
 		phrygia_area
 		phrygia_epiktetos
 		galatia_area
-		galatia_trocmi_area
 	}
 }
 
@@ -111,19 +110,26 @@ cappadocia_region = { #5
 		cappadocia_area
 		cappadocia_cataonia_area
 		cappadocia_garsauritis_area
-		cappadocia_saravene_area
 		cappadocia_melitene_area
 		commagene_area
 	}
 }
 
+khatte_region = { #5
+	areas = {
+		cappadocia_saravene_area
+		galatia_trocmi_area
+		pontus_colopene_area
+		pontus_area
+	}
+}
+
 cappadocia_pontica_region = { #5
 	areas = {
-		pontus_colopene_area
 		armenia_minor_area
 		armenia_maior_area
-		pontus_area
 		machelonia_area
+		upper_armenia_area
 	}
 }
 
@@ -233,7 +239,7 @@ bactriana_region = { #7
 		oxiana_area
 		transoxus_area
 		margiana_area
-		kharesmia_area
+		kharesmia_superior
 	}
 }
 ariana_region = { #7
@@ -341,7 +347,6 @@ gandhara_region = { #7
 		kasmira_area
 		madra_area
 		panchanada_area
-		trigarta_area
 	}
 }
 
@@ -379,10 +384,6 @@ avanti_region = { #8
 
 madhyadesa_region { #9
 	areas = {
-		sthanisvara_area
-		kuru_area
-		ahicchatra_area
-		pancala_area
 		kosala_area
 		west_cedi_area
 		east_cedi_area
@@ -394,19 +395,15 @@ madhyadesa_region { #9
 pracya_region = { #8
 	areas = {
 		magadha_area
-		kamata_area
-		pundra_area
 		anga_area
-		samatata_area
-		kamarupa_area
 		vrji_area
 		vanga_area
+		radha_area
 	}
 }
 
 vindhyaprstha_region = { #8
 	areas = {
-		radha_area
 		kalinga_area
 		mahendragiri_area
 		dakshina_kosala_area
@@ -423,10 +420,15 @@ dravida_region = { #8
 		koda_area
 		north_tondainadu_area
 		south_tondainadu_area
-		north_tambapamni_area
-		south_tambapamni_area
 		sriparvata_area
 		malayas_area
+	}
+}
+
+lanka_region = {
+	areas = {
+		north_tambapamni_area
+		south_tambapamni_area
 	}
 }
 
@@ -490,7 +492,25 @@ sogdiana_region = { #7
 		sirdarya_area
 		talas_area
 		ferghana_area
-		kharesmia_superior
+	}
+}
+
+kuru_region = { #7
+	areas = {
+		kuru_area
+		sthanisvara_area
+		trigarta_area
+		ahicchatra_area
+		pancala_area
+	}
+}
+
+pragjyotisha_region = {
+	areas = {
+		kamarupa_area
+		samatata_area
+		pundra_area
+		kamata_area
 	}
 }
 
@@ -524,6 +544,7 @@ dahea_region = {
 		scythia_prima_area
 		parnia_area
 		derbicca_area
+		kharesmia_area
 	}
 }
 
@@ -715,11 +736,7 @@ moesia_region = { #8
 		getia_occidentalis_area
 		getia_orientalis_area
 		malvensis_area
-		dacia_inferioris_area
 		dacia_superioris_area
-		dacia_mediterranea_area
-		moesia_prima_orientalis_area
-		moesia_prima_occidentalis_area
 		moesia_orientalis_area
 		moesia_occidentalis_area
 		scythia_area
@@ -762,7 +779,6 @@ albania_region = { #7
 
 armenia_region = {		#9 areas
 	areas = {
-		upper_armenia_area
 		tarawn_area
 		vaspurakan_area
 		syracene_area
@@ -863,12 +879,20 @@ macedonia_region = { #7 areas
 		upper_macedonia_area
 		chalkidiki_area
 		macedonia_salutaris_area
-		dardania_inferioris_area
-		dardania_superioris_area
 		illyria_graeca_area
 	}
 }
 
+dardania_region = {
+	areas = {
+		dardania_inferioris_area
+		dardania_superioris_area
+		moesia_prima_occidentalis_area
+		moesia_prima_orientalis_area
+		dacia_inferioris_area
+		dacia_mediterranea_area
+	}
+}
 
 central_gaul_region = {	#7 areas
 	areas = {

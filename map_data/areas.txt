@@ -628,7 +628,7 @@ cappadocia_melitene_area = { #12
 }
 
 pontus_area = { #12
-    provinces = { 1791 1792 1804 1819 1821 1822 1823 1824 1826 1837 1831 7994 }
+    provinces = { 1791 1792 1804 1819 1821 1822 1823 1824 1826 1837 1831 7994 1809 1807 1806}
 }
 
 pontus_colopene_area = { #12
@@ -668,7 +668,7 @@ heracleotis_area = { #12
 }
 
 paphlagonia_inferior_area = { #12
-    provinces = { 208 206 1807 1809 1810 1812 1814 1815 1816 1806 211 212 }
+    provinces = { 208 206 1810 1812 1814 1815 1816 211 212 }
 }
 
 bithynia_superior_area = { #12
