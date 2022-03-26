@@ -9,6 +9,7 @@ akitu_festival.1 = {
 	trigger = {
 		#religion = anunnaki_pantheon
 		#religion = protoiranian_pantheon
+		NOT = { has_global_variable = akitu_banned }
 		owns = 918
 		owns = 919
 	}
@@ -37,6 +38,9 @@ akitu_festival.1 = {
 	}
 	option = {
 		name = akitu_festival.1.c
+		set_global_variable = {
+			name = akitu_banned
+		}
 		trigger  = {
 			NOT = {
 				primary_culture = agade
