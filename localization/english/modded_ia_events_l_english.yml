@@ -28,3 +28,7 @@
  ba_egypt_flavor.2.c:0 "We will give it the pomp that is expected"
  ba_egypt_flavor.2.d:0 "Time for the largest party Kemet has ever seen!"
  ba_egypt_flavor.2.d.tooltip:0 "This option is available due to your ruler's #Y ambitious or indulgent character#!."
+ akitu_festival.2.t:0 "Marduk priests request"
+ akitu_festival.2.desc:0 "The priests of Marduk came with a petition to restore Akitu to the status of a public holiday. On the one hand, it will give them a political tool, on the other hand, it should calm the moods among the people of Babylon."
+ akitu_festival.2.a:0 "Maybe it's better to leave things as they are. "
+ akitu_festival.2.b:0 "The people of Babylon deserve a little rest. I will agree. "
