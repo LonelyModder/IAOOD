@@ -35,7 +35,7 @@
 
 	effect = {
 		every_country = {
-			hidden_equipment_effect = yes
+			hidden_militarism_effect = yes
 		}
 	}
 }
