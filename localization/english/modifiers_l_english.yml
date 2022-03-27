@@ -3692,4 +3692,9 @@
  desc_neutral_militarly_culture:1 "The country places no particular emphasis on the military and uses it as a political tool. Citizens approach the service as an uncomfortable duty. "
  pacifist_culture:0 "Pacifist culture"
  desc_pacifist_culture:1 "This country maintains the army only for defense purposes and feels safe enough (or demoralised enough) that it does not see the need to have more forces. Citizens avoid service like fire. "
- 
+ iron_wepons:0 "Iron Wepons"
+ desc_iron_wepons:1 "TMP"
+ bronze_wepons:0 "Bronze Wepons"
+ desc_bronze_wepons:1 "TMP"
+ primitive_wepons:0 "Primitive Wepons"
+ desc_primitive_wepons:1 "TMP"

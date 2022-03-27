@@ -1,0 +1,41 @@
+﻿hidden_equipment2_effect = { 
+	if = {
+		limit = { 
+			NOT = { 
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = iron
+						trade_goods = iron
+					}					
+				}
+			}
+			any_owned_province = {
+				AND = {
+					OR = {
+						is_importing_trade_good = tin
+						trade_goods = tin
+					}	
+					OR = {
+						is_importing_trade_good = base_metals
+						trade_goods = base_metals
+					}
+				}
+			}
+		}
+		add_country_modifier = {
+			name = bronze_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = iron_wepons 
+			}
+			remove_country_modifier = iron_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = primitive_wepons 
+			}
+			remove_country_modifier = primitive_wepons
+		}
+	}
+}

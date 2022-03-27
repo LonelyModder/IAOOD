@@ -2,10 +2,10 @@
 	if = {
 		limit = { 
 			AND = {
-				NOT = { has_country_modifier = { name = fanatical_culture }}
-				NOT = { has_country_modifier = { name = militarized_culture }}
-				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
-				NOT = { has_country_modifier = { name = pacifist_culture }}
+				NOT = { has_country_modifier = fanatical_culture }
+				NOT = { has_country_modifier = militarized_culture }
+				NOT = { has_country_modifier = neutral_militarly_culture }
+				NOT = { has_country_modifier = pacifist_culture }
 			}
 			OR = {
 				primary_culture = ashurite 
@@ -20,10 +20,10 @@
 	else_if = {
 		limit = { 
 			AND = {
-				NOT = { has_country_modifier = { name = fanatical_culture }}
-				NOT = { has_country_modifier = { name = militarized_culture }}
-				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
-				NOT = { has_country_modifier = { name = pacifist_culture }}
+				NOT = { has_country_modifier = fanatical_culture }
+				NOT = { has_country_modifier = militarized_culture }
+				NOT = { has_country_modifier = neutral_militarly_culture }
+				NOT = { has_country_modifier = pacifist_culture }
 			}
 			OR = {
 				primary_culture = agade 
@@ -42,10 +42,10 @@
 	else_if = {
 		limit = {  
 			AND = {
-				NOT = { has_country_modifier = { name = fanatical_culture }}
-				NOT = { has_country_modifier = { name = militarized_culture }}
-				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
-				NOT = { has_country_modifier = { name = pacifist_culture }}
+				NOT = { has_country_modifier = fanatical_culture }
+				NOT = { has_country_modifier = militarized_culture }
+				NOT = { has_country_modifier = neutral_militarly_culture }
+				NOT = { has_country_modifier = pacifist_culture }
 			}
 			OR = {
 				primary_culture = upper_kemetic 
@@ -61,10 +61,10 @@
 	else_if = {
 		limit = {
 			AND = {
-				NOT = { has_country_modifier = { name = fanatical_culture }}
-				NOT = { has_country_modifier = { name = militarized_culture }}
-				NOT = { has_country_modifier = { name = neutral_militarly_culture }}
-				NOT = { has_country_modifier = { name = pacifist_culture }}
+				NOT = { has_country_modifier = fanatical_culture }
+				NOT = { has_country_modifier = militarized_culture }
+				NOT = { has_country_modifier = neutral_militarly_culture }
+				NOT = { has_country_modifier = pacifist_culture }
 			}
 		}
 		add_country_modifier = {

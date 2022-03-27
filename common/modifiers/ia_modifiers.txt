@@ -79,3 +79,65 @@ pacifist_culture = {
 	global_freemen_happyness = 0.1
 	global_slaves_happyness = 0.1
 }
+
+iron_wepons = {
+	axemen_heavy_offensive = 0.1
+	axemen_heavy_defensive = 0.1
+	cavalry_camels_offensive = 0.1
+	cavalry_camels_defensive = 0.1
+	cavalry_horse_archers_offensive = 0.1
+	cavalry_horse_archers_defensive = 0.1
+	cavalry_light_offensive = 0.1
+	cavalry_light_defensive = 0.1
+	chariot_heavy_offensive = 0.1
+	chariot_heavy_defensive = 0.1
+	chariot_light_offensive = 0.1
+	chariot_light_defensive = 0.1
+	elephant_african_offensive = 0.1
+	elephant_african_defensive = 0.1
+	elephant_forest_offensive = 0.1
+	elephant_forest_defensive = 0.1
+	elephant_indian_offensive = 0.1
+	elephant_indian_defensive = 0.1
+	light_spearmen_offensive = 0.1
+	light_spearmen_defensive = 0.1
+	light_swordsmen_offensive = 0.1
+	light_swordsmen_defensive = 0.1
+	missile_archers_offensive = 0.1
+	missile_archers_defensive = 0.1
+	missile_spearthrowers_offensive = 0.1
+	missile_spearthrowers_defensive = 0.1
+}
+
+bronze_wepons = {
+	axemen_heavy_offensive = 0.05
+	axemen_heavy_defensive = 0.05
+	cavalry_camels_offensive = 0.05
+	cavalry_camels_defensive = 0.05
+	cavalry_horse_archers_offensive = 0.05
+	cavalry_horse_archers_defensive = 0.05
+	cavalry_light_offensive = 0.05
+	cavalry_light_defensive = 0.05
+	chariot_heavy_offensive = 0.05
+	chariot_heavy_defensive = 0.05
+	chariot_light_offensive = 0.05
+	chariot_light_defensive = 0.05
+	elephant_african_offensive = 0.05
+	elephant_african_defensive = 0.05
+	elephant_forest_offensive = 0.05
+	elephant_forest_defensive = 0.05
+	elephant_indian_offensive = 0.05
+	elephant_indian_defensive = 0.05
+	light_spearmen_offensive = 0.05
+	light_spearmen_defensive = 0.05
+	light_swordsmen_offensive = 0.05
+	light_swordsmen_defensive = 0.05
+	missile_archers_offensive = 0.05
+	missile_archers_defensive = 0.05
+	missile_spearthrowers_offensive = 0.05
+	missile_spearthrowers_defensive = 0.05
+}
+
+primitive_wepons = {
+	#For information purposes only
+}
