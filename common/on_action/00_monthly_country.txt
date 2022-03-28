@@ -41,10 +41,10 @@
 			hidden_equipment1_effect = yes
 		}
 		every_country = {
-			hidden_equipment2_effect = yes
+			hidden_equipment3_effect = yes
 		}
 		every_country = {
-			hidden_equipment3_effect = yes
+			hidden_equipment2_effect = yes
 		}
 	}
 }

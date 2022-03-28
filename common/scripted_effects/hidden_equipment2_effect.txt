@@ -1,29 +1,22 @@
 ﻿hidden_equipment2_effect = { 
 	if = {
-		limit = {
-				NOT = { 
-					any_owned_province = {
-						OR = {
-							is_importing_trade_good = iron
-							trade_goods = iron
-						}					
-					}
-				}
-				NOT = { 
-					any_owned_province = {
-						AND = {
-							OR = {
-								is_importing_trade_good = tin
-								trade_goods = tin
-							}	
-							OR = {
-								is_importing_trade_good = base_metals
-								trade_goods = base_metals
-							}
-						}
-					}
-				}
-				NOT = { has_country_modifier = primitive_wepons }
+		limit = { 
+			any_owned_province = {
+				#NOR = {
+				#	is_importing_trade_good = iron
+				#	trade_goods = iron
+				#}
+				#AND = {
+					OR = {
+						is_importing_trade_good = base_metals
+						trade_goods = base_metals
+					}	
+				#	OR = {
+				#		is_importing_trade_good = base_metals
+				#		trade_goods = base_metals
+				#	}
+				#}				
+			}
 		}
 		add_country_modifier = {
 			name = primitive_wepons
@@ -32,13 +25,16 @@
 			limit = {
 				has_country_modifier = iron_wepons 
 			}
-			remove_country_modifier = iron_wepons
+			remove_country_modifier = primitive_wepons
 		}
 		if = {
 			limit = {
 				has_country_modifier = bronze_wepons 
 			}
-			remove_country_modifier = bronze_wepons
+			remove_country_modifier = primitive_wepons
 		}
+	}
+	else = {
+		remove_country_modifier = primitive_wepons
 	}
 }

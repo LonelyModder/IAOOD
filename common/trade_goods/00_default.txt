@@ -40,8 +40,8 @@ iron = { #119 territories
 		local_tax_modifier = 0.02
 	}
 	country = {
-		global_freemen_output = output_small_svalue
-		global_slaves_output = output_small_svalue
+		global_freemen_output = 0.04
+		global_slaves_output = 0.04
 	}
 
 	color = hsv { 0.0 0.0 0.11 }
@@ -53,11 +53,11 @@ tin = { #199 territories
 	gold = 0.5
 	
 	province = {
-		global_tax_modifier = 0.05
+		local_tax_modifier = 0.05
 	}
 	country = {
-		global_freemen_output = output_small_svalue
-		global_slaves_output = output_small_svalue
+		global_freemen_output = 0.02
+		global_slaves_output = 0.02
 	} 
 	
 	color = hsv { 0.0 0.0 0.0 }
@@ -72,8 +72,8 @@ base_metals = { #199 territories #copper
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		global_freemen_output = output_small_svalue
-		global_slaves_output = output_small_svalue
+		global_freemen_output = 0.01
+		global_slaves_output = 0.01
 	} 
 	
 	color = hsv { 0.0 0.0 0.3 }

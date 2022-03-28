@@ -17,7 +17,7 @@ akitu_festival.1 = {
 		p:918 = {
         	add_province_modifier = {
         		name = joining_mardukites
-        		duration = 3650
+        		duration = 365
         	}
         }
 		ai_chance = {
@@ -47,7 +47,7 @@ akitu_festival.1 = {
 		p:918 = {
         	add_province_modifier = {
         		name = angering_mardukites
-        		duration = 3650
+        		duration = 365
         	}
         }
 		ai_chance = {

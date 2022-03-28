@@ -24,4 +24,7 @@
 			remove_country_modifier = primitive_wepons
 		}
 	}
+	else = {
+		remove_country_modifier = iron_wepons
+	}
 }

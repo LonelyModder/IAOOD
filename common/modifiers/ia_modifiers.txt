@@ -139,5 +139,30 @@ bronze_wepons = {
 }
 
 primitive_wepons = {
-	#For information purposes only
+	axemen_heavy_offensive = 0.025
+	axemen_heavy_defensive = 0.025
+	cavalry_camels_offensive = 0.025
+	cavalry_camels_defensive = 0.025
+	cavalry_horse_archers_offensive = 0.025
+	cavalry_horse_archers_defensive = 0.025
+	cavalry_light_offensive = 0.025
+	cavalry_light_defensive = 0.025
+	chariot_heavy_offensive = 0.025
+	chariot_heavy_defensive = 0.025
+	chariot_light_offensive = 0.025
+	chariot_light_defensive = 0.025
+	elephant_african_offensive = 0.025
+	elephant_african_defensive = 0.025
+	elephant_forest_offensive = 0.025
+	elephant_forest_defensive = 0.025
+	elephant_indian_offensive = 0.025
+	elephant_indian_defensive = 0.025
+	light_spearmen_offensive = 0.025
+	light_spearmen_defensive = 0.025
+	light_swordsmen_offensive = 0.025
+	light_swordsmen_defensive = 0.025
+	missile_archers_offensive = 0.025
+	missile_archers_defensive = 0.025
+	missile_spearthrowers_offensive = 0.025
+	missile_spearthrowers_defensive = 0.025
 }
