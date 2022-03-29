@@ -1652,3 +1652,20 @@ seize_property_svalue = {
 		}
 	}
 }
+
+#Modified
+
+two_years_income_svalue = {
+	value = has_monthly_income
+	multiply = 24
+}
+
+three_years_income_svalue = {
+	value = has_monthly_income
+	multiply = 36
+}
+
+five_years_income_svalue = {
+	value = has_monthly_income
+	multiply = 60
+}

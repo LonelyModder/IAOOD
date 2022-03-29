@@ -26,7 +26,6 @@
 				NOT = { has_country_modifier = pacifist_culture }
 			}
 			OR = {
-				primary_culture = agade 
 				primary_culture = medic 
 				primary_culture = persic 
 				primary_culture = rroman
@@ -48,6 +47,7 @@
 				NOT = { has_country_modifier = pacifist_culture }
 			}
 			OR = {
+				primary_culture = agade
 				primary_culture = upper_kemetic 
 				primary_culture = middle_kemetic 
 				primary_culture = lower_kemetic 
