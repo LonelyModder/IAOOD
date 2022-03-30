@@ -19,6 +19,8 @@
 					primary_culture = rroman
 					primary_culture = west_barb
 					primary_culture = north_barb
+					country_culture_group = celtic
+					country_culture_group = nubian
 				}
 			}
 			add_country_modifier = {

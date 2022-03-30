@@ -88,6 +88,12 @@ equipment_events.3 = {
 			}
 			remove_country_modifier = bronze_wepons
 		}
+		if = {
+			limit = {
+				has_country_modifier = primitive_wepons
+			}
+			remove_country_modifier = primitive_wepons
+		}
 	}
 }
 
