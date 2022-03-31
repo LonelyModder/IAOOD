@@ -21,6 +21,8 @@
 		equipment_events.4
 		equipment_events.5
 		equipment_events.6
+		#Militarism
+		militarism_events.1
 		#Modded events
 	}
 	
@@ -40,8 +42,8 @@
 	}
 
 	effect = {
-		every_country = {
-			hidden_militarism_effect = yes
-		}
+		#every_country = {
+		#	hidden_militarism_effect = yes
+		#}
 	}
 }

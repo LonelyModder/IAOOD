@@ -1,10 +1,23 @@
-﻿militarisation_level_effect = {
+﻿namespace = militarism_events
+
+militarism_events.1 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		NOT = { has_country_modifier = fanatical_culture }
+		NOT = { has_country_modifier = militarized_culture }
+		NOT = { has_country_modifier = neutral_militarly_culture }
+		NOT = { has_country_modifier = pacifist_culture }
+	}
+	
+	immediate = {
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					primary_culture = ashurite 
 					primary_culture = scythoi
-				}				
+				}			
 			}
 			add_country_modifier = {
 				name = fanatical_culture
@@ -12,7 +25,7 @@
 			}
 		}
 		else_if = {
-			limit = { 
+			limit = {
 				OR = {
 					primary_culture = medic 
 					primary_culture = persic 
@@ -21,7 +34,8 @@
 					primary_culture = north_barb
 					country_culture_group = celtic
 					country_culture_group = nubian
-				}
+					country_culture_group = grekoid
+				}			
 			}
 			add_country_modifier = {
 				name = militarized_culture
@@ -29,13 +43,13 @@
 			}
 		}
 		else_if = {
-			limit = { 
+			limit = {
 				OR = {
 					primary_culture = agade
 					primary_culture = upper_kemetic 
 					primary_culture = middle_kemetic 
 					primary_culture = lower_kemetic 
-				}
+				}			
 			}
 			add_country_modifier = {
 				name = pacifist_culture
@@ -48,4 +62,5 @@
 				#duration = 365
 			}
 		}
+	}
 }

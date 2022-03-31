@@ -63,7 +63,7 @@ fanatical_culture = {
 
 militarized_culture = {
 	levy_size_multiplier = 0.025
-	land_morale_modifier = 0.5
+	land_morale_modifier = 0.05
 }
 
 neutral_militarly_culture = {
