@@ -92,7 +92,7 @@ horses = { #276 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		cavalry_heavy_discipline = 0.1
+		cavalry_light_discipline = 0.1
 	}
 
 	color = hsv { 0.05 0.9 0.5 }
@@ -305,7 +305,6 @@ precious_metals = { #107 territories
 steppe_horses = { #90 territories
 	category = 0
 	allow_unit_type = cavalry_horse_archers
-	allow_unit_type = cavalry_heavy
 	allow_unit_type = cavalry_light
 	
 	gold = 0.25
@@ -315,7 +314,6 @@ steppe_horses = { #90 territories
 	}
 	country = {
 		cavalry_horse_archers_discipline = 0.1
-		cavalry_heavy_discipline = 0.1
 		cavalry_light_discipline = 0.1
 	}
 	

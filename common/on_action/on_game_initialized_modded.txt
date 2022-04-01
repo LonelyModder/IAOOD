@@ -40,6 +40,7 @@ on_game_initialized = {
 		bloodlines_startup.15 #Elam bloodline
 		bloodlines_startup.16 #Gordion bloodline
 		bloodlines_startup.17 #Heracles bloodline
+		bloodlines_startup.18 #Founders of Magadha
 		#Militarism level mechanic
 		militarism_events.1
 		#Equipment mechanic

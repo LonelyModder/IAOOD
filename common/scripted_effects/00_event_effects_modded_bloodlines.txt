@@ -11,6 +11,11 @@ pass_down_traits_effect = {
 				}
 				OR = {
 					father = {
+						has_trait = brihadratha
+					}
+				}
+				OR = {
+					father = {
 						has_trait = achemenids
 					}
 				}
@@ -100,6 +105,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = davidids
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = brihadratha
+					}
+					NOT = {
+						has_trait = brihadratha
+					}
+				}
+				add_trait = brihadratha
 			}
 			if = {
 				limit = {
@@ -289,6 +305,19 @@ pass_down_traits_effect = {
 				}
 			}
 			add_trait = davidids
+
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = brihadratha
+				}
+				NOT = {
+					has_trait = brihadratha
+				}
+			}
+			add_trait = brihadratha
 
 		}
 		if = {

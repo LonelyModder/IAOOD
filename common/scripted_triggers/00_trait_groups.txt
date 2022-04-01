@@ -207,5 +207,6 @@ has_bloodline_trigger = {
 		has_trait = ofelam
 		has_trait = gordis
 		has_trait = heraclid
+		has_trait = brihadratha
 	}
 }

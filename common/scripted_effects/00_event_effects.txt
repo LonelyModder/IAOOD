@@ -2255,8 +2255,8 @@ add_relevant_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = steppe_horses
+								trade_goods = steppe_horses
 							}
 						}
 					}
@@ -2271,13 +2271,13 @@ add_relevant_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = steppe_horses
+								trade_goods = steppe_horses
 							}
 						}
 					}
 				}
-				add_subunit = heavy_cavalry
+				add_subunit = cavalry_light
 			}
 		}
 	}
@@ -2700,13 +2700,13 @@ add_relevant_loyal_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = steppe_horses
+								trade_goods = steppe_horses
 							}
 						}
 					}
 				}
-				add_loyal_subunit = cavalry_heavy
+				add_loyal_subunit = cavalry_light
 			}
 			40 = {
 				trigger = {
@@ -2726,8 +2726,8 @@ add_relevant_loyal_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = steppe_horses
+								trade_goods = steppe_horses
 							}
 						}
 					}

@@ -32,6 +32,7 @@ militarism_events.1 = {
 					primary_culture = rroman
 					primary_culture = west_barb
 					primary_culture = north_barb
+					primary_culture = maghadic
 					country_culture_group = celtic
 					country_culture_group = nubian
 					country_culture_group = grekoid
@@ -61,6 +62,82 @@ militarism_events.1 = {
 				name = neutral_militarly_culture
 				#duration = 365
 			}
+		}
+	}
+}
+
+militarism_events.2 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			has_country_modifier = fanatical_culture
+			has_country_modifier = militarized_culture
+			has_country_modifier = neutral_militarly_culture
+			has_country_modifier = pacifist_culture
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_modifier = fanatical_culture
+			}
+			remove_country_modifier = fanatical_culture
+			add_country_modifier = { name = militarized_culture }
+		}
+		else_if = {
+			limit = {
+				has_country_modifier = militarized_culture
+			}
+			remove_country_modifier = militarized_culture
+			add_country_modifier = { name = neutral_militarly_culture }
+		}
+		else_if = {
+			limit = {
+				has_country_modifier = neutral_militarly_culture
+			}
+			remove_country_modifier = neutral_militarly_culture
+			add_country_modifier = { name = pacifist_culture }
+		}
+	}
+}
+
+militarism_events.3 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			has_country_modifier = fanatical_culture
+			has_country_modifier = militarized_culture
+			has_country_modifier = neutral_militarly_culture
+			has_country_modifier = pacifist_culture
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_modifier = fanatical_culture
+			}
+			remove_country_modifier = militarized_culture
+			add_country_modifier = { name = fanatical_culture }
+		}
+		else_if = {
+			limit = {
+				has_country_modifier = militarized_culture
+			}
+			remove_country_modifier = neutral_militarly_culture
+			add_country_modifier = { name = militarized_culture }
+		}
+		else_if = {
+			limit = {
+				has_country_modifier = neutral_militarly_culture
+			}
+			remove_country_modifier = pacifist_culture
+			add_country_modifier = { name = neutral_militarly_culture }
 		}
 	}
 }
