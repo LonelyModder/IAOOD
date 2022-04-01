@@ -523,6 +523,12 @@ family={
 			culture = attic
 			prestige=300
 		}
+		35={
+			key="Brihadratha"
+			owner=VBA
+			culture = maghadic
+			prestige=300
+		}
 		
 		}
 }
@@ -11910,6 +11916,7 @@ country = {
 		}
 		
 		VBA = { #Magadha
+			family = 35
 			government = despotic_monarchy
 			primary_culture = maghadic
 			religion = vedic_pantheon
