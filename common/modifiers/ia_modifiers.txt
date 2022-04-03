@@ -79,7 +79,7 @@ pacifist_culture = {
 	global_freemen_happyness = 0.1
 	global_slaves_happyness = 0.1
 }
-
+#wepon system
 iron_wepons = {
 	axemen_heavy_offensive = 0.1
 	axemen_heavy_defensive = 0.1
@@ -165,4 +165,29 @@ primitive_wepons = {
 	missile_archers_defensive = 0.025
 	missile_spearthrowers_offensive = 0.025
 	missile_spearthrowers_defensive = 0.025
+}
+#plague events
+plagued_territory = {
+	global_citizen_happyness = -0.1
+	global_freemen_happyness = -0.1
+	global_slaves_happyness = -0.1
+}
+
+sick_territory = {
+	global_citizen_happyness = -0.05
+	global_freemen_happyness = -0.05
+	global_slaves_happyness = -0.05
+}
+
+quarantined_territory = {
+	global_citizen_happyness = -0.1
+	global_freemen_happyness = -0.1
+	global_slaves_happyness = -0.1
+	local_tax_modifier = -0.8
+}
+
+immune_territory = {
+	global_citizen_happyness = 0.1
+	global_freemen_happyness = 0.1
+	global_slaves_happyness = 0.1
 }

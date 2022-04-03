@@ -1,0 +1,64 @@
+﻿namespace = plague_event
+
+plague_event.1 = { 
+	type = country_event
+	title = "plague_event.1.t"
+	desc = "plague_event.1.desc"
+	picture = religious_rite
+	
+	immediate = {
+		random_province = {
+			add_province_modifier = {
+				name = plagued_territory
+			}
+		}
+	}
+	
+	option = {
+		name = plague_event.1.a
+	}
+	
+	option = {
+		name = plague_event.1.b
+	}
+	
+	option = {
+		name = plague_event.1.c
+	}
+}
+
+plague_event.2 = { 
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_province = {
+			if = {
+				limit = {
+					any_neighbor_province = { has_country_modifier = plagued_territory }
+				}
+				add_province_modifier = {
+					name = sick_territory
+				}
+			}
+		}
+	}
+}
+
+plague_event.3 = { 
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_province = {
+			if = {
+				limit = {
+					any_neighbor_province = { has_country_modifier = sick_territory }
+				}
+				add_province_modifier = {
+					name = plagued_territory
+				}
+			}
+		}
+	}
+}
