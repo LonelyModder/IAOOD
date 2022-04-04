@@ -12,27 +12,26 @@ plague_event.1 = {
 				name = plagued_territory
 			}
 		}
+		set_global_variable = {
+			name = plague_began
+		}
+		trigger_event = {
+			id = plague_event.5
+			days = { 178 1095 }
+		}
 	}
 	
 	option = {
 		name = plague_event.1.a
 	}
-	
-	option = {
-		name = plague_event.1.b
-	}
-	
-	option = {
-		name = plague_event.1.c
-	}
 }
 
 plague_event.2 = { 
-	type = country_event
+	type = province_event
 	hidden = yes
 	
 	immediate = {
-		every_province = {
+		#every_province = {
 			if = {
 				limit = {
 					any_neighbor_province = { has_country_modifier = plagued_territory }
@@ -41,16 +40,16 @@ plague_event.2 = {
 					name = sick_territory
 				}
 			}
-		}
+		#}
 	}
 }
 
 plague_event.3 = { 
-	type = country_event
+	type = province_event
 	hidden = yes
 	
 	immediate = {
-		every_province = {
+		#every_province = {
 			if = {
 				limit = {
 					any_neighbor_province = { has_country_modifier = sick_territory }
@@ -59,6 +58,53 @@ plague_event.3 = {
 					name = plagued_territory
 				}
 			}
-		}
+		#}
+	}
+}
+
+plague_event.4 = { 
+	type = province_event
+	hidden = yes
+	
+	immediate = {
+		#every_province = {
+			if = {
+				limit = {
+					has_country_modifier = plagued_territory
+				}
+				while = { 
+					count = 2
+					limit = { 
+						total_population > 4 
+					} 
+					random_pops_in_province = { 
+						kill_pop = yes 
+					}
+				}
+			}
+		#}
+	}
+}
+
+plague_event.5 = { 
+	type = province_event
+	hidden = yes
+	
+	trigger = {
+		has_variable = plague_began
+	}
+	
+	immediate = {
+		#every_province = {
+			if = {
+				limit = {
+					any_neighbor_province = { has_country_modifier = sick_territory }
+				}
+				add_province_modifier = {
+					name = immune_territory
+					duration = 365
+				}
+			}
+		#}
 	}
 }
