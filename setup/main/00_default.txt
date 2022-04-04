@@ -535,7 +535,6 @@ family={
 diplomacy = {
 	#Babylonian relations
 	guarantee = { first = ADZ second = ABE }
-	#alliance = { first = ADZ second = ACK }
 	#Assyrian kaskan subject
 	dependency = { first = ABP second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass

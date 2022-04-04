@@ -24,9 +24,9 @@
 		#Militarism
 		militarism_events.1
 		#Plague
-		plague_event.2
-		plague_event.3
-		plague_event.4
+		#plague_event.2
+		#plague_event.3
+		#plague_event.4
 		#Modded events
 	}
 	
