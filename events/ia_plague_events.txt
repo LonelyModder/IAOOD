@@ -34,7 +34,7 @@ plague_event.2 = {
 		#every_province = {
 			if = {
 				limit = {
-					any_neighbor_province = { has_country_modifier = plagued_territory }
+					any_neighbor_province = { has_province_modifier = plagued_territory }
 				}
 				add_province_modifier = {
 					name = sick_territory
@@ -52,7 +52,7 @@ plague_event.3 = {
 		#every_province = {
 			if = {
 				limit = {
-					any_neighbor_province = { has_country_modifier = sick_territory }
+					any_neighbor_province = { has_province_modifier = sick_territory }
 				}
 				add_province_modifier = {
 					name = plagued_territory
@@ -70,7 +70,7 @@ plague_event.4 = {
 		#every_province = {
 			if = {
 				limit = {
-					has_country_modifier = plagued_territory
+					has_province_modifier = plagued_territory
 				}
 				while = { 
 					count = 2
@@ -98,7 +98,7 @@ plague_event.5 = {
 		#every_province = {
 			if = {
 				limit = {
-					any_neighbor_province = { has_country_modifier = sick_territory }
+					any_neighbor_province = { has_province_modifier = sick_territory }
 				}
 				add_province_modifier = {
 					name = immune_territory
