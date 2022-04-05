@@ -263,7 +263,7 @@ iranic_heritage = {
 medic_heritage = {
 	modifier = {
 		#good
-		happiness_for_wrong_culture_modifier_svalue = 0.05
+		happiness_for_wrong_culture_modifier = 0.05
 		land_morale_modifier = 0.1
 		
 		#bad

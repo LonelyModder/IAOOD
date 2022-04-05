@@ -92,8 +92,8 @@
 	
 	egyptian_path_5a = { ###egyptian path
 		modifier = { 
-			heavy_spearmen_offensive = 0.05
-			heavy_spearmen_defensive = 0.1
+			light_spearmen_offensive = 0.05
+			light_spearmen_defensive = 0.1
 		}
 		icon = levantine_greco_path_1
 		requires = {egyptian_path_4a}

@@ -405,8 +405,8 @@ military_inventions = {
 	}	
 
 	heavy_infantry_cost_inv = {
-		modifier = { heavy_spearmen_cost = -0.1
-					 heavy_swordsmen_cost = -0.1 }
+		modifier = { light_spearmen_cost = -0.1
+					 light_swordsmen_cost = -0.1 }
 		keystone = yes
 		requires = { heavy_cavalry_discipline_inv }
 		on_activate = { custom_tooltip = "enables_foundry_building_tt" }
@@ -517,8 +517,7 @@ military_inventions = {
 
     ## Gallic Specific - Level 1
     gallic_noric_steel_inv = {
-    	modifier = { light_swordsmen_offensive = 0.05
-    				 heavy_swordsmen_offensive = 0.05 }
+    	modifier = { light_swordsmen_offensive = 0.05 }
         requires = { gallic_oppidum_inv }
         allow = {
 			OR = {

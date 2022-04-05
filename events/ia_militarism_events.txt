@@ -141,3 +141,25 @@ militarism_events.3 = {
 		}
 	}
 }
+
+militarism_events.4 = { 
+	type = country_event
+	title = "militarism_events.4.t"
+	desc = "militarism_events.4.desc"
+	picture = religious_rite
+	fire_only_once = yes
+	
+	trigger = {
+		num_of_cities >= 300
+	}
+	
+	immediate = {
+		trigger_event = {
+			id = militarism_events.2
+		}
+	}
+	
+	option = {
+		name = militarism_events.4.a
+	}
+}

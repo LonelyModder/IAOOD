@@ -8,62 +8,21 @@ celtic_invasions.1 = { # Tribes under Brennus? invade Italy
 	
 	trigger = {
 		NOT = { has_global_variable = celtic_invasion1_italy }
-		OR = {
-			AND = {
-				c:IBK = { owns = 3571 }
-				c:IBK = { owns = 3579 }
-				c:IBK = { owns = 3587 }
-				c:IBK = { owns = 142 }
-				c:IBK = { owns = 146 }
+		AND = {
+			p:3571.owner = {
+				NOT = { is_tribal = yes }
 			}
-			AND = {
-				c:IBM = { owns = 3571 }
-				c:IBM = { owns = 3579 }
-				c:IBM = { owns = 3587 }
-				c:IBM = { owns = 142 }
-				c:IBM = { owns = 146 }
+			p:3579.owner = {
+				NOT = { is_tribal = yes }
 			}
-			AND = {
-				c:IBN = { owns = 3571 }
-				c:IBN = { owns = 3579 }
-				c:IBN = { owns = 3587 }
-				c:IBN = { owns = 142 }
-				c:IBN = { owns = 146 }
+			p:3587.owner = {
+				NOT = { is_tribal = yes }
 			}
-			AND = {
-				c:IBO = { owns = 3571 }
-				c:IBO = { owns = 3579 }
-				c:IBO = { owns = 3587 }
-				c:IBO = { owns = 142 }
-				c:IBO = { owns = 146 }
+			p:142.owner = {
+				NOT = { is_tribal = yes }
 			}
-			AND = {
-				c:IBP = { owns = 3571 }
-				c:IBP = { owns = 3579 }
-				c:IBP = { owns = 3587 }
-				c:IBP = { owns = 142 }
-				c:IBP = { owns = 146 }
-			}
-			AND = {
-				c:IBR = { owns = 3571 }
-				c:IBR = { owns = 3579 }
-				c:IBR = { owns = 3587 }
-				c:IBR = { owns = 142 }
-				c:IBR = { owns = 146 }
-			}
-			AND = {
-				c:IBW = { owns = 3571 }
-				c:IBW = { owns = 3579 }
-				c:IBW = { owns = 3587 }
-				c:IBW = { owns = 142 }
-				c:IBW = { owns = 146 }
-			}
-			AND = {
-				c:ICA = { owns = 3571 }
-				c:ICA = { owns = 3579 }
-				c:ICA = { owns = 3587 }
-				c:ICA = { owns = 142 }
-				c:ICA = { owns = 146 }
+			p:146.owner = {
+				NOT = { is_tribal = yes }
 			}
 		}
 	}

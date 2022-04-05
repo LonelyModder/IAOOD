@@ -23,7 +23,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			num_of_cities >= 40
+			num_of_cities >= 20
 		}
 		
 		effect = {
