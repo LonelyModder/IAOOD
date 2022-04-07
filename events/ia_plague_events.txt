@@ -16,10 +16,10 @@ plague_event.1 = {
 		#	id = plague_event.4
 		#	days = 90 #{ 90 365 }
 		#}
-		set_global_variable = {
-    	    name = plagues_ending
-    	    days = 100
-    	}
+		#set_global_variable = {
+    	#    name = plagues_ending
+    	#    days = 90
+    	#}
 	}
 	
 	option = {
@@ -35,7 +35,7 @@ plague_event.2 = {
 		every_owned_province = {
 			limit = {
 				any_neighbor_province = { has_province_modifier = plagued_territory }
-				NOT = { has_province_modifier = immune_territory }
+				NOT = { has_province_modifier = plagued_territory_tmp }
 			}
 			add_province_modifier = {
 				name = sick_territory
@@ -43,7 +43,17 @@ plague_event.2 = {
 		}
 		every_owned_province = {
 			limit = {
-				has_province_modifier = sick_territory
+				has_province_modifier = plagued_territory
+			}
+			remove_province_modifier = plagued_territory
+			add_province_modifier = {
+				name = plagued_territory_tmp
+				duration = 365
+			}
+		}
+		every_owned_province = {
+			limit = {
+					has_province_modifier = sick_territory
 			}
 			remove_province_modifier = sick_territory
 			add_province_modifier = {
@@ -60,7 +70,10 @@ plague_event.3 = {
 	immediate = {
 		every_owned_province = {
 			limit = {
-				has_province_modifier = plagued_territory
+				OR = {
+					has_province_modifier = plagued_territory
+					has_province_modifier = plagued_territory_tmp
+				}
 				total_population > 4 
 			}
 			random_pops_in_province = { 
@@ -70,24 +83,25 @@ plague_event.3 = {
 	}
 }
 
-plague_event.4 = { 
-	type = country_event
-	hidden = yes
-	
-	trigger = {
-		has_global_variable = plagues_ending
-	}
-	
-	immediate = {
-		every_owned_province = {
-			limit = {
-				has_province_modifier = plagued_territory
-			}
-			remove_province_modifier = plagued_territory
-			add_province_modifier = {
-				name = immune_territory
-				duration = 365
-			}
-		}
-	}
-}
+#plague_event.4 = { 
+#	type = country_event
+#	hidden = yes
+#	
+#	trigger = {
+#		has_global_variable = plagues_ending
+#	}
+#	
+#	immediate = {
+#		every_owned_province = {
+#			limit = {
+#				has_province_modifier = plagued_territory
+#			}
+#			remove_province_modifier = plagued_territory
+#			add_province_modifier = {
+#				name = immune_territory
+#				duration = 365
+#			}
+#		}
+#		remove_global_variable = plagues_ending
+#	}
+#}

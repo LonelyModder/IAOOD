@@ -3700,6 +3700,8 @@
  desc_primitive_wepons:1 "Copper was the first stage in the process of smelting metals. Humanity started with this metal because it  ........ looks pretty :) Its disadvantage is high softness. "
  plagued_territory:0 "Plagued territory"
  desc_plagued_territory:1 ""
+ plagued_territory_tmp:0 "Plagued territory"
+ desc_plagued_territory_tmp:1 ""
  sick_territory:0 "Infected territory"
  desc_sick_territory:1 ""
  quarantined_territory:0 "Territory under blocade"

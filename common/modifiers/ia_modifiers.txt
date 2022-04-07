@@ -168,6 +168,14 @@ primitive_wepons = {
 }
 #plague events
 plagued_territory = {
+	hostile_attrition = 1
+	global_citizen_happyness = -0.1
+	global_freemen_happyness = -0.1
+	global_slaves_happyness = -0.1
+}
+
+plagued_territory_tmp = {
+	hostile_attrition = 1
 	global_citizen_happyness = -0.1
 	global_freemen_happyness = -0.1
 	global_slaves_happyness = -0.1
