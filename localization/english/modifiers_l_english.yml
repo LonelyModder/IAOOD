@@ -3708,3 +3708,5 @@
  desc_cured_quarantined:1 ""
  immune_territory:0 "Territory has immunity to sickness"
  desc_immune_territory:1 ""
+ neighbor_city:0 "In the vicinity of the city"
+ desc_neighbor_city:1 ""
