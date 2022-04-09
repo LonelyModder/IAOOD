@@ -199,3 +199,19 @@ immune_territory = {
 	global_freemen_happyness = 0.1
 	global_slaves_happyness = 0.1
 }
+#Administrative capacity
+great_efficiency = {
+	
+}
+
+good_efficiency = {
+	
+}
+
+mediocre_efficiency = {
+	
+}
+
+bad_efficiency = {
+	
+}
