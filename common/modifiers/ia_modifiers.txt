@@ -200,18 +200,18 @@ immune_territory = {
 	global_slaves_happyness = 0.1
 }
 #Administrative capacity
-great_efficiency = {
-	
-}
-
 good_efficiency = {
-	
+	global_tax_modifier = 0.0
 }
 
-mediocre_efficiency = {
-	
+medium_efficiency = {
+	global_tax_modifier = -0.4
 }
 
 bad_efficiency = {
+	global_tax_modifier = -0.8
+}
+
+tmp_efficiency = {
 	
 }

@@ -27,6 +27,8 @@
 		#Plague
 		plague_event.2
 		plague_event.3
+		#Admin Efficiency
+		#admin_efficiency.1
 		#Modded events
 	}
 	
