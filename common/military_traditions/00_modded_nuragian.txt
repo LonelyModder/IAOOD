@@ -89,8 +89,7 @@
 	
 	nuragian_path_6a = { ###zagrosian path
 		modifier = { 
-			heavy_swordsmen_offensive = 0.1
-			heavy_swordsmen_defensive = 0.05
+			light_swordsmen_discipline = 0.1
 		}
 		icon = greek_antigonid_path_2
 		requires = {nuragian_path_5a}

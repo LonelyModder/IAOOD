@@ -9,22 +9,19 @@
 	movement_speed = 2.5
 	build_time = 30
 
-	axemen_heavy = 0.7
-	cavalry_camels = 0.8
-	cavalry_heavy = 0.7
-	cavalry_horse_archers = 0.7
+	axemen_heavy = 1.2
+	cavalry_camels = 0.9
+	cavalry_horse_archers = 0.8
 	cavalry_light = 0.8
-	chariot_heavy = 0.8
+	chariot_heavy = 0.9
 	chariot_light = 0.8
-	elephant_african = 0.5
+	elephant_african = 0.8
 	elephant_forest = 0.9
-	elephant_indian = 0.6
-	heavy_spearmen = 0.8
-	heavy_swordsmen = 0.8
+	elephant_indian = 0.8
 	light_spearmen = 1.2
 	light_swordsmen = 1.0
-	missile_archers = 0.7
-	missile_spearthrowers = 0.7
+	missile_archers = 0.9
+	missile_spearthrowers = 0.8
 	supply_train = 2.0
 	
 	attrition_weight = 0.5

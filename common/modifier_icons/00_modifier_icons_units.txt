@@ -117,67 +117,6 @@ light_swordsmen_maintenance_cost = {
 light_swordsmen_movement_speed = {
     positive = "gfx/interface/icons/modifiers/light_infantry_movement_speed.dds"
 }
-
-#Heavy Spearmen
-
-heavy_spearmen_discipline = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_discipline.dds"
-}
-
-heavy_spearmen_morale = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_morale.dds"
-}
-
-heavy_spearmen_offensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_offensive.dds"
-}
-
-heavy_spearmen_defensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_defensive.dds"
-}
-
-heavy_spearmen_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_cost.dds"
-}
-
-heavy_spearmen_maintenance_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_maintenance_cost.dds"
-}
-
-heavy_spearmen_movement_speed = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_movement_speed.dds"
-}
-
-#Heavy Swordsmen
-
-heavy_swordsmen_discipline = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_discipline.dds"
-}
-
-heavy_swordsmen_morale = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_morale.dds"
-}
-
-heavy_swordsmen_offensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_offensive.dds"
-}
-
-heavy_swordsmen_defensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_defensive.dds"
-}
-
-heavy_swordsmen_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_cost.dds"
-}
-
-heavy_swordsmen_maintenance_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_maintenance_cost.dds"
-}
-
-heavy_swordsmen_movement_speed = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_movement_speed.dds"
-}
-
 #Elephant African
 
 elephant_african_discipline = {
@@ -358,36 +297,6 @@ cavalry_light_movement_speed = {
     positive = "gfx/interface/icons/modifiers/light_cavalry_movement_speed.dds"
 }
 
-#Cavalry Heavy
-
-cavalry_heavy_discipline = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_discipline.dds"
-}
-
-cavalry_heavy_morale = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_morale.dds"
-}
-
-cavalry_heavy_offensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_offensive.dds"
-}
-
-cavalry_heavy_defensive = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_defensive.dds"
-}
-
-cavalry_heavy_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_cost.dds"
-}
-
-cavalry_heavy_maintenance_cost = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_maintenance_cost.dds"
-}
-
-cavalry_heavy_movement_speed = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_movement_speed.dds"
-}
-
 #Cavalry Horse Archers
 
 cavalry_horse_archers_discipline = {
@@ -504,18 +413,6 @@ chariot_light_plains_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_plains_combat_bonus.dds"
 }
 
-cavalry_heavy_plains_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_plains_combat_bonus.dds"
-}
-
-heavy_spearmen_plains_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_plains_combat_bonus.dds"
-}
-
-heavy_swordsmen_plains_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_plains_combat_bonus.dds"
-}
-
 cavalry_horse_archers_plains_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/horse_archers_plains_combat_bonus.dds"
 }
@@ -568,18 +465,6 @@ chariot_heavy_mountain_combat_bonus = {
 
 chariot_light_mountain_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_mountain_combat_bonus.dds"
-}
-
-cavalry_heavy_mountain_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_mountain_combat_bonus.dds"
-}
-
-heavy_spearmen_mountain_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_mountain_combat_bonus.dds"
-}
-
-heavy_swordsmen_mountain_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_mountain_combat_bonus.dds"
 }
 
 cavalry_horse_archers_mountain_combat_bonus = {
@@ -636,18 +521,6 @@ chariot_light_hills_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_hills_combat_bonus.dds"
 }
 
-cavalry_heavy_hills_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_hills_combat_bonus.dds"
-}
-
-heavy_spearmen_hills_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_hills_combat_bonus.dds"
-}
-
-heavy_swordsmen_hills_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_hills_combat_bonus.dds"
-}
-
 cavalry_horse_archers_hills_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/horse_archers_hills_combat_bonus.dds"
 }
@@ -700,18 +573,6 @@ chariot_heavy_desert_combat_bonus = {
 
 chariot_light_desert_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_desert_combat_bonus.dds"
-}
-
-cavalry_heavy_desert_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_desert_combat_bonus.dds"
-}
-
-heavy_spearmen_desert_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_desert_combat_bonus.dds"
-}
-
-heavy_swordsmen_desert_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_desert_combat_bonus.dds"
 }
 
 cavalry_horse_archers_desert_combat_bonus = {
@@ -768,18 +629,6 @@ chariot_light_marsh_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_marsh_combat_bonus.dds"
 }
 
-cavalry_heavy_marsh_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_marsh_combat_bonus.dds"
-}
-
-heavy_spearmen_marsh_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_marsh_combat_bonus.dds"
-}
-
-heavy_swordsmen_marsh_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_marsh_combat_bonus.dds"
-}
-
 cavalry_horse_archers_marsh_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/horse_archers_marsh_combat_bonus.dds"
 }
@@ -832,18 +681,6 @@ chariot_heavy_jungle_combat_bonus = {
 
 chariot_light_jungle_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_jungle_combat_bonus.dds"
-}
-
-cavalry_heavy_jungle_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_jungle_combat_bonus.dds"
-}
-
-heavy_spearmen_jungle_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_jungle_combat_bonus.dds"
-}
-
-heavy_swordsmen_jungle_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_jungle_combat_bonus.dds"
 }
 
 cavalry_horse_archers_jungle_combat_bonus = {
@@ -900,18 +737,6 @@ chariot_light_farmland_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_farmland_combat_bonus.dds"
 }
 
-cavalry_heavy_farmland_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_farmland_combat_bonus.dds"
-}
-
-heavy_spearmen_farmland_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_farmland_combat_bonus.dds"
-}
-
-heavy_swordsmen_farmland_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_farmland_combat_bonus.dds"
-}
-
 cavalry_horse_archers_farmland_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/horse_archers_farmland_combat_bonus.dds"
 }
@@ -966,18 +791,6 @@ chariot_light_forest_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/chariots_forest_combat_bonus.dds"
 }
 
-cavalry_heavy_forest_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_cavalry_forest_combat_bonus.dds"
-}
-
-heavy_spearmen_forest_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_forest_combat_bonus.dds"
-}
-
-heavy_swordsmen_forest_combat_bonus = {
-    positive = "gfx/interface/icons/modifiers/heavy_infantry_forest_combat_bonus.dds"
-}
-
 cavalry_horse_archers_forest_combat_bonus = {
     positive = "gfx/interface/icons/modifiers/horse_archers_forest_combat_bonus.dds"
 }
@@ -1029,18 +842,6 @@ chariot_heavy_ocean_combat_bonus = {
 }
 
 chariot_light_ocean_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-cavalry_heavy_ocean_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_spearmen_ocean_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_swordsmen_ocean_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
@@ -1098,18 +899,6 @@ chariot_light_coastal_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-cavalry_heavy_coastal_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_spearmen_coastal_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_swordsmen_coastal_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
 cavalry_horse_archers_coastal_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
@@ -1164,18 +953,6 @@ chariot_light_riverine_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 
-cavalry_heavy_riverine_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_spearmen_riverine_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_swordsmen_riverine_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
 cavalry_horse_archers_riverine_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
@@ -1227,18 +1004,6 @@ chariot_heavy_impassable_terrain_combat_bonus = {
 }
 
 chariot_light_impassable_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-cavalry_heavy_impassable_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_spearmen_impassable_terrain_combat_bonus = {
-    positive = "gfx/interface/icons/_default.dds"
-}
-
-heavy_swordsmen_impassable_terrain_combat_bonus = {
     positive = "gfx/interface/icons/_default.dds"
 }
 

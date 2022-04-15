@@ -13,6 +13,19 @@
 	
 }
 
+brihadratha = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+
+	country = {
+		land_morale_modifier = 0.1
+		discipline = 0.1
+	}
+	
+}
+
 achemenids = {
 	type = status
 	

@@ -2,7 +2,7 @@
 	color = hsv { 0.2  0.25  0.5 }
 
 	primary = missile_archers
-	second = heavy_swordsmen
+	second = light_swordsmen
 	flank = chariot_light
 	
 	primary_navy = tetrere

@@ -47,6 +47,10 @@ cymmerian_invasion.1 = { # Invasion of todays Azerbeijan
 			}
 		}
 		p:1621.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
 			capital_scope.governorship = {
 				raise_legion = {
 					create_unit = {
@@ -162,6 +166,10 @@ cymmerian_invasion.2 = { # Invasion of Anatolia
 			}
 		}
 		p:195.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
 			capital_scope.governorship = {
 				raise_legion = {
 					create_unit = {

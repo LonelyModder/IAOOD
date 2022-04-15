@@ -7,17 +7,19 @@ akitu_festival.1 = {
 	picture = religious_rite
 	
 	trigger = {
-		#religion = anunnaki_pantheon
+		NOT = { has_global_variable = akitu_banned }
 		owns = 918
 		owns = 919
 	}
 	
 	option = {
 		name = akitu_festival.1.a
-		add_country_modifier = {
-			name = #TODO
-			duration = 365
-		}
+		p:918 = {
+        	add_province_modifier = {
+        		name = joining_mardukites
+        		duration = 365
+        	}
+        }
 		ai_chance = {
 			factor = 1
 		}
@@ -29,20 +31,54 @@ akitu_festival.1 = {
 			duration = 365
 		}
 		ai_chance = {
-			factor = 0.2
+			factor = 0.5
 		}
 	}
 	option = {
 		name = akitu_festival.1.c
+		set_global_variable = {
+			name = akitu_banned
+		}
 		trigger  = {
-			primary_culture = ashurite
+			NOT = {
+				primary_culture = agade
+			}
 		}
-		add_country_modifier = {
-			name = #TODO
-			duration = 365
-		}
+		p:918 = {
+        	add_province_modifier = {
+        		name = angering_mardukites
+        		duration = 365
+        	}
+        }
 		ai_chance = {
-			factor = 5
+			factor = 0.1
+		}
+	}
+}
+
+akitu_festival.2 = { 
+	type = country_event
+	title = "akitu_festival.2.t"
+	desc = "akitu_festival.2.desc"
+	picture = religious_rite
+	
+	trigger = {
+		has_global_variable = akitu_banned
+		owns = 918
+		owns = 919
+	}
+	
+	option = {
+		name = akitu_festival.2.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = akitu_festival.2.b
+		remove_global_variable = akitu_banned
+		ai_chance = {
+			factor = 0.2
 		}
 	}
 }

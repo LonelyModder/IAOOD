@@ -2527,25 +2527,3 @@ mauryan_decline_refused_modifier = {
 	stability_monthly_change = -0.1
 	character_loyalty = -10
 }
-
-#From mod
-
-cymmerian_invasion_modifier = {
-    global_tax_income = 14
-	#global_tax_modifier
-}
-
-lepontic_invasion_modifier = {
-    levy_size_multiplier = 0.4
-	#global_tax_modifier
-}
-
-appeasing_mardukites = {
-    global_tax_modifier = -0.2
-	#global_tax_modifier
-}
-
-akitu_happened = {
-    
-	#global_tax_modifier
-}

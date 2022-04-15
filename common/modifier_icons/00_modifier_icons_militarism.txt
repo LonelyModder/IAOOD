@@ -1,0 +1,15 @@
+﻿fanatical_culture = {
+    positive = "gfx/interface/icons/modifiers/Militarism.dds"
+}
+
+militarized_culture = {
+    positive = "gfx/interface/icons/modifiers/Militarism.dds"
+}
+
+neutral_militarly_culture = {
+    positive = "gfx/interface/icons/modifiers/Militarism.dds"
+}
+
+pacifist_culture = {
+    positive = "gfx/interface/icons/modifiers/Militarism.dds"
+}

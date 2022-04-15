@@ -80,6 +80,8 @@
 		gw_effects.2	# Great Works finesse training
 		gw_effects.3	# Great Works charisma training
 		gw_effects.4	# Great Works zeal training
-		#akitu_festival.1
+		akitu_festival.1
+		ba_egypt_flavor.1
+		ba_egypt_flavor.2
 	}
 }

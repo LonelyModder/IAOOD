@@ -12,7 +12,6 @@ supply_train = {
 
 	axemen_heavy = 0.1
 	cavalry_camels = 0.1
-	cavalry_heavy = 0.1
 	cavalry_horse_archers = 0.1
 	cavalry_light = 0.1
 	chariot_heavy = 0.1
@@ -20,8 +19,6 @@ supply_train = {
 	elephant_african = 0.1
 	elephant_forest = 0.1
 	elephant_indian = 0.1
-	heavy_spearmen = 0.1
-	heavy_swordsmen = 0.1
 	light_spearmen = 0.1
 	light_swordsmen = 0.1
 	missile_archers = 0.1

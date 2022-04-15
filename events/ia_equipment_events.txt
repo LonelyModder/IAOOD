@@ -1,0 +1,186 @@
+﻿namespace = equipment_events
+#Iron
+equipment_events.1 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_owned_province = {
+			OR = {
+				is_importing_trade_good = iron
+				trade_goods = iron
+			}					
+		}
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = iron_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = bronze_wepons
+			}
+			remove_country_modifier = bronze_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = primitive_wepons
+			}
+			remove_country_modifier = primitive_wepons
+		}
+	}
+}
+
+equipment_events.2 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = iron
+					trade_goods = iron
+				}					
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_modifier = iron_wepons
+			}
+			remove_country_modifier = iron_wepons
+		}
+	}
+}
+#Bronze
+equipment_events.3 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		AND = {
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = tin
+					trade_goods = tin
+				}					
+			}
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = base_metals
+					trade_goods = base_metals
+				}					
+			}
+		}
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = bronze_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = iron_wepons 
+			}
+			remove_country_modifier = bronze_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = primitive_wepons
+			}
+			remove_country_modifier = primitive_wepons
+		}
+	}
+}
+
+equipment_events.4 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = tin
+					trade_goods = tin
+				}					
+			}
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = base_metals
+					trade_goods = base_metals
+				}					
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_modifier = bronze_wepons
+			}
+			remove_country_modifier = bronze_wepons
+		}
+	}
+}
+#Copper
+equipment_events.5 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		any_owned_province = {
+			OR = {
+				is_importing_trade_good = base_metals
+				trade_goods = base_metals
+			}					
+		}
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = primitive_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = iron_wepons 
+			}
+			remove_country_modifier = primitive_wepons
+		}
+		if = {
+			limit = {
+				has_country_modifier = bronze_wepons 
+			}
+			remove_country_modifier = primitive_wepons
+		}
+	}
+}
+
+equipment_events.6 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			any_owned_province = {
+				OR = {
+					is_importing_trade_good = base_metals
+					trade_goods = base_metals
+				}					
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_modifier = primitive_wepons
+			}
+			remove_country_modifier = primitive_wepons
+		}
+	}
+}

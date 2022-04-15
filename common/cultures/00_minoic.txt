@@ -3,7 +3,7 @@
 	levy_template = levy_minoitic
 	
 	primary = missile_archers
-	second = heavy_spearmen
+	second = light_spearmen
 	flank = chariot_light
 
 	primary_navy = tetrere

@@ -84,7 +84,6 @@ distinction_hetairoi = {
 	icon = "phalera_horse"
 	commander = { }
 	unit = {
-		cavalry_heavy_morale = 0.1
 		cavalry_light_morale = 0.1
 		cavalry_horse_archers_morale = 0.1
 		loyalty_gain_chance_modifier = 0.05
@@ -142,7 +141,7 @@ distinction_stalwart = { #Pyrrhus
 		martial = 2
 	}
 	unit = {
-		cavalry_heavy_offensive = 0.1
+		cavalry_light_offensive = 0.1
 		light_spearmen_offensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 		assault_ability = 0.15
@@ -166,9 +165,9 @@ distinction_argyraspides = {
 	icon = "phalera_sword_shield"
 	commander = { }
 	unit = {
-		heavy_spearmen_maintenance_cost = -0.1
-		heavy_spearmen_offensive = 0.1
-		heavy_spearmen_defensive = 0.1
+		light_spearmen_maintenance_cost = -0.1
+		light_spearmen_offensive = 0.1
+		light_spearmen_defensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -201,9 +200,8 @@ distinction_ferrata = {
 	icon = "phalera_sword_shield"
 	commander = { }
 	unit = {
-		heavy_swordsmen_discipline = 0.15
 		light_swordsmen_discipline = 0.15
-		heavy_swordsmen_morale = 0.1
+		light_swordsmen_morale = 0.1
 	}
 }
 
@@ -211,7 +209,7 @@ distinction_fulminata = {
 	icon = "phalera_zeus"
 	commander = { }
 	unit = {
-		heavy_swordsmen_defensive = 0.1
+		light_swordsmen_defensive = 0.1
 		light_swordsmen_defensive = 0.1
 		missile_archers_defensive = 0.1
 	}

@@ -110,7 +110,7 @@ levy_troic = { #Luwian militia
 levy_sonsofAshur = { #Assyrian militia
 	default = no
 
-	heavy_spearmen = 0.4
+	light_spearmen = 0.4
 	missile_archers = 0.2
 	chariot_heavy = 0.2
 	cavalry_horse_archers = 0.2
@@ -140,8 +140,7 @@ levy_virgingrekoids = { #Grekoid militia
 	default = no
 
 	missile_spearthrowers = 0.2
-	light_spearmen = 0.3
-	heavy_spearmen = 0.4
+	light_spearmen = 0.7
 	chariot_light = 0.1
 }
 
@@ -151,8 +150,7 @@ levy_minoitic = { #Minoan militia
 	default = no
 
 	missile_archers = 0.3
-	light_spearmen = 0.2
-	heavy_spearmen = 0.3
+	light_spearmen = 0.5
 	chariot_light = 0.2
 }
 
@@ -236,10 +234,10 @@ levy_eparsas = { #East Iranian militia
 levy_preindeur = { #Nuragian militia
 	default = no
 
-	light_swordsmen = 0.2
-	heavy_swordsmen = 0.3
+	light_swordsmen = 0.4
+	light_spearmen = 0.2
 	missile_archers = 0.3
-	chariot_light = 0.2
+	chariot_light = 0.1
 }
 
 levy_balarian = { #Balarian militia
@@ -268,7 +266,7 @@ levy_nomadoi = { #Scythian militia
 
 	missile_archers = 0.3
 	cavalry_horse_archers = 0.3
-	cavalry_heavy = 0.2
+	cavalry_light = 0.2
 	chariot_light = 0.2
 }
 
@@ -400,7 +398,7 @@ levy_roughroman = { #Celtic militia
 
 	missile_spearthrowers = 0.3
 	light_spearmen = 0.4
-	heavy_swordsmen = 0.2
+	light_swordsmen = 0.2
 	chariot_light = 0.1
 }
 
@@ -465,7 +463,7 @@ levy_thyrrenic = { #Etruscan militia
 
 	missile_archers = 0.3
 	light_spearmen = 0.3
-	heavy_swordsmen = 0.2
+	light_swordsmen = 0.2
 	chariot_light = 0.2
 }
 

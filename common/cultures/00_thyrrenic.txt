@@ -3,7 +3,7 @@
 	levy_template = levy_thyrrenic
 	
 	primary = missile_archers
-	second = heavy_swordsmen
+	second = light_swordsmen
 	flank = chariot_light
 
 	primary_navy = tetrere

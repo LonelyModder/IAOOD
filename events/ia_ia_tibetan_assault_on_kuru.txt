@@ -26,7 +26,7 @@ tibetan_invasions.1 = { # Tribes under Brennus? invade Italy
                 }
             }                
         }
-		p:4404 = {
+		p:4404 = { #Salva
 			create_country = {
 				change_government = despotic_monarchy
 				set_primary_culture = salvan
@@ -39,6 +39,10 @@ tibetan_invasions.1 = { # Tribes under Brennus? invade Italy
 			add_country_modifier = {
 				name = lepontic_invasion_modifier
 				duration = 3650 # 10 years
+			}
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
 			}
 		}
 		p:4403.owner = {

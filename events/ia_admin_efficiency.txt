@@ -1,0 +1,135 @@
+﻿namespace = admin_efficiency
+
+admin_efficiency.1 = { 
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_province_modifier = good_efficiency
+					has_province_modifier = medium_efficiency
+					has_province_modifier = bad_efficiency
+				}
+			}
+			if = {
+				limit = {
+					has_province_modifier = good_efficiency
+				}
+				remove_province_modifier = good_efficiency
+			}
+			if = {
+				limit = {
+					has_province_modifier = medium_efficiency
+				}
+				remove_province_modifier = medium_efficiency
+			}
+			if = {
+				limit = {
+					has_province_modifier = bad_efficiency
+				}
+				remove_province_modifier = bad_efficiency
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					any_neighbor_province = { is_capital = yes }
+					is_capital = yes
+				}
+			}
+			add_province_modifier = {
+				name = good_efficiency
+			}
+		}
+		while = {
+			count = 20
+			every_owned_province = {
+				limit = {
+					any_neighbor_province = { 
+						OR = {
+							has_province_modifier = good_efficiency 
+							has_province_modifier = medium_efficiency 
+							has_province_modifier = bad_efficiency 
+						}
+					}
+				}
+				add_province_modifier = {
+					name = tmp_efficiency
+				}
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = tmp_efficiency
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								civic_tech >= 10
+								count = 4
+							}
+							AND = {
+								civic_tech < 10
+								count = 0 
+							}
+						}
+					}
+					add_province_modifier = {
+						name = good_efficiency
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								civic_tech >= 10
+								count = 8 
+							}
+							AND = {
+								civic_tech < 10
+								count = 4 
+							}
+						}
+					}
+					add_province_modifier = {
+						name = medium_efficiency
+					}
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				NOR = {
+					has_province_modifier = good_efficiency 
+					has_province_modifier = medium_efficiency 
+					has_province_modifier = bad_efficiency
+				}
+			}
+			add_province_modifier = {
+				name = bad_efficiency
+			}
+		}
+		#every_owned_province = {
+		#	limit = {
+		#		has_road_towards = capital_scope
+		#	}
+		#	if = {
+		#		limit = {
+		#			has_province_modifier = good_efficiency
+		#		}
+		#		remove_province_modifier = good_efficiency
+		#	}
+		#	if = {
+		#		limit = {
+		#			has_province_modifier = bad_efficiency
+		#		}
+		#		remove_province_modifier = bad_efficiency
+		#	}
+		#	add_province_modifier = {
+		#		name = medium_efficiency
+		#	}
+		#}
+	}
+}

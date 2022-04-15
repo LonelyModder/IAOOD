@@ -532,8 +532,7 @@
 
     ## Indian Specific - Level 1
     indian_toe_stirrup_inv = {
-        modifier = { cavalry_heavy_discipline = 0.05
-        			 cavalry_light_discipline = 0.05
+        modifier = { cavalry_light_discipline = 0.05
         			 cavalry_horse_archers_discipline = 0.05 }
         requires = { indian_wootz_steel_inv }
         allow = {
@@ -650,9 +649,7 @@
 
     indian_crucible_steel_inv = {
         modifier = { light_swordsmen_offensive = 0.05
-					 light_spearmen_offensive = 0.05
-					 heavy_swordsmen_offensive = 0.05
-					 heavy_spearmen_offensive = 0.05 }
+					 light_spearmen_offensive = 0.05 }
 		requires = { indian_cataract_surgery_inv }
         allow = {
 			OR = {

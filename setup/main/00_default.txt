@@ -523,13 +523,18 @@ family={
 			culture = attic
 			prestige=300
 		}
+		35={
+			key="Brihadratha"
+			owner=VBA
+			culture = maghadic
+			prestige=300
+		}
 		
 		}
 }
 diplomacy = {
 	#Babylonian relations
 	guarantee = { first = ADZ second = ABE }
-	#alliance = { first = ADZ second = ACK }
 	#Assyrian kaskan subject
 	dependency = { first = ABP second = ABG subject_type = feudatory }
 	#Assyrian pain in the ass
@@ -5425,7 +5430,7 @@ country = {
 		}
 		
 		LCI = { #Gamellae
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gaetuli
 			religion = libyan_pantheon
 			capital = 3154
@@ -8870,7 +8875,7 @@ country = {
 		}
 		
 		OCK = { #Nemetes
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3975
@@ -8882,7 +8887,7 @@ country = {
 		}
 		
 		OCM = { #Quadi
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3890
@@ -8894,7 +8899,7 @@ country = {
 		}
 		
 		OCN = { #Chatti
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3982
@@ -8906,7 +8911,7 @@ country = {
 		}
 		
 		OCO = { #Markomanni
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3901
@@ -8918,7 +8923,7 @@ country = {
 		}
 		
 		OCR = { #Longobards
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3893
@@ -8930,7 +8935,7 @@ country = {
 		}
 		
 		OCS = { #Cherusci
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3896
@@ -8942,7 +8947,7 @@ country = {
 		}
 		
 		OCT = { #Sugambri
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3895
@@ -8954,7 +8959,7 @@ country = {
 		}
 		
 		OCU = { #Bructerii
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3858
@@ -8966,7 +8971,7 @@ country = {
 		}
 		
 		OCZ = { #Batavi
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3859
@@ -8978,7 +8983,7 @@ country = {
 		}
 		
 		ODA = { #Bastarni
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4757
@@ -8990,7 +8995,7 @@ country = {
 		}
 		
 		ODB = { #Vandals
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4750
@@ -9002,7 +9007,7 @@ country = {
 		}
 		
 		ODD = { #Scirii
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3985
@@ -9014,7 +9019,7 @@ country = {
 		}
 		
 		ODF = { #Heruli
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 4751
@@ -9026,7 +9031,7 @@ country = {
 		}
 		
 		ODG = { #Rugii
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3904
@@ -9038,7 +9043,7 @@ country = {
 		}
 		
 		ODI = { #Varini
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = west_barb
 			religion = chaosgods_pantheon
 			capital = 3899
@@ -11910,6 +11915,7 @@ country = {
 		}
 		
 		VBA = { #Magadha
+			family = 35
 			government = despotic_monarchy
 			primary_culture = maghadic
 			religion = vedic_pantheon

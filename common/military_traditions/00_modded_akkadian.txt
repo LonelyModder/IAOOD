@@ -65,9 +65,7 @@
 	
 	assyrian_path_3a = { ###akkadian path
 		modifier = { 
-			heavy_spearmen_cost=-0.1
 			light_spearmen_cost=-0.1
-			heavy_spearmen_defensive = 0.1
 			light_spearmen_defensive = 0.1
 		}
 		enable_tactic = greek_phalanx
@@ -77,7 +75,6 @@
 	
 	assyrian_path_4a = { ###akkadian path
 		modifier = { 
-			heavy_spearmen_morale = 0.1
 			light_spearmen_morale = 0.1
 			missile_archers_morale = 0.1
 			missile_archers_offensive = 0.1

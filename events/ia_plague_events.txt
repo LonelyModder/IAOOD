@@ -1,0 +1,107 @@
+﻿namespace = plague_event
+
+plague_event.1 = { 
+	type = country_event
+	title = "plague_event.1.t"
+	desc = "plague_event.1.desc"
+	picture = religious_rite
+	
+	immediate = {
+		random_owned_province = {
+			add_province_modifier = {
+				name = plagued_territory
+			}
+		}
+		#trigger_event = {
+		#	id = plague_event.4
+		#	days = 90 #{ 90 365 }
+		#}
+		#set_global_variable = {
+    	#    name = plagues_ending
+    	#    days = 90
+    	#}
+	}
+	
+	option = {
+		name = plague_event.1.a
+	}
+}
+
+plague_event.2 = { 
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_owned_province = {
+			limit = {
+				any_neighbor_province = { has_province_modifier = plagued_territory }
+				NOT = { has_province_modifier = plagued_territory_tmp }
+			}
+			add_province_modifier = {
+				name = sick_territory
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_province_modifier = plagued_territory
+			}
+			remove_province_modifier = plagued_territory
+			add_province_modifier = {
+				name = plagued_territory_tmp
+				duration = 365
+			}
+		}
+		every_owned_province = {
+			limit = {
+					has_province_modifier = sick_territory
+			}
+			remove_province_modifier = sick_territory
+			add_province_modifier = {
+				name = plagued_territory
+			}
+		}
+	}
+}
+
+plague_event.3 = { 
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		every_owned_province = {
+			limit = {
+				OR = {
+					has_province_modifier = plagued_territory
+					has_province_modifier = plagued_territory_tmp
+				}
+				total_population > 4 
+			}
+			random_pops_in_province = { 
+				kill_pop = yes 
+			}
+		}
+	}
+}
+
+#plague_event.4 = { 
+#	type = country_event
+#	hidden = yes
+#	
+#	trigger = {
+#		has_global_variable = plagues_ending
+#	}
+#	
+#	immediate = {
+#		every_owned_province = {
+#			limit = {
+#				has_province_modifier = plagued_territory
+#			}
+#			remove_province_modifier = plagued_territory
+#			add_province_modifier = {
+#				name = immune_territory
+#				duration = 365
+#			}
+#		}
+#		remove_global_variable = plagues_ending
+#	}
+#}

@@ -1,0 +1,558 @@
+﻿namespace = ba_egypt_flavor
+
+ba_egypt_flavor.1 = {
+	type = country_event
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				religion = kemetic_pantheon
+			}
+			current_ruler = {
+				if = {
+					limit = {
+						has_variable = years_reigning
+					}
+					change_variable = {
+						name = years_reigning
+						add = 1
+					}
+				}
+				else = {
+					set_variable = {
+						name = years_reigning
+						value = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+ba_egypt_flavor.2 = {
+	type = country_event
+	title = ba_egypt_flavor.2.t
+	desc = ba_egypt_flavor.2.desc
+	picture = great_city
+	trigger = {
+		trigger_if = {
+			limit = {
+				current_ruler = {
+					has_variable = years_reigning
+				}
+			}
+			current_ruler = {
+				var:years_reigning >= 30
+			}
+		}
+		trigger_else = {
+			always = no
+		}
+	}
+	option = {
+        name = ba_egypt_flavor.2.a
+		highlight = yes
+		trigger  = {
+			current_ruler = {
+				OR = {
+					has_trait = content
+					has_trait = miserly
+					has_trait = self_controlled
+					has_trait = depressed
+					has_trait = lazy
+					has_trait = uncaring
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 5
+				current_ruler = {
+					has_trait = depressed
+				}
+			}
+			modifier = {
+				factor = 2
+				current_ruler = {
+					has_trait = miserly
+				}
+			}
+			modifier = {
+				factor = 2
+				current_ruler = {
+					has_trait = lazy
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = content
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = self_controlled
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = uncaring
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = weak_willed
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = cold
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = humble
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = modest
+				}
+			}
+			modifier = {
+				factor = 1.1
+				current_ruler = {
+					has_trait = secure
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = benefactor
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = devout
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = pious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = arrogant
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = proud
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = generous
+				}
+			}
+			modifier = {
+				factor = 0.25
+				current_ruler = {
+					has_trait = selfish
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = energetic
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = ambitious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = jealous
+				}
+			}
+		}
+		current_ruler = {
+			add_popularity = -20
+			family = {
+				add_prestige = -100
+			}
+		}
+		add_country_modifier = {
+			name = sed_festival_none
+			duration = 365
+		}
+		custom_tooltip = ba_egypt_flavor.2.a.tooltip
+    }
+	option = {
+        name = ba_egypt_flavor.2.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				current_ruler = {
+					has_trait = depressed
+				}
+			}
+			modifier = {
+				factor = 2
+				current_ruler = {
+					has_trait = miserly
+				}
+			}
+			modifier = {
+				factor = 2
+				current_ruler = {
+					has_trait = lazy
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = content
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = self_controlled
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = uncaring
+				}
+			}
+			modifier = {
+				factor = 1.5
+				current_ruler = {
+					has_trait = weak_willed
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = cold
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = humble
+				}
+			}
+			modifier = {
+				factor = 1.25
+				current_ruler = {
+					has_trait = modest
+				}
+			}
+			modifier = {
+				factor = 1.1
+				current_ruler = {
+					has_trait = secure
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = benefactor
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = devout
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = zealous
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = pious
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = arrogant
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = proud
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = generous
+				}
+			}
+			modifier = {
+				factor = 0.25
+				current_ruler = {
+					has_trait = selfish
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = energetic
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = ambitious
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = jealous
+				}
+			}
+		}
+		add_treasury = {
+			value = 0
+			subtract = has_yearly_income_svalue
+		}
+		current_ruler = {
+			add_popularity = 10
+		}
+		add_country_modifier = {
+			name = sed_festival_small
+			duration = 365
+		}
+    }
+	option = {
+        name = ba_egypt_flavor.2.c
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = depressed
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = miserly
+				}
+			}
+			modifier = {
+				factor = 0.5
+				current_ruler = {
+					has_trait = lazy
+				}
+			}
+			modifier = {
+				factor = 0.75
+				current_ruler = {
+					has_trait = self_controlled
+				}
+			}
+			modifier = {
+				factor = 0.75
+				current_ruler = {
+					has_trait = uncaring
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = arrogant
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = proud
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = selfish
+				}
+			}
+			modifier = {
+				factor = 0.8
+				current_ruler = {
+					has_trait = jealous
+				}
+			}
+		}
+		add_treasury = {
+			value = 0
+			subtract = two_years_income_svalue
+		}
+		current_ruler = {
+			add_popularity = 20
+			family = {
+				add_prestige = 200
+			}
+		}
+		add_country_modifier = {
+			name = sed_festival_med
+			duration = 365
+		}
+		add_political_influence = 100
+    }
+	option = {
+        name = ba_egypt_flavor.2.d
+		trigger  = {
+			current_ruler = {
+				OR = {
+					has_trait = ambitious
+					has_trait = benefactor
+					has_trait = selfish
+					has_trait = proud
+					has_trait = arrogant
+					has_trait = jealous
+					has_trait = generous
+					has_trait = energetic
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = depressed
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = miserly
+				}
+			}
+			modifier = {
+				factor = 0.1
+				current_ruler = {
+					has_trait = lazy
+				}
+			}
+			modifier = {
+				factor = 0.25
+				current_ruler = {
+					has_trait = self_controlled
+				}
+			}
+			modifier = {
+				factor = 0.25
+				current_ruler = {
+					has_trait = uncaring
+				}
+			}
+			modifier = {
+				factor = 3
+				current_ruler = {
+					has_trait = proud
+				}
+			}
+			modifier = {
+				factor = 3
+				current_ruler = {
+					has_trait = selfish
+				}
+			}
+			modifier = {
+				factor = 3
+				current_ruler = {
+					has_trait = energetic
+				}
+			}
+			modifier = {
+				factor = 5
+				current_ruler = {
+					has_trait = arrogant
+				}
+			}
+			modifier = {
+				factor = 5
+				current_ruler = {
+					has_trait = jealous
+				}
+			}
+		}
+		highlight = yes
+		# Note: Errors because a trigger has been defined earlier for this option above, is this the correct one or the one above?
+		#trigger  = {
+		#	current_ruler = {
+		#		OR = {
+		#			has_trait = ambitious
+		#			has_trait = benefactor
+		#			has_trait = selfish
+		#			has_trait = proud
+		#			has_trait = arrogant
+		#		}
+		#	}
+		#}
+		add_treasury = {
+			value = 0
+			subtract = five_years_income_svalue
+		}
+		current_ruler = {
+			add_popularity = 50
+			family = {
+				add_prestige = 500
+			}
+		}
+		add_country_modifier = {
+			name = sed_festival_huge
+			duration = 365
+		}
+		add_political_influence = 250
+		add_stability = 10
+		custom_tooltip = ba_egypt_flavor.2.d.tooltip
+    }
+	
+	after = {
+		current_ruler = {
+			set_variable = {
+				name = years_reigning
+				value = 1
+			}
+		}
+	}
+}

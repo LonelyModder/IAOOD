@@ -27,6 +27,7 @@ character_events.35 = {
 						has_trait = ofelam
 						has_trait = gordis
 						has_trait = heraclid
+						has_trait = brihadratha
 					}
 				}
 			}
@@ -216,6 +217,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = heraclid
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = brihadratha
+					}
+					NOT = {
+						has_trait = brihadratha
+					}
+				}
+				add_trait = brihadratha
 			}
 		}
 		if = {
@@ -421,6 +433,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = heraclid	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = brihadratha
+				}
+				NOT = {
+					has_trait = brihadratha
+				}
+			}
+			add_trait = brihadratha	
 		}
 	}
 }
