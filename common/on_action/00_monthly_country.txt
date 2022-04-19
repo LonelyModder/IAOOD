@@ -25,8 +25,8 @@
 		militarism_events.1
 		militarism_events.4
 		#Plague
-		plague_event.2
-		plague_event.3
+		#plague_event.2
+		#plague_event.3
 		#Admin Efficiency
 		#admin_efficiency.1
 		#Modded events
