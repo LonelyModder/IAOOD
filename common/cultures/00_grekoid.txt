@@ -115,6 +115,12 @@
 		laconic = {}
 		dannien = {}
 		mycenean = {}
+		#Latest change
+		wilusan = {}
+		pelasgian = {}
+		lelegian = {}
+		caphtorite = {}
+		cypro_minoic = {}
 	}
 	
 	barbarian_names = { 

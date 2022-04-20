@@ -56,6 +56,7 @@
 		canaanites = {}
 		girzite = {}
 		avite = {}
+		philistine = {}
 		judean = {
 			levy_template = levy_jewishic
 			male_names = {

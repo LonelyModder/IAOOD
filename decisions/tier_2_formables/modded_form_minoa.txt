@@ -5,7 +5,9 @@
 		
 		potential = {
 			OR = {
-				country_culture_group = minoic
+				primary_culture = caphtorite
+				primary_culture = philistine
+				primary_culture = cypro_minoic
 				primary_culture = laconic
 			}
 			#is_tribal = yes

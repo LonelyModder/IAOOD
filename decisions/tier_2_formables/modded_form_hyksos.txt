@@ -9,7 +9,6 @@
 				country_culture_group = aramaic
 				country_culture_group = illyric
 				country_culture_group = occidental
-				country_culture_group = minoic
 			}
 			#is_tribal = yes
 			NOT = {

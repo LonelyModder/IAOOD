@@ -160,7 +160,7 @@ ethiopian_pantheon = { # Nubian gods
 }
 
 scythic_pantheon = { # Nomadic gods 
-	color = hsv { 0.2 0.32 0.55 }
+	color = hsv { 0.16 1 0.8 }
 	modifier = { 
 		agressive_expansion_impact = -0.1
 		land_morale_modifier = 0.2
