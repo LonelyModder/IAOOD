@@ -765,52 +765,52 @@ entity = {
 
 entity = {
 	name = "scythian_gfx_missile_archers"
-	clone = "scythian_gfx_light_infantry"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_missile_spearthrowers"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_missile_spearthrowers"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_cavalry_camels"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_cavalry_camels"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_chariot_light"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_chariot_light"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_chariot_heavy"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_chariot_heavy"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_cavalry_horse_archers"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_cavalry_horse_archers"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_cavalry_light"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_cavalry_light"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_elephant_african"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_elephant_african"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_elephant_forest"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_elephant_forest"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 entity = {
-	name = "scythian_gfx_elephant_indian"
-	clone = "scythian_gfx_light_infantry"
+	name = "north_indian_gfx_elephant_indian"
+	clone = "north_indian_gfx_light_infantry"
 }
 
 
@@ -820,149 +820,160 @@ entity = {
 ##############
 # Do one for each unit type
 
+
+entity = {
+	name = "north_indian_gfx_levy"
+	clone = "south_indian_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "north_indian_gfx_legion"
+	clone = "north_indian_gfx_light_infantry"
+}
+
 ### Archers ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_missile_archers"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_missile_archers"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_missile_spearthrowers"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_missile_spearthrowers"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_cavalry_camels"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_cavalry_camels"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Chariots ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_chariot_light"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_chariot_light"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 entity ={
 	name = "north_indian_gfx_levy_chariot_heavy"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_chariot_heavy"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_engineer_cohort"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_engineer_cohort"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_cavalry_horse_archers"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_cavalry_horse_archers"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Light Cavalry ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_cavalry_light"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_cavalry_light"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Infantry ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_light_spearmen"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_light_spearmen"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 entity ={
 	name = "north_indian_gfx_levy_light_swordsmen"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_light_swordsmen"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 entity ={
 	name = "north_indian_gfx_levy_axemen_heavy"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_axemen_heavy"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_supply_train"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_supply_train"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 ### War Elephant ----------------------------------------------------------------
 entity ={
 	name = "north_indian_gfx_levy_elephant_african"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_elephant_african"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 entity ={
 	name = "north_indian_gfx_levy_elephant_forest"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_elephant_forest"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 entity ={
 	name = "north_indian_gfx_levy_elephant_indian"
-	clone = "north_indian_light_infantry"
+	clone = "north_indian_gfx_levy"
 }
 entity ={
 	name = "north_indian_gfx_legion_elephant_indian"
-	clone = "north_indian_gfx_legion_infantry"
+	clone = "north_indian_gfx_legion"
 }
 
 

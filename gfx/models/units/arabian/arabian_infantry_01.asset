@@ -1342,7 +1342,7 @@ entity = {
 ### Archers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_missile_archers"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_missile_archers"
@@ -1352,7 +1352,7 @@ entity ={
 ### Scirmishers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_missile_spearthrowers"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_missile_spearthrowers"
@@ -1362,7 +1362,7 @@ entity ={
 ### Camels ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_camels"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_camels"
@@ -1372,7 +1372,7 @@ entity ={
 ### Chariots ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_chariot_light"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_chariot_light"
@@ -1381,7 +1381,7 @@ entity ={
 
 entity ={
 	name = "arabian_gfx_levy_chariot_heavy"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_chariot_heavy"
@@ -1391,7 +1391,7 @@ entity ={
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_engineer_cohort"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_engineer_cohort"
@@ -1401,7 +1401,7 @@ entity ={
 ### Horse Archers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_horse_archers"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_horse_archers"
@@ -1411,7 +1411,7 @@ entity ={
 ### Light Cavalry ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_light"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_light"
@@ -1421,7 +1421,7 @@ entity ={
 ### Infantry ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_light_spearmen"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_light_spearmen"
@@ -1430,7 +1430,7 @@ entity ={
 
 entity ={
 	name = "arabian_gfx_levy_light_swordsmen"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_light_swordsmen"
@@ -1439,7 +1439,7 @@ entity ={
 
 entity ={
 	name = "arabian_gfx_levy_axemen_heavy"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_axemen_heavy"
@@ -1449,7 +1449,7 @@ entity ={
 ### Supply Train ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_supply_train"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_supply_train"
@@ -1459,7 +1459,7 @@ entity ={
 ### War Elephant ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_elephant_african"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_african"
@@ -1468,7 +1468,7 @@ entity ={
 
 entity ={
 	name = "arabian_gfx_levy_elephant_forest"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_forest"
@@ -1477,7 +1477,7 @@ entity ={
 
 entity ={
 	name = "arabian_gfx_levy_elephant_indian"
-	clone = "arabian_light_infantry"
+	clone = "arabian_gfx_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_indian"
