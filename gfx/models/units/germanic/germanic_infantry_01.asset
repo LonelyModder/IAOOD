@@ -1325,144 +1325,144 @@ entity = {
 ### Archers ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_missile_archers"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_missile_archers"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_missile_spearthrowers"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_missile_spearthrowers"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_cavalry_camels"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_cavalry_camels"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Chariots ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_chariot_light"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_chariot_light"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 entity ={
 	name = "german_gfx_levy_chariot_heavy"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_chariot_heavy"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_engineer_cohort"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_engineer_cohort"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_cavalry_horse_archers"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_cavalry_horse_archers"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Light Cavalry ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_cavalry_light"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_cavalry_light"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Infantry ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_light_spearmen"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_light_spearmen"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 entity ={
 	name = "german_gfx_levy_light_swordsmen"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_light_swordsmen"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 entity ={
 	name = "german_gfx_levy_axemen_heavy"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_axemen_heavy"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_supply_train"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_supply_train"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 ### War Elephant ----------------------------------------------------------------
 entity ={
 	name = "german_gfx_levy_elephant_african"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_elephant_african"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 entity ={
 	name = "german_gfx_levy_elephant_forest"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_elephant_forest"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }
 
 entity ={
 	name = "german_gfx_levy_elephant_indian"
-	clone = "german_levies_infantry"
+	clone = "german_light_infantry"
 }
 entity ={
 	name = "german_gfx_legion_elephant_indian"
-	clone = "german_gfx_heavy_infantry"
+	clone = "german_gfx_legion_infantry"
 }

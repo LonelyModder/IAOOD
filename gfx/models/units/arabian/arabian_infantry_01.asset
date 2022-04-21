@@ -1342,144 +1342,144 @@ entity = {
 ### Archers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_missile_archers"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_missile_archers"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_missile_spearthrowers"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_missile_spearthrowers"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_camels"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_camels"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Chariots ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_chariot_light"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_chariot_light"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 entity ={
 	name = "arabian_gfx_levy_chariot_heavy"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_chariot_heavy"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_engineer_cohort"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_engineer_cohort"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_horse_archers"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_horse_archers"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Light Cavalry ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_cavalry_light"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_cavalry_light"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Infantry ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_light_spearmen"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_light_spearmen"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 entity ={
 	name = "arabian_gfx_levy_light_swordsmen"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_light_swordsmen"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 entity ={
 	name = "arabian_gfx_levy_axemen_heavy"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_axemen_heavy"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_supply_train"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_supply_train"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 ### War Elephant ----------------------------------------------------------------
 entity ={
 	name = "arabian_gfx_levy_elephant_african"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_african"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 entity ={
 	name = "arabian_gfx_levy_elephant_forest"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_forest"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }
 
 entity ={
 	name = "arabian_gfx_levy_elephant_indian"
-	clone = "arabian_levies_infantry"
+	clone = "arabian_light_infantry"
 }
 entity ={
 	name = "arabian_gfx_legion_elephant_indian"
-	clone = "arabian_gfx_heavy_infantry"
+	clone = "arabian_gfx_legion_infantry"
 }

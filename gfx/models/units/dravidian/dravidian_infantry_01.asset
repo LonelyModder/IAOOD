@@ -824,84 +824,84 @@ entity = {
 ### Archers ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_missile_archers"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_missile_spearthrowers"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_cavalry_camels"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Chariots ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_chariot_light"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 entity ={
 	name = "south_indian_gfx_levy_chariot_heavy"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_engineer_cohort"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_cavalry_horse_archers"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Light Cavalry ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_cavalry_light"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Infantry ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_light_spearmen"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 entity ={
 	name = "south_indian_gfx_levy_light_swordsmen"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 entity ={
 	name = "south_indian_gfx_levy_axemen_heavy"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_supply_train"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 ### War Elephant ----------------------------------------------------------------
 entity ={
 	name = "south_indian_gfx_levy_elephant_african"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 entity ={
 	name = "south_indian_gfx_levy_elephant_forest"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
 
 entity ={
 	name = "south_indian_gfx_levy_elephant_indian"
-	clone = "south_indian_levies_infantry"
+	clone = "south_indian_light_infantry"
 }
