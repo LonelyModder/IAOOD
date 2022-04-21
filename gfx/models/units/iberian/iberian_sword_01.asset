@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "iberian_sword_01_mesh"
+	file = "iberian_sword_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 5.5 }
+		lod = { index = 2 percent = 4.0 }
+	}
+
+	meshsettings = {
+		name = "iberian_sword_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "iberian_weapons_01_diffuse.dds"
+		texture_normal = "iberian_weapons_01_normal.dds"
+		texture_specular = "iberian_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "iberian_sword_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "iberian_weapons_01_diffuse.dds"
+		texture_normal = "iberian_weapons_01_normal.dds"
+		texture_specular = "iberian_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "iberian_sword_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "iberian_weapons_01_diffuse.dds"
+		texture_normal = "iberian_weapons_01_normal.dds"
+		texture_specular = "iberian_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "iberian_sword_01_entity"
+	clone = "ROM_sword_entity"
+	pdxmesh = "iberian_sword_01_mesh"
+}

@@ -5,20 +5,4 @@
 #	3rd NOTE: If a specific subunit cannot be constructed for some reason another one that can from that tier will replace it ( if possible )
 #
 
-levy_east_levantine = {	#Mesopotamian states
-	default = no
 
-	light_infantry = 0.6
-	light_cavalry = 0.25
-
-	heavy_cavalry = 0.15
-}
-
-levy_babylonian = {	#Babylonian states
-	default = no
-
-	archers = 0.6
-	light_cavalry = 0.25
-
-	heavy_cavalry = 0.15
-}

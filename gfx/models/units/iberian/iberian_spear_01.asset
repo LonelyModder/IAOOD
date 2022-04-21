@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "iberian_levies_spear_01_mesh"
+	file = "iberian_levies_spear_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 5.5 }
+		lod = { index = 2 percent = 4.0 }
+	}
+
+	meshsettings = {
+		name = "iberian_levies_spear_01_LODShape0"
+		index = 0
+		texture_diffuse = "iberian_levies_weapons_01_diffuse.dds"
+		texture_normal = "iberian_levies_weapons_01_normal.dds"
+		texture_specular = "iberian_levies_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "iberian_levies_spear_01_LODShape1"
+		index = 0
+		texture_diffuse = "iberian_levies_weapons_01_diffuse.dds"
+		texture_normal = "iberian_levies_weapons_01_normal.dds"
+		texture_specular = "iberian_levies_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "iberian_levies_spear_01_LODShape2"
+		index = 0
+		texture_diffuse = "iberian_levies_weapons_01_diffuse.dds"
+		texture_normal = "iberian_levies_weapons_01_normal.dds"
+		texture_specular = "iberian_levies_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "iberian_levies_spear_01_entity"
+	pdxmesh = "iberian_levies_spear_01_mesh"
+}

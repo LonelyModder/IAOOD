@@ -6,9 +6,4 @@
 #
 #	TODO: Scriptable blocks ex. "if this cannot be constructed then use this instead" (?)
 
-levy_default = {
-	default = yes
 
-	light_infantry = 0.7
-	light_cavalry = 0.3
-}

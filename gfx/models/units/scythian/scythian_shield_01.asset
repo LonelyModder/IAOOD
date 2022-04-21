@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "scythian_shield_01_mesh"
+	file = "scythian_shield_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 2.5 }
+		lod = { index = 2 percent = 1.7 }
+	}
+
+	meshsettings = {
+		name = "scythian_shield_LOD_0Shape"
+		index = 0
+		texture_diffuse = "scythian_weapons_01_diffuse.dds"
+		texture_normal = "scythian_weapons_01_normal.dds"
+		texture_specular = "scythian_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "scythian_shield_LOD_1Shape"
+		index = 0
+		texture_diffuse = "scythian_weapons_01_diffuse.dds"
+		texture_normal = "scythian_weapons_01_normal.dds"
+		texture_specular = "scythian_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "scythian_shield_LOD_2Shape"
+		index = 0
+		texture_diffuse = "scythian_weapons_01_diffuse.dds"
+		texture_normal = "scythian_weapons_01_normal.dds"
+		texture_specular = "scythian_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "scythian_shield_01_entity"
+	pdxmesh = "scythian_shield_01_mesh"
+}

@@ -5,23 +5,3 @@
 #	3rd NOTE: If a specific subunit cannot be constructed for some reason another one that can from that tier will replace it ( if possible )
 #
 
-levy_germanic = {
-	default = no
-	
-	light_infantry = 0.5
-	
-	light_cavalry = 0.25
-	
-	heavy_infantry = 0.25
-}
-
-
-levy_baltic = {	
-	default = no
-
-	light_infantry = 0.65
-
-	light_cavalry = 0.2
-	
-	heavy_infantry = 0.15
-}

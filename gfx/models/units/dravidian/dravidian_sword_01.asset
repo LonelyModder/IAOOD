@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "dravidian_sword_01_mesh"
+	file = "dravidian_sword_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 4.0 }
+		lod = { index = 2 percent = 2.5 }
+	}
+
+	meshsettings = {
+		name = "dravidian_sword_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "dravidian_sword_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "dravidian_sword_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "dravidian_sword_01_entity"
+	clone = "ROM_sword_entity"
+	pdxmesh = "dravidian_sword_01_mesh"
+}

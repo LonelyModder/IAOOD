@@ -5,11 +5,3 @@
 #	3rd NOTE: If a specific subunit cannot be constructed for some reason another one that can from that tier will replace it ( if possible )
 #
 
-levy_tibetan = {
-	default = no
-
-	light_infantry = 0.65
-	
-	heavy_infantry = 0.2
-	elephant_indian = 0.05
-}

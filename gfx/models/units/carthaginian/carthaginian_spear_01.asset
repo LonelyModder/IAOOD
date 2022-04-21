@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "carthaginian_levies_spear_01_mesh"
+	file = "carthaginian_levies_spear_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 4.1 }
+		lod = { index = 2 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "carthaginian_levies_spear_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "carthaginian_levies_weapons_01_diffuse.dds"
+		texture_normal = "carthaginian_levies_weapons_01_normal.dds"
+		texture_specular = "carthaginian_levies_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "carthaginian_levies_spear_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "carthaginian_levies_weapons_01_diffuse.dds"
+		texture_normal = "carthaginian_levies_weapons_01_normal.dds"
+		texture_specular = "carthaginian_levies_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "carthaginian_levies_spear_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "carthaginian_levies_weapons_01_diffuse.dds"
+		texture_normal = "carthaginian_levies_weapons_01_normal.dds"
+		texture_specular = "carthaginian_levies_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "carthaginian_levies_spear_01_entity"
+	pdxmesh = "carthaginian_levies_spear_01_mesh"
+}

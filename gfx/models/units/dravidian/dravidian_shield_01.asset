@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "dravidian_shield_01_mesh"
+	file = "dravidian_shield_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 6.5 }
+		lod = { index = 2 percent = 3.5 }
+	}
+
+	meshsettings = {
+		name = "dravidian_shield_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "dravidian_shield_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "dravidian_shield_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "mauryan_weapons_diffuse.dds"
+		texture_normal = "mauryan_weapons_normal.dds"
+		texture_specular = "mauryan_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "dravidian_shield_01_entity"
+	pdxmesh = "dravidian_shield_01_mesh"
+}

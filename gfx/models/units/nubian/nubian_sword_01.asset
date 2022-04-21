@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "nubian_sword_01_mesh"
+	file = "nubian_sword_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 5.0 }
+		lod = { index = 2 percent = 2.5 }
+	}
+
+	meshsettings = {
+		name = "nubian_sword_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "nubian_weapons_diffuse.dds"
+		texture_normal = "nubian_weapons_normal.dds"
+		texture_specular = "nubian_weapons_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "nubian_sword_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "nubian_weapons_diffuse.dds"
+		texture_normal = "nubian_weapons_normal.dds"
+		texture_specular = "nubian_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "nubian_sword_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "nubian_weapons_diffuse.dds"
+		texture_normal = "nubian_weapons_normal.dds"
+		texture_specular = "nubian_weapons_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "nubian_sword_01_entity"
+	clone = "ROM_sword_entity"
+	pdxmesh = "nubian_sword_01_mesh"
+}

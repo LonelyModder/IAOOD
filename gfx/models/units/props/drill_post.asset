@@ -1,0 +1,135 @@
+pdxmesh = {
+	name = "drill_post_mesh"
+	file = "drill_post.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+	}
+
+	animation = { id = "attack_animation" type = "drill_post_attack.anim" }
+
+	meshsettings = {
+		name = "polySurfaceShape26"
+		index = 0
+		texture_diffuse = "drill_post_diffuse.dds"
+		texture_normal = "drill_post_normal.dds"
+		texture_specular = "drill_post_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1_polySurface24Shape"
+		index = 0
+		texture_diffuse = "drill_post_diffuse.dds"
+		texture_normal = "drill_post_normal.dds"
+		texture_specular = "drill_post_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "drill_post_entity"
+	pdxmesh = "drill_post_mesh"
+
+	default_state = "attack"
+	state = {
+		name = "attack"
+		animation = "attack_animation"
+		animation_speed = 1
+	}
+}
+
+entity = {
+	name = "arabian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = arabian_helmet_01_entity }
+}
+
+entity = {
+	name = "carthaginian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = carthaginian_helmet_01_entity }
+}
+
+entity = {
+	name = "celtic_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = celtic_helmet_01_entity }
+}
+entity = {
+	name = "egyptian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = egyptian_helmet_01_entity }
+}
+
+entity = {
+	name = "germanic_drill_post_entity"
+	clone = "drill_post_entity"
+}
+
+entity = {
+	name = "greek_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = greek_helmet_01_entity }
+}
+
+entity = {
+	name = "iberian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = iberian_helmet_01_entity }
+}
+
+entity = {
+	name = "italian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = italian_helmet_01_entity }
+}
+
+entity = {
+	name = "mauryan_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = mauryan_helmet_01_entity }
+}
+
+entity = {
+	name = "nubian_drill_post_entity"
+	clone = "drill_post_entity"
+}
+
+entity = {
+	name = "persian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = persian_helmet_01_entity }
+}
+
+entity = {
+	name = "ptolomeic_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = ptolomeic_helmet_01_entity }
+}
+
+entity = {
+	name = "ROM_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = ROM_helmet_01_entity }
+}
+
+entity = {
+	name = "scythian_drill_post_entity"
+	clone = "drill_post_entity"
+	
+	attach = { helmet_attach = scythian_helmet_01_entity }
+}

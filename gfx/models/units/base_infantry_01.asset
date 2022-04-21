@@ -1,0 +1,82 @@
+#pdxmesh = {
+#	name = "base_infantry_01_mesh"
+#	file = "base_infantry_01.mesh"
+#	
+#	cull_distance = 3000
+#	animation = { id = "idle_1_base_animation" type = "ROM_infantry_01_idle_1_base.anim" }
+#	animation = { id = "idle_1_var_1_animation" type = "ROM_infantry_01_idle_1_var_1.anim" }
+#	animation = { id = "moving_1_animation" type = "ROM_infantry_01_moving_1.anim" }
+#	animation = { id = "idle_2_base_animation" type = "ROM_infantry_01_idle_2_base.anim" }
+#	animation = { id = "idle_2_var_1_animation" type = "ROM_infantry_01_idle_2_var_1.anim" }
+#	animation = { id = "moving_2_animation" type = "ROM_infantry_01_moving_2.anim" }
+#	animation = { id = "combat_ready_1" type = "ROM_infantry_01_combat_ready_1.anim" }
+#	animation = { id = "combat_ready_2" type = "ROM_infantry_01_combat_ready_2.anim" }
+#
+#	meshsettings = {
+#		name = "base_infantry_01Shape"
+#		index = 0
+#		texture_diffuse = "base_infantry_01_diffuse.dds"
+#		texture_normal = "base_infantry_01_normal.dds"
+#		texture_specular = "base_infantry_01_properties.dds"
+#		shader = "standard"
+#		shader_file = "gfx/FX/pdxmesh.shader"
+#	}
+#}
+
+entity = {
+	name = "base_infantry_01_entity"
+	#pdxmesh = "base_infantry_01_mesh"
+	pdxmesh = "italian_infantry_01_mesh"
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+    	animation = "idle_1_base_animation"
+		looping = no
+		chance = 5
+		next_state = "idle"
+    }
+}
+
+# Spear unit
+entity = {
+	name = "greek_gfx_militia"
+	#pdxmesh = "base_infantry_01_mesh"
+	pdxmesh = "italian_infantry_01_mesh"
+	
+	Scale = 0.1
+	
+	default_state = "idle"
+	state = {
+		name = "idle"
+    	animation = "idle_1_base_animation"
+		looping = no
+		chance = 5
+		next_state = "idle"
+    }
+	state = {
+		name = "idle"
+    	animation = "idle_1_var_1_animation"
+		looping = no
+		chance = 1
+		next_state = "idle"
+    }
+    state = {
+    	name = "attack"
+    	animation = "combat_ready_1"
+    }
+    state = {
+    	name = "move"
+    	animation = "moving_1_animation"
+    }
+    state = {
+    	name = "cheer"
+    	animation = "idle_1_base_animation"
+    }
+    
+    attach = { Right_hand_node_1 = "ROM_spear_entity" }
+#    attach = { Left_hand_node_1 = "italian_shield_entity" }
+#    attach = { world_node_1 = "italian_shield_entity" }
+#   attach = { Character1_Head = "italian_helmet_01_entity" }
+}
+

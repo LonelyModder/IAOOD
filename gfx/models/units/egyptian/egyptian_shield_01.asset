@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "egyptian_shield_01_mesh"
+	file = "egyptian_shield_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 6.5 }
+		lod = { index = 2 percent = 3.5 }
+	}
+
+	meshsettings = {
+		name = "egyptian_shield_LOD0Shape"
+		index = 0
+		texture_diffuse = "egyptian_weapons_diffuse.dds"
+		texture_normal = "egyptian_weapons_normal.dds"
+		texture_specular = "egyptian_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_shield_LOD1Shape"
+		index = 0
+		texture_diffuse = "egyptian_weapons_diffuse.dds"
+		texture_normal = "egyptian_weapons_normal.dds"
+		texture_specular = "egyptian_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_shield_LOD2Shape"
+		index = 0
+		texture_diffuse = "egyptian_weapons_diffuse.dds"
+		texture_normal = "egyptian_weapons_normal.dds"
+		texture_specular = "egyptian_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "egyptian_shield_01_entity"
+	pdxmesh = "egyptian_shield_01_mesh"
+}

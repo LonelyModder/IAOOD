@@ -1,0 +1,181 @@
+pdxmesh = {
+	name = "land_combat_control_mesh"
+	file = "land_combat_control.mesh"
+	
+	scale = 0.1
+}
+
+
+entity = {
+	name = "land_combat_control_entity"
+	pdxmesh = "land_combat_control_mesh"
+	
+	default_state = "chill"
+
+	# This entity will have two attachments from code, called dude_1 and dude_2, that will be attached to loc_1 and loc_2 respectively
+	# When adding new animations, make sure to make them loop correctly in Maya in 30fps, then subract 0.07 seconds from the corresponding state_time for them. This will make them loop and they won't go into a different state between states.
+	state = { name = "chill" state_time = 0.01 looping = no next_state = "loop" propagate_state = "idle" }
+	
+	# Hit animations
+	# 1 attack - 2 hit
+	state = { name = "loop" chance = 0.3 state_time = 3.58 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_successful" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_hit"}}
+		propagate_state = { dude_2 = "defensive_hit" }
+	}
+	
+	# 2 attack - 1 hit
+	state = { name = "loop" chance = 0.3 state_time = 3.58 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_hit" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_hit"}}
+		propagate_state = { dude_2 = "offensive_successful" }
+	}
+	
+	# Dodge animations
+	# 1 attack - 2 dodge
+	state = { name = "loop" chance = 0.7 state_time = 2.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_dodge" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_dodge"}}
+		propagate_state = { dude_2 = "defensive_dodge" }
+	}
+	
+	# 2 attack - 1 dodge
+	state = { name = "loop" chance = 0.7 state_time = 2.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_dodge" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_dodge"}}
+		propagate_state = { dude_2 = "offensive_dodge" }
+	}
+	
+	# Block animations
+	# 1 attack - 2 block
+	state = { name = "loop" chance = 0.7 state_time = 1.79 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_block" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_block"}}
+		propagate_state = { dude_2 = "defensive_block" }
+	}
+	
+	# 2 attack - 1 block
+	state = { name = "loop" chance = 0.7 state_time = 1.79 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_block" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_block"}}
+		propagate_state = { dude_2 = "offensive_block" }
+	}
+	
+	# Counter animations
+	# 1 attack - 2 counter
+	state = { name = "loop" chance = 0.3 state_time = 2.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_counter" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_counter"}}
+		propagate_state = { dude_2 = "defensive_counter" }
+	}
+	
+	# 2 attack - 1 counter
+	state = { name = "loop" chance = 0.3 state_time = 2.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_counter" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Roman/sfx_anim_unit_rom_spear_counter"}}
+		propagate_state = { dude_2 = "offensive_counter" }
+	}
+	
+	# Sequence 1
+	state = { name = "loop" chance = 0.9 state_time = 4.43 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_sequence_1" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_01"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "offensive_sequence_1" }
+	}
+	state = { name = "loop" chance = 0.9 state_time = 4.43 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_sequence_1" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_01"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "defensive_sequence_1" }
+	}
+	
+	# Sequence 2
+	state = { name = "loop" chance = 0.9 state_time = 5.76 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_sequence_2" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_02"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "offensive_sequence_2" }
+	}
+	state = { name = "loop" chance = 0.9 state_time = 5.76 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_sequence_2" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_02"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "defensive_sequence_2" }
+	}
+	
+	# Sequence 3
+	state = { name = "loop" chance = 0.9 state_time = 7.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_sequence_3" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_03"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "offensive_sequence_3" }
+	}
+	state = { name = "loop" chance = 0.9 state_time = 7.93 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_sequence_3" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_03"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "defensive_sequence_3" }
+	}
+	
+	# Sequence 4
+	state = { name = "loop" chance = 0.9 state_time = 5.26 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_sequence_4" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_04"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "offensive_sequence_4" }
+	}
+	state = { name = "loop" chance = 0.9 state_time = 5.26 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_sequence_4" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_04"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "defensive_sequence_4" }
+	}
+	
+	# Sequence 5
+	state = { name = "loop" chance = 0.9 state_time = 6.09 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "defensive_sequence_5" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_05"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "offensive_sequence_5" }
+	}
+	state = { name = "loop" chance = 0.9 state_time = 6.09 looping = no next_state = "loop"
+		propagate_state = { dude_1 = "offensive_sequence_5" }
+		event = { sound = { soundeffect = "event:/SFX/Animations/Units/Generic/sfx_anim_unit_combat_seq_05"}}
+		event = { sound = { soundeffect = "event:/SFX/Gameplay/Combat/sfx_gameplay_combat_screen_land" stop_on_state_change = no}}	
+		propagate_state = { dude_2 = "defensive_sequence_5" }
+	}
+	
+	scale = 1
+}
+
+
+
+
+
+entity = {
+	name = "land_combat_test_entity"
+	pdxmesh = "land_combat_control_mesh"
+	
+	default_state = "chill"
+
+	state = { name = "chill" state_time = 0.01 looping = no next_state = "loop" propagate_state = "idle" }
+	
+	state = { name = "loop" chance = 0.3 state_time = 300.58 looping = yes next_state = "loop"
+		propagate_state = { dude_1 = "combat_ready" }
+		propagate_state = { dude_2 = "combat_ready" }
+	}
+	
+	attach = { name = "dude_1" loc_1 = "ROM_heavy_infantry" }
+	attach = { name = "dude_2" loc_2 = "ROM_heavy_infantry" }
+	
+	scale = 1
+}
+
+
+
+
+
+
+
+
