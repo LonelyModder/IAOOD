@@ -49,6 +49,7 @@
 	}
 	culture = {
 		core_punic = {}
+		lev_dannien = {}
 		greek_punic = {}
 		libo_punic = {levy_template = levy_lpunic}
 		ibero_punic = {}

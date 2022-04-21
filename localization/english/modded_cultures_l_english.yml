@@ -37,6 +37,7 @@
  #Levantines
  levantine:2 "Levantine"
  core_punic:0 "Phoenician"
+ lev_dannien:0 "Dan"
  greek_punic:0 "Greco-Phoenician"
  libo_punic:0 "Libo-Phoenician"
  ibero_punic:0 "Ibero-Phoenician"
