@@ -411,3 +411,10 @@ peaceful_integration_or_crucifixion = {
 		texture = "gfx/interface/event_window/Event_greek_philosopher_talking.dds"
 	}
 }
+
+#Welcoming windows
+
+welcome_1 = {
+	theme = Civic
+	picture = "gfx/interface/event_window/welcoming_window_1.dds"
+}
