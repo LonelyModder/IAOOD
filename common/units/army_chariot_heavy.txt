@@ -5,7 +5,6 @@
 	levy_tier = advanced
 
 	allow = {
-		trade_good_surplus = { target = wood value > 0 }
 		trade_good_surplus = { target = horses value > 0 }
 	}
 

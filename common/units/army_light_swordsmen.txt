@@ -5,6 +5,17 @@
 	
 	levy_tier = basic	
 	
+	allow = {
+		OR = {
+			trade_good_surplus = { target = iron value > 0 }
+			trade_good_surplus = { target = base_metals value > 0 }
+			AND = {
+				trade_good_surplus = { target = tin value > 0 }
+				trade_good_surplus = { target = base_metals value > 0 }
+			}
+		}
+	}
+	
 	maneuver = 1
 	movement_speed = 2.5
 	build_time = 30
