@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "numidian_shield_01_mesh"
+	file = "numidian_shield_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.5 }
+		lod = { index = 2 percent = 2.6 }
+	}
+
+	meshsettings = {
+		name = "numidian_shield_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "numidian_weapons_01_diffuse.dds"
+		texture_normal = "numidian_weapons_01_normal.dds"
+		texture_specular = "numidian_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "numidian_shield_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "numidian_weapons_01_diffuse.dds"
+		texture_normal = "numidian_weapons_01_normal.dds"
+		texture_specular = "numidian_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "numidian_shield_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "numidian_weapons_01_diffuse.dds"
+		texture_normal = "numidian_weapons_01_normal.dds"
+		texture_specular = "numidian_weapons_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "numidian_shield_01_entity"
+	pdxmesh = "numidian_shield_01_mesh"
+}
