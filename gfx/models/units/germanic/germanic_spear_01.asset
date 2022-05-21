@@ -1,0 +1,95 @@
+pdxmesh = {
+	name = "germanic_spear_01_mesh"
+	file = "germanic_spear_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 14.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "LOD_0|germanic_spear|germanic_spear|germanic_spearShape"
+		index = 0
+		texture_diffuse = "germanic_weapons_diffuse.dds"
+		texture_normal = "germanic_weapons_normal.dds"
+		texture_specular = "germanic_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|germanic_spear|germanic_spear|germanic_spearShape"
+		index = 0
+		texture_diffuse = "germanic_weapons_diffuse.dds"
+		texture_normal = "germanic_weapons_normal.dds"
+		texture_specular = "germanic_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "barbarian_spearShape"
+		index = 0
+		texture_diffuse = "germanic_weapons_diffuse.dds"
+		texture_normal = "germanic_weapons_normal.dds"
+		texture_specular = "germanic_weapons_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "germanic_spear_01_entity"
+	clone = "ROM_spear_entity"
+	pdxmesh = "germanic_spear_01_mesh"
+}
+
+
+
+
+
+### LEGION HEAVY INFANTRY
+pdxmesh = {
+	name = "germanic_legion_spear_01_mesh"
+	file = "germanic_legion_spear_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 64.0 }
+		lod = { index = 2 percent = 32.0 }
+	}
+
+	meshsettings = {
+		name = "germanic_legion_spear_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "germanic_legion_weapons_01_diffuse.dds"
+		texture_normal = "germanic_legion_weapons_01_normal.dds"
+		texture_specular = "germanic_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "germanic_legion_spear_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "germanic_legion_weapons_01_diffuse.dds"
+		texture_normal = "germanic_legion_weapons_01_normal.dds"
+		texture_specular = "germanic_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "germanic_legion_spear_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "germanic_legion_weapons_01_diffuse.dds"
+		texture_normal = "germanic_legion_weapons_01_normal.dds"
+		texture_specular = "germanic_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "germanic_legion_spear_01_entity"
+	pdxmesh = "germanic_legion_spear_01_mesh"
+}

@@ -1,0 +1,93 @@
+pdxmesh = {
+	name = "egyptian_helmet_01_mesh"
+	file = "egyptian_helmet_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 1.8 }
+		lod = { index = 2 percent = 1.5 }
+	}
+
+	meshsettings = {
+		name = "egyptian_helmet_LOD0Shape"
+		index = 0
+		texture_diffuse = "egyptian_helmet_diffuse.dds"
+		texture_normal = "egyptian_helmet_normal.dds"
+		texture_specular = "egyptian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_helmet_LOD1Shape"
+		index = 0
+		texture_diffuse = "egyptian_helmet_diffuse.dds"
+		texture_normal = "egyptian_helmet_normal.dds"
+		texture_specular = "egyptian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_helmet_LOD2Shape"
+		index = 0
+		texture_diffuse = "egyptian_helmet_diffuse.dds"
+		texture_normal = "egyptian_helmet_normal.dds"
+		texture_specular = "egyptian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "egyptian_helmet_01_entity"
+	pdxmesh = "egyptian_helmet_01_mesh"
+}
+
+
+
+
+### LEVIES LIGHT INFANTRY
+pdxmesh = {
+	name = "egyptian_levies_helmet_01_mesh"
+	file = "egyptian_levies_helmet_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 1.8 }
+		lod = { index = 2 percent = 1.5 }
+	}
+
+	meshsettings = {
+		name = "egyptian_levies_helmet_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "egyptian_levies_helmet_01_diffuse.dds"
+		texture_normal = "egyptian_levies_helmet_01_normal.dds"
+		texture_specular = "egyptian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_levies_helmet_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "egyptian_levies_helmet_01_diffuse.dds"
+		texture_normal = "egyptian_levies_helmet_01_normal.dds"
+		texture_specular = "egyptian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "egyptian_levies_helmet_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "egyptian_levies_helmet_01_diffuse.dds"
+		texture_normal = "egyptian_levies_helmet_01_normal.dds"
+		texture_specular = "egyptian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "egyptian_levies_helmet_01_entity"
+	pdxmesh = "egyptian_levies_helmet_01_mesh"
+}

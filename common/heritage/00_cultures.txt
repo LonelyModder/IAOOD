@@ -57,6 +57,9 @@ levant_heritage = {
 	
 	trigger = {
 		country_culture_group = levantine
+		NOT = {
+			primary_culture = philistine
+		}
 	}
 }
 
@@ -102,6 +105,10 @@ grekoid_heritage = {
 	
 	trigger = {
 		country_culture_group = grekoid
+		NOR = {
+			primary_culture = cypro_minoic
+			primary_culture = caphtorite
+		}
 	}
 }
 
@@ -116,7 +123,9 @@ minoic_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = minoic
+		primary_culture = cypro_minoic
+		primary_culture = caphtorite
+		primary_culture = philistine
 	}
 }
 

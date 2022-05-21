@@ -14,20 +14,14 @@
 			limit = {
 				any_country_culture = {
 					is_integrated = yes
-					OR = {
-						this.culture.culture_group = culture_group:grekoid
-						this.culture.culture_group = culture_group:minoic
-					}
+					this.culture.culture_group = culture_group:grekoid
 				}
 			}
 			any_country_culture = {
 				custom_tooltip = {
 					text = tradition_unlock_requirement_short
 					is_integrated = yes
-					OR = {
-						this.culture.culture_group = culture_group:grekoid
-						this.culture.culture_group = culture_group:minoic
-					}
+					this.culture.culture_group = culture_group:grekoid
 				}
 			}
 		}
@@ -36,10 +30,7 @@
 				text = "tradition_unlock_requirement_grekoid"
 				any_country_culture = {
 					is_integrated = yes
-					OR = {
-						this.culture.culture_group = culture_group:grekoid
-						this.culture.culture_group = culture_group:minoic
-					}	
+					this.culture.culture_group = culture_group:grekoid
 				}
 			}
 		}

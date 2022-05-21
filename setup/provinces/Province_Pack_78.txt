@@ -68,7 +68,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="dannien"
+	culture="lev_dannien"
 	province_rank="city"
 	religion="judahic"
 	terrain="forest"

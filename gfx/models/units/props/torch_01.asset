@@ -1,0 +1,33 @@
+pdxmesh = {
+	name = "torch_01_mesh"
+	file = "torch_01.mesh"
+
+	meshsettings = {
+		name = "torch_01Shape"
+		index = 0
+		texture_diffuse = "torch_01_diffuse.dds"
+		texture_normal = "torch_01_normal.dds"
+		texture_specular = "torch_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "torch_01_entity"
+	pdxmesh = "torch_01_mesh"
+	scale = 1
+	
+	default_state = "raiding"
+	state = { name = "idle" state_time = 1 }
+	state = { 
+		name = "raiding" 
+		state_time = 5 
+		event = { 
+			time = 0 
+			particle = "units/torch_raiding_fire_effect"
+			keep_particle = yes 
+			trigger_once = yes 
+		}
+	}
+}

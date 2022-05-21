@@ -298,11 +298,8 @@
 		lemnosic = {}
 		etrusci = {}
 		setrusci = {}
-		wilusan = {}
 		raetic = {}
 		camunnic = {}
-		pelasgian = {}
-		lelegian = {}
 		rutulic = {}
 		sicanic = {}
 	}

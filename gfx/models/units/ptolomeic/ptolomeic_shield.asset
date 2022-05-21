@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "ptolomeic_shield_mesh"
+	file = "ptolomeic_shield.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 5.7 }
+		lod = { index = 2 percent = 3.5 }
+	}
+
+	meshsettings = {
+		name = "ptolomeic_shield_LOD0Shape"
+		index = 0
+		texture_diffuse = "ptolomeic_weapon_01_diffuse.dds"
+		texture_normal = "ptolomeic_weapon_01_normal.dds"
+		texture_specular = "ptolomeic_weapon_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ptolomeic_shield_LOD1Shape"
+		index = 0
+		texture_diffuse = "ptolomeic_weapon_01_diffuse.dds"
+		texture_normal = "ptolomeic_weapon_01_normal.dds"
+		texture_specular = "ptolomeic_weapon_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ptolomeic_shield_LOD2Shape"
+		index = 0
+		texture_diffuse = "ptolomeic_weapon_01_diffuse.dds"
+		texture_normal = "ptolomeic_weapon_01_normal.dds"
+		texture_specular = "ptolomeic_weapon_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "ptolomeic_shield_entity"
+	pdxmesh = "ptolomeic_shield_mesh"
+	scale = 1
+}

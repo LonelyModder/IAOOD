@@ -1,0 +1,99 @@
+### LEVIES LIGHT INFANTRY
+pdxmesh = {
+	name = "persian_levies_helmet_01_mesh"
+	file = "persian_levies_helmet_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 2.5 }
+		lod = { index = 2 percent = 1.8 }
+	}
+
+	meshsettings = {
+		name = "persian_levies_helmet_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "persian_levies_helmet_01_diffuse.dds"
+		texture_normal = "persian_levies_helmet_01_normal.dds"
+		texture_specular = "persian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_levies_helmet_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "persian_levies_helmet_01_diffuse.dds"
+		texture_normal = "persian_levies_helmet_01_normal.dds"
+		texture_specular = "persian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_levies_helmet_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "persian_levies_helmet_01_diffuse.dds"
+		texture_normal = "persian_levies_helmet_01_normal.dds"
+		texture_specular = "persian_levies_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "persian_levies_helmet_01_entity"
+	pdxmesh = "persian_levies_helmet_01_mesh"
+}
+
+
+
+
+
+
+
+
+
+### LEGION HEAVY INFANTRY
+pdxmesh = {
+	name = "persian_helmet_01_mesh"
+	file = "persian_helmet_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 2.5 }
+		lod = { index = 2 percent = 1.8 }
+	}
+
+	meshsettings = {
+		name = "persian_helmet_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "persian_helmet_diffuse.dds"
+		texture_normal = "persian_helmet_normal.dds"
+		texture_specular = "persian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_helmet_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "persian_helmet_diffuse.dds"
+		texture_normal = "persian_helmet_normal.dds"
+		texture_specular = "persian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "persian_helmet_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "persian_helmet_diffuse.dds"
+		texture_normal = "persian_helmet_normal.dds"
+		texture_specular = "persian_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "persian_helmet_01_entity"
+	pdxmesh = "persian_helmet_01_mesh"
+}

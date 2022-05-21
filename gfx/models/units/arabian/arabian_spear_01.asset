@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "arabian_legion_spear_01_mesh"
+	file = "arabian_legion_spear_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 5.0 }
+		lod = { index = 2 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "arabian_legion_spear_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "arabian_legion_weapons_01_diffuse.dds"
+		texture_normal = "arabian_legion_weapons_01_normal.dds"
+		texture_specular = "arabian_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "arabian_legion_spear_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "arabian_legion_weapons_01_diffuse.dds"
+		texture_normal = "arabian_legion_weapons_01_normal.dds"
+		texture_specular = "arabian_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "arabian_legion_spear_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "arabian_legion_weapons_01_diffuse.dds"
+		texture_normal = "arabian_legion_weapons_01_normal.dds"
+		texture_specular = "arabian_legion_weapons_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "arabian_legion_spear_01_entity"
+	pdxmesh = "arabian_legion_spear_01_mesh"
+}

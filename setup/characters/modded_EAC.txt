@@ -3,7 +3,7 @@
 	4={
 		first_name="Siamun"
 		family = c:EAC.fam:Usermaatre-Setepenamun
-		#father="char:3"
+		father="char:3"
 		birth_date=1270.1.1
 		culture="lower_kemetic"
 		religion="kemetic_pantheon"

@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "mauryan_helmet_01_mesh"
+	file = "mauryan_helmet_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 1.8 }
+		lod = { index = 2 percent = 1.5 }
+	}
+
+	meshsettings = {
+		name = "mauryan_helmet_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "mauryan_helmet_diffuse.dds"
+		texture_normal = "mauryan_helmet_normal.dds"
+		texture_specular = "mauryan_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "mauryan_helmet_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "mauryan_helmet_diffuse.dds"
+		texture_normal = "mauryan_helmet_normal.dds"
+		texture_specular = "mauryan_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "mauryan_helmet_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "mauryan_helmet_diffuse.dds"
+		texture_normal = "mauryan_helmet_normal.dds"
+		texture_specular = "mauryan_helmet_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "mauryan_helmet_01_entity"
+	pdxmesh = "mauryan_helmet_01_mesh"
+}

@@ -2,7 +2,7 @@
 	army = yes
 	is_flank = yes
 
-	levy_tier = basic
+	levy_tier = advanced
 
 	allow = {
 		trade_good_surplus = { target = steppe_horses value > 0 }

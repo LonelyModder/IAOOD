@@ -1,3 +1,0 @@
-﻿minoic = { # Philistine and Minoan names
-	511 = PROV511_hyksosi #Avaris
-}

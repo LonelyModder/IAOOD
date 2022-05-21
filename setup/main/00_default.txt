@@ -3311,6 +3311,13 @@ country = {
 			capital = 926
 			monarchy_military_reforms = work_for_the_best
 			
+			poptype_rights = { 
+				{
+					culture = agade 
+					type = citizen
+				}
+			}
+			
 			own_control_core = 	{ 
 				927 920 921 929 960 923 936 931 930 962  
 				900 914 926 912 899 898 924 976 933 973 928 925 
@@ -3813,6 +3820,16 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = susanian 
+					type = citizen
+				}
+				{
+					culture = kassite 
+					type = citizen
+				}
+			}
 			
 			own_control_core = 	{ 
 				918 919 917 916 915 913 910 901 909
