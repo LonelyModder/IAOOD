@@ -2781,7 +2781,7 @@ country_diplomacy.30 = {
 		name = "country_diplomacy.30.d"
 		trigger = {
 			any_owned_province = {
-				trade_goods = steppe_horses
+				trade_goods = horses
 			}
 		}
 		add_treasury = -30
@@ -2880,8 +2880,8 @@ country_diplomacy.31 = {
 			has_variable = satrapy_overlord_gift_horses
 		}
 		scope:overlord_army = {
-			add_subunit = cavalry_horse_archers
-			add_subunit = cavalry_horse_archers
+			add_subunit = chariot_light
+			add_subunit = chariot_light
 		}
 	}
 
