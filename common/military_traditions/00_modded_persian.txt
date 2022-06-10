@@ -13,7 +13,7 @@
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = iranic
+			#country_culture_group = iranic
 		}
 		trigger_if = {
 			limit = {
