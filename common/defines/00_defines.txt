@@ -1,5 +1,5 @@
 ﻿NGame = {
-	START_DATE = "1292.11.19"
+	START_DATE = "1292.07.27"
 	END_DATE = "1667.1.1"
 	GAME_SPEED_TICKS = {	 #how many seconds should a day take in every game speed
 		1
