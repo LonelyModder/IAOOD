@@ -55,6 +55,11 @@
  tribal_federation_ruler_vedic:0 "Raja"
  tribal_federation_ruler_female_vedic:0 "Raja"
  
+ tribal_kingdom_ruler_aramaic:0 "Nasiku"
+ tribal_kingdom_ruler_female_aramaic:0 "Nasiku"
+ tribal_federation_ruler_aramaic:0 "Nasiku"
+ tribal_federation_ruler_female_aramaic:0 "Nasiku"
+ 
  despotic_monarchy_ruler_grekoid:0 "Basileus"
  despotic_monarchy_ruler_female_grekoid:0 "Basileus"
  stratocratic_monarchy_ruler_grekoid:0 "Basileus"
