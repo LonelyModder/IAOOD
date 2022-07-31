@@ -1803,7 +1803,7 @@ country = {
 			succession_law=egyption_succession_law
 			succession=old_egyptian_succession
 			monarchy_citizen_law = foreign_law_for_minorities
-			monarchy_military_reforms = work_for_the_best
+			#monarchy_military_reforms = work_for_the_best
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3279,7 +3279,7 @@ country = {
 			primary_culture = ashurite
 			religion = anunnaki_pantheon
 			capital = 883
-			monarchy_military_reforms = work_for_the_best
+			#monarchy_military_reforms = work_for_the_best
 			
 			technology={
 				military_tech={ level=3 progress=0 }
@@ -3309,7 +3309,7 @@ country = {
 			primary_culture = kassite
 			religion = anunnaki_pantheon
 			capital = 926
-			monarchy_military_reforms = work_for_the_best
+			#monarchy_military_reforms = work_for_the_best
 			
 			poptype_rights = { 
 				{
@@ -3475,7 +3475,7 @@ country = {
 			primary_culture = susanian
 			religion = elamite_pantheon
 			capital = 946
-			monarchy_military_reforms = work_for_the_best
+			#monarchy_military_reforms = work_for_the_best
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3811,7 +3811,7 @@ country = {
 			primary_culture = agade
 			religion = anunnaki_pantheon
 			capital = 918
-			monarchy_military_reforms = work_for_the_best
+			#monarchy_military_reforms = work_for_the_best
 			
 			technology={
 				military_tech={ level=2 progress=0 }
