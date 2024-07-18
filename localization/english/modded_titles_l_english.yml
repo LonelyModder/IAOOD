@@ -7,7 +7,7 @@
  aristocratic_monarchy_ruler_female_kemetic:0 "Pharaoh"
  imperium_monarchy_ruler_female_kemetic:0 "Pharaoh"
  theocratic_monarchy_ruler_kemetic:0 "High Priest"
- theocratic_monarchy_ruler_female_kemetic:0 "High Priestes"
+ theocratic_monarchy_ruler_female_kemetic:0 "High Priestess"
  
  despotic_monarchy_ruler_ma:0 "Chief of Ma"
  aristocratic_monarchy_ruler_ma:0 "Pharaoh/Great Chief of Ma"
@@ -16,7 +16,7 @@
  aristocratic_monarchy_ruler_female_ma:0 "Pharaoh/Great Chief of Ma"
  imperium_ruler_female_ma:0 "Pharaoh/Great Chief of Ma"
  theocratic_monarchy_ruler_ma:0 "High Priest"
- theocratic_monarchy_ruler_female_ma:0 "High Priestes"
+ theocratic_monarchy_ruler_female_ma:0 "High Priestess"
  tribal_kingdom_ruler_ma:0 "Chief of Ma"
  tribal_kingdom_ruler_female_ma:0 "Chief of Ma"
  
@@ -27,7 +27,7 @@
  aristocratic_monarchy_ruler_female_libi:0 "Pharaoh/Great Chief of Libu"
  imperium_ruler_female_libi:0 "Pharaoh/Great Chief of Libu"
  theocratic_monarchy_ruler_libi:0 "High Priest"
- theocratic_monarchy_ruler_female_libi:0 "High Priestes"
+ theocratic_monarchy_ruler_female_libi:0 "High Priestess"
  tribal_kingdom_ruler_libi:0 "Chief of Libu"
  tribal_kingdom_ruler_female_libi:0 "Chief of Libu"
  
