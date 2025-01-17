@@ -49,6 +49,8 @@
 		
 		effect = {
 			custom_tooltip = "tier_3_formable_tooltip"
+			change_government = imperium
+			switch_government_type_event_clearup_effect = yes
 			if = {
 				limit = {
 					OR = {
@@ -72,8 +74,6 @@
 					name = civilized_tribe
 					duration = 5475
 				}
-				change_government = imperium
-				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
 				if = {
